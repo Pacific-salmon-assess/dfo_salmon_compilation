@@ -1,0 +1,47 @@
+stock.id,species,stock,region,sub.region,jurisdiction,lat,lon,source.id,comment
+201,Pink,Puyallup,Inside WA,Inside WA,WA,47.26972,122.4272,1,
+202,Pink,Hood Canal,Inside WA,Inside WA,WA,47.5644,122.9956,1,"Sum of Dosewallips, Duckabush, and Hamma Hamma"
+203,Pink,Snohomish,Inside WA,Inside WA,WA,48.02139,122.2072,1,
+204,Pink,Dungeness,Inside WA,Inside WA,WA,48.1508,123.1333,1,
+205,Pink,Stillaguamish,Inside WA,Inside WA,WA,48.23861,122.3758,1,
+206,Pink,Skagit,Inside WA,Inside WA,WA,48.3875,122.3656,1,
+207,Pink,Nooksack,Inside WA,Inside WA,WA,48.775,122.5978,1,
+208,Pink,Fraser,Fraser River,BC South,BC,49.12333,123.0569,2,
+209,Pink,BC South (no Fraser),BC South,BC South,BC,50.28778,125.2008,3,Statistical Areas 11-16
+210,Pink,Area 10,BC Central,BC Central,BC,51.28722,127.6819,4,
+211,Pink,Area 9,BC Central,BC Central,BC,51.46556,127.7422,4,
+212,Pink,Area 8,BC Central,BC Central,BC,51.62194,127.8289,4,
+213,Pink,Area 7,BC Central,BC Central,BC,52.12916,128.380149,4,
+214,Pink,Area 6,BC North,BC North,BC,53.08889,129.1992,4,
+215,Pink,Area 5,BC North,BC North,BC,53.66302,130.423874,4,
+216,Pink,Area 4,BC North,BC North,BC,54.247243,130.477433,4,
+217,Pink,Area 3,BC North,BC North,BC,54.676678,130.502152,4,
+218,Pink,Area 2W,BC North,BC North,BC,52.988408,132.411026,4,
+219,Pink,Area 2E,BC North,BC North,BC,53.0175,131.5778,4,
+220,Pink,Area 1,BC North,BC North,BC,54.071771,132.204764,4,
+221,Pink,S SEAK,SEAK,SEAK,AK,55.71556,131.8714,"5, 6",Districts 101-108
+222,Pink,N SEAK Outside,SEAK,SEAK,AK,57.17694,135.7869,"5, 6","Districts 109-112, 114, 115"
+223,Pink,N SEAK Inside,SEAK,SEAK,AK,57.57528,134.7503,"5, 6",District 113
+224,Pink,Situk,Yakutat,Yakutat,AK,59.43353,139.5467,"5, 7",
+225,Pink,Humpy,Yakutat,Yakutat,AK,59.6444,139.5844,"5, 7",
+226,Pink,PWS,PWS,PWS,AK,60.5,147,8,
+227,Pink,S CIn,Cook Inlet,Cook Inlet,AK,59.52528,151.48,9,"Sum of Humpy Creek, Seldovia Bay"
+228,Pink,Outer CIn,Cook Inlet,Cook Inlet,AK,59.38389,150.7528,9,"Sum of Port Chatham, Port Dick, Rocky River, Windy Creek, South Nuka"
+229,Pink,Kamishak,Cook Inlet,Cook Inlet,AK,59.27,154.1175,9,"Sum of Bruin River, Sunday Creek, Brown's Peak Creek"
+230,Pink,Afognak,Kodiak,Kodiak,AK,58.26222,152.5883,10,
+231,Pink,W Kod,Kodiak,Kodiak,AK,57.11389,154.4947,10,
+232,Pink,Alitak,Kodiak,Kodiak,AK,56.88528,154.1217,10,
+233,Pink,E Kod,Kodiak,Kodiak,AK,57.089858,153.187928,10,
+234,Pink,Mainland Kod,Kodiak,Kodiak,AK,58.03333,154.6644,10,
+235,Pink,Chignik Bay,Chignik,Chignik,AK,56.38528,158.2261,"11, 12",
+236,Pink,Central Chig,Chignik,Chignik,AK,56.59639,157.9933,"11, 12",
+237,Pink,E Chig,Chignik,Chignik,AK,56.98528,156.5806,"11, 12",
+238,Pink,W Chig,Chignik,Chignik,AK,56.06667,158.6756,"11, 12",
+239,Pink,Perryville,Chignik,Chignik,AK,55.85417,159.3314,"11, 12",
+240,Pink,SE-SC AKPen,AK Peninsula,AK Peninsula,AK,55.5,161,10,Sum of Southeastern and Southcentral Districts
+241,Pink,SW-Unimak,AK Peninsula,AK Peninsula,AK,54.5,163.5,10,Sum of Southwestern and Unimak Districts
+242,Pink,NW AKPen,AK Peninsula,AK Peninsula,AK,54.982,163.37,10,
+243,Pink,Nushagak,Bristol Bay,Bristol Bay,AK,58.62222,158.5911,13,
+244,Pink,Unalakleet,AYK,AYK,AK,63.86944,160.7878,"14, 15",
+245,Pink,Nome,AYK,AYK,AK,64.4828,165.305,"14, 15",
+246,Pink,Moses-Norton,AYK,AYK,AK,65.748,161.78,"14, 15",Sum of Moses Point and Norton Bay Subdistricts

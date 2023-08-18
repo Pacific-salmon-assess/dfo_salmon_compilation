@@ -1,0 +1,54 @@
+stock.id,species,stock,region,sub.region,jurisdiction,lat,lon,source.id,comment
+301,Chum,Willapa Bay,Outside WA,Outside WA,WA,46.3733,123.9575,1,
+302,Chum,Grays Harbour,Outside WA,Outside WA,WA,46.95083,124.0497,1,
+303,Chum,S Sound Summer,Inside WA,Inside WA,WA,47.042,122.835,1,
+304,Chum,S Sound Fall,Inside WA,Inside WA,WA,47.042,122.835,1,
+305,Chum,S Sound Winter,Inside WA,Inside WA,WA,47.042,122.835,1,
+306,Chum,Hood Canal,Inside WA,Inside WA,WA,47.5644,122.9956,1,
+307,Chum,Port Susan,Inside WA,Inside WA,WA,48.23861,122.3758,1,Sum of Stillaguamish and Snohomish stocks
+308,Chum,Skagit,Inside WA,Inside WA,WA,48.3875,122.3656,1,
+309,Chum,Bellingham,Inside WA,Inside WA,WA,48.775,122.5978,1,Sum of Nooksack and Samish stocks
+310,Chum,Fraser,Fraser River,BC South,BC,49.12333,123.0569,2,
+311,Chum,BC South (no Fraser),BC South,BC South,BC,50.28778,125.2008,"3, 4","Statistical Areas 11-17, 28A, 28B, 29B"
+312,Chum,Area 10,BC Central,BC Central,BC,51.28722,127.6819,"5, 6",
+313,Chum,Area 9,BC Central,BC Central,BC,51.46556,127.7422,"5, 6",
+314,Chum,Area 8,BC Central,BC Central,BC,51.62194,127.8289,"5, 6",
+315,Chum,Area 7,BC Central,BC Central,BC,52.12916,128.380149,"5, 6",
+316,Chum,Area 6,BC North,BC North,BC,53.08889,129.1992,"5, 6",
+317,Chum,Area 5,BC North,BC North,BC,53.66302,130.423874,"5, 6",
+318,Chum,Area 4,BC North,BC North,BC,54.247243,130.477433,"5, 6",
+319,Chum,Area 3,BC North,BC North,BC,54.676678,130.502152,"5, 6",
+320,Chum,Area 2W,BC North,BC North,BC,52.988408,132.411026,"5, 6",
+321,Chum,Area 2E,BC North,BC North,BC,53.0175,131.5778,"5, 6",
+322,Chum,Area 1,BC North,BC North,BC,54.071771,132.204764,"5, 6",
+323,Chum,Kadashan,SEAK,SEAK,AK,57.575,134.75,7,
+324,Chum,Chilkat,SEAK,SEAK,AK,59.201231,135.466669,7,
+325,Chum,East Alsek,Yakutat,Yakutat,AK,59.434,139.547,7,
+326,Chum,PWS,PWS,PWS,AK,60.5,147,8,
+327,Chum,Kamishak,Cook Inlet,Cook Inlet,AK,59.27,154.1175,"9, 10",
+328,Chum,Outer CIn,Cook Inlet,Cook Inlet,AK,59.38389,150.7528,"9, 10",
+329,Chum,S CIn,Cook Inlet,Cook Inlet,AK,59.52528,151.48,"9, 10",
+330,Chum,Upper CIn,Cook Inlet,Cook Inlet,AK,61.271,150.576,11,
+331,Chum,Alitak,Kodiak,Kodiak,AK,56.88528,154.1217,12,
+332,Chum,E Kod,Kodiak,Kodiak,AK,57.089858,153.187928,12,
+333,Chum,SW Kod,Kodiak,Kodiak,AK,57.264508,154.613211,12,
+334,Chum,NE Kod,Kodiak,Kodiak,AK,57.77889,152.3592,12,
+335,Chum,NW Kod,Kodiak,Kodiak,AK,57.856839,153.882906,12,
+336,Chum,Mainland Kod,Kodiak,Kodiak,AK,58.03333,154.6644,12,
+337,Chum,Perryville,Chignik,Chignik,AK,55.85417,159.3314,"13, 14",
+338,Chum,W Chig,Chignik,Chignik,AK,56.06667,158.6756,"13, 14",
+339,Chum,Central Chig,Chignik,Chignik,AK,56.59639,157.9933,"13, 14",
+340,Chum,E Chig,Chignik,Chignik,AK,56.98528,156.5806,"13, 14",
+341,Chum,SW-Unimak,AK Peninsula,AK Peninsula,AK,54.5,163.5,12,Sum of Southwestern and Unimak Districts
+342,Chum,W-NW AKPen,AK Peninsula,AK Peninsula,AK,54.982,163.37,12,"Sum of Dublin, Bechevin & Urilia Bays, Swanson Lagoon"
+343,Chum,E-NW AKPen,AK Peninsula,AK Peninsula,AK,55.3158,162.845,12,Sum of Izembek and Moffet Bay
+344,Chum,SE-SC AKPen,AK Peninsula,AK Peninsula,AK,55.5,161,12,Sum of Southeastern and Southcentral Districts
+345,Chum,N AKPen,AK Peninsula,AK Peninsula,AK,56.46,159.68,12,
+346,Chum,Nushagak,Bristol Bay,Bristol Bay,AK,58.622,158.591,15,
+347,Chum,Togiak,Bristol Bay,Bristol Bay,AK,58.925,160.446,15,
+348,Chum,Yukon,AYK,AYK,AK,62.78,164.96,"16, 17",Fall Run
+349,Chum,Anvik,AYK,AYK,AK,62.78,164.96,"16, 18",
+350,Chum,Andreafsky,AYK,AYK,AK,62.78,164.96,"16, 19",
+351,Chum,Norton Sound,AYK,AYK,AK,64.52,165.12,"16, 20",District 1
+352,Chum,Kwiniuk Inlet,AYK,AYK,AK,64.72,161.96,"16, 21",Sum of Kwiniuk and Tubutulik Rivers
+353,Chum,Kotzebue,AYK,AYK,AK,66.46,161.91,"16, 22",

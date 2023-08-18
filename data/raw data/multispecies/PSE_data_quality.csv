@@ -1,0 +1,1691 @@
+parameter,location,species,year,datavalue
+catch_quality,Bella Coola-Bentinck,Chinook,,5
+catch_quality,Boundary Bay (Fall 4-1),Chinook,,0
+catch_quality,Dean River,Chinook,,3
+catch_quality,Docee,Chinook,,0
+catch_quality,East Haida Gwaii,Chinook,,0
+catch_quality,East Vancouver Island-Cowichan and Koksilah (Fall x-1),Chinook,,0
+catch_quality,East Vancouver Island-Georgia Strait (Summer 4-1),Chinook,,0
+catch_quality,East Vancouver Island-Goldstream (Fall x-1),Chinook,,0
+catch_quality,East Vancouver Island-Nanaimo (Spring x-2),Chinook,,0
+catch_quality,East Vancouver Island-Nanaimo and Chemainus (Fall x-1),Chinook,,0
+catch_quality,East Vancouver Island-North (Fall x-1),Chinook,,0
+catch_quality,East Vancouver Island-Qualicum and Puntledge (Fall x-1),Chinook,,0
+catch_quality,Ecstall,Chinook,,0
+catch_quality,Fraser Canyon-Nahatlatch (Spring 5-2),Chinook,,0
+catch_quality,Homathko (Summer x-x),Chinook,,0
+catch_quality,Kalum-Early,Chinook,,0
+catch_quality,Kalum-Late,Chinook,,5
+catch_quality,Klinaklini (Summer 5-2),Chinook,,0
+catch_quality,Lakelse,Chinook,,0
+catch_quality,Lower Fraser River-Maria Slough (Summer 4-1),Chinook,,0
+catch_quality,Lower Fraser River-Upper Pitt (Summer 5-2),Chinook,,0
+catch_quality,Lower Fraser River (Fall 4-1),Chinook,,0
+catch_quality,Lower Fraser River (Spring 5-2),Chinook,,0
+catch_quality,Lower Fraser River (Summer 5-2),Chinook,,0
+catch_quality,Lower Skeena,Chinook,,5
+catch_quality,Lower Thompson River (Spring 4-2),Chinook,,0
+catch_quality,Middle Fraser River-Portage (Fall 5-2),Chinook,,0
+catch_quality,Middle Fraser River (Spring 5-2),Chinook,,0
+catch_quality,Middle Fraser River (Summer 5-2),Chinook,,0
+catch_quality,Middle Skeena-Large Lakes,Chinook,,5
+catch_quality,Middle Skeena-Mainstem Tributaries,Chinook,,5
+catch_quality,North & Central Coast-Early,Chinook,,3
+catch_quality,North & Central Coast-Late,Chinook,,0
+catch_quality,North Haida Gwaii,Chinook,,0
+catch_quality,North Thompson River (Spring 5-2),Chinook,,0
+catch_quality,North Thompson River (Summer 5-2),Chinook,,0
+catch_quality,Rivers Inlet,Chinook,,3
+catch_quality,Shuswap River (Summer 4-1),Chinook,,0
+catch_quality,Sicintine,Chinook,,0
+catch_quality,Skeena Estuary,Chinook,,0
+catch_quality,South Thompson-Adams River Upper,Chinook,,0
+catch_quality,South Thompson River-Bessette Creek (Summer 4-2),Chinook,,0
+catch_quality,South Thompson River (Summer 4-1),Chinook,,0
+catch_quality,South Thompson River (Summer 5-2),Chinook,,0
+catch_quality,Southern Mainland-Georgia Strait (Fall x-1),Chinook,,0
+catch_quality,Southern Mainland-Southern Fjords (Fall x-1),Chinook,,0
+catch_quality,Upper Bulkley River,Chinook,,0
+catch_quality,Upper Fraser River (Spring 5-2),Chinook,,0
+catch_quality,Upper Skeena,Chinook,,0
+catch_quality,Wannock,Chinook,,3
+catch_quality,West Vancouver Island-Nootka and Kyuquot (Fall x-1),Chinook,,0
+catch_quality,West Vancouver Island-North (Fall x-1),Chinook,,0
+catch_quality,West Vancouver Island-South (Fall x-1),Chinook,,0
+catch_quality,Zymoetz,Chinook,,0
+catch_quality,Bella Coola-Dean Rivers,Chum,,2
+catch_quality,Bella Coola River-Late,Chum,,0
+catch_quality,Bute Inlet,Chum,,0
+catch_quality,Douglas-Gardner,Chum,,2
+catch_quality,East Haida Gwaii,Chum,,2
+catch_quality,Georgia Strait,Chum,,0
+catch_quality,Hecate Lowlands,Chum,,2
+catch_quality,Howe Sound-Burrard Inlet,Chum,,0
+catch_quality,Loughborough,Chum,,0
+catch_quality,Lower Fraser,Chum,,0
+catch_quality,Lower Skeena,Chum,,3
+catch_quality,Middle Skeena,Chum,,3
+catch_quality,Mussel-Kynoch,Chum,,2
+catch_quality,North Haida Gwaii,Chum,,2
+catch_quality,North Haida Gwaii-Stanley Creek,Chum,,2
+catch_quality,Northeast Vancouver Island,Chum,,0
+catch_quality,Northwest Vancouver Island,Chum,,3
+catch_quality,Rivers Inlet,Chum,,2
+catch_quality,Skeena Estuary,Chum,,3
+catch_quality,Skidegate,Chum,,2
+catch_quality,Smith Inlet,Chum,,2
+catch_quality,Southern Coastal Streams,Chum,,0
+catch_quality,Southwest & West Vancouver Island,Chum,,3
+catch_quality,Spiller-Fitz-Hugh-Burke,Chum,,2
+catch_quality,Upper Knight,Chum,,0
+catch_quality,Upper Skeena,Chum,,0
+catch_quality,Wannock,Chum,,0
+catch_quality,West Haida Gwaii,Chum,,2
+catch_quality,Bella Coola-Dean Rivers,Coho,,1
+catch_quality,Boundary Bay,Coho,,0
+catch_quality,Brim-Wahoo,Coho,,1
+catch_quality,Clayoquot,Coho,,0
+catch_quality,Douglas Channel-Kitimat Arm,Coho,,1
+catch_quality,East Haida Gwaii,Coho,,3
+catch_quality,East Vancouver Island-Georgia Strait,Coho,,0
+catch_quality,East Vancouver Island-Johnstone Strait-Southern Fjords,Coho,,0
+catch_quality,Fraser Canyon,Coho,,0
+catch_quality,Georgia Strait Mainland,Coho,,0
+catch_quality,Haida Gwaii-Graham Island Lowlands,Coho,,3
+catch_quality,Hecate Strait Mainland,Coho,,1
+catch_quality,Homathko-Klinaklini Rivers,Coho,,0
+catch_quality,Howe Sound-Burrard Inlet,Coho,,0
+catch_quality,Interior Fraser,Coho,,0
+catch_quality,Juan de Fuca-Pachena,Coho,,0
+catch_quality,Lillooet,Coho,,0
+catch_quality,Lower Fraser,Coho,,0
+catch_quality,Lower Skeena,Coho,,3
+catch_quality,Lower Thompson,Coho,,0
+catch_quality,Middle Skeena,Coho,,3
+catch_quality,Mussel-Kynoch,Coho,,1
+catch_quality,Nahwitti Lowland,Coho,,0
+catch_quality,North Thompson,Coho,,0
+catch_quality,Northern Coastal Streams,Coho,,1
+catch_quality,Rivers Inlet,Coho,,0
+catch_quality,Skeena Estuary,Coho,,0
+catch_quality,Smith Inlet,Coho,,3
+catch_quality,South Thompson,Coho,,0
+catch_quality,Southern Coastal Streams-Queen Charlotte Strait-Johnstone Strait-Southern Fjords,Coho,,0
+catch_quality,Upper Skeena,Coho,,3
+catch_quality,West Haida Gwaii,Coho,,3
+catch_quality,West Vancouver Island,Coho,,0
+catch_quality,Adams & Momich Lakes-Early Summer,Lake sockeye,,0
+catch_quality,Ain-Skundale-Ian,Lake sockeye,,0
+catch_quality,Alastair,Lake sockeye,,5
+catch_quality,Alice,Lake sockeye,,0
+catch_quality,Anderson-Seton-Early Summer,Lake sockeye,,5
+catch_quality,Asitika,Lake sockeye,,5
+catch_quality,Awun,Lake sockeye,,2
+catch_quality,Azuklotz,Lake sockeye,,5
+catch_quality,Babine (enhanced),Lake sockeye,,5
+catch_quality,Babine/Onerka,Lake sockeye,,5
+catch_quality,Backland,Lake sockeye,,2
+catch_quality,Banks,Lake sockeye,,0
+catch_quality,Bear,Lake sockeye,,5
+catch_quality,Bloomfield,Lake sockeye,,2
+catch_quality,Bolton Creek,Lake sockeye,,0
+catch_quality,Bonilla,Lake sockeye,,0
+catch_quality,Borrowman Creek,Lake sockeye,,0
+catch_quality,Bowron-Early Summer,Lake sockeye,,5
+catch_quality,Bulkley/Maxan,Lake sockeye,,0
+catch_quality,Busey Creek,Lake sockeye,,0
+catch_quality,Canoe Creek,Lake sockeye,,0
+catch_quality,Canoona,Lake sockeye,,2
+catch_quality,Cartwright Creek,Lake sockeye,,0
+catch_quality,Cecilia,Lake sockeye,,0
+catch_quality,Cheewat,Lake sockeye,,0
+catch_quality,Chic Chic,Lake sockeye,,0
+catch_quality,Chilko-Early Summer,Lake sockeye,,0
+catch_quality,Chilko-Summer,Lake sockeye,,5
+catch_quality,Chilliwack-Early Summer (cyclic),Lake sockeye,,0
+catch_quality,Citeyats,Lake sockeye,,0
+catch_quality,Clayoquot,Lake sockeye,,0
+catch_quality,Cultus-Late,Lake sockeye,,5
+catch_quality,Curtis Inlet,Lake sockeye,,2
+catch_quality,Dallain Creek,Lake sockeye,,0
+catch_quality,Damshilgwit,Lake sockeye,,5
+catch_quality,Deer,Lake sockeye,,0
+catch_quality,Deserted,Lake sockeye,,0
+catch_quality,Devon,Lake sockeye,,2
+catch_quality,Dome,Lake sockeye,,0
+catch_quality,Douglas Creek,Lake sockeye,,0
+catch_quality,Ecstall/Lower,Lake sockeye,,0
+catch_quality,Elizabeth,Lake sockeye,,0
+catch_quality,Elsie/Hoy,Lake sockeye,,0
+catch_quality,End Hill Creek,Lake sockeye,,0
+catch_quality,Evelyn,Lake sockeye,,2
+catch_quality,Evinrude Inlet,Lake sockeye,,0
+catch_quality,Fairfax,Lake sockeye,,0
+catch_quality,Fairy,Lake sockeye,,0
+catch_quality,Fannie Cove,Lake sockeye,,0
+catch_quality,Footsore/Hodder,Lake sockeye,,0
+catch_quality,Francois-Fraser-Summer,Lake sockeye,,5
+catch_quality,Freeda,Lake sockeye,,0
+catch_quality,Fulmore,Lake sockeye,,0
+catch_quality,Gitanyow (Kitwanga/Kitwancool),Lake sockeye,,5
+catch_quality,Great Central,Lake sockeye,,3
+catch_quality,Harrison-Downstream Migrating-Late,Lake sockeye,,0
+catch_quality,Harrison-Upstream Migrating-Late,Lake sockeye,,5
+catch_quality,Hartley Bay,Lake sockeye,,2
+catch_quality,Henderson,Lake sockeye,,0
+catch_quality,Hesquiat,Lake sockeye,,0
+catch_quality,Hevenor Inlet,Lake sockeye,,0
+catch_quality,Heydon,Lake sockeye,,0
+catch_quality,Higgins Lagoon,Lake sockeye,,0
+catch_quality,Hobiton,Lake sockeye,,0
+catch_quality,Ida-Bonanza,Lake sockeye,,0
+catch_quality,Jalun,Lake sockeye,,0
+catch_quality,Jansen,Lake sockeye,,0
+catch_quality,Johanson,Lake sockeye,,0
+catch_quality,Johnston,Lake sockeye,,0
+catch_quality,Kadjusdis River,Lake sockeye,,2
+catch_quality,Kainet Creek,Lake sockeye,,2
+catch_quality,Kakweiken,Lake sockeye,,0
+catch_quality,Kamloops-Early Summer,Lake sockeye,,5
+catch_quality,Kanim,Lake sockeye,,0
+catch_quality,Kdelmashan Creek,Lake sockeye,,0
+catch_quality,Keecha,Lake sockeye,,2
+catch_quality,Kennedy,Lake sockeye,,0
+catch_quality,Kent Inlet Lagoon Creek,Lake sockeye,,0
+catch_quality,Kenzuwash Creeks,Lake sockeye,,0
+catch_quality,Keswar Creek,Lake sockeye,,0
+catch_quality,Kildidt Creek,Lake sockeye,,0
+catch_quality,Kildidt Lagoon Creek,Lake sockeye,,0
+catch_quality,Kimsquit,Lake sockeye,,0
+catch_quality,Kisameet,Lake sockeye,,0
+catch_quality,Kitkiata,Lake sockeye,,0
+catch_quality,Kitlope,Lake sockeye,,2
+catch_quality,Kitsumkalum,Lake sockeye,,5
+catch_quality,Kluatantan,Lake sockeye,,0
+catch_quality,Kluayaz,Lake sockeye,,0
+catch_quality,Koeye,Lake sockeye,,0
+catch_quality,Kooryet,Lake sockeye,,2
+catch_quality,Kunsoot River,Lake sockeye,,0
+catch_quality,Kwakwa Creek,Lake sockeye,,0
+catch_quality,Lakelse,Lake sockeye,,5
+catch_quality,Lewis Creek,Lake sockeye,,0
+catch_quality,Lillooet-Harrison-Late,Lake sockeye,,5
+catch_quality,Limestone Creek,Lake sockeye,,0
+catch_quality,Long,Lake sockeye,,2
+catch_quality,Loose,Lake sockeye,,0
+catch_quality,Lowe/Simpson/Weir,Lake sockeye,,2
+catch_quality,Mackenzie,Lake sockeye,,0
+catch_quality,Maggie,Lake sockeye,,0
+catch_quality,Marian/Eden,Lake sockeye,,2
+catch_quality,Mary Cove Creek,Lake sockeye,,2
+catch_quality,Mathers,Lake sockeye,,0
+catch_quality,Mcdonald Creek,Lake sockeye,,0
+catch_quality,Mcdonell/Dennis/Aldrich,Lake sockeye,,5
+catch_quality,Mcloughlin,Lake sockeye,,0
+catch_quality,Megin,Lake sockeye,,0
+catch_quality,Mercer,Lake sockeye,,2
+catch_quality,Mikado,Lake sockeye,,2
+catch_quality,Monckton Inlet Creek,Lake sockeye,,0
+catch_quality,Morice/Atna,Lake sockeye,,5
+catch_quality,Motase,Lake sockeye,,5
+catch_quality,Muchalat,Lake sockeye,,0
+catch_quality,Muriel,Lake sockeye,,0
+catch_quality,Nadina-Francois-Early Summer,Lake sockeye,,5
+catch_quality,Nahatlatch-Early Summer,Lake sockeye,,0
+catch_quality,Nahwitti,Lake sockeye,,0
+catch_quality,Namu,Lake sockeye,,2
+catch_quality,Nilkitkwa,Lake sockeye,,5
+catch_quality,Nimpkish,Lake sockeye,,0
+catch_quality,Nitinat,Lake sockeye,,0
+catch_quality,North Barriere-Early Summer (de novo),Lake sockeye,,5
+catch_quality,O'Connell,Lake sockeye,,0
+catch_quality,Owikeno,Lake sockeye,,2
+catch_quality,Park River,Lake sockeye,,0
+catch_quality,Phillips,Lake sockeye,,0
+catch_quality,Pine River,Lake sockeye,,0
+catch_quality,Pitt-Early Summer,Lake sockeye,,5
+catch_quality,Port John,Lake sockeye,,2
+catch_quality,Power,Lake sockeye,,0
+catch_quality,Powles Creek,Lake sockeye,,0
+catch_quality,Price Creek,Lake sockeye,,0
+catch_quality,Quatse,Lake sockeye,,0
+catch_quality,Quesnel-Summer (cyclic),Lake sockeye,,5
+catch_quality,Roderick,Lake sockeye,,2
+catch_quality,Ryan Creek,Lake sockeye,,0
+catch_quality,Sakinaw,Lake sockeye,,0
+catch_quality,Salter,Lake sockeye,,0
+catch_quality,Schoen,Lake sockeye,,0
+catch_quality,Scoular/Kilpatrick,Lake sockeye,,0
+catch_quality,Seton-Late (de novo),Lake sockeye,,5
+catch_quality,Sheneeza Inlet,Lake sockeye,,0
+catch_quality,Ship Point Creek,Lake sockeye,,0
+catch_quality,Shushartie,Lake sockeye,,0
+catch_quality,Shuswap-Early Summer (cyclic),Lake sockeye,,5
+catch_quality,Shuswap-Late (cyclic),Lake sockeye,,5
+catch_quality,Sicintine,Lake sockeye,,0
+catch_quality,Skidegate,Lake sockeye,,2
+catch_quality,Slamgeesh,Lake sockeye,,0
+catch_quality,Soda Creek,Lake sockeye,,0
+catch_quality,South Atnarko Lakes,Lake sockeye,,2
+catch_quality,Spawning,Lake sockeye,,0
+catch_quality,Spencer Creek,Lake sockeye,,0
+catch_quality,Sproat,Lake sockeye,,3
+catch_quality,Stannard Creek,Lake sockeye,,0
+catch_quality,Stephens,Lake sockeye,,5
+catch_quality,Sustut,Lake sockeye,,0
+catch_quality,Swan/Club,Lake sockeye,,5
+catch_quality,Tahlo/Morrison,Lake sockeye,,5
+catch_quality,Takla-Trembleur-Early Stuart (cyclic),Lake sockeye,,5
+catch_quality,Takla-Trembleur-Stuart-Summer (cyclic),Lake sockeye,,5
+catch_quality,Talamoosa Creek,Lake sockeye,,0
+catch_quality,Tankeeah River,Lake sockeye,,2
+catch_quality,Taseko-Early Summer,Lake sockeye,,0
+catch_quality,Treneman Creek,Lake sockeye,,0
+catch_quality,Tsimtack/Moore/Roger,Lake sockeye,,2
+catch_quality,Tuno Creek East,Lake sockeye,,0
+catch_quality,Tuno Creek West,Lake sockeye,,0
+catch_quality,Tyler Creek,Lake sockeye,,0
+catch_quality,Tzoonie,Lake sockeye,,0
+catch_quality,Vernon,Lake sockeye,,0
+catch_quality,Wale Creek,Lake sockeye,,0
+catch_quality,Wannock (Owikeno),Lake sockeye,,0
+catch_quality,Watt Bay,Lake sockeye,,0
+catch_quality,West Creek,Lake sockeye,,0
+catch_quality,William-Brink,Lake sockeye,,0
+catch_quality,Woss,Lake sockeye,,0
+catch_quality,Yaaklele Lagoon,Lake sockeye,,0
+catch_quality,Yakoun,Lake sockeye,,2
+catch_quality,Yeo,Lake sockeye,,2
+catch_quality,East Haida Gwaii (even),Pink (even),,2
+catch_quality,Georgia Strait (even),Pink (even),,3
+catch_quality,Hecate Lowlands (even),Pink (even),,2
+catch_quality,Hecate Strait-Fjords (even),Pink (even),,2
+catch_quality,Middle-Upper Skeena (even),Pink (even),,3
+catch_quality,Nass-Skeena Estuary (even),Pink (even),,3
+catch_quality,North Haida Gwaii (even),Pink (even),,2
+catch_quality,Northwest Vancouver Island (even),Pink (even),,0
+catch_quality,Southern Fjords (even),Pink (even),,3
+catch_quality,West Haida Gwaii (even),Pink (even),,2
+catch_quality,West Vancouver Island (even),Pink (even),,0
+catch_quality,East Haida Gwaii (odd),Pink (odd),,2
+catch_quality,East Howe Sound-Burrard Inlet (odd),Pink (odd),,3
+catch_quality,East Vancouver Island-Johnstone Strait (odd),Pink (odd),,3
+catch_quality,Fraser River (odd),Pink (odd),,5
+catch_quality,Georgia Strait (odd),Pink (odd),,3
+catch_quality,Hecate Strait-Fjords (odd),Pink (odd),,2
+catch_quality,Hecate Strait-Lowlands (odd),Pink (odd),,2
+catch_quality,Homathko-Klinaklini-Smith-Rivers-Bella Coola-Dean (odd),Pink (odd),,2
+catch_quality,Lower Skeena River (odd),Pink (odd),,3
+catch_quality,Middle-Upper Skeena (odd),Pink (odd),,3
+catch_quality,Nahwitti (odd),Pink (odd),,3
+catch_quality,Nass-Skeena Estuary (odd),Pink (odd),,3
+catch_quality,North Haida Gwaii (odd),Pink (odd),,2
+catch_quality,Southern Fjords (odd),Pink (odd),,3
+catch_quality,West Haida Gwaii (odd),Pink (odd),,2
+catch_quality,West Vancouver Island (odd),Pink (odd),,0
+catch_quality,East Haida Gwaii (river-type),River sockeye,,0
+catch_quality,East Vancouver Island & Georgia Strait (river-type),River sockeye,,0
+catch_quality,Harrison River (river-type),River sockeye,,5
+catch_quality,North Haida Gwaii (river-type),River sockeye,,0
+catch_quality,Northern Coastal Fjords (river-type),River sockeye,,0
+catch_quality,Northern Coastal Streams (river-type),River sockeye,,0
+catch_quality,NW Vancouver Island (river-type),River sockeye,,0
+catch_quality,Rivers-Smith Inlets (river-type),River sockeye,,0
+catch_quality,Skeena River-High Interior (river-type),River sockeye,,5
+catch_quality,Skeena River (river-type),River sockeye,,0
+catch_quality,Southern Fjords (river-type),River sockeye,,0
+catch_quality,West Haida Gwaii (river-type),River sockeye,,0
+catch_quality,West Vancouver Island (river-type),River sockeye,,0
+catch_quality,Widgeon (river-type),River sockeye,,0
+dq_score,Bella Coola-Bentinck,Chinook,,13
+dq_score,Boundary Bay (Fall 4-1),Chinook,,0
+dq_score,Dean River,Chinook,,10
+dq_score,Docee,Chinook,,0
+dq_score,East Haida Gwaii,Chinook,,0
+dq_score,East Vancouver Island-Cowichan and Koksilah (Fall x-1),Chinook,,15
+dq_score,East Vancouver Island-Georgia Strait (Summer 4-1),Chinook,,14
+dq_score,East Vancouver Island-Goldstream (Fall x-1),Chinook,,5
+dq_score,East Vancouver Island-Nanaimo (Spring x-2),Chinook,,0
+dq_score,East Vancouver Island-Nanaimo and Chemainus (Fall x-1),Chinook,,13
+dq_score,East Vancouver Island-North (Fall x-1),Chinook,,14
+dq_score,East Vancouver Island-Qualicum and Puntledge (Fall x-1),Chinook,,13
+dq_score,Ecstall,Chinook,,0
+dq_score,Fraser Canyon-Nahatlatch (Spring 5-2),Chinook,,0
+dq_score,Homathko (Summer x-x),Chinook,,0
+dq_score,Kalum-Early,Chinook,,0
+dq_score,Kalum-Late,Chinook,,15
+dq_score,Klinaklini (Summer 5-2),Chinook,,0
+dq_score,Lakelse,Chinook,,0
+dq_score,Lower Fraser River-Maria Slough (Summer 4-1),Chinook,,0
+dq_score,Lower Fraser River-Upper Pitt (Summer 5-2),Chinook,,0
+dq_score,Lower Fraser River (Fall 4-1),Chinook,,14
+dq_score,Lower Fraser River (Spring 5-2),Chinook,,8
+dq_score,Lower Fraser River (Summer 5-2),Chinook,,0
+dq_score,Lower Skeena,Chinook,,10
+dq_score,Lower Thompson River (Spring 4-2),Chinook,,13
+dq_score,Middle Fraser River-Portage (Fall 5-2),Chinook,,0
+dq_score,Middle Fraser River (Spring 5-2),Chinook,,7
+dq_score,Middle Fraser River (Summer 5-2),Chinook,,8
+dq_score,Middle Skeena-Large Lakes,Chinook,,18
+dq_score,Middle Skeena-Mainstem Tributaries,Chinook,,12
+dq_score,North & Central Coast-Early,Chinook,,7
+dq_score,North & Central Coast-Late,Chinook,,0
+dq_score,North Haida Gwaii,Chinook,,0
+dq_score,North Thompson River (Spring 5-2),Chinook,,9
+dq_score,North Thompson River (Summer 5-2),Chinook,,10
+dq_score,Rivers Inlet,Chinook,,8
+dq_score,Shuswap River (Summer 4-1),Chinook,,14
+dq_score,Sicintine,Chinook,,0
+dq_score,Skeena Estuary,Chinook,,0
+dq_score,South Thompson-Adams River Upper,Chinook,,0
+dq_score,South Thompson River-Bessette Creek (Summer 4-2),Chinook,,8
+dq_score,South Thompson River (Summer 4-1),Chinook,,8
+dq_score,South Thompson River (Summer 5-2),Chinook,,13
+dq_score,Southern Mainland-Georgia Strait (Fall x-1),Chinook,,0
+dq_score,Southern Mainland-Southern Fjords (Fall x-1),Chinook,,5
+dq_score,Upper Bulkley River,Chinook,,0
+dq_score,Upper Fraser River (Spring 5-2),Chinook,,7
+dq_score,Upper Skeena,Chinook,,0
+dq_score,Wannock,Chinook,,9
+dq_score,West Vancouver Island-Nootka and Kyuquot (Fall x-1),Chinook,,8
+dq_score,West Vancouver Island-North (Fall x-1),Chinook,,5
+dq_score,West Vancouver Island-South (Fall x-1),Chinook,,7
+dq_score,Zymoetz,Chinook,,0
+dq_score,Bella Coola-Dean Rivers,Chum,,12
+dq_score,Bella Coola River-Late,Chum,,0
+dq_score,Bute Inlet,Chum,,0
+dq_score,Douglas-Gardner,Chum,,11
+dq_score,East Haida Gwaii,Chum,,9
+dq_score,Georgia Strait,Chum,,12
+dq_score,Hecate Lowlands,Chum,,9
+dq_score,Howe Sound-Burrard Inlet,Chum,,0
+dq_score,Loughborough,Chum,,6
+dq_score,Lower Fraser,Chum,,5
+dq_score,Lower Skeena,Chum,,10
+dq_score,Middle Skeena,Chum,,10
+dq_score,Mussel-Kynoch,Chum,,12
+dq_score,North Haida Gwaii,Chum,,7
+dq_score,North Haida Gwaii-Stanley Creek,Chum,,8
+dq_score,Northeast Vancouver Island,Chum,,6
+dq_score,Northwest Vancouver Island,Chum,,9
+dq_score,Rivers Inlet,Chum,,7
+dq_score,Skeena Estuary,Chum,,6
+dq_score,Skidegate,Chum,,10
+dq_score,Smith Inlet,Chum,,11
+dq_score,Southern Coastal Streams,Chum,,4
+dq_score,Southwest & West Vancouver Island,Chum,,10
+dq_score,Spiller-Fitz-Hugh-Burke,Chum,,9
+dq_score,Upper Knight,Chum,,0
+dq_score,Upper Skeena,Chum,,0
+dq_score,Wannock,Chum,,0
+dq_score,West Haida Gwaii,Chum,,8
+dq_score,Bella Coola-Dean Rivers,Coho,,11
+dq_score,Boundary Bay,Coho,,0
+dq_score,Brim-Wahoo,Coho,,11
+dq_score,Clayoquot,Coho,,6
+dq_score,Douglas Channel-Kitimat Arm,Coho,,7
+dq_score,East Haida Gwaii,Coho,,8
+dq_score,East Vancouver Island-Georgia Strait,Coho,,5
+dq_score,East Vancouver Island-Johnstone Strait-Southern Fjords,Coho,,8
+dq_score,Fraser Canyon,Coho,,8
+dq_score,Georgia Strait Mainland,Coho,,5
+dq_score,Haida Gwaii-Graham Island Lowlands,Coho,,8
+dq_score,Hecate Strait Mainland,Coho,,6
+dq_score,Homathko-Klinaklini Rivers,Coho,,0
+dq_score,Howe Sound-Burrard Inlet,Coho,,0
+dq_score,Interior Fraser,Coho,,7
+dq_score,Juan de Fuca-Pachena,Coho,,6
+dq_score,Lillooet,Coho,,0
+dq_score,Lower Fraser,Coho,,0
+dq_score,Lower Skeena,Coho,,9
+dq_score,Lower Thompson,Coho,,10
+dq_score,Middle Skeena,Coho,,8
+dq_score,Mussel-Kynoch,Coho,,7
+dq_score,Nahwitti Lowland,Coho,,9
+dq_score,North Thompson,Coho,,8
+dq_score,Northern Coastal Streams,Coho,,11
+dq_score,Rivers Inlet,Coho,,0
+dq_score,Skeena Estuary,Coho,,0
+dq_score,Smith Inlet,Coho,,10
+dq_score,South Thompson,Coho,,7
+dq_score,Southern Coastal Streams-Queen Charlotte Strait-Johnstone Strait-Southern Fjords,Coho,,4
+dq_score,Upper Skeena,Coho,,14
+dq_score,West Haida Gwaii,Coho,,7
+dq_score,West Vancouver Island,Coho,,6
+dq_score,Adams & Momich Lakes-Early Summer,Lake sockeye,,0
+dq_score,Ain-Skundale-Ian,Lake sockeye,,0
+dq_score,Alastair,Lake sockeye,,15
+dq_score,Alice,Lake sockeye,,0
+dq_score,Anderson-Seton-Early Summer,Lake sockeye,,19
+dq_score,Asitika,Lake sockeye,,14
+dq_score,Awun,Lake sockeye,,14
+dq_score,Azuklotz,Lake sockeye,,14
+dq_score,Babine (enhanced),Lake sockeye,,20
+dq_score,Babine/Onerka,Lake sockeye,,17
+dq_score,Backland,Lake sockeye,,11
+dq_score,Banks,Lake sockeye,,0
+dq_score,Bear,Lake sockeye,,11
+dq_score,Bloomfield,Lake sockeye,,9
+dq_score,Bolton Creek,Lake sockeye,,0
+dq_score,Bonilla,Lake sockeye,,0
+dq_score,Borrowman Creek,Lake sockeye,,0
+dq_score,Bowron-Early Summer,Lake sockeye,,17
+dq_score,Bulkley/Maxan,Lake sockeye,,0
+dq_score,Busey Creek,Lake sockeye,,0
+dq_score,Canoe Creek,Lake sockeye,,0
+dq_score,Canoona,Lake sockeye,,11
+dq_score,Cartwright Creek,Lake sockeye,,0
+dq_score,Cecilia,Lake sockeye,,0
+dq_score,Cheewat,Lake sockeye,,0
+dq_score,Chic Chic,Lake sockeye,,0
+dq_score,Chilko-Early Summer,Lake sockeye,,0
+dq_score,Chilko-Summer,Lake sockeye,,19
+dq_score,Chilliwack-Early Summer (cyclic),Lake sockeye,,13
+dq_score,Citeyats,Lake sockeye,,0
+dq_score,Clayoquot,Lake sockeye,,0
+dq_score,Cultus-Late,Lake sockeye,,20
+dq_score,Curtis Inlet,Lake sockeye,,11
+dq_score,Dallain Creek,Lake sockeye,,0
+dq_score,Damshilgwit,Lake sockeye,,20
+dq_score,Deer,Lake sockeye,,0
+dq_score,Deserted,Lake sockeye,,0
+dq_score,Devon,Lake sockeye,,13
+dq_score,Dome,Lake sockeye,,0
+dq_score,Douglas Creek,Lake sockeye,,0
+dq_score,Ecstall/Lower,Lake sockeye,,0
+dq_score,Elizabeth,Lake sockeye,,0
+dq_score,Elsie/Hoy,Lake sockeye,,0
+dq_score,End Hill Creek,Lake sockeye,,0
+dq_score,Evelyn,Lake sockeye,,15
+dq_score,Evinrude Inlet,Lake sockeye,,0
+dq_score,Fairfax,Lake sockeye,,0
+dq_score,Fairy,Lake sockeye,,0
+dq_score,Fannie Cove,Lake sockeye,,0
+dq_score,Footsore/Hodder,Lake sockeye,,0
+dq_score,Francois-Fraser-Summer,Lake sockeye,,19
+dq_score,Freeda,Lake sockeye,,0
+dq_score,Fulmore,Lake sockeye,,0
+dq_score,Gitanyow (Kitwanga/Kitwancool),Lake sockeye,,18
+dq_score,Great Central,Lake sockeye,,3
+dq_score,Harrison-Downstream Migrating-Late,Lake sockeye,,13
+dq_score,Harrison-Upstream Migrating-Late,Lake sockeye,,18
+dq_score,Hartley Bay,Lake sockeye,,15
+dq_score,Henderson,Lake sockeye,,12
+dq_score,Hesquiat,Lake sockeye,,1
+dq_score,Hevenor Inlet,Lake sockeye,,0
+dq_score,Heydon,Lake sockeye,,0
+dq_score,Higgins Lagoon,Lake sockeye,,0
+dq_score,Hobiton,Lake sockeye,,0
+dq_score,Ida-Bonanza,Lake sockeye,,0
+dq_score,Jalun,Lake sockeye,,0
+dq_score,Jansen,Lake sockeye,,0
+dq_score,Johanson,Lake sockeye,,0
+dq_score,Johnston,Lake sockeye,,0
+dq_score,Kadjusdis River,Lake sockeye,,9
+dq_score,Kainet Creek,Lake sockeye,,13
+dq_score,Kakweiken,Lake sockeye,,0
+dq_score,Kamloops-Early Summer,Lake sockeye,,17
+dq_score,Kanim,Lake sockeye,,0
+dq_score,Kdelmashan Creek,Lake sockeye,,0
+dq_score,Keecha,Lake sockeye,,11
+dq_score,Kennedy,Lake sockeye,,0
+dq_score,Kent Inlet Lagoon Creek,Lake sockeye,,0
+dq_score,Kenzuwash Creeks,Lake sockeye,,0
+dq_score,Keswar Creek,Lake sockeye,,0
+dq_score,Kildidt Creek,Lake sockeye,,0
+dq_score,Kildidt Lagoon Creek,Lake sockeye,,0
+dq_score,Kimsquit,Lake sockeye,,0
+dq_score,Kisameet,Lake sockeye,,0
+dq_score,Kitkiata,Lake sockeye,,0
+dq_score,Kitlope,Lake sockeye,,12
+dq_score,Kitsumkalum,Lake sockeye,,10
+dq_score,Kluatantan,Lake sockeye,,0
+dq_score,Kluayaz,Lake sockeye,,0
+dq_score,Koeye,Lake sockeye,,0
+dq_score,Kooryet,Lake sockeye,,11
+dq_score,Kunsoot River,Lake sockeye,,0
+dq_score,Kwakwa Creek,Lake sockeye,,0
+dq_score,Lakelse,Lake sockeye,,14
+dq_score,Lewis Creek,Lake sockeye,,0
+dq_score,Lillooet-Harrison-Late,Lake sockeye,,19
+dq_score,Limestone Creek,Lake sockeye,,0
+dq_score,Long,Lake sockeye,,10
+dq_score,Loose,Lake sockeye,,0
+dq_score,Lowe/Simpson/Weir,Lake sockeye,,11
+dq_score,Mackenzie,Lake sockeye,,8
+dq_score,Maggie,Lake sockeye,,0
+dq_score,Marian/Eden,Lake sockeye,,14
+dq_score,Mary Cove Creek,Lake sockeye,,8
+dq_score,Mathers,Lake sockeye,,0
+dq_score,Mcdonald Creek,Lake sockeye,,0
+dq_score,Mcdonell/Dennis/Aldrich,Lake sockeye,,16
+dq_score,Mcloughlin,Lake sockeye,,0
+dq_score,Megin,Lake sockeye,,0
+dq_score,Mercer,Lake sockeye,,14
+dq_score,Mikado,Lake sockeye,,10
+dq_score,Monckton Inlet Creek,Lake sockeye,,0
+dq_score,Morice/Atna,Lake sockeye,,17
+dq_score,Motase,Lake sockeye,,13
+dq_score,Muchalat,Lake sockeye,,0
+dq_score,Muriel,Lake sockeye,,0
+dq_score,Nadina-Francois-Early Summer,Lake sockeye,,19
+dq_score,Nahatlatch-Early Summer,Lake sockeye,,12
+dq_score,Nahwitti,Lake sockeye,,0
+dq_score,Namu,Lake sockeye,,12
+dq_score,Nilkitkwa,Lake sockeye,,18
+dq_score,Nimpkish,Lake sockeye,,14
+dq_score,Nitinat,Lake sockeye,,0
+dq_score,North Barriere-Early Summer (de novo),Lake sockeye,,18
+dq_score,O'Connell,Lake sockeye,,0
+dq_score,Owikeno,Lake sockeye,,10
+dq_score,Park River,Lake sockeye,,0
+dq_score,Phillips,Lake sockeye,,13
+dq_score,Pine River,Lake sockeye,,0
+dq_score,Pitt-Early Summer,Lake sockeye,,18
+dq_score,Port John,Lake sockeye,,14
+dq_score,Power,Lake sockeye,,0
+dq_score,Powles Creek,Lake sockeye,,0
+dq_score,Price Creek,Lake sockeye,,0
+dq_score,Quatse,Lake sockeye,,0
+dq_score,Quesnel-Summer (cyclic),Lake sockeye,,18
+dq_score,Roderick,Lake sockeye,,12
+dq_score,Ryan Creek,Lake sockeye,,0
+dq_score,Sakinaw,Lake sockeye,,15
+dq_score,Salter,Lake sockeye,,0
+dq_score,Schoen,Lake sockeye,,0
+dq_score,Scoular/Kilpatrick,Lake sockeye,,0
+dq_score,Seton-Late (de novo),Lake sockeye,,5
+dq_score,Sheneeza Inlet,Lake sockeye,,0
+dq_score,Ship Point Creek,Lake sockeye,,0
+dq_score,Shushartie,Lake sockeye,,0
+dq_score,Shuswap-Early Summer (cyclic),Lake sockeye,,5
+dq_score,Shuswap-Late (cyclic),Lake sockeye,,17
+dq_score,Sicintine,Lake sockeye,,0
+dq_score,Skidegate,Lake sockeye,,17
+dq_score,Slamgeesh,Lake sockeye,,0
+dq_score,Soda Creek,Lake sockeye,,0
+dq_score,South Atnarko Lakes,Lake sockeye,,13
+dq_score,Spawning,Lake sockeye,,0
+dq_score,Spencer Creek,Lake sockeye,,0
+dq_score,Sproat,Lake sockeye,,3
+dq_score,Stannard Creek,Lake sockeye,,0
+dq_score,Stephens,Lake sockeye,,16
+dq_score,Sustut,Lake sockeye,,0
+dq_score,Swan/Club,Lake sockeye,,10
+dq_score,Tahlo/Morrison,Lake sockeye,,14
+dq_score,Takla-Trembleur-Early Stuart (cyclic),Lake sockeye,,18
+dq_score,Takla-Trembleur-Stuart-Summer (cyclic),Lake sockeye,,17
+dq_score,Talamoosa Creek,Lake sockeye,,0
+dq_score,Tankeeah River,Lake sockeye,,10
+dq_score,Taseko-Early Summer,Lake sockeye,,12
+dq_score,Treneman Creek,Lake sockeye,,0
+dq_score,Tsimtack/Moore/Roger,Lake sockeye,,14
+dq_score,Tuno Creek East,Lake sockeye,,0
+dq_score,Tuno Creek West,Lake sockeye,,0
+dq_score,Tyler Creek,Lake sockeye,,0
+dq_score,Tzoonie,Lake sockeye,,0
+dq_score,Vernon,Lake sockeye,,0
+dq_score,Wale Creek,Lake sockeye,,0
+dq_score,Wannock (Owikeno),Lake sockeye,,0
+dq_score,Watt Bay,Lake sockeye,,0
+dq_score,West Creek,Lake sockeye,,0
+dq_score,William-Brink,Lake sockeye,,0
+dq_score,Woss,Lake sockeye,,0
+dq_score,Yaaklele Lagoon,Lake sockeye,,0
+dq_score,Yakoun,Lake sockeye,,14
+dq_score,Yeo,Lake sockeye,,10
+dq_score,East Haida Gwaii (even),Pink (even),,5
+dq_score,Georgia Strait (even),Pink (even),,15
+dq_score,Hecate Lowlands (even),Pink (even),,9
+dq_score,Hecate Strait-Fjords (even),Pink (even),,10
+dq_score,Middle-Upper Skeena (even),Pink (even),,9
+dq_score,Nass-Skeena Estuary (even),Pink (even),,10
+dq_score,North Haida Gwaii (even),Pink (even),,6
+dq_score,Northwest Vancouver Island (even),Pink (even),,0
+dq_score,Southern Fjords (even),Pink (even),,12
+dq_score,West Haida Gwaii (even),Pink (even),,5
+dq_score,West Vancouver Island (even),Pink (even),,0
+dq_score,East Haida Gwaii (odd),Pink (odd),,4
+dq_score,East Howe Sound-Burrard Inlet (odd),Pink (odd),,3
+dq_score,East Vancouver Island-Johnstone Strait (odd),Pink (odd),,15
+dq_score,Fraser River (odd),Pink (odd),,20
+dq_score,Georgia Strait (odd),Pink (odd),,14
+dq_score,Hecate Strait-Fjords (odd),Pink (odd),,10
+dq_score,Hecate Strait-Lowlands (odd),Pink (odd),,9
+dq_score,Homathko-Klinaklini-Smith-Rivers-Bella Coola-Dean (odd),Pink (odd),,5
+dq_score,Lower Skeena River (odd),Pink (odd),,9
+dq_score,Middle-Upper Skeena (odd),Pink (odd),,9
+dq_score,Nahwitti (odd),Pink (odd),,13
+dq_score,Nass-Skeena Estuary (odd),Pink (odd),,9
+dq_score,North Haida Gwaii (odd),Pink (odd),,2
+dq_score,Southern Fjords (odd),Pink (odd),,9
+dq_score,West Haida Gwaii (odd),Pink (odd),,3
+dq_score,West Vancouver Island (odd),Pink (odd),,0
+dq_score,East Haida Gwaii (river-type),River sockeye,,0
+dq_score,East Vancouver Island & Georgia Strait (river-type),River sockeye,,0
+dq_score,Harrison River (river-type),River sockeye,,19
+dq_score,North Haida Gwaii (river-type),River sockeye,,0
+dq_score,Northern Coastal Fjords (river-type),River sockeye,,0
+dq_score,Northern Coastal Streams (river-type),River sockeye,,0
+dq_score,NW Vancouver Island (river-type),River sockeye,,0
+dq_score,Rivers-Smith Inlets (river-type),River sockeye,,0
+dq_score,Skeena River-High Interior (river-type),River sockeye,,14
+dq_score,Skeena River (river-type),River sockeye,,0
+dq_score,Southern Fjords (river-type),River sockeye,,0
+dq_score,West Haida Gwaii (river-type),River sockeye,,0
+dq_score,West Vancouver Island (river-type),River sockeye,,0
+dq_score,Widgeon (river-type),River sockeye,,0
+survey_coverage,Bella Coola-Bentinck,Chinook,,5
+survey_coverage,Boundary Bay (Fall 4-1),Chinook,,0
+survey_coverage,Dean River,Chinook,,5
+survey_coverage,Docee,Chinook,,0
+survey_coverage,East Haida Gwaii,Chinook,,0
+survey_coverage,East Vancouver Island-Cowichan and Koksilah (Fall x-1),Chinook,,5
+survey_coverage,East Vancouver Island-Georgia Strait (Summer 4-1),Chinook,,5
+survey_coverage,East Vancouver Island-Goldstream (Fall x-1),Chinook,,5
+survey_coverage,East Vancouver Island-Nanaimo (Spring x-2),Chinook,,0
+survey_coverage,East Vancouver Island-Nanaimo and Chemainus (Fall x-1),Chinook,,5
+survey_coverage,East Vancouver Island-North (Fall x-1),Chinook,,5
+survey_coverage,East Vancouver Island-Qualicum and Puntledge (Fall x-1),Chinook,,5
+survey_coverage,Ecstall,Chinook,,0
+survey_coverage,Fraser Canyon-Nahatlatch (Spring 5-2),Chinook,,0
+survey_coverage,Homathko (Summer x-x),Chinook,,0
+survey_coverage,Kalum-Early,Chinook,,0
+survey_coverage,Kalum-Late,Chinook,,5
+survey_coverage,Klinaklini (Summer 5-2),Chinook,,0
+survey_coverage,Lakelse,Chinook,,0
+survey_coverage,Lower Fraser River-Maria Slough (Summer 4-1),Chinook,,0
+survey_coverage,Lower Fraser River-Upper Pitt (Summer 5-2),Chinook,,0
+survey_coverage,Lower Fraser River (Fall 4-1),Chinook,,5
+survey_coverage,Lower Fraser River (Spring 5-2),Chinook,,1
+survey_coverage,Lower Fraser River (Summer 5-2),Chinook,,0
+survey_coverage,Lower Skeena,Chinook,,3
+survey_coverage,Lower Thompson River (Spring 4-2),Chinook,,5
+survey_coverage,Middle Fraser River-Portage (Fall 5-2),Chinook,,0
+survey_coverage,Middle Fraser River (Spring 5-2),Chinook,,0
+survey_coverage,Middle Fraser River (Summer 5-2),Chinook,,1
+survey_coverage,Middle Skeena-Large Lakes,Chinook,,5
+survey_coverage,Middle Skeena-Mainstem Tributaries,Chinook,,4
+survey_coverage,North & Central Coast-Early,Chinook,,1
+survey_coverage,North & Central Coast-Late,Chinook,,0
+survey_coverage,North Haida Gwaii,Chinook,,0
+survey_coverage,North Thompson River (Spring 5-2),Chinook,,1
+survey_coverage,North Thompson River (Summer 5-2),Chinook,,3
+survey_coverage,Rivers Inlet,Chinook,,3
+survey_coverage,Shuswap River (Summer 4-1),Chinook,,5
+survey_coverage,Sicintine,Chinook,,0
+survey_coverage,Skeena Estuary,Chinook,,0
+survey_coverage,South Thompson-Adams River Upper,Chinook,,0
+survey_coverage,South Thompson River-Bessette Creek (Summer 4-2),Chinook,,0
+survey_coverage,South Thompson River (Summer 4-1),Chinook,,1
+survey_coverage,South Thompson River (Summer 5-2),Chinook,,5
+survey_coverage,Southern Mainland-Georgia Strait (Fall x-1),Chinook,,0
+survey_coverage,Southern Mainland-Southern Fjords (Fall x-1),Chinook,,0
+survey_coverage,Upper Bulkley River,Chinook,,0
+survey_coverage,Upper Fraser River (Spring 5-2),Chinook,,0
+survey_coverage,Upper Skeena,Chinook,,0
+survey_coverage,Wannock,Chinook,,3
+survey_coverage,West Vancouver Island-Nootka and Kyuquot (Fall x-1),Chinook,,0
+survey_coverage,West Vancouver Island-North (Fall x-1),Chinook,,0
+survey_coverage,West Vancouver Island-South (Fall x-1),Chinook,,0
+survey_coverage,Zymoetz,Chinook,,0
+survey_coverage,Bella Coola-Dean Rivers,Chum,,5
+survey_coverage,Bella Coola River-Late,Chum,,0
+survey_coverage,Bute Inlet,Chum,,0
+survey_coverage,Douglas-Gardner,Chum,,2
+survey_coverage,East Haida Gwaii,Chum,,2
+survey_coverage,Georgia Strait,Chum,,5
+survey_coverage,Hecate Lowlands,Chum,,3
+survey_coverage,Howe Sound-Burrard Inlet,Chum,,0
+survey_coverage,Loughborough,Chum,,1
+survey_coverage,Lower Fraser,Chum,,0
+survey_coverage,Lower Skeena,Chum,,4
+survey_coverage,Middle Skeena,Chum,,3
+survey_coverage,Mussel-Kynoch,Chum,,5
+survey_coverage,North Haida Gwaii,Chum,,2
+survey_coverage,North Haida Gwaii-Stanley Creek,Chum,,5
+survey_coverage,Northeast Vancouver Island,Chum,,1
+survey_coverage,Northwest Vancouver Island,Chum,,1
+survey_coverage,Rivers Inlet,Chum,,2
+survey_coverage,Skeena Estuary,Chum,,2
+survey_coverage,Skidegate,Chum,,3
+survey_coverage,Smith Inlet,Chum,,5
+survey_coverage,Southern Coastal Streams,Chum,,0
+survey_coverage,Southwest & West Vancouver Island,Chum,,0
+survey_coverage,Spiller-Fitz-Hugh-Burke,Chum,,3
+survey_coverage,Upper Knight,Chum,,0
+survey_coverage,Upper Skeena,Chum,,0
+survey_coverage,Wannock,Chum,,0
+survey_coverage,West Haida Gwaii,Chum,,2
+survey_coverage,Bella Coola-Dean Rivers,Coho,,5
+survey_coverage,Boundary Bay,Coho,,0
+survey_coverage,Brim-Wahoo,Coho,,5
+survey_coverage,Clayoquot,Coho,,0
+survey_coverage,Douglas Channel-Kitimat Arm,Coho,,2
+survey_coverage,East Haida Gwaii,Coho,,1
+survey_coverage,East Vancouver Island-Georgia Strait,Coho,,0
+survey_coverage,East Vancouver Island-Johnstone Strait-Southern Fjords,Coho,,0
+survey_coverage,Fraser Canyon,Coho,,0
+survey_coverage,Georgia Strait Mainland,Coho,,0
+survey_coverage,Haida Gwaii-Graham Island Lowlands,Coho,,1
+survey_coverage,Hecate Strait Mainland,Coho,,3
+survey_coverage,Homathko-Klinaklini Rivers,Coho,,0
+survey_coverage,Howe Sound-Burrard Inlet,Coho,,0
+survey_coverage,Interior Fraser,Coho,,0
+survey_coverage,Juan de Fuca-Pachena,Coho,,0
+survey_coverage,Lillooet,Coho,,0
+survey_coverage,Lower Fraser,Coho,,0
+survey_coverage,Lower Skeena,Coho,,3
+survey_coverage,Lower Thompson,Coho,,0
+survey_coverage,Middle Skeena,Coho,,2
+survey_coverage,Mussel-Kynoch,Coho,,3
+survey_coverage,Nahwitti Lowland,Coho,,0
+survey_coverage,North Thompson,Coho,,0
+survey_coverage,Northern Coastal Streams,Coho,,5
+survey_coverage,Rivers Inlet,Coho,,0
+survey_coverage,Skeena Estuary,Coho,,0
+survey_coverage,Smith Inlet,Coho,,5
+survey_coverage,South Thompson,Coho,,0
+survey_coverage,Southern Coastal Streams-Queen Charlotte Strait-Johnstone Strait-Southern Fjords,Coho,,0
+survey_coverage,Upper Skeena,Coho,,4
+survey_coverage,West Haida Gwaii,Coho,,1
+survey_coverage,West Vancouver Island,Coho,,0
+survey_coverage,Adams & Momich Lakes-Early Summer,Lake sockeye,,0
+survey_coverage,Ain-Skundale-Ian,Lake sockeye,,0
+survey_coverage,Alastair,Lake sockeye,,4
+survey_coverage,Alice,Lake sockeye,,0
+survey_coverage,Anderson-Seton-Early Summer,Lake sockeye,,5
+survey_coverage,Asitika,Lake sockeye,,5
+survey_coverage,Awun,Lake sockeye,,5
+survey_coverage,Azuklotz,Lake sockeye,,5
+survey_coverage,Babine (enhanced),Lake sockeye,,5
+survey_coverage,Babine/Onerka,Lake sockeye,,5
+survey_coverage,Backland,Lake sockeye,,5
+survey_coverage,Banks,Lake sockeye,,0
+survey_coverage,Bear,Lake sockeye,,4
+survey_coverage,Bloomfield,Lake sockeye,,5
+survey_coverage,Bolton Creek,Lake sockeye,,0
+survey_coverage,Bonilla,Lake sockeye,,0
+survey_coverage,Borrowman Creek,Lake sockeye,,0
+survey_coverage,Bowron-Early Summer,Lake sockeye,,5
+survey_coverage,Bulkley/Maxan,Lake sockeye,,0
+survey_coverage,Busey Creek,Lake sockeye,,0
+survey_coverage,Canoe Creek,Lake sockeye,,0
+survey_coverage,Canoona,Lake sockeye,,5
+survey_coverage,Cartwright Creek,Lake sockeye,,0
+survey_coverage,Cecilia,Lake sockeye,,0
+survey_coverage,Cheewat,Lake sockeye,,0
+survey_coverage,Chic Chic,Lake sockeye,,0
+survey_coverage,Chilko-Early Summer,Lake sockeye,,0
+survey_coverage,Chilko-Summer,Lake sockeye,,5
+survey_coverage,Chilliwack-Early Summer (cyclic),Lake sockeye,,5
+survey_coverage,Citeyats,Lake sockeye,,0
+survey_coverage,Clayoquot,Lake sockeye,,0
+survey_coverage,Cultus-Late,Lake sockeye,,5
+survey_coverage,Curtis Inlet,Lake sockeye,,5
+survey_coverage,Dallain Creek,Lake sockeye,,0
+survey_coverage,Damshilgwit,Lake sockeye,,5
+survey_coverage,Deer,Lake sockeye,,0
+survey_coverage,Deserted,Lake sockeye,,0
+survey_coverage,Devon,Lake sockeye,,5
+survey_coverage,Dome,Lake sockeye,,0
+survey_coverage,Douglas Creek,Lake sockeye,,0
+survey_coverage,Ecstall/Lower,Lake sockeye,,0
+survey_coverage,Elizabeth,Lake sockeye,,0
+survey_coverage,Elsie/Hoy,Lake sockeye,,0
+survey_coverage,End Hill Creek,Lake sockeye,,0
+survey_coverage,Evelyn,Lake sockeye,,5
+survey_coverage,Evinrude Inlet,Lake sockeye,,0
+survey_coverage,Fairfax,Lake sockeye,,0
+survey_coverage,Fairy,Lake sockeye,,0
+survey_coverage,Fannie Cove,Lake sockeye,,0
+survey_coverage,Footsore/Hodder,Lake sockeye,,0
+survey_coverage,Francois-Fraser-Summer,Lake sockeye,,5
+survey_coverage,Freeda,Lake sockeye,,0
+survey_coverage,Fulmore,Lake sockeye,,0
+survey_coverage,Gitanyow (Kitwanga/Kitwancool),Lake sockeye,,5
+survey_coverage,Great Central,Lake sockeye,,0
+survey_coverage,Harrison-Downstream Migrating-Late,Lake sockeye,,5
+survey_coverage,Harrison-Upstream Migrating-Late,Lake sockeye,,5
+survey_coverage,Hartley Bay,Lake sockeye,,5
+survey_coverage,Henderson,Lake sockeye,,5
+survey_coverage,Hesquiat,Lake sockeye,,0
+survey_coverage,Hevenor Inlet,Lake sockeye,,0
+survey_coverage,Heydon,Lake sockeye,,0
+survey_coverage,Higgins Lagoon,Lake sockeye,,0
+survey_coverage,Hobiton,Lake sockeye,,0
+survey_coverage,Ida-Bonanza,Lake sockeye,,0
+survey_coverage,Jalun,Lake sockeye,,0
+survey_coverage,Jansen,Lake sockeye,,0
+survey_coverage,Johanson,Lake sockeye,,0
+survey_coverage,Johnston,Lake sockeye,,0
+survey_coverage,Kadjusdis River,Lake sockeye,,5
+survey_coverage,Kainet Creek,Lake sockeye,,5
+survey_coverage,Kakweiken,Lake sockeye,,0
+survey_coverage,Kamloops-Early Summer,Lake sockeye,,5
+survey_coverage,Kanim,Lake sockeye,,0
+survey_coverage,Kdelmashan Creek,Lake sockeye,,0
+survey_coverage,Keecha,Lake sockeye,,5
+survey_coverage,Kennedy,Lake sockeye,,0
+survey_coverage,Kent Inlet Lagoon Creek,Lake sockeye,,0
+survey_coverage,Kenzuwash Creeks,Lake sockeye,,0
+survey_coverage,Keswar Creek,Lake sockeye,,0
+survey_coverage,Kildidt Creek,Lake sockeye,,0
+survey_coverage,Kildidt Lagoon Creek,Lake sockeye,,0
+survey_coverage,Kimsquit,Lake sockeye,,0
+survey_coverage,Kisameet,Lake sockeye,,0
+survey_coverage,Kitkiata,Lake sockeye,,0
+survey_coverage,Kitlope,Lake sockeye,,5
+survey_coverage,Kitsumkalum,Lake sockeye,,2
+survey_coverage,Kluatantan,Lake sockeye,,0
+survey_coverage,Kluayaz,Lake sockeye,,0
+survey_coverage,Koeye,Lake sockeye,,0
+survey_coverage,Kooryet,Lake sockeye,,5
+survey_coverage,Kunsoot River,Lake sockeye,,0
+survey_coverage,Kwakwa Creek,Lake sockeye,,0
+survey_coverage,Lakelse,Lake sockeye,,5
+survey_coverage,Lewis Creek,Lake sockeye,,0
+survey_coverage,Lillooet-Harrison-Late,Lake sockeye,,5
+survey_coverage,Limestone Creek,Lake sockeye,,0
+survey_coverage,Long,Lake sockeye,,5
+survey_coverage,Loose,Lake sockeye,,0
+survey_coverage,Lowe/Simpson/Weir,Lake sockeye,,5
+survey_coverage,Mackenzie,Lake sockeye,,5
+survey_coverage,Maggie,Lake sockeye,,0
+survey_coverage,Marian/Eden,Lake sockeye,,5
+survey_coverage,Mary Cove Creek,Lake sockeye,,5
+survey_coverage,Mathers,Lake sockeye,,0
+survey_coverage,Mcdonald Creek,Lake sockeye,,0
+survey_coverage,Mcdonell/Dennis/Aldrich,Lake sockeye,,5
+survey_coverage,Mcloughlin,Lake sockeye,,0
+survey_coverage,Megin,Lake sockeye,,0
+survey_coverage,Mercer,Lake sockeye,,5
+survey_coverage,Mikado,Lake sockeye,,5
+survey_coverage,Monckton Inlet Creek,Lake sockeye,,0
+survey_coverage,Morice/Atna,Lake sockeye,,4
+survey_coverage,Motase,Lake sockeye,,5
+survey_coverage,Muchalat,Lake sockeye,,0
+survey_coverage,Muriel,Lake sockeye,,0
+survey_coverage,Nadina-Francois-Early Summer,Lake sockeye,,5
+survey_coverage,Nahatlatch-Early Summer,Lake sockeye,,5
+survey_coverage,Nahwitti,Lake sockeye,,0
+survey_coverage,Namu,Lake sockeye,,5
+survey_coverage,Nilkitkwa,Lake sockeye,,5
+survey_coverage,Nimpkish,Lake sockeye,,5
+survey_coverage,Nitinat,Lake sockeye,,0
+survey_coverage,North Barriere-Early Summer (de novo),Lake sockeye,,5
+survey_coverage,O'Connell,Lake sockeye,,0
+survey_coverage,Owikeno,Lake sockeye,,3
+survey_coverage,Park River,Lake sockeye,,0
+survey_coverage,Phillips,Lake sockeye,,5
+survey_coverage,Pine River,Lake sockeye,,0
+survey_coverage,Pitt-Early Summer,Lake sockeye,,5
+survey_coverage,Port John,Lake sockeye,,5
+survey_coverage,Power,Lake sockeye,,0
+survey_coverage,Powles Creek,Lake sockeye,,0
+survey_coverage,Price Creek,Lake sockeye,,0
+survey_coverage,Quatse,Lake sockeye,,0
+survey_coverage,Quesnel-Summer (cyclic),Lake sockeye,,5
+survey_coverage,Roderick,Lake sockeye,,5
+survey_coverage,Ryan Creek,Lake sockeye,,0
+survey_coverage,Sakinaw,Lake sockeye,,5
+survey_coverage,Salter,Lake sockeye,,0
+survey_coverage,Schoen,Lake sockeye,,0
+survey_coverage,Scoular/Kilpatrick,Lake sockeye,,0
+survey_coverage,Seton-Late (de novo),Lake sockeye,,0
+survey_coverage,Sheneeza Inlet,Lake sockeye,,0
+survey_coverage,Ship Point Creek,Lake sockeye,,0
+survey_coverage,Shushartie,Lake sockeye,,0
+survey_coverage,Shuswap-Early Summer (cyclic),Lake sockeye,,0
+survey_coverage,Shuswap-Late (cyclic),Lake sockeye,,5
+survey_coverage,Sicintine,Lake sockeye,,0
+survey_coverage,Skidegate,Lake sockeye,,5
+survey_coverage,Slamgeesh,Lake sockeye,,0
+survey_coverage,Soda Creek,Lake sockeye,,0
+survey_coverage,South Atnarko Lakes,Lake sockeye,,5
+survey_coverage,Spawning,Lake sockeye,,0
+survey_coverage,Spencer Creek,Lake sockeye,,0
+survey_coverage,Sproat,Lake sockeye,,0
+survey_coverage,Stannard Creek,Lake sockeye,,0
+survey_coverage,Stephens,Lake sockeye,,4
+survey_coverage,Sustut,Lake sockeye,,0
+survey_coverage,Swan/Club,Lake sockeye,,2
+survey_coverage,Tahlo/Morrison,Lake sockeye,,4
+survey_coverage,Takla-Trembleur-Early Stuart (cyclic),Lake sockeye,,5
+survey_coverage,Takla-Trembleur-Stuart-Summer (cyclic),Lake sockeye,,5
+survey_coverage,Talamoosa Creek,Lake sockeye,,0
+survey_coverage,Tankeeah River,Lake sockeye,,5
+survey_coverage,Taseko-Early Summer,Lake sockeye,,5
+survey_coverage,Treneman Creek,Lake sockeye,,0
+survey_coverage,Tsimtack/Moore/Roger,Lake sockeye,,5
+survey_coverage,Tuno Creek East,Lake sockeye,,0
+survey_coverage,Tuno Creek West,Lake sockeye,,0
+survey_coverage,Tyler Creek,Lake sockeye,,0
+survey_coverage,Tzoonie,Lake sockeye,,0
+survey_coverage,Vernon,Lake sockeye,,0
+survey_coverage,Wale Creek,Lake sockeye,,0
+survey_coverage,Wannock (Owikeno),Lake sockeye,,0
+survey_coverage,Watt Bay,Lake sockeye,,0
+survey_coverage,West Creek,Lake sockeye,,0
+survey_coverage,William-Brink,Lake sockeye,,0
+survey_coverage,Woss,Lake sockeye,,0
+survey_coverage,Yaaklele Lagoon,Lake sockeye,,0
+survey_coverage,Yakoun,Lake sockeye,,5
+survey_coverage,Yeo,Lake sockeye,,5
+survey_coverage,East Haida Gwaii (even),Pink (even),,2
+survey_coverage,Georgia Strait (even),Pink (even),,4
+survey_coverage,Hecate Lowlands (even),Pink (even),,4
+survey_coverage,Hecate Strait-Fjords (even),Pink (even),,4
+survey_coverage,Middle-Upper Skeena (even),Pink (even),,4
+survey_coverage,Nass-Skeena Estuary (even),Pink (even),,4
+survey_coverage,North Haida Gwaii (even),Pink (even),,3
+survey_coverage,Northwest Vancouver Island (even),Pink (even),,0
+survey_coverage,Southern Fjords (even),Pink (even),,2
+survey_coverage,West Haida Gwaii (even),Pink (even),,2
+survey_coverage,West Vancouver Island (even),Pink (even),,0
+survey_coverage,East Haida Gwaii (odd),Pink (odd),,1
+survey_coverage,East Howe Sound-Burrard Inlet (odd),Pink (odd),,0
+survey_coverage,East Vancouver Island-Johnstone Strait (odd),Pink (odd),,4
+survey_coverage,Fraser River (odd),Pink (odd),,5
+survey_coverage,Georgia Strait (odd),Pink (odd),,3
+survey_coverage,Hecate Strait-Fjords (odd),Pink (odd),,4
+survey_coverage,Hecate Strait-Lowlands (odd),Pink (odd),,3
+survey_coverage,Homathko-Klinaklini-Smith-Rivers-Bella Coola-Dean (odd),Pink (odd),,2
+survey_coverage,Lower Skeena River (odd),Pink (odd),,3
+survey_coverage,Middle-Upper Skeena (odd),Pink (odd),,3
+survey_coverage,Nahwitti (odd),Pink (odd),,2
+survey_coverage,Nass-Skeena Estuary (odd),Pink (odd),,2
+survey_coverage,North Haida Gwaii (odd),Pink (odd),,0
+survey_coverage,Southern Fjords (odd),Pink (odd),,1
+survey_coverage,West Haida Gwaii (odd),Pink (odd),,1
+survey_coverage,West Vancouver Island (odd),Pink (odd),,0
+survey_coverage,East Haida Gwaii (river-type),River sockeye,,0
+survey_coverage,East Vancouver Island & Georgia Strait (river-type),River sockeye,,0
+survey_coverage,Harrison River (river-type),River sockeye,,5
+survey_coverage,North Haida Gwaii (river-type),River sockeye,,0
+survey_coverage,Northern Coastal Fjords (river-type),River sockeye,,0
+survey_coverage,Northern Coastal Streams (river-type),River sockeye,,0
+survey_coverage,NW Vancouver Island (river-type),River sockeye,,0
+survey_coverage,Rivers-Smith Inlets (river-type),River sockeye,,0
+survey_coverage,Skeena River-High Interior (river-type),River sockeye,,5
+survey_coverage,Skeena River (river-type),River sockeye,,0
+survey_coverage,Southern Fjords (river-type),River sockeye,,0
+survey_coverage,West Haida Gwaii (river-type),River sockeye,,0
+survey_coverage,West Vancouver Island (river-type),River sockeye,,0
+survey_coverage,Widgeon (river-type),River sockeye,,0
+survey_execution,Bella Coola-Bentinck,Chinook,,2
+survey_execution,Boundary Bay (Fall 4-1),Chinook,,0
+survey_execution,Dean River,Chinook,,1
+survey_execution,Docee,Chinook,,0
+survey_execution,East Haida Gwaii,Chinook,,0
+survey_execution,East Vancouver Island-Cowichan and Koksilah (Fall x-1),Chinook,,5
+survey_execution,East Vancouver Island-Georgia Strait (Summer 4-1),Chinook,,5
+survey_execution,East Vancouver Island-Goldstream (Fall x-1),Chinook,,0
+survey_execution,East Vancouver Island-Nanaimo (Spring x-2),Chinook,,0
+survey_execution,East Vancouver Island-Nanaimo and Chemainus (Fall x-1),Chinook,,5
+survey_execution,East Vancouver Island-North (Fall x-1),Chinook,,5
+survey_execution,East Vancouver Island-Qualicum and Puntledge (Fall x-1),Chinook,,5
+survey_execution,Ecstall,Chinook,,0
+survey_execution,Fraser Canyon-Nahatlatch (Spring 5-2),Chinook,,0
+survey_execution,Homathko (Summer x-x),Chinook,,0
+survey_execution,Kalum-Early,Chinook,,0
+survey_execution,Kalum-Late,Chinook,,4
+survey_execution,Klinaklini (Summer 5-2),Chinook,,0
+survey_execution,Lakelse,Chinook,,0
+survey_execution,Lower Fraser River-Maria Slough (Summer 4-1),Chinook,,0
+survey_execution,Lower Fraser River-Upper Pitt (Summer 5-2),Chinook,,0
+survey_execution,Lower Fraser River (Fall 4-1),Chinook,,5
+survey_execution,Lower Fraser River (Spring 5-2),Chinook,,5
+survey_execution,Lower Fraser River (Summer 5-2),Chinook,,0
+survey_execution,Lower Skeena,Chinook,,1
+survey_execution,Lower Thompson River (Spring 4-2),Chinook,,5
+survey_execution,Middle Fraser River-Portage (Fall 5-2),Chinook,,0
+survey_execution,Middle Fraser River (Spring 5-2),Chinook,,5
+survey_execution,Middle Fraser River (Summer 5-2),Chinook,,4
+survey_execution,Middle Skeena-Large Lakes,Chinook,,5
+survey_execution,Middle Skeena-Mainstem Tributaries,Chinook,,2
+survey_execution,North & Central Coast-Early,Chinook,,3
+survey_execution,North & Central Coast-Late,Chinook,,0
+survey_execution,North Haida Gwaii,Chinook,,0
+survey_execution,North Thompson River (Spring 5-2),Chinook,,5
+survey_execution,North Thompson River (Summer 5-2),Chinook,,5
+survey_execution,Rivers Inlet,Chinook,,1
+survey_execution,Shuswap River (Summer 4-1),Chinook,,5
+survey_execution,Sicintine,Chinook,,0
+survey_execution,Skeena Estuary,Chinook,,0
+survey_execution,South Thompson-Adams River Upper,Chinook,,0
+survey_execution,South Thompson River-Bessette Creek (Summer 4-2),Chinook,,5
+survey_execution,South Thompson River (Summer 4-1),Chinook,,5
+survey_execution,South Thompson River (Summer 5-2),Chinook,,5
+survey_execution,Southern Mainland-Georgia Strait (Fall x-1),Chinook,,0
+survey_execution,Southern Mainland-Southern Fjords (Fall x-1),Chinook,,2
+survey_execution,Upper Bulkley River,Chinook,,0
+survey_execution,Upper Fraser River (Spring 5-2),Chinook,,5
+survey_execution,Upper Skeena,Chinook,,0
+survey_execution,Wannock,Chinook,,2
+survey_execution,West Vancouver Island-Nootka and Kyuquot (Fall x-1),Chinook,,5
+survey_execution,West Vancouver Island-North (Fall x-1),Chinook,,2
+survey_execution,West Vancouver Island-South (Fall x-1),Chinook,,4
+survey_execution,Zymoetz,Chinook,,0
+survey_execution,Bella Coola-Dean Rivers,Chum,,4
+survey_execution,Bella Coola River-Late,Chum,,0
+survey_execution,Bute Inlet,Chum,,0
+survey_execution,Douglas-Gardner,Chum,,5
+survey_execution,East Haida Gwaii,Chum,,4
+survey_execution,Georgia Strait,Chum,,4
+survey_execution,Hecate Lowlands,Chum,,3
+survey_execution,Howe Sound-Burrard Inlet,Chum,,0
+survey_execution,Loughborough,Chum,,3
+survey_execution,Lower Fraser,Chum,,2
+survey_execution,Lower Skeena,Chum,,2
+survey_execution,Middle Skeena,Chum,,2
+survey_execution,Mussel-Kynoch,Chum,,4
+survey_execution,North Haida Gwaii,Chum,,2
+survey_execution,North Haida Gwaii-Stanley Creek,Chum,,0
+survey_execution,Northeast Vancouver Island,Chum,,4
+survey_execution,Northwest Vancouver Island,Chum,,3
+survey_execution,Rivers Inlet,Chum,,2
+survey_execution,Skeena Estuary,Chum,,1
+survey_execution,Skidegate,Chum,,4
+survey_execution,Smith Inlet,Chum,,3
+survey_execution,Southern Coastal Streams,Chum,,1
+survey_execution,Southwest & West Vancouver Island,Chum,,4
+survey_execution,Spiller-Fitz-Hugh-Burke,Chum,,3
+survey_execution,Upper Knight,Chum,,0
+survey_execution,Upper Skeena,Chum,,0
+survey_execution,Wannock,Chum,,0
+survey_execution,West Haida Gwaii,Chum,,3
+survey_execution,Bella Coola-Dean Rivers,Coho,,4
+survey_execution,Boundary Bay,Coho,,0
+survey_execution,Brim-Wahoo,Coho,,5
+survey_execution,Clayoquot,Coho,,3
+survey_execution,Douglas Channel-Kitimat Arm,Coho,,4
+survey_execution,East Haida Gwaii,Coho,,3
+survey_execution,East Vancouver Island-Georgia Strait,Coho,,2
+survey_execution,East Vancouver Island-Johnstone Strait-Southern Fjords,Coho,,5
+survey_execution,Fraser Canyon,Coho,,5
+survey_execution,Georgia Strait Mainland,Coho,,2
+survey_execution,Haida Gwaii-Graham Island Lowlands,Coho,,3
+survey_execution,Hecate Strait Mainland,Coho,,1
+survey_execution,Homathko-Klinaklini Rivers,Coho,,0
+survey_execution,Howe Sound-Burrard Inlet,Coho,,0
+survey_execution,Interior Fraser,Coho,,4
+survey_execution,Juan de Fuca-Pachena,Coho,,3
+survey_execution,Lillooet,Coho,,0
+survey_execution,Lower Fraser,Coho,,0
+survey_execution,Lower Skeena,Coho,,2
+survey_execution,Lower Thompson,Coho,,5
+survey_execution,Middle Skeena,Coho,,2
+survey_execution,Mussel-Kynoch,Coho,,2
+survey_execution,Nahwitti Lowland,Coho,,5
+survey_execution,North Thompson,Coho,,5
+survey_execution,Northern Coastal Streams,Coho,,4
+survey_execution,Rivers Inlet,Coho,,0
+survey_execution,Skeena Estuary,Coho,,0
+survey_execution,Smith Inlet,Coho,,1
+survey_execution,South Thompson,Coho,,4
+survey_execution,Southern Coastal Streams-Queen Charlotte Strait-Johnstone Strait-Southern Fjords,Coho,,1
+survey_execution,Upper Skeena,Coho,,3
+survey_execution,West Haida Gwaii,Coho,,2
+survey_execution,West Vancouver Island,Coho,,3
+survey_execution,Adams & Momich Lakes-Early Summer,Lake sockeye,,0
+survey_execution,Ain-Skundale-Ian,Lake sockeye,,0
+survey_execution,Alastair,Lake sockeye,,5
+survey_execution,Alice,Lake sockeye,,0
+survey_execution,Anderson-Seton-Early Summer,Lake sockeye,,5
+survey_execution,Asitika,Lake sockeye,,4
+survey_execution,Awun,Lake sockeye,,5
+survey_execution,Azuklotz,Lake sockeye,,2
+survey_execution,Babine (enhanced),Lake sockeye,,5
+survey_execution,Babine/Onerka,Lake sockeye,,5
+survey_execution,Backland,Lake sockeye,,4
+survey_execution,Banks,Lake sockeye,,0
+survey_execution,Bear,Lake sockeye,,1
+survey_execution,Bloomfield,Lake sockeye,,2
+survey_execution,Bolton Creek,Lake sockeye,,0
+survey_execution,Bonilla,Lake sockeye,,0
+survey_execution,Borrowman Creek,Lake sockeye,,0
+survey_execution,Bowron-Early Summer,Lake sockeye,,5
+survey_execution,Bulkley/Maxan,Lake sockeye,,0
+survey_execution,Busey Creek,Lake sockeye,,0
+survey_execution,Canoe Creek,Lake sockeye,,0
+survey_execution,Canoona,Lake sockeye,,3
+survey_execution,Cartwright Creek,Lake sockeye,,0
+survey_execution,Cecilia,Lake sockeye,,0
+survey_execution,Cheewat,Lake sockeye,,0
+survey_execution,Chic Chic,Lake sockeye,,0
+survey_execution,Chilko-Early Summer,Lake sockeye,,0
+survey_execution,Chilko-Summer,Lake sockeye,,5
+survey_execution,Chilliwack-Early Summer (cyclic),Lake sockeye,,5
+survey_execution,Citeyats,Lake sockeye,,0
+survey_execution,Clayoquot,Lake sockeye,,0
+survey_execution,Cultus-Late,Lake sockeye,,5
+survey_execution,Curtis Inlet,Lake sockeye,,3
+survey_execution,Dallain Creek,Lake sockeye,,0
+survey_execution,Damshilgwit,Lake sockeye,,5
+survey_execution,Deer,Lake sockeye,,0
+survey_execution,Deserted,Lake sockeye,,0
+survey_execution,Devon,Lake sockeye,,5
+survey_execution,Dome,Lake sockeye,,0
+survey_execution,Douglas Creek,Lake sockeye,,0
+survey_execution,Ecstall/Lower,Lake sockeye,,0
+survey_execution,Elizabeth,Lake sockeye,,0
+survey_execution,Elsie/Hoy,Lake sockeye,,0
+survey_execution,End Hill Creek,Lake sockeye,,0
+survey_execution,Evelyn,Lake sockeye,,5
+survey_execution,Evinrude Inlet,Lake sockeye,,0
+survey_execution,Fairfax,Lake sockeye,,0
+survey_execution,Fairy,Lake sockeye,,0
+survey_execution,Fannie Cove,Lake sockeye,,0
+survey_execution,Footsore/Hodder,Lake sockeye,,0
+survey_execution,Francois-Fraser-Summer,Lake sockeye,,5
+survey_execution,Freeda,Lake sockeye,,0
+survey_execution,Fulmore,Lake sockeye,,0
+survey_execution,Gitanyow (Kitwanga/Kitwancool),Lake sockeye,,5
+survey_execution,Great Central,Lake sockeye,,0
+survey_execution,Harrison-Downstream Migrating-Late,Lake sockeye,,5
+survey_execution,Harrison-Upstream Migrating-Late,Lake sockeye,,5
+survey_execution,Hartley Bay,Lake sockeye,,5
+survey_execution,Henderson,Lake sockeye,,2
+survey_execution,Hesquiat,Lake sockeye,,1
+survey_execution,Hevenor Inlet,Lake sockeye,,0
+survey_execution,Heydon,Lake sockeye,,0
+survey_execution,Higgins Lagoon,Lake sockeye,,0
+survey_execution,Hobiton,Lake sockeye,,0
+survey_execution,Ida-Bonanza,Lake sockeye,,0
+survey_execution,Jalun,Lake sockeye,,0
+survey_execution,Jansen,Lake sockeye,,0
+survey_execution,Johanson,Lake sockeye,,0
+survey_execution,Johnston,Lake sockeye,,0
+survey_execution,Kadjusdis River,Lake sockeye,,2
+survey_execution,Kainet Creek,Lake sockeye,,5
+survey_execution,Kakweiken,Lake sockeye,,0
+survey_execution,Kamloops-Early Summer,Lake sockeye,,5
+survey_execution,Kanim,Lake sockeye,,0
+survey_execution,Kdelmashan Creek,Lake sockeye,,0
+survey_execution,Keecha,Lake sockeye,,3
+survey_execution,Kennedy,Lake sockeye,,0
+survey_execution,Kent Inlet Lagoon Creek,Lake sockeye,,0
+survey_execution,Kenzuwash Creeks,Lake sockeye,,0
+survey_execution,Keswar Creek,Lake sockeye,,0
+survey_execution,Kildidt Creek,Lake sockeye,,0
+survey_execution,Kildidt Lagoon Creek,Lake sockeye,,0
+survey_execution,Kimsquit,Lake sockeye,,0
+survey_execution,Kisameet,Lake sockeye,,0
+survey_execution,Kitkiata,Lake sockeye,,0
+survey_execution,Kitlope,Lake sockeye,,5
+survey_execution,Kitsumkalum,Lake sockeye,,2
+survey_execution,Kluatantan,Lake sockeye,,0
+survey_execution,Kluayaz,Lake sockeye,,0
+survey_execution,Koeye,Lake sockeye,,0
+survey_execution,Kooryet,Lake sockeye,,4
+survey_execution,Kunsoot River,Lake sockeye,,0
+survey_execution,Kwakwa Creek,Lake sockeye,,0
+survey_execution,Lakelse,Lake sockeye,,3
+survey_execution,Lewis Creek,Lake sockeye,,0
+survey_execution,Lillooet-Harrison-Late,Lake sockeye,,5
+survey_execution,Limestone Creek,Lake sockeye,,0
+survey_execution,Long,Lake sockeye,,2
+survey_execution,Loose,Lake sockeye,,0
+survey_execution,Lowe/Simpson/Weir,Lake sockeye,,4
+survey_execution,Mackenzie,Lake sockeye,,1
+survey_execution,Maggie,Lake sockeye,,0
+survey_execution,Marian/Eden,Lake sockeye,,5
+survey_execution,Mary Cove Creek,Lake sockeye,,1
+survey_execution,Mathers,Lake sockeye,,0
+survey_execution,Mcdonald Creek,Lake sockeye,,0
+survey_execution,Mcdonell/Dennis/Aldrich,Lake sockeye,,4
+survey_execution,Mcloughlin,Lake sockeye,,0
+survey_execution,Megin,Lake sockeye,,0
+survey_execution,Mercer,Lake sockeye,,5
+survey_execution,Mikado,Lake sockeye,,3
+survey_execution,Monckton Inlet Creek,Lake sockeye,,0
+survey_execution,Morice/Atna,Lake sockeye,,5
+survey_execution,Motase,Lake sockeye,,1
+survey_execution,Muchalat,Lake sockeye,,0
+survey_execution,Muriel,Lake sockeye,,0
+survey_execution,Nadina-Francois-Early Summer,Lake sockeye,,5
+survey_execution,Nahatlatch-Early Summer,Lake sockeye,,5
+survey_execution,Nahwitti,Lake sockeye,,0
+survey_execution,Namu,Lake sockeye,,3
+survey_execution,Nilkitkwa,Lake sockeye,,5
+survey_execution,Nimpkish,Lake sockeye,,5
+survey_execution,Nitinat,Lake sockeye,,0
+survey_execution,North Barriere-Early Summer (de novo),Lake sockeye,,5
+survey_execution,O'Connell,Lake sockeye,,0
+survey_execution,Owikeno,Lake sockeye,,4
+survey_execution,Park River,Lake sockeye,,0
+survey_execution,Phillips,Lake sockeye,,5
+survey_execution,Pine River,Lake sockeye,,0
+survey_execution,Pitt-Early Summer,Lake sockeye,,5
+survey_execution,Port John,Lake sockeye,,5
+survey_execution,Power,Lake sockeye,,0
+survey_execution,Powles Creek,Lake sockeye,,0
+survey_execution,Price Creek,Lake sockeye,,0
+survey_execution,Quatse,Lake sockeye,,0
+survey_execution,Quesnel-Summer (cyclic),Lake sockeye,,5
+survey_execution,Roderick,Lake sockeye,,4
+survey_execution,Ryan Creek,Lake sockeye,,0
+survey_execution,Sakinaw,Lake sockeye,,5
+survey_execution,Salter,Lake sockeye,,0
+survey_execution,Schoen,Lake sockeye,,0
+survey_execution,Scoular/Kilpatrick,Lake sockeye,,0
+survey_execution,Seton-Late (de novo),Lake sockeye,,0
+survey_execution,Sheneeza Inlet,Lake sockeye,,0
+survey_execution,Ship Point Creek,Lake sockeye,,0
+survey_execution,Shushartie,Lake sockeye,,0
+survey_execution,Shuswap-Early Summer (cyclic),Lake sockeye,,0
+survey_execution,Shuswap-Late (cyclic),Lake sockeye,,5
+survey_execution,Sicintine,Lake sockeye,,0
+survey_execution,Skidegate,Lake sockeye,,5
+survey_execution,Slamgeesh,Lake sockeye,,0
+survey_execution,Soda Creek,Lake sockeye,,0
+survey_execution,South Atnarko Lakes,Lake sockeye,,5
+survey_execution,Spawning,Lake sockeye,,0
+survey_execution,Spencer Creek,Lake sockeye,,0
+survey_execution,Sproat,Lake sockeye,,0
+survey_execution,Stannard Creek,Lake sockeye,,0
+survey_execution,Stephens,Lake sockeye,,5
+survey_execution,Sustut,Lake sockeye,,0
+survey_execution,Swan/Club,Lake sockeye,,3
+survey_execution,Tahlo/Morrison,Lake sockeye,,5
+survey_execution,Takla-Trembleur-Early Stuart (cyclic),Lake sockeye,,5
+survey_execution,Takla-Trembleur-Stuart-Summer (cyclic),Lake sockeye,,4
+survey_execution,Talamoosa Creek,Lake sockeye,,0
+survey_execution,Tankeeah River,Lake sockeye,,2
+survey_execution,Taseko-Early Summer,Lake sockeye,,5
+survey_execution,Treneman Creek,Lake sockeye,,0
+survey_execution,Tsimtack/Moore/Roger,Lake sockeye,,5
+survey_execution,Tuno Creek East,Lake sockeye,,0
+survey_execution,Tuno Creek West,Lake sockeye,,0
+survey_execution,Tyler Creek,Lake sockeye,,0
+survey_execution,Tzoonie,Lake sockeye,,0
+survey_execution,Vernon,Lake sockeye,,0
+survey_execution,Wale Creek,Lake sockeye,,0
+survey_execution,Wannock (Owikeno),Lake sockeye,,0
+survey_execution,Watt Bay,Lake sockeye,,0
+survey_execution,West Creek,Lake sockeye,,0
+survey_execution,William-Brink,Lake sockeye,,0
+survey_execution,Woss,Lake sockeye,,0
+survey_execution,Yaaklele Lagoon,Lake sockeye,,0
+survey_execution,Yakoun,Lake sockeye,,5
+survey_execution,Yeo,Lake sockeye,,3
+survey_execution,East Haida Gwaii (even),Pink (even),,1
+survey_execution,Georgia Strait (even),Pink (even),,4
+survey_execution,Hecate Lowlands (even),Pink (even),,3
+survey_execution,Hecate Strait-Fjords (even),Pink (even),,4
+survey_execution,Middle-Upper Skeena (even),Pink (even),,2
+survey_execution,Nass-Skeena Estuary (even),Pink (even),,3
+survey_execution,North Haida Gwaii (even),Pink (even),,1
+survey_execution,Northwest Vancouver Island (even),Pink (even),,0
+survey_execution,Southern Fjords (even),Pink (even),,4
+survey_execution,West Haida Gwaii (even),Pink (even),,1
+survey_execution,West Vancouver Island (even),Pink (even),,0
+survey_execution,East Haida Gwaii (odd),Pink (odd),,1
+survey_execution,East Howe Sound-Burrard Inlet (odd),Pink (odd),,0
+survey_execution,East Vancouver Island-Johnstone Strait (odd),Pink (odd),,5
+survey_execution,Fraser River (odd),Pink (odd),,5
+survey_execution,Georgia Strait (odd),Pink (odd),,5
+survey_execution,Hecate Strait-Fjords (odd),Pink (odd),,3
+survey_execution,Hecate Strait-Lowlands (odd),Pink (odd),,3
+survey_execution,Homathko-Klinaklini-Smith-Rivers-Bella Coola-Dean (odd),Pink (odd),,1
+survey_execution,Lower Skeena River (odd),Pink (odd),,2
+survey_execution,Middle-Upper Skeena (odd),Pink (odd),,2
+survey_execution,Nahwitti (odd),Pink (odd),,3
+survey_execution,Nass-Skeena Estuary (odd),Pink (odd),,3
+survey_execution,North Haida Gwaii (odd),Pink (odd),,0
+survey_execution,Southern Fjords (odd),Pink (odd),,2
+survey_execution,West Haida Gwaii (odd),Pink (odd),,0
+survey_execution,West Vancouver Island (odd),Pink (odd),,0
+survey_execution,East Haida Gwaii (river-type),River sockeye,,0
+survey_execution,East Vancouver Island & Georgia Strait (river-type),River sockeye,,0
+survey_execution,Harrison River (river-type),River sockeye,,5
+survey_execution,North Haida Gwaii (river-type),River sockeye,,0
+survey_execution,Northern Coastal Fjords (river-type),River sockeye,,0
+survey_execution,Northern Coastal Streams (river-type),River sockeye,,0
+survey_execution,NW Vancouver Island (river-type),River sockeye,,0
+survey_execution,Rivers-Smith Inlets (river-type),River sockeye,,0
+survey_execution,Skeena River-High Interior (river-type),River sockeye,,3
+survey_execution,Skeena River (river-type),River sockeye,,0
+survey_execution,Southern Fjords (river-type),River sockeye,,0
+survey_execution,West Haida Gwaii (river-type),River sockeye,,0
+survey_execution,West Vancouver Island (river-type),River sockeye,,0
+survey_execution,Widgeon (river-type),River sockeye,,0
+survey_quality,Bella Coola-Bentinck,Chinook,,1
+survey_quality,Boundary Bay (Fall 4-1),Chinook,,0
+survey_quality,Dean River,Chinook,,1
+survey_quality,Docee,Chinook,,0
+survey_quality,East Haida Gwaii,Chinook,,0
+survey_quality,East Vancouver Island-Cowichan and Koksilah (Fall x-1),Chinook,,5
+survey_quality,East Vancouver Island-Georgia Strait (Summer 4-1),Chinook,,4
+survey_quality,East Vancouver Island-Goldstream (Fall x-1),Chinook,,0
+survey_quality,East Vancouver Island-Nanaimo (Spring x-2),Chinook,,0
+survey_quality,East Vancouver Island-Nanaimo and Chemainus (Fall x-1),Chinook,,3
+survey_quality,East Vancouver Island-North (Fall x-1),Chinook,,4
+survey_quality,East Vancouver Island-Qualicum and Puntledge (Fall x-1),Chinook,,3
+survey_quality,Ecstall,Chinook,,0
+survey_quality,Fraser Canyon-Nahatlatch (Spring 5-2),Chinook,,0
+survey_quality,Homathko (Summer x-x),Chinook,,0
+survey_quality,Kalum-Early,Chinook,,0
+survey_quality,Kalum-Late,Chinook,,1
+survey_quality,Klinaklini (Summer 5-2),Chinook,,0
+survey_quality,Lakelse,Chinook,,0
+survey_quality,Lower Fraser River-Maria Slough (Summer 4-1),Chinook,,0
+survey_quality,Lower Fraser River-Upper Pitt (Summer 5-2),Chinook,,0
+survey_quality,Lower Fraser River (Fall 4-1),Chinook,,4
+survey_quality,Lower Fraser River (Spring 5-2),Chinook,,2
+survey_quality,Lower Fraser River (Summer 5-2),Chinook,,0
+survey_quality,Lower Skeena,Chinook,,1
+survey_quality,Lower Thompson River (Spring 4-2),Chinook,,3
+survey_quality,Middle Fraser River-Portage (Fall 5-2),Chinook,,0
+survey_quality,Middle Fraser River (Spring 5-2),Chinook,,2
+survey_quality,Middle Fraser River (Summer 5-2),Chinook,,3
+survey_quality,Middle Skeena-Large Lakes,Chinook,,3
+survey_quality,Middle Skeena-Mainstem Tributaries,Chinook,,1
+survey_quality,North & Central Coast-Early,Chinook,,0
+survey_quality,North & Central Coast-Late,Chinook,,0
+survey_quality,North Haida Gwaii,Chinook,,0
+survey_quality,North Thompson River (Spring 5-2),Chinook,,3
+survey_quality,North Thompson River (Summer 5-2),Chinook,,2
+survey_quality,Rivers Inlet,Chinook,,1
+survey_quality,Shuswap River (Summer 4-1),Chinook,,4
+survey_quality,Sicintine,Chinook,,0
+survey_quality,Skeena Estuary,Chinook,,0
+survey_quality,South Thompson-Adams River Upper,Chinook,,0
+survey_quality,South Thompson River-Bessette Creek (Summer 4-2),Chinook,,3
+survey_quality,South Thompson River (Summer 4-1),Chinook,,2
+survey_quality,South Thompson River (Summer 5-2),Chinook,,3
+survey_quality,Southern Mainland-Georgia Strait (Fall x-1),Chinook,,0
+survey_quality,Southern Mainland-Southern Fjords (Fall x-1),Chinook,,3
+survey_quality,Upper Bulkley River,Chinook,,0
+survey_quality,Upper Fraser River (Spring 5-2),Chinook,,2
+survey_quality,Upper Skeena,Chinook,,0
+survey_quality,Wannock,Chinook,,1
+survey_quality,West Vancouver Island-Nootka and Kyuquot (Fall x-1),Chinook,,3
+survey_quality,West Vancouver Island-North (Fall x-1),Chinook,,3
+survey_quality,West Vancouver Island-South (Fall x-1),Chinook,,3
+survey_quality,Zymoetz,Chinook,,0
+survey_quality,Bella Coola-Dean Rivers,Chum,,1
+survey_quality,Bella Coola River-Late,Chum,,0
+survey_quality,Bute Inlet,Chum,,0
+survey_quality,Douglas-Gardner,Chum,,2
+survey_quality,East Haida Gwaii,Chum,,1
+survey_quality,Georgia Strait,Chum,,3
+survey_quality,Hecate Lowlands,Chum,,1
+survey_quality,Howe Sound-Burrard Inlet,Chum,,0
+survey_quality,Loughborough,Chum,,2
+survey_quality,Lower Fraser,Chum,,3
+survey_quality,Lower Skeena,Chum,,1
+survey_quality,Middle Skeena,Chum,,2
+survey_quality,Mussel-Kynoch,Chum,,1
+survey_quality,North Haida Gwaii,Chum,,1
+survey_quality,North Haida Gwaii-Stanley Creek,Chum,,1
+survey_quality,Northeast Vancouver Island,Chum,,1
+survey_quality,Northwest Vancouver Island,Chum,,2
+survey_quality,Rivers Inlet,Chum,,1
+survey_quality,Skeena Estuary,Chum,,0
+survey_quality,Skidegate,Chum,,1
+survey_quality,Smith Inlet,Chum,,1
+survey_quality,Southern Coastal Streams,Chum,,3
+survey_quality,Southwest & West Vancouver Island,Chum,,3
+survey_quality,Spiller-Fitz-Hugh-Burke,Chum,,1
+survey_quality,Upper Knight,Chum,,0
+survey_quality,Upper Skeena,Chum,,0
+survey_quality,Wannock,Chum,,0
+survey_quality,West Haida Gwaii,Chum,,1
+survey_quality,Bella Coola-Dean Rivers,Coho,,1
+survey_quality,Boundary Bay,Coho,,0
+survey_quality,Brim-Wahoo,Coho,,0
+survey_quality,Clayoquot,Coho,,3
+survey_quality,Douglas Channel-Kitimat Arm,Coho,,0
+survey_quality,East Haida Gwaii,Coho,,1
+survey_quality,East Vancouver Island-Georgia Strait,Coho,,3
+survey_quality,East Vancouver Island-Johnstone Strait-Southern Fjords,Coho,,3
+survey_quality,Fraser Canyon,Coho,,3
+survey_quality,Georgia Strait Mainland,Coho,,3
+survey_quality,Haida Gwaii-Graham Island Lowlands,Coho,,1
+survey_quality,Hecate Strait Mainland,Coho,,1
+survey_quality,Homathko-Klinaklini Rivers,Coho,,0
+survey_quality,Howe Sound-Burrard Inlet,Coho,,0
+survey_quality,Interior Fraser,Coho,,3
+survey_quality,Juan de Fuca-Pachena,Coho,,3
+survey_quality,Lillooet,Coho,,0
+survey_quality,Lower Fraser,Coho,,0
+survey_quality,Lower Skeena,Coho,,1
+survey_quality,Lower Thompson,Coho,,5
+survey_quality,Middle Skeena,Coho,,1
+survey_quality,Mussel-Kynoch,Coho,,1
+survey_quality,Nahwitti Lowland,Coho,,4
+survey_quality,North Thompson,Coho,,3
+survey_quality,Northern Coastal Streams,Coho,,1
+survey_quality,Rivers Inlet,Coho,,0
+survey_quality,Skeena Estuary,Coho,,0
+survey_quality,Smith Inlet,Coho,,1
+survey_quality,South Thompson,Coho,,3
+survey_quality,Southern Coastal Streams-Queen Charlotte Strait-Johnstone Strait-Southern Fjords,Coho,,3
+survey_quality,Upper Skeena,Coho,,4
+survey_quality,West Haida Gwaii,Coho,,1
+survey_quality,West Vancouver Island,Coho,,3
+survey_quality,Adams & Momich Lakes-Early Summer,Lake sockeye,,0
+survey_quality,Ain-Skundale-Ian,Lake sockeye,,0
+survey_quality,Alastair,Lake sockeye,,1
+survey_quality,Alice,Lake sockeye,,0
+survey_quality,Anderson-Seton-Early Summer,Lake sockeye,,4
+survey_quality,Asitika,Lake sockeye,,0
+survey_quality,Awun,Lake sockeye,,2
+survey_quality,Azuklotz,Lake sockeye,,2
+survey_quality,Babine (enhanced),Lake sockeye,,5
+survey_quality,Babine/Onerka,Lake sockeye,,2
+survey_quality,Backland,Lake sockeye,,0
+survey_quality,Banks,Lake sockeye,,0
+survey_quality,Bear,Lake sockeye,,1
+survey_quality,Bloomfield,Lake sockeye,,0
+survey_quality,Bolton Creek,Lake sockeye,,0
+survey_quality,Bonilla,Lake sockeye,,0
+survey_quality,Borrowman Creek,Lake sockeye,,0
+survey_quality,Bowron-Early Summer,Lake sockeye,,2
+survey_quality,Bulkley/Maxan,Lake sockeye,,0
+survey_quality,Busey Creek,Lake sockeye,,0
+survey_quality,Canoe Creek,Lake sockeye,,0
+survey_quality,Canoona,Lake sockeye,,1
+survey_quality,Cartwright Creek,Lake sockeye,,0
+survey_quality,Cecilia,Lake sockeye,,0
+survey_quality,Cheewat,Lake sockeye,,0
+survey_quality,Chic Chic,Lake sockeye,,0
+survey_quality,Chilko-Early Summer,Lake sockeye,,0
+survey_quality,Chilko-Summer,Lake sockeye,,4
+survey_quality,Chilliwack-Early Summer (cyclic),Lake sockeye,,3
+survey_quality,Citeyats,Lake sockeye,,0
+survey_quality,Clayoquot,Lake sockeye,,0
+survey_quality,Cultus-Late,Lake sockeye,,5
+survey_quality,Curtis Inlet,Lake sockeye,,1
+survey_quality,Dallain Creek,Lake sockeye,,0
+survey_quality,Damshilgwit,Lake sockeye,,5
+survey_quality,Deer,Lake sockeye,,0
+survey_quality,Deserted,Lake sockeye,,0
+survey_quality,Devon,Lake sockeye,,1
+survey_quality,Dome,Lake sockeye,,0
+survey_quality,Douglas Creek,Lake sockeye,,0
+survey_quality,Ecstall/Lower,Lake sockeye,,0
+survey_quality,Elizabeth,Lake sockeye,,0
+survey_quality,Elsie/Hoy,Lake sockeye,,0
+survey_quality,End Hill Creek,Lake sockeye,,0
+survey_quality,Evelyn,Lake sockeye,,3
+survey_quality,Evinrude Inlet,Lake sockeye,,0
+survey_quality,Fairfax,Lake sockeye,,0
+survey_quality,Fairy,Lake sockeye,,0
+survey_quality,Fannie Cove,Lake sockeye,,0
+survey_quality,Footsore/Hodder,Lake sockeye,,0
+survey_quality,Francois-Fraser-Summer,Lake sockeye,,4
+survey_quality,Freeda,Lake sockeye,,0
+survey_quality,Fulmore,Lake sockeye,,0
+survey_quality,Gitanyow (Kitwanga/Kitwancool),Lake sockeye,,3
+survey_quality,Great Central,Lake sockeye,,0
+survey_quality,Harrison-Downstream Migrating-Late,Lake sockeye,,3
+survey_quality,Harrison-Upstream Migrating-Late,Lake sockeye,,3
+survey_quality,Hartley Bay,Lake sockeye,,3
+survey_quality,Henderson,Lake sockeye,,5
+survey_quality,Hesquiat,Lake sockeye,,0
+survey_quality,Hevenor Inlet,Lake sockeye,,0
+survey_quality,Heydon,Lake sockeye,,0
+survey_quality,Higgins Lagoon,Lake sockeye,,0
+survey_quality,Hobiton,Lake sockeye,,0
+survey_quality,Ida-Bonanza,Lake sockeye,,0
+survey_quality,Jalun,Lake sockeye,,0
+survey_quality,Jansen,Lake sockeye,,0
+survey_quality,Johanson,Lake sockeye,,0
+survey_quality,Johnston,Lake sockeye,,0
+survey_quality,Kadjusdis River,Lake sockeye,,0
+survey_quality,Kainet Creek,Lake sockeye,,1
+survey_quality,Kakweiken,Lake sockeye,,0
+survey_quality,Kamloops-Early Summer,Lake sockeye,,2
+survey_quality,Kanim,Lake sockeye,,0
+survey_quality,Kdelmashan Creek,Lake sockeye,,0
+survey_quality,Keecha,Lake sockeye,,1
+survey_quality,Kennedy,Lake sockeye,,0
+survey_quality,Kent Inlet Lagoon Creek,Lake sockeye,,0
+survey_quality,Kenzuwash Creeks,Lake sockeye,,0
+survey_quality,Keswar Creek,Lake sockeye,,0
+survey_quality,Kildidt Creek,Lake sockeye,,0
+survey_quality,Kildidt Lagoon Creek,Lake sockeye,,0
+survey_quality,Kimsquit,Lake sockeye,,0
+survey_quality,Kisameet,Lake sockeye,,0
+survey_quality,Kitkiata,Lake sockeye,,0
+survey_quality,Kitlope,Lake sockeye,,0
+survey_quality,Kitsumkalum,Lake sockeye,,1
+survey_quality,Kluatantan,Lake sockeye,,0
+survey_quality,Kluayaz,Lake sockeye,,0
+survey_quality,Koeye,Lake sockeye,,0
+survey_quality,Kooryet,Lake sockeye,,0
+survey_quality,Kunsoot River,Lake sockeye,,0
+survey_quality,Kwakwa Creek,Lake sockeye,,0
+survey_quality,Lakelse,Lake sockeye,,1
+survey_quality,Lewis Creek,Lake sockeye,,0
+survey_quality,Lillooet-Harrison-Late,Lake sockeye,,4
+survey_quality,Limestone Creek,Lake sockeye,,0
+survey_quality,Long,Lake sockeye,,1
+survey_quality,Loose,Lake sockeye,,0
+survey_quality,Lowe/Simpson/Weir,Lake sockeye,,0
+survey_quality,Mackenzie,Lake sockeye,,2
+survey_quality,Maggie,Lake sockeye,,0
+survey_quality,Marian/Eden,Lake sockeye,,2
+survey_quality,Mary Cove Creek,Lake sockeye,,0
+survey_quality,Mathers,Lake sockeye,,0
+survey_quality,Mcdonald Creek,Lake sockeye,,0
+survey_quality,Mcdonell/Dennis/Aldrich,Lake sockeye,,2
+survey_quality,Mcloughlin,Lake sockeye,,0
+survey_quality,Megin,Lake sockeye,,0
+survey_quality,Mercer,Lake sockeye,,2
+survey_quality,Mikado,Lake sockeye,,0
+survey_quality,Monckton Inlet Creek,Lake sockeye,,0
+survey_quality,Morice/Atna,Lake sockeye,,3
+survey_quality,Motase,Lake sockeye,,2
+survey_quality,Muchalat,Lake sockeye,,0
+survey_quality,Muriel,Lake sockeye,,0
+survey_quality,Nadina-Francois-Early Summer,Lake sockeye,,4
+survey_quality,Nahatlatch-Early Summer,Lake sockeye,,2
+survey_quality,Nahwitti,Lake sockeye,,0
+survey_quality,Namu,Lake sockeye,,2
+survey_quality,Nilkitkwa,Lake sockeye,,3
+survey_quality,Nimpkish,Lake sockeye,,4
+survey_quality,Nitinat,Lake sockeye,,0
+survey_quality,North Barriere-Early Summer (de novo),Lake sockeye,,3
+survey_quality,O'Connell,Lake sockeye,,0
+survey_quality,Owikeno,Lake sockeye,,1
+survey_quality,Park River,Lake sockeye,,0
+survey_quality,Phillips,Lake sockeye,,3
+survey_quality,Pine River,Lake sockeye,,0
+survey_quality,Pitt-Early Summer,Lake sockeye,,3
+survey_quality,Port John,Lake sockeye,,2
+survey_quality,Power,Lake sockeye,,0
+survey_quality,Powles Creek,Lake sockeye,,0
+survey_quality,Price Creek,Lake sockeye,,0
+survey_quality,Quatse,Lake sockeye,,0
+survey_quality,Quesnel-Summer (cyclic),Lake sockeye,,3
+survey_quality,Roderick,Lake sockeye,,1
+survey_quality,Ryan Creek,Lake sockeye,,0
+survey_quality,Sakinaw,Lake sockeye,,5
+survey_quality,Salter,Lake sockeye,,0
+survey_quality,Schoen,Lake sockeye,,0
+survey_quality,Scoular/Kilpatrick,Lake sockeye,,0
+survey_quality,Seton-Late (de novo),Lake sockeye,,0
+survey_quality,Sheneeza Inlet,Lake sockeye,,0
+survey_quality,Ship Point Creek,Lake sockeye,,0
+survey_quality,Shushartie,Lake sockeye,,0
+survey_quality,Shuswap-Early Summer (cyclic),Lake sockeye,,0
+survey_quality,Shuswap-Late (cyclic),Lake sockeye,,2
+survey_quality,Sicintine,Lake sockeye,,0
+survey_quality,Skidegate,Lake sockeye,,5
+survey_quality,Slamgeesh,Lake sockeye,,0
+survey_quality,Soda Creek,Lake sockeye,,0
+survey_quality,South Atnarko Lakes,Lake sockeye,,1
+survey_quality,Spawning,Lake sockeye,,0
+survey_quality,Spencer Creek,Lake sockeye,,0
+survey_quality,Sproat,Lake sockeye,,0
+survey_quality,Stannard Creek,Lake sockeye,,0
+survey_quality,Stephens,Lake sockeye,,2
+survey_quality,Sustut,Lake sockeye,,0
+survey_quality,Swan/Club,Lake sockeye,,0
+survey_quality,Tahlo/Morrison,Lake sockeye,,0
+survey_quality,Takla-Trembleur-Early Stuart (cyclic),Lake sockeye,,3
+survey_quality,Takla-Trembleur-Stuart-Summer (cyclic),Lake sockeye,,3
+survey_quality,Talamoosa Creek,Lake sockeye,,0
+survey_quality,Tankeeah River,Lake sockeye,,1
+survey_quality,Taseko-Early Summer,Lake sockeye,,2
+survey_quality,Treneman Creek,Lake sockeye,,0
+survey_quality,Tsimtack/Moore/Roger,Lake sockeye,,2
+survey_quality,Tuno Creek East,Lake sockeye,,0
+survey_quality,Tuno Creek West,Lake sockeye,,0
+survey_quality,Tyler Creek,Lake sockeye,,0
+survey_quality,Tzoonie,Lake sockeye,,0
+survey_quality,Vernon,Lake sockeye,,0
+survey_quality,Wale Creek,Lake sockeye,,0
+survey_quality,Wannock (Owikeno),Lake sockeye,,0
+survey_quality,Watt Bay,Lake sockeye,,0
+survey_quality,West Creek,Lake sockeye,,0
+survey_quality,William-Brink,Lake sockeye,,0
+survey_quality,Woss,Lake sockeye,,0
+survey_quality,Yaaklele Lagoon,Lake sockeye,,0
+survey_quality,Yakoun,Lake sockeye,,2
+survey_quality,Yeo,Lake sockeye,,0
+survey_quality,East Haida Gwaii (even),Pink (even),,0
+survey_quality,Georgia Strait (even),Pink (even),,4
+survey_quality,Hecate Lowlands (even),Pink (even),,0
+survey_quality,Hecate Strait-Fjords (even),Pink (even),,0
+survey_quality,Middle-Upper Skeena (even),Pink (even),,0
+survey_quality,Nass-Skeena Estuary (even),Pink (even),,0
+survey_quality,North Haida Gwaii (even),Pink (even),,0
+survey_quality,Northwest Vancouver Island (even),Pink (even),,0
+survey_quality,Southern Fjords (even),Pink (even),,3
+survey_quality,West Haida Gwaii (even),Pink (even),,0
+survey_quality,West Vancouver Island (even),Pink (even),,0
+survey_quality,East Haida Gwaii (odd),Pink (odd),,0
+survey_quality,East Howe Sound-Burrard Inlet (odd),Pink (odd),,0
+survey_quality,East Vancouver Island-Johnstone Strait (odd),Pink (odd),,3
+survey_quality,Fraser River (odd),Pink (odd),,5
+survey_quality,Georgia Strait (odd),Pink (odd),,3
+survey_quality,Hecate Strait-Fjords (odd),Pink (odd),,1
+survey_quality,Hecate Strait-Lowlands (odd),Pink (odd),,1
+survey_quality,Homathko-Klinaklini-Smith-Rivers-Bella Coola-Dean (odd),Pink (odd),,0
+survey_quality,Lower Skeena River (odd),Pink (odd),,1
+survey_quality,Middle-Upper Skeena (odd),Pink (odd),,1
+survey_quality,Nahwitti (odd),Pink (odd),,5
+survey_quality,Nass-Skeena Estuary (odd),Pink (odd),,1
+survey_quality,North Haida Gwaii (odd),Pink (odd),,0
+survey_quality,Southern Fjords (odd),Pink (odd),,3
+survey_quality,West Haida Gwaii (odd),Pink (odd),,0
+survey_quality,West Vancouver Island (odd),Pink (odd),,0
+survey_quality,East Haida Gwaii (river-type),River sockeye,,0
+survey_quality,East Vancouver Island & Georgia Strait (river-type),River sockeye,,0
+survey_quality,Harrison River (river-type),River sockeye,,4
+survey_quality,North Haida Gwaii (river-type),River sockeye,,0
+survey_quality,Northern Coastal Fjords (river-type),River sockeye,,0
+survey_quality,Northern Coastal Streams (river-type),River sockeye,,0
+survey_quality,NW Vancouver Island (river-type),River sockeye,,0
+survey_quality,Rivers-Smith Inlets (river-type),River sockeye,,0
+survey_quality,Skeena River-High Interior (river-type),River sockeye,,1
+survey_quality,Skeena River (river-type),River sockeye,,0
+survey_quality,Southern Fjords (river-type),River sockeye,,0
+survey_quality,West Haida Gwaii (river-type),River sockeye,,0
+survey_quality,West Vancouver Island (river-type),River sockeye,,0
+survey_quality,Widgeon (river-type),River sockeye,,0

@@ -1,0 +1,2002 @@
+stock.id,species,stock,region,sub.region,brood.yr,spawners,recruits,use,recruits.2,recruits.3,recruits.4,recruits.5,recruits.6,recruits.7,age
+301,Chum,Willapa Bay,Outside WA,Outside WA,1968,13200,102452,1,,37698,58088,6666,0,,data
+301,Chum,Willapa Bay,Outside WA,Outside WA,1969,33900,49558,1,,17844,30950,764,0,,data
+301,Chum,Willapa Bay,Outside WA,Outside WA,1970,23100,32832,1,,9999,22833,0,0,,data
+301,Chum,Willapa Bay,Outside WA,Outside WA,1971,37600,28026,1,,21350,6531,145,0,,data
+301,Chum,Willapa Bay,Outside WA,Outside WA,1972,22400,70219,1,,27309,42910,0,0,,data
+301,Chum,Willapa Bay,Outside WA,Outside WA,1973,14500,10956,1,,5213,5743,0,0,,data
+301,Chum,Willapa Bay,Outside WA,Outside WA,1974,12200,82709,1,,42118,39691,900,0,,data
+301,Chum,Willapa Bay,Outside WA,Outside WA,1975,12600,5129,1,,3405,1724,0,0,,data
+301,Chum,Willapa Bay,Outside WA,Outside WA,1976,16500,37755,1,,4873,30564,2318,0,,data
+301,Chum,Willapa Bay,Outside WA,Outside WA,1977,40200,60288,1,,34327,25422,539,0,,data
+301,Chum,Willapa Bay,Outside WA,Outside WA,1978,18900,157305,1,,12813,118125,26367,0,,data
+301,Chum,Willapa Bay,Outside WA,Outside WA,1979,6915,40605,1,,16028,22688,1889,0,,data
+301,Chum,Willapa Bay,Outside WA,Outside WA,1980,37300,49594,1,,19077,29957,560,0,,data
+301,Chum,Willapa Bay,Outside WA,Outside WA,1981,22120,56762,1,,33018,22901,843,0,,data
+301,Chum,Willapa Bay,Outside WA,Outside WA,1982,66889,112546,1,,46572,59328,6646,0,,data
+301,Chum,Willapa Bay,Outside WA,Outside WA,1983,20871,41943,1,,4668,30502,6773,0,,data
+301,Chum,Willapa Bay,Outside WA,Outside WA,1984,42635,250649,1,,59165,173340,18144,0,,data
+301,Chum,Willapa Bay,Outside WA,Outside WA,1985,52703,16457,1,,2746,12155,1556,0,,data
+301,Chum,Willapa Bay,Outside WA,Outside WA,1986,34040,34129.76,1,,4932,18420,10777.76,0,,data
+301,Chum,Willapa Bay,Outside WA,Outside WA,1987,31884,45388.99,1,,643,39742.99,5003,0,,data
+301,Chum,Willapa Bay,Outside WA,Outside WA,1988,61947,136550.22,1,,16840.25,93055.8,26337.6,316.57,,data
+301,Chum,Willapa Bay,Outside WA,Outside WA,1989,17056,21186.24,1,,2001.2,14485.68,4431.98,267.38,,data
+301,Chum,Willapa Bay,Outside WA,Outside WA,1990,17762,26880.63,1,,3072.72,19310.77,4278.08,219.06,,data
+301,Chum,Willapa Bay,Outside WA,Outside WA,1991,33959,22960.76,1,,7597.68,14705.9,657.18,0,,data
+301,Chum,Willapa Bay,Outside WA,Outside WA,1992,37068,27330.8,1,,7486.64,18839.16,1005,0,,data
+301,Chum,Willapa Bay,Outside WA,Outside WA,1993,31017,26297.08,1,,2190.6,18090,6016.48,0,,data
+301,Chum,Willapa Bay,Outside WA,Outside WA,1994,30526,78988.34,1,,14405,59412.74,5170.6,0,,data
+301,Chum,Willapa Bay,Outside WA,Outside WA,1995,24695,17740.63,1,,9776.78,7497.37,466.48,0,,data
+301,Chum,Willapa Bay,Outside WA,Outside WA,1996,20011,49863.42,1,,13185.03,34053.04,2625.35,0,,data
+301,Chum,Willapa Bay,Outside WA,Outside WA,1997,33314,50375.53,1,,12128.48,30979.13,7267.92,0,,data
+301,Chum,Willapa Bay,Outside WA,Outside WA,1998,65101,60486.81,1,,18902.52,39065.07,2519.22,0,,data
+301,Chum,Willapa Bay,Outside WA,Outside WA,1999,24512,131968.34,1,,43607.52,74736.86,13623.96,0,,data
+301,Chum,Willapa Bay,Outside WA,Outside WA,2000,40030,99668.01,1,,6717.92,86285.08,6438.39,226.62,,data
+301,Chum,Willapa Bay,Outside WA,Outside WA,2001,29389,32968.12,1,,14759.29,17075.73,1133.1,0,,data
+301,Chum,Willapa Bay,Outside WA,Outside WA,2002,59243,24677.97,1,,4758.81,18356.22,1562.94,0,,data
+301,Chum,Willapa Bay,Outside WA,Outside WA,2003,47347,17352.19,1,,2946.06,13545.48,860.65,0,,data
+301,Chum,Willapa Bay,Outside WA,Outside WA,2004,84021,13157.92,1,,2431.24,9344.2,1382.48,0,,data
+301,Chum,Willapa Bay,Outside WA,Outside WA,2005,11924,8486.09,1,,2090.15,5875.54,520.4,0,,data
+301,Chum,Willapa Bay,Outside WA,Outside WA,2006,14717,,,,10022.98,19775.2,1356.52,,,
+301,Chum,Willapa Bay,Outside WA,Outside WA,2007,17085,,,,5464.2,65112.96,,,,
+301,Chum,Willapa Bay,Outside WA,Outside WA,2008,9008,,,,1356.52,,,,,
+301,Chum,Willapa Bay,Outside WA,Outside WA,2009,12629,,,,,,,,,
+301,Chum,Willapa Bay,Outside WA,Outside WA,2010,24546,,,,,,,,,
+301,Chum,Willapa Bay,Outside WA,Outside WA,2011,64958,,,,,,,,,
+302,Chum,Grays Harbour,Outside WA,Outside WA,1969,11150,46156,1,,14133,30493,1530,0,,data
+302,Chum,Grays Harbour,Outside WA,Outside WA,1970,15700,39290,1,,13211,25666,413,0,,data
+302,Chum,Grays Harbour,Outside WA,Outside WA,1971,10250,16839,1,,11054,5785,0,0,,data
+302,Chum,Grays Harbour,Outside WA,Outside WA,1972,8000,48667,1,,18110,29710,847,0,,data
+302,Chum,Grays Harbour,Outside WA,Outside WA,1973,12350,7510,1,,3486,3786,238,0,,data
+302,Chum,Grays Harbour,Outside WA,Outside WA,1974,8300,43044,1,,18882,24162,,0,,data
+302,Chum,Grays Harbour,Outside WA,Outside WA,1975,11750,2178,1,,2036,,142,0,,data
+302,Chum,Grays Harbour,Outside WA,Outside WA,1976,11650,22333,,,,21352,981,0,,data
+302,Chum,Grays Harbour,Outside WA,Outside WA,1977,21000,56898,1,,25955,26482,4461,0,,data
+302,Chum,Grays Harbour,Outside WA,Outside WA,1978,11000,100065,1,,10261,80018,9786,0,,data
+302,Chum,Grays Harbour,Outside WA,Outside WA,1979,,16394,,,6372,9554,468,0,,data
+302,Chum,Grays Harbour,Outside WA,Outside WA,1980,24700,32665,1,,19339,13102,224,0,,data
+302,Chum,Grays Harbour,Outside WA,Outside WA,1981,18050,56232,1,,33222,20394,2616,0,,data
+302,Chum,Grays Harbour,Outside WA,Outside WA,1982,35100,75031,1,,24204,47777,3050,0,,data
+302,Chum,Grays Harbour,Outside WA,Outside WA,1983,21000,19314,1,,1936,15319,2059,0,,data
+302,Chum,Grays Harbour,Outside WA,Outside WA,1984,23700,193488,1,,49413,132735,11340,0,,data
+302,Chum,Grays Harbour,Outside WA,Outside WA,1985,31300,10371,1,,2334,6780,1257,0,,data
+302,Chum,Grays Harbour,Outside WA,Outside WA,1986,19550,13888,1,,994,9579,3315,0,,data
+302,Chum,Grays Harbour,Outside WA,Outside WA,1987,9475,34257,1,,1697,29740,2820,0,,data
+302,Chum,Grays Harbour,Outside WA,Outside WA,1988,62175,108438,1,,12350,78550,17538,0,,data
+302,Chum,Grays Harbour,Outside WA,Outside WA,1989,9080,25044,1,,1576,16818,6650,0,,data
+302,Chum,Grays Harbour,Outside WA,Outside WA,1990,8972,24951,1,,3485,15804,5662,0,,data
+302,Chum,Grays Harbour,Outside WA,Outside WA,1991,17936,9412,1,,2605,6307,500,0,,data
+302,Chum,Grays Harbour,Outside WA,Outside WA,1992,38300,21441,1,,8451,12676,314,0,,data
+302,Chum,Grays Harbour,Outside WA,Outside WA,1993,21059,18391,1,,2903,10770,4718,0,,data
+302,Chum,Grays Harbour,Outside WA,Outside WA,1994,24592,32483.7,1,,2549,26749,3185.7,0,,data
+302,Chum,Grays Harbour,Outside WA,Outside WA,1995,12616,7538.6,1,,3790,3640.8,107.8,0,,data
+302,Chum,Grays Harbour,Outside WA,Outside WA,1996,12413,16322.24,1,,8495.2,6791.4,1035.64,0,,data
+302,Chum,Grays Harbour,Outside WA,Outside WA,1997,13456,25761.62,1,,3880.8,16052.42,5828.4,0,,data
+302,Chum,Grays Harbour,Outside WA,Outside WA,1998,35188,36167.13,1,,8802.94,25904,1460.19,0,,data
+302,Chum,Grays Harbour,Outside WA,Outside WA,1999,12260,81679.06,1,,33027.6,44292.43,4359.03,0,,data
+302,Chum,Grays Harbour,Outside WA,Outside WA,2000,8936,29121.03,1,,2920.38,23807.01,2393.64,0,,data
+302,Chum,Grays Harbour,Outside WA,Outside WA,2001,24898,22853.64,1,,5364.96,16157.07,1213.36,118.25,,data
+302,Chum,Grays Harbour,Outside WA,Outside WA,2002,56175,16856.32,1,,1396.29,12740.28,2719.75,0,,data
+302,Chum,Grays Harbour,Outside WA,Outside WA,2003,37947,9195.26,1,,1213.36,7568,413.9,0,,data
+302,Chum,Grays Harbour,Outside WA,Outside WA,2004,17115,6434.49,1,,1537.25,4139,758.24,0,,data
+302,Chum,Grays Harbour,Outside WA,Outside WA,2005,13058,18155.95,1,,3725.1,12321.4,2109.45,0,,data
+302,Chum,Grays Harbour,Outside WA,Outside WA,2006,10826,,,,5876.36,33751.2,1948.76,,,
+302,Chum,Grays Harbour,Outside WA,Outside WA,2007,11051,,,,6328.35,44334.29,,,,
+302,Chum,Grays Harbour,Outside WA,Outside WA,2008,5826,,,,2435.95,,,,,
+302,Chum,Grays Harbour,Outside WA,Outside WA,2009,14585,,,,,,,,,
+302,Chum,Grays Harbour,Outside WA,Outside WA,2010,33537,,,,,,,,,
+302,Chum,Grays Harbour,Outside WA,Outside WA,2011,29043,,,,,,,,,
+303,Chum,S Sound Summer,Inside WA,Inside WA,1968,22007,128509,1,,10005,116155,2349,,,data
+303,Chum,S Sound Summer,Inside WA,Inside WA,1969,3439,41801,1,,17193,23863,745,,,data
+303,Chum,S Sound Summer,Inside WA,Inside WA,1970,5410,29271,1,,15002,14125,144,,,data
+303,Chum,S Sound Summer,Inside WA,Inside WA,1971,4809,13755,1,,7762,5916,77,,,data
+303,Chum,S Sound Summer,Inside WA,Inside WA,1972,33523,74853,1,,2392,72371,90,,,data
+303,Chum,S Sound Summer,Inside WA,Inside WA,1973,9643,10407,1,,4289,5938,180,,,data
+303,Chum,S Sound Summer,Inside WA,Inside WA,1974,19729,13737,1,,4009,9678,50,,,data
+303,Chum,S Sound Summer,Inside WA,Inside WA,1975,5803,5537,1,,5101,406,30,,,data
+303,Chum,S Sound Summer,Inside WA,Inside WA,1976,32743,7693,1,,1065,5299,1329,,,data
+303,Chum,S Sound Summer,Inside WA,Inside WA,1977,3835,22230,1,,9752,11656,822,,,data
+303,Chum,S Sound Summer,Inside WA,Inside WA,1978,5875,4837,1,,1007,3303,527,,,data
+303,Chum,S Sound Summer,Inside WA,Inside WA,1979,1005,5448,1,,2753,2524,171,,,data
+303,Chum,S Sound Summer,Inside WA,Inside WA,1980,7555,15112,1,,1789,13013,310,,,data
+303,Chum,S Sound Summer,Inside WA,Inside WA,1981,6294,10129,1,,5813,3867,449,,,data
+303,Chum,S Sound Summer,Inside WA,Inside WA,1982,4089,19455,1,,3330,14690,1435,,,data
+303,Chum,S Sound Summer,Inside WA,Inside WA,1983,1769,16976,1,,4351,10540,2085,,,data
+303,Chum,S Sound Summer,Inside WA,Inside WA,1984,8034,91579,1,,15780,72281,3518,,,data
+303,Chum,S Sound Summer,Inside WA,Inside WA,1985,4022,43916,1,,11902,28070,3944,,,data
+303,Chum,S Sound Summer,Inside WA,Inside WA,1986,10019,61065,1,,5370,48864,6831,,,data
+303,Chum,S Sound Summer,Inside WA,Inside WA,1987,19058,28878,1,,1972,21447,5459,,,data
+303,Chum,S Sound Summer,Inside WA,Inside WA,1988,31282,150290,1,,11438,130441,8411,,,data
+303,Chum,S Sound Summer,Inside WA,Inside WA,1989,7424,31869,1,,5459,19899,6511,,,data
+303,Chum,S Sound Summer,Inside WA,Inside WA,1990,14385,69011,1,,7301,55085,6625,,,data
+303,Chum,S Sound Summer,Inside WA,Inside WA,1991,12181,7443,1,,2234,4523,686,,,data
+303,Chum,S Sound Summer,Inside WA,Inside WA,1992,27760,177629,1,,52425,121402,3802,,,data
+303,Chum,S Sound Summer,Inside WA,Inside WA,1993,33177,17264,1,,2985,10840,3439,,,data
+303,Chum,S Sound Summer,Inside WA,Inside WA,1994,54391,54084,1,,2055,49547,2482,,,data
+303,Chum,S Sound Summer,Inside WA,Inside WA,1995,55179,50147,1,,34518,14964,665,,,data
+303,Chum,S Sound Summer,Inside WA,Inside WA,1996,114316,47511,1,,6099,37176,4236,,,data
+303,Chum,S Sound Summer,Inside WA,Inside WA,1997,16001,56728,1,,1140,52040,3548,,,data
+303,Chum,S Sound Summer,Inside WA,Inside WA,1998,80404,75504,1,,27835,45239,2430,,,data
+303,Chum,S Sound Summer,Inside WA,Inside WA,1999,23461,42462,1,,9758,25516,7188,,,data
+303,Chum,S Sound Summer,Inside WA,Inside WA,2000,27705,202160,1,,21871,161930,18359,,,data
+303,Chum,S Sound Summer,Inside WA,Inside WA,2001,62821,30102,1,,9080,21022,0,,,data
+303,Chum,S Sound Summer,Inside WA,Inside WA,2002,46798,78677,1,,5612,70917,2148,,,data
+303,Chum,S Sound Summer,Inside WA,Inside WA,2003,45945,51970,1,,7880,41932,2158,,,data
+303,Chum,S Sound Summer,Inside WA,Inside WA,2004,120782,42583,1,,13632,25825,3126,,,data
+303,Chum,S Sound Summer,Inside WA,Inside WA,2005,24701,,,,4083,18758,,,,
+303,Chum,S Sound Summer,Inside WA,Inside WA,2006,63345,,,,3126,,,,,
+303,Chum,S Sound Summer,Inside WA,Inside WA,2007,52669,,,,,,,,,
+303,Chum,S Sound Summer,Inside WA,Inside WA,2008,20872,,,,,,,,,
+303,Chum,S Sound Summer,Inside WA,Inside WA,2009,21659,,,,,,,,,
+303,Chum,S Sound Summer,Inside WA,Inside WA,2010,,,,,,,,,,
+304,Chum,S Sound Fall,Inside WA,Inside WA,1968,46975,327937,1,,77278,239838,10821,,,data
+304,Chum,S Sound Fall,Inside WA,Inside WA,1969,35602,151088,1,,35500,109917,5671,,,data
+304,Chum,S Sound Fall,Inside WA,Inside WA,1970,41655,177181,1,,69102,107058,1021,,,data
+304,Chum,S Sound Fall,Inside WA,Inside WA,1971,43698,101659,1,,59114,42049,496,,,data
+304,Chum,S Sound Fall,Inside WA,Inside WA,1972,65211,101964,1,,17000,83024,1940,,,data
+304,Chum,S Sound Fall,Inside WA,Inside WA,1973,55301,293524,1,,164313,127418,1793,,,data
+304,Chum,S Sound Fall,Inside WA,Inside WA,1974,99537,296198,1,,86024,208567,1607,,,data
+304,Chum,S Sound Fall,Inside WA,Inside WA,1975,31104,100749,1,,88447,11438,864,,,data
+304,Chum,S Sound Fall,Inside WA,Inside WA,1976,53313,62192,1,,13607,47504,1081,,,data
+304,Chum,S Sound Fall,Inside WA,Inside WA,1977,54084,379119,1,,239824,134345,4950,,,data
+304,Chum,S Sound Fall,Inside WA,Inside WA,1978,105465,107106,1,,18839,79602,8665,,,data
+304,Chum,S Sound Fall,Inside WA,Inside WA,1979,18750,233700,1,,113463,114291,5946,,,data
+304,Chum,S Sound Fall,Inside WA,Inside WA,1980,85454,102442,1,,14304,84392,3746,,,data
+304,Chum,S Sound Fall,Inside WA,Inside WA,1981,43268,313764,1,,138367,165588,9809,,,data
+304,Chum,S Sound Fall,Inside WA,Inside WA,1982,31149,212998,1,,80172,121386,11440,,,data
+304,Chum,S Sound Fall,Inside WA,Inside WA,1983,36686,237140,1,,43965,179339,13836,,,data
+304,Chum,S Sound Fall,Inside WA,Inside WA,1984,73317,452560,1,,145692,294672,12196,,,data
+304,Chum,S Sound Fall,Inside WA,Inside WA,1985,99351,176063,1,,65067,95916,15080,,,data
+304,Chum,S Sound Fall,Inside WA,Inside WA,1986,89809,325907,1,,42612,259483,23812,,,data
+304,Chum,S Sound Fall,Inside WA,Inside WA,1987,153538,144860,1,,9958,117487,17415,,,data
+304,Chum,S Sound Fall,Inside WA,Inside WA,1988,93893,520249,1,,83117,384438,52694,,,data
+304,Chum,S Sound Fall,Inside WA,Inside WA,1989,47908,158982,1,,33089,111806,14087,,,data
+304,Chum,S Sound Fall,Inside WA,Inside WA,1990,106807,529139,1,,172944,327750,28445,,,data
+304,Chum,S Sound Fall,Inside WA,Inside WA,1991,82943,193974,1,,127719,63323,2932,,,data
+304,Chum,S Sound Fall,Inside WA,Inside WA,1992,138805,735924,1,,247197,469115,19612,,,data
+304,Chum,S Sound Fall,Inside WA,Inside WA,1993,133691,133065,1,,71540,53363,8162,,,data
+304,Chum,S Sound Fall,Inside WA,Inside WA,1994,237123,299491,1,,35424,256441,7626,,,data
+304,Chum,S Sound Fall,Inside WA,Inside WA,1995,200592,457066,1,,317328,137516,2222,,,data
+304,Chum,S Sound Fall,Inside WA,Inside WA,1996,329074,263613,1,,71771,176590,15252,,,data
+304,Chum,S Sound Fall,Inside WA,Inside WA,1997,69872,395768,1,,41769,324492,29507,,,data
+304,Chum,S Sound Fall,Inside WA,Inside WA,1998,367456,951197,1,,485950,452801,12446,,,data
+304,Chum,S Sound Fall,Inside WA,Inside WA,1999,149638,805864,1,,288875,465646,51343,,,data
+304,Chum,S Sound Fall,Inside WA,Inside WA,2000,95136,837397,1,,107322,681900,48175,,,data
+304,Chum,S Sound Fall,Inside WA,Inside WA,2001,274278,370715,1,,137434,218597,14684,,,data
+304,Chum,S Sound Fall,Inside WA,Inside WA,2002,262335,430803,1,,108881,308702,13220,,,data
+304,Chum,S Sound Fall,Inside WA,Inside WA,2003,262203,1113891,1,,449537,647794,16560,,,data
+304,Chum,S Sound Fall,Inside WA,Inside WA,2004,311832,469918,1,,241882,218960,9076,,,data
+304,Chum,S Sound Fall,Inside WA,Inside WA,2005,131369,324236,1,,127328,186408,10500,,,data
+304,Chum,S Sound Fall,Inside WA,Inside WA,2006,310561,,,,103256,287125,,,,
+304,Chum,S Sound Fall,Inside WA,Inside WA,2007,329126,,,,176785,,,,,
+304,Chum,S Sound Fall,Inside WA,Inside WA,2008,127098,,,,,,,,,
+304,Chum,S Sound Fall,Inside WA,Inside WA,2009,136617,,,,,,,,,
+304,Chum,S Sound Fall,Inside WA,Inside WA,2010,162410,,,,,,,,,
+305,Chum,S Sound Winter,Inside WA,Inside WA,1968,27553,70081,1,,15542,51411,3128,,,data
+305,Chum,S Sound Winter,Inside WA,Inside WA,1969,20292,41947,1,,7610,31769,2568,,,data
+305,Chum,S Sound Winter,Inside WA,Inside WA,1970,34068,65156,1,,19972,45184,0,,,data
+305,Chum,S Sound Winter,Inside WA,Inside WA,1971,9937,18352,1,,13390,4962,0,,,data
+305,Chum,S Sound Winter,Inside WA,Inside WA,1972,34388,30412,1,,9762,20169,481,,,data
+305,Chum,S Sound Winter,Inside WA,Inside WA,1973,29825,66738,1,,34048,31582,1108,,,data
+305,Chum,S Sound Winter,Inside WA,Inside WA,1974,34676,45413,1,,21322,23773,318,,,data
+305,Chum,S Sound Winter,Inside WA,Inside WA,1975,9936,47754,1,,30533,17075,146,,,data
+305,Chum,S Sound Winter,Inside WA,Inside WA,1976,23311,25339,1,,11547,13069,723,,,data
+305,Chum,S Sound Winter,Inside WA,Inside WA,1977,23590,100119,1,,59795,37921,2403,,,data
+305,Chum,S Sound Winter,Inside WA,Inside WA,1978,29608,37188,1,,12968,23163,1057,,,data
+305,Chum,S Sound Winter,Inside WA,Inside WA,1979,22613,41419,1,,25567,14822,1030,,,data
+305,Chum,S Sound Winter,Inside WA,Inside WA,1980,41015,58843,1,,11930,44306,2607,,,data
+305,Chum,S Sound Winter,Inside WA,Inside WA,1981,31326,56758,1,,18997,36161,1600,,,data
+305,Chum,S Sound Winter,Inside WA,Inside WA,1982,30573,38728,1,,16694,20349,1685,,,data
+305,Chum,S Sound Winter,Inside WA,Inside WA,1983,14013,104537,1,,22527,77393,4617,,,data
+305,Chum,S Sound Winter,Inside WA,Inside WA,1984,33726,130566,1,,50558,77175,2833,,,data
+305,Chum,S Sound Winter,Inside WA,Inside WA,1985,26068,62715,1,,12344,48019,2352,,,data
+305,Chum,S Sound Winter,Inside WA,Inside WA,1986,21826,77580,1,,20043,52520,5017,,,data
+305,Chum,S Sound Winter,Inside WA,Inside WA,1987,73990,30066,1,,5246,23336,1484,,,data
+305,Chum,S Sound Winter,Inside WA,Inside WA,1988,42681,38803,1,,10540,24398,3865,,,data
+305,Chum,S Sound Winter,Inside WA,Inside WA,1989,28185,16171,1,,1080,12359,2732,,,data
+305,Chum,S Sound Winter,Inside WA,Inside WA,1990,15990,116244,1,,28717,82977,4550,,,data
+305,Chum,S Sound Winter,Inside WA,Inside WA,1991,30727,25782,1,,15482,9827,473,,,data
+305,Chum,S Sound Winter,Inside WA,Inside WA,1992,8093,61294,1,,27987,33142,165,,,data
+305,Chum,S Sound Winter,Inside WA,Inside WA,1993,22905,9158,1,,4861,3578,719,,,data
+305,Chum,S Sound Winter,Inside WA,Inside WA,1994,72951,78181,1,,6744,70380,1057,,,data
+305,Chum,S Sound Winter,Inside WA,Inside WA,1995,23369,16302,1,,11765,4510,27,,,data
+305,Chum,S Sound Winter,Inside WA,Inside WA,1996,20000,21149,1,,11429,8992,728,,,data
+305,Chum,S Sound Winter,Inside WA,Inside WA,1997,7371,15321,1,,1866,11655,1800,,,data
+305,Chum,S Sound Winter,Inside WA,Inside WA,1998,70733,350438,1,,140292,204656,5490,,,data
+305,Chum,S Sound Winter,Inside WA,Inside WA,1999,13504,38917,1,,12684,24662,1571,,,data
+305,Chum,S Sound Winter,Inside WA,Inside WA,2000,4887,58722,1,,9608,46429,2685,,,data
+305,Chum,S Sound Winter,Inside WA,Inside WA,2001,128111,130291,1,,64058,60973,5260,,,data
+305,Chum,S Sound Winter,Inside WA,Inside WA,2002,187999,35280,1,,1827,31174,2279,,,data
+305,Chum,S Sound Winter,Inside WA,Inside WA,2003,35698,67665,1,,27941,38656,1068,,,data
+305,Chum,S Sound Winter,Inside WA,Inside WA,2004,76634,96447,1,,55234,40515,698,,,data
+305,Chum,S Sound Winter,Inside WA,Inside WA,2005,36759,69548,1,,43125,24388,2035,,,data
+305,Chum,S Sound Winter,Inside WA,Inside WA,2006,47392,,,,6932,33293,,,,
+305,Chum,S Sound Winter,Inside WA,Inside WA,2007,63756,,,,52251,,,,,
+305,Chum,S Sound Winter,Inside WA,Inside WA,2008,40839,,,,,,,,,
+305,Chum,S Sound Winter,Inside WA,Inside WA,2009,12154,,,,,,,,,
+305,Chum,S Sound Winter,Inside WA,Inside WA,2010,,,,,,,,,,
+306,Chum,Hood Canal,Inside WA,Inside WA,1968,47801,111005,1,,28131,78318,4556,,,data
+306,Chum,Hood Canal,Inside WA,Inside WA,1969,30070,53941,1,,16643,34512,2786,,,data
+306,Chum,Hood Canal,Inside WA,Inside WA,1970,41699,89814,1,,23341,65925,548,,,data
+306,Chum,Hood Canal,Inside WA,Inside WA,1971,41138,54909,1,,24142,16971,13796,,,data
+306,Chum,Hood Canal,Inside WA,Inside WA,1972,41602,64226,1,,11066,53160,0,,,data
+306,Chum,Hood Canal,Inside WA,Inside WA,1973,27870,124108,1,,49450,72584,2074,,,data
+306,Chum,Hood Canal,Inside WA,Inside WA,1974,52223,277256,1,,42331,231226,3699,,,data
+306,Chum,Hood Canal,Inside WA,Inside WA,1975,16265,121037,1,,120219,818,0,,,data
+306,Chum,Hood Canal,Inside WA,Inside WA,1976,48079,37185,1,,25533,10073,1579,,,data
+306,Chum,Hood Canal,Inside WA,Inside WA,1977,26074,144086,1,,68778,71752,3556,,,data
+306,Chum,Hood Canal,Inside WA,Inside WA,1978,79156,52361,1,,0,47906,4455,,,data
+306,Chum,Hood Canal,Inside WA,Inside WA,1979,14323,57734,1,,27296,30438,0,,,data
+306,Chum,Hood Canal,Inside WA,Inside WA,1980,21672,62694,1,,11266,46439,4989,,,data
+306,Chum,Hood Canal,Inside WA,Inside WA,1981,14310,239003,1,,50030,179963,9010,,,data
+306,Chum,Hood Canal,Inside WA,Inside WA,1982,12133,132399,1,,34989,85956,11454,,,data
+306,Chum,Hood Canal,Inside WA,Inside WA,1983,7120,246068,1,,64510,173490,8068,,,data
+306,Chum,Hood Canal,Inside WA,Inside WA,1984,22751,171830,1,,29422,133842,8566,,,data
+306,Chum,Hood Canal,Inside WA,Inside WA,1985,50909,177495,1,,24225,135991,17279,,,data
+306,Chum,Hood Canal,Inside WA,Inside WA,1986,29548,106339,1,,0,93232,13107,,,data
+306,Chum,Hood Canal,Inside WA,Inside WA,1987,24483,112422,1,,0,86802,25620,,,data
+306,Chum,Hood Canal,Inside WA,Inside WA,1988,30703,354123,1,,46489,263735,43899,,,data
+306,Chum,Hood Canal,Inside WA,Inside WA,1989,24872,305796,1,,2782,160765,142249,,,data
+306,Chum,Hood Canal,Inside WA,Inside WA,1990,20811,217331,1,,30856,172047,14428,,,data
+306,Chum,Hood Canal,Inside WA,Inside WA,1991,44745,103528,1,,26737,70986,5805,,,data
+306,Chum,Hood Canal,Inside WA,Inside WA,1992,96382,638817,1,,213233,406295,19289,,,data
+306,Chum,Hood Canal,Inside WA,Inside WA,1993,67770,173856,1,,72838,94153,6865,,,data
+306,Chum,Hood Canal,Inside WA,Inside WA,1994,151821,184122,1,,47041,134704,2377,,,data
+306,Chum,Hood Canal,Inside WA,Inside WA,1995,119344,119041,1,,69629,47896,1516,,,data
+306,Chum,Hood Canal,Inside WA,Inside WA,1996,251803,56333,1,,4978,51355,0,,,data
+306,Chum,Hood Canal,Inside WA,Inside WA,1997,53492,159727,1,,28330,109880,21517,,,data
+306,Chum,Hood Canal,Inside WA,Inside WA,1998,101631,380506,1,,157244,221302,1960,,,data
+306,Chum,Hood Canal,Inside WA,Inside WA,1999,33924,431296,1,,98000,283690,49606,,,data
+306,Chum,Hood Canal,Inside WA,Inside WA,2000,37131,579703,1,,109851,460531,9321,,,data
+306,Chum,Hood Canal,Inside WA,Inside WA,2001,103713,282729,1,,199391,74437,8901,,,data
+306,Chum,Hood Canal,Inside WA,Inside WA,2002,173037,361083,1,,62982,280809,17292,,,data
+306,Chum,Hood Canal,Inside WA,Inside WA,2003,148512,260384,1,,31593,197205,31586,,,data
+306,Chum,Hood Canal,Inside WA,Inside WA,2004,168126,188713,1,,25243,154480,8990,,,data
+306,Chum,Hood Canal,Inside WA,Inside WA,2005,47598,132744,1,,84103,48641,0,,,data
+306,Chum,Hood Canal,Inside WA,Inside WA,2006,97104,,,,16567,43479,,,,
+306,Chum,Hood Canal,Inside WA,Inside WA,2007,78218,,,,55444,,,,,
+306,Chum,Hood Canal,Inside WA,Inside WA,2008,38512,,,,,,,,,
+306,Chum,Hood Canal,Inside WA,Inside WA,2009,13961,,,,,,,,,
+306,Chum,Hood Canal,Inside WA,Inside WA,2010,17221,,,,,,,,,
+307,Chum,Port Susan,Inside WA,Inside WA,1968,39260,74483,1,,6270,62317,5896,,,data
+307,Chum,Port Susan,Inside WA,Inside WA,1969,27500,30367,1,,6743,21658,1966,,,data
+307,Chum,Port Susan,Inside WA,Inside WA,1970,75223,63610,1,,3475,59688,447,,,data
+307,Chum,Port Susan,Inside WA,Inside WA,1971,17790,22780,1,,16908,5693,179,,,data
+307,Chum,Port Susan,Inside WA,Inside WA,1972,32751,90167,1,,6290,82449,1428,,,data
+307,Chum,Port Susan,Inside WA,Inside WA,1973,16200,39740,1,,6901,31010,1829,,,data
+307,Chum,Port Susan,Inside WA,Inside WA,1974,56110,117613,1,,5272,110570,1771,,,data
+307,Chum,Port Susan,Inside WA,Inside WA,1975,9774,13143,1,,9509,3010,624,,,data
+307,Chum,Port Susan,Inside WA,Inside WA,1976,43325,59248,1,,3827,49612,5809,,,data
+307,Chum,Port Susan,Inside WA,Inside WA,1977,28730,65377,1,,19055,39118,7204,,,data
+307,Chum,Port Susan,Inside WA,Inside WA,1978,98504,263861,1,,16871,234511,12479,,,data
+307,Chum,Port Susan,Inside WA,Inside WA,1979,7877,13175,1,,6707,5670,798,,,data
+307,Chum,Port Susan,Inside WA,Inside WA,1980,42701,71045,1,,5089,61208,4748,,,data
+307,Chum,Port Susan,Inside WA,Inside WA,1981,21325,215181,1,,37682,163455,14044,,,data
+307,Chum,Port Susan,Inside WA,Inside WA,1982,108074,326011,1,,58102,248471,19438,,,data
+307,Chum,Port Susan,Inside WA,Inside WA,1983,9014,73181,1,,7562,55185,10434,,,data
+307,Chum,Port Susan,Inside WA,Inside WA,1984,87841,453414,1,,90107,349539,13768,,,data
+307,Chum,Port Susan,Inside WA,Inside WA,1985,125704,60179,1,,12670,40472,7037,,,data
+307,Chum,Port Susan,Inside WA,Inside WA,1986,145866,252467,1,,21408,187791,43268,,,data
+307,Chum,Port Susan,Inside WA,Inside WA,1987,45714,54349,1,,6032,42783,5534,,,data
+307,Chum,Port Susan,Inside WA,Inside WA,1988,149010,180727,1,,10962,139122,30643,,,data
+307,Chum,Port Susan,Inside WA,Inside WA,1989,15618,58364,1,,5688,39748,12928,,,data
+307,Chum,Port Susan,Inside WA,Inside WA,1990,67811,329372,1,,27510,288832,13030,,,data
+307,Chum,Port Susan,Inside WA,Inside WA,1991,23220,52003,1,,38103,12779,1121,,,data
+307,Chum,Port Susan,Inside WA,Inside WA,1992,69250,212647,1,,57549,153960,1138,,,data
+307,Chum,Port Susan,Inside WA,Inside WA,1993,20573,27650,1,,17256,6187,4207,,,data
+307,Chum,Port Susan,Inside WA,Inside WA,1994,237889,151711,1,,6862,139169,5680,,,data
+307,Chum,Port Susan,Inside WA,Inside WA,1995,49436,207774,1,,121992,84967,815,,,data
+307,Chum,Port Susan,Inside WA,Inside WA,1996,146771,56448,1,,23549,31546,1353,,,data
+307,Chum,Port Susan,Inside WA,Inside WA,1997,11228,37693,1,,7333,23459,6901,,,data
+307,Chum,Port Susan,Inside WA,Inside WA,1998,234404,654809,1,,89776,546703,18330,,,data
+307,Chum,Port Susan,Inside WA,Inside WA,1999,87862,237172,1,,57507,155474,24191,,,data
+307,Chum,Port Susan,Inside WA,Inside WA,2000,34352,160222,1,,19655,137478,3089,,,data
+307,Chum,Port Susan,Inside WA,Inside WA,2001,76488,125827,1,,93520,29183,3124,,,data
+307,Chum,Port Susan,Inside WA,Inside WA,2002,370502,347181,1,,23530,321765,1886,,,data
+307,Chum,Port Susan,Inside WA,Inside WA,2003,162245,112777,1,,86268,24559,1950,,,data
+307,Chum,Port Susan,Inside WA,Inside WA,2004,197287,86768,1,,43875,40898,1995,,,data
+307,Chum,Port Susan,Inside WA,Inside WA,2005,33600,54326,1,,34506,18949,871,,,data
+307,Chum,Port Susan,Inside WA,Inside WA,2006,266104,,,,4654,19746,,,,
+307,Chum,Port Susan,Inside WA,Inside WA,2007,35215,,,,7724,,,,,
+307,Chum,Port Susan,Inside WA,Inside WA,2008,35836,,,,,,,,,
+307,Chum,Port Susan,Inside WA,Inside WA,2009,22514,,,,,,,,,
+307,Chum,Port Susan,Inside WA,Inside WA,2010,27544,,,,,,,,,
+308,Chum,Skagit,Inside WA,Inside WA,1968,44049,179282,1,,14202,147602,17478,,,data
+308,Chum,Skagit,Inside WA,Inside WA,1969,22393,84704,1,,15971,64209,4524,,,data
+308,Chum,Skagit,Inside WA,Inside WA,1970,127588,148369,1,,10303,137357,709,,,data
+308,Chum,Skagit,Inside WA,Inside WA,1971,48827,48324,1,,38909,9014,401,,,data
+308,Chum,Skagit,Inside WA,Inside WA,1972,144732,134853,1,,9959,122819,2075,,,data
+308,Chum,Skagit,Inside WA,Inside WA,1973,83497,48137,1,,10424,37482,231,,,data
+308,Chum,Skagit,Inside WA,Inside WA,1974,160248,213874,1,,4636,200928,8310,,,data
+308,Chum,Skagit,Inside WA,Inside WA,1975,15762,43009,1,,27515,15044,450,,,data
+308,Chum,Skagit,Inside WA,Inside WA,1976,93000,117787,1,,16068,95572,6147,,,data
+308,Chum,Skagit,Inside WA,Inside WA,1977,36000,77427,1,,16548,55403,5476,,,data
+308,Chum,Skagit,Inside WA,Inside WA,1978,132895,292632,1,,15292,257356,19984,,,data
+308,Chum,Skagit,Inside WA,Inside WA,1979,23513,22023,1,,11225,10024,774,,,data
+308,Chum,Skagit,Inside WA,Inside WA,1980,19425,35363,1,,1915,31163,2285,,,data
+308,Chum,Skagit,Inside WA,Inside WA,1981,16939,95995,1,,19657,67072,9266,,,data
+308,Chum,Skagit,Inside WA,Inside WA,1982,142541,381366,1,,44905,308031,28430,,,data
+308,Chum,Skagit,Inside WA,Inside WA,1983,3932,23593,1,,2556,15130,5907,,,data
+308,Chum,Skagit,Inside WA,Inside WA,1984,46817,185672,1,,17448,159827,8397,,,data
+308,Chum,Skagit,Inside WA,Inside WA,1985,45190,25219,1,,3446,14573,7200,,,data
+308,Chum,Skagit,Inside WA,Inside WA,1986,81869,322086,1,,2527,268351,51208,,,data
+308,Chum,Skagit,Inside WA,Inside WA,1987,42853,33928,1,,1385,23035,9508,,,data
+308,Chum,Skagit,Inside WA,Inside WA,1988,119791,203829,1,,11389,172793,19647,,,data
+308,Chum,Skagit,Inside WA,Inside WA,1989,13904,32751,1,,549,16961,15241,,,data
+308,Chum,Skagit,Inside WA,Inside WA,1990,110567,304243,1,,10507,267307,26429,,,data
+308,Chum,Skagit,Inside WA,Inside WA,1991,22000,27208,1,,10845,14397,1966,,,data
+308,Chum,Skagit,Inside WA,Inside WA,1992,95940,144440,1,,28655,112451,3334,,,data
+308,Chum,Skagit,Inside WA,Inside WA,1993,16673,17450,1,,2798,10308,4344,,,data
+308,Chum,Skagit,Inside WA,Inside WA,1994,121775,130375,1,,3312,121109,5954,,,data
+308,Chum,Skagit,Inside WA,Inside WA,1995,38666,49278,1,,20568,28102,608,,,data
+308,Chum,Skagit,Inside WA,Inside WA,1996,74474,56905,1,,14635,39440,2830,,,data
+308,Chum,Skagit,Inside WA,Inside WA,1997,14392,53817,1,,1418,41035,11364,,,data
+308,Chum,Skagit,Inside WA,Inside WA,1998,120850,432486,1,,52921,375608,3957,,,data
+308,Chum,Skagit,Inside WA,Inside WA,1999,34311,56377,1,,18541,27198,10638,,,data
+308,Chum,Skagit,Inside WA,Inside WA,2000,22321,164513,1,,5261,147869,11383,,,data
+308,Chum,Skagit,Inside WA,Inside WA,2001,72980,44931,1,,12056,30025,2850,,,data
+308,Chum,Skagit,Inside WA,Inside WA,2002,209478,220263,1,,11310,201263,7690,,,data
+308,Chum,Skagit,Inside WA,Inside WA,2003,17629,33463,1,,8857,23755,851,,,data
+308,Chum,Skagit,Inside WA,Inside WA,2004,149700,32089,1,,5922,24610,1557,,,data
+308,Chum,Skagit,Inside WA,Inside WA,2005,34000,29396,1,,4107,22981,2308,,,data
+308,Chum,Skagit,Inside WA,Inside WA,2006,104983,,,,4557,42779,,,,
+308,Chum,Skagit,Inside WA,Inside WA,2007,19450,,,,974,,,,,
+308,Chum,Skagit,Inside WA,Inside WA,2008,22274,,,,,,,,,
+308,Chum,Skagit,Inside WA,Inside WA,2009,26395,,,,,,,,,
+308,Chum,Skagit,Inside WA,Inside WA,2010,39535,,,,,,,,,
+309,Chum,Bellingham,Inside WA,Inside WA,1968,10684,39806,1,,3517,27996,8293,,,data
+309,Chum,Bellingham,Inside WA,Inside WA,1969,26459,34028,1,,3029,30466,533,,,data
+309,Chum,Bellingham,Inside WA,Inside WA,1970,33404,21582,1,,4888,16183,511,,,data
+309,Chum,Bellingham,Inside WA,Inside WA,1971,9208,11129,1,,4584,6496,49,,,data
+309,Chum,Bellingham,Inside WA,Inside WA,1972,26727,31885,1,,7177,22661,2047,,,data
+309,Chum,Bellingham,Inside WA,Inside WA,1973,25825,46832,1,,1897,44449,486,,,data
+309,Chum,Bellingham,Inside WA,Inside WA,1974,9589,36832,1,,5982,29377,1473,,,data
+309,Chum,Bellingham,Inside WA,Inside WA,1975,5976,29864,1,,2526,26391,947,,,data
+309,Chum,Bellingham,Inside WA,Inside WA,1976,4847,13524,1,,2823,9846,855,,,data
+309,Chum,Bellingham,Inside WA,Inside WA,1977,21233,88463,1,,20765,64245,3453,,,data
+309,Chum,Bellingham,Inside WA,Inside WA,1978,14622,106137,1,,12585,84603,8949,,,data
+309,Chum,Bellingham,Inside WA,Inside WA,1979,27333,51454,1,,13305,35510,2639,,,data
+309,Chum,Bellingham,Inside WA,Inside WA,1980,25242,92711,1,,26561,64293,1857,,,data
+309,Chum,Bellingham,Inside WA,Inside WA,1981,61938,175641,1,,53138,115144,7359,,,data
+309,Chum,Bellingham,Inside WA,Inside WA,1982,44172,85474,1,,25572,53872,6030,,,data
+309,Chum,Bellingham,Inside WA,Inside WA,1983,20899,68014,1,,8886,53803,5325,,,data
+309,Chum,Bellingham,Inside WA,Inside WA,1984,45960,108304,1,,18483,84172,5649,,,data
+309,Chum,Bellingham,Inside WA,Inside WA,1985,40349,37118,1,,3924,26273,6921,,,data
+309,Chum,Bellingham,Inside WA,Inside WA,1986,20298,81130,1,,2110,54132,24888,,,data
+309,Chum,Bellingham,Inside WA,Inside WA,1987,15836,44407,1,,680,36285,7442,,,data
+309,Chum,Bellingham,Inside WA,Inside WA,1988,35206,72740,1,,4323,61803,6614,,,data
+309,Chum,Bellingham,Inside WA,Inside WA,1989,11668,66438,1,,11487,36581,18370,,,data
+309,Chum,Bellingham,Inside WA,Inside WA,1990,31087,156864,1,,7683,134418,14763,,,data
+309,Chum,Bellingham,Inside WA,Inside WA,1991,31303,61103,1,,23846,34759,2498,,,data
+309,Chum,Bellingham,Inside WA,Inside WA,1992,43283,69605,1,,28588,38912,2105,,,data
+309,Chum,Bellingham,Inside WA,Inside WA,1993,25304,52196,1,,10047,35539,6610,,,data
+309,Chum,Bellingham,Inside WA,Inside WA,1994,92157,75757,1,,5931,63756,6070,,,data
+309,Chum,Bellingham,Inside WA,Inside WA,1995,35856,102155,1,,36249,65306,600,,,data
+309,Chum,Bellingham,Inside WA,Inside WA,1996,36010,24434,1,,13815,9981,638,,,data
+309,Chum,Bellingham,Inside WA,Inside WA,1997,15123,64916,1,,6113,52461,6342,,,data
+309,Chum,Bellingham,Inside WA,Inside WA,1998,62682,101600,1,,30327,65327,5946,,,data
+309,Chum,Bellingham,Inside WA,Inside WA,1999,30393,128995,1,,8626,107714,12655,,,data
+309,Chum,Bellingham,Inside WA,Inside WA,2000,4604,58628,1,,10062,42156,6410,,,data
+309,Chum,Bellingham,Inside WA,Inside WA,2001,45410,56840,1,,15372,40275,1193,,,data
+309,Chum,Bellingham,Inside WA,Inside WA,2002,62263,63997,1,,9736,50048,4213,,,data
+309,Chum,Bellingham,Inside WA,Inside WA,2003,104127,50099,1,,9877,36547,3675,,,data
+309,Chum,Bellingham,Inside WA,Inside WA,2004,40758,23998,1,,5977,16481,1540,,,data
+309,Chum,Bellingham,Inside WA,Inside WA,2005,38997,31356,1,,6162,22839,2355,,,data
+309,Chum,Bellingham,Inside WA,Inside WA,2006,26976,,,,5261,33677,,,,
+309,Chum,Bellingham,Inside WA,Inside WA,2007,20798,,,,5417,,,,,
+309,Chum,Bellingham,Inside WA,Inside WA,2008,15332,,,,,,,,,
+309,Chum,Bellingham,Inside WA,Inside WA,2009,24088,,,,,,,,,
+309,Chum,Bellingham,Inside WA,Inside WA,2010,25567,,,,,,,,,
+310,Chum,Fraser,Fraser River,BC South,1959,152300,394310.8074,1,,175683.033,210819.6396,7808.1348,,,data
+310,Chum,Fraser,Fraser River,BC South,1960,144782,400116.37,1,,128037.2384,268077.9679,4001.1637,,,data
+310,Chum,Fraser,Fraser River,BC South,1961,103945,156512.52,1,,54779.382,97037.7624,4695.3756,,,data
+310,Chum,Fraser,Fraser River,BC South,1962,130357,315789.99,1,,56842.1982,255789.8919,3157.8999,,,data
+310,Chum,Fraser,Fraser River,BC South,1963,192245,151652.27,1,,40946.1129,106156.589,4549.5681,,,data
+310,Chum,Fraser,Fraser River,BC South,1964,246741,1063848.75,1,,180854.2875,861717.4875,21276.975,,,data
+310,Chum,Fraser,Fraser River,BC South,1965,129484,491327.14,1,,181791.0418,304622.8268,4913.2714,,,data
+310,Chum,Fraser,Fraser River,BC South,1966,360835,1009655.46,,,282703.5288,686565.7128,40386.2184,,,data
+310,Chum,Fraser,Fraser River,BC South,1967,213873,268774.16,1,,56442.5736,185454.1704,26877.416,,,data
+310,Chum,Fraser,Fraser River,BC South,1968,670528,1865063.01,1,,149205.0408,1324194.737,391663.2321,,,data
+310,Chum,Fraser,Fraser River,BC South,1969,309245,1861495.941,1,,94014.9465,1598254.091,169226.9037,,,data
+310,Chum,Fraser,Fraser River,BC South,1970,284275,435789.36,1,,47936.8296,370420.956,17431.5744,,,data
+310,Chum,Fraser,Fraser River,BC South,1971,290150,385428.82,1,,146462.9516,223548.7156,15417.1528,,,data
+310,Chum,Fraser,Fraser River,BC South,1972,423290,1162286.265,1,,281766.3672,868779.6322,11740.2653,,,data
+310,Chum,Fraser,Fraser River,BC South,1973,267105,736699.04,1,,162073.7888,545157.2896,29467.9616,,,data
+310,Chum,Fraser,Fraser River,BC South,1974,350390,1446851.74,1,,188090.7262,1215355.462,43405.5522,,,data
+310,Chum,Fraser,Fraser River,BC South,1975,191445,344975.01,1,,206985.006,131090.5038,6899.5002,,,data
+310,Chum,Fraser,Fraser River,BC South,1976,340542,902606,1,,126364.84,740136.92,36104.24,,,data
+310,Chum,Fraser,Fraser River,BC South,1977,599366,755062.82,1,,302025.128,400183.2946,52854.3974,,,data
+310,Chum,Fraser,Fraser River,BC South,1978,359065,641220.95,1,,70534.3045,455266.8745,115419.771,,,data
+310,Chum,Fraser,Fraser River,BC South,1979,255634,387245.8755,1,,121258.8095,246429.1935,19557.8725,,,data
+310,Chum,Fraser,Fraser River,BC South,1980,312141,329015.65,1,,78963.756,210570.016,39481.878,,,data
+310,Chum,Fraser,Fraser River,BC South,1981,435316,1338996.76,1,,229928.7366,1000866.265,108201.7584,,,data
+310,Chum,Fraser,Fraser River,BC South,1982,320291,1799067.18,1,,611682.8412,1133412.323,53972.0154,,,data
+310,Chum,Fraser,Fraser River,BC South,1983,364991,623636.8281,1,,170082.7713,327566.8188,125987.238,,,data
+310,Chum,Fraser,Fraser River,BC South,1984,433266,987083.92,1,,49354.196,740312.94,197416.784,,,data
+310,Chum,Fraser,Fraser River,BC South,1985,1295255,695229.0147,1,,63202.6377,540733.6781,91292.6989,,,data
+310,Chum,Fraser,Fraser River,BC South,1986,972927,2040923.63,1,,122455.4178,1469465.014,449003.1986,,,data
+310,Chum,Fraser,Fraser River,BC South,1987,398343,606706.7688,1,,18385.0536,508653.1496,79668.5656,,,data
+310,Chum,Fraser,Fraser River,BC South,1988,585317,1270880.612,1,,141208.9569,834416.5635,295255.0917,,,data
+310,Chum,Fraser,Fraser River,BC South,1989,585552,1341783.204,1,,40660.0971,813201.942,487921.1652,,,data
+310,Chum,Fraser,Fraser River,BC South,1990,988875,1645552.03,1,,49366.5609,1217708.502,378476.9669,,,data
+310,Chum,Fraser,Fraser River,BC South,1991,859274,1286122.43,1,,180057.1402,1028897.944,77167.3458,,,data
+310,Chum,Fraser,Fraser River,BC South,1992,741618,988585.03,1,,365776.4611,593151.018,29657.5509,,,data
+310,Chum,Fraser,Fraser River,BC South,1993,809578,,,,205033.4694,554349.7506,,,,
+310,Chum,Fraser,Fraser River,BC South,1994,1498436,,,,,,,,,
+310,Chum,Fraser,Fraser River,BC South,1995,1673067,,,,,,,,,
+310,Chum,Fraser,Fraser River,BC South,1996,867582,,,,,,,,,
+310,Chum,Fraser,Fraser River,BC South,1997,656946,,,,,,,,,
+310,Chum,Fraser,Fraser River,BC South,1998,2600000,,,,,,,,,
+311,Chum,BC South (no Fraser),BC South,BC South,1953,800625,1206646,1,,,1206646,,,,age4
+311,Chum,BC South (no Fraser),BC South,BC South,1954,988200,1834771,1,,,1834771,,,,age4
+311,Chum,BC South (no Fraser),BC South,BC South,1955,495250,1382516,1,,,1382516,,,,age4
+311,Chum,BC South (no Fraser),BC South,BC South,1956,439676,827371,1,,,827371,,,,age4
+311,Chum,BC South (no Fraser),BC South,BC South,1957,920575,678383,1,,,678383,,,,age4
+311,Chum,BC South (no Fraser),BC South,BC South,1958,1002950,661769,1,,,661769,,,,age4
+311,Chum,BC South (no Fraser),BC South,BC South,1959,680950,644399,1,,,644399,,,,age4
+311,Chum,BC South (no Fraser),BC South,BC South,1960,406145,601146,1,,,601146,,,,age4
+311,Chum,BC South (no Fraser),BC South,BC South,1961,461354,214411,1,,,214411,,,,age4
+311,Chum,BC South (no Fraser),BC South,BC South,1962,499277,547665,1,,,547665,,,,age4
+311,Chum,BC South (no Fraser),BC South,BC South,1963,442075,550498,1,,,550498,,,,age4
+311,Chum,BC South (no Fraser),BC South,BC South,1964,532525,1321900,1,,,1321900,,,,age4
+311,Chum,BC South (no Fraser),BC South,BC South,1965,197725,972557,1,,,972557,,,,age4
+311,Chum,BC South (no Fraser),BC South,BC South,1966,519925,1327912,1,,,1327912,,,,age4
+311,Chum,BC South (no Fraser),BC South,BC South,1967,461082,350578,1,,,350578,,,,age4
+311,Chum,BC South (no Fraser),BC South,BC South,1968,928273,2663833,1,,,2663833,,,,age4
+311,Chum,BC South (no Fraser),BC South,BC South,1969,604105,3017923,1,,,3017923,,,,age4
+311,Chum,BC South (no Fraser),BC South,BC South,1970,746606,1010218,1,,,1010218,,,,age4
+311,Chum,BC South (no Fraser),BC South,BC South,1971,281664,647204,1,,,647204,,,,age4
+311,Chum,BC South (no Fraser),BC South,BC South,1972,1338569,1083731,1,,,1083731,,,,age4
+311,Chum,BC South (no Fraser),BC South,BC South,1973,1158806,846011,1,,,846011,,,,age4
+311,Chum,BC South (no Fraser),BC South,BC South,1974,792812,1727652,1,,,1727652,,,,age4
+311,Chum,BC South (no Fraser),BC South,BC South,1975,371076,921301,1,,,921301,,,,age4
+311,Chum,BC South (no Fraser),BC South,BC South,1976,538672,2546175,1,,,2546175,,,,age4
+311,Chum,BC South (no Fraser),BC South,BC South,1977,758139,1715022,1,,,1715022,,,,age4
+311,Chum,BC South (no Fraser),BC South,BC South,1978,954590,3070728,1,,,3070728,,,,age4
+311,Chum,BC South (no Fraser),BC South,BC South,1979,887186,820011,1,,,820011,,,,age4
+311,Chum,BC South (no Fraser),BC South,BC South,1980,2025387,1074140,1,,,1074140,,,,age4
+311,Chum,BC South (no Fraser),BC South,BC South,1981,1647057,1795562,1,,,1795562,,,,age4
+311,Chum,BC South (no Fraser),BC South,BC South,1982,2106443,2093398,1,,,2093398,,,,age4
+311,Chum,BC South (no Fraser),BC South,BC South,1983,670553,1197368,1,,,1197368,,,,age4
+311,Chum,BC South (no Fraser),BC South,BC South,1984,910224,1912493,1,,,1912493,,,,age4
+311,Chum,BC South (no Fraser),BC South,BC South,1985,1379098,722309,1,,,722309,,,,age4
+311,Chum,BC South (no Fraser),BC South,BC South,1986,1089814,1675906,1,,,1675906,,,,age4
+311,Chum,BC South (no Fraser),BC South,BC South,1987,795028,1300771,1,,,1300771,,,,age4
+311,Chum,BC South (no Fraser),BC South,BC South,1988,996321,2474945,1,,,2474945,,,,age4
+311,Chum,BC South (no Fraser),BC South,BC South,1989,376046,2417552,1,,,2417552,,,,age4
+311,Chum,BC South (no Fraser),BC South,BC South,1990,815806,2109257,1,,,2109257,,,,age4
+311,Chum,BC South (no Fraser),BC South,BC South,1991,737044,723913,1,,,723913,,,,age4
+311,Chum,BC South (no Fraser),BC South,BC South,1992,1015857,566438,1,,,566438,,,,age4
+311,Chum,BC South (no Fraser),BC South,BC South,1993,1016491,636736,1,,,636736,,,,age4
+311,Chum,BC South (no Fraser),BC South,BC South,1994,1006121,2795920,1,,,2795920,,,,age4
+311,Chum,BC South (no Fraser),BC South,BC South,1995,497815,444384,1,,,444384,,,,age4
+311,Chum,BC South (no Fraser),BC South,BC South,1996,477539,410824,1,,,410824,,,,age4
+311,Chum,BC South (no Fraser),BC South,BC South,1997,571584,1106716,1,,,1106716,,,,age4
+311,Chum,BC South (no Fraser),BC South,BC South,1998,1016990,1943871,1,,,1943871,,,,age4
+311,Chum,BC South (no Fraser),BC South,BC South,1999,406796,1169365,1,,,1169365,,,,age4
+311,Chum,BC South (no Fraser),BC South,BC South,2000,283075,1890621,1,,,1890621,,,,age4
+311,Chum,BC South (no Fraser),BC South,BC South,2001,876998,974858,1,,,974858,,,,age4
+311,Chum,BC South (no Fraser),BC South,BC South,2002,1027156,918498,1,,,918498,,,,age4
+311,Chum,BC South (no Fraser),BC South,BC South,2003,623309,,,,,,,,,
+311,Chum,BC South (no Fraser),BC South,BC South,2004,895436,,,,,,,,,
+311,Chum,BC South (no Fraser),BC South,BC South,2005,461612,,,,,,,,,
+311,Chum,BC South (no Fraser),BC South,BC South,2006,450147,,,,,,,,,
+312,Chum,Area 10,BC Central,BC Central,1980,95675,23491.44323,1,,,23491.44323,,,,age4
+312,Chum,Area 10,BC Central,BC Central,1981,113726,63291.58623,1,,,63291.58623,,,,age4
+312,Chum,Area 10,BC Central,BC Central,1982,113726,152308.0141,1,,,152308.0141,,,,age4
+312,Chum,Area 10,BC Central,BC Central,1983,68597,72109.81669,1,,,72109.81669,,,,age4
+312,Chum,Area 10,BC Central,BC Central,1984,19315,66824.16186,1,,,66824.16186,,,,age4
+312,Chum,Area 10,BC Central,BC Central,1985,40617,39937.11644,1,,,39937.11644,,,,age4
+312,Chum,Area 10,BC Central,BC Central,1986,116347,73870.38688,1,,,73870.38688,,,,age4
+312,Chum,Area 10,BC Central,BC Central,1987,56535,62702.43519,1,,,62702.43519,,,,age4
+312,Chum,Area 10,BC Central,BC Central,1988,57354,38149.9575,1,,,38149.9575,,,,age4
+312,Chum,Area 10,BC Central,BC Central,1989,31135,37781.70506,1,,,37781.70506,,,,age4
+312,Chum,Area 10,BC Central,BC Central,1990,68309,46020.4064,1,,,46020.4064,,,,age4
+312,Chum,Area 10,BC Central,BC Central,1991,44096,73265.02274,1,,,73265.02274,,,,age4
+312,Chum,Area 10,BC Central,BC Central,1992,19643,37891.95354,1,,,37891.95354,,,,age4
+312,Chum,Area 10,BC Central,BC Central,1993,25015,8753.590909,1,,,8753.590909,,,,age4
+312,Chum,Area 10,BC Central,BC Central,1994,25335,7207.762771,1,,,7207.762771,,,,age4
+312,Chum,Area 10,BC Central,BC Central,1995,64942,14110.85926,1,,,14110.85926,,,,age4
+312,Chum,Area 10,BC Central,BC Central,1996,36560,13667.33184,1,,,13667.33184,,,,age4
+312,Chum,Area 10,BC Central,BC Central,1997,7648,60455.07536,1,,,60455.07536,,,,age4
+312,Chum,Area 10,BC Central,BC Central,1998,7208,80842.49882,1,,,80842.49882,,,,age4
+312,Chum,Area 10,BC Central,BC Central,1999,14111,82250.82152,1,,,82250.82152,,,,age4
+312,Chum,Area 10,BC Central,BC Central,2000,13667,85044.24565,1,,,85044.24565,,,,age4
+312,Chum,Area 10,BC Central,BC Central,2001,60455,22812.96371,1,,,22812.96371,,,,age4
+312,Chum,Area 10,BC Central,BC Central,2002,80842,41790.62235,1,,,41790.62235,,,,age4
+312,Chum,Area 10,BC Central,BC Central,2003,82251,17991.58061,1,,,17991.58061,,,,age4
+312,Chum,Area 10,BC Central,BC Central,2004,85044,14080.4095,1,,,14080.4095,,,,age4
+312,Chum,Area 10,BC Central,BC Central,2005,22813,24686.47923,1,,,24686.47923,,,,age4
+312,Chum,Area 10,BC Central,BC Central,2006,41791,4345.32642,1,,,4345.32642,,,,age4
+312,Chum,Area 10,BC Central,BC Central,2007,17992,,,,,,,,,
+312,Chum,Area 10,BC Central,BC Central,2008,14080,,,,,,,,,
+312,Chum,Area 10,BC Central,BC Central,2009,24686,,,,,,,,,
+312,Chum,Area 10,BC Central,BC Central,2010,4345,,,,,,,,,
+313,Chum,Area 9,BC Central,BC Central,1980,65892,52479.76663,1,,,52479.76663,,,,age4
+313,Chum,Area 9,BC Central,BC Central,1981,28983,92645.19381,1,,,92645.19381,,,,age4
+313,Chum,Area 9,BC Central,BC Central,1982,273271,473200.6756,1,,,473200.6756,,,,age4
+313,Chum,Area 9,BC Central,BC Central,1983,72362,181194.2659,1,,,181194.2659,,,,age4
+313,Chum,Area 9,BC Central,BC Central,1984,40727,144356.593,1,,,144356.593,,,,age4
+313,Chum,Area 9,BC Central,BC Central,1985,72728,16976.58815,1,,,16976.58815,,,,age4
+313,Chum,Area 9,BC Central,BC Central,1986,307781,28388.16497,1,,,28388.16497,,,,age4
+313,Chum,Area 9,BC Central,BC Central,1987,144376,16046.65733,1,,,16046.65733,,,,age4
+313,Chum,Area 9,BC Central,BC Central,1988,102900,39963.47678,1,,,39963.47678,,,,age4
+313,Chum,Area 9,BC Central,BC Central,1989,6996,9084.080894,1,,,9084.080894,,,,age4
+313,Chum,Area 9,BC Central,BC Central,1990,9502,33414.541,1,,,33414.541,,,,age4
+313,Chum,Area 9,BC Central,BC Central,1991,10086,73253.7233,1,,,73253.7233,,,,age4
+313,Chum,Area 9,BC Central,BC Central,1992,17905,29084.5734,1,,,29084.5734,,,,age4
+313,Chum,Area 9,BC Central,BC Central,1993,5584,19450.76963,1,,,19450.76963,,,,age4
+313,Chum,Area 9,BC Central,BC Central,1994,22401,112484.4371,1,,,112484.4371,,,,age4
+313,Chum,Area 9,BC Central,BC Central,1995,54436,44921.51503,1,,,44921.51503,,,,age4
+313,Chum,Area 9,BC Central,BC Central,1996,29085,138968.3953,1,,,138968.3953,,,,age4
+313,Chum,Area 9,BC Central,BC Central,1997,19446,68570.65068,1,,,68570.65068,,,,age4
+313,Chum,Area 9,BC Central,BC Central,1998,112484,156656.4751,1,,,156656.4751,,,,age4
+313,Chum,Area 9,BC Central,BC Central,1999,44922,181564.6105,1,,,181564.6105,,,,age4
+313,Chum,Area 9,BC Central,BC Central,2000,138968,125519.7844,1,,,125519.7844,,,,age4
+313,Chum,Area 9,BC Central,BC Central,2001,68571,153996.3242,1,,,153996.3242,,,,age4
+313,Chum,Area 9,BC Central,BC Central,2002,156656,75335.01405,1,,,75335.01405,,,,age4
+313,Chum,Area 9,BC Central,BC Central,2003,181565,83283.6947,1,,,83283.6947,,,,age4
+313,Chum,Area 9,BC Central,BC Central,2004,125520,7837.536498,1,,,7837.536498,,,,age4
+313,Chum,Area 9,BC Central,BC Central,2005,153996,13381.75157,1,,,13381.75157,,,,age4
+313,Chum,Area 9,BC Central,BC Central,2006,75335,6788.539462,1,,,6788.539462,,,,age4
+313,Chum,Area 9,BC Central,BC Central,2007,83284,,,,,,,,,
+313,Chum,Area 9,BC Central,BC Central,2008,7838,,,,,,,,,
+313,Chum,Area 9,BC Central,BC Central,2009,13382,,,,,,,,,
+313,Chum,Area 9,BC Central,BC Central,2010,6789,,,,,,,,,
+314,Chum,Area 8,BC Central,BC Central,1980,186232,261458.639,1,,,261458.639,,,,age4
+314,Chum,Area 8,BC Central,BC Central,1981,119888,881269.7725,1,,,881269.7725,,,,age4
+314,Chum,Area 8,BC Central,BC Central,1982,169721,1951049.108,1,,,1951049.108,,,,age4
+314,Chum,Area 8,BC Central,BC Central,1983,237014,738271.3719,1,,,738271.3719,,,,age4
+314,Chum,Area 8,BC Central,BC Central,1984,190583,1167233.215,1,,,1167233.215,,,,age4
+314,Chum,Area 8,BC Central,BC Central,1985,344278,432397.338,1,,,432397.338,,,,age4
+314,Chum,Area 8,BC Central,BC Central,1986,434796,1138310.32,1,,,1138310.32,,,,age4
+314,Chum,Area 8,BC Central,BC Central,1987,216748,368674.7292,1,,,368674.7292,,,,age4
+314,Chum,Area 8,BC Central,BC Central,1988,321145,332003.7406,1,,,332003.7406,,,,age4
+314,Chum,Area 8,BC Central,BC Central,1989,195128,395106.0055,1,,,395106.0055,,,,age4
+314,Chum,Area 8,BC Central,BC Central,1990,450283,864488.0337,1,,,864488.0337,,,,age4
+314,Chum,Area 8,BC Central,BC Central,1991,133511,1039147.897,1,,,1039147.897,,,,age4
+314,Chum,Area 8,BC Central,BC Central,1992,176065,623222.4319,1,,,623222.4319,,,,age4
+314,Chum,Area 8,BC Central,BC Central,1993,208485,535979.9337,1,,,535979.9337,,,,age4
+314,Chum,Area 8,BC Central,BC Central,1994,370029,1155613.978,1,,,1155613.978,,,,age4
+314,Chum,Area 8,BC Central,BC Central,1995,327955,469038.2299,1,,,469038.2299,,,,age4
+314,Chum,Area 8,BC Central,BC Central,1996,347364,425173.8419,1,,,425173.8419,,,,age4
+314,Chum,Area 8,BC Central,BC Central,1997,301172,722316.6478,1,,,722316.6478,,,,age4
+314,Chum,Area 8,BC Central,BC Central,1998,513891,918795.9796,1,,,918795.9796,,,,age4
+314,Chum,Area 8,BC Central,BC Central,1999,290780,1600187.9,1,,,1600187.9,,,,age4
+314,Chum,Area 8,BC Central,BC Central,2000,377878,1585838.204,1,,,1585838.204,,,,age4
+314,Chum,Area 8,BC Central,BC Central,2001,417929,614626.8707,1,,,614626.8707,,,,age4
+314,Chum,Area 8,BC Central,BC Central,2002,533307,781361.5962,1,,,781361.5962,,,,age4
+314,Chum,Area 8,BC Central,BC Central,2003,924959,618589.9771,1,,,618589.9771,,,,age4
+314,Chum,Area 8,BC Central,BC Central,2004,697812,128543.7241,1,,,128543.7241,,,,age4
+314,Chum,Area 8,BC Central,BC Central,2005,351208,179848.4648,1,,,179848.4648,,,,age4
+314,Chum,Area 8,BC Central,BC Central,2006,421876,81359.10117,1,,,81359.10117,,,,age4
+314,Chum,Area 8,BC Central,BC Central,2007,349712,,,,,,,,,
+314,Chum,Area 8,BC Central,BC Central,2008,124837,,,,,,,,,
+314,Chum,Area 8,BC Central,BC Central,2009,161560,,,,,,,,,
+314,Chum,Area 8,BC Central,BC Central,2010,77871,,,,,,,,,
+315,Chum,Area 7,BC Central,BC Central,1980,139347,427192.753,1,,,427192.753,,,,age4
+315,Chum,Area 7,BC Central,BC Central,1981,215303,497138.1704,1,,,497138.1704,,,,age4
+315,Chum,Area 7,BC Central,BC Central,1982,293729,567630.6431,1,,,567630.6431,,,,age4
+315,Chum,Area 7,BC Central,BC Central,1983,166397,388062.5552,1,,,388062.5552,,,,age4
+315,Chum,Area 7,BC Central,BC Central,1984,206229,632656.6207,1,,,632656.6207,,,,age4
+315,Chum,Area 7,BC Central,BC Central,1985,247564,350745.9579,1,,,350745.9579,,,,age4
+315,Chum,Area 7,BC Central,BC Central,1986,230319,448791.0636,1,,,448791.0636,,,,age4
+315,Chum,Area 7,BC Central,BC Central,1987,175077,414705.8282,1,,,414705.8282,,,,age4
+315,Chum,Area 7,BC Central,BC Central,1988,318774,134426.0498,1,,,134426.0498,,,,age4
+315,Chum,Area 7,BC Central,BC Central,1989,251553,274014.4956,1,,,274014.4956,,,,age4
+315,Chum,Area 7,BC Central,BC Central,1990,234418,388092.7105,1,,,388092.7105,,,,age4
+315,Chum,Area 7,BC Central,BC Central,1991,274692,576402.0482,1,,,576402.0482,,,,age4
+315,Chum,Area 7,BC Central,BC Central,1992,84324,455199.6,1,,,455199.6,,,,age4
+315,Chum,Area 7,BC Central,BC Central,1993,174716,391908.7582,1,,,391908.7582,,,,age4
+315,Chum,Area 7,BC Central,BC Central,1994,196342,642474.4287,1,,,642474.4287,,,,age4
+315,Chum,Area 7,BC Central,BC Central,1995,374018,417451.3585,1,,,417451.3585,,,,age4
+315,Chum,Area 7,BC Central,BC Central,1996,390070,341225.1828,1,,,341225.1828,,,,age4
+315,Chum,Area 7,BC Central,BC Central,1997,335779,584131.8807,1,,,584131.8807,,,,age4
+315,Chum,Area 7,BC Central,BC Central,1998,542489,567449.3184,1,,,567449.3184,,,,age4
+315,Chum,Area 7,BC Central,BC Central,1999,333940,775961.4083,1,,,775961.4083,,,,age4
+315,Chum,Area 7,BC Central,BC Central,2000,307290,840036.064,1,,,840036.064,,,,age4
+315,Chum,Area 7,BC Central,BC Central,2001,434679,410620.3418,1,,,410620.3418,,,,age4
+315,Chum,Area 7,BC Central,BC Central,2002,378268,303886.3122,1,,,303886.3122,,,,age4
+315,Chum,Area 7,BC Central,BC Central,2003,546200,122572.9424,1,,,122572.9424,,,,age4
+315,Chum,Area 7,BC Central,BC Central,2004,493826,119873.0419,1,,,119873.0419,,,,age4
+315,Chum,Area 7,BC Central,BC Central,2005,343113,200454.7771,1,,,200454.7771,,,,age4
+315,Chum,Area 7,BC Central,BC Central,2006,281273,188111.6315,1,,,188111.6315,,,,age4
+315,Chum,Area 7,BC Central,BC Central,2007,117126,,,,,,,,,
+315,Chum,Area 7,BC Central,BC Central,2008,119873,,,,,,,,,
+315,Chum,Area 7,BC Central,BC Central,2009,199305,,,,,,,,,
+315,Chum,Area 7,BC Central,BC Central,2010,181892,,,,,,,,,
+316,Chum,Area 6,BC North,BC North,1980,157618,206282.4406,1,,,206282.4406,,,,age4
+316,Chum,Area 6,BC North,BC North,1981,131682,521872.9291,1,,,521872.9291,,,,age4
+316,Chum,Area 6,BC North,BC North,1982,212825,732576.8464,1,,,732576.8464,,,,age4
+316,Chum,Area 6,BC North,BC North,1983,76265,291759.908,1,,,291759.908,,,,age4
+316,Chum,Area 6,BC North,BC North,1984,174525,1355374.895,1,,,1355374.895,,,,age4
+316,Chum,Area 6,BC North,BC North,1985,354251,424606.3011,1,,,424606.3011,,,,age4
+316,Chum,Area 6,BC North,BC North,1986,500825,497990.2571,1,,,497990.2571,,,,age4
+316,Chum,Area 6,BC North,BC North,1987,175132,197736.7552,1,,,197736.7552,,,,age4
+316,Chum,Area 6,BC North,BC North,1988,637519,148826.1423,1,,,148826.1423,,,,age4
+316,Chum,Area 6,BC North,BC North,1989,409459,142373.0916,1,,,142373.0916,,,,age4
+316,Chum,Area 6,BC North,BC North,1990,343771,321212.0543,1,,,321212.0543,,,,age4
+316,Chum,Area 6,BC North,BC North,1991,146196,390584.1951,1,,,390584.1951,,,,age4
+316,Chum,Area 6,BC North,BC North,1992,105368,189270.4764,1,,,189270.4764,,,,age4
+316,Chum,Area 6,BC North,BC North,1993,130635,122557.073,1,,,122557.073,,,,age4
+316,Chum,Area 6,BC North,BC North,1994,245718,1176875.658,1,,,1176875.658,,,,age4
+316,Chum,Area 6,BC North,BC North,1995,360695,153191.0519,1,,,153191.0519,,,,age4
+316,Chum,Area 6,BC North,BC North,1996,158976,87584.18978,1,,,87584.18978,,,,age4
+316,Chum,Area 6,BC North,BC North,1997,110542,168418.67,1,,,168418.67,,,,age4
+316,Chum,Area 6,BC North,BC North,1998,739347,546441.8413,1,,,546441.8413,,,,age4
+316,Chum,Area 6,BC North,BC North,1999,124203,695889.1908,1,,,695889.1908,,,,age4
+316,Chum,Area 6,BC North,BC North,2000,72023,373320.8081,1,,,373320.8081,,,,age4
+316,Chum,Area 6,BC North,BC North,2001,111988,327465.1658,1,,,327465.1658,,,,age4
+316,Chum,Area 6,BC North,BC North,2002,343664,233205.9856,1,,,233205.9856,,,,age4
+316,Chum,Area 6,BC North,BC North,2003,317963,76686.47843,1,,,76686.47843,,,,age4
+316,Chum,Area 6,BC North,BC North,2004,208259,27985.36984,1,,,27985.36984,,,,age4
+316,Chum,Area 6,BC North,BC North,2005,93430,88506.96483,1,,,88506.96483,,,,age4
+316,Chum,Area 6,BC North,BC North,2006,186278,44214.18955,1,,,44214.18955,,,,age4
+316,Chum,Area 6,BC North,BC North,2007,61182,,,,,,,,,
+316,Chum,Area 6,BC North,BC North,2008,27506,,,,,,,,,
+316,Chum,Area 6,BC North,BC North,2009,88507,,,,,,,,,
+316,Chum,Area 6,BC North,BC North,2010,42270,,,,,,,,,
+317,Chum,Area 5,BC North,BC North,1980,,,,,,,,,,
+317,Chum,Area 5,BC North,BC North,1981,,,,,,,,,,
+317,Chum,Area 5,BC North,BC North,1982,14494,47037.62424,1,,,47037.62424,,,,age4
+317,Chum,Area 5,BC North,BC North,1983,11570,31056.71641,1,,,31056.71641,,,,age4
+317,Chum,Area 5,BC North,BC North,1984,11180,50473.29345,1,,,50473.29345,,,,age4
+317,Chum,Area 5,BC North,BC North,1985,20292,16662.80741,1,,,16662.80741,,,,age4
+317,Chum,Area 5,BC North,BC North,1986,27840,14649.50015,1,,,14649.50015,,,,age4
+317,Chum,Area 5,BC North,BC North,1987,21663,18763.71023,1,,,18763.71023,,,,age4
+317,Chum,Area 5,BC North,BC North,1988,30428,1914.747883,1,,,1914.747883,,,,age4
+317,Chum,Area 5,BC North,BC North,1989,11350,7171.536901,1,,,7171.536901,,,,age4
+317,Chum,Area 5,BC North,BC North,1990,8604,4936.955823,1,,,4936.955823,,,,age4
+317,Chum,Area 5,BC North,BC North,1991,11521,17764.34585,1,,,17764.34585,,,,age4
+317,Chum,Area 5,BC North,BC North,1992,1005,11671.71355,1,,,11671.71355,,,,age4
+317,Chum,Area 5,BC North,BC North,1993,4546,14199.43173,1,,,14199.43173,,,,age4
+317,Chum,Area 5,BC North,BC North,1994,3197,33936.48256,1,,,33936.48256,,,,age4
+317,Chum,Area 5,BC North,BC North,1995,12050,4143.723966,1,,,4143.723966,,,,age4
+317,Chum,Area 5,BC North,BC North,1996,8696,6740.775405,1,,,6740.775405,,,,age4
+317,Chum,Area 5,BC North,BC North,1997,9764,11949.17776,1,,,11949.17776,,,,age4
+317,Chum,Area 5,BC North,BC North,1998,27613,15705.45023,1,,,15705.45023,,,,age4
+317,Chum,Area 5,BC North,BC North,1999,3788,14780.31707,1,,,14780.31707,,,,age4
+317,Chum,Area 5,BC North,BC North,2000,5663,11687.06216,1,,,11687.06216,,,,age4
+317,Chum,Area 5,BC North,BC North,2001,9561,10353.25731,1,,,10353.25731,,,,age4
+317,Chum,Area 5,BC North,BC North,2002,13669,11166.43019,1,,,11166.43019,,,,age4
+317,Chum,Area 5,BC North,BC North,2003,12657,10766.51881,1,,,10766.51881,,,,age4
+317,Chum,Area 5,BC North,BC North,2004,9178,8103.801017,1,,,8103.801017,,,,age4
+317,Chum,Area 5,BC North,BC North,2005,8644,15026.67363,1,,,15026.67363,,,,age4
+317,Chum,Area 5,BC North,BC North,2006,8507,9963.137205,1,,,9963.137205,,,,age4
+317,Chum,Area 5,BC North,BC North,2007,8241,,,,,,,,,
+317,Chum,Area 5,BC North,BC North,2008,7155,,,,,,,,,
+317,Chum,Area 5,BC North,BC North,2009,12234,,,,,,,,,
+317,Chum,Area 5,BC North,BC North,2010,8112,,,,,,,,,
+318,Chum,Area 4,BC North,BC North,1980,,,,,,,,,,
+318,Chum,Area 4,BC North,BC North,1981,,,,,,,,,,
+318,Chum,Area 4,BC North,BC North,1982,10747,34497.91746,1,,,34497.91746,,,,age4
+318,Chum,Area 4,BC North,BC North,1983,2449,14595.8079,1,,,14595.8079,,,,age4
+318,Chum,Area 4,BC North,BC North,1984,61682,365155.4342,1,,,365155.4342,,,,age4
+318,Chum,Area 4,BC North,BC North,1985,26462,60558.97571,1,,,60558.97571,,,,age4
+318,Chum,Area 4,BC North,BC North,1986,18707,19077.82199,1,,,19077.82199,,,,age4
+318,Chum,Area 4,BC North,BC North,1987,9052,36819.87751,1,,,36819.87751,,,,age4
+318,Chum,Area 4,BC North,BC North,1988,185447,22886.34583,1,,,22886.34583,,,,age4
+318,Chum,Area 4,BC North,BC North,1989,37437,26913.80228,1,,,26913.80228,,,,age4
+318,Chum,Area 4,BC North,BC North,1990,10012,29868.72565,1,,,29868.72565,,,,age4
+318,Chum,Area 4,BC North,BC North,1991,19152,28309.70903,1,,,28309.70903,,,,age4
+318,Chum,Area 4,BC North,BC North,1992,9812,26333.75364,1,,,26333.75364,,,,age4
+318,Chum,Area 4,BC North,BC North,1993,15165,77188.80509,1,,,77188.80509,,,,age4
+318,Chum,Area 4,BC North,BC North,1994,17465,39623.78094,1,,,39623.78094,,,,age4
+318,Chum,Area 4,BC North,BC North,1995,16669,7787.018403,1,,,7787.018403,,,,age4
+318,Chum,Area 4,BC North,BC North,1996,17148,16597.88628,1,,,16597.88628,,,,age4
+318,Chum,Area 4,BC North,BC North,1997,49286,32213.10533,1,,,32213.10533,,,,age4
+318,Chum,Area 4,BC North,BC North,1998,31764,11337.37691,1,,,11337.37691,,,,age4
+318,Chum,Area 4,BC North,BC North,1999,7095,30750.2284,1,,,30750.2284,,,,age4
+318,Chum,Area 4,BC North,BC North,2000,12850,37830.86954,1,,,37830.86954,,,,age4
+318,Chum,Area 4,BC North,BC North,2001,23765,33252.71876,1,,,33252.71876,,,,age4
+318,Chum,Area 4,BC North,BC North,2002,9135,14369.35641,1,,,14369.35641,,,,age4
+318,Chum,Area 4,BC North,BC North,2003,25179,8059.726901,1,,,8059.726901,,,,age4
+318,Chum,Area 4,BC North,BC North,2004,28542,3207.958756,1,,,3207.958756,,,,age4
+318,Chum,Area 4,BC North,BC North,2005,27720,11676.11754,1,,,11676.11754,,,,age4
+318,Chum,Area 4,BC North,BC North,2006,9997,7250.168639,1,,,7250.168639,,,,age4
+318,Chum,Area 4,BC North,BC North,2007,5880,,,,,,,,,
+318,Chum,Area 4,BC North,BC North,2008,2605,,,,,,,,,
+318,Chum,Area 4,BC North,BC North,2009,9015,,,,,,,,,
+318,Chum,Area 4,BC North,BC North,2010,5598,,,,,,,,,
+319,Chum,Area 3,BC North,BC North,1980,,,,,,,,,,
+319,Chum,Area 3,BC North,BC North,1981,,,,,,,,,,
+319,Chum,Area 3,BC North,BC North,1982,35127,154122.1942,1,,,154122.1942,,,,age4
+319,Chum,Area 3,BC North,BC North,1983,73392,126036.4975,1,,,126036.4975,,,,age4
+319,Chum,Area 3,BC North,BC North,1984,101849,169929.7144,1,,,169929.7144,,,,age4
+319,Chum,Area 3,BC North,BC North,1985,84114,155499.7505,1,,,155499.7505,,,,age4
+319,Chum,Area 3,BC North,BC North,1986,55148,132237.3273,1,,,132237.3273,,,,age4
+319,Chum,Area 3,BC North,BC North,1987,54092,126856.4301,1,,,126856.4301,,,,age4
+319,Chum,Area 3,BC North,BC North,1988,82399,108932.7839,1,,,108932.7839,,,,age4
+319,Chum,Area 3,BC North,BC North,1989,60681,472071.6747,1,,,472071.6747,,,,age4
+319,Chum,Area 3,BC North,BC North,1990,54570,200356.1376,1,,,200356.1376,,,,age4
+319,Chum,Area 3,BC North,BC North,1991,54421,165974.9579,1,,,165974.9579,,,,age4
+319,Chum,Area 3,BC North,BC North,1992,45055,102588.5383,1,,,102588.5383,,,,age4
+319,Chum,Area 3,BC North,BC North,1993,141885,95043.40423,1,,,95043.40423,,,,age4
+319,Chum,Area 3,BC North,BC North,1994,96340,462686.7378,1,,,462686.7378,,,,age4
+319,Chum,Area 3,BC North,BC North,1995,70626,149331.0858,1,,,149331.0858,,,,age4
+319,Chum,Area 3,BC North,BC North,1996,39708,61816.61172,1,,,61816.61172,,,,age4
+319,Chum,Area 3,BC North,BC North,1997,39975,95379.43632,1,,,95379.43632,,,,age4
+319,Chum,Area 3,BC North,BC North,1998,245592,46827.25098,1,,,46827.25098,,,,age4
+319,Chum,Area 3,BC North,BC North,1999,59997,107646.5184,1,,,107646.5184,,,,age4
+319,Chum,Area 3,BC North,BC North,2000,39418,167453.5834,1,,,167453.5834,,,,age4
+319,Chum,Area 3,BC North,BC North,2001,54633,78134.04697,1,,,78134.04697,,,,age4
+319,Chum,Area 3,BC North,BC North,2002,35036,124488.4751,1,,,124488.4751,,,,age4
+319,Chum,Area 3,BC North,BC North,2003,79523,62812.57695,1,,,62812.57695,,,,age4
+319,Chum,Area 3,BC North,BC North,2004,99775,35397.30414,1,,,35397.30414,,,,age4
+319,Chum,Area 3,BC North,BC North,2005,57043,56349.6608,1,,,56349.6608,,,,age4
+319,Chum,Area 3,BC North,BC North,2006,83584,28409.03063,1,,,28409.03063,,,,age4
+319,Chum,Area 3,BC North,BC North,2007,33800,,,,,,,,,
+319,Chum,Area 3,BC North,BC North,2008,28686,,,,,,,,,
+319,Chum,Area 3,BC North,BC North,2009,38815,,,,,,,,,
+319,Chum,Area 3,BC North,BC North,2010,19569,,,,,,,,,
+320,Chum,Area 2W,BC North,BC North,1980,138323,191087.9321,1,,,191087.9321,,,,age4
+320,Chum,Area 2W,BC North,BC North,1981,71482,207333.3657,1,,,207333.3657,,,,age4
+320,Chum,Area 2W,BC North,BC North,1982,111915,140843.8222,1,,,140843.8222,,,,age4
+320,Chum,Area 2W,BC North,BC North,1983,49098,137439.7815,1,,,137439.7815,,,,age4
+320,Chum,Area 2W,BC North,BC North,1984,91428,115986.9619,1,,,115986.9619,,,,age4
+320,Chum,Area 2W,BC North,BC North,1985,123881,91178.61118,1,,,91178.61118,,,,age4
+320,Chum,Area 2W,BC North,BC North,1986,114309,141341.8062,1,,,141341.8062,,,,age4
+320,Chum,Area 2W,BC North,BC North,1987,107850,158618.4692,1,,,158618.4692,,,,age4
+320,Chum,Area 2W,BC North,BC North,1988,106636,57968.05113,1,,,57968.05113,,,,age4
+320,Chum,Area 2W,BC North,BC North,1989,59405,191353.6892,1,,,191353.6892,,,,age4
+320,Chum,Area 2W,BC North,BC North,1990,86373,90973.8717,1,,,90973.8717,,,,age4
+320,Chum,Area 2W,BC North,BC North,1991,109375,107010.3103,1,,,107010.3103,,,,age4
+320,Chum,Area 2W,BC North,BC North,1992,47149,64975.72491,1,,,64975.72491,,,,age4
+320,Chum,Area 2W,BC North,BC North,1993,131472,68340.19938,1,,,68340.19938,,,,age4
+320,Chum,Area 2W,BC North,BC North,1994,73375,211911.8484,1,,,211911.8484,,,,age4
+320,Chum,Area 2W,BC North,BC North,1995,89997,252221.0608,1,,,252221.0608,,,,age4
+320,Chum,Area 2W,BC North,BC North,1996,63913,163203.1873,1,,,163203.1873,,,,age4
+320,Chum,Area 2W,BC North,BC North,1997,63666,86679.80818,1,,,86679.80818,,,,age4
+320,Chum,Area 2W,BC North,BC North,1998,187991,148910.1233,1,,,148910.1233,,,,age4
+320,Chum,Area 2W,BC North,BC North,1999,216288,116437.3022,1,,,116437.3022,,,,age4
+320,Chum,Area 2W,BC North,BC North,2000,130801,172801.5896,1,,,172801.5896,,,,age4
+320,Chum,Area 2W,BC North,BC North,2001,86627,161460.6527,1,,,161460.6527,,,,age4
+320,Chum,Area 2W,BC North,BC North,2002,147387,127939.7212,1,,,127939.7212,,,,age4
+320,Chum,Area 2W,BC North,BC North,2003,116378,99194.22198,1,,,99194.22198,,,,age4
+320,Chum,Area 2W,BC North,BC North,2004,162186,84495.25864,1,,,84495.25864,,,,age4
+320,Chum,Area 2W,BC North,BC North,2005,150796,76812.82902,1,,,76812.82902,,,,age4
+320,Chum,Area 2W,BC North,BC North,2006,106814,173996.9136,1,,,173996.9136,,,,age4
+320,Chum,Area 2W,BC North,BC North,2007,99193,,,,,,,,,
+320,Chum,Area 2W,BC North,BC North,2008,84495,,,,,,,,,
+320,Chum,Area 2W,BC North,BC North,2009,76813,,,,,,,,,
+320,Chum,Area 2W,BC North,BC North,2010,173997,,,,,,,,,
+321,Chum,Area 2E,BC North,BC North,1980,238867,682769.0546,1,,,682769.0546,,,,age4
+321,Chum,Area 2E,BC North,BC North,1981,268896,1137018.507,1,,,1137018.507,,,,age4
+321,Chum,Area 2E,BC North,BC North,1982,281793,622442.9111,1,,,622442.9111,,,,age4
+321,Chum,Area 2E,BC North,BC North,1983,245127,659731.6869,1,,,659731.6869,,,,age4
+321,Chum,Area 2E,BC North,BC North,1984,441455,794294.1836,1,,,794294.1836,,,,age4
+321,Chum,Area 2E,BC North,BC North,1985,485292,584993.5748,1,,,584993.5748,,,,age4
+321,Chum,Area 2E,BC North,BC North,1986,398590,756444.7432,1,,,756444.7432,,,,age4
+321,Chum,Area 2E,BC North,BC North,1987,465691,618060.7559,1,,,618060.7559,,,,age4
+321,Chum,Area 2E,BC North,BC North,1988,399459,372457.6311,1,,,372457.6311,,,,age4
+321,Chum,Area 2E,BC North,BC North,1989,448392,363555.5971,1,,,363555.5971,,,,age4
+321,Chum,Area 2E,BC North,BC North,1990,457893,433491.3464,1,,,433491.3464,,,,age4
+321,Chum,Area 2E,BC North,BC North,1991,347217,305178.7986,1,,,305178.7986,,,,age4
+321,Chum,Area 2E,BC North,BC North,1992,235872,471981.7648,1,,,471981.7648,,,,age4
+321,Chum,Area 2E,BC North,BC North,1993,246240,296271.6317,1,,,296271.6317,,,,age4
+321,Chum,Area 2E,BC North,BC North,1994,298323,443128.2255,1,,,443128.2255,,,,age4
+321,Chum,Area 2E,BC North,BC North,1995,276474,444466.3154,1,,,444466.3154,,,,age4
+321,Chum,Area 2E,BC North,BC North,1996,349697,334020.1663,1,,,334020.1663,,,,age4
+321,Chum,Area 2E,BC North,BC North,1997,245866,276629.8534,1,,,276629.8534,,,,age4
+321,Chum,Area 2E,BC North,BC North,1998,352167,169824.8546,1,,,169824.8546,,,,age4
+321,Chum,Area 2E,BC North,BC North,1999,350222,211417.0106,1,,,211417.0106,,,,age4
+321,Chum,Area 2E,BC North,BC North,2000,259557,240096.6776,1,,,240096.6776,,,,age4
+321,Chum,Area 2E,BC North,BC North,2001,276365,207700.4669,1,,,207700.4669,,,,age4
+321,Chum,Area 2E,BC North,BC North,2002,163553,189576.5668,1,,,189576.5668,,,,age4
+321,Chum,Area 2E,BC North,BC North,2003,205475,37554.14006,1,,,37554.14006,,,,age4
+321,Chum,Area 2E,BC North,BC North,2004,240097,184361.5319,1,,,184361.5319,,,,age4
+321,Chum,Area 2E,BC North,BC North,2005,207700,266325.3422,1,,,266325.3422,,,,age4
+321,Chum,Area 2E,BC North,BC North,2006,189573,107235.6092,1,,,107235.6092,,,,age4
+321,Chum,Area 2E,BC North,BC North,2007,37554,,,,,,,,,
+321,Chum,Area 2E,BC North,BC North,2008,184362,,,,,,,,,
+321,Chum,Area 2E,BC North,BC North,2009,260287,,,,,,,,,
+321,Chum,Area 2E,BC North,BC North,2010,103103,,,,,,,,,
+322,Chum,Area 1,BC North,BC North,1980,19988,87479.96167,1,,,87479.96167,,,,age4
+322,Chum,Area 1,BC North,BC North,1981,39351,152682.154,1,,,152682.154,,,,age4
+322,Chum,Area 1,BC North,BC North,1982,107747,234316.9817,1,,,234316.9817,,,,age4
+322,Chum,Area 1,BC North,BC North,1983,53171,85243.15915,1,,,85243.15915,,,,age4
+322,Chum,Area 1,BC North,BC North,1984,81201,53229.99601,1,,,53229.99601,,,,age4
+322,Chum,Area 1,BC North,BC North,1985,97441,34675.82382,1,,,34675.82382,,,,age4
+322,Chum,Area 1,BC North,BC North,1986,128360,15987.79508,1,,,15987.79508,,,,age4
+322,Chum,Area 1,BC North,BC North,1987,78390,4853.181884,1,,,4853.181884,,,,age4
+322,Chum,Area 1,BC North,BC North,1988,45129,18651.16102,1,,,18651.16102,,,,age4
+322,Chum,Area 1,BC North,BC North,1989,29278,100362.075,1,,,100362.075,,,,age4
+322,Chum,Area 1,BC North,BC North,1990,7296,62589.77282,1,,,62589.77282,,,,age4
+322,Chum,Area 1,BC North,BC North,1991,1897,53959.38302,1,,,53959.38302,,,,age4
+322,Chum,Area 1,BC North,BC North,1992,9544,10953.64488,1,,,10953.64488,,,,age4
+322,Chum,Area 1,BC North,BC North,1993,76468,95703.08169,1,,,95703.08169,,,,age4
+322,Chum,Area 1,BC North,BC North,1994,48630,51509.31607,1,,,51509.31607,,,,age4
+322,Chum,Area 1,BC North,BC North,1995,30041,52810.82595,1,,,52810.82595,,,,age4
+322,Chum,Area 1,BC North,BC North,1996,9999,20216.85353,1,,,20216.85353,,,,age4
+322,Chum,Area 1,BC North,BC North,1997,48609,6178.588914,1,,,6178.588914,,,,age4
+322,Chum,Area 1,BC North,BC North,1998,50096,12000.63256,1,,,12000.63256,,,,age4
+322,Chum,Area 1,BC North,BC North,1999,51662,53422.44252,1,,,53422.44252,,,,age4
+322,Chum,Area 1,BC North,BC North,2000,19955,6284.993238,1,,,6284.993238,,,,age4
+322,Chum,Area 1,BC North,BC North,2001,6179,3637.271865,1,,,3637.271865,,,,age4
+322,Chum,Area 1,BC North,BC North,2002,11985,28923.84406,1,,,28923.84406,,,,age4
+322,Chum,Area 1,BC North,BC North,2003,53422,24401.88066,1,,,24401.88066,,,,age4
+322,Chum,Area 1,BC North,BC North,2004,6285,28024.96546,1,,,28024.96546,,,,age4
+322,Chum,Area 1,BC North,BC North,2005,3637,107514.74,1,,,107514.74,,,,age4
+322,Chum,Area 1,BC North,BC North,2006,28754,9341.655153,1,,,9341.655153,,,,age4
+322,Chum,Area 1,BC North,BC North,2007,24402,,,,,,,,,
+322,Chum,Area 1,BC North,BC North,2008,28025,,,,,,,,,
+322,Chum,Area 1,BC North,BC North,2009,55811,,,,,,,,,
+322,Chum,Area 1,BC North,BC North,2010,9342,,,,,,,,,
+323,Chum,Kadashan,SEAK,SEAK,1969,15449,41166,1,,,41166,,,,age4
+323,Chum,Kadashan,SEAK,SEAK,1970,32183,33642,1,,,33642,,,,age4
+323,Chum,Kadashan,SEAK,SEAK,1971,64928,5548,1,,,5548,,,,age4
+323,Chum,Kadashan,SEAK,SEAK,1972,45893,13693,1,,,13693,,,,age4
+323,Chum,Kadashan,SEAK,SEAK,1973,35340,19586,1,,,19586,,,,age4
+323,Chum,Kadashan,SEAK,SEAK,1974,26978,20366,1,,,20366,,,,age4
+323,Chum,Kadashan,SEAK,SEAK,1975,5548,14616,1,,,14616,,,,age4
+323,Chum,Kadashan,SEAK,SEAK,1976,13693,50505,1,,,50505,,,,age4
+323,Chum,Kadashan,SEAK,SEAK,1977,19586,26128,1,,,26128,,,,age4
+323,Chum,Kadashan,SEAK,SEAK,1978,9248,62029,1,,,62029,,,,age4
+323,Chum,Kadashan,SEAK,SEAK,1979,10516,88316,1,,,88316,,,,age4
+323,Chum,Kadashan,SEAK,SEAK,1980,37034,188283,1,,,188283,,,,age4
+323,Chum,Kadashan,SEAK,SEAK,1981,16648,126755,1,,,126755,,,,age4
+323,Chum,Kadashan,SEAK,SEAK,1982,14150,24525,1,,,24525,,,,age4
+323,Chum,Kadashan,SEAK,SEAK,1983,36059,40314,1,,,40314,,,,age4
+323,Chum,Kadashan,SEAK,SEAK,1984,52539,214105,1,,,214105,,,,age4
+323,Chum,Kadashan,SEAK,SEAK,1985,36158,,,,,,,,,
+323,Chum,Kadashan,SEAK,SEAK,1986,21759,,,,,,,,,
+323,Chum,Kadashan,SEAK,SEAK,1987,30321,,,,,,,,,
+323,Chum,Kadashan,SEAK,SEAK,1988,83993,,,,,,,,,
+324,Chum,Chilkat,SEAK,SEAK,1990,275000,,,,,,,,,
+324,Chum,Chilkat,SEAK,SEAK,1991,,,,,,,,,,
+324,Chum,Chilkat,SEAK,SEAK,1992,,,,,,,,,,
+324,Chum,Chilkat,SEAK,SEAK,1993,,,,,,,,,,
+324,Chum,Chilkat,SEAK,SEAK,1994,29289,140111.3162,1,,5258.493647,94299.32771,39699.31895,854.175914,,data
+324,Chum,Chilkat,SEAK,SEAK,1995,71416,324887.3608,1,,6882.385726,262827.897,53665.05774,1512.020368,,data
+324,Chum,Chilkat,SEAK,SEAK,1996,65158,444811.2272,1,,21693.57867,245879.4618,176799.2007,438.986,,data
+324,Chum,Chilkat,SEAK,SEAK,1997,84577,251911.8013,1,,1148.062347,188678.4452,61080.35343,1004.94035,,data
+324,Chum,Chilkat,SEAK,SEAK,1998,125478,189620.3088,1,,3829.333737,156640.7396,29035.30084,114.9346808,,data
+324,Chum,Chilkat,SEAK,SEAK,1999,274116,247732.6045,1,,14973.92101,158450.0791,73420.47194,888.1325176,,data
+324,Chum,Chilkat,SEAK,SEAK,2000,242182,368250.2992,1,,14149.68139,280006.5855,74094.03232,0,,data
+324,Chum,Chilkat,SEAK,SEAK,2001,301921,351938.656,1,,9213.008407,187255.5103,152124.795,3345.342347,,avg
+324,Chum,Chilkat,SEAK,SEAK,2002,206000,672333.8177,1,,10782.32415,555099.2483,104929.2272,1523.018114,,avg
+324,Chum,Chilkat,SEAK,SEAK,2003,166000,380770.9542,1,,31589.95678,255423.0368,88816.82026,4941.140412,,avg
+324,Chum,Chilkat,SEAK,SEAK,2004,310000,627813.8981,1,,24794.39368,416947.3638,184087.4889,1984.651703,,avg
+324,Chum,Chilkat,SEAK,SEAK,2005,202000,237985.0653,1,,10340.79781,193906.8061,32950.68568,786.7757222,,avg
+324,Chum,Chilkat,SEAK,SEAK,2006,681451,,,,4379.564544,104315.7162,33558.26273,,,
+324,Chum,Chilkat,SEAK,SEAK,2007,320436,,,,18429.03473,381398.4583,,,,
+324,Chum,Chilkat,SEAK,SEAK,2008,436753,,,,4688.503284,,,,,
+324,Chum,Chilkat,SEAK,SEAK,2009,325726,,,,,,,,,
+324,Chum,Chilkat,SEAK,SEAK,2010,88318,,,,,,,,,
+324,Chum,Chilkat,SEAK,SEAK,2011,355918,,,,,,,,,
+325,Chum,East Alsek,Yakutat,Yakutat,1960,2000,26481,1,,,26481,,,,age4
+325,Chum,East Alsek,Yakutat,Yakutat,1961,13700,12094,1,,,12094,,,,age4
+325,Chum,East Alsek,Yakutat,Yakutat,1962,32500,11396,1,,,11396,,,,age4
+325,Chum,East Alsek,Yakutat,Yakutat,1963,,15471,,,,15471,,,,age4
+325,Chum,East Alsek,Yakutat,Yakutat,1964,25000,,,,,,,,,
+325,Chum,East Alsek,Yakutat,Yakutat,1965,8000,24935,1,,,24935,,,,age4
+325,Chum,East Alsek,Yakutat,Yakutat,1966,8000,,,,,,,,,
+325,Chum,East Alsek,Yakutat,Yakutat,1967,11000,,,,,,,,,
+325,Chum,East Alsek,Yakutat,Yakutat,1968,,16318,,,,16318,,,,age4
+325,Chum,East Alsek,Yakutat,Yakutat,1969,10000,18995,1,,,18995,,,,age4
+325,Chum,East Alsek,Yakutat,Yakutat,1970,,9238,,,,9238,,,,age4
+325,Chum,East Alsek,Yakutat,Yakutat,1971,,5765,,,,5765,,,,age4
+325,Chum,East Alsek,Yakutat,Yakutat,1972,8000,27749,1,,,27749,,,,age4
+325,Chum,East Alsek,Yakutat,Yakutat,1973,10000,29059,1,,,29059,,,,age4
+325,Chum,East Alsek,Yakutat,Yakutat,1974,5000,15049,1,,,15049,,,,age4
+325,Chum,East Alsek,Yakutat,Yakutat,1975,2000,10853,1,,,10853,,,,age4
+325,Chum,East Alsek,Yakutat,Yakutat,1976,20000,60214,1,,,60214,,,,age4
+325,Chum,East Alsek,Yakutat,Yakutat,1977,20000,20833,1,,,20833,,,,age4
+325,Chum,East Alsek,Yakutat,Yakutat,1978,8000,9367,1,,,9367,,,,age4
+325,Chum,East Alsek,Yakutat,Yakutat,1979,3000,21302,1,,,21302,,,,age4
+325,Chum,East Alsek,Yakutat,Yakutat,1980,40000,47320,1,,,47320,,,,age4
+325,Chum,East Alsek,Yakutat,Yakutat,1981,10000,20188,1,,,20188,,,,age4
+325,Chum,East Alsek,Yakutat,Yakutat,1982,3000,38030,1,,,38030,,,,age4
+325,Chum,East Alsek,Yakutat,Yakutat,1983,10000,15289,1,,,15289,,,,age4
+325,Chum,East Alsek,Yakutat,Yakutat,1984,15000,34556,1,,,34556,,,,age4
+325,Chum,East Alsek,Yakutat,Yakutat,1985,7000,23475,1,,,23475,,,,age4
+325,Chum,East Alsek,Yakutat,Yakutat,1986,20000,9271,1,,,9271,,,,age4
+325,Chum,East Alsek,Yakutat,Yakutat,1987,600,6238,1,,,6238,,,,age4
+325,Chum,East Alsek,Yakutat,Yakutat,1988,5000,,,,,,,,,
+325,Chum,East Alsek,Yakutat,Yakutat,1989,7000,,,,,,,,,
+325,Chum,East Alsek,Yakutat,Yakutat,1990,3000,,,,,,,,,
+325,Chum,East Alsek,Yakutat,Yakutat,1991,3000,,,,,,,,,
+326,Chum,PWS,PWS,PWS,1965,195644,412761,1,,,412761,,,,age4
+326,Chum,PWS,PWS,PWS,1966,142560,293071,1,,,293071,,,,age4
+326,Chum,PWS,PWS,PWS,1967,127210,689322,1,,,689322,,,,age4
+326,Chum,PWS,PWS,PWS,1968,74570,315278,1,,,315278,,,,age4
+326,Chum,PWS,PWS,PWS,1969,91540,1231287,1,,,1231287,,,,age4
+326,Chum,PWS,PWS,PWS,1970,61550,256110,1,,,256110,,,,age4
+326,Chum,PWS,PWS,PWS,1971,109770,148566,1,,,148566,,,,age4
+326,Chum,PWS,PWS,PWS,1972,269190,444157,1,,,444157,,,,age4
+326,Chum,PWS,PWS,PWS,1973,491270,738898,1,,,738898,,,,age4
+326,Chum,PWS,PWS,PWS,1974,166900,646001,1,,,646001,,,,age4
+326,Chum,PWS,PWS,PWS,1975,47290,434424,1,,,434424,,,,age4
+326,Chum,PWS,PWS,PWS,1976,73500,554327,1,,,554327,,,,age4
+326,Chum,PWS,PWS,PWS,1977,166205,2017468,1,,,2017468,,,,age4
+326,Chum,PWS,PWS,PWS,1978,156230,1598758,1,,,1598758,,,,age4
+326,Chum,PWS,PWS,PWS,1979,84825,1334614,1,,,1334614,,,,age4
+326,Chum,PWS,PWS,PWS,1980,72113,1431521,1,,,1431521,,,,age4
+326,Chum,PWS,PWS,PWS,1981,128737,1383316,1,,,1383316,,,,age4
+326,Chum,PWS,PWS,PWS,1982,261755,1912281,1,,,1912281,,,,age4
+326,Chum,PWS,PWS,PWS,1983,285575,2264012,1,,,2264012,,,,age4
+326,Chum,PWS,PWS,PWS,1984,168742,2294355,1,,,2294355,,,,age4
+326,Chum,PWS,PWS,PWS,1985,89611,882020,1,,,882020,,,,age4
+326,Chum,PWS,PWS,PWS,1986,227538,1242222,1,,,1242222,,,,age4
+326,Chum,PWS,PWS,PWS,1987,312902,451332,1,,,451332,,,,age4
+326,Chum,PWS,PWS,PWS,1988,484980,359598,1,,,359598,,,,age4
+326,Chum,PWS,PWS,PWS,1989,239659,820800,1,,,820800,,,,age4
+326,Chum,PWS,PWS,PWS,1990,301660,769812,1,,,769812,,,,age4
+326,Chum,PWS,PWS,PWS,1991,112928,672304,1,,,672304,,,,age4
+326,Chum,PWS,PWS,PWS,1992,85506,1329207,1,,,1329207,,,,age4
+326,Chum,PWS,PWS,PWS,1993,114718,1588083,1,,,1588083,,,,age4
+326,Chum,PWS,PWS,PWS,1994,97968,962530,1,,,962530,,,,age4
+326,Chum,PWS,PWS,PWS,1995,147483,2519843,1,,,2519843,,,,age4
+326,Chum,PWS,PWS,PWS,1996,292331,3796760,1,,,3796760,,,,age4
+326,Chum,PWS,PWS,PWS,1997,172137,2509802,1,,,2509802,,,,age4
+326,Chum,PWS,PWS,PWS,1998,209806,4050278,1,,,4050278,,,,age4
+326,Chum,PWS,PWS,PWS,1999,336499,2655455,1,,,2655455,,,,age4
+326,Chum,PWS,PWS,PWS,2000,363173,1692941,1,,,1692941,,,,age4
+326,Chum,PWS,PWS,PWS,2001,347738,1657611,1,,,1657611,,,,age4
+326,Chum,PWS,PWS,PWS,2002,257717,1605563,1,,,1605563,,,,age4
+326,Chum,PWS,PWS,PWS,2003,413580,2758870,1,,,2758870,,,,age4
+326,Chum,PWS,PWS,PWS,2004,219669,4645827,1,,,4645827,,,,age4
+326,Chum,PWS,PWS,PWS,2005,196465,,,,,2847594,,,,
+326,Chum,PWS,PWS,PWS,2006,248566,,,,,3888360,,,,
+326,Chum,PWS,PWS,PWS,2007,279660,,,,,,,,,
+326,Chum,PWS,PWS,PWS,2008,211038,,,,,,,,,
+326,Chum,PWS,PWS,PWS,2009,236815,,,,,,,,,
+326,Chum,PWS,PWS,PWS,2010,320292,,,,,,,,,
+327,Chum,Kamishak,Cook Inlet,Cook Inlet,1971,23000,30868,1,,,30868,,,,age4
+327,Chum,Kamishak,Cook Inlet,Cook Inlet,1972,16600,132348,1,,,132348,,,,age4
+327,Chum,Kamishak,Cook Inlet,Cook Inlet,1973,42000,127359,1,,,127359,,,,age4
+327,Chum,Kamishak,Cook Inlet,Cook Inlet,1974,25200,184269,1,,,184269,,,,age4
+327,Chum,Kamishak,Cook Inlet,Cook Inlet,1975,26000,93211,1,,,93211,,,,age4
+327,Chum,Kamishak,Cook Inlet,Cook Inlet,1976,83500,103421,1,,,103421,,,,age4
+327,Chum,Kamishak,Cook Inlet,Cook Inlet,1977,61700,158501,1,,,158501,,,,age4
+327,Chum,Kamishak,Cook Inlet,Cook Inlet,1978,135600,215746,1,,,215746,,,,age4
+327,Chum,Kamishak,Cook Inlet,Cook Inlet,1979,64500,274401,1,,,274401,,,,age4
+327,Chum,Kamishak,Cook Inlet,Cook Inlet,1980,67500,153895,1,,,153895,,,,age4
+327,Chum,Kamishak,Cook Inlet,Cook Inlet,1981,85000,41139,1,,,41139,,,,age4
+327,Chum,Kamishak,Cook Inlet,Cook Inlet,1982,106800,153570,1,,,153570,,,,age4
+327,Chum,Kamishak,Cook Inlet,Cook Inlet,1983,131500,212565,1,,,212565,,,,age4
+327,Chum,Kamishak,Cook Inlet,Cook Inlet,1984,83300,339479,1,,,339479,,,,age4
+327,Chum,Kamishak,Cook Inlet,Cook Inlet,1985,33000,112009,1,,,112009,,,,age4
+327,Chum,Kamishak,Cook Inlet,Cook Inlet,1986,91900,42497,1,,,42497,,,,age4
+327,Chum,Kamishak,Cook Inlet,Cook Inlet,1987,102000,58249,1,,,58249,,,,age4
+327,Chum,Kamishak,Cook Inlet,Cook Inlet,1988,118900,70551,1,,,70551,,,,age4
+327,Chum,Kamishak,Cook Inlet,Cook Inlet,1989,104200,67100,1,,,67100,,,,age4
+327,Chum,Kamishak,Cook Inlet,Cook Inlet,1990,38900,65414,1,,,65414,,,,age4
+327,Chum,Kamishak,Cook Inlet,Cook Inlet,1991,50400,80500,1,,,80500,,,,age4
+327,Chum,Kamishak,Cook Inlet,Cook Inlet,1992,50500,,,,,,,,,
+327,Chum,Kamishak,Cook Inlet,Cook Inlet,1993,66500,63503,1,,,63503,,,,age4
+327,Chum,Kamishak,Cook Inlet,Cook Inlet,1994,65400,75220,1,,,75220,,,,age4
+327,Chum,Kamishak,Cook Inlet,Cook Inlet,1995,70200,100623,1,,,100623,,,,age4
+327,Chum,Kamishak,Cook Inlet,Cook Inlet,1996,78000,259869,1,,,259869,,,,age4
+327,Chum,Kamishak,Cook Inlet,Cook Inlet,1997,63500,254466,1,,,254466,,,,age4
+327,Chum,Kamishak,Cook Inlet,Cook Inlet,1998,75200,177404,1,,,177404,,,,age4
+327,Chum,Kamishak,Cook Inlet,Cook Inlet,1999,100600,,,,,,,,,
+327,Chum,Kamishak,Cook Inlet,Cook Inlet,2000,193800,361995,1,,,361995,,,,age4
+327,Chum,Kamishak,Cook Inlet,Cook Inlet,2001,169700,206943,1,,,206943,,,,age4
+327,Chum,Kamishak,Cook Inlet,Cook Inlet,2002,142800,237294,1,,,237294,,,,age4
+327,Chum,Kamishak,Cook Inlet,Cook Inlet,2003,196900,85837,1,,,85837,,,,age4
+327,Chum,Kamishak,Cook Inlet,Cook Inlet,2004,184600,164409,1,,,164409,,,,age4
+327,Chum,Kamishak,Cook Inlet,Cook Inlet,2005,123000,147774,1,,,147774,,,,age4
+327,Chum,Kamishak,Cook Inlet,Cook Inlet,2006,180800,152782,1,,,152782,,,,age4
+327,Chum,Kamishak,Cook Inlet,Cook Inlet,2007,85800,,,,,,,,,
+327,Chum,Kamishak,Cook Inlet,Cook Inlet,2008,91200,,,,,,,,,
+327,Chum,Kamishak,Cook Inlet,Cook Inlet,2009,111200,,,,,,,,,
+327,Chum,Kamishak,Cook Inlet,Cook Inlet,2010,82000,,,,,,,,,
+328,Chum,Outer CIn,Cook Inlet,Cook Inlet,1970,19500,19324,1,,,19324,,,,age4
+328,Chum,Outer CIn,Cook Inlet,Cook Inlet,1971,18500,52748,1,,,52748,,,,age4
+328,Chum,Outer CIn,Cook Inlet,Cook Inlet,1972,14000,17912,1,,,17912,,,,age4
+328,Chum,Outer CIn,Cook Inlet,Cook Inlet,1973,19000,103567,1,,,103567,,,,age4
+328,Chum,Outer CIn,Cook Inlet,Cook Inlet,1974,7400,60724,1,,,60724,,,,age4
+328,Chum,Outer CIn,Cook Inlet,Cook Inlet,1975,41400,244758,1,,,244758,,,,age4
+328,Chum,Outer CIn,Cook Inlet,Cook Inlet,1976,17500,74446,1,,,74446,,,,age4
+328,Chum,Outer CIn,Cook Inlet,Cook Inlet,1977,33400,285493,1,,,285493,,,,age4
+328,Chum,Outer CIn,Cook Inlet,Cook Inlet,1978,41500,84775,1,,,84775,,,,age4
+328,Chum,Outer CIn,Cook Inlet,Cook Inlet,1979,64200,77003,1,,,77003,,,,age4
+328,Chum,Outer CIn,Cook Inlet,Cook Inlet,1980,42200,43877,1,,,43877,,,,age4
+328,Chum,Outer CIn,Cook Inlet,Cook Inlet,1981,47100,29344,1,,,29344,,,,age4
+328,Chum,Outer CIn,Cook Inlet,Cook Inlet,1982,21700,26501,1,,,26501,,,,age4
+328,Chum,Outer CIn,Cook Inlet,Cook Inlet,1983,49800,49963,1,,,49963,,,,age4
+328,Chum,Outer CIn,Cook Inlet,Cook Inlet,1984,40800,96902,1,,,96902,,,,age4
+328,Chum,Outer CIn,Cook Inlet,Cook Inlet,1985,17500,11143,1,,,11143,,,,age4
+328,Chum,Outer CIn,Cook Inlet,Cook Inlet,1986,14800,5814,1,,,5814,,,,age4
+328,Chum,Outer CIn,Cook Inlet,Cook Inlet,1987,21300,41837,1,,,41837,,,,age4
+328,Chum,Outer CIn,Cook Inlet,Cook Inlet,1988,25700,14781,1,,,14781,,,,age4
+328,Chum,Outer CIn,Cook Inlet,Cook Inlet,1989,11100,12570,1,,,12570,,,,age4
+328,Chum,Outer CIn,Cook Inlet,Cook Inlet,1990,5200,25232,1,,,25232,,,,age4
+328,Chum,Outer CIn,Cook Inlet,Cook Inlet,1991,27500,20774,1,,,20774,,,,age4
+328,Chum,Outer CIn,Cook Inlet,Cook Inlet,1992,14600,17903,1,,,17903,,,,age4
+328,Chum,Outer CIn,Cook Inlet,Cook Inlet,1993,11600,22775,1,,,22775,,,,age4
+328,Chum,Outer CIn,Cook Inlet,Cook Inlet,1994,25200,16311,1,,,16311,,,,age4
+328,Chum,Outer CIn,Cook Inlet,Cook Inlet,1995,20300,45362,1,,,45362,,,,age4
+328,Chum,Outer CIn,Cook Inlet,Cook Inlet,1996,17900,39902,1,,,39902,,,,age4
+328,Chum,Outer CIn,Cook Inlet,Cook Inlet,1997,21200,17608,1,,,17608,,,,age4
+328,Chum,Outer CIn,Cook Inlet,Cook Inlet,1998,15700,46510,1,,,46510,,,,age4
+328,Chum,Outer CIn,Cook Inlet,Cook Inlet,1999,43300,40237,1,,,40237,,,,age4
+328,Chum,Outer CIn,Cook Inlet,Cook Inlet,2000,39600,72111,1,,,72111,,,,age4
+328,Chum,Outer CIn,Cook Inlet,Cook Inlet,2001,17200,47124,1,,,47124,,,,age4
+328,Chum,Outer CIn,Cook Inlet,Cook Inlet,2002,42700,37683,1,,,37683,,,,age4
+328,Chum,Outer CIn,Cook Inlet,Cook Inlet,2003,40100,12449,1,,,12449,,,,age4
+328,Chum,Outer CIn,Cook Inlet,Cook Inlet,2004,44200,135819,1,,,135819,,,,age4
+328,Chum,Outer CIn,Cook Inlet,Cook Inlet,2005,34600,56926,1,,,56926,,,,age4
+328,Chum,Outer CIn,Cook Inlet,Cook Inlet,2006,24800,42563,1,,,42563,,,,age4
+328,Chum,Outer CIn,Cook Inlet,Cook Inlet,2007,12400,,,,,,,,,
+328,Chum,Outer CIn,Cook Inlet,Cook Inlet,2008,35000,,,,,,,,,
+328,Chum,Outer CIn,Cook Inlet,Cook Inlet,2009,21800,,,,,,,,,
+328,Chum,Outer CIn,Cook Inlet,Cook Inlet,2010,20100,,,,,,,,,
+329,Chum,S CIn,Cook Inlet,Cook Inlet,1970,900,3225,1,,,3225,,,,age4
+329,Chum,S CIn,Cook Inlet,Cook Inlet,1971,1000,8428,1,,,8428,,,,age4
+329,Chum,S CIn,Cook Inlet,Cook Inlet,1972,1500,1917,1,,,1917,,,,age4
+329,Chum,S CIn,Cook Inlet,Cook Inlet,1973,2000,11934,1,,,11934,,,,age4
+329,Chum,S CIn,Cook Inlet,Cook Inlet,1974,500,10325,1,,,10325,,,,age4
+329,Chum,S CIn,Cook Inlet,Cook Inlet,1975,3000,10421,1,,,10421,,,,age4
+329,Chum,S CIn,Cook Inlet,Cook Inlet,1976,400,5705,1,,,5705,,,,age4
+329,Chum,S CIn,Cook Inlet,Cook Inlet,1977,5200,25720,1,,,25720,,,,age4
+329,Chum,S CIn,Cook Inlet,Cook Inlet,1978,4800,20966,1,,,20966,,,,age4
+329,Chum,S CIn,Cook Inlet,Cook Inlet,1979,2200,16181,1,,,16181,,,,age4
+329,Chum,S CIn,Cook Inlet,Cook Inlet,1980,1100,11698,1,,,11698,,,,age4
+329,Chum,S CIn,Cook Inlet,Cook Inlet,1981,4800,6009,1,,,6009,,,,age4
+329,Chum,S CIn,Cook Inlet,Cook Inlet,1982,2500,6160,1,,,6160,,,,age4
+329,Chum,S CIn,Cook Inlet,Cook Inlet,1983,1900,6530,1,,,6530,,,,age4
+329,Chum,S CIn,Cook Inlet,Cook Inlet,1984,2100,10742,1,,,10742,,,,age4
+329,Chum,S CIn,Cook Inlet,Cook Inlet,1985,500,4441,1,,,4441,,,,age4
+329,Chum,S CIn,Cook Inlet,Cook Inlet,1986,600,5033,1,,,5033,,,,age4
+329,Chum,S CIn,Cook Inlet,Cook Inlet,1987,1500,3034,1,,,3034,,,,age4
+329,Chum,S CIn,Cook Inlet,Cook Inlet,1988,3000,3280,1,,,3280,,,,age4
+329,Chum,S CIn,Cook Inlet,Cook Inlet,1989,1300,5288,1,,,5288,,,,age4
+329,Chum,S CIn,Cook Inlet,Cook Inlet,1990,2600,7830,1,,,7830,,,,age4
+329,Chum,S CIn,Cook Inlet,Cook Inlet,1991,1100,8330,1,,,8330,,,,age4
+329,Chum,S CIn,Cook Inlet,Cook Inlet,1992,1400,7211,1,,,7211,,,,age4
+329,Chum,S CIn,Cook Inlet,Cook Inlet,1993,2500,8358,1,,,8358,,,,age4
+329,Chum,S CIn,Cook Inlet,Cook Inlet,1994,5200,9055,1,,,9055,,,,age4
+329,Chum,S CIn,Cook Inlet,Cook Inlet,1995,3800,11224,1,,,11224,,,,age4
+329,Chum,S CIn,Cook Inlet,Cook Inlet,1996,3700,16739,1,,,16739,,,,age4
+329,Chum,S CIn,Cook Inlet,Cook Inlet,1997,4100,9780,1,,,9780,,,,age4
+329,Chum,S CIn,Cook Inlet,Cook Inlet,1998,5100,10103,1,,,10103,,,,age4
+329,Chum,S CIn,Cook Inlet,Cook Inlet,1999,6600,8630,1,,,8630,,,,age4
+329,Chum,S CIn,Cook Inlet,Cook Inlet,2000,11400,2572,1,,,2572,,,,age4
+329,Chum,S CIn,Cook Inlet,Cook Inlet,2001,6000,2448,1,,,2448,,,,age4
+329,Chum,S CIn,Cook Inlet,Cook Inlet,2002,5300,4382,1,,,4382,,,,age4
+329,Chum,S CIn,Cook Inlet,Cook Inlet,2003,2900,3464,1,,,3464,,,,age4
+329,Chum,S CIn,Cook Inlet,Cook Inlet,2004,1200,3260,1,,,3260,,,,age4
+329,Chum,S CIn,Cook Inlet,Cook Inlet,2005,700,3274,1,,,3274,,,,age4
+329,Chum,S CIn,Cook Inlet,Cook Inlet,2006,2200,2903,1,,,2903,,,,age4
+329,Chum,S CIn,Cook Inlet,Cook Inlet,2007,1900,,,,,,,,,
+329,Chum,S CIn,Cook Inlet,Cook Inlet,2008,1800,,,,,,,,,
+329,Chum,S CIn,Cook Inlet,Cook Inlet,2009,1000,,,,,,,,,
+329,Chum,S CIn,Cook Inlet,Cook Inlet,2010,1400,,,,,,,,,
+330,Chum,Upper CIn,Cook Inlet,Cook Inlet,1971,5000,25897,1,,,25897,,,,age4
+330,Chum,Upper CIn,Cook Inlet,Cook Inlet,1972,,,,,,,,,,
+330,Chum,Upper CIn,Cook Inlet,Cook Inlet,1973,8450,55283,1,,,55283,,,,age4
+330,Chum,Upper CIn,Cook Inlet,Cook Inlet,1974,1800,32739,1,,,32739,,,,age4
+330,Chum,Upper CIn,Cook Inlet,Cook Inlet,1975,4400,18204,1,,,18204,,,,age4
+330,Chum,Upper CIn,Cook Inlet,Cook Inlet,1976,16900,33137,1,,,33137,,,,age4
+330,Chum,Upper CIn,Cook Inlet,Cook Inlet,1977,12700,17812,1,,,17812,,,,age4
+330,Chum,Upper CIn,Cook Inlet,Cook Inlet,1978,6950,34870,1,,,34870,,,,age4
+330,Chum,Upper CIn,Cook Inlet,Cook Inlet,1979,2750,25169,1,,,25169,,,,age4
+330,Chum,Upper CIn,Cook Inlet,Cook Inlet,1980,6100,26931,1,,,26931,,,,age4
+330,Chum,Upper CIn,Cook Inlet,Cook Inlet,1981,9275,10481,1,,,10481,,,,age4
+330,Chum,Upper CIn,Cook Inlet,Cook Inlet,1982,18100,27912,1,,,27912,,,,age4
+330,Chum,Upper CIn,Cook Inlet,Cook Inlet,1983,12100,34635,1,,,34635,,,,age4
+330,Chum,Upper CIn,Cook Inlet,Cook Inlet,1984,8350,,,,,,,,,
+330,Chum,Upper CIn,Cook Inlet,Cook Inlet,1985,3750,10918,1,,,10918,,,,age4
+330,Chum,Upper CIn,Cook Inlet,Cook Inlet,1986,9925,16550,1,,,16550,,,,age4
+330,Chum,Upper CIn,Cook Inlet,Cook Inlet,1987,7725,23183,1,,,23183,,,,age4
+330,Chum,Upper CIn,Cook Inlet,Cook Inlet,1988,,,,,,,,,,
+330,Chum,Upper CIn,Cook Inlet,Cook Inlet,1989,2850,1809,1,,,1809,,,,age4
+330,Chum,Upper CIn,Cook Inlet,Cook Inlet,1990,5900,11125,1,,,11125,,,,age4
+330,Chum,Upper CIn,Cook Inlet,Cook Inlet,1991,8240,15045,1,,,15045,,,,age4
+330,Chum,Upper CIn,Cook Inlet,Cook Inlet,1992,8000,6855,1,,,6855,,,,age4
+330,Chum,Upper CIn,Cook Inlet,Cook Inlet,1993,1272,9292,1,,,9292,,,,age4
+330,Chum,Upper CIn,Cook Inlet,Cook Inlet,1994,4350,4040,1,,,4040,,,,age4
+330,Chum,Upper CIn,Cook Inlet,Cook Inlet,1995,3950,7261,1,,,7261,,,,age4
+330,Chum,Upper CIn,Cook Inlet,Cook Inlet,1996,6715,34100,1,,,34100,,,,age4
+330,Chum,Upper CIn,Cook Inlet,Cook Inlet,1997,9190,18220,1,,,18220,,,,age4
+330,Chum,Upper CIn,Cook Inlet,Cook Inlet,1998,3490,9824,1,,,9824,,,,age4
+330,Chum,Upper CIn,Cook Inlet,Cook Inlet,1999,7140,9930,1,,,9930,,,,age4
+330,Chum,Upper CIn,Cook Inlet,Cook Inlet,2000,34100,15200,1,,,15200,,,,age4
+330,Chum,Upper CIn,Cook Inlet,Cook Inlet,2001,18220,5582,1,,,5582,,,,age4
+330,Chum,Upper CIn,Cook Inlet,Cook Inlet,2002,9824,10934,1,,,10934,,,,age4
+330,Chum,Upper CIn,Cook Inlet,Cook Inlet,2003,9930,12399,1,,,12399,,,,age4
+330,Chum,Upper CIn,Cook Inlet,Cook Inlet,2004,15200,16830,1,,,16830,,,,age4
+330,Chum,Upper CIn,Cook Inlet,Cook Inlet,2005,5570,11352,1,,,11352,,,,age4
+330,Chum,Upper CIn,Cook Inlet,Cook Inlet,2006,10900,18662,1,,,18662,,,,age4
+330,Chum,Upper CIn,Cook Inlet,Cook Inlet,2007,12390,12152,1,,,12152,,,,age4
+330,Chum,Upper CIn,Cook Inlet,Cook Inlet,2008,16400,7068,1,,,7068,,,,age5
+330,Chum,Upper CIn,Cook Inlet,Cook Inlet,2009,10980,,,,,,,,,
+330,Chum,Upper CIn,Cook Inlet,Cook Inlet,2010,18210,,,,,,,,,
+330,Chum,Upper CIn,Cook Inlet,Cook Inlet,2011,12150,,,,,,,,,
+330,Chum,Upper CIn,Cook Inlet,Cook Inlet,2012,5860,,,,,,,,,
+331,Chum,Alitak,Kodiak,Kodiak,1978,36059,223443,1,,,223443,,,,age4
+331,Chum,Alitak,Kodiak,Kodiak,1979,10165,225103,1,,,225103,,,,age4
+331,Chum,Alitak,Kodiak,Kodiak,1980,86075,152999,1,,,152999,,,,age4
+331,Chum,Alitak,Kodiak,Kodiak,1981,52310,127028,1,,,127028,,,,age4
+331,Chum,Alitak,Kodiak,Kodiak,1982,121900,101277,1,,,101277,,,,age4
+331,Chum,Alitak,Kodiak,Kodiak,1983,117317,97727,1,,,97727,,,,age4
+331,Chum,Alitak,Kodiak,Kodiak,1984,68075,105001,1,,,105001,,,,age4
+331,Chum,Alitak,Kodiak,Kodiak,1985,42268,61518,1,,,61518,,,,age4
+331,Chum,Alitak,Kodiak,Kodiak,1986,25634,59027,1,,,59027,,,,age4
+331,Chum,Alitak,Kodiak,Kodiak,1987,38000,182204,1,,,182204,,,,age4
+331,Chum,Alitak,Kodiak,Kodiak,1988,11600,63371,1,,,63371,,,,age4
+331,Chum,Alitak,Kodiak,Kodiak,1989,41599,72551,1,,,72551,,,,age4
+331,Chum,Alitak,Kodiak,Kodiak,1990,8721,161023,1,,,161023,,,,age4
+331,Chum,Alitak,Kodiak,Kodiak,1991,99187,163885,1,,,163885,,,,age4
+331,Chum,Alitak,Kodiak,Kodiak,1992,28772,86653,1,,,86653,,,,age4
+331,Chum,Alitak,Kodiak,Kodiak,1993,18912,103249,1,,,103249,,,,age4
+331,Chum,Alitak,Kodiak,Kodiak,1994,48827,79210,1,,,79210,,,,age4
+331,Chum,Alitak,Kodiak,Kodiak,1995,58661,119778,1,,,119778,,,,age4
+331,Chum,Alitak,Kodiak,Kodiak,1996,21381,121066,1,,,121066,,,,age4
+331,Chum,Alitak,Kodiak,Kodiak,1997,17474,81646,1,,,81646,,,,age4
+331,Chum,Alitak,Kodiak,Kodiak,1998,38656,37840,1,,,37840,,,,age4
+331,Chum,Alitak,Kodiak,Kodiak,1999,40778,92433,1,,,92433,,,,age4
+331,Chum,Alitak,Kodiak,Kodiak,2000,53843,64262,1,,,64262,,,,age4
+331,Chum,Alitak,Kodiak,Kodiak,2001,29086,69947,1,,,69947,,,,age4
+331,Chum,Alitak,Kodiak,Kodiak,2002,27642,57519,1,,,57519,,,,age4
+331,Chum,Alitak,Kodiak,Kodiak,2003,60525,72431,1,,,72431,,,,age4
+331,Chum,Alitak,Kodiak,Kodiak,2004,25906,83194,1,,,83194,,,,age4
+331,Chum,Alitak,Kodiak,Kodiak,2005,47100,99347,1,,,99347,,,,age4
+331,Chum,Alitak,Kodiak,Kodiak,2006,10600,36736,1,,,36736,,,,age4
+331,Chum,Alitak,Kodiak,Kodiak,2007,24500,64899,1,,,64899,,,,age4
+331,Chum,Alitak,Kodiak,Kodiak,2008,4500,,,,,,,,,
+331,Chum,Alitak,Kodiak,Kodiak,2009,26850,,,,,,,,,
+331,Chum,Alitak,Kodiak,Kodiak,2010,17900,,,,,,,,,
+331,Chum,Alitak,Kodiak,Kodiak,2011,20200,,,,,,,,,
+332,Chum,E Kod,Kodiak,Kodiak,1978,65139,466138,1,,,466138,,,,age4
+332,Chum,E Kod,Kodiak,Kodiak,1979,169495,455532,1,,,455532,,,,age4
+332,Chum,E Kod,Kodiak,Kodiak,1980,165510,269302,1,,,269302,,,,age4
+332,Chum,E Kod,Kodiak,Kodiak,1981,204070,173358,1,,,173358,,,,age4
+332,Chum,E Kod,Kodiak,Kodiak,1982,144720,120240,1,,,120240,,,,age4
+332,Chum,E Kod,Kodiak,Kodiak,1983,150657,133206,1,,,133206,,,,age4
+332,Chum,E Kod,Kodiak,Kodiak,1984,110360,260173,1,,,260173,,,,age4
+332,Chum,E Kod,Kodiak,Kodiak,1985,129500,223645,1,,,223645,,,,age4
+332,Chum,E Kod,Kodiak,Kodiak,1986,62973,133613,1,,,133613,,,,age4
+332,Chum,E Kod,Kodiak,Kodiak,1987,42600,527808,1,,,527808,,,,age4
+332,Chum,E Kod,Kodiak,Kodiak,1988,44080,216435,1,,,216435,,,,age4
+332,Chum,E Kod,Kodiak,Kodiak,1989,223645,164550,1,,,164550,,,,age4
+332,Chum,E Kod,Kodiak,Kodiak,1990,46870,212298,1,,,212298,,,,age4
+332,Chum,E Kod,Kodiak,Kodiak,1991,220951,343191,1,,,343191,,,,age4
+332,Chum,E Kod,Kodiak,Kodiak,1992,32085,70289,1,,,70289,,,,age4
+332,Chum,E Kod,Kodiak,Kodiak,1993,56650,161109,1,,,161109,,,,age4
+332,Chum,E Kod,Kodiak,Kodiak,1994,44170,45063,1,,,45063,,,,age4
+332,Chum,E Kod,Kodiak,Kodiak,1995,21353,267651,1,,,267651,,,,age4
+332,Chum,E Kod,Kodiak,Kodiak,1996,27365,260295,1,,,260295,,,,age4
+332,Chum,E Kod,Kodiak,Kodiak,1997,26525,198351,1,,,198351,,,,age4
+332,Chum,E Kod,Kodiak,Kodiak,1998,17925,250257,1,,,250257,,,,age4
+332,Chum,E Kod,Kodiak,Kodiak,1999,87705,149598,1,,,149598,,,,age4
+332,Chum,E Kod,Kodiak,Kodiak,2000,42100,110369,1,,,110369,,,,age4
+332,Chum,E Kod,Kodiak,Kodiak,2001,18750,111197,1,,,111197,,,,age4
+332,Chum,E Kod,Kodiak,Kodiak,2002,68400,574595,1,,,574595,,,,age4
+332,Chum,E Kod,Kodiak,Kodiak,2003,68700,271410,1,,,271410,,,,age4
+332,Chum,E Kod,Kodiak,Kodiak,2004,58500,311556,1,,,311556,,,,age4
+332,Chum,E Kod,Kodiak,Kodiak,2005,49300,327005,1,,,327005,,,,age4
+332,Chum,E Kod,Kodiak,Kodiak,2006,328700,180749,1,,,180749,,,,age4
+332,Chum,E Kod,Kodiak,Kodiak,2007,90650,238767,1,,,238767,,,,age4
+332,Chum,E Kod,Kodiak,Kodiak,2008,35700,,,,,,,,,
+332,Chum,E Kod,Kodiak,Kodiak,2009,62690,,,,,,,,,
+332,Chum,E Kod,Kodiak,Kodiak,2010,79040,,,,,,,,,
+332,Chum,E Kod,Kodiak,Kodiak,2011,75050,,,,,,,,,
+333,Chum,SW Kod,Kodiak,Kodiak,1978,160339,93146,1,,,93146,,,,age4
+333,Chum,SW Kod,Kodiak,Kodiak,1979,97141,86109,1,,,86109,,,,age4
+333,Chum,SW Kod,Kodiak,Kodiak,1980,96108,104400,1,,,104400,,,,age4
+333,Chum,SW Kod,Kodiak,Kodiak,1981,97000,12555,1,,,12555,,,,age4
+333,Chum,SW Kod,Kodiak,Kodiak,1982,63675,148798,1,,,148798,,,,age4
+333,Chum,SW Kod,Kodiak,Kodiak,1983,85189,37521,1,,,37521,,,,age4
+333,Chum,SW Kod,Kodiak,Kodiak,1984,80172,87616,1,,,87616,,,,age4
+333,Chum,SW Kod,Kodiak,Kodiak,1985,1502,7298,1,,,7298,,,,age4
+333,Chum,SW Kod,Kodiak,Kodiak,1986,92218,151012,1,,,151012,,,,age4
+333,Chum,SW Kod,Kodiak,Kodiak,1987,12200,85528,1,,,85528,,,,age4
+333,Chum,SW Kod,Kodiak,Kodiak,1988,58900,103466,1,,,103466,,,,age4
+333,Chum,SW Kod,Kodiak,Kodiak,1989,7279,48874,1,,,48874,,,,age4
+333,Chum,SW Kod,Kodiak,Kodiak,1990,118657,70613,1,,,70613,,,,age4
+333,Chum,SW Kod,Kodiak,Kodiak,1991,51765,131957,1,,,131957,,,,age4
+333,Chum,SW Kod,Kodiak,Kodiak,1992,43874,87975,1,,,87975,,,,age4
+333,Chum,SW Kod,Kodiak,Kodiak,1993,1978,15811,1,,,15811,,,,age4
+333,Chum,SW Kod,Kodiak,Kodiak,1994,12538,78677,1,,,78677,,,,age4
+333,Chum,SW Kod,Kodiak,Kodiak,1995,35191,145480,1,,,145480,,,,age4
+333,Chum,SW Kod,Kodiak,Kodiak,1996,7757,84707,1,,,84707,,,,age4
+333,Chum,SW Kod,Kodiak,Kodiak,1997,3778,52419,1,,,52419,,,,age4
+333,Chum,SW Kod,Kodiak,Kodiak,1998,26596,79826,1,,,79826,,,,age4
+333,Chum,SW Kod,Kodiak,Kodiak,1999,73850,41403,1,,,41403,,,,age4
+333,Chum,SW Kod,Kodiak,Kodiak,2000,15697,80113,1,,,80113,,,,age4
+333,Chum,SW Kod,Kodiak,Kodiak,2001,1482,9451,1,,,9451,,,,age4
+333,Chum,SW Kod,Kodiak,Kodiak,2002,55838,38797,1,,,38797,,,,age4
+333,Chum,SW Kod,Kodiak,Kodiak,2003,12900,27947,1,,,27947,,,,age4
+333,Chum,SW Kod,Kodiak,Kodiak,2004,10243,12302,1,,,12302,,,,age4
+333,Chum,SW Kod,Kodiak,Kodiak,2005,2000,1988,1,,,1988,,,,age4
+333,Chum,SW Kod,Kodiak,Kodiak,2006,21400,20799,1,,,20799,,,,age4
+333,Chum,SW Kod,Kodiak,Kodiak,2007,300,19672,1,,,19672,,,,age4
+333,Chum,SW Kod,Kodiak,Kodiak,2008,4000,,,,,,,,,
+333,Chum,SW Kod,Kodiak,Kodiak,2009,750,,,,,,,,,
+333,Chum,SW Kod,Kodiak,Kodiak,2010,8400,,,,,,,,,
+333,Chum,SW Kod,Kodiak,Kodiak,2011,8400,,,,,,,,,
+334,Chum,NE Kod,Kodiak,Kodiak,1978,10261,87203,1,,,87203,,,,age4
+334,Chum,NE Kod,Kodiak,Kodiak,1979,11750,35905,1,,,35905,,,,age4
+334,Chum,NE Kod,Kodiak,Kodiak,1980,17900,41404,1,,,41404,,,,age4
+334,Chum,NE Kod,Kodiak,Kodiak,1981,3710,57474,1,,,57474,,,,age4
+334,Chum,NE Kod,Kodiak,Kodiak,1982,50715,32225,1,,,32225,,,,age4
+334,Chum,NE Kod,Kodiak,Kodiak,1983,24100,37056,1,,,37056,,,,age4
+334,Chum,NE Kod,Kodiak,Kodiak,1984,30600,103181,1,,,103181,,,,age4
+334,Chum,NE Kod,Kodiak,Kodiak,1985,37110,17679,1,,,17679,,,,age4
+334,Chum,NE Kod,Kodiak,Kodiak,1986,21002,17983,1,,,17983,,,,age4
+334,Chum,NE Kod,Kodiak,Kodiak,1987,7643,49333,1,,,49333,,,,age4
+334,Chum,NE Kod,Kodiak,Kodiak,1988,31501,27831,1,,,27831,,,,age4
+334,Chum,NE Kod,Kodiak,Kodiak,1989,17679,13416,1,,,13416,,,,age4
+334,Chum,NE Kod,Kodiak,Kodiak,1990,12300,27081,1,,,27081,,,,age4
+334,Chum,NE Kod,Kodiak,Kodiak,1991,22116,43438,1,,,43438,,,,age4
+334,Chum,NE Kod,Kodiak,Kodiak,1992,10605,6433,1,,,6433,,,,age4
+334,Chum,NE Kod,Kodiak,Kodiak,1993,10422,37549,1,,,37549,,,,age4
+334,Chum,NE Kod,Kodiak,Kodiak,1994,8450,8152,1,,,8152,,,,age4
+334,Chum,NE Kod,Kodiak,Kodiak,1995,9843,17108,1,,,17108,,,,age4
+334,Chum,NE Kod,Kodiak,Kodiak,1996,4100,18675,1,,,18675,,,,age4
+334,Chum,NE Kod,Kodiak,Kodiak,1997,7808,17934,1,,,17934,,,,age4
+334,Chum,NE Kod,Kodiak,Kodiak,1998,7250,29719,1,,,29719,,,,age4
+334,Chum,NE Kod,Kodiak,Kodiak,1999,2031,19612,1,,,19612,,,,age4
+334,Chum,NE Kod,Kodiak,Kodiak,2000,8600,26794,1,,,26794,,,,age4
+334,Chum,NE Kod,Kodiak,Kodiak,2001,16600,8759,1,,,8759,,,,age4
+334,Chum,NE Kod,Kodiak,Kodiak,2002,13200,34487,1,,,34487,,,,age4
+334,Chum,NE Kod,Kodiak,Kodiak,2003,4500,27280,1,,,27280,,,,age4
+334,Chum,NE Kod,Kodiak,Kodiak,2004,2156,6833,1,,,6833,,,,age4
+334,Chum,NE Kod,Kodiak,Kodiak,2005,7300,37253,1,,,37253,,,,age4
+334,Chum,NE Kod,Kodiak,Kodiak,2006,16500,18000,1,,,18000,,,,age4
+334,Chum,NE Kod,Kodiak,Kodiak,2007,21100,32845,1,,,32845,,,,age4
+334,Chum,NE Kod,Kodiak,Kodiak,2008,3140,,,,,,,,,
+334,Chum,NE Kod,Kodiak,Kodiak,2009,13800,,,,,,,,,
+334,Chum,NE Kod,Kodiak,Kodiak,2010,17100,,,,,,,,,
+334,Chum,NE Kod,Kodiak,Kodiak,2011,8700,,,,,,,,,
+335,Chum,NW Kod,Kodiak,Kodiak,1978,47700,560371,1,,,560371,,,,age4
+335,Chum,NW Kod,Kodiak,Kodiak,1979,75200,535388,1,,,535388,,,,age4
+335,Chum,NW Kod,Kodiak,Kodiak,1980,43050,210613,1,,,210613,,,,age4
+335,Chum,NW Kod,Kodiak,Kodiak,1981,99100,276352,1,,,276352,,,,age4
+335,Chum,NW Kod,Kodiak,Kodiak,1982,147700,660420,1,,,660420,,,,age4
+335,Chum,NW Kod,Kodiak,Kodiak,1983,169225,305733,1,,,305733,,,,age4
+335,Chum,NW Kod,Kodiak,Kodiak,1984,75600,729033,1,,,729033,,,,age4
+335,Chum,NW Kod,Kodiak,Kodiak,1985,61600,417134,1,,,417134,,,,age4
+335,Chum,NW Kod,Kodiak,Kodiak,1986,162890,211693,1,,,211693,,,,age4
+335,Chum,NW Kod,Kodiak,Kodiak,1987,76950,407085,1,,,407085,,,,age4
+335,Chum,NW Kod,Kodiak,Kodiak,1988,192550,357683,1,,,357683,,,,age4
+335,Chum,NW Kod,Kodiak,Kodiak,1989,417100,272828,1,,,272828,,,,age4
+335,Chum,NW Kod,Kodiak,Kodiak,1990,43920,303888,1,,,303888,,,,age4
+335,Chum,NW Kod,Kodiak,Kodiak,1991,123503,679465,1,,,679465,,,,age4
+335,Chum,NW Kod,Kodiak,Kodiak,1992,131710,333893,1,,,333893,,,,age4
+335,Chum,NW Kod,Kodiak,Kodiak,1993,53825,252630,1,,,252630,,,,age4
+335,Chum,NW Kod,Kodiak,Kodiak,1994,52950,149662,1,,,149662,,,,age4
+335,Chum,NW Kod,Kodiak,Kodiak,1995,104800,242809,1,,,242809,,,,age4
+335,Chum,NW Kod,Kodiak,Kodiak,1996,84900,448553,1,,,448553,,,,age4
+335,Chum,NW Kod,Kodiak,Kodiak,1997,70900,430251,1,,,430251,,,,age4
+335,Chum,NW Kod,Kodiak,Kodiak,1998,28250,245503,1,,,245503,,,,age4
+335,Chum,NW Kod,Kodiak,Kodiak,1999,53300,330136,1,,,330136,,,,age4
+335,Chum,NW Kod,Kodiak,Kodiak,2000,145800,507739,1,,,507739,,,,age4
+335,Chum,NW Kod,Kodiak,Kodiak,2001,112550,265604,1,,,265604,,,,age4
+335,Chum,NW Kod,Kodiak,Kodiak,2002,41200,395142,1,,,395142,,,,age4
+335,Chum,NW Kod,Kodiak,Kodiak,2003,67700,202116,1,,,202116,,,,age4
+335,Chum,NW Kod,Kodiak,Kodiak,2004,30700,242571,1,,,242571,,,,age4
+335,Chum,NW Kod,Kodiak,Kodiak,2005,36150,402213,1,,,402213,,,,age4
+335,Chum,NW Kod,Kodiak,Kodiak,2006,41800,234581,1,,,234581,,,,age4
+335,Chum,NW Kod,Kodiak,Kodiak,2007,29510,194820,1,,,194820,,,,age4
+335,Chum,NW Kod,Kodiak,Kodiak,2008,35700,,,,,,,,,
+335,Chum,NW Kod,Kodiak,Kodiak,2009,73400,,,,,,,,,
+335,Chum,NW Kod,Kodiak,Kodiak,2010,37850,,,,,,,,,
+335,Chum,NW Kod,Kodiak,Kodiak,2011,80050,,,,,,,,,
+336,Chum,Mainland Kod,Kodiak,Kodiak,1978,119850,769158,1,,,769158,,,,age4
+336,Chum,Mainland Kod,Kodiak,Kodiak,1979,177310,512668,1,,,512668,,,,age4
+336,Chum,Mainland Kod,Kodiak,Kodiak,1980,367250,467210,1,,,467210,,,,age4
+336,Chum,Mainland Kod,Kodiak,Kodiak,1981,238850,311289,1,,,311289,,,,age4
+336,Chum,Mainland Kod,Kodiak,Kodiak,1982,453148,645644,1,,,645644,,,,age4
+336,Chum,Mainland Kod,Kodiak,Kodiak,1983,238810,456832,1,,,456832,,,,age4
+336,Chum,Mainland Kod,Kodiak,Kodiak,1984,246450,577954,1,,,577954,,,,age4
+336,Chum,Mainland Kod,Kodiak,Kodiak,1985,263100,346200,1,,,346200,,,,age4
+336,Chum,Mainland Kod,Kodiak,Kodiak,1986,245175,407848,1,,,407848,,,,age4
+336,Chum,Mainland Kod,Kodiak,Kodiak,1987,225600,556648,1,,,556648,,,,age4
+336,Chum,Mainland Kod,Kodiak,Kodiak,1988,185800,327180,1,,,327180,,,,age4
+336,Chum,Mainland Kod,Kodiak,Kodiak,1989,346200,136027,1,,,136027,,,,age4
+336,Chum,Mainland Kod,Kodiak,Kodiak,1990,207200,260065,1,,,260065,,,,age4
+336,Chum,Mainland Kod,Kodiak,Kodiak,1991,334100,228774,1,,,228774,,,,age4
+336,Chum,Mainland Kod,Kodiak,Kodiak,1992,213100,199008,1,,,199008,,,,age4
+336,Chum,Mainland Kod,Kodiak,Kodiak,1993,51790,115228,1,,,115228,,,,age4
+336,Chum,Mainland Kod,Kodiak,Kodiak,1994,169100,128314,1,,,128314,,,,age4
+336,Chum,Mainland Kod,Kodiak,Kodiak,1995,127900,376272,1,,,376272,,,,age4
+336,Chum,Mainland Kod,Kodiak,Kodiak,1996,158650,562674,1,,,562674,,,,age4
+336,Chum,Mainland Kod,Kodiak,Kodiak,1997,80300,404545,1,,,404545,,,,age4
+336,Chum,Mainland Kod,Kodiak,Kodiak,1998,103050,210652,1,,,210652,,,,age4
+336,Chum,Mainland Kod,Kodiak,Kodiak,1999,166200,278326,1,,,278326,,,,age4
+336,Chum,Mainland Kod,Kodiak,Kodiak,2000,367650,391038,1,,,391038,,,,age4
+336,Chum,Mainland Kod,Kodiak,Kodiak,2001,196100,72402,1,,,72402,,,,age4
+336,Chum,Mainland Kod,Kodiak,Kodiak,2002,120975,533279,1,,,533279,,,,age4
+336,Chum,Mainland Kod,Kodiak,Kodiak,2003,73800,135013,1,,,135013,,,,age4
+336,Chum,Mainland Kod,Kodiak,Kodiak,2004,241645,285810,1,,,285810,,,,age4
+336,Chum,Mainland Kod,Kodiak,Kodiak,2005,22500,212913,1,,,212913,,,,age4
+336,Chum,Mainland Kod,Kodiak,Kodiak,2006,346140,299840,1,,,299840,,,,age4
+336,Chum,Mainland Kod,Kodiak,Kodiak,2007,82600,240868,1,,,240868,,,,age4
+336,Chum,Mainland Kod,Kodiak,Kodiak,2008,72000,,,,,,,,,
+336,Chum,Mainland Kod,Kodiak,Kodiak,2009,91106,,,,,,,,,
+336,Chum,Mainland Kod,Kodiak,Kodiak,2010,124500,,,,,,,,,
+336,Chum,Mainland Kod,Kodiak,Kodiak,2011,128700,,,,,,,,,
+337,Chum,Perryville,Chignik,Chignik,1962,10500,28300,1,,,28300,,,,age4
+337,Chum,Perryville,Chignik,Chignik,1963,7000,7400,1,,,7400,,,,age4
+337,Chum,Perryville,Chignik,Chignik,1964,26000,15800,1,,,15800,,,,age4
+337,Chum,Perryville,Chignik,Chignik,1965,7000,22100,1,,,22100,,,,age4
+337,Chum,Perryville,Chignik,Chignik,1966,20400,39300,1,,,39300,,,,age4
+337,Chum,Perryville,Chignik,Chignik,1967,5700,70900,1,,,70900,,,,age4
+337,Chum,Perryville,Chignik,Chignik,1968,1800,23800,1,,,23800,,,,age4
+337,Chum,Perryville,Chignik,Chignik,1969,1000,9300,1,,,9300,,,,age4
+337,Chum,Perryville,Chignik,Chignik,1970,13000,12500,1,,,12500,,,,age4
+337,Chum,Perryville,Chignik,Chignik,1971,30000,20500,1,,,20500,,,,age4
+337,Chum,Perryville,Chignik,Chignik,1972,11500,24600,1,,,24600,,,,age4
+337,Chum,Perryville,Chignik,Chignik,1973,9300,18800,1,,,18800,,,,age4
+337,Chum,Perryville,Chignik,Chignik,1974,12500,37400,1,,,37400,,,,age4
+337,Chum,Perryville,Chignik,Chignik,1975,20500,39700,1,,,39700,,,,age4
+337,Chum,Perryville,Chignik,Chignik,1976,8900,74102,1,,,74102,,,,age4
+337,Chum,Perryville,Chignik,Chignik,1977,15400,70594,1,,,70594,,,,age4
+337,Chum,Perryville,Chignik,Chignik,1978,5300,46181,1,,,46181,,,,age4
+337,Chum,Perryville,Chignik,Chignik,1979,12800,30841,1,,,30841,,,,age4
+337,Chum,Perryville,Chignik,Chignik,1980,29100,46482,1,,,46482,,,,age4
+337,Chum,Perryville,Chignik,Chignik,1981,19300,13990,1,,,13990,,,,age4
+337,Chum,Perryville,Chignik,Chignik,1982,23600,44721,1,,,44721,,,,age4
+337,Chum,Perryville,Chignik,Chignik,1983,8200,26673,1,,,26673,,,,age4
+337,Chum,Perryville,Chignik,Chignik,1984,46000,82605,1,,,82605,,,,age4
+337,Chum,Perryville,Chignik,Chignik,1985,12900,15900,1,,,15900,,,,age4
+337,Chum,Perryville,Chignik,Chignik,1986,7700,81537,1,,,81537,,,,age4
+337,Chum,Perryville,Chignik,Chignik,1987,9800,431794,1,,,431794,,,,age4
+337,Chum,Perryville,Chignik,Chignik,1988,41400,77479,1,,,77479,,,,age4
+337,Chum,Perryville,Chignik,Chignik,1989,15900,91536,1,,,91536,,,,age4
+337,Chum,Perryville,Chignik,Chignik,1990,55800,160025,1,,,160025,,,,age4
+337,Chum,Perryville,Chignik,Chignik,1991,343200,227553,1,,,227553,,,,age4
+337,Chum,Perryville,Chignik,Chignik,1992,40300,148976,1,,,148976,,,,age4
+337,Chum,Perryville,Chignik,Chignik,1993,66800,155791,1,,,155791,,,,age4
+337,Chum,Perryville,Chignik,Chignik,1994,126000,246348,1,,,246348,,,,age4
+337,Chum,Perryville,Chignik,Chignik,1995,134600,121831,1,,,121831,,,,age4
+337,Chum,Perryville,Chignik,Chignik,1996,132000,54696,1,,,54696,,,,age4
+337,Chum,Perryville,Chignik,Chignik,1997,152800,82760,1,,,82760,,,,age4
+337,Chum,Perryville,Chignik,Chignik,1998,214500,32137,1,,,32137,,,,age4
+337,Chum,Perryville,Chignik,Chignik,1999,117300,66247,1,,,66247,,,,age4
+337,Chum,Perryville,Chignik,Chignik,2000,51900,38492,1,,,38492,,,,age4
+337,Chum,Perryville,Chignik,Chignik,2001,67800,61316,1,,,61316,,,,age4
+337,Chum,Perryville,Chignik,Chignik,2002,32020,29000,1,,,29000,,,,age4
+337,Chum,Perryville,Chignik,Chignik,2003,64331,122615,1,,,122615,,,,age4
+337,Chum,Perryville,Chignik,Chignik,2004,38492,92164,1,,,92164,,,,age4
+337,Chum,Perryville,Chignik,Chignik,2005,61250,39192,1,,,39192,,,,age4
+337,Chum,Perryville,Chignik,Chignik,2006,29000,85393,1,,,85393,,,,age4
+337,Chum,Perryville,Chignik,Chignik,2007,122280,71994,1,,,71994,,,,age4
+337,Chum,Perryville,Chignik,Chignik,2008,83425,,,,,,,,,
+337,Chum,Perryville,Chignik,Chignik,2009,35500,,,,,,,,,
+337,Chum,Perryville,Chignik,Chignik,2010,79200,,,,,,,,,
+337,Chum,Perryville,Chignik,Chignik,2011,55500,,,,,,,,,
+338,Chum,W Chig,Chignik,Chignik,1962,83100,85800,1,,,85800,,,,age4
+338,Chum,W Chig,Chignik,Chignik,1963,10000,57600,1,,,57600,,,,age4
+338,Chum,W Chig,Chignik,Chignik,1964,37000,99700,1,,,99700,,,,age4
+338,Chum,W Chig,Chignik,Chignik,1965,25000,64400,1,,,64400,,,,age4
+338,Chum,W Chig,Chignik,Chignik,1966,12000,189300,1,,,189300,,,,age4
+338,Chum,W Chig,Chignik,Chignik,1967,24000,361600,1,,,361600,,,,age4
+338,Chum,W Chig,Chignik,Chignik,1968,9600,77500,1,,,77500,,,,age4
+338,Chum,W Chig,Chignik,Chignik,1969,27600,35600,1,,,35600,,,,age4
+338,Chum,W Chig,Chignik,Chignik,1970,49700,42600,1,,,42600,,,,age4
+338,Chum,W Chig,Chignik,Chignik,1971,184100,44200,1,,,44200,,,,age4
+338,Chum,W Chig,Chignik,Chignik,1972,59000,88100,1,,,88100,,,,age4
+338,Chum,W Chig,Chignik,Chignik,1973,35600,158400,1,,,158400,,,,age4
+338,Chum,W Chig,Chignik,Chignik,1974,39400,73300,1,,,73300,,,,age4
+338,Chum,W Chig,Chignik,Chignik,1975,43400,124800,1,,,124800,,,,age4
+338,Chum,W Chig,Chignik,Chignik,1976,55000,148368,1,,,148368,,,,age4
+338,Chum,W Chig,Chignik,Chignik,1977,70400,291879,1,,,291879,,,,age4
+338,Chum,W Chig,Chignik,Chignik,1978,27300,288699,1,,,288699,,,,age4
+338,Chum,W Chig,Chignik,Chignik,1979,42500,122059,1,,,122059,,,,age4
+338,Chum,W Chig,Chignik,Chignik,1980,56500,99164,1,,,99164,,,,age4
+338,Chum,W Chig,Chignik,Chignik,1981,70300,45304,1,,,45304,,,,age4
+338,Chum,W Chig,Chignik,Chignik,1982,35400,79370,1,,,79370,,,,age4
+338,Chum,W Chig,Chignik,Chignik,1983,20100,106598,1,,,106598,,,,age4
+338,Chum,W Chig,Chignik,Chignik,1984,73800,130130,1,,,130130,,,,age4
+338,Chum,W Chig,Chignik,Chignik,1985,34600,7400,1,,,7400,,,,age4
+338,Chum,W Chig,Chignik,Chignik,1986,5300,120403,1,,,120403,,,,age4
+338,Chum,W Chig,Chignik,Chignik,1987,19700,136703,1,,,136703,,,,age4
+338,Chum,W Chig,Chignik,Chignik,1988,27400,118766,1,,,118766,,,,age4
+338,Chum,W Chig,Chignik,Chignik,1989,7400,39045,1,,,39045,,,,age4
+338,Chum,W Chig,Chignik,Chignik,1990,28800,117116,1,,,117116,,,,age4
+338,Chum,W Chig,Chignik,Chignik,1991,38100,203973,1,,,203973,,,,age4
+338,Chum,W Chig,Chignik,Chignik,1992,53300,80803,1,,,80803,,,,age4
+338,Chum,W Chig,Chignik,Chignik,1993,14000,76780,1,,,76780,,,,age4
+338,Chum,W Chig,Chignik,Chignik,1994,23000,72025,1,,,72025,,,,age4
+338,Chum,W Chig,Chignik,Chignik,1995,45700,53389,1,,,53389,,,,age4
+338,Chum,W Chig,Chignik,Chignik,1996,44500,47523,1,,,47523,,,,age4
+338,Chum,W Chig,Chignik,Chignik,1997,60500,72966,1,,,72966,,,,age4
+338,Chum,W Chig,Chignik,Chignik,1998,30600,57419,1,,,57419,,,,age4
+338,Chum,W Chig,Chignik,Chignik,1999,16300,78933,1,,,78933,,,,age4
+338,Chum,W Chig,Chignik,Chignik,2000,12700,3100,1,,,3100,,,,age4
+338,Chum,W Chig,Chignik,Chignik,2001,35500,23054,1,,,23054,,,,age4
+338,Chum,W Chig,Chignik,Chignik,2002,17082,55096,1,,,55096,,,,age4
+338,Chum,W Chig,Chignik,Chignik,2003,39050,73443,1,,,73443,,,,age4
+338,Chum,W Chig,Chignik,Chignik,2004,3100,109318,1,,,109318,,,,age4
+338,Chum,W Chig,Chignik,Chignik,2005,22000,125431,1,,,125431,,,,age4
+338,Chum,W Chig,Chignik,Chignik,2006,6000,224311,1,,,224311,,,,age4
+338,Chum,W Chig,Chignik,Chignik,2007,26500,84363,1,,,84363,,,,age4
+338,Chum,W Chig,Chignik,Chignik,2008,21240,,,,,,,,,
+338,Chum,W Chig,Chignik,Chignik,2009,9200,,,,,,,,,
+338,Chum,W Chig,Chignik,Chignik,2010,19400,,,,,,,,,
+338,Chum,W Chig,Chignik,Chignik,2011,9000,,,,,,,,,
+339,Chum,Central Chig,Chignik,Chignik,1962,40400,30900,1,,,30900,,,,age4
+339,Chum,Central Chig,Chignik,Chignik,1963,34000,27100,1,,,27100,,,,age4
+339,Chum,Central Chig,Chignik,Chignik,1964,24200,18700,1,,,18700,,,,age4
+339,Chum,Central Chig,Chignik,Chignik,1965,19200,9700,1,,,9700,,,,age4
+339,Chum,Central Chig,Chignik,Chignik,1966,10000,52000,1,,,52000,,,,age4
+339,Chum,Central Chig,Chignik,Chignik,1967,17200,42800,1,,,42800,,,,age4
+339,Chum,Central Chig,Chignik,Chignik,1968,14500,15800,1,,,15800,,,,age4
+339,Chum,Central Chig,Chignik,Chignik,1969,6500,12400,1,,,12400,,,,age4
+339,Chum,Central Chig,Chignik,Chignik,1970,23400,31600,1,,,31600,,,,age4
+339,Chum,Central Chig,Chignik,Chignik,1971,29100,22000,1,,,22000,,,,age4
+339,Chum,Central Chig,Chignik,Chignik,1972,14200,21200,1,,,21200,,,,age4
+339,Chum,Central Chig,Chignik,Chignik,1973,12200,18200,1,,,18200,,,,age4
+339,Chum,Central Chig,Chignik,Chignik,1974,18100,24100,1,,,24100,,,,age4
+339,Chum,Central Chig,Chignik,Chignik,1975,18800,56200,1,,,56200,,,,age4
+339,Chum,Central Chig,Chignik,Chignik,1976,17800,73102,1,,,73102,,,,age4
+339,Chum,Central Chig,Chignik,Chignik,1977,9300,186830,1,,,186830,,,,age4
+339,Chum,Central Chig,Chignik,Chignik,1978,13800,83069,1,,,83069,,,,age4
+339,Chum,Central Chig,Chignik,Chignik,1979,44800,26815,1,,,26815,,,,age4
+339,Chum,Central Chig,Chignik,Chignik,1980,34200,43550,1,,,43550,,,,age4
+339,Chum,Central Chig,Chignik,Chignik,1981,26100,14842,1,,,14842,,,,age4
+339,Chum,Central Chig,Chignik,Chignik,1982,49400,60502,1,,,60502,,,,age4
+339,Chum,Central Chig,Chignik,Chignik,1983,17000,26937,1,,,26937,,,,age4
+339,Chum,Central Chig,Chignik,Chignik,1984,35400,95116,1,,,95116,,,,age4
+339,Chum,Central Chig,Chignik,Chignik,1985,9600,34734,1,,,34734,,,,age4
+339,Chum,Central Chig,Chignik,Chignik,1986,31000,141741,1,,,141741,,,,age4
+339,Chum,Central Chig,Chignik,Chignik,1987,17500,69429,1,,,69429,,,,age4
+339,Chum,Central Chig,Chignik,Chignik,1988,55800,218669,1,,,218669,,,,age4
+339,Chum,Central Chig,Chignik,Chignik,1989,34700,82706,1,,,82706,,,,age4
+339,Chum,Central Chig,Chignik,Chignik,1990,28000,172152,1,,,172152,,,,age4
+339,Chum,Central Chig,Chignik,Chignik,1991,18000,151566,1,,,151566,,,,age4
+339,Chum,Central Chig,Chignik,Chignik,1992,173100,92093,1,,,92093,,,,age4
+339,Chum,Central Chig,Chignik,Chignik,1993,39400,169959,1,,,169959,,,,age4
+339,Chum,Central Chig,Chignik,Chignik,1994,102600,75191,1,,,75191,,,,age4
+339,Chum,Central Chig,Chignik,Chignik,1995,44500,107895,1,,,107895,,,,age4
+339,Chum,Central Chig,Chignik,Chignik,1996,45100,89604,1,,,89604,,,,age4
+339,Chum,Central Chig,Chignik,Chignik,1997,65700,120632,1,,,120632,,,,age4
+339,Chum,Central Chig,Chignik,Chignik,1998,32000,21258,1,,,21258,,,,age4
+339,Chum,Central Chig,Chignik,Chignik,1999,32400,54495,1,,,54495,,,,age4
+339,Chum,Central Chig,Chignik,Chignik,2000,22700,30316,1,,,30316,,,,age4
+339,Chum,Central Chig,Chignik,Chignik,2001,36500,164429,1,,,164429,,,,age4
+339,Chum,Central Chig,Chignik,Chignik,2002,11615,12905,1,,,12905,,,,age4
+339,Chum,Central Chig,Chignik,Chignik,2003,43191,44795,1,,,44795,,,,age4
+339,Chum,Central Chig,Chignik,Chignik,2004,30310,57980,1,,,57980,,,,age4
+339,Chum,Central Chig,Chignik,Chignik,2005,159100,82699,1,,,82699,,,,age4
+339,Chum,Central Chig,Chignik,Chignik,2006,3450,243501,1,,,243501,,,,age4
+339,Chum,Central Chig,Chignik,Chignik,2007,25200,149080,1,,,149080,,,,age4
+339,Chum,Central Chig,Chignik,Chignik,2008,17850,,,,,,,,,
+339,Chum,Central Chig,Chignik,Chignik,2009,20550,,,,,,,,,
+339,Chum,Central Chig,Chignik,Chignik,2010,17000,,,,,,,,,
+339,Chum,Central Chig,Chignik,Chignik,2011,32500,,,,,,,,,
+340,Chum,E Chig,Chignik,Chignik,1962,79600,188100,1,,,188100,,,,age4
+340,Chum,E Chig,Chignik,Chignik,1963,55200,114200,1,,,114200,,,,age4
+340,Chum,E Chig,Chignik,Chignik,1964,165400,173100,1,,,173100,,,,age4
+340,Chum,E Chig,Chignik,Chignik,1965,58000,70200,1,,,70200,,,,age4
+340,Chum,E Chig,Chignik,Chignik,1966,58000,367100,1,,,367100,,,,age4
+340,Chum,E Chig,Chignik,Chignik,1967,89800,321500,1,,,321500,,,,age4
+340,Chum,E Chig,Chignik,Chignik,1968,63000,135100,1,,,135100,,,,age4
+340,Chum,E Chig,Chignik,Chignik,1969,66500,60300,1,,,60300,,,,age4
+340,Chum,E Chig,Chignik,Chignik,1970,126000,76600,1,,,76600,,,,age4
+340,Chum,E Chig,Chignik,Chignik,1971,219200,41300,1,,,41300,,,,age4
+340,Chum,E Chig,Chignik,Chignik,1972,107400,132300,1,,,132300,,,,age4
+340,Chum,E Chig,Chignik,Chignik,1973,59100,56000,1,,,56000,,,,age4
+340,Chum,E Chig,Chignik,Chignik,1974,76300,73300,1,,,73300,,,,age4
+340,Chum,E Chig,Chignik,Chignik,1975,41300,115600,1,,,115600,,,,age4
+340,Chum,E Chig,Chignik,Chignik,1976,122300,163805,1,,,163805,,,,age4
+340,Chum,E Chig,Chignik,Chignik,1977,54500,234668,1,,,234668,,,,age4
+340,Chum,E Chig,Chignik,Chignik,1978,55800,209913,1,,,209913,,,,age4
+340,Chum,E Chig,Chignik,Chignik,1979,79500,58450,1,,,58450,,,,age4
+340,Chum,E Chig,Chignik,Chignik,1980,107000,235834,1,,,235834,,,,age4
+340,Chum,E Chig,Chignik,Chignik,1981,126000,5764,1,,,5764,,,,age4
+340,Chum,E Chig,Chignik,Chignik,1982,145400,26380,1,,,26380,,,,age4
+340,Chum,E Chig,Chignik,Chignik,1983,50200,47190,1,,,47190,,,,age4
+340,Chum,E Chig,Chignik,Chignik,1984,214700,299411,1,,,299411,,,,age4
+340,Chum,E Chig,Chignik,Chignik,1985,4900,74303,1,,,74303,,,,age4
+340,Chum,E Chig,Chignik,Chignik,1986,8500,167163,1,,,167163,,,,age4
+340,Chum,E Chig,Chignik,Chignik,1987,38300,75325,1,,,75325,,,,age4
+340,Chum,E Chig,Chignik,Chignik,1988,221900,368109,1,,,368109,,,,age4
+340,Chum,E Chig,Chignik,Chignik,1989,74300,156357,1,,,156357,,,,age4
+340,Chum,E Chig,Chignik,Chignik,1990,139700,133533,1,,,133533,,,,age4
+340,Chum,E Chig,Chignik,Chignik,1991,70400,120874,1,,,120874,,,,age4
+340,Chum,E Chig,Chignik,Chignik,1992,306900,150337,1,,,150337,,,,age4
+340,Chum,E Chig,Chignik,Chignik,1993,135200,301397,1,,,301397,,,,age4
+340,Chum,E Chig,Chignik,Chignik,1994,129200,102880,1,,,102880,,,,age4
+340,Chum,E Chig,Chignik,Chignik,1995,112800,178432,1,,,178432,,,,age4
+340,Chum,E Chig,Chignik,Chignik,1996,130500,224045,1,,,224045,,,,age4
+340,Chum,E Chig,Chignik,Chignik,1997,290000,457811,1,,,457811,,,,age4
+340,Chum,E Chig,Chignik,Chignik,1998,97700,175363,1,,,175363,,,,age4
+340,Chum,E Chig,Chignik,Chignik,1999,167100,152904,1,,,152904,,,,age4
+340,Chum,E Chig,Chignik,Chignik,2000,216000,277240,1,,,277240,,,,age4
+340,Chum,E Chig,Chignik,Chignik,2001,406900,36352,1,,,36352,,,,age4
+340,Chum,E Chig,Chignik,Chignik,2002,174850,54716,1,,,54716,,,,age4
+340,Chum,E Chig,Chignik,Chignik,2003,152854,65851,1,,,65851,,,,age4
+340,Chum,E Chig,Chignik,Chignik,2004,277240,116045,1,,,116045,,,,age4
+340,Chum,E Chig,Chignik,Chignik,2005,36350,198700,1,,,198700,,,,age4
+340,Chum,E Chig,Chignik,Chignik,2006,53940,176861,1,,,176861,,,,age4
+340,Chum,E Chig,Chignik,Chignik,2007,58000,228989,1,,,228989,,,,age4
+340,Chum,E Chig,Chignik,Chignik,2008,57120,,,,,,,,,
+340,Chum,E Chig,Chignik,Chignik,2009,138900,,,,,,,,,
+340,Chum,E Chig,Chignik,Chignik,2010,60525,,,,,,,,,
+340,Chum,E Chig,Chignik,Chignik,2011,177000,,,,,,,,,
+341,Chum,SW-Unimak,AK Peninsula,AK Peninsula,1962,160800,103200,1,,,103200,,,,age4
+341,Chum,SW-Unimak,AK Peninsula,AK Peninsula,1963,183700,54600,1,,,54600,,,,age4
+341,Chum,SW-Unimak,AK Peninsula,AK Peninsula,1964,294000,135000,1,,,135000,,,,age4
+341,Chum,SW-Unimak,AK Peninsula,AK Peninsula,1965,24200,81000,1,,,81000,,,,age4
+341,Chum,SW-Unimak,AK Peninsula,AK Peninsula,1966,67200,174054,1,,,174054,,,,age4
+341,Chum,SW-Unimak,AK Peninsula,AK Peninsula,1967,50100,353768,1,,,353768,,,,age4
+341,Chum,SW-Unimak,AK Peninsula,AK Peninsula,1968,87400,171221,1,,,171221,,,,age4
+341,Chum,SW-Unimak,AK Peninsula,AK Peninsula,1969,37700,94041,1,,,94041,,,,age4
+341,Chum,SW-Unimak,AK Peninsula,AK Peninsula,1970,108800,102817,1,,,102817,,,,age4
+341,Chum,SW-Unimak,AK Peninsula,AK Peninsula,1971,144100,33609,1,,,33609,,,,age4
+341,Chum,SW-Unimak,AK Peninsula,AK Peninsula,1972,109500,116814,1,,,116814,,,,age4
+341,Chum,SW-Unimak,AK Peninsula,AK Peninsula,1973,81600,291630,1,,,291630,,,,age4
+341,Chum,SW-Unimak,AK Peninsula,AK Peninsula,1974,87500,297513,1,,,297513,,,,age4
+341,Chum,SW-Unimak,AK Peninsula,AK Peninsula,1975,33100,206826,1,,,206826,,,,age4
+341,Chum,SW-Unimak,AK Peninsula,AK Peninsula,1976,101900,289941,1,,,289941,,,,age4
+341,Chum,SW-Unimak,AK Peninsula,AK Peninsula,1977,274000,386798,1,,,386798,,,,age4
+341,Chum,SW-Unimak,AK Peninsula,AK Peninsula,1978,214300,439561,1,,,439561,,,,age4
+341,Chum,SW-Unimak,AK Peninsula,AK Peninsula,1979,108400,438745,1,,,438745,,,,age4
+341,Chum,SW-Unimak,AK Peninsula,AK Peninsula,1980,120800,738330,1,,,738330,,,,age4
+341,Chum,SW-Unimak,AK Peninsula,AK Peninsula,1981,146800,594632,1,,,594632,,,,age4
+341,Chum,SW-Unimak,AK Peninsula,AK Peninsula,1982,183900,721697,1,,,721697,,,,age4
+341,Chum,SW-Unimak,AK Peninsula,AK Peninsula,1983,117600,471000,1,,,471000,,,,age4
+341,Chum,SW-Unimak,AK Peninsula,AK Peninsula,1984,253700,779578,1,,,779578,,,,age4
+341,Chum,SW-Unimak,AK Peninsula,AK Peninsula,1985,218800,238962,1,,,238962,,,,age4
+341,Chum,SW-Unimak,AK Peninsula,AK Peninsula,1986,305000,299229,1,,,299229,,,,age4
+341,Chum,SW-Unimak,AK Peninsula,AK Peninsula,1987,291500,479895,1,,,479895,,,,age4
+341,Chum,SW-Unimak,AK Peninsula,AK Peninsula,1988,227300,433092,1,,,433092,,,,age4
+341,Chum,SW-Unimak,AK Peninsula,AK Peninsula,1989,121300,408033,1,,,408033,,,,age4
+341,Chum,SW-Unimak,AK Peninsula,AK Peninsula,1990,143800,1272981,1,,,1272981,,,,age4
+341,Chum,SW-Unimak,AK Peninsula,AK Peninsula,1991,242200,912940,1,,,912940,,,,age4
+341,Chum,SW-Unimak,AK Peninsula,AK Peninsula,1992,141400,431026,1,,,431026,,,,age4
+341,Chum,SW-Unimak,AK Peninsula,AK Peninsula,1993,224630,449559,1,,,449559,,,,age4
+341,Chum,SW-Unimak,AK Peninsula,AK Peninsula,1994,367400,524955,1,,,524955,,,,age4
+341,Chum,SW-Unimak,AK Peninsula,AK Peninsula,1995,401650,564359,1,,,564359,,,,age4
+341,Chum,SW-Unimak,AK Peninsula,AK Peninsula,1996,302900,635479,1,,,635479,,,,age4
+341,Chum,SW-Unimak,AK Peninsula,AK Peninsula,1997,267000,709620,1,,,709620,,,,age4
+341,Chum,SW-Unimak,AK Peninsula,AK Peninsula,1998,351910,500146,1,,,500146,,,,age4
+341,Chum,SW-Unimak,AK Peninsula,AK Peninsula,1999,389130,422356,1,,,422356,,,,age4
+341,Chum,SW-Unimak,AK Peninsula,AK Peninsula,2000,258025,242574,1,,,242574,,,,age4
+341,Chum,SW-Unimak,AK Peninsula,AK Peninsula,2001,277421,407568,1,,,407568,,,,age4
+341,Chum,SW-Unimak,AK Peninsula,AK Peninsula,2002,269200,550188,1,,,550188,,,,age4
+341,Chum,SW-Unimak,AK Peninsula,AK Peninsula,2003,193230,772346,1,,,772346,,,,age4
+341,Chum,SW-Unimak,AK Peninsula,AK Peninsula,2004,180400,283582,1,,,283582,,,,age4
+341,Chum,SW-Unimak,AK Peninsula,AK Peninsula,2005,322110,925986,1,,,925986,,,,age4
+341,Chum,SW-Unimak,AK Peninsula,AK Peninsula,2006,239850,258361,1,,,258361,,,,age4
+341,Chum,SW-Unimak,AK Peninsula,AK Peninsula,2007,399210,325696,1,,,325696,,,,age4
+341,Chum,SW-Unimak,AK Peninsula,AK Peninsula,2008,174050,,,,,,,,,
+341,Chum,SW-Unimak,AK Peninsula,AK Peninsula,2009,387130,,,,,,,,,
+341,Chum,SW-Unimak,AK Peninsula,AK Peninsula,2010,143700,,,,,,,,,
+341,Chum,SW-Unimak,AK Peninsula,AK Peninsula,2011,183425,,,,,,,,,
+342,Chum,W-NW AKPen,AK Peninsula,AK Peninsula,1962,48000,57200,1,,,57200,,,,age4
+342,Chum,W-NW AKPen,AK Peninsula,AK Peninsula,1963,22300,24300,1,,,24300,,,,age4
+342,Chum,W-NW AKPen,AK Peninsula,AK Peninsula,1964,16000,20000,1,,,20000,,,,age4
+342,Chum,W-NW AKPen,AK Peninsula,AK Peninsula,1965,1800,9400,1,,,9400,,,,age4
+342,Chum,W-NW AKPen,AK Peninsula,AK Peninsula,1966,10000,8047,1,,,8047,,,,age4
+342,Chum,W-NW AKPen,AK Peninsula,AK Peninsula,1967,15400,13398,1,,,13398,,,,age4
+342,Chum,W-NW AKPen,AK Peninsula,AK Peninsula,1968,19800,12674,1,,,12674,,,,age4
+342,Chum,W-NW AKPen,AK Peninsula,AK Peninsula,1969,8000,13973,1,,,13973,,,,age4
+342,Chum,W-NW AKPen,AK Peninsula,AK Peninsula,1970,5600,9179,1,,,9179,,,,age4
+342,Chum,W-NW AKPen,AK Peninsula,AK Peninsula,1971,5900,17815,1,,,17815,,,,age4
+342,Chum,W-NW AKPen,AK Peninsula,AK Peninsula,1972,11200,46201,1,,,46201,,,,age4
+342,Chum,W-NW AKPen,AK Peninsula,AK Peninsula,1973,7500,76890,1,,,76890,,,,age4
+342,Chum,W-NW AKPen,AK Peninsula,AK Peninsula,1974,6100,77834,1,,,77834,,,,age4
+342,Chum,W-NW AKPen,AK Peninsula,AK Peninsula,1975,17300,24915,1,,,24915,,,,age4
+342,Chum,W-NW AKPen,AK Peninsula,AK Peninsula,1976,38300,126095,1,,,126095,,,,age4
+342,Chum,W-NW AKPen,AK Peninsula,AK Peninsula,1977,54300,88656,1,,,88656,,,,age4
+342,Chum,W-NW AKPen,AK Peninsula,AK Peninsula,1978,29500,61469,1,,,61469,,,,age4
+342,Chum,W-NW AKPen,AK Peninsula,AK Peninsula,1979,12400,34129,1,,,34129,,,,age4
+342,Chum,W-NW AKPen,AK Peninsula,AK Peninsula,1980,41100,113163,1,,,113163,,,,age4
+342,Chum,W-NW AKPen,AK Peninsula,AK Peninsula,1981,29600,142183,1,,,142183,,,,age4
+342,Chum,W-NW AKPen,AK Peninsula,AK Peninsula,1982,23800,67745,1,,,67745,,,,age4
+342,Chum,W-NW AKPen,AK Peninsula,AK Peninsula,1983,20200,120112,1,,,120112,,,,age4
+342,Chum,W-NW AKPen,AK Peninsula,AK Peninsula,1984,33400,117913,1,,,117913,,,,age4
+342,Chum,W-NW AKPen,AK Peninsula,AK Peninsula,1985,25700,30684,1,,,30684,,,,age4
+342,Chum,W-NW AKPen,AK Peninsula,AK Peninsula,1986,23300,24989,1,,,24989,,,,age4
+342,Chum,W-NW AKPen,AK Peninsula,AK Peninsula,1987,55500,60619,1,,,60619,,,,age4
+342,Chum,W-NW AKPen,AK Peninsula,AK Peninsula,1988,51800,76161,1,,,76161,,,,age4
+342,Chum,W-NW AKPen,AK Peninsula,AK Peninsula,1989,19400,70958,1,,,70958,,,,age4
+342,Chum,W-NW AKPen,AK Peninsula,AK Peninsula,1990,18400,142129,1,,,142129,,,,age4
+342,Chum,W-NW AKPen,AK Peninsula,AK Peninsula,1991,49400,337627,1,,,337627,,,,age4
+342,Chum,W-NW AKPen,AK Peninsula,AK Peninsula,1992,33100,114235,1,,,114235,,,,age4
+342,Chum,W-NW AKPen,AK Peninsula,AK Peninsula,1993,46100,68725,1,,,68725,,,,age4
+342,Chum,W-NW AKPen,AK Peninsula,AK Peninsula,1994,108900,86087,1,,,86087,,,,age4
+342,Chum,W-NW AKPen,AK Peninsula,AK Peninsula,1995,320000,64500,1,,,64500,,,,age4
+342,Chum,W-NW AKPen,AK Peninsula,AK Peninsula,1996,108500,79378,1,,,79378,,,,age4
+342,Chum,W-NW AKPen,AK Peninsula,AK Peninsula,1997,47700,104807,1,,,104807,,,,age4
+342,Chum,W-NW AKPen,AK Peninsula,AK Peninsula,1998,67300,58146,1,,,58146,,,,age4
+342,Chum,W-NW AKPen,AK Peninsula,AK Peninsula,1999,56600,43509,1,,,43509,,,,age4
+342,Chum,W-NW AKPen,AK Peninsula,AK Peninsula,2000,52400,44525,1,,,44525,,,,age4
+342,Chum,W-NW AKPen,AK Peninsula,AK Peninsula,2001,66000,67407,1,,,67407,,,,age4
+342,Chum,W-NW AKPen,AK Peninsula,AK Peninsula,2002,50100,73574,1,,,73574,,,,age4
+342,Chum,W-NW AKPen,AK Peninsula,AK Peninsula,2003,36800,113646,1,,,113646,,,,age4
+342,Chum,W-NW AKPen,AK Peninsula,AK Peninsula,2004,43400,83761,1,,,83761,,,,age4
+342,Chum,W-NW AKPen,AK Peninsula,AK Peninsula,2005,61600,79034,1,,,79034,,,,age4
+342,Chum,W-NW AKPen,AK Peninsula,AK Peninsula,2006,61600,43888,1,,,43888,,,,age4
+342,Chum,W-NW AKPen,AK Peninsula,AK Peninsula,2007,85950,110938,1,,,110938,,,,age4
+342,Chum,W-NW AKPen,AK Peninsula,AK Peninsula,2008,58850,,,,,,,,,
+342,Chum,W-NW AKPen,AK Peninsula,AK Peninsula,2009,42020,,,,,,,,,
+342,Chum,W-NW AKPen,AK Peninsula,AK Peninsula,2010,30200,,,,,,,,,
+342,Chum,W-NW AKPen,AK Peninsula,AK Peninsula,2011,24200,,,,,,,,,
+343,Chum,E-NW AKPen,AK Peninsula,AK Peninsula,1962,68000,62900,1,,,62900,,,,age4
+343,Chum,E-NW AKPen,AK Peninsula,AK Peninsula,1963,133500,42700,1,,,42700,,,,age4
+343,Chum,E-NW AKPen,AK Peninsula,AK Peninsula,1964,95500,191500,1,,,191500,,,,age4
+343,Chum,E-NW AKPen,AK Peninsula,AK Peninsula,1965,24000,99800,1,,,99800,,,,age4
+343,Chum,E-NW AKPen,AK Peninsula,AK Peninsula,1966,54000,68132,1,,,68132,,,,age4
+343,Chum,E-NW AKPen,AK Peninsula,AK Peninsula,1967,32800,90322,1,,,90322,,,,age4
+343,Chum,E-NW AKPen,AK Peninsula,AK Peninsula,1968,142700,123684,1,,,123684,,,,age4
+343,Chum,E-NW AKPen,AK Peninsula,AK Peninsula,1969,95300,164710,1,,,164710,,,,age4
+343,Chum,E-NW AKPen,AK Peninsula,AK Peninsula,1970,58100,87302,1,,,87302,,,,age4
+343,Chum,E-NW AKPen,AK Peninsula,AK Peninsula,1971,54100,77662,1,,,77662,,,,age4
+343,Chum,E-NW AKPen,AK Peninsula,AK Peninsula,1972,65800,165794,1,,,165794,,,,age4
+343,Chum,E-NW AKPen,AK Peninsula,AK Peninsula,1973,68100,401744,1,,,401744,,,,age4
+343,Chum,E-NW AKPen,AK Peninsula,AK Peninsula,1974,76000,216416,1,,,216416,,,,age4
+343,Chum,E-NW AKPen,AK Peninsula,AK Peninsula,1975,74300,195825,1,,,195825,,,,age4
+343,Chum,E-NW AKPen,AK Peninsula,AK Peninsula,1976,127700,646716,1,,,646716,,,,age4
+343,Chum,E-NW AKPen,AK Peninsula,AK Peninsula,1977,381400,531440,1,,,531440,,,,age4
+343,Chum,E-NW AKPen,AK Peninsula,AK Peninsula,1978,134100,223850,1,,,223850,,,,age4
+343,Chum,E-NW AKPen,AK Peninsula,AK Peninsula,1979,178000,328067,1,,,328067,,,,age4
+343,Chum,E-NW AKPen,AK Peninsula,AK Peninsula,1980,364200,530192,1,,,530192,,,,age4
+343,Chum,E-NW AKPen,AK Peninsula,AK Peninsula,1981,235000,321344,1,,,321344,,,,age4
+343,Chum,E-NW AKPen,AK Peninsula,AK Peninsula,1982,166400,211518,1,,,211518,,,,age4
+343,Chum,E-NW AKPen,AK Peninsula,AK Peninsula,1983,173300,434638,1,,,434638,,,,age4
+343,Chum,E-NW AKPen,AK Peninsula,AK Peninsula,1984,427500,416572,1,,,416572,,,,age4
+343,Chum,E-NW AKPen,AK Peninsula,AK Peninsula,1985,194700,105058,1,,,105058,,,,age4
+343,Chum,E-NW AKPen,AK Peninsula,AK Peninsula,1986,142400,116483,1,,,116483,,,,age4
+343,Chum,E-NW AKPen,AK Peninsula,AK Peninsula,1987,286000,223921,1,,,223921,,,,age4
+343,Chum,E-NW AKPen,AK Peninsula,AK Peninsula,1988,304400,243871,1,,,243871,,,,age4
+343,Chum,E-NW AKPen,AK Peninsula,AK Peninsula,1989,90600,196436,1,,,196436,,,,age4
+343,Chum,E-NW AKPen,AK Peninsula,AK Peninsula,1990,92500,147510,1,,,147510,,,,age4
+343,Chum,E-NW AKPen,AK Peninsula,AK Peninsula,1991,172400,97378,1,,,97378,,,,age4
+343,Chum,E-NW AKPen,AK Peninsula,AK Peninsula,1992,182200,280196,1,,,280196,,,,age4
+343,Chum,E-NW AKPen,AK Peninsula,AK Peninsula,1993,172900,204686,1,,,204686,,,,age4
+343,Chum,E-NW AKPen,AK Peninsula,AK Peninsula,1994,140500,295042,1,,,295042,,,,age4
+343,Chum,E-NW AKPen,AK Peninsula,AK Peninsula,1995,88300,310200,1,,,310200,,,,age4
+343,Chum,E-NW AKPen,AK Peninsula,AK Peninsula,1996,278200,200431,1,,,200431,,,,age4
+343,Chum,E-NW AKPen,AK Peninsula,AK Peninsula,1997,179500,415219,1,,,415219,,,,age4
+343,Chum,E-NW AKPen,AK Peninsula,AK Peninsula,1998,281800,380793,1,,,380793,,,,age4
+343,Chum,E-NW AKPen,AK Peninsula,AK Peninsula,1999,310200,209068,1,,,209068,,,,age4
+343,Chum,E-NW AKPen,AK Peninsula,AK Peninsula,2000,196800,257553,1,,,257553,,,,age4
+343,Chum,E-NW AKPen,AK Peninsula,AK Peninsula,2001,340800,159175,1,,,159175,,,,age4
+343,Chum,E-NW AKPen,AK Peninsula,AK Peninsula,2002,367000,159274,1,,,159274,,,,age4
+343,Chum,E-NW AKPen,AK Peninsula,AK Peninsula,2003,199200,317810,1,,,317810,,,,age4
+343,Chum,E-NW AKPen,AK Peninsula,AK Peninsula,2004,252200,196929,1,,,196929,,,,age4
+343,Chum,E-NW AKPen,AK Peninsula,AK Peninsula,2005,131365,59595,1,,,59595,,,,age4
+343,Chum,E-NW AKPen,AK Peninsula,AK Peninsula,2006,131860,239282,1,,,239282,,,,age4
+343,Chum,E-NW AKPen,AK Peninsula,AK Peninsula,2007,249500,269860,1,,,269860,,,,age4
+343,Chum,E-NW AKPen,AK Peninsula,AK Peninsula,2008,117700,,,,,,,,,
+343,Chum,E-NW AKPen,AK Peninsula,AK Peninsula,2009,42440,,,,,,,,,
+343,Chum,E-NW AKPen,AK Peninsula,AK Peninsula,2010,113900,,,,,,,,,
+343,Chum,E-NW AKPen,AK Peninsula,AK Peninsula,2011,127200,,,,,,,,,
+344,Chum,SE-SC AKPen,AK Peninsula,AK Peninsula,1962,238600,576200,1,,,576200,,,,age4
+344,Chum,SE-SC AKPen,AK Peninsula,AK Peninsula,1963,263000,251500,1,,,251500,,,,age4
+344,Chum,SE-SC AKPen,AK Peninsula,AK Peninsula,1964,160800,313100,1,,,313100,,,,age4
+344,Chum,SE-SC AKPen,AK Peninsula,AK Peninsula,1965,203300,192000,1,,,192000,,,,age4
+344,Chum,SE-SC AKPen,AK Peninsula,AK Peninsula,1966,354800,657883,1,,,657883,,,,age4
+344,Chum,SE-SC AKPen,AK Peninsula,AK Peninsula,1967,132800,846192,1,,,846192,,,,age4
+344,Chum,SE-SC AKPen,AK Peninsula,AK Peninsula,1968,191700,296283,1,,,296283,,,,age4
+344,Chum,SE-SC AKPen,AK Peninsula,AK Peninsula,1969,96900,210772,1,,,210772,,,,age4
+344,Chum,SE-SC AKPen,AK Peninsula,AK Peninsula,1970,171700,226309,1,,,226309,,,,age4
+344,Chum,SE-SC AKPen,AK Peninsula,AK Peninsula,1971,199100,189619,1,,,189619,,,,age4
+344,Chum,SE-SC AKPen,AK Peninsula,AK Peninsula,1972,145000,332619,1,,,332619,,,,age4
+344,Chum,SE-SC AKPen,AK Peninsula,AK Peninsula,1973,130900,610441,1,,,610441,,,,age4
+344,Chum,SE-SC AKPen,AK Peninsula,AK Peninsula,1974,169800,727277,1,,,727277,,,,age4
+344,Chum,SE-SC AKPen,AK Peninsula,AK Peninsula,1975,160200,583101,1,,,583101,,,,age4
+344,Chum,SE-SC AKPen,AK Peninsula,AK Peninsula,1976,225300,916706,1,,,916706,,,,age4
+344,Chum,SE-SC AKPen,AK Peninsula,AK Peninsula,1977,500900,1199030,1,,,1199030,,,,age4
+344,Chum,SE-SC AKPen,AK Peninsula,AK Peninsula,1978,386200,1124790,1,,,1124790,,,,age4
+344,Chum,SE-SC AKPen,AK Peninsula,AK Peninsula,1979,302700,926195,1,,,926195,,,,age4
+344,Chum,SE-SC AKPen,AK Peninsula,AK Peninsula,1980,241600,1278872,1,,,1278872,,,,age4
+344,Chum,SE-SC AKPen,AK Peninsula,AK Peninsula,1981,234500,823765,1,,,823765,,,,age4
+344,Chum,SE-SC AKPen,AK Peninsula,AK Peninsula,1982,203000,1220785,1,,,1220785,,,,age4
+344,Chum,SE-SC AKPen,AK Peninsula,AK Peninsula,1983,328900,1082446,1,,,1082446,,,,age4
+344,Chum,SE-SC AKPen,AK Peninsula,AK Peninsula,1984,446000,1098618,1,,,1098618,,,,age4
+344,Chum,SE-SC AKPen,AK Peninsula,AK Peninsula,1985,284700,609867,1,,,609867,,,,age4
+344,Chum,SE-SC AKPen,AK Peninsula,AK Peninsula,1986,239600,771411,1,,,771411,,,,age4
+344,Chum,SE-SC AKPen,AK Peninsula,AK Peninsula,1987,329200,908773,1,,,908773,,,,age4
+344,Chum,SE-SC AKPen,AK Peninsula,AK Peninsula,1988,269100,786622,1,,,786622,,,,age4
+344,Chum,SE-SC AKPen,AK Peninsula,AK Peninsula,1989,189200,503157,1,,,503157,,,,age4
+344,Chum,SE-SC AKPen,AK Peninsula,AK Peninsula,1990,210900,902864,1,,,902864,,,,age4
+344,Chum,SE-SC AKPen,AK Peninsula,AK Peninsula,1991,345400,991094,1,,,991094,,,,age4
+344,Chum,SE-SC AKPen,AK Peninsula,AK Peninsula,1992,194100,594511,1,,,594511,,,,age4
+344,Chum,SE-SC AKPen,AK Peninsula,AK Peninsula,1993,172400,643420,1,,,643420,,,,age4
+344,Chum,SE-SC AKPen,AK Peninsula,AK Peninsula,1994,211700,683187,1,,,683187,,,,age4
+344,Chum,SE-SC AKPen,AK Peninsula,AK Peninsula,1995,324750,732481,1,,,732481,,,,age4
+344,Chum,SE-SC AKPen,AK Peninsula,AK Peninsula,1996,307400,702555,1,,,702555,,,,age4
+344,Chum,SE-SC AKPen,AK Peninsula,AK Peninsula,1997,542050,915237,1,,,915237,,,,age4
+344,Chum,SE-SC AKPen,AK Peninsula,AK Peninsula,1998,390325,542817,1,,,542817,,,,age4
+344,Chum,SE-SC AKPen,AK Peninsula,AK Peninsula,1999,336050,423551,1,,,423551,,,,age4
+344,Chum,SE-SC AKPen,AK Peninsula,AK Peninsula,2000,264050,797625,1,,,797625,,,,age4
+344,Chum,SE-SC AKPen,AK Peninsula,AK Peninsula,2001,473800,874372,1,,,874372,,,,age4
+344,Chum,SE-SC AKPen,AK Peninsula,AK Peninsula,2002,333550,1090578,1,,,1090578,,,,age4
+344,Chum,SE-SC AKPen,AK Peninsula,AK Peninsula,2003,297810,722410,1,,,722410,,,,age4
+344,Chum,SE-SC AKPen,AK Peninsula,AK Peninsula,2004,552000,699840,1,,,699840,,,,age4
+344,Chum,SE-SC AKPen,AK Peninsula,AK Peninsula,2005,648200,574052,1,,,574052,,,,age4
+344,Chum,SE-SC AKPen,AK Peninsula,AK Peninsula,2006,524900,550484,1,,,550484,,,,age4
+344,Chum,SE-SC AKPen,AK Peninsula,AK Peninsula,2007,327451,715246,1,,,715246,,,,age4
+344,Chum,SE-SC AKPen,AK Peninsula,AK Peninsula,2008,417900,,,,,,,,,
+344,Chum,SE-SC AKPen,AK Peninsula,AK Peninsula,2009,125100,,,,,,,,,
+344,Chum,SE-SC AKPen,AK Peninsula,AK Peninsula,2010,147912,,,,,,,,,
+344,Chum,SE-SC AKPen,AK Peninsula,AK Peninsula,2011,314300,,,,,,,,,
+345,Chum,N AKPen,AK Peninsula,AK Peninsula,1962,34400,112200,1,,,112200,,,,age4
+345,Chum,N AKPen,AK Peninsula,AK Peninsula,1963,47400,95500,1,,,95500,,,,age4
+345,Chum,N AKPen,AK Peninsula,AK Peninsula,1964,44600,112900,1,,,112900,,,,age4
+345,Chum,N AKPen,AK Peninsula,AK Peninsula,1965,23500,67600,1,,,67600,,,,age4
+345,Chum,N AKPen,AK Peninsula,AK Peninsula,1966,85500,141610,1,,,141610,,,,age4
+345,Chum,N AKPen,AK Peninsula,AK Peninsula,1967,74400,69834,1,,,69834,,,,age4
+345,Chum,N AKPen,AK Peninsula,AK Peninsula,1968,88300,72329,1,,,72329,,,,age4
+345,Chum,N AKPen,AK Peninsula,AK Peninsula,1969,43500,91090,1,,,91090,,,,age4
+345,Chum,N AKPen,AK Peninsula,AK Peninsula,1970,106100,43036,1,,,43036,,,,age4
+345,Chum,N AKPen,AK Peninsula,AK Peninsula,1971,49400,22493,1,,,22493,,,,age4
+345,Chum,N AKPen,AK Peninsula,AK Peninsula,1972,47000,154994,1,,,154994,,,,age4
+345,Chum,N AKPen,AK Peninsula,AK Peninsula,1973,41400,331734,1,,,331734,,,,age4
+345,Chum,N AKPen,AK Peninsula,AK Peninsula,1974,23000,180054,1,,,180054,,,,age4
+345,Chum,N AKPen,AK Peninsula,AK Peninsula,1975,17600,150271,1,,,150271,,,,age4
+345,Chum,N AKPen,AK Peninsula,AK Peninsula,1976,127400,696885,1,,,696885,,,,age4
+345,Chum,N AKPen,AK Peninsula,AK Peninsula,1977,245500,627722,1,,,627722,,,,age4
+345,Chum,N AKPen,AK Peninsula,AK Peninsula,1978,146900,503514,1,,,503514,,,,age4
+345,Chum,N AKPen,AK Peninsula,AK Peninsula,1979,114900,377781,1,,,377781,,,,age4
+345,Chum,N AKPen,AK Peninsula,AK Peninsula,1980,364200,1023568,1,,,1023568,,,,age4
+345,Chum,N AKPen,AK Peninsula,AK Peninsula,1981,276400,547389,1,,,547389,,,,age4
+345,Chum,N AKPen,AK Peninsula,AK Peninsula,1982,267500,235553,1,,,235553,,,,age4
+345,Chum,N AKPen,AK Peninsula,AK Peninsula,1983,199100,316846,1,,,316846,,,,age4
+345,Chum,N AKPen,AK Peninsula,AK Peninsula,1984,409300,358890,1,,,358890,,,,age4
+345,Chum,N AKPen,AK Peninsula,AK Peninsula,1985,123900,233550,1,,,233550,,,,age4
+345,Chum,N AKPen,AK Peninsula,AK Peninsula,1986,77900,211141,1,,,211141,,,,age4
+345,Chum,N AKPen,AK Peninsula,AK Peninsula,1987,161400,210038,1,,,210038,,,,age4
+345,Chum,N AKPen,AK Peninsula,AK Peninsula,1988,144100,373284,1,,,373284,,,,age4
+345,Chum,N AKPen,AK Peninsula,AK Peninsula,1989,102300,269963,1,,,269963,,,,age4
+345,Chum,N AKPen,AK Peninsula,AK Peninsula,1990,115600,274458,1,,,274458,,,,age4
+345,Chum,N AKPen,AK Peninsula,AK Peninsula,1991,81500,420388,1,,,420388,,,,age4
+345,Chum,N AKPen,AK Peninsula,AK Peninsula,1992,136400,496625,1,,,496625,,,,age4
+345,Chum,N AKPen,AK Peninsula,AK Peninsula,1993,183400,212169,1,,,212169,,,,age4
+345,Chum,N AKPen,AK Peninsula,AK Peninsula,1994,230800,417887,1,,,417887,,,,age4
+345,Chum,N AKPen,AK Peninsula,AK Peninsula,1995,347800,341720,1,,,341720,,,,age4
+345,Chum,N AKPen,AK Peninsula,AK Peninsula,1996,436400,401987,1,,,401987,,,,age4
+345,Chum,N AKPen,AK Peninsula,AK Peninsula,1997,161000,347197,1,,,347197,,,,age4
+345,Chum,N AKPen,AK Peninsula,AK Peninsula,1998,380400,292001,1,,,292001,,,,age4
+345,Chum,N AKPen,AK Peninsula,AK Peninsula,1999,299500,236838,1,,,236838,,,,age4
+345,Chum,N AKPen,AK Peninsula,AK Peninsula,2000,338900,147830,1,,,147830,,,,age4
+345,Chum,N AKPen,AK Peninsula,AK Peninsula,2001,285900,112590,1,,,112590,,,,age4
+345,Chum,N AKPen,AK Peninsula,AK Peninsula,2002,262800,474913,1,,,474913,,,,age4
+345,Chum,N AKPen,AK Peninsula,AK Peninsula,2003,214660,328337,1,,,328337,,,,age4
+345,Chum,N AKPen,AK Peninsula,AK Peninsula,2004,139350,301761,1,,,301761,,,,age4
+345,Chum,N AKPen,AK Peninsula,AK Peninsula,2005,103675,205956,1,,,205956,,,,age4
+345,Chum,N AKPen,AK Peninsula,AK Peninsula,2006,382583,265303,1,,,265303,,,,age4
+345,Chum,N AKPen,AK Peninsula,AK Peninsula,2007,243334,161336,1,,,161336,,,,age4
+345,Chum,N AKPen,AK Peninsula,AK Peninsula,2008,228537,,,,,,,,,
+345,Chum,N AKPen,AK Peninsula,AK Peninsula,2009,154131,,,,,,,,,
+345,Chum,N AKPen,AK Peninsula,AK Peninsula,2010,145310,,,,,,,,,
+345,Chum,N AKPen,AK Peninsula,AK Peninsula,2011,96952,,,,,,,,,
+346,Chum,Nushagak,Bristol Bay,Bristol Bay,1980,969000,1184311,1,,15813,1041451,126114,933,,data
+346,Chum,Nushagak,Bristol Bay,Bristol Bay,1981,177000,556731,1,,16328,420953,107737,11713,,data
+346,Chum,Nushagak,Bristol Bay,Bristol Bay,1982,256000,1049458,1,,135918,577903,328472,7165,,data
+346,Chum,Nushagak,Bristol Bay,Bristol Bay,1983,164000,430014,1,,1480,210647,212349,5538,,data
+346,Chum,Nushagak,Bristol Bay,Bristol Bay,1984,362000,459709,1,,0,305950,152642,1117,,data
+346,Chum,Nushagak,Bristol Bay,Bristol Bay,1985,288000,879809,1,,31177,663150,184098,1384,,data
+346,Chum,Nushagak,Bristol Bay,Bristol Bay,1986,200300,692806,1,,2337,448869,239892,1708,,data
+346,Chum,Nushagak,Bristol Bay,Bristol Bay,1987,147433,797273,1,,2161,463300,304142,27670,,data
+346,Chum,Nushagak,Bristol Bay,Bristol Bay,1988,186418,752333,1,,13443,309174,409756,19960,,data
+346,Chum,Nushagak,Bristol Bay,Bristol Bay,1989,377512,745022,1,,688,284424,427478,32432,,data
+346,Chum,Nushagak,Bristol Bay,Bristol Bay,1990,329793,501628,1,,1179,258707,236663,5079,,data
+346,Chum,Nushagak,Bristol Bay,Bristol Bay,1991,252436,442495,1,,1050,296267,144219,959,,data
+346,Chum,Nushagak,Bristol Bay,Bristol Bay,1992,302678,530803,1,,37408,406376,84028,2991,,data
+346,Chum,Nushagak,Bristol Bay,Bristol Bay,1993,217230,239594,1,,769,160857,74492,3476,,data
+346,Chum,Nushagak,Bristol Bay,Bristol Bay,1994,378928,629772,1,,1232,425824,146527,56189,,data
+346,Chum,Nushagak,Bristol Bay,Bristol Bay,1995,212612,377233,1,,4459,263104,109670,0,,data
+346,Chum,Nushagak,Bristol Bay,Bristol Bay,1996,225029,270898,1,,0,77560,188397,4941,,data
+346,Chum,Nushagak,Bristol Bay,Bristol Bay,1997,,1159953,,,12359,899278,242780,5536,,data
+346,Chum,Nushagak,Bristol Bay,Bristol Bay,1998,299215,578478.5408,1,,3651,410040,164249,538.540797,,data
+346,Chum,Nushagak,Bristol Bay,Bristol Bay,1999,242312,1288043.933,1,,39048,861720,384455.6983,2820.235192,,data
+346,Chum,Nushagak,Bristol Bay,Bristol Bay,2000,141324,488464.7071,1,,4219,297237.0266,177157.1998,9851.480719,,data
+346,Chum,Nushagak,Bristol Bay,Bristol Bay,2001,564724,2004184.829,1,,78949.73435,1241318.035,671758.5482,12158.51111,,data
+346,Chum,Nushagak,Bristol Bay,Bristol Bay,2002,419964,1701446.72,1,,779.5299145,1111016.579,573389.1827,16261.4293,,data
+346,Chum,Nushagak,Bristol Bay,Bristol Bay,2003,295413,887374.9603,1,,19255.39254,525542.3062,338533.3918,4043.869742,,data
+346,Chum,Nushagak,Bristol Bay,Bristol Bay,2004,283811,951304.1673,1,,3675,499669.3731,443603.924,4355.870159,,data
+346,Chum,Nushagak,Bristol Bay,Bristol Bay,2005,456025,910777.9804,1,,13304.80579,717531.7598,179159.5776,781.837156,,data
+346,Chum,Nushagak,Bristol Bay,Bristol Bay,2006,661002,,,,18384.4464,483881.4644,194127.9404,,,
+346,Chum,Nushagak,Bristol Bay,Bristol Bay,2007,161483,,,,16580.8878,387967.6392,,,,
+346,Chum,Nushagak,Bristol Bay,Bristol Bay,2008,326300,,,,5499.746063,,,,,
+346,Chum,Nushagak,Bristol Bay,Bristol Bay,2009,438481,,,,,,,,,
+346,Chum,Nushagak,Bristol Bay,Bristol Bay,2010,273914,,,,,,,,,
+346,Chum,Nushagak,Bristol Bay,Bristol Bay,2011,248278,,,,,,,,,
+347,Chum,Togiak,Bristol Bay,Bristol Bay,1978,396000,304662.1669,1,,1121.772,141252,157963.1149,4325.28,,data
+347,Chum,Togiak,Bristol Bay,Bristol Bay,1979,293000,467898.074,1,,11304.9,315048.386,141544.788,0,,data
+347,Chum,Togiak,Bristol Bay,Bristol Bay,1980,415000,398829.9471,1,,11119.3548,377326.614,5523.5166,4860.4617,,data
+347,Chum,Togiak,Bristol Bay,Bristol Bay,1981,331000,323829.7608,1,,17409.252,121102.0632,178997.0031,6321.4425,,data
+347,Chum,Togiak,Bristol Bay,Bristol Bay,1982,86000,947013.2071,1,,288676.4202,408458.7999,244585.195,5292.792,,data
+347,Chum,Togiak,Bristol Bay,Bristol Bay,1983,164540,1130702.381,1,,7740.7353,527411.215,573650.4396,21899.9908,,data
+347,Chum,Togiak,Bristol Bay,Bristol Bay,1984,204450,496035.348,1,,2107.1475,297631.3368,189603.2484,6693.6153,,data
+347,Chum,Togiak,Bristol Bay,Bristol Bay,1985,212000,201040.7533,1,,5557.4316,135044.1588,58539.3277,1899.8352,,data
+347,Chum,Togiak,Bristol Bay,Bristol Bay,1986,330000,256003.9426,1,,520.602,104730.3829,143912.5164,6840.4413,,data
+347,Chum,Togiak,Bristol Bay,Bristol Bay,1987,361000,411102.1324,1,,357.6741,244089.2433,154901.9413,11753.2737,,data
+347,Chum,Togiak,Bristol Bay,Bristol Bay,1988,412000,321511.1601,1,,5897.4051,129257.6895,164594.4996,21761.5659,,data
+347,Chum,Togiak,Bristol Bay,Bristol Bay,1989,143890,290313.648,1,,5122.9279,66991.2267,200335.7744,17863.719,,data
+347,Chum,Togiak,Bristol Bay,Bristol Bay,1990,67460,421889.5643,1,,0,237806.3263,176255.3608,7827.8772,,data
+347,Chum,Togiak,Bristol Bay,Bristol Bay,1991,149210,211704.1675,1,,2125.3334,158660.558,48746.3262,2171.9499,,data
+347,Chum,Togiak,Bristol Bay,Bristol Bay,1992,120000,,,,31386.3622,266503.6374,86770.1687,,,
+347,Chum,Togiak,Bristol Bay,Bristol Bay,1993,98470,,,,388.1592,64865.8229,,,,
+347,Chum,Togiak,Bristol Bay,Bristol Bay,1994,229470,,,,215.6546,,,,,
+347,Chum,Togiak,Bristol Bay,Bristol Bay,1995,163040,,,,,,,,,
+347,Chum,Togiak,Bristol Bay,Bristol Bay,1996,117240,,,,,,,,,
+347,Chum,Togiak,Bristol Bay,Bristol Bay,1997,106580,,,,,,,,,
+348,Chum,Yukon,AYK,AYK,1974,587400,814484.983,1,,105546.71,617779.8,91158.473,0,,data
+348,Chum,Yukon,AYK,AYK,1975,2068000,1885541.162,1,,186269.97,1633411.006,65860.186,0,,data
+348,Chum,Yukon,AYK,AYK,1976,491300,903389.86,1,,135807.521,628081.286,134675.301,4825.752,,data
+348,Chum,Yukon,AYK,AYK,1977,663100,1363679.229,1,,110034.701,1056776.461,191823.642,5044.425,,data
+348,Chum,Yukon,AYK,AYK,1978,502000,488694.678,1,,21839.238,361931.4,104924.04,0,,data
+348,Chum,Yukon,AYK,AYK,1979,1245000,1237143.165,1,,44638.206,889836.57,299137.446,3530.943,,data
+348,Chum,Yukon,AYK,AYK,1980,314800,617637.94,1,,10088.85,395129.313,208325.637,4094.14,,data
+348,Chum,Yukon,AYK,AYK,1981,529900,1340210.023,1,,49856.241,953354.61,328350.028,8649.144,,data
+348,Chum,Yukon,AYK,AYK,1982,229700,655735.345,1,,11769.81,472463.756,170820.594,681.185,,data
+348,Chum,Yukon,AYK,AYK,1983,483400,1135054.162,1,,14738.904,894105.261,224109.865,2100.132,,data
+348,Chum,Yukon,AYK,AYK,1984,331800,601120.826,1,,7568.001,409392.185,174310.956,9849.684,,data
+348,Chum,Yukon,AYK,AYK,1985,661500,1232266.597,1,,47001.765,873654.912,308623.432,2986.488,,data
+348,Chum,Yukon,AYK,AYK,1986,500800,850389.554,1,,0,489200.972,356387.568,4801.014,,data
+348,Chum,Yukon,AYK,AYK,1987,675000,945873.368,1,,13953.719,596302.104,328069.29,7548.255,,data
+348,Chum,Yukon,AYK,AYK,1988,327500,402272.305,1,,39819.84,197375.02,152297.145,12780.3,,data
+348,Chum,Yukon,AYK,AYK,1989,504900,698951.504,1,,3200.676,283281.57,391929.2,20540.058,,data
+348,Chum,Yukon,AYK,AYK,1990,468800,1107289.117,1,,888.03,657120.425,418136.895,31143.767,,data
+348,Chum,Yukon,AYK,AYK,1991,556400,1412691.025,1,,4260.1,1022601.459,373725.204,12104.262,,data
+348,Chum,Yukon,AYK,AYK,1992,384600,871873.207,1,,7335.735,661536.568,199047.864,3953.04,,data
+348,Chum,Yukon,AYK,AYK,1993,353000,568472.862,1,,7517.461,456599.661,101131.94,3223.8,,data
+348,Chum,Yukon,AYK,AYK,1994,895800,372248.514,1,,4707.213,222358.5,143459.1,1723.701,,data
+348,Chum,Yukon,AYK,AYK,1995,1006000,329478.625,1,,2305.94,255889.125,70917.984,365.576,,data
+348,Chum,Yukon,AYK,AYK,1996,813000,309991.559,1,,402.975,170400.156,130876.208,8312.22,,data
+348,Chum,Yukon,AYK,AYK,1997,502400,355786.573,1,,3201.159,233968.64,115539.858,3076.916,,data
+348,Chum,Yukon,AYK,AYK,1998,258600,328539.357,1,,731.152,263497.374,57692.175,6618.656,,data
+348,Chum,Yukon,AYK,AYK,1999,271800,911820.7,1,,28261.548,699998.39,170881.664,12679.098,,data
+348,Chum,Yukon,AYK,AYK,2000,217700,407454.716,1,,8461.519,291220.864,107772.333,0,,data
+348,Chum,Yukon,AYK,AYK,2001,320600,2812493.734,1,,133576.512,1994844.752,651696.89,32375.58,,data
+348,Chum,Yukon,AYK,AYK,2002,388200,,,,0,428573.548,227708.246,,,
+348,Chum,Yukon,AYK,AYK,2003,689700,,,,23195.991,819102.174,,,,
+348,Chum,Yukon,AYK,AYK,2004,525400,,,,0,,,,,
+348,Chum,Yukon,AYK,AYK,2005,1823000,,,,,,,,,
+348,Chum,Yukon,AYK,AYK,2006,834100,,,,,,,,,
+348,Chum,Yukon,AYK,AYK,2007,884400,,,,,,,,,
+349,Chum,Anvik,AYK,AYK,1972,457800,237395,1,,34095,168992,32618,1690,,data
+349,Chum,Anvik,AYK,AYK,1973,249015,609636,1,,41662,438036,126898,3040,,data
+349,Chum,Anvik,AYK,AYK,1974,411133,869517,1,,125829,576013,167675,0,,data
+349,Chum,Anvik,AYK,AYK,1975,900967,542143,1,,25117,422471,81179,13376,,data
+349,Chum,Anvik,AYK,AYK,1976,511475,2162459,1,,46207,857073,1248742,10437,,data
+349,Chum,Anvik,AYK,AYK,1977,358771,980358,1,,5037,752011,217325,5985,,data
+349,Chum,Anvik,AYK,AYK,1978,307270,817165,1,,2120,473325,340337,1383,,data
+349,Chum,Anvik,AYK,AYK,1979,280537,656943,1,,30186,439240,180670,6847,,data
+349,Chum,Anvik,AYK,AYK,1980,492676,1388588,1,,7935,1027409,331999,21245,,data
+349,Chum,Anvik,AYK,AYK,1981,1486182,2215845,1,,27411,1029995,1125795,32644,,data
+349,Chum,Anvik,AYK,AYK,1982,444581,756480,1,,27105,496420,218619,14336,,data
+349,Chum,Anvik,AYK,AYK,1983,362912,855008,1,,5217,472777,374036,2978,,data
+349,Chum,Anvik,AYK,AYK,1984,891028,2100597,1,,9316,1338346,741293,11642,,data
+349,Chum,Anvik,AYK,AYK,1985,1080243,785735,1,,65276,467865,248720,3874,,data
+349,Chum,Anvik,AYK,AYK,1986,1189602,988855,1,,9984,345492,591907,41472,,data
+349,Chum,Anvik,AYK,AYK,1987,455876,1207398,1,,13780,490904,687338,15376,,data
+349,Chum,Anvik,AYK,AYK,1988,1125449,507883,1,,3147,278108,210927,15701,,data
+349,Chum,Anvik,AYK,AYK,1989,636906,1224634,1,,2795,378386,777006,66447,,data
+349,Chum,Anvik,AYK,AYK,1990,403627,1137732,1,,3467,451139,657174,25952,,data
+349,Chum,Anvik,AYK,AYK,1991,847772,1383421,1,,97,863485,511512,8327,,data
+349,Chum,Anvik,AYK,AYK,1992,775626,1091932,1,,39034,640540,404925,7433,,data
+349,Chum,Anvik,AYK,AYK,1993,517409,419721,1,,5753,299059,102804,12105,,data
+350,Chum,Andreafsky,AYK,AYK,1972,60040,178145.9731,1,,3986.361538,108630.6,62143.27692,3385.734615,,avg
+350,Chum,Andreafsky,AYK,AYK,1973,56350,150436.1308,1,,2297.1,87429.98462,57835.00769,2874.038462,,avg
+350,Chum,Andreafsky,AYK,AYK,1974,69430,136456.3769,1,,1848.792308,81368.63846,49094.23077,4144.715385,,avg
+350,Chum,Andreafsky,AYK,AYK,1975,271000,146112.9385,1,,1720.619231,69071.15385,70799.89231,4521.273077,,avg
+350,Chum,Andreafsky,AYK,AYK,1976,151800,182313.0769,1,,1460.576923,99609.06154,77232.23846,4011.2,,avg
+350,Chum,Andreafsky,AYK,AYK,1977,117500,164476.3231,1,,2106.330769,108658.7923,52145.6,1565.6,,avg
+350,Chum,Andreafsky,AYK,AYK,1978,102000,230746.2962,1,,2297.696154,140392,86108,1948.6,,avg
+350,Chum,Andreafsky,AYK,AYK,1979,82520,94715.2,1,,4011.2,67320.8,23383.2,0,,data
+350,Chum,Andreafsky,AYK,AYK,1980,128800,104527.5,1,,1565.6,68201,31058.1,3702.8,,data
+350,Chum,Andreafsky,AYK,AYK,1981,153200,170152.1,1,,3897.2,81671.3,81461.6,3122,,data
+350,Chum,Andreafsky,AYK,AYK,1982,156300,142323.2,1,,2300.6,101827,36215.2,1980.4,,data
+350,Chum,Andreafsky,AYK,AYK,1983,103500,50774.5,1,,0,23102.8,26735.4,936.3,,data
+350,Chum,Andreafsky,AYK,AYK,1984,76330,120498.6,1,,624.4,69314,50560.2,0,,data
+350,Chum,Andreafsky,AYK,AYK,1985,96080,50340.4,1,,990.2,40260.9,8411.6,677.7,,data
+350,Chum,Andreafsky,AYK,AYK,1986,149000,81032.1,1,,1872.6,40078.8,31851.9,7228.8,,data
+350,Chum,Andreafsky,AYK,AYK,1987,46180,95895.16,1,,494.8,34562.7,59637.6,1200.06,,data
+350,Chum,Andreafsky,AYK,AYK,1988,70900,48938.62,1,,0,23493.6,23401.17,2043.85,,data
+350,Chum,Andreafsky,AYK,AYK,1989,63990,101905.29,1,,0,34801.74,63359.35,3744.2,,data
+350,Chum,Andreafsky,AYK,AYK,1990,39190,243988.47,1,,600.03,138981.8,97349.2,7057.44,,data
+350,Chum,Andreafsky,AYK,AYK,1991,56830,129989.94,1,,0,84244.5,42344.64,3400.8,,data
+350,Chum,Andreafsky,AYK,AYK,1992,73740,106599.1,1,,1872.1,67045.68,36275.2,1406.12,,data
+350,Chum,Andreafsky,AYK,AYK,1993,52620,30561.06,1,,0,17570.8,11952.02,1038.24,,data
+350,Chum,Andreafsky,AYK,AYK,1994,195400,81253.92,1,,0,56947.86,23533.44,772.62,,data
+350,Chum,Andreafsky,AYK,AYK,1995,173300,22453.96,1,,0,9690.24,12361.92,401.8,,data
+350,Chum,Andreafsky,AYK,AYK,1996,108400,29618.44,1,,346.08,12619.46,15268.4,1384.5,,data
+350,Chum,Andreafsky,AYK,AYK,1997,51780,10659.32,1,,0,4419.8,5999.5,240.02,,data
+350,Chum,Andreafsky,AYK,AYK,1998,65850,44305,1,,0,38304.5,6000.5,0,,data
+350,Chum,Andreafsky,AYK,AYK,1999,32780,30881.18,1,,461.5,17761.48,12658.2,0,,data
+350,Chum,Andreafsky,AYK,AYK,2000,23290,46123.81,1,,240.02,43670.79,2213,0,,data
+350,Chum,Andreafsky,AYK,AYK,2001,18570,107113.56,1,,6329.1,19917,76253.04,4614.42,,data
+350,Chum,Andreafsky,AYK,AYK,2002,44370,,,,0,28594.89,19995.82,,,
+350,Chum,Andreafsky,AYK,AYK,2003,23100,,,,1059.07,51527.69,,,,
+350,Chum,Andreafsky,AYK,AYK,2004,61000,,,,769.07,,,,,
+350,Chum,Andreafsky,AYK,AYK,2005,21270,,,,,,,,,
+350,Chum,Andreafsky,AYK,AYK,2006,103300,,,,,,,,,
+350,Chum,Andreafsky,AYK,AYK,2007,68710,,,,,,,,,
+351,Chum,Norton Sound,AYK,AYK,1974,23511,62925,1,,,52437,10488,,,data
+351,Chum,Norton Sound,AYK,AYK,1975,32185,65985,1,,,10488,55497,,,data
+351,Chum,Norton Sound,AYK,AYK,1976,17623,112461,1,,,55497,56964,,,data
+351,Chum,Norton Sound,AYK,AYK,1977,45097,82970,1,,,56964,26006,,,data
+351,Chum,Norton Sound,AYK,AYK,1978,91798,48885,1,,,26006,22879,,,data
+351,Chum,Norton Sound,AYK,AYK,1979,12312,50646,1,,,22879,27767,,,data
+351,Chum,Norton Sound,AYK,AYK,1980,91090,59366,1,,,27767,31599,,,data
+351,Chum,Norton Sound,AYK,AYK,1981,86684,57251,1,,,31599,25652,,,data
+351,Chum,Norton Sound,AYK,AYK,1982,33735,50926,1,,,25652,25274,,,data
+351,Chum,Norton Sound,AYK,AYK,1983,26977,43931,1,,,25274,18657,,,data
+351,Chum,Norton Sound,AYK,AYK,1984,46908,26900,1,,,18657,8243,,,data
+351,Chum,Norton Sound,AYK,AYK,1985,51313,18053,1,,,8243,9810,,,data
+351,Chum,Norton Sound,AYK,AYK,1986,35060,44776,1,,,9810,34966,,,data
+351,Chum,Norton Sound,AYK,AYK,1987,36507,54696,1,,,34966,19730,,,data
+351,Chum,Norton Sound,AYK,AYK,1988,29733,38760,1,,,19730,19030,,,data
+351,Chum,Norton Sound,AYK,AYK,1989,12594,42595,1,,,19030,23565,,,data
+351,Chum,Norton Sound,AYK,AYK,1990,15375,72352,1,,,23565,48787,,,data
+351,Chum,Norton Sound,AYK,AYK,1991,66216,76313,1,,,48787,27526,,,data
+351,Chum,Norton Sound,AYK,AYK,1992,36895,56255,1,,,27526,28729,,,data
+351,Chum,Norton Sound,AYK,AYK,1993,36162,53507,1,,,28729,24778,,,data
+351,Chum,Norton Sound,AYK,AYK,1994,45392,33719,1,,,24778,8941,,,data
+351,Chum,Norton Sound,AYK,AYK,1995,92107,26615,1,,,8941,17674,,,data
+352,Chum,Kwiniuk Inlet,AYK,AYK,1965,52643,83105,1,,3287,75411,4407,0,,data
+352,Chum,Kwiniuk Inlet,AYK,AYK,1966,38861,216334,1,,2346,185848,27758,382,,data
+352,Chum,Kwiniuk Inlet,AYK,AYK,1967,40965,160478,1,,1341,87206,71530,401,,data
+352,Chum,Kwiniuk Inlet,AYK,AYK,1968,33453,39393,1,,694,19699,18271,729,,data
+352,Chum,Kwiniuk Inlet,AYK,AYK,1969,53016,73593,1,,4016,37882,31695,0,,data
+352,Chum,Kwiniuk Inlet,AYK,AYK,1970,154910,94336,1,,10374,73106,10553,303,,data
+352,Chum,Kwiniuk Inlet,AYK,AYK,1971,69600,99485,1,,15908,69757,13307,513,,data
+352,Chum,Kwiniuk Inlet,AYK,AYK,1972,62640,19534,1,,242,8028,10962,302,,data
+352,Chum,Kwiniuk Inlet,AYK,AYK,1973,35242,91610,1,,0,64570,27040,0,,data
+352,Chum,Kwiniuk Inlet,AYK,AYK,1974,64439,69407,1,,9592,45923,13709,183,,data
+352,Chum,Kwiniuk Inlet,AYK,AYK,1975,33345,45643,1,,2266,38833,4341,203,,data
+352,Chum,Kwiniuk Inlet,AYK,AYK,1976,9200,76474,1,,800,39349,34296,2029,,data
+352,Chum,Kwiniuk Inlet,AYK,AYK,1977,37011,95146,1,,1828,66556,25488,1274,,data
+352,Chum,Kwiniuk Inlet,AYK,AYK,1978,29707,112541,1,,712,59001,51078,1750,,data
+352,Chum,Kwiniuk Inlet,AYK,AYK,1979,15024,141879,1,,1676,88574,50835,794,,data
+352,Chum,Kwiniuk Inlet,AYK,AYK,1980,29554,113749,1,,566,88330,24628,225,,data
+352,Chum,Kwiniuk Inlet,AYK,AYK,1981,69624,82744,1,,3805,53626,24118,1195,,data
+352,Chum,Kwiniuk Inlet,AYK,AYK,1982,44625,53725,1,,397,27669,24865,794,,data
+352,Chum,Kwiniuk Inlet,AYK,AYK,1983,73681,38676,1,,4339,21518,11502,1317,,data
+352,Chum,Kwiniuk Inlet,AYK,AYK,1984,133154,46643,1,,239,26971,18663,770,,data
+352,Chum,Kwiniuk Inlet,AYK,AYK,1985,54032,13695,1,,396,5343,7956,0,,data
+352,Chum,Kwiniuk Inlet,AYK,AYK,1986,33706,44828,1,,0,16680,28148,0,,data
+352,Chum,Kwiniuk Inlet,AYK,AYK,1987,28562,31435,1,,256,19560,10845,774,,data
+352,Chum,Kwiniuk Inlet,AYK,AYK,1988,19101,21537,1,,0,5104,15218,1215,,data
+352,Chum,Kwiniuk Inlet,AYK,AYK,1989,23178,32516,1,,0,9801,20045,2670,,data
+352,Chum,Kwiniuk Inlet,AYK,AYK,1990,19962,68642,1,,0,39482,26696,2464,,data
+352,Chum,Kwiniuk Inlet,AYK,AYK,1991,44244,61794,1,,0,37375,24145,274,,data
+352,Chum,Kwiniuk Inlet,AYK,AYK,1992,14689,35475,1,,0,22667,12608,200,,data
+352,Chum,Kwiniuk Inlet,AYK,AYK,1993,23991,23184,1,,0,14527,8482,175,,data
+352,Chum,Kwiniuk Inlet,AYK,AYK,1994,56852,36466,1,,0,31131,5071,264,,data
+352,Chum,Kwiniuk Inlet,AYK,AYK,1995,61796,17296,1,,200,8811,7676,609,,data
+353,Chum,Kotzebue,AYK,AYK,1962,621917,352920,1,,11609,277700,61320,2291,0,data
+353,Chum,Kotzebue,AYK,AYK,1963,138600,331036,1,,41324,239315,50397,0,0,data
+353,Chum,Kotzebue,AYK,AYK,1964,444000,189381,1,,29169,147883,12329,0,0,data
+353,Chum,Kotzebue,AYK,AYK,1965,393677,237125,1,,53961,146692,36472,0,0,data
+353,Chum,Kotzebue,AYK,AYK,1966,350393,856944,1,,92595,638963,121002,4384,0,data
+353,Chum,Kotzebue,AYK,AYK,1967,266520,511732,1,,25951,309691,176090,0,0,data
+353,Chum,Kotzebue,AYK,AYK,1968,186205,579732,1,,32916,434744,108064,4008,0,data
+353,Chum,Kotzebue,AYK,AYK,1969,176697,757861,1,,115445,539541,102875,0,0,data
+353,Chum,Kotzebue,AYK,AYK,1970,481658,1090497,1,,129832,847046,112797,822,0,data
+353,Chum,Kotzebue,AYK,AYK,1971,293342,1468511,1,,382106,923658,153216,9531,0,data
+353,Chum,Kotzebue,AYK,AYK,1972,550852,337936,1,,27667,211134,98488,647,0,data
+353,Chum,Kotzebue,AYK,AYK,1973,391673,538423,1,,45595,386009,102835,3984,0,data
+353,Chum,Kotzebue,AYK,AYK,1974,688710,277333,1,,35477,185944,55053,859,0,data
+353,Chum,Kotzebue,AYK,AYK,1975,481364,283305,1,,33955,192686,56664,0,0,data
+353,Chum,Kotzebue,AYK,AYK,1976,231558,1180020,1,,110469,671386,363073,35092,0,data
+353,Chum,Kotzebue,AYK,AYK,1977,314197,1200340,1,,129641,798761,257132,14806,0,data
+353,Chum,Kotzebue,AYK,AYK,1978,192475,566251,1,,28570,308175,220162,9344,0,data
+353,Chum,Kotzebue,AYK,AYK,1979,201157,554364,1,,37645,371442,141594,3683,0,data
+353,Chum,Kotzebue,AYK,AYK,1980,471854,655561,1,,37337,462875,142726,12623,0,data
+353,Chum,Kotzebue,AYK,AYK,1981,492124,1375178,1,,104938,770719,452708,46038,775,data
+353,Chum,Kotzebue,AYK,AYK,1982,184122,253322,1,,3683,106722,129743,13174,0,data
+353,Chum,Kotzebue,AYK,AYK,1983,443173,320348,1,,1721,179966,130960,7701,0,data
+353,Chum,Kotzebue,AYK,AYK,1984,373731,806979,1,,62779,579635,157109,7456,0,data
+353,Chum,Kotzebue,AYK,AYK,1985,385911,926413,1,,50369,599941,270003,6100,0,data
+353,Chum,Kotzebue,AYK,AYK,1986,276870,510024,1,,5391,242843,242643,18891,256,data
+353,Chum,Kotzebue,AYK,AYK,1987,276236,660903,1,,12249,409375,228520,10759,0,data
+353,Chum,Kotzebue,AYK,AYK,1988,387618,556612,1,,19655,356491,170356,10110,0,data
+353,Chum,Kotzebue,AYK,AYK,1989,484176,206260,1,,5484,67374,107379,19760,6263,data
+353,Chum,Kotzebue,AYK,AYK,1990,340924,757540,1,,7429,219639,383769,140909,5794,data
+353,Chum,Kotzebue,AYK,AYK,1991,415733,1433620,1,,11505,612574,765605,42213,1723,data
+353,Chum,Kotzebue,AYK,AYK,1992,300365,935470,1,,22881,637222,241277,32733,1357,data
+353,Chum,Kotzebue,AYK,AYK,1993,163002,211084,1,,14091,118776,72110,6107,0,data
+353,Chum,Kotzebue,AYK,AYK,1994,187836,208447,1,,5794,124040,71928,6120,565,data
+353,Chum,Kotzebue,AYK,AYK,1995,716396,836659,1,,15259,593747,215409,11304,940,data
+353,Chum,Kotzebue,AYK,AYK,1996,1439252,675923,1,,6107,376966,282033,10817,0,data
+353,Chum,Kotzebue,AYK,AYK,1997,262959,401546,1,,12851,258295,111514,18075,811,data
+353,Chum,Kotzebue,AYK,AYK,1998,176841,,,,13565,250961,75637,4057,,
+353,Chum,Kotzebue,AYK,AYK,1999,483675,,,,39462,182418,132680,,,
+353,Chum,Kotzebue,AYK,AYK,2000,415574,,,,1947,216264,,,,
+353,Chum,Kotzebue,AYK,AYK,2001,335811,,,,51936,,,,,
+353,Chum,Kotzebue,AYK,AYK,2002,375248,,,,,,,,,
+353,Chum,Kotzebue,AYK,AYK,2003,225224,,,,,,,,,
+353,Chum,Kotzebue,AYK,AYK,2004,327282,,,,,,,,,

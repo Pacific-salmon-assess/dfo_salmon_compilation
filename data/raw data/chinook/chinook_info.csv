@@ -1,0 +1,21 @@
+Stock.ID,Species,Stock,Ocean.Region,Region,Sub.Region,Jurisdiction,Lat,Lon,Source.ID
+101,Chinook,Ayakulik,GOA,Westward,Kodiak,AK,57.1978276,-154.53849,1
+102,Chinook,Karluk,GOA,Westward,Kodiak,AK,57.563,-154.3843,1
+103,Chinook,Chignik,GOA,Westward,Chignik,AK,56.2615981,-158.71224,2
+104,Chinook,Nelson,GOA,Westward,Alaska Peninsula and Aleutian Islands,AK,55.810523,-161.25646,3
+105,Chinook,Goodnews,BS,AYK,Kuskokwim,AK,59.15992,-160.6119,4
+106,Chinook,Andrew Creek,GOA,Southeast,Southeast,AK,56.63997,-132.2,5
+107,Chinook,Chickamin,GOA,Southeast,Southeast,AK,55.8174772,-130.93326,5
+108,Chinook,Chilkat,GOA,Southeast,Southeast,AK,59.3721353,-135.94325,5
+109,Chinook,King Salmon River,GOA,Southeast,Southeast,AK,58.0420026,-134.34145,5
+110,Chinook,Stikine,GOA,Southeast,Southeast,AK,56.6917175,-132.21863,5
+111,Chinook,Unuk,GOA,Southeast,Southeast,AK,56.0768125,-131.077,5
+112,Chinook,Alsek/Klukshu,GOA,Southeast,Southeast,AK,60.11632,-137.033,5
+113,Chinook,Situk,GOA,Southeast,Southeast,AK,59.4579521,-139.57143,5
+114,Chinook,Keta,GOA,Southeast,Southeast,AK,55.3360159,-130.47574,5
+115,Chinook,Blossom,GOA,Southeast,Southeast,AK,55.402008,-130.60741,5
+116,Chinook,Kuskokwim,BS,Kuskokwim,Kuskokwim,AK,60.0407,-162.4261,6
+117,Chinook,Nushagak,GOA,Bristol Bay,Bristol Bay,AK,58.9061423,-157.73358,7
+118,Chinook,Kenai (early),GOA,Cook Inlet,Cook Inlet,AK,60.5096525,-151.10697,8
+119,Chinook,Kenai (late),GOA,Cook Inlet,Cook Inlet,AK,60.5096525,-151.10697,9
+120,Chinook,Unalakleet,BS,Norton Sound,Norton Sound,AK,63.89104,-160.47841,10

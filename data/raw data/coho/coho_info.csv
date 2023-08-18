@@ -1,0 +1,14 @@
+Stock.ID,Species,Stock,Ocean.Region,Region,Sub.Region,Jurisdiction,Lat,Lon,Source.ID
+101,Coho,Buskin River,GOA,Westward,Kodiak,AK,57.75812,-152.4784,1
+102,Coho,Kuskokwim River,BS,AYK,Kuskokwim,AK,61.10037,-160.9961,2
+103,Coho,Auke Creek,GOA,Southeast,Southeast,AK,58.38052,-134.6419,4
+104,Coho,Berners River,GOA,Southeast,Southeast,AK,58.8464,-134.97,"3,4"
+105,Coho,Ford Arm Lake,GOA,Southeast,Southeast,AK,57.58192,-135.9153,4
+106,Coho,Hugh Smith Lake,GOA,Southeast,Southeast,AK,55.09855,-130.6461,4
+107,Coho,Akwe River,GOA,Southeast,Southeast,AK,59.2929349,-139.09307,5
+108,Coho,East Alsek River,GOA,Southeast,Southeast,AK,59.10379,-138.5086,5
+109,Coho,Italio River,GOA,Southeast,Southeast,AK,59.3129858,-139.15364,5
+110,Coho,Kaliakh River,GOA,Southeast,Southeast,AK,60.0873,-142.9378,5
+111,Coho,Lost River,GOA,Southeast,Southeast,AK,59.45382,-139.6239,5
+112,Coho,Situk River,GOA,Southeast,Southeast,AK,59.44609,-139.5678,5
+113,Coho,Tsiu River,GOA,Southeast,Southeast,AK,60.0777512,-143.09116,5
