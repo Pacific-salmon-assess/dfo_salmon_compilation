@@ -1,6 +1,6 @@
 rm(list=ls())
 ##Salmon spawner-recruit time-series; dan.greenberg@dfo-mpo.gc.ca
-library(here);library(dplyr)
+library(here);library(dplyr); library(tidyverse)
 #plot functions
 source(here('code','functions.R'))
 
@@ -14,6 +14,7 @@ bb_sockeye<- read.csv(here('data','raw data','sockeye','Bristol Bay Spawner-Recr
 #These datasets don't end up getting used, as data is either replicated in other compilations or do not pass the data quality criterion:
 #ogden_comp<-  read.csv(here('data','raw data','multispecies','Salmon_RS_Database.csv')); ogden_info<-read.csv(here('data','raw data','multispecies','Salmon_RS_Time_Series_Summary.csv'))
 #pse_comp<- read.csv(here('data','raw data','multispecies','PSE_RS.csv'));pse_dq=read.csv(here('data','raw data','multispecies','PSE_data_quality.csv'))
+pse_ncc <- read.csv(here('data','raw data','multispecies','CC_age_2023_03_03.csv'))
 #chum
 chum<- read.csv(here('data','raw data','chum','chum_data.csv'));chum_info<- read.csv(here('data','raw data','chum','chum_info.csv'));chum_source<- read.csv(here('data','raw data','chum','chum_sources.csv'))
 chu_upd<- read.csv(here('data','raw data','chum','Chum S_R for BC_4.24.2023.csv'))
@@ -37,7 +38,7 @@ names(chum)<- gsub('.yr','year',names(chum)) #make the brood years equivalent
 names(pink)<- gsub('.yr','year',names(pink))  #make the brood years equivalent
 colnames(coho)<- tolower(names(coho));colnames(coho_info)<- tolower(names(coho_info));colnames(coho_source)<- tolower(names(coho_source));names(coho_source)[1]='source.id'
 colnames(chinook)<- tolower(names(chinook));colnames(chinook_info)<- tolower(names(chinook_info));colnames(chinook_source)<- tolower(names(chinook_source))
-colnames(ogden_comp)<- tolower(names(ogden_comp));colnames(ogden_info)<- tolower(names(ogden_info))
+#colnames(ogden_comp)<- tolower(names(ogden_comp));colnames(ogden_info)<- tolower(names(ogden_info))
 names(cc_comp)<- gsub('broodYr','broodyear',names(cc_comp));names(cc_comp)<- gsub('spawn','spawners',names(cc_comp));names(cc_comp)<- gsub('rec','recruits',names(cc_comp));colnames(cc_comp)[1]='stock.id'  #make the brood years equivalent
 names(cow_chin)[1]='stock.id'
 names(psc_fraser_sockeye)[1]='stock';names(psc_fraser_sockeye)[3]='broodyear'
@@ -49,8 +50,9 @@ names(nicola_chin)[3]='broodyear';names(shuswap_chin)[4]='spawners';names(shuswa
 
 #add ocean regions to info
 chum_info$ocean.region=sockeye_info$ocean.region[match(chum_info$region,sockeye_info$region)]
-chum_info$ocean.region[1:9]='WC'
+chum_info$ocean.region[1:9]='WC'; chum_info$ocean.region=replace_na(chum_info$ocean.region,"WC")
 pink_info$ocean.region=chum_info$ocean.region[match(pink_info$region,chum_info$region)]
+pink_info$ocean.region=replace_na(pink_info$ocean.region,"WC")
 
 #Sockeye####
 stock_dat=data.frame(stock.id=NA,species=NA,stock.name=NA,lat=NA,lon=NA,ocean.basin=NA,state=NA,begin=NA,end=NA,n.years=NA,max.spawners=NA,max.recruits=NA,source=NA,url=NA,comments=NA)
@@ -232,6 +234,35 @@ names(chu_upd2)[6]='broodyear'
 
 chum2<- rbind(chu_upd2,chum2)
 length(unique(chum2$stock))
+
+#add in PSE chum data and generate a file for H. Hunter project
+pse_chum <- pse_ncc %>%
+  subset(SpeciesId = "CM") %>%
+  drop_na(TR6) %>% # drop incomplete brood years (i.e., without recruits for 5 year olds)
+  rename(stock = CU_Name) %>%
+  left_join(chum_info, by = "stock") %>%
+  drop_na(stock.id) %>%
+  mutate(species = "Chum",
+         use = 1,
+         age = "avg") %>%
+  rename(broodyear = BroodYear,
+         spawners = Escape,
+         recruits = Total,
+         recruits.2 = TR2,
+         recruits.3 = TR3,
+         recruits.4 = TR4,
+         recruits.5 = TR5,
+         recruits.6 = TR6, 
+         recruits.7 = TR7) %>%
+  select(stock.id, species, stock, region, sub.region, broodyear, spawners, recruits, use,recruits.2, recruits.3, recruits.4, recruits.5, recruits.6, recruits.7, age)
+
+chum3<- rbind(chum2,pse_chum)
+
+chum_filtered <- chum3 %>% #drop north and central coast stocks that have been replaced with CU level reconstructions from PSE
+  filter(!stock %in% c("Area 10", "Area 9", "Area 8", "Area 7", "Area 6", "Area 5", "Area 4", "Area 3", "Area 2W", "Area 2E", "Area 1") )
+
+write.csv(chum_filtered,here('data','filtered datasets',paste('raw_chum_brood_table',Sys.Date(),'.csv',sep='')),row.names = FALSE)
+write.csv(chum_info,here('data','filtered datasets',paste('chum_info',Sys.Date(),'.csv',sep='')))
 
 chum_list=list()
 for(i in 1:length(unique(chum2$stock.id))){
