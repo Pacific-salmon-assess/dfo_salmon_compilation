@@ -278,105 +278,37 @@
 "248","Pink","S South Misc.","Inside WA","Inside WA",2015,607,93,1
 "248","Pink","S South Misc.","Inside WA","Inside WA",2017,86,31,1
 "248","Pink","S South Misc.","Inside WA","Inside WA",2019,14,161,1
-"208","Pink","Fraser","Fraser River","BC South",1961,1094000,2320000,1
-"208","Pink","Fraser","Fraser River","BC South",1962,NA,NA,NA
-"208","Pink","Fraser","Fraser River","BC South",1963,1953000,12963000,1
-"208","Pink","Fraser","Fraser River","BC South",1964,NA,NA,NA
-"208","Pink","Fraser","Fraser River","BC South",1965,1191000,3931000,1
-"208","Pink","Fraser","Fraser River","BC South",1966,NA,NA,NA
-"208","Pink","Fraser","Fraser River","BC South",1967,1831000,9763000,1
-"208","Pink","Fraser","Fraser River","BC South",1968,NA,NA,NA
-"208","Pink","Fraser","Fraser River","BC South",1969,1529000,6801000,1
-"208","Pink","Fraser","Fraser River","BC South",1970,NA,NA,NA
-"208","Pink","Fraser","Fraser River","BC South",1971,1804000,4894000,1
-"208","Pink","Fraser","Fraser River","BC South",1972,NA,NA,NA
-"208","Pink","Fraser","Fraser River","BC South",1973,1754000,8209000,1
-"208","Pink","Fraser","Fraser River","BC South",1974,NA,NA,NA
-"208","Pink","Fraser","Fraser River","BC South",1975,1367000,14404000,1
-"208","Pink","Fraser","Fraser River","BC South",1976,NA,NA,NA
-"208","Pink","Fraser","Fraser River","BC South",1977,2388000,18685000,1
-"208","Pink","Fraser","Fraser River","BC South",1978,NA,NA,NA
-"208","Pink","Fraser","Fraser River","BC South",1979,3561000,15346000,1
-"208","Pink","Fraser","Fraser River","BC South",1980,NA,NA,NA
-"208","Pink","Fraser","Fraser River","BC South",1981,4488000,19104000,1
-"208","Pink","Fraser","Fraser River","BC South",1982,NA,NA,NA
-"208","Pink","Fraser","Fraser River","BC South",1983,4632000,7172000,1
-"208","Pink","Fraser","Fraser River","BC South",1984,NA,NA,NA
-"208","Pink","Fraser","Fraser River","BC South",1985,6461000,16484000,1
-"208","Pink","Fraser","Fraser River","BC South",1986,NA,NA,NA
-"208","Pink","Fraser","Fraser River","BC South",1987,3224000,22180000,1
-"208","Pink","Fraser","Fraser River","BC South",1988,NA,NA,NA
-"208","Pink","Fraser","Fraser River","BC South",1989,7189000,16983000,1
-"208","Pink","Fraser","Fraser River","BC South",1990,NA,NA,NA
-"208","Pink","Fraser","Fraser River","BC South",1991,12949000,12904000,1
-"208","Pink","Fraser","Fraser River","BC South",1992,NA,NA,NA
-"208","Pink","Fraser","Fraser River","BC South",1993,10768000,8176000,1
-"208","Pink","Fraser","Fraser River","BC South",1994,NA,NA,NA
-"208","Pink","Fraser","Fraser River","BC South",1995,7175000,3586000,1
-"208","Pink","Fraser","Fraser River","BC South",1996,NA,NA,NA
-"208","Pink","Fraser","Fraser River","BC South",1997,2842000,21174000,1
-"208","Pink","Fraser","Fraser River","BC South",1998,NA,NA,NA
-"208","Pink","Fraser","Fraser River","BC South",1999,3422000,2.6e+07,1
-"208","Pink","Fraser","Fraser River","BC South",2000,NA,NA,NA
-"208","Pink","Fraser","Fraser River","BC South",2001,19725000,1e+07,1
-"209","Pink","BC South (no Fraser)","BC South","BC South",1953,774700,810000,1
-"209","Pink","BC South (no Fraser)","BC South","BC South",1954,568550,1505671,1
-"209","Pink","BC South (no Fraser)","BC South","BC South",1955,810000,1134900,1
-"209","Pink","BC South (no Fraser)","BC South","BC South",1956,585625,2125741,1
-"209","Pink","BC South (no Fraser)","BC South","BC South",1957,1134900,2475602,1
-"209","Pink","BC South (no Fraser)","BC South","BC South",1958,754600,574348,1
-"209","Pink","BC South (no Fraser)","BC South","BC South",1959,966876,2911893,1
-"209","Pink","BC South (no Fraser)","BC South","BC South",1960,226950,1441336,1
-"209","Pink","BC South (no Fraser)","BC South","BC South",1961,1093450,3695214,1
-"209","Pink","BC South (no Fraser)","BC South","BC South",1962,684425,1480699,1
-"209","Pink","BC South (no Fraser)","BC South","BC South",1963,1703102,1044764,1
-"209","Pink","BC South (no Fraser)","BC South","BC South",1964,619750,4769730,1
-"209","Pink","BC South (no Fraser)","BC South","BC South",1965,618775,1092892,1
-"209","Pink","BC South (no Fraser)","BC South","BC South",1966,1322575,5194673,1
-"209","Pink","BC South (no Fraser)","BC South","BC South",1967,346110,332153,1
-"209","Pink","BC South (no Fraser)","BC South","BC South",1968,1476875,3576126,1
-"209","Pink","BC South (no Fraser)","BC South","BC South",1969,214050,1589721,1
-"209","Pink","BC South (no Fraser)","BC South","BC South",1970,1149655,1495889,1
-"209","Pink","BC South (no Fraser)","BC South","BC South",1971,925850,2187305,1
-"209","Pink","BC South (no Fraser)","BC South","BC South",1972,713150,2713162,1
-"209","Pink","BC South (no Fraser)","BC South","BC South",1973,1167313,2243271,1
-"209","Pink","BC South (no Fraser)","BC South","BC South",1974,1122400,5569229,1
-"209","Pink","BC South (no Fraser)","BC South","BC South",1975,1553480,758891,1
-"209","Pink","BC South (no Fraser)","BC South","BC South",1976,1677735,2439768,1
-"209","Pink","BC South (no Fraser)","BC South","BC South",1977,271014,709977,1
-"209","Pink","BC South (no Fraser)","BC South","BC South",1978,1089485,2607745,1
-"209","Pink","BC South (no Fraser)","BC South","BC South",1979,285677,1987123,1
-"209","Pink","BC South (no Fraser)","BC South","BC South",1980,1405716,740024,1
-"209","Pink","BC South (no Fraser)","BC South","BC South",1981,1101723,2814116,1
-"209","Pink","BC South (no Fraser)","BC South","BC South",1982,545824,598056,1
-"209","Pink","BC South (no Fraser)","BC South","BC South",1983,1578116,1968397,1
-"209","Pink","BC South (no Fraser)","BC South","BC South",1984,358582,1931171,1
-"209","Pink","BC South (no Fraser)","BC South","BC South",1985,942297,947566,1
-"209","Pink","BC South (no Fraser)","BC South","BC South",1986,1358698,2868493,1
-"209","Pink","BC South (no Fraser)","BC South","BC South",1987,470566,1626840,1
-"209","Pink","BC South (no Fraser)","BC South","BC South",1988,1874016,7518783,1
-"209","Pink","BC South (no Fraser)","BC South","BC South",1989,448840,809628,1
-"209","Pink","BC South (no Fraser)","BC South","BC South",1990,3465219,3597871,1
-"209","Pink","BC South (no Fraser)","BC South","BC South",1991,419862,1387174,1
-"209","Pink","BC South (no Fraser)","BC South","BC South",1992,2375842,1504524,1
-"209","Pink","BC South (no Fraser)","BC South","BC South",1993,668427,461637,1
-"209","Pink","BC South (no Fraser)","BC South","BC South",1994,1263668,2554228,1
-"209","Pink","BC South (no Fraser)","BC South","BC South",1995,305978,639179,1
-"209","Pink","BC South (no Fraser)","BC South","BC South",1996,2476033,2319421,1
-"209","Pink","BC South (no Fraser)","BC South","BC South",1997,436875,829321,1
-"209","Pink","BC South (no Fraser)","BC South","BC South",1998,2193380,6478855,1
-"209","Pink","BC South (no Fraser)","BC South","BC South",1999,827921,2550996,1
-"209","Pink","BC South (no Fraser)","BC South","BC South",2000,5021355,1041069,1
-"209","Pink","BC South (no Fraser)","BC South","BC South",2001,2166806,762241,1
-"209","Pink","BC South (no Fraser)","BC South","BC South",2002,891317,1579978,1
-"209","Pink","BC South (no Fraser)","BC South","BC South",2003,503333,825962,1
-"209","Pink","BC South (no Fraser)","BC South","BC South",2004,1466179,646666,1
-"209","Pink","BC South (no Fraser)","BC South","BC South",2005,747203,801891,1
-"209","Pink","BC South (no Fraser)","BC South","BC South",2006,586250,554342,1
-"209","Pink","BC South (no Fraser)","BC South","BC South",2007,784977,3106413,1
-"209","Pink","BC South (no Fraser)","BC South","BC South",2008,537051,1409385,1
-"209","Pink","BC South (no Fraser)","BC South","BC South",2009,2540321,NA,NA
-"209","Pink","BC South (no Fraser)","BC South","BC South",2010,1202335,NA,NA
+"208","Pink","Fraser","Fraser River","BC South",1961,1092561,6460055,1
+"208","Pink","Fraser","Fraser River","BC South",1963,1954038,1889246,1
+"208","Pink","Fraser","Fraser River","BC South",1965,1194099,5482350,1
+"208","Pink","Fraser","Fraser River","BC South",1967,1831219,2319887,1
+"208","Pink","Fraser","Fraser River","BC South",1969,1530913,12962791,1
+"208","Pink","Fraser","Fraser River","BC South",1971,1804952,3931461,1
+"208","Pink","Fraser","Fraser River","BC South",1973,1754261,9763328,1
+"208","Pink","Fraser","Fraser River","BC South",1975,1367089,6803984,1
+"208","Pink","Fraser","Fraser River","BC South",1977,2387811,4893955,1
+"208","Pink","Fraser","Fraser River","BC South",1979,3560654,8209485,1
+"208","Pink","Fraser","Fraser River","BC South",1981,4488336,14404120,1
+"208","Pink","Fraser","Fraser River","BC South",1983,4631721,18684689,1
+"208","Pink","Fraser","Fraser River","BC South",1985,6460950,15346097,1
+"208","Pink","Fraser","Fraser River","BC South",1987,3223521,19038024,1
+"208","Pink","Fraser","Fraser River","BC South",1989,7189201,7171773,1
+"208","Pink","Fraser","Fraser River","BC South",1991,12942835,16484275,1
+"208","Pink","Fraser","Fraser River","BC South",1993,10768335,22173639,1
+"208","Pink","Fraser","Fraser River","BC South",1995,7174584,16983498,1
+"208","Pink","Fraser","Fraser River","BC South",1997,2842108,12903708,1
+"208","Pink","Fraser","Fraser River","BC South",1999,3444982,8175964,1
+"208","Pink","Fraser","Fraser River","BC South",2001,19813620,3608265,1
+"208","Pink","Fraser","Fraser River","BC South",2003,22181030,21261774,1
+"208","Pink","Fraser","Fraser River","BC South",2005,8809624,24250000,1
+"208","Pink","Fraser","Fraser River","BC South",2007,7650052,9870000,1
+"208","Pink","Fraser","Fraser River","BC South",2009,15428836,8490000,1
+"208","Pink","Fraser","Fraser River","BC South",2011,12784508,19936153,1
+"208","Pink","Fraser","Fraser River","BC South",2013,9344490,20645120,1
+"208","Pink","Fraser","Fraser River","BC South",2015,5315845,15897819,1
+"208","Pink","Fraser","Fraser River","BC South",2017,3392159,5812085,1
+"208","Pink","Fraser","Fraser River","BC South",2019,8307419,3563091,1
+"208","Pink","Fraser","Fraser River","BC South",2021,7827445,8858203,1
 "221","Pink","S SEAK","SEAK","SEAK",1960,1645698,18018178,1
 "221","Pink","S SEAK","SEAK","SEAK",1961,3051815,11375279,1
 "221","Pink","S SEAK","SEAK","SEAK",1962,7277750,18498952,1
@@ -426,8 +358,6 @@
 "221","Pink","S SEAK","SEAK","SEAK",2006,10818898,29374172,1
 "221","Pink","S SEAK","SEAK","SEAK",2007,26478430,44429724,1
 "221","Pink","S SEAK","SEAK","SEAK",2008,15735923,28551949,1
-"221","Pink","S SEAK","SEAK","SEAK",2009,18004420,NA,NA
-"221","Pink","S SEAK","SEAK","SEAK",2010,14856928,NA,NA
 "222","Pink","N SEAK Outside","SEAK","SEAK",1960,344205,399494,1
 "222","Pink","N SEAK Outside","SEAK","SEAK",1961,875088,3349217,1
 "222","Pink","N SEAK Outside","SEAK","SEAK",1962,334630,404449,1
@@ -477,8 +407,6 @@
 "222","Pink","N SEAK Outside","SEAK","SEAK",2006,4895000,6163691,1
 "222","Pink","N SEAK Outside","SEAK","SEAK",2007,5765000,5912584,1
 "222","Pink","N SEAK Outside","SEAK","SEAK",2008,4325598,8820148,1
-"222","Pink","N SEAK Outside","SEAK","SEAK",2009,4542700,NA,NA
-"222","Pink","N SEAK Outside","SEAK","SEAK",2010,5023750,NA,NA
 "223","Pink","N SEAK Inside","SEAK","SEAK",1960,2603720,4036435,1
 "223","Pink","N SEAK Inside","SEAK","SEAK",1961,5142980,19905504,1
 "223","Pink","N SEAK Inside","SEAK","SEAK",1962,3612000,11443558,1
@@ -528,18 +456,11 @@
 "223","Pink","N SEAK Inside","SEAK","SEAK",2006,9891978,4114695,1
 "223","Pink","N SEAK Inside","SEAK","SEAK",2007,11854573,19358942,1
 "223","Pink","N SEAK Inside","SEAK","SEAK",2008,3682113,14567041,1
-"223","Pink","N SEAK Inside","SEAK","SEAK",2009,9129773,NA,NA
-"223","Pink","N SEAK Inside","SEAK","SEAK",2010,8024083,NA,NA
-"224","Pink","Situk","Yakutat","Yakutat",1961,90000,NA,NA
 "224","Pink","Situk","Yakutat","Yakutat",1962,210000,242739,1
-"224","Pink","Situk","Yakutat","Yakutat",1963,NA,NA,NA
 "224","Pink","Situk","Yakutat","Yakutat",1964,210000,16025,1
 "224","Pink","Situk","Yakutat","Yakutat",1965,90000,267536,1
-"224","Pink","Situk","Yakutat","Yakutat",1966,15000,NA,NA
 "224","Pink","Situk","Yakutat","Yakutat",1967,240000,37847,1
-"224","Pink","Situk","Yakutat","Yakutat",1968,NA,NA,NA
 "224","Pink","Situk","Yakutat","Yakutat",1969,34500,30180,1
-"224","Pink","Situk","Yakutat","Yakutat",1970,NA,31376,NA
 "224","Pink","Situk","Yakutat","Yakutat",1971,27184,254217,1
 "224","Pink","Situk","Yakutat","Yakutat",1972,30000,63679,1
 "224","Pink","Situk","Yakutat","Yakutat",1973,240000,142236,1
@@ -560,20 +481,7 @@
 "224","Pink","Situk","Yakutat","Yakutat",1988,78753,553506,1
 "224","Pink","Situk","Yakutat","Yakutat",1989,288246,195343,1
 "224","Pink","Situk","Yakutat","Yakutat",1990,525000,25647,1
-"224","Pink","Situk","Yakutat","Yakutat",1991,NA,NA,NA
-"224","Pink","Situk","Yakutat","Yakutat",1992,9000,NA,NA
-"224","Pink","Situk","Yakutat","Yakutat",1993,NA,NA,NA
-"224","Pink","Situk","Yakutat","Yakutat",1994,156735,NA,NA
 "225","Pink","Humpy","Yakutat","Yakutat",1962,69000,35852,1
-"225","Pink","Humpy","Yakutat","Yakutat",1963,NA,NA,NA
-"225","Pink","Humpy","Yakutat","Yakutat",1964,NA,NA,NA
-"225","Pink","Humpy","Yakutat","Yakutat",1965,NA,NA,NA
-"225","Pink","Humpy","Yakutat","Yakutat",1966,NA,NA,NA
-"225","Pink","Humpy","Yakutat","Yakutat",1967,NA,NA,NA
-"225","Pink","Humpy","Yakutat","Yakutat",1968,NA,NA,NA
-"225","Pink","Humpy","Yakutat","Yakutat",1969,NA,NA,NA
-"225","Pink","Humpy","Yakutat","Yakutat",1970,NA,NA,NA
-"225","Pink","Humpy","Yakutat","Yakutat",1971,NA,NA,NA
 "225","Pink","Humpy","Yakutat","Yakutat",1972,4890,6039,1
 "225","Pink","Humpy","Yakutat","Yakutat",1973,3969,109207,1
 "225","Pink","Humpy","Yakutat","Yakutat",1974,6000,33189,1
@@ -595,8 +503,6 @@
 "225","Pink","Humpy","Yakutat","Yakutat",1990,41400,15330,1
 "225","Pink","Humpy","Yakutat","Yakutat",1991,24150,39171,1
 "225","Pink","Humpy","Yakutat","Yakutat",1992,13500,33287,1
-"225","Pink","Humpy","Yakutat","Yakutat",1993,NA,NA,NA
-"225","Pink","Humpy","Yakutat","Yakutat",1994,33000,NA,NA
 "226","Pink","PWS","PWS","PWS",1960,3872483,12527895,1
 "226","Pink","PWS","PWS","PWS",1961,6304415,9182247,1
 "226","Pink","PWS","PWS","PWS",1962,5785579,9486942,1
@@ -647,8 +553,6 @@
 "226","Pink","PWS","PWS","PWS",2007,4326643,6240186,1
 "226","Pink","PWS","PWS","PWS",2008,2472530,7899360,1
 "226","Pink","PWS","PWS","PWS",2009,5245478,16975186,1
-"226","Pink","PWS","PWS","PWS",2010,5495729,NA,NA
-"226","Pink","PWS","PWS","PWS",2011,11259802,NA,NA
 "227","Pink","S CIn","Cook Inlet","Cook Inlet",1976,52800,122800,1
 "227","Pink","S CIn","Cook Inlet","Cook Inlet",1977,121700,661500,1
 "227","Pink","S CIn","Cook Inlet","Cook Inlet",1978,70700,260200,1
@@ -683,8 +587,6 @@
 "227","Pink","S CIn","Cook Inlet","Cook Inlet",2007,123394,19826,1
 "227","Pink","S CIn","Cook Inlet","Cook Inlet",2008,144354,96572,1
 "227","Pink","S CIn","Cook Inlet","Cook Inlet",2009,19826,47901,1
-"227","Pink","S CIn","Cook Inlet","Cook Inlet",2010,96572,NA,NA
-"227","Pink","S CIn","Cook Inlet","Cook Inlet",2011,47901,NA,NA
 "228","Pink","Outer CIn","Cook Inlet","Cook Inlet",1976,15800,118800,1
 "228","Pink","Outer CIn","Cook Inlet","Cook Inlet",1977,231200,2223900,1
 "228","Pink","Outer CIn","Cook Inlet","Cook Inlet",1978,55200,223400,1
@@ -719,8 +621,6 @@
 "228","Pink","Outer CIn","Cook Inlet","Cook Inlet",2007,453581,1280443,1
 "228","Pink","Outer CIn","Cook Inlet","Cook Inlet",2008,321797,476849,1
 "228","Pink","Outer CIn","Cook Inlet","Cook Inlet",2009,427406,352021,1
-"228","Pink","Outer CIn","Cook Inlet","Cook Inlet",2010,204478,NA,NA
-"228","Pink","Outer CIn","Cook Inlet","Cook Inlet",2011,73487,NA,NA
 "229","Pink","Kamishak","Cook Inlet","Cook Inlet",1976,15000,34200,1
 "229","Pink","Kamishak","Cook Inlet","Cook Inlet",1977,82000,281700,1
 "229","Pink","Kamishak","Cook Inlet","Cook Inlet",1978,34100,508100,1
@@ -755,8 +655,6 @@
 "229","Pink","Kamishak","Cook Inlet","Cook Inlet",2007,994600,1371879,1
 "229","Pink","Kamishak","Cook Inlet","Cook Inlet",2008,188551,50013,1
 "229","Pink","Kamishak","Cook Inlet","Cook Inlet",2009,1240152,9931,1
-"229","Pink","Kamishak","Cook Inlet","Cook Inlet",2010,49955,NA,NA
-"229","Pink","Kamishak","Cook Inlet","Cook Inlet",2011,9120,NA,NA
 "230","Pink","Afognak","Kodiak","Kodiak",1978,610000,2153040,1
 "230","Pink","Afognak","Kodiak","Kodiak",1979,504000,1613392,1
 "230","Pink","Afognak","Kodiak","Kodiak",1980,990000,1348000,1
@@ -789,8 +687,6 @@
 "230","Pink","Afognak","Kodiak","Kodiak",2007,229154,3610878,1
 "230","Pink","Afognak","Kodiak","Kodiak",2008,343456,2645315,1
 "230","Pink","Afognak","Kodiak","Kodiak",2009,790724,2557019,1
-"230","Pink","Afognak","Kodiak","Kodiak",2010,647344,NA,NA
-"230","Pink","Afognak","Kodiak","Kodiak",2011,255188,NA,NA
 "231","Pink","W Kod","Kodiak","Kodiak",1978,6238000,18821263,1
 "231","Pink","W Kod","Kodiak","Kodiak",1979,1624000,4240197,1
 "231","Pink","W Kod","Kodiak","Kodiak",1980,8264000,12202000,1
@@ -823,8 +719,6 @@
 "231","Pink","W Kod","Kodiak","Kodiak",2007,1739104,6835456,1
 "231","Pink","W Kod","Kodiak","Kodiak",2008,4445434,7749342,1
 "231","Pink","W Kod","Kodiak","Kodiak",2009,2472970,2096829,1
-"231","Pink","W Kod","Kodiak","Kodiak",2010,4756392,NA,NA
-"231","Pink","W Kod","Kodiak","Kodiak",2011,1177436,NA,NA
 "232","Pink","Alitak","Kodiak","Kodiak",1978,1314000,3089080,1
 "232","Pink","Alitak","Kodiak","Kodiak",1979,1138000,3323629,1
 "232","Pink","Alitak","Kodiak","Kodiak",1980,1036000,1454000,1
@@ -857,8 +751,6 @@
 "232","Pink","Alitak","Kodiak","Kodiak",2007,486610,5787870,1
 "232","Pink","Alitak","Kodiak","Kodiak",2008,352692,793121,1
 "232","Pink","Alitak","Kodiak","Kodiak",2009,1791706,5961145,1
-"232","Pink","Alitak","Kodiak","Kodiak",2010,646758,NA,NA
-"232","Pink","Alitak","Kodiak","Kodiak",2011,1064644,NA,NA
 "233","Pink","E Kod","Kodiak","Kodiak",1978,1400000,3553593,1
 "233","Pink","E Kod","Kodiak","Kodiak",1979,1760000,4461799,1
 "233","Pink","E Kod","Kodiak","Kodiak",1980,1590000,2006000,1
@@ -891,8 +783,6 @@
 "233","Pink","E Kod","Kodiak","Kodiak",2007,1962488,11259533,1
 "233","Pink","E Kod","Kodiak","Kodiak",2008,707834,1035597,1
 "233","Pink","E Kod","Kodiak","Kodiak",2009,4360388,10791580,1
-"233","Pink","E Kod","Kodiak","Kodiak",2010,699862,NA,NA
-"233","Pink","E Kod","Kodiak","Kodiak",2011,2516148,NA,NA
 "234","Pink","Mainland Kod","Kodiak","Kodiak",1978,450000,1346809,1
 "234","Pink","Mainland Kod","Kodiak","Kodiak",1979,1100000,1337758,1
 "234","Pink","Mainland Kod","Kodiak","Kodiak",1980,1060000,1630000,1
@@ -925,8 +815,6 @@
 "234","Pink","Mainland Kod","Kodiak","Kodiak",2007,630000,1492000,1
 "234","Pink","Mainland Kod","Kodiak","Kodiak",2008,473000,654608,1
 "234","Pink","Mainland Kod","Kodiak","Kodiak",2009,860200,796245,1
-"234","Pink","Mainland Kod","Kodiak","Kodiak",2010,513300,NA,NA
-"234","Pink","Mainland Kod","Kodiak","Kodiak",2011,547000,NA,NA
 "235","Pink","Chignik Bay","Chignik","Chignik",1962,30000,143600,1
 "235","Pink","Chignik Bay","Chignik","Chignik",1963,20700,42500,1
 "235","Pink","Chignik Bay","Chignik","Chignik",1964,20000,89600,1
@@ -948,11 +836,6 @@
 "235","Pink","Chignik Bay","Chignik","Chignik",1980,3000,85373,1
 "235","Pink","Chignik Bay","Chignik","Chignik",1981,1400,28284,1
 "235","Pink","Chignik Bay","Chignik","Chignik",1982,2400,288378,1
-"235","Pink","Chignik Bay","Chignik","Chignik",1983,1000,NA,NA
-"235","Pink","Chignik Bay","Chignik","Chignik",1984,123200,NA,NA
-"235","Pink","Chignik Bay","Chignik","Chignik",1985,NA,NA,NA
-"235","Pink","Chignik Bay","Chignik","Chignik",1986,NA,142194,NA
-"235","Pink","Chignik Bay","Chignik","Chignik",1987,NA,41191,NA
 "235","Pink","Chignik Bay","Chignik","Chignik",1988,22400,100528,1
 "235","Pink","Chignik Bay","Chignik","Chignik",1989,13500,88363,1
 "235","Pink","Chignik Bay","Chignik","Chignik",1990,6000,233905,1
@@ -975,10 +858,6 @@
 "235","Pink","Chignik Bay","Chignik","Chignik",2007,62464,106542,1
 "235","Pink","Chignik Bay","Chignik","Chignik",2008,69841,38703,1
 "235","Pink","Chignik Bay","Chignik","Chignik",2009,28973,63055,1
-"235","Pink","Chignik Bay","Chignik","Chignik",2010,8020,NA,NA
-"235","Pink","Chignik Bay","Chignik","Chignik",2011,32348,NA,NA
-"236","Pink","Central Chig","Chignik","Chignik",1960,28000,NA,NA
-"236","Pink","Central Chig","Chignik","Chignik",1961,4650,NA,NA
 "236","Pink","Central Chig","Chignik","Chignik",1962,83900,203000,1
 "236","Pink","Central Chig","Chignik","Chignik",1963,92600,135300,1
 "236","Pink","Central Chig","Chignik","Chignik",1964,131100,80000,1
@@ -1027,10 +906,6 @@
 "236","Pink","Central Chig","Chignik","Chignik",2007,291800,447785,1
 "236","Pink","Central Chig","Chignik","Chignik",2008,117650,235658,1
 "236","Pink","Central Chig","Chignik","Chignik",2009,130700,448807,1
-"236","Pink","Central Chig","Chignik","Chignik",2010,52650,NA,NA
-"236","Pink","Central Chig","Chignik","Chignik",2011,223500,NA,NA
-"237","Pink","E Chig","Chignik","Chignik",1960,130000,NA,NA
-"237","Pink","E Chig","Chignik","Chignik",1961,9500,NA,NA
 "237","Pink","E Chig","Chignik","Chignik",1962,401700,1857200,1
 "237","Pink","E Chig","Chignik","Chignik",1963,126200,90500,1
 "237","Pink","E Chig","Chignik","Chignik",1964,605700,688400,1
@@ -1079,10 +954,6 @@
 "237","Pink","E Chig","Chignik","Chignik",2007,565800,738631,1
 "237","Pink","E Chig","Chignik","Chignik",2008,402880,271764,1
 "237","Pink","E Chig","Chignik","Chignik",2009,462840,558288,1
-"237","Pink","E Chig","Chignik","Chignik",2010,228500,NA,NA
-"237","Pink","E Chig","Chignik","Chignik",2011,504000,NA,NA
-"238","Pink","W Chig","Chignik","Chignik",1960,48600,NA,NA
-"238","Pink","W Chig","Chignik","Chignik",1961,60100,NA,NA
 "238","Pink","W Chig","Chignik","Chignik",1962,242000,277900,1
 "238","Pink","W Chig","Chignik","Chignik",1963,305000,497600,1
 "238","Pink","W Chig","Chignik","Chignik",1964,165000,352500,1
@@ -1131,10 +1002,6 @@
 "238","Pink","W Chig","Chignik","Chignik",2007,113000,841990,1
 "238","Pink","W Chig","Chignik","Chignik",2008,99460,247716,1
 "238","Pink","W Chig","Chignik","Chignik",2009,130100,455001,1
-"238","Pink","W Chig","Chignik","Chignik",2010,22000,NA,NA
-"238","Pink","W Chig","Chignik","Chignik",2011,86650,NA,NA
-"239","Pink","Perryville","Chignik","Chignik",1960,123800,NA,NA
-"239","Pink","Perryville","Chignik","Chignik",1961,34750,NA,NA
 "239","Pink","Perryville","Chignik","Chignik",1962,155500,194600,1
 "239","Pink","Perryville","Chignik","Chignik",1963,162000,726800,1
 "239","Pink","Perryville","Chignik","Chignik",1964,72000,178200,1
@@ -1183,8 +1050,6 @@
 "239","Pink","Perryville","Chignik","Chignik",2007,184000,142454,1
 "239","Pink","Perryville","Chignik","Chignik",2008,173200,26510,1
 "239","Pink","Perryville","Chignik","Chignik",2009,116450,366263,1
-"239","Pink","Perryville","Chignik","Chignik",2010,19400,NA,NA
-"239","Pink","Perryville","Chignik","Chignik",2011,139750,NA,NA
 "240","Pink","SE-SC AKPen","AK Peninsula","AK Peninsula",1962,826100,2417000,1
 "240","Pink","SE-SC AKPen","AK Peninsula","AK Peninsula",1963,886500,3121300,1
 "240","Pink","SE-SC AKPen","AK Peninsula","AK Peninsula",1964,902400,847700,1
@@ -1233,8 +1098,6 @@
 "240","Pink","SE-SC AKPen","AK Peninsula","AK Peninsula",2007,1805873,5403117,1
 "240","Pink","SE-SC AKPen","AK Peninsula","AK Peninsula",2008,2332920,857212,1
 "240","Pink","SE-SC AKPen","AK Peninsula","AK Peninsula",2009,1669900,5757375,1
-"240","Pink","SE-SC AKPen","AK Peninsula","AK Peninsula",2010,396962,NA,NA
-"240","Pink","SE-SC AKPen","AK Peninsula","AK Peninsula",2011,1709900,NA,NA
 "241","Pink","SW-Unimak","AK Peninsula","AK Peninsula",1962,772700,1724700,1
 "241","Pink","SW-Unimak","AK Peninsula","AK Peninsula",1963,431400,720200,1
 "241","Pink","SW-Unimak","AK Peninsula","AK Peninsula",1964,534000,160500,1
@@ -1283,8 +1146,6 @@
 "241","Pink","SW-Unimak","AK Peninsula","AK Peninsula",2007,874340,3336417,1
 "241","Pink","SW-Unimak","AK Peninsula","AK Peninsula",2008,1005450,391239,1
 "241","Pink","SW-Unimak","AK Peninsula","AK Peninsula",2009,1397100,1018590,1
-"241","Pink","SW-Unimak","AK Peninsula","AK Peninsula",2010,345950,NA,NA
-"241","Pink","SW-Unimak","AK Peninsula","AK Peninsula",2011,785050,NA,NA
 "242","Pink","NW AKPen","AK Peninsula","AK Peninsula",1962,4000,21800,1
 "242","Pink","NW AKPen","AK Peninsula","AK Peninsula",1963,4400,2900,1
 "242","Pink","NW AKPen","AK Peninsula","AK Peninsula",1964,15000,17700,1
@@ -1315,7 +1176,6 @@
 "242","Pink","NW AKPen","AK Peninsula","AK Peninsula",1989,1900,4609,1
 "242","Pink","NW AKPen","AK Peninsula","AK Peninsula",1990,22200,8919,1
 "242","Pink","NW AKPen","AK Peninsula","AK Peninsula",1991,1200,756,1
-"242","Pink","NW AKPen","AK Peninsula","AK Peninsula",1992,603,282836,NA
 "242","Pink","NW AKPen","AK Peninsula","AK Peninsula",1993,700,6584,1
 "242","Pink","NW AKPen","AK Peninsula","AK Peninsula",1994,94700,219767,1
 "242","Pink","NW AKPen","AK Peninsula","AK Peninsula",1995,5200,9936,1
@@ -1333,57 +1193,30 @@
 "242","Pink","NW AKPen","AK Peninsula","AK Peninsula",2007,15750,349253,1
 "242","Pink","NW AKPen","AK Peninsula","AK Peninsula",2008,11900,21750,1
 "242","Pink","NW AKPen","AK Peninsula","AK Peninsula",2009,74400,110895,1
-"242","Pink","NW AKPen","AK Peninsula","AK Peninsula",2010,15300,NA,NA
-"242","Pink","NW AKPen","AK Peninsula","AK Peninsula",2011,2400,NA,NA
 "243","Pink","Nushagak","Bristol Bay","Bristol Bay",1958,4e+06,4e+05,1
-"243","Pink","Nushagak","Bristol Bay","Bristol Bay",1959,NA,NA,NA
 "243","Pink","Nushagak","Bristol Bay","Bristol Bay",1960,1e+05,1380438,1
-"243","Pink","Nushagak","Bristol Bay","Bristol Bay",1961,NA,NA,NA
 "243","Pink","Nushagak","Bristol Bay","Bristol Bay",1962,500014,2406317,1
-"243","Pink","Nushagak","Bristol Bay","Bristol Bay",1963,NA,NA,NA
 "243","Pink","Nushagak","Bristol Bay","Bristol Bay",1964,908500,3779490,1
-"243","Pink","Nushagak","Bristol Bay","Bristol Bay",1965,NA,NA,NA
 "243","Pink","Nushagak","Bristol Bay","Bristol Bay",1966,1442424,3866266,1
-"243","Pink","Nushagak","Bristol Bay","Bristol Bay",1967,NA,NA,NA
 "243","Pink","Nushagak","Bristol Bay","Bristol Bay",1968,2161116,570414,1
-"243","Pink","Nushagak","Bristol Bay","Bristol Bay",1969,NA,NA,NA
 "243","Pink","Nushagak","Bristol Bay","Bristol Bay",1970,152580,126489,1
-"243","Pink","Nushagak","Bristol Bay","Bristol Bay",1971,NA,NA,NA
 "243","Pink","Nushagak","Bristol Bay","Bristol Bay",1972,58536,945929,1
-"243","Pink","Nushagak","Bristol Bay","Bristol Bay",1973,NA,NA,NA
 "243","Pink","Nushagak","Bristol Bay","Bristol Bay",1974,532316,1575868,1
-"243","Pink","Nushagak","Bristol Bay","Bristol Bay",1975,NA,NA,NA
 "243","Pink","Nushagak","Bristol Bay","Bristol Bay",1976,836278,13510120,1
-"243","Pink","Nushagak","Bristol Bay","Bristol Bay",1977,NA,NA,NA
 "243","Pink","Nushagak","Bristol Bay","Bristol Bay",1978,9161784,4952291,1
-"243","Pink","Nushagak","Bristol Bay","Bristol Bay",1979,NA,NA,NA
 "243","Pink","Nushagak","Bristol Bay","Bristol Bay",1980,2749746,2950498,1
-"243","Pink","Nushagak","Bristol Bay","Bristol Bay",1981,NA,NA,NA
 "243","Pink","Nushagak","Bristol Bay","Bristol Bay",1982,1611226,5960515,1
-"243","Pink","Nushagak","Bristol Bay","Bristol Bay",1983,NA,NA,NA
 "243","Pink","Nushagak","Bristol Bay","Bristol Bay",1984,2833362,339306,1
-"243","Pink","Nushagak","Bristol Bay","Bristol Bay",1985,NA,NA,NA
 "243","Pink","Nushagak","Bristol Bay","Bristol Bay",1986,72189,738500,1
-"243","Pink","Nushagak","Bristol Bay","Bristol Bay",1987,NA,NA,NA
 "243","Pink","Nushagak","Bristol Bay","Bristol Bay",1988,494610,855557,1
-"243","Pink","Nushagak","Bristol Bay","Bristol Bay",1989,NA,NA,NA
 "243","Pink","Nushagak","Bristol Bay","Bristol Bay",1990,801430,378777,1
-"243","Pink","Nushagak","Bristol Bay","Bristol Bay",1991,NA,NA,NA
 "243","Pink","Nushagak","Bristol Bay","Bristol Bay",1992,188675,199109,1
-"243","Pink","Nushagak","Bristol Bay","Bristol Bay",1993,NA,NA,NA
 "243","Pink","Nushagak","Bristol Bay","Bristol Bay",1994,191772,823993,1
-"243","Pink","Nushagak","Bristol Bay","Bristol Bay",1995,NA,NA,NA
 "243","Pink","Nushagak","Bristol Bay","Bristol Bay",1996,821312,139210,1
-"243","Pink","Nushagak","Bristol Bay","Bristol Bay",1997,NA,NA,NA
 "243","Pink","Nushagak","Bristol Bay","Bristol Bay",1998,132402,173594,1
-"243","Pink","Nushagak","Bristol Bay","Bristol Bay",1999,NA,NA,NA
 "243","Pink","Nushagak","Bristol Bay","Bristol Bay",2000,135285,317895,1
-"243","Pink","Nushagak","Bristol Bay","Bristol Bay",2001,NA,NA,NA
 "243","Pink","Nushagak","Bristol Bay","Bristol Bay",2002,317661,582216,1
-"243","Pink","Nushagak","Bristol Bay","Bristol Bay",2003,NA,NA,NA
-"243","Pink","Nushagak","Bristol Bay","Bristol Bay",2004,556066,NA,NA
 "244","Pink","Unalakleet","AYK","AYK",1970,1240,86297,1
-"244","Pink","Unalakleet","AYK","AYK",1971,NA,NA,NA
 "244","Pink","Unalakleet","AYK","AYK",1972,54934,244462,1
 "244","Pink","Unalakleet","AYK","AYK",1973,26542,34780,1
 "244","Pink","Unalakleet","AYK","AYK",1974,143789,52125,1
@@ -1399,31 +1232,18 @@
 "244","Pink","Unalakleet","AYK","AYK",1984,458387,236487,1
 "244","Pink","Unalakleet","AYK","AYK",1985,4360,97,1
 "244","Pink","Unalakleet","AYK","AYK",1986,236487,136500,1
-"244","Pink","Unalakleet","AYK","AYK",1987,0,NA,NA
 "244","Pink","Unalakleet","AYK","AYK",1988,112770,25685,1
-"244","Pink","Unalakleet","AYK","AYK",1989,NA,NA,NA
 "244","Pink","Unalakleet","AYK","AYK",1990,25685,637424,1
 "244","Pink","Unalakleet","AYK","AYK",1991,119140,55631,1
-"244","Pink","Unalakleet","AYK","AYK",1992,631140,NA,NA
 "244","Pink","Unalakleet","AYK","AYK",1993,13570,71934,1
-"244","Pink","Unalakleet","AYK","AYK",1994,NA,NA,NA
 "244","Pink","Unalakleet","AYK","AYK",1995,18300,28470,1
 "244","Pink","Unalakleet","AYK","AYK",1996,125500,266216,1
 "244","Pink","Unalakleet","AYK","AYK",1997,17870,13850,1
-"244","Pink","Unalakleet","AYK","AYK",1998,153150,NA,NA
-"244","Pink","Unalakleet","AYK","AYK",1999,3790,NA,NA
-"244","Pink","Unalakleet","AYK","AYK",2000,NA,NA,NA
-"244","Pink","Unalakleet","AYK","AYK",2001,NA,NA,NA
 "244","Pink","Unalakleet","AYK","AYK",2002,4590,286755,1
 "244","Pink","Unalakleet","AYK","AYK",2003,11010,406597,1
-"244","Pink","Unalakleet","AYK","AYK",2004,264000,NA,NA
 "244","Pink","Unalakleet","AYK","AYK",2005,381150,63895,1
-"244","Pink","Unalakleet","AYK","AYK",2006,NA,NA,NA
 "244","Pink","Unalakleet","AYK","AYK",2007,50100,213271,1
-"244","Pink","Unalakleet","AYK","AYK",2008,NA,NA,NA
 "244","Pink","Unalakleet","AYK","AYK",2009,189939,32820,1
-"244","Pink","Unalakleet","AYK","AYK",2010,227,NA,NA
-"244","Pink","Unalakleet","AYK","AYK",2011,20920,NA,NA
 "245","Pink","Nome","AYK","AYK",1971,7765,20369,1
 "245","Pink","Nome","AYK","AYK",1972,15251,71033,1
 "245","Pink","Nome","AYK","AYK",1973,14940,42226,1
@@ -1463,8 +1283,6 @@
 "245","Pink","Nome","AYK","AYK",2007,448678,537025,1
 "245","Pink","Nome","AYK","AYK",2008,1605578,282321,1
 "245","Pink","Nome","AYK","AYK",2009,536538,122284,1
-"245","Pink","Nome","AYK","AYK",2010,276040,NA,NA
-"245","Pink","Nome","AYK","AYK",2011,120895,NA,NA
 "246","Pink","Moses-Norton","AYK","AYK",1963,8134,10245,1
 "246","Pink","Moses-Norton","AYK","AYK",1964,10043,42814,1
 "246","Pink","Moses-Norton","AYK","AYK",1965,8668,6006,1
@@ -1512,6 +1330,140 @@
 "246","Pink","Moses-Norton","AYK","AYK",2007,136575,250217,1
 "246","Pink","Moses-Norton","AYK","AYK",2008,144224,59312,1
 "246","Pink","Moses-Norton","AYK","AYK",2009,245594,28123,1
+"208","Pink","Fraser","Fraser River","BC South",1962,NA,NA,NA
+"208","Pink","Fraser","Fraser River","BC South",1964,NA,NA,NA
+"208","Pink","Fraser","Fraser River","BC South",1966,NA,NA,NA
+"208","Pink","Fraser","Fraser River","BC South",1968,NA,NA,NA
+"208","Pink","Fraser","Fraser River","BC South",1970,NA,NA,NA
+"208","Pink","Fraser","Fraser River","BC South",1972,NA,NA,NA
+"208","Pink","Fraser","Fraser River","BC South",1974,NA,NA,NA
+"208","Pink","Fraser","Fraser River","BC South",1976,NA,NA,NA
+"208","Pink","Fraser","Fraser River","BC South",1978,NA,NA,NA
+"208","Pink","Fraser","Fraser River","BC South",1980,NA,NA,NA
+"208","Pink","Fraser","Fraser River","BC South",1982,NA,NA,NA
+"208","Pink","Fraser","Fraser River","BC South",1984,NA,NA,NA
+"208","Pink","Fraser","Fraser River","BC South",1986,NA,NA,NA
+"208","Pink","Fraser","Fraser River","BC South",1988,NA,NA,NA
+"208","Pink","Fraser","Fraser River","BC South",1990,NA,NA,NA
+"208","Pink","Fraser","Fraser River","BC South",1992,NA,NA,NA
+"208","Pink","Fraser","Fraser River","BC South",1994,NA,NA,NA
+"208","Pink","Fraser","Fraser River","BC South",1996,NA,NA,NA
+"208","Pink","Fraser","Fraser River","BC South",1998,NA,NA,NA
+"208","Pink","Fraser","Fraser River","BC South",2000,NA,NA,NA
+"221","Pink","S SEAK","SEAK","SEAK",2009,18004420,NA,NA
+"221","Pink","S SEAK","SEAK","SEAK",2010,14856928,NA,NA
+"222","Pink","N SEAK Outside","SEAK","SEAK",2009,4542700,NA,NA
+"222","Pink","N SEAK Outside","SEAK","SEAK",2010,5023750,NA,NA
+"223","Pink","N SEAK Inside","SEAK","SEAK",2009,9129773,NA,NA
+"223","Pink","N SEAK Inside","SEAK","SEAK",2010,8024083,NA,NA
+"224","Pink","Situk","Yakutat","Yakutat",1961,90000,NA,NA
+"224","Pink","Situk","Yakutat","Yakutat",1963,NA,NA,NA
+"224","Pink","Situk","Yakutat","Yakutat",1966,15000,NA,NA
+"224","Pink","Situk","Yakutat","Yakutat",1968,NA,NA,NA
+"224","Pink","Situk","Yakutat","Yakutat",1970,NA,31376,NA
+"224","Pink","Situk","Yakutat","Yakutat",1991,NA,NA,NA
+"224","Pink","Situk","Yakutat","Yakutat",1992,9000,NA,NA
+"224","Pink","Situk","Yakutat","Yakutat",1993,NA,NA,NA
+"224","Pink","Situk","Yakutat","Yakutat",1994,156735,NA,NA
+"225","Pink","Humpy","Yakutat","Yakutat",1963,NA,NA,NA
+"225","Pink","Humpy","Yakutat","Yakutat",1964,NA,NA,NA
+"225","Pink","Humpy","Yakutat","Yakutat",1965,NA,NA,NA
+"225","Pink","Humpy","Yakutat","Yakutat",1966,NA,NA,NA
+"225","Pink","Humpy","Yakutat","Yakutat",1967,NA,NA,NA
+"225","Pink","Humpy","Yakutat","Yakutat",1968,NA,NA,NA
+"225","Pink","Humpy","Yakutat","Yakutat",1969,NA,NA,NA
+"225","Pink","Humpy","Yakutat","Yakutat",1970,NA,NA,NA
+"225","Pink","Humpy","Yakutat","Yakutat",1971,NA,NA,NA
+"225","Pink","Humpy","Yakutat","Yakutat",1993,NA,NA,NA
+"225","Pink","Humpy","Yakutat","Yakutat",1994,33000,NA,NA
+"226","Pink","PWS","PWS","PWS",2010,5495729,NA,NA
+"226","Pink","PWS","PWS","PWS",2011,11259802,NA,NA
+"227","Pink","S CIn","Cook Inlet","Cook Inlet",2010,96572,NA,NA
+"227","Pink","S CIn","Cook Inlet","Cook Inlet",2011,47901,NA,NA
+"228","Pink","Outer CIn","Cook Inlet","Cook Inlet",2010,204478,NA,NA
+"228","Pink","Outer CIn","Cook Inlet","Cook Inlet",2011,73487,NA,NA
+"229","Pink","Kamishak","Cook Inlet","Cook Inlet",2010,49955,NA,NA
+"229","Pink","Kamishak","Cook Inlet","Cook Inlet",2011,9120,NA,NA
+"230","Pink","Afognak","Kodiak","Kodiak",2010,647344,NA,NA
+"230","Pink","Afognak","Kodiak","Kodiak",2011,255188,NA,NA
+"231","Pink","W Kod","Kodiak","Kodiak",2010,4756392,NA,NA
+"231","Pink","W Kod","Kodiak","Kodiak",2011,1177436,NA,NA
+"232","Pink","Alitak","Kodiak","Kodiak",2010,646758,NA,NA
+"232","Pink","Alitak","Kodiak","Kodiak",2011,1064644,NA,NA
+"233","Pink","E Kod","Kodiak","Kodiak",2010,699862,NA,NA
+"233","Pink","E Kod","Kodiak","Kodiak",2011,2516148,NA,NA
+"234","Pink","Mainland Kod","Kodiak","Kodiak",2010,513300,NA,NA
+"234","Pink","Mainland Kod","Kodiak","Kodiak",2011,547000,NA,NA
+"235","Pink","Chignik Bay","Chignik","Chignik",1983,1000,NA,NA
+"235","Pink","Chignik Bay","Chignik","Chignik",1984,123200,NA,NA
+"235","Pink","Chignik Bay","Chignik","Chignik",1985,NA,NA,NA
+"235","Pink","Chignik Bay","Chignik","Chignik",1986,NA,142194,NA
+"235","Pink","Chignik Bay","Chignik","Chignik",1987,NA,41191,NA
+"235","Pink","Chignik Bay","Chignik","Chignik",2010,8020,NA,NA
+"235","Pink","Chignik Bay","Chignik","Chignik",2011,32348,NA,NA
+"236","Pink","Central Chig","Chignik","Chignik",1960,28000,NA,NA
+"236","Pink","Central Chig","Chignik","Chignik",1961,4650,NA,NA
+"236","Pink","Central Chig","Chignik","Chignik",2010,52650,NA,NA
+"236","Pink","Central Chig","Chignik","Chignik",2011,223500,NA,NA
+"237","Pink","E Chig","Chignik","Chignik",1960,130000,NA,NA
+"237","Pink","E Chig","Chignik","Chignik",1961,9500,NA,NA
+"237","Pink","E Chig","Chignik","Chignik",2010,228500,NA,NA
+"237","Pink","E Chig","Chignik","Chignik",2011,504000,NA,NA
+"238","Pink","W Chig","Chignik","Chignik",1960,48600,NA,NA
+"238","Pink","W Chig","Chignik","Chignik",1961,60100,NA,NA
+"238","Pink","W Chig","Chignik","Chignik",2010,22000,NA,NA
+"238","Pink","W Chig","Chignik","Chignik",2011,86650,NA,NA
+"239","Pink","Perryville","Chignik","Chignik",1960,123800,NA,NA
+"239","Pink","Perryville","Chignik","Chignik",1961,34750,NA,NA
+"239","Pink","Perryville","Chignik","Chignik",2010,19400,NA,NA
+"239","Pink","Perryville","Chignik","Chignik",2011,139750,NA,NA
+"240","Pink","SE-SC AKPen","AK Peninsula","AK Peninsula",2010,396962,NA,NA
+"240","Pink","SE-SC AKPen","AK Peninsula","AK Peninsula",2011,1709900,NA,NA
+"241","Pink","SW-Unimak","AK Peninsula","AK Peninsula",2010,345950,NA,NA
+"241","Pink","SW-Unimak","AK Peninsula","AK Peninsula",2011,785050,NA,NA
+"242","Pink","NW AKPen","AK Peninsula","AK Peninsula",1992,603,282836,NA
+"242","Pink","NW AKPen","AK Peninsula","AK Peninsula",2010,15300,NA,NA
+"242","Pink","NW AKPen","AK Peninsula","AK Peninsula",2011,2400,NA,NA
+"243","Pink","Nushagak","Bristol Bay","Bristol Bay",1959,NA,NA,NA
+"243","Pink","Nushagak","Bristol Bay","Bristol Bay",1961,NA,NA,NA
+"243","Pink","Nushagak","Bristol Bay","Bristol Bay",1963,NA,NA,NA
+"243","Pink","Nushagak","Bristol Bay","Bristol Bay",1965,NA,NA,NA
+"243","Pink","Nushagak","Bristol Bay","Bristol Bay",1967,NA,NA,NA
+"243","Pink","Nushagak","Bristol Bay","Bristol Bay",1969,NA,NA,NA
+"243","Pink","Nushagak","Bristol Bay","Bristol Bay",1971,NA,NA,NA
+"243","Pink","Nushagak","Bristol Bay","Bristol Bay",1973,NA,NA,NA
+"243","Pink","Nushagak","Bristol Bay","Bristol Bay",1975,NA,NA,NA
+"243","Pink","Nushagak","Bristol Bay","Bristol Bay",1977,NA,NA,NA
+"243","Pink","Nushagak","Bristol Bay","Bristol Bay",1979,NA,NA,NA
+"243","Pink","Nushagak","Bristol Bay","Bristol Bay",1981,NA,NA,NA
+"243","Pink","Nushagak","Bristol Bay","Bristol Bay",1983,NA,NA,NA
+"243","Pink","Nushagak","Bristol Bay","Bristol Bay",1985,NA,NA,NA
+"243","Pink","Nushagak","Bristol Bay","Bristol Bay",1987,NA,NA,NA
+"243","Pink","Nushagak","Bristol Bay","Bristol Bay",1989,NA,NA,NA
+"243","Pink","Nushagak","Bristol Bay","Bristol Bay",1991,NA,NA,NA
+"243","Pink","Nushagak","Bristol Bay","Bristol Bay",1993,NA,NA,NA
+"243","Pink","Nushagak","Bristol Bay","Bristol Bay",1995,NA,NA,NA
+"243","Pink","Nushagak","Bristol Bay","Bristol Bay",1997,NA,NA,NA
+"243","Pink","Nushagak","Bristol Bay","Bristol Bay",1999,NA,NA,NA
+"243","Pink","Nushagak","Bristol Bay","Bristol Bay",2001,NA,NA,NA
+"243","Pink","Nushagak","Bristol Bay","Bristol Bay",2003,NA,NA,NA
+"243","Pink","Nushagak","Bristol Bay","Bristol Bay",2004,556066,NA,NA
+"244","Pink","Unalakleet","AYK","AYK",1971,NA,NA,NA
+"244","Pink","Unalakleet","AYK","AYK",1987,0,NA,NA
+"244","Pink","Unalakleet","AYK","AYK",1989,NA,NA,NA
+"244","Pink","Unalakleet","AYK","AYK",1992,631140,NA,NA
+"244","Pink","Unalakleet","AYK","AYK",1994,NA,NA,NA
+"244","Pink","Unalakleet","AYK","AYK",1998,153150,NA,NA
+"244","Pink","Unalakleet","AYK","AYK",1999,3790,NA,NA
+"244","Pink","Unalakleet","AYK","AYK",2000,NA,NA,NA
+"244","Pink","Unalakleet","AYK","AYK",2001,NA,NA,NA
+"244","Pink","Unalakleet","AYK","AYK",2004,264000,NA,NA
+"244","Pink","Unalakleet","AYK","AYK",2006,NA,NA,NA
+"244","Pink","Unalakleet","AYK","AYK",2008,NA,NA,NA
+"244","Pink","Unalakleet","AYK","AYK",2010,227,NA,NA
+"244","Pink","Unalakleet","AYK","AYK",2011,20920,NA,NA
+"245","Pink","Nome","AYK","AYK",2010,276040,NA,NA
+"245","Pink","Nome","AYK","AYK",2011,120895,NA,NA
 "246","Pink","Moses-Norton","AYK","AYK",2010,34112,NA,NA
 "246","Pink","Moses-Norton","AYK","AYK",2011,25470,NA,NA
 "253","Pink","Hecate Strait-Fjords (even)","WC","BC Central",1954,719646.5623,3825449.781,1
@@ -1712,3 +1664,94 @@
 "260","Pink","Middle-Upper Skeena (odd)","WC","BC North",2015,475335.6959,0,1
 "260","Pink","Middle-Upper Skeena (odd)","WC","BC North",2017,895036.2079,0,1
 "260","Pink","Middle-Upper Skeena (odd)","WC","BC North",2019,263126.2802,0,1
+"267","Pink","Georgia Strait (even)","WC","BC South",1954,535824,423234,1
+"267","Pink","Georgia Strait (even)","WC","BC South",1956,165736,651463,1
+"267","Pink","Georgia Strait (even)","WC","BC South",1958,211510,56270,1
+"267","Pink","Georgia Strait (even)","WC","BC South",1960,20125,58849,1
+"267","Pink","Georgia Strait (even)","WC","BC South",1962,26558,78202,1
+"267","Pink","Georgia Strait (even)","WC","BC South",1964,29425,127831,1
+"267","Pink","Georgia Strait (even)","WC","BC South",1966,31704,128853,1
+"267","Pink","Georgia Strait (even)","WC","BC South",1968,32773,81650,1
+"267","Pink","Georgia Strait (even)","WC","BC South",1970,22935,61269,1
+"267","Pink","Georgia Strait (even)","WC","BC South",1972,25426,78962,1
+"267","Pink","Georgia Strait (even)","WC","BC South",1974,27788,185533,1
+"267","Pink","Georgia Strait (even)","WC","BC South",1976,54144,57075,1
+"267","Pink","Georgia Strait (even)","WC","BC South",1978,23413,83642,1
+"267","Pink","Georgia Strait (even)","WC","BC South",1980,42742,9159,1
+"267","Pink","Georgia Strait (even)","WC","BC South",1982,5589,13475,1
+"267","Pink","Georgia Strait (even)","WC","BC South",1984,5122,459634,1
+"267","Pink","Georgia Strait (even)","WC","BC South",1986,314428,356105,1
+"267","Pink","Georgia Strait (even)","WC","BC South",1988,245203,941388,1
+"267","Pink","Georgia Strait (even)","WC","BC South",1990,718802,562370,1
+"267","Pink","Georgia Strait (even)","WC","BC South",1992,352877,160138,1
+"267","Pink","Georgia Strait (even)","WC","BC South",1994,126450,296799,1
+"267","Pink","Georgia Strait (even)","WC","BC South",1996,279054,114150,1
+"267","Pink","Georgia Strait (even)","WC","BC South",1998,104355,265064,1
+"267","Pink","Georgia Strait (even)","WC","BC South",2000,208094,249343,1
+"267","Pink","Georgia Strait (even)","WC","BC South",2002,204935,64373,1
+"267","Pink","Georgia Strait (even)","WC","BC South",2004,57802,58781,1
+"267","Pink","Georgia Strait (even)","WC","BC South",2006,51286,144105,1
+"267","Pink","Georgia Strait (even)","WC","BC South",2008,139224,762411,1
+"267","Pink","Georgia Strait (even)","WC","BC South",2010,659305,558434,1
+"267","Pink","Georgia Strait (even)","WC","BC South",2012,551467,2330604,1
+"267","Pink","Georgia Strait (even)","WC","BC South",2014,2089904,100054,1
+"270","Pink","Southern Fjords (even)","WC","BC South",1954,389830,1203707,1
+"270","Pink","Southern Fjords (even)","WC","BC South",1956,541159,1505384,1
+"270","Pink","Southern Fjords (even)","WC","BC South",1958,574196,529807,1
+"270","Pink","Southern Fjords (even)","WC","BC South",1960,218554,1421689,1
+"270","Pink","Southern Fjords (even)","WC","BC South",1962,697069,1435127,1
+"270","Pink","Southern Fjords (even)","WC","BC South",1964,622955,4682506,1
+"270","Pink","Southern Fjords (even)","WC","BC South",1966,1331478,5111165,1
+"270","Pink","Southern Fjords (even)","WC","BC South",1968,1489447,3529217,1
+"270","Pink","Southern Fjords (even)","WC","BC South",1970,1161461,1458530,1
+"270","Pink","Southern Fjords (even)","WC","BC South",1972,711634,2679026,1
+"270","Pink","Southern Fjords (even)","WC","BC South",1974,1139438,5460095,1
+"270","Pink","Southern Fjords (even)","WC","BC South",1976,1699990,2447073,1
+"270","Pink","Southern Fjords (even)","WC","BC South",1978,1130452,2606555,1
+"270","Pink","Southern Fjords (even)","WC","BC South",1980,1445426,770502,1
+"270","Pink","Southern Fjords (even)","WC","BC South",1982,579890,609908,1
+"270","Pink","Southern Fjords (even)","WC","BC South",1984,378787,1624020,1
+"270","Pink","Southern Fjords (even)","WC","BC South",1986,1196814,2361240,1
+"270","Pink","Southern Fjords (even)","WC","BC South",1988,1749737,3439260,1
+"270","Pink","Southern Fjords (even)","WC","BC South",1990,3059604,3046013,1
+"270","Pink","Southern Fjords (even)","WC","BC South",1992,2209392,1522311,1
+"270","Pink","Southern Fjords (even)","WC","BC South",1994,1315430,2384426,1
+"270","Pink","Southern Fjords (even)","WC","BC South",1996,2324225,2298946,1
+"270","Pink","Southern Fjords (even)","WC","BC South",1998,2189060,5905014,1
+"270","Pink","Southern Fjords (even)","WC","BC South",2000,5365526,884689,1
+"270","Pink","Southern Fjords (even)","WC","BC South",2002,779346,1654072,1
+"270","Pink","Southern Fjords (even)","WC","BC South",2004,1546844,649242,1
+"270","Pink","Southern Fjords (even)","WC","BC South",2006,596321,492649,1
+"270","Pink","Southern Fjords (even)","WC","BC South",2008,480239,907790,1
+"270","Pink","Southern Fjords (even)","WC","BC South",2010,803846,2426437,1
+"270","Pink","Southern Fjords (even)","WC","BC South",2012,2409508,3920552,1
+"270","Pink","Southern Fjords (even)","WC","BC South",2014,3579638,708194,1
+"268","Pink","Georgia Strait (odd)","WC","BC South",1957,475544,1014724,1
+"268","Pink","Georgia Strait (odd)","WC","BC South",1959,424900,992476,1
+"268","Pink","Georgia Strait (odd)","WC","BC South",1961,399719,935059,1
+"268","Pink","Georgia Strait (odd)","WC","BC South",1963,460765,207893,1
+"268","Pink","Georgia Strait (odd)","WC","BC South",1965,128525,261593,1
+"268","Pink","Georgia Strait (odd)","WC","BC South",1967,88746,103921,1
+"268","Pink","Georgia Strait (odd)","WC","BC South",1969,69694,208524,1
+"268","Pink","Georgia Strait (odd)","WC","BC South",1971,126999,262556,1
+"268","Pink","Georgia Strait (odd)","WC","BC South",1973,145133,216037,1
+"268","Pink","Georgia Strait (odd)","WC","BC South",1975,152036,215908,1
+"268","Pink","Georgia Strait (odd)","WC","BC South",1977,89302,153615,1
+"268","Pink","Georgia Strait (odd)","WC","BC South",1979,66509,201811,1
+"268","Pink","Georgia Strait (odd)","WC","BC South",1981,116987,83946,1
+"268","Pink","Georgia Strait (odd)","WC","BC South",1983,47984,133820,1
+"268","Pink","Georgia Strait (odd)","WC","BC South",1985,66643,539613,1
+"268","Pink","Georgia Strait (odd)","WC","BC South",1987,302288,574705,1
+"268","Pink","Georgia Strait (odd)","WC","BC South",1989,110912,904804,1
+"268","Pink","Georgia Strait (odd)","WC","BC South",1991,338459,337679,1
+"268","Pink","Georgia Strait (odd)","WC","BC South",1993,149934,247099,1
+"268","Pink","Georgia Strait (odd)","WC","BC South",1995,87748,334831,1
+"268","Pink","Georgia Strait (odd)","WC","BC South",1997,148496,636161,1
+"268","Pink","Georgia Strait (odd)","WC","BC South",1999,619443,934557,1
+"268","Pink","Georgia Strait (odd)","WC","BC South",2001,800121,738560,1
+"268","Pink","Georgia Strait (odd)","WC","BC South",2003,552573,640023,1
+"268","Pink","Georgia Strait (odd)","WC","BC South",2005,587403,485691,1
+"268","Pink","Georgia Strait (odd)","WC","BC South",2007,439262,2471891,1
+"268","Pink","Georgia Strait (odd)","WC","BC South",2009,2044859,1398991,1
+"268","Pink","Georgia Strait (odd)","WC","BC South",2011,732743,4429012,1
+"268","Pink","Georgia Strait (odd)","WC","BC South",2013,3485946,3500319,1

@@ -14,12 +14,13 @@ bb_sockeye<- read.csv(here('data','raw data','sockeye','Bristol Bay Spawner-Recr
 #These datasets don't end up getting used, as data is either replicated in other compilations or do not pass the data quality criterion:
 #ogden_comp<-  read.csv(here('data','raw data','multispecies','Salmon_RS_Database.csv')); ogden_info<-read.csv(here('data','raw data','multispecies','Salmon_RS_Time_Series_Summary.csv'))
 #pse_comp<- read.csv(here('data','raw data','multispecies','PSE_RS.csv'));pse_dq=read.csv(here('data','raw data','multispecies','PSE_data_quality.csv'))
-pse_ncc <- read.csv(here('data','raw data','multispecies','CC_age_2023_03_03.csv'))
+pse_ncc <- read.csv(here('data','raw data','multispecies','CC_age_2023_03_03.csv')) #updated PSE north and central coast data 
+pse_all <- read.csv(here('data','raw data','multispecies','PSE_all_spp_RS.2023-Sep-20.csv')) #updated PSE data 
 #chum
 chum<- read.csv(here('data','raw data','chum','chum_data.csv'));chum_info<- read.csv(here('data','raw data','chum','chum_info.csv'));chum_source<- read.csv(here('data','raw data','chum','chum_sources.csv'))
 chu_upd<- read.csv(here('data','raw data','chum','Chum S_R for BC_4.24.2023.csv'))
 #pink
-pink<- read.csv(here('data','raw data','pink','pink_data.csv'));pink_info<- read.csv(here('data','raw data','pink','pink_info.csv'));pink_source<- read.csv(here('data','raw data','pink','pink_sources.csv'))
+pink<- read.csv(here('data','raw data','pink','pink_data_update.Sep20203.csv'));pink_info<- read.csv(here('data','raw data','pink','pink_info.csv'));pink_source<- read.csv(here('data','raw data','pink','pink_sources.csv'))
 pi_upd<- read.csv(here('data','raw data','pink','Pink S_R for BC_4.24.2023.csv'))
 #coho
 coho<- read.csv(here('data','raw data','coho','coho_data_fwmar.csv'));coho_info<- read.csv(here('data','raw data','coho','coho_info.csv'));coho_source<- read.csv(here('data','raw data','coho','coho_sources.csv'))
@@ -256,13 +257,32 @@ pse_chum <- pse_ncc %>%
          recruits.7 = TR7) %>%
   select(stock.id, species, stock, region, sub.region, broodyear, spawners, recruits, use,recruits.2, recruits.3, recruits.4, recruits.5, recruits.6, recruits.7, age)
 
-chum3<- rbind(chum2,pse_chum)
+pse_chum2 <- pse_all %>%
+  filter(cu_name_pse %in% c("Georgia Strait", "Lower Fraser", "Northeast Vancouver Island", "Northwest Vancouver Island", "Southern Coastal Streams", "Southwest & West Vancouver Island")) %>%
+  drop_na(recruits) %>% # drop incomplete brood years 
+  rename(stock = cu_name_pse,
+         pse_region = region) %>%
+  left_join(chum_info, by = "stock") %>%
+  drop_na(stock.id) %>%
+  mutate(species = "Chum",
+         use = 1,
+         age = "avg",
+         recruits.2 = NA,
+         recruits.3 = NA,
+         recruits.4 = NA,
+         recruits.5 = NA,
+         recruits.6 = NA, 
+         recruits.7 = NA) %>%
+  rename(broodyear = year) %>%
+  select(stock.id, species, stock, region, sub.region, broodyear, spawners, recruits, use,recruits.2, recruits.3, recruits.4, recruits.5, recruits.6, recruits.7, age)
+
+chum3<- rbind(chum2,pse_chum,pse_chum2)
 
 chum_filtered <- chum3 %>% #drop north and central coast stocks that have been replaced with CU level reconstructions from PSE
   filter(!stock %in% c("Area 10", "Area 9", "Area 8", "Area 7", "Area 6", "Area 5", "Area 4", "Area 3", "Area 2W", "Area 2E", "Area 1") )
 
-write.csv(chum_filtered,here('data','filtered datasets',paste('raw_chum_brood_table',Sys.Date(),'.csv',sep='')),row.names = FALSE)
-write.csv(chum_info,here('data','filtered datasets',paste('chum_info',Sys.Date(),'.csv',sep='')))
+write.csv(chum_filtered,here('data','filtered datasets',paste('raw_chum_brood_table',Sys.Date(),'.csv',sep='')), row.names = FALSE)
+write.csv(chum_info,here('data','filtered datasets',paste('chum_info',Sys.Date(),'.csv',sep='')), row.names = FALSE)
 
 chum_list=list()
 for(i in 1:length(unique(chum2$stock.id))){
@@ -334,7 +354,7 @@ length(unique(pink2$stock))
 #add in PSE pink data and generate a file for H. Hunter project
 pse_pink <- pse_ncc %>%
   filter(SpeciesId %in% c("PKe", "PKo")) %>%
-  drop_na(Total) %>% # drop incomplete brood years (i.e., without recruits for 5 year olds)
+  drop_na(Total) %>% # drop incomplete brood years 
   rename(stock = CU_Name) %>%
   left_join(pink_info, by = "stock") %>%
   drop_na(stock.id) %>%
@@ -345,13 +365,25 @@ pse_pink <- pse_ncc %>%
          recruits = Total) %>%
   select(stock.id, species, stock, region, sub.region, broodyear, spawners, recruits, use)
 
-pink3<- rbind(pink2,pse_pink)
+pse_pink2 <- pse_all %>%
+  filter(cu_name_pse %in% c("Georgia Strait (even)", "Georgia Strait (odd)", "Southern Fjords (even)")) %>%
+  drop_na(recruits) %>% # drop incomplete brood years 
+  rename(stock = cu_name_pse,
+         pse_region = region) %>%
+  left_join(pink_info, by = "stock") %>%
+  drop_na(stock.id) %>%
+  mutate(species = "Pink",
+         use = 1) %>%
+  rename(broodyear = year) %>%
+  select(stock.id, species, stock, region, sub.region, broodyear, spawners, recruits, use)
+
+pink3<- rbind(pink2,pse_pink,pse_pink2)
 
 pink_filtered <- pink3 %>% #drop north and central coast stocks that have been replaced with CU level reconstructions from PSE
-  filter(!stock %in% c("Area 10", "Area 9", "Area 8", "Area 7", "Area 6", "Area 5", "Area 4", "Area 3", "Area 2W", "Area 2E", "Area 1") )
+  filter(!stock %in% c("Area 10", "Area 9", "Area 8", "Area 7", "Area 6", "Area 5", "Area 4", "Area 3", "Area 2W", "Area 2E", "Area 1","BC South (no Fraser)") )
 
 write.csv(pink_filtered,here('data','filtered datasets',paste('raw_pink_brood_table',Sys.Date(),'.csv',sep='')),row.names = FALSE)
-write.csv(pink_info,here('data','filtered datasets',paste('pink_info',Sys.Date(),'.csv',sep='')))
+write.csv(pink_info,here('data','filtered datasets',paste('pink_info',Sys.Date(),'.csv',sep='')), row.names = FALSE)
 
 pink_list=list()
 for(i in 1:length(unique(pink2$stock.id))){
