@@ -10,7 +10,8 @@ sockeye<- read.csv(here('data','raw data','sockeye','sockeye_data.csv'));sockeye
 psc_fraser_sockeye<- read.csv(here('data','raw data','sockeye','PSC_Fraser_broodtables.csv'))
 skeena_nass_sockeye<- read.csv(here('data','raw data','sockeye','Skeena_Nass_sockeye.csv'))
 bb_sockeye<- read.csv(here('data','raw data','sockeye','Bristol Bay Spawner-Recruit Data.csv'))
-
+somass_soc<- read.csv(here('data','raw data','sockeye','Somass_stock_recruit_1977-2022.csv'))
+goodnews_soc<- read.csv(here('data','raw data','sockeye','Goodnews_Sockeye_Brood_Table3.2.2023.csv'))
 #These datasets don't end up getting used, as data is either replicated in other compilations or do not pass the data quality criterion:
 #ogden_comp<-  read.csv(here('data','raw data','multispecies','Salmon_RS_Database.csv')); ogden_info<-read.csv(here('data','raw data','multispecies','Salmon_RS_Time_Series_Summary.csv'))
 #pse_comp<- read.csv(here('data','raw data','multispecies','PSE_RS.csv'));pse_dq=read.csv(here('data','raw data','multispecies','PSE_data_quality.csv'))
@@ -39,7 +40,6 @@ names(chum)<- gsub('.yr','year',names(chum)) #make the brood years equivalent
 names(pink)<- gsub('.yr','year',names(pink))  #make the brood years equivalent
 colnames(coho)<- tolower(names(coho));colnames(coho_info)<- tolower(names(coho_info));colnames(coho_source)<- tolower(names(coho_source));names(coho_source)[1]='source.id'
 colnames(chinook)<- tolower(names(chinook));colnames(chinook_info)<- tolower(names(chinook_info));colnames(chinook_source)<- tolower(names(chinook_source))
-#colnames(ogden_comp)<- tolower(names(ogden_comp));colnames(ogden_info)<- tolower(names(ogden_info))
 names(cc_comp)<- gsub('broodYr','broodyear',names(cc_comp));names(cc_comp)<- gsub('spawn','spawners',names(cc_comp));names(cc_comp)<- gsub('rec','recruits',names(cc_comp));colnames(cc_comp)[1]='stock.id'  #make the brood years equivalent
 names(cow_chin)[1]='stock.id'
 names(psc_fraser_sockeye)[1]='stock';names(psc_fraser_sockeye)[3]='broodyear'
@@ -210,6 +210,70 @@ for(i in 1:length(unique(bb_sockeye$system))){
   sockeye_list[[nrow(stock_dat)]]=s[,c('stock','species','broodyear','recruits','spawners')]
 }
 
+#GCL & Sproat Sockeye
+somass_soc$comb.age=paste('r',somass_soc$f_age,'.',somass_soc$o_age,sep='')
+
+#GCL
+gcl=subset(somass_soc,cu_name=='Great Central Lake')
+#get escapement for each brood year
+gcl.bt = distinct(gcl,adult_return_year,.keep_all=T) %>% select(cu_name,adult_return_year,total_escape)
+gcl.bt$species='Sockeye'
+rec.pot=expand.grid(seq(0,4),seq(1,5))
+rec.pot$age=paste('r',rec.pot[,1],'.',rec.pot[,2],sep='')
+rec.tab=matrix(nrow=nrow(gcl.bt),ncol=length(rec.pot$age))
+colnames(rec.tab)=rec.pot$age
+gcl.bt=cbind(gcl.bt,rec.tab)
+
+for(i in 1:nrow(gcl.bt)){
+  s = subset(gcl,brood_year==gcl.bt$adult_return_year[i])
+  m=match(s$comb.age,colnames(gcl.bt))
+  gcl.bt[i,m]=s$recruit_abundance
+  gcl.bt$recruits[i]=sum(na.omit(s$recruit_abundance))
+}
+gcl.bt=subset(gcl.bt,adult_return_year<=2016) #remove recent years where full recruits are unknown
+names(gcl.bt)[1:3]=c('stock','broodyear','spawners')
+gcl.bt$stock=gsub(' Lake','',gcl.bt$stock)
+
+stock_dat_temp=data.frame(stock.id=NA,species='Sockeye',stock.name='Great Central',lat=49.24,lon=-124.8,ocean.basin='WC',state='BC',begin=min(gcl.bt[,2]),end=max(gcl.bt[,2]),n.years=nrow(gcl.bt),max.spawners=max(gcl.bt$spawners),max.recruits=max(gcl.bt$recruits),source='Colin Bailey, DFO, 2023',url=NA,comments=NA)
+stock_dat=rbind(stock_dat,stock_dat_temp)
+sockeye_list[[nrow(stock_dat)]]=gcl.bt[,c('stock','species','broodyear','recruits','spawners')]
+
+#Sproat
+spt=subset(somass_soc,cu_name=='Sproat Lake')
+#get escapement for each brood year
+spt.bt = distinct(somass_soc,adult_return_year,.keep_all=T) %>% select(cu_name,adult_return_year,total_escape)
+spt.bt$species='Sockeye'
+rec.pot=expand.grid(seq(0,4),seq(1,5))
+rec.pot$age=paste('r',rec.pot[,1],'.',rec.pot[,2],sep='')
+rec.tab=matrix(nrow=nrow(spt.bt),ncol=length(rec.pot$age))
+colnames(rec.tab)=rec.pot$age
+spt.bt=cbind(spt.bt,rec.tab)
+for(i in 1:nrow(spt.bt)){
+  s = subset(spt,brood_year==spt.bt$adult_return_year[i])
+  m=match(s$comb.age,colnames(spt.bt))
+  spt.bt[i,m]=s$recruit_abundance
+  spt.bt$recruits[i]=sum(na.omit(s$recruit_abundance))
+}
+spt.bt=subset(spt.bt,adult_return_year<=2016) #remove recent years where full recruits are unknown
+names(spt.bt)[1:3]=c('stock','broodyear','spawners')
+spt.bt$stock=gsub(' Lake','',spt.bt$stock)
+
+stock_dat_temp=data.frame(stock.id=NA,species='Sockeye',stock.name='Sproat',lat=49.24,lon=-124.8,ocean.basin='WC',state='BC',begin=min(spt.bt[,2]),end=max(spt.bt[,2]),n.years=nrow(spt.bt),max.spawners=max(spt.bt$spawners),max.recruits=max(spt.bt$recruits),source='Colin Bailey, DFO, 2023',url=NA,comments=NA)
+stock_dat=rbind(stock_dat,stock_dat_temp)
+sockeye_list[[nrow(stock_dat)]]=spt.bt[,c('stock','species','broodyear','recruits','spawners')]
+
+#Goodnews sockeye
+names(goodnews_soc)[1:16]=c('broodyear','spawners','r0.2','r1.1','r0.3','r1.2','r0.4','r1.3','r2.2','r1.4','r2.3','r3.2','r2.4','r3.3','r3.4','recruits')
+goodnews_soc$species='Sockeye'
+#subset to last brood year with oldest recruits enumerated
+goodnews_soc= subset(goodnews_soc,broodyear<=2011)
+
+#need to check source from Greg
+stock_dat_temp=data.frame(stock.id=NA,species='Sockeye',stock.name='Goodnews',lat=59.11,lon=-161.6,ocean.basin='BS',state='BC',begin=min(goodnews_soc$broodyear),end=max(goodnews_soc$broodyear),n.years=nrow(goodnews_soc),max.spawners=max(goodnews_soc$spawners),max.recruits=max(goodnews_soc$recruits),source='Greg Ruggerone, 2023',url=NA,comments=NA)
+stock_dat=rbind(stock_dat,stock_dat_temp)
+sockeye_list[[nrow(stock_dat)]]=spt.bt[,c('stock','species','broodyear','recruits','spawners')]
+
+
 sockeye_filtered<- do.call("rbind", sockeye_list)
 
 #Chum####
@@ -278,16 +342,21 @@ pse_chum2 <- pse_all %>%
 
 chum3<- rbind(chum2,pse_chum,pse_chum2)
 
-chum_filtered <- chum3 %>% #drop north and central coast stocks that have been replaced with CU level reconstructions from PSE
-  filter(!stock %in% c("Area 10", "Area 9", "Area 8", "Area 7", "Area 6", "Area 5", "Area 4", "Area 3", "Area 2W", "Area 2E", "Area 1") )
+#remove old statistical area run-reconstructions
+chum_info<- subset(chum_info, stock %notin% c("Area 10", "Area 9", "Area 8", "Area 7", "Area 6", "Area 5", "Area 4", "Area 3", "Area 2W", "Area 2E", "Area 1"))
+chum3<- subset(chum3, stock %notin% c("Area 10", "Area 9", "Area 8", "Area 7", "Area 6", "Area 5", "Area 4", "Area 3", "Area 2W", "Area 2E", "Area 1"))
 
-write.csv(chum_filtered,here('data','filtered datasets',paste('raw_chum_brood_table',Sys.Date(),'.csv',sep='')), row.names = FALSE)
-write.csv(chum_info,here('data','filtered datasets',paste('chum_info',Sys.Date(),'.csv',sep='')), row.names = FALSE)
+
+#chum_filtered <- chum3 %>% #drop north and central coast stocks that have been replaced with CU level reconstructions from PSE
+#  filter(!stock %in% c("Area 10", "Area 9", "Area 8", "Area 7", "Area 6", "Area 5", "Area 4", "Area 3", "Area 2W", "Area 2E", "Area 1") )
+
+#write.csv(chum_filtered,here('data','filtered datasets',paste('raw_chum_brood_table',Sys.Date(),'.csv',sep='')), row.names = FALSE)
+#write.csv(chum_info,here('data','filtered datasets',paste('chum_info',Sys.Date(),'.csv',sep='')), row.names = FALSE)
 
 chum_list=list()
-for(i in 1:length(unique(chum2$stock.id))){
-  s=subset(chum2,stock.id==unique(chum2$stock.id)[i])
-  s_info<- subset(chum_info,stock.id==unique(chum2$stock.id)[i])
+for(i in 1:length(unique(chum3$stock.id))){
+  s=subset(chum3,stock==unique(chum3$stock)[i])
+  s_info<- subset(chum_info,stock.id==unique(chum3$stock.id)[i])
   s_use=subset(s,use==1) %>% subset(is.na(spawners)==F&is.na(recruits)==F)
   
   stock_dat_temp=data.frame(stock.id=NA,species=NA,stock.name=NA,lat=NA,lon=NA,ocean.basin=NA,state=NA,begin=NA,end=NA,n.years=NA,max.spawners=NA,max.recruits=NA,source=NA,url=NA,comments=NA)
@@ -382,13 +451,13 @@ pink3<- rbind(pink2,pse_pink,pse_pink2)
 pink_filtered <- pink3 %>% #drop north and central coast stocks that have been replaced with CU level reconstructions from PSE
   filter(!stock %in% c("Area 10", "Area 9", "Area 8", "Area 7", "Area 6", "Area 5", "Area 4", "Area 3", "Area 2W", "Area 2E", "Area 1","BC South (no Fraser)") )
 
-write.csv(pink_filtered,here('data','filtered datasets',paste('raw_pink_brood_table',Sys.Date(),'.csv',sep='')),row.names = FALSE)
-write.csv(pink_info,here('data','filtered datasets',paste('pink_info',Sys.Date(),'.csv',sep='')), row.names = FALSE)
+#write.csv(pink_filtered,here('data','filtered datasets',paste('raw_pink_brood_table',Sys.Date(),'.csv',sep='')),row.names = FALSE)
+#write.csv(pink_info,here('data','filtered datasets',paste('pink_info',Sys.Date(),'.csv',sep='')), row.names = FALSE)
 
 pink_list=list()
-for(i in 1:length(unique(pink2$stock.id))){
-  s=subset(pink2,stock.id==unique(pink2$stock.id)[i])
-  s_info<- subset(pink_info,stock.id==unique(pink2$stock.id)[i])
+for(i in 1:length(unique(pink3$stock.id))){
+  s=subset(pink3,stock.id==unique(pink3$stock.id)[i])
+  s_info<- subset(pink_info,stock.id==unique(pink3$stock.id)[i])
   s_use=subset(s,use==1) %>% subset(is.na(spawners)==F&is.na(recruits)==F)
   odd.yrs=ifelse(s_use$broodyear %% 2 == 0,0,1)
   s_use$odd=odd.yrs
