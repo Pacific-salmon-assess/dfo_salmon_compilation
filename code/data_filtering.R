@@ -315,7 +315,7 @@ length(unique(chum2$stock))
 
 #add in PSE chum data and generate a file for H. Hunter project
 pse_chum <- pse_ncc %>%
-  subset(SpeciesId = "CM") %>%
+  subset(SpeciesId == "CM") %>%
   drop_na(TR6) %>% # drop incomplete brood years (i.e., without recruits for 5 year olds)
   rename(stock = CU_Name) %>%
   left_join(chum_info, by = "stock") %>%
