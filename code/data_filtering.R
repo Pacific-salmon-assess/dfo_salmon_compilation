@@ -361,12 +361,6 @@ chum_info<- subset(chum_info, stock %notin% c("Area 10", "Area 9", "Area 8", "Ar
 chum3<- subset(chum3, stock %notin% c("Area 10", "Area 9", "Area 8", "Area 7", "Area 6", "Area 5", "Area 4", "Area 3", "Area 2W", "Area 2E", "Area 1"))
 
 
-#chum_filtered <- chum3 %>% #drop north and central coast stocks that have been replaced with CU level reconstructions from PSE
-#  filter(!stock %in% c("Area 10", "Area 9", "Area 8", "Area 7", "Area 6", "Area 5", "Area 4", "Area 3", "Area 2W", "Area 2E", "Area 1") )
-
-#write.csv(chum_filtered,here('data','filtered datasets',paste('raw_chum_brood_table',Sys.Date(),'.csv',sep='')), row.names = FALSE)
-#write.csv(chum_info,here('data','filtered datasets',paste('chum_info',Sys.Date(),'.csv',sep='')), row.names = FALSE)
-
 chum_list=list()
 for(i in 1:length(unique(chum3$stock.id))){
   s=subset(chum3,stock==unique(chum3$stock)[i])
@@ -464,6 +458,8 @@ pse_pink2 <- pse_all %>%
 
 pink3<- rbind(pink2,pse_pink,pse_pink2)
 
+pink3 <- pink3 %>% #drop north and central coast stocks that have been replaced with CU level reconstructions from PSE
+  filter(!stock %in% c("Area 10", "Area 9", "Area 8", "Area 7", "Area 6", "Area 5", "Area 4", "Area 3", "Area 2W", "Area 2E", "Area 1","BC South (no Fraser)") )
 
 pink_list=list()
 for(i in 1:length(unique(pink3$stock.id))){
@@ -561,10 +557,6 @@ for(i in 1:length(unique(pink3$stock.id))){
 }
 pink_filtered<- do.call("rbind", pink_list)
 
-pink_filtered <- pink_filtered %>% #drop north and central coast stocks that have been replaced with CU level reconstructions from PSE
-  filter(!stock %in% c("Area 10", "Area 9", "Area 8", "Area 7", "Area 6", "Area 5", "Area 4", "Area 3", "Area 2W", "Area 2E", "Area 1","BC South (no Fraser)") )
-pink_info <- pink_filtered %>% #drop north and central coast stocks that have been replaced with CU level reconstructions from PSE
-  filter(!stock %in% c("Area 10", "Area 9", "Area 8", "Area 7", "Area 6", "Area 5", "Area 4", "Area 3", "Area 2W", "Area 2E", "Area 1","BC South (no Fraser)") )
 
 #write.csv(pink_filtered,here('data','filtered datasets',paste('raw_pink_brood_table',Sys.Date(),'.csv',sep='')),row.names = FALSE)
 #write.csv(pink_info,here('data','filtered datasets',paste('pink_info',Sys.Date(),'.csv',sep='')), row.names = FALSE)
@@ -792,7 +784,6 @@ for(i in 1:length(unique(ifr_coho$stock))){
 
 coho_filtered = Reduce(function(...) merge(..., all=T), coho_list)
 
-##Issue 1: many redundant stocks across datasets - first pass to filter these out
 ###Curry Cunningham compilation
 cc_comp=cc_comp[complete.cases(cc_comp$recruits),]
 cc_comp$stock.name<- paste(cc_comp$stock,cc_comp$species,sep='-')
@@ -888,7 +879,7 @@ cc_comp_filtered<- do.call("rbind", cc_comp_list)
 
 
 #Print out data####
-filtered_productivity_data=left_join(chinook_filtered,chum_filtered) %>% full_join(coho_filtered) %>% full_join(pink_filtered) %>% full_join(sockeye_filtered) %>% full_join(cc_comp_filtered)
+filtered_productivity_data=full_join(chinook_filtered,chum_filtered) %>% full_join(coho_filtered) %>% full_join(pink_filtered) %>% full_join(sockeye_filtered) %>% full_join(cc_comp_filtered)
 
 #Stock overview
 stock_dat=subset(stock_dat,n.years>0)
@@ -897,5 +888,6 @@ filtered_productivity_data$stock=paste(filtered_productivity_data$stock,filtered
 filtered_productivity_data$stock.id=stock_dat$stock.id[match(filtered_productivity_data$stock,stock_dat$stock.name)]
 
 #Write datasets
+rownames(stock_dat)=NULL
 write.csv(filtered_productivity_data,here('data','filtered datasets',paste('salmon_productivity_compilation',Sys.Date(),'.csv',sep='')))
 write.csv(stock_dat,here('data','filtered datasets',paste('stock_info',Sys.Date(),'.csv',sep='')))

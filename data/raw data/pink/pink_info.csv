@@ -44,7 +44,7 @@ stock.id,species,stock,region,sub.region,jurisdiction,lat,lon,source.id,comment
 243,Pink,Nushagak,Bristol Bay,Bristol Bay,AK,58.62222,158.5911,13,
 244,Pink,Unalakleet,AYK,AYK,AK,63.86944,160.7878,"14, 15",
 245,Pink,Nome,AYK,AYK,AK,64.4828,165.305,"14, 15",
-246,Pink,Moses-Norton,AYK,AYK,AK,52.45,129.1,"14, 15",Sum of Moses Point and Norton Bay Subdistricts
+246,Pink,Moses-Norton,AYK,AYK,AK,64.64,161.55,"14, 15",Sum of Moses Point and Norton Bay Subdistricts
 251,Pink,Nahwitti (odd),WC,BC Central,BC,52.45,129.1,16,
 253,Pink,Hecate Strait-Fjords (even),WC,BC Central,BC,52.45,129.1,16,
 254,Pink,Nass-Skeena Estuary (even),SEAK,BC North,BC,52.45,129.1,16,
