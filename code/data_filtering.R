@@ -561,9 +561,9 @@ for(i in 1:length(unique(pink3$stock.id))){
 }
 pink_filtered<- do.call("rbind", pink_list)
 
-pink_filtered <- pink3 %>% #drop north and central coast stocks that have been replaced with CU level reconstructions from PSE
+pink_filtered <- pink_filtered %>% #drop north and central coast stocks that have been replaced with CU level reconstructions from PSE
   filter(!stock %in% c("Area 10", "Area 9", "Area 8", "Area 7", "Area 6", "Area 5", "Area 4", "Area 3", "Area 2W", "Area 2E", "Area 1","BC South (no Fraser)") )
-pink_info <- pink_info %>% #drop north and central coast stocks that have been replaced with CU level reconstructions from PSE
+pink_info <- pink_filtered %>% #drop north and central coast stocks that have been replaced with CU level reconstructions from PSE
   filter(!stock %in% c("Area 10", "Area 9", "Area 8", "Area 7", "Area 6", "Area 5", "Area 4", "Area 3", "Area 2W", "Area 2E", "Area 1","BC South (no Fraser)") )
 
 #write.csv(pink_filtered,here('data','filtered datasets',paste('raw_pink_brood_table',Sys.Date(),'.csv',sep='')),row.names = FALSE)
@@ -888,7 +888,7 @@ cc_comp_filtered<- do.call("rbind", cc_comp_list)
 
 
 #Print out data####
-filtered_productivity_data=full_join(sockeye_filtered,chum_filtered),pink_filtered,coho_filtered,chinook_filtered,cc_comp_filtered)
+filtered_productivity_data=left_join(chinook_filtered,chum_filtered) %>% full_join(coho_filtered) %>% full_join(pink_filtered) %>% full_join(sockeye_filtered) %>% full_join(cc_comp_filtered)
 
 #Stock overview
 stock_dat=subset(stock_dat,n.years>0)
