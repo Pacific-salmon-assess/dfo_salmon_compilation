@@ -431,6 +431,11 @@ pink2<- rbind(pi_upd2,pink2)
 length(unique(pink2$stock))
 
 #add in PSE pink data and generate a file for H. Hunter project
+pse_ncc$Total=ifelse(pse_ncc$Total==0,NA,pse_ncc$Total)
+pse_ncc$Escape=ifelse(pse_ncc$Escape==0,NA,pse_ncc$Escape)
+pse_all$recruits=ifelse(pse_all$recruits==0,NA,pse_all$recruits)
+pse_all$spawners=ifelse(pse_all$spawners==0,NA,pse_all$spawners)
+
 pse_pink <- pse_ncc %>%
   filter(SpeciesId %in% c("PKe", "PKo")) %>%
   drop_na(Total) %>% # drop incomplete brood years 
@@ -455,6 +460,9 @@ pse_pink2 <- pse_all %>%
          use = 1) %>%
   rename(broodyear = year) %>%
   select(stock.id, species, stock, region, sub.region, broodyear, spawners, recruits, use)
+
+
+
 
 pink3<- rbind(pink2,pse_pink,pse_pink2)
 
