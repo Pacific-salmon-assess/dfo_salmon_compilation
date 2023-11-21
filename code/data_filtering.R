@@ -80,6 +80,8 @@ for(i in 1:length(unique(sockeye2$stock.id))){
   s=subset(sockeye,stock.id==unique(sockeye2$stock.id)[i])
   s_info<- subset(sockeye_info,stock.id==unique(sockeye2$stock.id)[i])
   s_use=subset(s,useflag==1) %>% subset(is.na(spawners)==F&is.na(recruits)==F)
+  s_use<- subset(s_use,spawners!=0&recruits!=0)
+  
   
   stock_dat[i,1]=NA
   stock_dat[i,2]=unique(s$species)
@@ -474,6 +476,7 @@ for(i in 1:length(unique(pink3$stock.id))){
   s=subset(pink3,stock.id==unique(pink3$stock.id)[i])
   s_info<- subset(pink_info,stock.id==unique(pink3$stock.id)[i])
   s_use=subset(s,use==1) %>% subset(is.na(spawners)==F&is.na(recruits)==F)
+  s_use<- subset(s_use,spawners!=0&recruits!=0)
   odd.yrs=ifelse(s_use$broodyear %% 2 == 0,0,1)
   s_use$odd=odd.yrs
   
@@ -586,6 +589,8 @@ for(i in 1:length(unique(chinook$stock.id))){
   s=subset(chinook,stock.id==unique(chinook$stock.id)[i])
   s_info<- subset(chinook_info,stock.id==unique(chinook$stock.id)[i])
   s_use=subset(s,useflag==1) %>% subset(is.na(spawners)==F&is.na(recruits)==F)
+  s_use<- subset(s_use,spawners!=0&recruits!=0)
+  
   
   stock_dat_temp=data.frame(stock.id=NA,species=NA,stock.name=NA,lat=NA,lon=NA,ocean.basin=NA,state=NA,begin=NA,end=NA,n.years=NA,max.spawners=NA,max.recruits=NA,source=NA,url=NA,comments=NA)
   
@@ -721,6 +726,7 @@ for(i in 1:length(unique(coho$stock.id))){
   }
   s_info<- subset(coho_info,stock.id==unique(coho$stock.id)[i])
   s_use=subset(s,useflag==1) %>% subset(is.na(spawners)==F&is.na(recruits)==F)
+  s_use<- subset(s_use,spawners!=0&recruits!=0)
   
   stock_dat_temp=data.frame(stock.id=NA,species=NA,stock.name=NA,lat=NA,lon=NA,ocean.basin=NA,state=NA,begin=NA,end=NA,n.years=NA,max.spawners=NA,max.recruits=NA,source=NA,url=NA,comments=NA)
   
@@ -853,6 +859,7 @@ for(i in 1:length(unique(cc_comp2$stock.name))){
     s=distinct(s,broodyear,.keep_all = T)
   }
   s_use=subset(s,is.na(spawners)==F&is.na(recruits)==F)
+  s_use<- subset(s_use,spawners!=0&recruits!=0)
   
   stock_dat_temp=data.frame(stock.id=NA,species=NA,stock.name=NA,lat=NA,lon=NA,ocean.basin=NA,state=NA,begin=NA,end=NA,n.years=NA,max.spawners=NA,max.recruits=NA,source=NA,url=NA,comments=NA)
   
