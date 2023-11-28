@@ -80,6 +80,8 @@ for(i in 1:length(unique(sockeye2$stock.id))){
   s=subset(sockeye,stock.id==unique(sockeye2$stock.id)[i])
   s_info<- subset(sockeye_info,stock.id==unique(sockeye2$stock.id)[i])
   s_use=subset(s,useflag==1) %>% subset(is.na(spawners)==F&is.na(recruits)==F)
+  s_use<- subset(s_use,spawners!=0&recruits!=0)
+  
   
   stock_dat[i,1]=NA
   stock_dat[i,2]=unique(s$species)
@@ -285,7 +287,7 @@ stock_dat_temp=data.frame(stock.id=NA,species='Sockeye',stock.name='Goodnews-Soc
 stock_dat=rbind(stock_dat,stock_dat_temp)
 sockeye_list[[nrow(stock_dat)]]=goodnews_soc[,c('stock','species','broodyear','recruits','spawners',names(goodnews_soc)[3:15])]
 
-sockeye_filtered = Reduce(function(...) merge(..., all=T), sockeye_list)
+sockeye_filtered = do.call(plyr::rbind.fill, sockeye_list)
 unique(sockeye_filtered$stock)
 stock_dat=subset(stock_dat, n.years>0)
 
@@ -403,7 +405,7 @@ for(i in 1:length(unique(chum3$stock.id))){
   
   chum_list[[i]]=s_use[,c('stock','species','broodyear','spawners','recruits','recruits.2','recruits.3','recruits.4','recruits.5','recruits.6','recruits.7')]
 }
-chum_filtered<- do.call("rbind", chum_list)
+chum_filtered<- do.call(plyr::rbind.fill, chum_list)
 #turn recruits into r to match others
 names(chum_filtered)[6:11]=gsub('recruits.','r',names(chum_filtered)[6:11])
 
@@ -474,6 +476,7 @@ for(i in 1:length(unique(pink3$stock.id))){
   s=subset(pink3,stock.id==unique(pink3$stock.id)[i])
   s_info<- subset(pink_info,stock.id==unique(pink3$stock.id)[i])
   s_use=subset(s,use==1) %>% subset(is.na(spawners)==F&is.na(recruits)==F)
+  s_use<- subset(s_use,spawners!=0&recruits!=0)
   odd.yrs=ifelse(s_use$broodyear %% 2 == 0,0,1)
   s_use$odd=odd.yrs
   
@@ -563,7 +566,7 @@ for(i in 1:length(unique(pink3$stock.id))){
     pink_list[[i]]=s_use[,c('stock','species','broodyear','recruits','spawners')]
   }
 }
-pink_filtered<- do.call("rbind", pink_list)
+pink_filtered<- do.call(plyr::rbind.fill, pink_list)
 
 
 #write.csv(pink_filtered,here('data','filtered datasets',paste('raw_pink_brood_table',Sys.Date(),'.csv',sep='')),row.names = FALSE)
@@ -586,6 +589,8 @@ for(i in 1:length(unique(chinook$stock.id))){
   s=subset(chinook,stock.id==unique(chinook$stock.id)[i])
   s_info<- subset(chinook_info,stock.id==unique(chinook$stock.id)[i])
   s_use=subset(s,useflag==1) %>% subset(is.na(spawners)==F&is.na(recruits)==F)
+  s_use<- subset(s_use,spawners!=0&recruits!=0)
+  
   
   stock_dat_temp=data.frame(stock.id=NA,species=NA,stock.name=NA,lat=NA,lon=NA,ocean.basin=NA,state=NA,begin=NA,end=NA,n.years=NA,max.spawners=NA,max.recruits=NA,source=NA,url=NA,comments=NA)
   
@@ -706,7 +711,7 @@ stock_dat[row.n,13]=chinook_source$title[chinook_info$source.id[24]]
 
 chinook_list[[24]]=nicola_recruits[,c('stock','species','broodyear','recruits','spawners')]
 
-chinook_filtered = Reduce(function(...) merge(..., all=T), chinook_list)
+chinook_filtered = Rdo.call(plyr::rbind.fill,chinook_list)
 
 
 #Coho####
@@ -721,6 +726,7 @@ for(i in 1:length(unique(coho$stock.id))){
   }
   s_info<- subset(coho_info,stock.id==unique(coho$stock.id)[i])
   s_use=subset(s,useflag==1) %>% subset(is.na(spawners)==F&is.na(recruits)==F)
+  s_use<- subset(s_use,spawners!=0&recruits!=0)
   
   stock_dat_temp=data.frame(stock.id=NA,species=NA,stock.name=NA,lat=NA,lon=NA,ocean.basin=NA,state=NA,begin=NA,end=NA,n.years=NA,max.spawners=NA,max.recruits=NA,source=NA,url=NA,comments=NA)
   
@@ -790,7 +796,7 @@ for(i in 1:length(unique(ifr_coho$stock))){
   coho_list[[length(unique(coho$stock.id))+i]]=s[,c('stock','species','broodyear','recruits','spawners','r3','r4')]
 }
 
-coho_filtered = Reduce(function(...) merge(..., all=T), coho_list)
+coho_filtered = do.call(plyr::rbind.fill,coho_list)
 
 ###Curry Cunningham compilation
 cc_comp=cc_comp[complete.cases(cc_comp$recruits),]
@@ -853,6 +859,7 @@ for(i in 1:length(unique(cc_comp2$stock.name))){
     s=distinct(s,broodyear,.keep_all = T)
   }
   s_use=subset(s,is.na(spawners)==F&is.na(recruits)==F)
+  s_use<- subset(s_use,spawners!=0&recruits!=0)
   
   stock_dat_temp=data.frame(stock.id=NA,species=NA,stock.name=NA,lat=NA,lon=NA,ocean.basin=NA,state=NA,begin=NA,end=NA,n.years=NA,max.spawners=NA,max.recruits=NA,source=NA,url=NA,comments=NA)
   
@@ -883,7 +890,7 @@ for(i in 1:length(unique(cc_comp2$stock.name))){
   
   cc_comp_list[[i]]=s_use[,c('stock','species','broodyear','recruits','spawners')]
 }
-cc_comp_filtered<- do.call("rbind", cc_comp_list)
+cc_comp_filtered<- do.call(plyr::rbind.fill, cc_comp_list)
 
 
 #Print out data####
