@@ -18,6 +18,13 @@ goodnews_soc<- read.csv(here('data','raw data','sockeye','Goodnews_Sockeye_Brood
 #pse_comp<- read.csv(here('data','raw data','multispecies','PSE_RS.csv'));pse_dq=read.csv(here('data','raw data','multispecies','PSE_data_quality.csv'))
 pse_ncc <- read.csv(here('data','raw data','multispecies','CC_age_2023_03_03.csv')) #updated PSE north and central coast data 
 pse_all <- read.csv(here('data','raw data','multispecies','PSE_all_spp_RS.2023-Sep-20.csv')) #updated PSE data 
+pse_ncc$Total=ifelse(pse_ncc$Total==0,NA,pse_ncc$Total)
+pse_ncc$Escape=ifelse(pse_ncc$Escape==0,NA,pse_ncc$Escape)
+pse_all$recruits=ifelse(pse_all$recruits==0,NA,pse_all$recruits)
+pse_all$spawners=ifelse(pse_all$spawners==0,NA,pse_all$spawners)
+
+
+
 #chum
 chum<- read.csv(here('data','raw data','chum','chum_data.csv'));chum_info<- read.csv(here('data','raw data','chum','chum_info.csv'));chum_source<- read.csv(here('data','raw data','chum','chum_sources.csv'))
 chu_upd<- read.csv(here('data','raw data','chum','Chum S_R for BC_4.24.2023.csv'))
@@ -318,6 +325,11 @@ length(unique(chum2$stock))
 #add in PSE chum data and generate a file for H. Hunter project
 pse_chum <- pse_ncc %>%
   subset(SpeciesId == "CM") %>%
+  filter(cu_name_pse %in% c('Hecate Lowlands',
+                            'Mussel-Kynoch',
+                            'Douglas-Gardner',
+                            'Lower Skeena',
+'Middle Skeena')) %>% #only keep series with 'fair' + data quality
   drop_na(TR6) %>% # drop incomplete brood years (i.e., without recruits for 5 year olds)
   rename(stock = CU_Name) %>%
   left_join(chum_info, by = "stock") %>%
@@ -337,26 +349,26 @@ pse_chum <- pse_ncc %>%
   select(stock.id, species, stock, region, sub.region, broodyear, spawners, recruits, use,recruits.2, recruits.3, recruits.4, recruits.5, recruits.6, recruits.7, age)
 
 #All but nw vancouver island and sw&w vancouver island are missing
-pse_chum2 <- pse_all %>%
-  filter(cu_name_pse %in% c("Georgia Strait", "Lower Fraser", "Northeast Vancouver Island", "Northwest Vancouver Island", "Southern Coastal Streams", "Southwest & West Vancouver Island")) %>%
-  drop_na(recruits) %>% # drop incomplete brood years 
-  rename(stock = cu_name_pse,
-         pse_region = region) %>%
-  left_join(chum_info, by = "stock") %>%
-  drop_na(stock.id) %>%
-  mutate(species = "Chum",
-         use = 1,
-         age = "avg",
-         recruits.2 = NA,
-         recruits.3 = NA,
-         recruits.4 = NA,
-         recruits.5 = NA,
-         recruits.6 = NA, 
-         recruits.7 = NA) %>%
-  rename(broodyear = year) %>%
-  select(stock.id, species, stock, region, sub.region, broodyear, spawners, recruits, use,recruits.2, recruits.3, recruits.4, recruits.5, recruits.6, recruits.7, age)
+#pse_chum2 <- pse_all %>%
+ # filter(cu_name_pse %in% c("Georgia Strait", "Lower Fraser", "Northeast Vancouver Island", "Northwest Vancouver Island", "Southern Coastal Streams", "Southwest & West Vancouver Island")) %>%
+  #drop_na(recruits) %>% # drop incomplete brood years 
+  #rename(stock = cu_name_pse,
+   #      pse_region = region) %>%
+  #left_join(chum_info, by = "stock") %>%
+  #drop_na(stock.id) %>%
+  #mutate(species = "Chum",
+   #      use = 1,
+  #       age = "avg",
+   #      recruits.2 = NA,
+    #     recruits.3 = NA,
+     #    recruits.4 = NA,
+      #   recruits.5 = NA,
+       #  recruits.6 = NA, 
+        # recruits.7 = NA) %>%
+#  rename(broodyear = year) %>%
+ # select(stock.id, species, stock, region, sub.region, broodyear, spawners, recruits, use,recruits.2, recruits.3, recruits.4, recruits.5, recruits.6, recruits.7, age)
 
-chum3<- rbind(chum2,pse_chum,pse_chum2)
+chum3<- rbind(chum2,pse_chum)
 
 #remove old statistical area run-reconstructions
 chum_info<- subset(chum_info, stock %notin% c("Area 10", "Area 9", "Area 8", "Area 7", "Area 6", "Area 5", "Area 4", "Area 3", "Area 2W", "Area 2E", "Area 1"))
@@ -433,10 +445,6 @@ pink2<- rbind(pi_upd2,pink2)
 length(unique(pink2$stock))
 
 #add in PSE pink data and generate a file for H. Hunter project
-pse_ncc$Total=ifelse(pse_ncc$Total==0,NA,pse_ncc$Total)
-pse_ncc$Escape=ifelse(pse_ncc$Escape==0,NA,pse_ncc$Escape)
-pse_all$recruits=ifelse(pse_all$recruits==0,NA,pse_all$recruits)
-pse_all$spawners=ifelse(pse_all$spawners==0,NA,pse_all$spawners)
 
 pse_pink <- pse_ncc %>%
   filter(SpeciesId %in% c("PKe", "PKo")) %>%
