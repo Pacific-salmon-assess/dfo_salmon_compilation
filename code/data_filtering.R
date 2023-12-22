@@ -10,12 +10,17 @@ sockeye<- read.csv(here('data','raw data','sockeye','sockeye_data.csv'));sockeye
 psc_fraser_sockeye<- read.csv(here('data','raw data','sockeye','PSC_Fraser_broodtables.csv'))
 skeena_sockeye<- read.csv(here('data','raw data','sockeye','skeena_sockeye_broodtable.csv'))
 nass_sockeye<- read.csv(here('data','raw data','sockeye','nass_sockeye_broodtable.csv'))
-bb_sockeye<- read.csv(here('data','raw data','sockeye','Bristol Bay Spawner-Recruit Data.csv'))
+#bb_sockeye<- read.csv(here('data','raw data','sockeye','Bristol Bay Spawner-Recruit Data.csv'))
 somass_soc<- read.csv(here('data','raw data','sockeye','Somass_stock_recruit_1977-2022.csv'))
 goodnews_soc<- read.csv(here('data','raw data','sockeye','Goodnews_Sockeye_Brood_Table3.2.2023.csv'))
-#These datasets don't end up getting used, as data is either replicated in other compilations or do not pass the data quality criterion:
-#ogden_comp<-  read.csv(here('data','raw data','multispecies','Salmon_RS_Database.csv')); ogden_info<-read.csv(here('data','raw data','multispecies','Salmon_RS_Time_Series_Summary.csv'))
-#pse_comp<- read.csv(here('data','raw data','multispecies','PSE_RS.csv'));pse_dq=read.csv(here('data','raw data','multispecies','PSE_data_quality.csv'))
+bb_soc<- read.csv(here('data','raw data','sockeye','BBay_Brood_Tables_2023.csv'))
+kasilof_soc<- read.csv(here('data','raw data','sockeye','Kasilof_Brood_Table_2023.csv'))
+kenai_soc<- read.csv(here('data','raw data','sockeye','Kenai_Brood_Table_2023.csv'))
+mfgn_soc<- read.csv(here('data','raw data','sockeye','MFGN Sockeye Brood Table_2023.csv'))
+seak_soc<- read.csv(here('data','raw data','sockeye','SEAK Sockeye Data_2023.csv'))
+ww_soc<- read.csv(here('data','raw data','sockeye','Westward Brood tables_2023.csv'))
+
+#pacific salmon explorer
 pse_ncc <- read.csv(here('data','raw data','multispecies','CC_age_2023_03_03.csv')) #updated PSE north and central coast data 
 pse_all <- read.csv(here('data','raw data','multispecies','PSE_all_spp_RS.2023-Sep-20.csv')) #updated PSE data 
 pse_ncc$Total=ifelse(pse_ncc$Total==0,NA,pse_ncc$Total)
@@ -24,6 +29,9 @@ pse_all$recruits=ifelse(pse_all$recruits==0,NA,pse_all$recruits)
 pse_all$spawners=ifelse(pse_all$spawners==0,NA,pse_all$spawners)
 
 
+#These datasets don't end up getting used, as data is either replicated in other compilations or do not pass the data quality criterion:
+#ogden_comp<-  read.csv(here('data','raw data','multispecies','Salmon_RS_Database.csv')); ogden_info<-read.csv(here('data','raw data','multispecies','Salmon_RS_Time_Series_Summary.csv'))
+#pse_comp<- read.csv(here('data','raw data','multispecies','PSE_RS.csv'));pse_dq=read.csv(here('data','raw data','multispecies','PSE_data_quality.csv'))
 
 #chum
 chum<- read.csv(here('data','raw data','chum','chum_data.csv'));chum_info<- read.csv(here('data','raw data','chum','chum_info.csv'));chum_source<- read.csv(here('data','raw data','chum','chum_sources.csv'))
@@ -71,15 +79,28 @@ stock_dat=data.frame(stock.id=NA,species=NA,stock.name=NA,lat=NA,lon=NA,ocean.ba
 
 #From the top - sockeye compilation
 
-#Merge in new PSC data for Fraser stocks and updated Bristol Bay data to existing compilation
+#Merge in new datasets for the old compilation
+#updated data
+#PSC for Fraser stocks
+#skeena-nass stocks
+#bristol bay & other Alaskan sockeye series from A. Munroe (ADFG)
 fr_sock<- subset(sockeye, stock %in% psc_fraser_sockeye$stock)
-bb_sock<<- subset(sockeye, stock %in% bb_sockeye$system)
+bb_sock<<- subset(sockeye, stock %in% bb_soc[,1])
 
 sockeye2<- subset(sockeye, stock %notin% psc_fraser_sockeye$stock) #Drop out older data for Fraser R stocks
-sockeye2<- subset(sockeye2, stock %notin% bb_sock$stock) #Drop out older data for Fraser R stocks
+sockeye2<- subset(sockeye2, stock %notin% bb_soc[,1]) #Drop out older data for Bristol Bay stocks
+sockeye2<- subset(sockeye2, stock %notin% kasilof_soc[,1]) #Drop out older data for Bristol Bay stocks
+sockeye2<- subset(sockeye2, stock %notin% kenai_soc[,1]) #Drop out older data for Bristol Bay stocks
+sockeye2<- subset(sockeye2, stock %notin% mfgn_soc[,1]) #Drop out older data for Bristol Bay stocks
+sockeye2<- subset(sockeye2, stock %notin% seak_soc[,1]) #Drop out older data for Bristol Bay stocks
+sockeye2<- subset(sockeye2, stock %notin% ww_soc[,1]) #Drop out older data for Bristol Bay stocks
 sockeye2<- subset(sockeye2, stock %notin% 'Skeena') #drop Skeena (have updated data in another source)
 sockeye2<- subset(sockeye2, stock %notin% 'Nass (Meziadin)') #drop Meziadin (have updated data in another source)
 sockeye2<- subset(sockeye2, stock %notin% 'Goodnews') #drop Goodnews (have updated data in another source)
+#remove these stocks that are updated in the westward series (different names)
+sockeye2<- subset(sockeye2, stock %notin% c('Early Upper Station','Late Upper Station','Chignik Lake','Early Karluk','Late Karluk'))
+length(unique(sockeye2$stock))
+length(unique(sockeye$stock))
 
 #Process the remaining stock data
 sockeye_list=list()
@@ -213,36 +234,224 @@ for(i in 1:length(unique(nass_sockeye$stock))){
 }
 
 #Bristol bay
+bb_info<- subset(sockeye_info,stock %in% bb_soc[,1])
+#remove commas and convert to numeric
+for(t in 3:22){
+bb_soc[,t]=as.numeric(gsub(',','',bb_soc[,t]))
+}
 
-bb_info<- subset(sockeye_info,stock %in% bb_sockeye$system)
 
-for(i in 1:length(unique(bb_sockeye$system))){
-  s=subset(bb_sockeye,system==unique(bb_sockeye$system)[i])
-  s=s[complete.cases(s$rps),]
+for(i in 1:length(unique(bb_soc[,1]))){
+  s=subset(bb_soc,bb_soc[,1]==unique(bb_soc[,1])[i])
+  s=s[complete.cases(s$R.S),]
+  
+  names(s)=c('stock','broodyear','r0.1','r0.2','r0.3','r0.4','r0.5','r1.1','r1.2','r1.3','r1.4','r1.5',
+             'r2.1','r2.2','r2.3','r2.4','r3.1','r3.2','r3.3','r3.4','spawners','recruits','RS')
+  s$species='Sockeye'
+  
   stock_dat_temp=data.frame(stock.id=NA,species=NA,stock.name=NA,lat=NA,lon=NA,ocean.basin=NA,state=NA,begin=NA,end=NA,n.years=NA,max.spawners=NA,max.recruits=NA,source=NA,url=NA,comments=NA)
   
   stock_dat_temp[,1]=NA
   stock_dat_temp[,2]='Sockeye'
-  stock_dat_temp[,3]=paste(unique(s$system),'Sockeye',sep='-')
+  stock_dat_temp[,3]=paste(unique(s$stock),'Sockeye',sep='-')
   stock_dat_temp[,4]=bb_info$lat[i] #lat 
   stock_dat_temp[,5]=bb_info$lon[i] #lon
   stock_dat_temp[,6]='BS' #Bering Sea
   stock_dat_temp[,7]='AK' #Alaska
   
-  stock_dat_temp[,8]=min(s$broodYr)
-  stock_dat_temp[,9]=max(s$broodYr)
-  stock_dat_temp[,10]=length(s$broodYr)
-  stock_dat_temp[,11]=max(s$spawn)
-  stock_dat_temp[,12]=max(s$rec)
-  stock_dat_temp[,13]='Curry Cunningham, U. of Alaska Fairbanks, 2023'
+  stock_dat_temp[,8]=min(s$broodyear)
+  stock_dat_temp[,9]=max(s$broodyear)
+  stock_dat_temp[,10]=length(s$broodyear)
+  stock_dat_temp[,11]=max(s$spawners)
+  stock_dat_temp[,12]=max(s$recruits)
+  stock_dat_temp[,13]='A. Munro,2023'
   stock_dat_temp[,15]=NA
   
   stock_dat=rbind(stock_dat,stock_dat_temp)
   
-  names(s)=c('stock','broodyear','spawners','recruits','rps','rec_part','rps_part')
-  s$species='Sockeye'
+  sockeye_list[[nrow(stock_dat)]]=s[,c('stock','species','broodyear','recruits','spawners',names(s)[3:20])]
+}
+
+#Kasilof
+kasilof_soc
+names(kasilof_soc)[1:3]=c('stock','broodyear','spawners')
+names(kasilof_soc)[4:17]=gsub('X','r',names(kasilof_soc)[4:17])
+names(kasilof_soc)[18:21]=c('run','recruits','catch','RS')
+kasilof_soc$species='Sockeye'
+
+kasilof_soc=kasilof_soc[complete.cases(kasilof_soc$RS),]
+
+stock_dat_temp=data.frame(stock.id=NA,species=NA,stock.name=NA,lat=NA,lon=NA,ocean.basin=NA,state=NA,begin=NA,end=NA,n.years=NA,max.spawners=NA,max.recruits=NA,source=NA,url=NA,comments=NA)
+
+kasilof_info=subset(sockeye_info,stock=='Kasilof')
+stock_dat_temp[,1]=NA
+stock_dat_temp[,2]='Sockeye'
+stock_dat_temp[,3]=paste(unique(kasilof_soc$stock),'Sockeye',sep='-')
+stock_dat_temp[,4]=kasilof_info$lat #lat 
+stock_dat_temp[,5]=kasilof_info$lon #lon
+stock_dat_temp[,6]='GOA' #Gulf of Alaska
+stock_dat_temp[,7]='AK' #Alaska
+
+stock_dat_temp[,8]=min(kasilof_soc$broodyear)
+stock_dat_temp[,9]=max(kasilof_soc$broodyear)
+stock_dat_temp[,10]=length(kasilof_soc$broodyear)
+stock_dat_temp[,11]=max(kasilof_soc$spawners)
+stock_dat_temp[,12]=max(kasilof_soc$recruits)
+stock_dat_temp[,13]='A. Munro,2023'
+stock_dat_temp[,15]=NA
+
+stock_dat=rbind(stock_dat,stock_dat_temp)
+
+sockeye_list[[nrow(stock_dat)]]=kasilof_soc[,c('stock','species','broodyear','recruits','spawners',names(kasilof_soc)[4:17])]
+
+#Kenai
+kenai_soc
+names(kenai_soc)[1:3]=c('stock','broodyear','spawners')
+names(kenai_soc)[4:18]=gsub('X','r',names(kenai_soc)[4:18])
+names(kenai_soc)[19:22]=c('run','recruits','catch','RS')
+kenai_soc$species='Sockeye'
+
+kenai_soc=kenai_soc[complete.cases(kenai_soc$RS),]
+
+stock_dat_temp=data.frame(stock.id=NA,species=NA,stock.name=NA,lat=NA,lon=NA,ocean.basin=NA,state=NA,begin=NA,end=NA,n.years=NA,max.spawners=NA,max.recruits=NA,source=NA,url=NA,comments=NA)
+
+kenai_info=subset(sockeye_info,stock=='Kenai')
+stock_dat_temp[,1]=NA
+stock_dat_temp[,2]='Sockeye'
+stock_dat_temp[,3]=paste(unique(kenai_soc$stock),'Sockeye',sep='-')
+stock_dat_temp[,4]=kenai_info$lat #lat 
+stock_dat_temp[,5]=kenai_info$lon #lon
+stock_dat_temp[,6]='GOA' #Gulf of Alaska
+stock_dat_temp[,7]='AK' #Alaska
+
+stock_dat_temp[,8]=min(kenai_soc$broodyear)
+stock_dat_temp[,9]=max(kenai_soc$broodyear)
+stock_dat_temp[,10]=length(kenai_soc$broodyear)
+stock_dat_temp[,11]=max(kenai_soc$spawners)
+stock_dat_temp[,12]=max(kenai_soc$recruits)
+stock_dat_temp[,13]='A. Munro,2023'
+stock_dat_temp[,15]=NA
+
+stock_dat=rbind(stock_dat,stock_dat_temp)
+
+sockeye_list[[nrow(stock_dat)]]=kenai_soc[,c('stock','species','broodyear','recruits','spawners',names(kenai_soc)[4:17])]
+#Goodnews
+mfgn_soc
+names(mfgn_soc)[1:3]=c('stock','broodyear','spawners')
+names(mfgn_soc)[4:16]=gsub('X','r',names(mfgn_soc)[4:16])
+names(mfgn_soc)[17:18]=c('recruits','RS')
+mfgn_soc$species='Sockeye'
+
+mfgn_soc=mfgn_soc[complete.cases(mfgn_soc$RS),]
+mfgn_soc=subset(mfgn_soc,recruits!=0)#remove estimates without full recruits
+
+stock_dat_temp=data.frame(stock.id=NA,species=NA,stock.name=NA,lat=NA,lon=NA,ocean.basin=NA,state=NA,begin=NA,end=NA,n.years=NA,max.spawners=NA,max.recruits=NA,source=NA,url=NA,comments=NA)
+
+mfgn_info=subset(sockeye_info,stock=='Goodnews')
+stock_dat_temp[,1]=NA
+stock_dat_temp[,2]='Sockeye'
+stock_dat_temp[,3]=paste(unique(mfgn_soc$stock),'Sockeye',sep='-')
+stock_dat_temp[,4]=mfgn_info$lat #lat 
+stock_dat_temp[,5]=mfgn_info$lon #lon
+stock_dat_temp[,6]='BS' #Bering sea
+stock_dat_temp[,7]='AK' #Alaska
+
+stock_dat_temp[,8]=min(mfgn_soc$broodyear)
+stock_dat_temp[,9]=max(mfgn_soc$broodyear)
+stock_dat_temp[,10]=length(mfgn_soc$broodyear)
+stock_dat_temp[,11]=max(mfgn_soc$spawners)
+stock_dat_temp[,12]=max(mfgn_soc$recruits)
+stock_dat_temp[,13]='A. Munro,2023'
+stock_dat_temp[,15]=NA
+
+stock_dat=rbind(stock_dat,stock_dat_temp)
+
+sockeye_list[[nrow(stock_dat)]]=mfgn_soc[,c('stock','species','broodyear','recruits','spawners',names(mfgn_soc)[4:17])]
+
+#SEAK stocks
+seak_soc
+names(seak_soc)[1:4]=c('stock','broodyear','spawners','recruits')
+names(seak_soc)[5:11]=c('r2','r3','r4','r5','r6','r7','r8')
+seak_soc$species='Sockeye'
+
+for(i in 1:length(unique(seak_soc$stock))){
+  s=subset(seak_soc,seak_soc$stock==unique(seak_soc$stock)[i])
+  s=s[complete.cases(s$spawners&s$recruits),]
   
-  sockeye_list[[nrow(stock_dat)]]=s[,c('stock','species','broodyear','recruits','spawners')]
+  stock_dat_temp=data.frame(stock.id=NA,species=NA,stock.name=NA,lat=NA,lon=NA,ocean.basin=NA,state=NA,begin=NA,end=NA,n.years=NA,max.spawners=NA,max.recruits=NA,source=NA,url=NA,comments=NA)
+  
+  stock_dat_temp[,1]=NA
+  stock_dat_temp[,2]='Sockeye'
+  stock_dat_temp[,3]=paste(unique(s$stock),'Sockeye',sep='-')
+  stock_dat_temp[,4]=sockeye_info$lat[match(unique(s$stock),sockeye_info$stock)] #lat 
+  stock_dat_temp[,5]=sockeye_info$lon[match(unique(s$stock),sockeye_info$stock)] #lon
+  stock_dat_temp[,6]='GOA' #Bering Sea
+  stock_dat_temp[,7]='AK' #Alaska
+  
+  stock_dat_temp[,8]=min(s$broodyear)
+  stock_dat_temp[,9]=max(s$broodyear)
+  stock_dat_temp[,10]=length(s$broodyear)
+  stock_dat_temp[,11]=max(s$spawners)
+  stock_dat_temp[,12]=max(s$recruits)
+  stock_dat_temp[,13]='A. Munro,2023'
+  stock_dat_temp[,15]=NA
+  
+  stock_dat=rbind(stock_dat,stock_dat_temp)
+  
+  sockeye_list[[nrow(stock_dat)]]=s[,c('stock','species','broodyear','recruits','spawners',names(s)[5:11])]
+}
+
+#Westward stocks
+ww_info=data.frame(stock=unique(ww_soc$Stock))
+ww_info$lat=sockeye_info$lat[match(ww_info$stock,sockeye_info$stock)]
+ww_info$lon=sockeye_info$lon[match(ww_info$stock,sockeye_info$stock)]
+ww_info$ocean.region=sockeye_info$ocean.region[match(ww_info$stock,sockeye_info$stock)]
+ww_info[1:2,3]=sockeye_info$lon[sockeye_info$stock=='Late Upper Station']
+ww_info[1:2,2]=sockeye_info$lat[sockeye_info$stock=='Late Upper Station']
+ww_info[1:2,3]=sockeye_info$lon[sockeye_info$stock=='Late Upper Station']
+ww_info[1:2,4]=sockeye_info$ocean.region[sockeye_info$stock=='Late Upper Station']
+ww_info[4:5,3]=sockeye_info$lon[sockeye_info$stock=='Late Karluk']
+ww_info[4:5,2]=sockeye_info$lat[sockeye_info$stock=='Late Karluk']
+ww_info[4:5,3]=sockeye_info$lon[sockeye_info$stock=='Late Karluk']
+ww_info[4:5,4]=sockeye_info$ocean.region[sockeye_info$stock=='Late Karluk']
+ww_info[6:7,3]=sockeye_info$lon[sockeye_info$stock=='Chignik Lake']
+ww_info[6:7,2]=sockeye_info$lat[sockeye_info$stock=='Chignik Lake']
+ww_info[6:7,3]=sockeye_info$lon[sockeye_info$stock=='Chignik Lake']
+ww_info[6:7,4]=sockeye_info$ocean.region[sockeye_info$stock=='Chignik Lake']
+
+
+names(ww_soc)[1:3]=c('stock','broodyear','spawners')
+names(ww_soc)[4:25]=gsub('X','r',names(ww_soc[4:25]))
+ww_soc$recruits=rowSums(ww_soc[,4:25],na.rm=T)
+ww_soc$species='Sockeye'
+
+
+for(i in 1:length(unique(ww_soc[,1]))){
+  s=subset(ww_soc,ww_soc[,1]==unique(ww_soc[,1])[i])
+  s=subset(s,broodyear<=2015)
+  
+  
+  stock_dat_temp=data.frame(stock.id=NA,species=NA,stock.name=NA,lat=NA,lon=NA,ocean.basin=NA,state=NA,begin=NA,end=NA,n.years=NA,max.spawners=NA,max.recruits=NA,source=NA,url=NA,comments=NA)
+  
+  stock_dat_temp[,1]=NA
+  stock_dat_temp[,2]='Sockeye'
+  stock_dat_temp[,3]=paste(unique(s$stock),'Sockeye',sep='-')
+  stock_dat_temp[,4]=ww_info$lat[i] #lat 
+  stock_dat_temp[,5]=ww_info$lon[i] #lon
+  stock_dat_temp[,6]=ww_info$ocean.region[i] 
+  stock_dat_temp[,7]='AK' #Alaska
+  
+  stock_dat_temp[,8]=min(s$broodyear)
+  stock_dat_temp[,9]=max(s$broodyear)
+  stock_dat_temp[,10]=length(s$broodyear)
+  stock_dat_temp[,11]=max(as.numeric(gsub(',','',s$spawners)))
+  stock_dat_temp[,12]=max(as.numeric(gsub(',','',s$recruits)))
+  stock_dat_temp[,13]='A. Munro,2023'
+  stock_dat_temp[,15]=NA
+  
+  stock_dat=rbind(stock_dat,stock_dat_temp)
+  
+  sockeye_list[[nrow(stock_dat)]]=s[,c('stock','species','broodyear','recruits','spawners',names(s)[4:25])]
 }
 
 #GCL & Sproat Sockeye
@@ -278,25 +487,11 @@ stock_dat_temp=data.frame(stock.id=NA,species='Sockeye',stock.name='Sproat Lake-
 stock_dat=rbind(stock_dat,stock_dat_temp)
 sockeye_list[[nrow(stock_dat)]]=spt.bt[,c('stock','species','broodyear','recruits','spawners',names(spt.bt)[3:8])]
 
-#Goodnews sockeye
-names(goodnews_soc)[1:16]=c('broodyear','spawners','r0.2','r1.1','r0.3','r1.2','r0.4','r1.3','r2.2','r1.4','r2.3','r3.2','r2.4','r3.3','r3.4','recruits')
-goodnews_soc$stock='Goodnews'
-goodnews_soc$species='Sockeye'
-#get rid of commas
-for(t in 2:16){
-  goodnews_soc[,t]=as.numeric(gsub(',','', goodnews_soc[,t]))
-}
-#subset to last brood year with oldest recruits enumerated
-goodnews_soc= subset(goodnews_soc,broodyear<=2011)
 
-#need to check source from Greg
-stock_dat_temp=data.frame(stock.id=NA,species='Sockeye',stock.name='Goodnews-Sockeye',lat=59.11,lon=-161.6,ocean.basin='BS',state='BC',begin=min(goodnews_soc$broodyear),end=max(goodnews_soc$broodyear),n.years=nrow(goodnews_soc),max.spawners=max(goodnews_soc$spawners),max.recruits=max(goodnews_soc$recruits),source='Greg Ruggerone, 2023',url=NA,comments=NA)
-stock_dat=rbind(stock_dat,stock_dat_temp)
-sockeye_list[[nrow(stock_dat)]]=goodnews_soc[,c('stock','species','broodyear','recruits','spawners',names(goodnews_soc)[3:15])]
-
+#combine list of filtered datasets
 sockeye_filtered = do.call(plyr::rbind.fill, sockeye_list)
-unique(sockeye_filtered$stock)
-stock_dat=subset(stock_dat, n.years>0)
+length(unique(sockeye_filtered$stock))
+
 
 #Chum####
 #Merge in updated WA pink series
@@ -325,7 +520,7 @@ length(unique(chum2$stock))
 #add in PSE chum data and generate a file for H. Hunter project
 pse_chum <- pse_ncc %>%
   subset(SpeciesId == "CM") %>%
-  filter(cu_name_pse %in% c('Hecate Lowlands',
+  filter(CU_Name %in% c('Hecate Lowlands',
                             'Mussel-Kynoch',
                             'Douglas-Gardner',
                             'Lower Skeena',
@@ -448,6 +643,16 @@ length(unique(pink2$stock))
 
 pse_pink <- pse_ncc %>%
   filter(SpeciesId %in% c("PKe", "PKo")) %>%
+  filter(CU_Name %in% c('Hecate Lowlands',
+                            'Hecate Strait-Fjords (even)',
+                            'Nass-Skeena Estuary (even)',
+                            'Middle-Upper Skeena (even)',
+                            'Hecate Strait-Lowlands',
+                            'Hecate Strait-Fjords (odd)',
+                            'Nass-Skeena Estuary (odd)',
+                            'Middle-Upper Skeena (odd)'
+                            
+    )) %>%
   drop_na(Total) %>% # drop incomplete brood years 
   rename(stock = CU_Name) %>%
   left_join(pink_info, by = "stock") %>%
@@ -719,7 +924,7 @@ stock_dat[row.n,13]=chinook_source$title[chinook_info$source.id[24]]
 
 chinook_list[[24]]=nicola_recruits[,c('stock','species','broodyear','recruits','spawners')]
 
-chinook_filtered = Rdo.call(plyr::rbind.fill,chinook_list)
+chinook_filtered = do.call(plyr::rbind.fill, sockeye_list)
 
 
 #Coho####
@@ -813,7 +1018,6 @@ cc_comp$stock.name<- paste(cc_comp$stock,cc_comp$species,sep='-')
 cc_comp<- subset(cc_comp, species %in% c('Chinook','Coho'))
 cc_comp2<- subset(cc_comp, stock.name %notin% stock_dat$stock.name)
 
-unique(cc_comp2$stock.name)
 
 #Approximate lat/lons for these stocks taken from google maps - at mouth of the river system
 alsek_klukshu=cbind(59.1348,-138.6067)
@@ -914,3 +1118,4 @@ filtered_productivity_data$stock.id=stock_dat$stock.id[match(filtered_productivi
 rownames(stock_dat)=NULL
 write.csv(filtered_productivity_data,here('data','filtered datasets',paste('salmon_productivity_compilation',Sys.Date(),'.csv',sep='')))
 write.csv(stock_dat,here('data','filtered datasets',paste('stock_info',Sys.Date(),'.csv',sep='')))
+
