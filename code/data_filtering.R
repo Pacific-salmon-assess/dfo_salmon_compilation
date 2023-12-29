@@ -305,9 +305,8 @@ stock_dat=rbind(stock_dat,stock_dat_temp)
 sockeye_list[[nrow(stock_dat)]]=kasilof_soc[,c('stock','species','broodyear','recruits','spawners',names(kasilof_soc)[4:17])]
 
 #Kenai
-kenai_soc
 names(kenai_soc)[1:3]=c('stock','broodyear','spawners')
-names(kenai_soc)[4:18]=gsub('X','r',names(kenai_soc)[4:18])
+names(kenai_soc)[5:18]=gsub('X','r',names(kenai_soc)[5:18])
 names(kenai_soc)[19:22]=c('run','recruits','catch','RS')
 kenai_soc$species='Sockeye'
 
@@ -334,9 +333,9 @@ stock_dat_temp[,15]=NA
 
 stock_dat=rbind(stock_dat,stock_dat_temp)
 
-sockeye_list[[nrow(stock_dat)]]=kenai_soc[,c('stock','species','broodyear','recruits','spawners',names(kenai_soc)[4:17])]
+sockeye_list[[nrow(stock_dat)]]=kenai_soc[,c('stock','species','broodyear','recruits','spawners',names(kenai_soc)[5:18])]
 #Goodnews
-mfgn_soc
+head(mfgn_soc)
 names(mfgn_soc)[1:3]=c('stock','broodyear','spawners')
 names(mfgn_soc)[4:16]=gsub('X','r',names(mfgn_soc)[4:16])
 names(mfgn_soc)[17:18]=c('recruits','RS')
@@ -366,7 +365,7 @@ stock_dat_temp[,15]=NA
 
 stock_dat=rbind(stock_dat,stock_dat_temp)
 
-sockeye_list[[nrow(stock_dat)]]=mfgn_soc[,c('stock','species','broodyear','recruits','spawners',names(mfgn_soc)[4:17])]
+sockeye_list[[nrow(stock_dat)]]=mfgn_soc[,c('stock','species','broodyear','recruits','spawners',names(mfgn_soc)[4:16])]
 
 #SEAK stocks
 seak_soc
@@ -1114,6 +1113,12 @@ stock_dat$stock.id=seq(1:nrow(stock_dat))
 filtered_productivity_data$stock=paste(filtered_productivity_data$stock,filtered_productivity_data$species,sep='-')
 filtered_productivity_data$stock.id=stock_dat$stock.id[match(filtered_productivity_data$stock,stock_dat$stock.name)]
 
+filtered_productivity_data1=filtered_productivity_data[,1:5]
+filtered_productivity_data2=filtered_productivity_data[,6:43]
+
+
+filtered_productivity_data2=filtered_productivity_data2[,order(names(filtered_productivity_data2))]
+filtered_productivity_data=cbind(filtered_productivity_data1,filtered_productivity_data2)
 #Write datasets
 rownames(stock_dat)=NULL
 write.csv(filtered_productivity_data,here('data','filtered datasets',paste('salmon_productivity_compilation',Sys.Date(),'.csv',sep='')))
