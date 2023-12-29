@@ -427,8 +427,9 @@ ww_soc$species='Sockeye'
 
 for(i in 1:length(unique(ww_soc[,1]))){
   s=subset(ww_soc,ww_soc[,1]==unique(ww_soc[,1])[i])
-  s=subset(s,broodyear<=2015)
-  
+  s=s[complete.cases(s$r0.2),] #some early cohorts missing age classes
+  s=subset(s,broodyear<=2015) #missing age classes past this year
+
   
   stock_dat_temp=data.frame(stock.id=NA,species=NA,stock.name=NA,lat=NA,lon=NA,ocean.basin=NA,state=NA,begin=NA,end=NA,n.years=NA,max.spawners=NA,max.recruits=NA,source=NA,url=NA,comments=NA)
   
