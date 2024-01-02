@@ -688,7 +688,7 @@ pink_list=list()
 for(i in 1:length(unique(pink3$stock.id))){
   s=subset(pink3,stock.id==unique(pink3$stock.id)[i])
   s_info<- subset(pink_info,stock.id==unique(pink3$stock.id)[i])
-  s_use=subset(s,use==1) %>% subset(is.na(spawners)==F&is.na(recruits)==F)
+  s_use=subset(s,use==1) %>% subset(is.na(spawners)==F&is.na(recruits)==F) %>% subset(spawners>1)
   s_use<- subset(s_use,spawners!=0&recruits!=0)
   odd.yrs=ifelse(s_use$broodyear %% 2 == 0,0,1)
   s_use$odd=odd.yrs
@@ -1107,9 +1107,10 @@ cc_comp_filtered<- do.call(plyr::rbind.fill, cc_comp_list)
 
 #Print out data####
 filtered_productivity_data=full_join(chinook_filtered,chum_filtered) %>% full_join(coho_filtered) %>% full_join(pink_filtered) %>% full_join(sockeye_filtered) %>% full_join(cc_comp_filtered)
+filtered_productivity_data=subset(filtered_productivity_data,spawners>1)
 
 #Stock overview
-stock_dat=subset(stock_dat,n.years>0)
+stock_dat= subset(stock_dat,n.years>0)
 stock_dat$stock.id=seq(1:nrow(stock_dat))
 filtered_productivity_data$stock=paste(filtered_productivity_data$stock,filtered_productivity_data$species,sep='-')
 filtered_productivity_data$stock.id=stock_dat$stock.id[match(filtered_productivity_data$stock,stock_dat$stock.name)]
@@ -1120,6 +1121,7 @@ filtered_productivity_data2=filtered_productivity_data[,6:43]
 
 filtered_productivity_data2=filtered_productivity_data2[,order(names(filtered_productivity_data2))]
 filtered_productivity_data=cbind(filtered_productivity_data1,filtered_productivity_data2)
+filtered_productivity_data$logRS=log(filtered_productivity_data$recruits/filtered_productivity_data$spawners)
 #Write datasets
 rownames(stock_dat)=NULL
 write.csv(filtered_productivity_data,here('data','filtered datasets',paste('salmon_productivity_compilation',Sys.Date(),'.csv',sep='')))
