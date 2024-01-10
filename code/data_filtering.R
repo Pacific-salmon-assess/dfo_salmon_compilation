@@ -61,7 +61,7 @@ names(cc_comp)<- gsub('broodYr','broodyear',names(cc_comp));names(cc_comp)<- gsu
 names(cow_chin)[1]='stock.id'
 names(psc_fraser_sockeye)[1]='stock';names(psc_fraser_sockeye)[3]='broodyear'
 names(psc_fraser_sockeye)[9:21]=gsub('recruits_age','r',names(psc_fraser_sockeye)[9:21])
-names(psc_fraser_sockeye)[9:21]=paste(substring(names(psc_fraser_sockeye)[9:21],1,2),substring(names(psc_fraser_sockeye)[9:21],3,3),sep='.')
+names(psc_fraser_sockeye)[9:21]=gr_to_euro(names(psc_fraser_sockeye)[9:21])
 names(ifr_coho)[1]='stock';names(ifr_coho)[4]='spawners';names(ifr_coho)[5]='recruits'
 names(harrison_chin)[1]='broodyear';names(harrison_chin)[4]='spawners';names(harrison_chin)[5]='recruits'
 names(shuswap_chin)[1]='broodyear';names(shuswap_chin)[4]='spawners';names(shuswap_chin)[5]='recruits'
@@ -1116,7 +1116,7 @@ filtered_productivity_data$stock=paste(filtered_productivity_data$stock,filtered
 filtered_productivity_data$stock.id=stock_dat$stock.id[match(filtered_productivity_data$stock,stock_dat$stock.name)]
 
 filtered_productivity_data1=filtered_productivity_data[,1:5]
-filtered_productivity_data2=filtered_productivity_data[,6:43]
+filtered_productivity_data2=filtered_productivity_data[,6:36]
 
 
 filtered_productivity_data2=filtered_productivity_data2[,order(names(filtered_productivity_data2))]

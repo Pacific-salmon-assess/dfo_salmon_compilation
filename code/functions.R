@@ -14,6 +14,17 @@ assignCol<- function(x,cols,breaks){
   sapply(x$broodyear,whichColour,cols=cols,breaks=breaks)
 }
 
+#convert gilbert-rich naming to european
+gr_to_euro<-function(x){
+  # names in the format 'rxy' or 'recruits_xy'
+  f_age <- as.numeric(substr(x, nchar(x), nchar(x)))-1 #extract last element, -1 for f_age
+  tot_age <- as.numeric(substr(x, nchar(x)-1, nchar(x)-1))-1
+  oc_age <- tot_age - f_age
+  
+  eur.names <- paste0("r", f_age, ".", oc_age)
+  return(eur.names)
+}
+
 #Plot function - recruit per spawner & SR plot by time
 plot_SR=function(x,m,path){ #x = dataset, m = S-R model fit, path = desired output folder
   x_new<- seq(min(x$spawners),max(x$spawners))
