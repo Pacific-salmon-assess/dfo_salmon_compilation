@@ -627,7 +627,7 @@ pi_upd$stock.id=ifelse(pi_upd$stock.id==208,max(pink$stock.id)+1,pi_upd$stock.id
 pi_upd$stock.id=ifelse(pi_upd$stock.id==209,max(pink$stock.id)+2,pi_upd$stock.id)
 #add info
 pink_info[nrow(pink_info)+1,1:9]=c(max(pi_upd$stock.id)-1,'Pink',unique(pi_upd$stock)[8],'Inside WA','Inside WA','WA',47.101, -122.706,7)
-pink_info[nrow(pink_info)+1,1:9]=c(max(pi_upd$stock.id),'Pink',unique(pi_upd$stock)[9],'Inside WA','Inside WA','WA',447.16, -122.91,7)
+pink_info[nrow(pink_info)+1,1:9]=c(max(pi_upd$stock.id),'Pink',unique(pi_upd$stock)[9],'Inside WA','Inside WA','WA',47.16, -122.91,7)
 pink_info$ocean.region[c(nrow(pink_info)-1,nrow(pink_info))]='WC'
 pink_source[7,1:2]=c(7,'Marisa Litz, WDFW, April 2023')
 pink_info$source.id[1:7]=7
