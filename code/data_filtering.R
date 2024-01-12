@@ -681,6 +681,10 @@ pse_pink2 <- pse_all %>%
 
 pink3<- rbind(pink2,pse_pink,pse_pink2)
 
+pink3$stock<- gsub(" (even)", "", pink3$stock, fixed=T) # drop (even) and (odd)
+pink3$stock<- gsub(" (odd)", "", pink3$stock, fixed=T)
+
+
 pink3 <- pink3 %>% #drop north and central coast stocks that have been replaced with CU level reconstructions from PSE
   filter(!stock %in% c("Area 10", "Area 9", "Area 8", "Area 7", "Area 6", "Area 5", "Area 4", "Area 3", "Area 2W", "Area 2E", "Area 1","BC South (no Fraser)") )
 
