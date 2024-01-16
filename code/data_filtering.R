@@ -792,14 +792,14 @@ pink_filtered<- do.call(plyr::rbind.fill, pink_list)
 #Chinook####
 #Add in Cowichan chinook
 chinook=rbind(chinook,cow_chin) #add in S-R data
-chinook_info[21,1:7]=c(333,'Chinook','Cowichan','WC','Vancouver Island','Vancouver Island','BC');chinook_info$lat[21]=48.7581;chinook_info$lon[21]=-123.6242;chinook_info$source.id[21]=10 #add in metadata
+chinook_info[21,1:7]=c(333,'Chinook','Cowichan','WC','Vancouver Island','Vancouver Island','BC');chinook_info$lat[21]=48.7581;chinook_info$lon[21]=-123.6242;chinook_info$source.id[21]=11 #add in metadata
 
-chinook_info[22,1:7]=c(334,'Chinook','Harrison','WC','Fraser River','Vancouver Island','BC');chinook_info$lat[22]=sockeye_info$lat[2];chinook_info$lon[22]=sockeye_info$lon[2];chinook_info$source.id[22]=11 #add in metadata
-chinook_info[23,1:7]=c(335,'Chinook','Lower Shuswap','WC','Fraser River','Fraser River','BC');chinook_info$lat[23]=sockeye_info$lat[2];chinook_info$lon[23]=sockeye_info$lon[2];chinook_info$source.id[23]=11 #add in metadata
-chinook_info[24,1:7]=c(336,'Chinook','Nicola','WC','Fraser River','Fraser River','BC');chinook_info$lat[24]=sockeye_info$lat[2];chinook_info$lon[24]=sockeye_info$lon[2];chinook_info$source.id[24]=12 #add in metadata
-chinook_source[10,1]=10;chinook_source$title[10]='Karalea Cantera, DFO, 2022' #add in source
-chinook_source[11,1]=11;chinook_source$title[11]='Chucken Parken, DFO, 2022' #add in source
-chinook_source[12,1]=12;chinook_source$title[12]='Luke Warkentin, DFO, 2022' #add in source
+chinook_info[22,1:7]=c(334,'Chinook','Harrison','WC','Fraser River','Vancouver Island','BC');chinook_info$lat[22]=sockeye_info$lat[2];chinook_info$lon[22]=sockeye_info$lon[2];chinook_info$source.id[22]=12 #add in metadata
+chinook_info[23,1:7]=c(335,'Chinook','Lower Shuswap','WC','Fraser River','Fraser River','BC');chinook_info$lat[23]=sockeye_info$lat[2];chinook_info$lon[23]=sockeye_info$lon[2];chinook_info$source.id[23]=12 #add in metadata
+chinook_info[24,1:7]=c(336,'Chinook','Nicola','WC','Fraser River','Fraser River','BC');chinook_info$lat[24]=sockeye_info$lat[2];chinook_info$lon[24]=sockeye_info$lon[2];chinook_info$source.id[24]=13 #add in metadata
+chinook_source[10,1]=11;chinook_source[11,3]='Karalea Cantera, DFO, 2022' #add in source
+chinook_source[11,1]=12;chinook_source[12,3]='Chucken Parken, DFO, 2022' #add in source
+chinook_source[12,1]=13;chinook_source[13,3]='Luke Warkentin, DFO, 2022' #add in source
 
 chinook_list=list()
 for(i in 1:length(unique(chinook$stock.id))){
@@ -928,7 +928,7 @@ stock_dat[row.n,13]=chinook_source$title[chinook_info$source.id[24]]
 
 chinook_list[[24]]=nicola_recruits[,c('stock','species','broodyear','recruits','spawners')]
 
-chinook_filtered = do.call(plyr::rbind.fill, sockeye_list)
+chinook_filtered = do.call(plyr::rbind.fill, chinook_list)
 
 
 #Coho####
