@@ -65,16 +65,16 @@ names(psc_fraser_sockeye)[9:21]=gr_to_euro(names(psc_fraser_sockeye)[9:21])
 names(ifr_coho)[1]='stock';names(ifr_coho)[4]='spawners';names(ifr_coho)[5]='recruits'
 names(harrison_chin)[1]='broodyear';names(harrison_chin)[4]='spawners';names(harrison_chin)[5]='recruits'
 names(shuswap_chin)[1]='broodyear';names(shuswap_chin)[4]='spawners';names(shuswap_chin)[5]='recruits'
-names(nicola_chin)[3]='broodyear';names(shuswap_chin)[4]='spawners';names(shuswap_chin)[5]='recruits'
+names(nicola_chin)[2]='broodyear';names(shuswap_chin)[4]='spawners';names(shuswap_chin)[5]='recruits'
 
-#add ocean regions to info
+#add ocean regions to info files
 chum_info$ocean.region=sockeye_info$ocean.region[match(chum_info$region,sockeye_info$region)]
 chum_info$ocean.region[1:9]='WC'; chum_info$ocean.region=replace_na(chum_info$ocean.region,"WC")
 pink_info$ocean.region=chum_info$ocean.region[match(pink_info$region,chum_info$region)]
 pink_info$ocean.region=replace_na(pink_info$ocean.region,"WC")
 
 #Sockeye####
-stock_dat=data.frame(stock.id=NA,species=NA,stock.name=NA,lat=NA,lon=NA,ocean.basin=NA,state=NA,begin=NA,end=NA,n.years=NA,max.spawners=NA,max.recruits=NA,source=NA,url=NA,comments=NA)
+stock_dat=data.frame(stock.id=NA,species=NA,stock.name=NA,lat=NA,lon=NA,region=NA,ocean.basin=NA,state=NA,begin=NA,end=NA,n.years=NA,m.spawners=NA,m.recruits=NA,source=NA,url=NA,comments=NA)
 #General stock characteristics, start and end of time-series, number of useable years (removing years with useflags),average spawner and recruit 
 
 #From the top - sockeye compilation
@@ -116,24 +116,25 @@ for(i in 1:length(unique(sockeye2$stock.id))){
   stock_dat[i,3]=paste(unique(s$stock),unique(s$species),sep='-')
   stock_dat[i,4]=unique(s_info$lat)
   stock_dat[i,5]=unique(s_info$lon)
-  stock_dat[i,6]=unique(s_info$ocean.region)
-  stock_dat[i,7]=unique(s_info$jurisdiction)
+  stock_dat[i,6]=unique(s_info$region)
+  stock_dat[i,7]=unique(s_info$ocean.region)
+  stock_dat[i,8]=unique(s_info$jurisdiction)
   
   if(nrow(s_use)!=0){
-    stock_dat[i,8]=min(s_use$broodyear)
-    stock_dat[i,9]=max(s_use$broodyear)
-    stock_dat[i,10]=length(s_use$broodyear)
-    stock_dat[i,11]=max(s_use$spawners)
-    stock_dat[i,12]=max(s_use$recruits)
+    stock_dat[i,9]=min(s_use$broodyear)
+    stock_dat[i,10]=max(s_use$broodyear)
+    stock_dat[i,11]=length(s_use$broodyear)
+    stock_dat[i,12]=mean(s_use$spawners)/1e3
+    stock_dat[i,13]=mean(s_use$recruits)/1e3
   }else{
-    stock_dat[i,8]=NA
     stock_dat[i,9]=NA
-    stock_dat[i,10]=0
-    stock_dat[i,11:12]=NA
+    stock_dat[i,10]=NA
+    stock_dat[i,11]=0
+    stock_dat[i,12:13]=NA
   }
   
-  stock_dat[i,13]=sockeye_source$source[match(s_info$source.id,sockeye_source$source.id)]
-  stock_dat[i,15]=s_info$comment..we.will.update.this.later.
+  stock_dat[i,14]=sockeye_source$source[match(s_info$source.id,sockeye_source$source.id)]
+  stock_dat[i,16]=s_info$comment..we.will.update.this.later.
   
   sockeye_list[[i]]=s_use[,c('stock','species','broodyear','spawners','recruits',names(s_use)[13:33])]
 }
@@ -149,24 +150,23 @@ for(i in 1:length(unique(psc_fraser_sockeye$stock))){
   }
   names(s)[5]='spawners' #use effective female spawners for these stocks
   
-  stock_dat_temp=data.frame(stock.id=NA,species=NA,stock.name=NA,lat=NA,lon=NA,ocean.basin=NA,state=NA,begin=NA,end=NA,n.years=NA,max.spawners=NA,max.recruits=NA,source=NA,url=NA,comments=NA)
-
-  stock_dat_temp[,1]=NA
+  stock_dat_temp=data.frame(stock.id=NA,species=NA,stock.name=NA,lat=NA,lon=NA,region=NA,ocean.basin=NA,state=NA,begin=NA,end=NA,n.years=NA,m.spawners=NA,m.recruits=NA,source=NA,url=NA,comments=NA)
+  
   stock_dat_temp[,2]='Sockeye'
   stock_dat_temp[,3]=paste(unique(s$stock),'Sockeye',sep='-')
   stock_dat_temp[,4]=sockeye_info$lat[2] #lat for mouth of Fraser
   stock_dat_temp[,5]=sockeye_info$lon[2] #lon for mouth of Fraser
-  stock_dat_temp[,6]='WC' #West Coast
-  stock_dat_temp[,7]='BC' #British Columbia
+  stock_dat_temp[,6]='Fraser River' #Fraser River
+  stock_dat_temp[,7]='WC' #West Coast
+  stock_dat_temp[,8]='BC' #British Columbia
   
-  stock_dat_temp[,8]=min(s$broodyear)
-  stock_dat_temp[,9]=max(s$broodyear)
-  stock_dat_temp[,10]=length(s$broodyear)
-  stock_dat_temp[,11]=max(s$spawners)
-  stock_dat_temp[,12]=max(s$recruits)
-  stock_dat_temp[,13]='Eric Taylor, Pacific Salmon Commission, 2022'
-  stock_dat_temp[,15]=NA
-  
+  stock_dat_temp[,9]=min(s$broodyear)
+  stock_dat_temp[,10]=max(s$broodyear)
+  stock_dat_temp[,11]=length(s$broodyear)
+  stock_dat_temp[,12]=mean(s$spawners)/1e3
+  stock_dat_temp[,13]=mean(s$recruits)/1e3
+  stock_dat_temp[,14]='Eric Taylor, Pacific Salmon Commission, 2022'
+
   stock_dat=rbind(stock_dat,stock_dat_temp)
   
   sockeye_list[[nrow(stock_dat)]]=s[,c('stock','species','broodyear','spawners','recruits',names(s)[9:21])]
@@ -180,22 +180,22 @@ for(i in 1:length(unique(skeena_sockeye$stock))){
   if(nrow(s)==0){next}
   s$species<- rep('Sockeye',nrow(s))
  
-  stock_dat_temp=data.frame(stock.id=NA,species=NA,stock.name=NA,lat=NA,lon=NA,ocean.basin=NA,state=NA,begin=NA,end=NA,n.years=NA,max.spawners=NA,max.recruits=NA,source=NA,url=NA,comments=NA)
+  stock_dat_temp=data.frame(stock.id=NA,species=NA,stock.name=NA,lat=NA,lon=NA,region=NA,ocean.basin=NA,state=NA,begin=NA,end=NA,n.years=NA,m.spawners=NA,m.recruits=NA,source=NA,url=NA,comments=NA)
   
-  stock_dat_temp[,1]=unique(s$stock)
   stock_dat_temp[,2]='Sockeye'
   stock_dat_temp[,3]=paste(unique(s$stock),'Sockeye',sep='-')
   stock_dat_temp[,4]=54.2237 #lat need to do these (one for Skeena estuary and one for Nass)
   stock_dat_temp[,5]=-129.831 #lon 
-  stock_dat_temp[,6]='WC'
-  stock_dat_temp[,7]='BC'
+  stock_dat_temp[,6]='BC North'
+  stock_dat_temp[,7]='WC'
+  stock_dat_temp[,8]='BC'
   
-  stock_dat_temp[,8]=min(s$broodyear)
-  stock_dat_temp[,9]=max(s$broodyear)
-  stock_dat_temp[,10]=length(s$broodyear)
-  stock_dat_temp[,11]=max(s$spawners)
-  stock_dat_temp[,12]=max(s$recruits)
-  stock_dat_temp[,13]='Charmaine Carr-Harris, DFO, 2023'
+  stock_dat_temp[,9]=min(s$broodyear)
+  stock_dat_temp[,10]=max(s$broodyear)
+  stock_dat_temp[,11]=length(s$broodyear)
+  stock_dat_temp[,12]=mean(s$spawners)/1e3
+  stock_dat_temp[,13]=mean(s$recruits)/1e3
+  stock_dat_temp[,14]='Charmaine Carr-Harris, DFO, 2023'
   stock_dat_temp[,15]=NA
   
   stock_dat=rbind(stock_dat,stock_dat_temp)
@@ -210,22 +210,22 @@ for(i in 1:length(unique(nass_sockeye$stock))){
   if(nrow(s)==0){next}
   s$species<- rep('Sockeye',nrow(s))
   
-  stock_dat_temp=data.frame(stock.id=NA,species=NA,stock.name=NA,lat=NA,lon=NA,ocean.basin=NA,state=NA,begin=NA,end=NA,n.years=NA,max.spawners=NA,max.recruits=NA,source=NA,url=NA,comments=NA)
+  stock_dat_temp=data.frame(stock.id=NA,species=NA,stock.name=NA,lat=NA,lon=NA,region=NA,ocean.basin=NA,state=NA,begin=NA,end=NA,n.years=NA,m.spawners=NA,m.recruits=NA,source=NA,url=NA,comments=NA)
   
-  stock_dat_temp[,1]=unique(s$stock)
   stock_dat_temp[,2]='Sockeye'
   stock_dat_temp[,3]=paste(unique(s$stock),'Sockeye',sep='-')
   stock_dat_temp[,4]= 54.9898 #lat - approx ocean entry from google maps
   stock_dat_temp[,5]=-130.02 #lon - approx ocean entry from google maps
-  stock_dat_temp[,6]='WC'
-  stock_dat_temp[,7]='BC'
+  stock_dat_temp[,6]='BC North'
+  stock_dat_temp[,7]='WC'
+  stock_dat_temp[,8]='BC'
   
-  stock_dat_temp[,8]=min(s$broodyear)
-  stock_dat_temp[,9]=max(s$broodyear)
-  stock_dat_temp[,10]=length(s$broodyear)
-  stock_dat_temp[,11]=max(s$spawners)
-  stock_dat_temp[,12]=max(s$recruits)
-  stock_dat_temp[,13]='Charmaine Carr-Harris, DFO, 2023'
+  stock_dat_temp[,9]=min(s$broodyear)
+  stock_dat_temp[,10]=max(s$broodyear)
+  stock_dat_temp[,11]=length(s$broodyear)
+  stock_dat_temp[,12]=mean(s$spawners)/1e3
+  stock_dat_temp[,13]=mean(s$recruits)/1e3
+  stock_dat_temp[,14]='Charmaine Carr-Harris, DFO, 2023'
   stock_dat_temp[,15]=NA
   
   stock_dat=rbind(stock_dat,stock_dat_temp)
@@ -249,31 +249,30 @@ for(i in 1:length(unique(bb_soc[,1]))){
              'r2.1','r2.2','r2.3','r2.4','r3.1','r3.2','r3.3','r3.4','spawners','recruits','RS')
   s$species='Sockeye'
   
-  stock_dat_temp=data.frame(stock.id=NA,species=NA,stock.name=NA,lat=NA,lon=NA,ocean.basin=NA,state=NA,begin=NA,end=NA,n.years=NA,max.spawners=NA,max.recruits=NA,source=NA,url=NA,comments=NA)
+  stock_dat_temp=data.frame(stock.id=NA,species=NA,stock.name=NA,lat=NA,lon=NA,region=NA,ocean.basin=NA,state=NA,begin=NA,end=NA,n.years=NA,m.spawners=NA,m.recruits=NA,source=NA,url=NA,comments=NA)
   
   stock_dat_temp[,1]=NA
   stock_dat_temp[,2]='Sockeye'
   stock_dat_temp[,3]=paste(unique(s$stock),'Sockeye',sep='-')
   stock_dat_temp[,4]=bb_info$lat[i] #lat 
   stock_dat_temp[,5]=bb_info$lon[i] #lon
-  stock_dat_temp[,6]='BS' #Bering Sea
-  stock_dat_temp[,7]='AK' #Alaska
+  stock_dat_temp[,6]='Bristol Bay' #Bering Sea
+  stock_dat_temp[,7]='BS' #Bering Sea
+  stock_dat_temp[,8]='AK' #Alaska
   
-  stock_dat_temp[,8]=min(s$broodyear)
-  stock_dat_temp[,9]=max(s$broodyear)
-  stock_dat_temp[,10]=length(s$broodyear)
-  stock_dat_temp[,11]=max(s$spawners)
-  stock_dat_temp[,12]=max(s$recruits)
-  stock_dat_temp[,13]='A. Munro,2023'
-  stock_dat_temp[,15]=NA
+  stock_dat_temp[,9]=min(s$broodyear)
+  stock_dat_temp[,10]=max(s$broodyear)
+  stock_dat_temp[,11]=length(s$broodyear)
+  stock_dat_temp[,12]=mean(s$spawners)/1e3
+  stock_dat_temp[,13]=mean(s$recruits)/1e3
+  stock_dat_temp[,14]='A. Munro,2023'
   
   stock_dat=rbind(stock_dat,stock_dat_temp)
   
   sockeye_list[[nrow(stock_dat)]]=s[,c('stock','species','broodyear','recruits','spawners',names(s)[3:20])]
 }
 
-#Kasilof
-kasilof_soc
+#Kasilof Sockeye
 names(kasilof_soc)[1:3]=c('stock','broodyear','spawners')
 names(kasilof_soc)[4:17]=gsub('X','r',names(kasilof_soc)[4:17])
 names(kasilof_soc)[18:21]=c('run','recruits','catch','RS')
@@ -281,24 +280,23 @@ kasilof_soc$species='Sockeye'
 
 kasilof_soc=kasilof_soc[complete.cases(kasilof_soc$RS),]
 
-stock_dat_temp=data.frame(stock.id=NA,species=NA,stock.name=NA,lat=NA,lon=NA,ocean.basin=NA,state=NA,begin=NA,end=NA,n.years=NA,max.spawners=NA,max.recruits=NA,source=NA,url=NA,comments=NA)
+stock_dat_temp=data.frame(stock.id=NA,species=NA,stock.name=NA,lat=NA,lon=NA,region=NA,ocean.basin=NA,state=NA,begin=NA,end=NA,n.years=NA,m.spawners=NA,m.recruits=NA,source=NA,url=NA,comments=NA)
 
 kasilof_info=subset(sockeye_info,stock=='Kasilof')
-stock_dat_temp[,1]=NA
 stock_dat_temp[,2]='Sockeye'
 stock_dat_temp[,3]=paste(unique(kasilof_soc$stock),'Sockeye',sep='-')
 stock_dat_temp[,4]=kasilof_info$lat #lat 
 stock_dat_temp[,5]=kasilof_info$lon #lon
-stock_dat_temp[,6]='GOA' #Gulf of Alaska
-stock_dat_temp[,7]='AK' #Alaska
+stock_dat_temp[,6]=kasilof_info$region #Gulf of Alaska
+stock_dat_temp[,7]='GOA' #Gulf of Alaska
+stock_dat_temp[,8]='AK' #Alaska
 
-stock_dat_temp[,8]=min(kasilof_soc$broodyear)
-stock_dat_temp[,9]=max(kasilof_soc$broodyear)
-stock_dat_temp[,10]=length(kasilof_soc$broodyear)
-stock_dat_temp[,11]=max(kasilof_soc$spawners)
-stock_dat_temp[,12]=max(kasilof_soc$recruits)
-stock_dat_temp[,13]='A. Munro,2023'
-stock_dat_temp[,15]=NA
+stock_dat_temp[,9]=min(kasilof_soc$broodyear)
+stock_dat_temp[,10]=max(kasilof_soc$broodyear)
+stock_dat_temp[,11]=length(kasilof_soc$broodyear)
+stock_dat_temp[,12]=mean(kasilof_soc$spawners)/1e3
+stock_dat_temp[,13]=mean(kasilof_soc$recruits)/1e3
+stock_dat_temp[,14]='A. Munro,2023'
 
 stock_dat=rbind(stock_dat,stock_dat_temp)
 
@@ -312,28 +310,28 @@ kenai_soc$species='Sockeye'
 
 kenai_soc=kenai_soc[complete.cases(kenai_soc$RS),]
 
-stock_dat_temp=data.frame(stock.id=NA,species=NA,stock.name=NA,lat=NA,lon=NA,ocean.basin=NA,state=NA,begin=NA,end=NA,n.years=NA,max.spawners=NA,max.recruits=NA,source=NA,url=NA,comments=NA)
+stock_dat_temp=data.frame(stock.id=NA,species=NA,stock.name=NA,lat=NA,lon=NA,region=NA,ocean.basin=NA,state=NA,begin=NA,end=NA,n.years=NA,m.spawners=NA,m.recruits=NA,source=NA,url=NA,comments=NA)
 
 kenai_info=subset(sockeye_info,stock=='Kenai')
-stock_dat_temp[,1]=NA
 stock_dat_temp[,2]='Sockeye'
 stock_dat_temp[,3]=paste(unique(kenai_soc$stock),'Sockeye',sep='-')
 stock_dat_temp[,4]=kenai_info$lat #lat 
 stock_dat_temp[,5]=kenai_info$lon #lon
-stock_dat_temp[,6]='GOA' #Gulf of Alaska
-stock_dat_temp[,7]='AK' #Alaska
+stock_dat_temp[,6]=kenai_info$region #Gulf of Alaska
+stock_dat_temp[,7]='GOA' #Gulf of Alaska
+stock_dat_temp[,8]='AK' #Alaska
 
-stock_dat_temp[,8]=min(kenai_soc$broodyear)
-stock_dat_temp[,9]=max(kenai_soc$broodyear)
-stock_dat_temp[,10]=length(kenai_soc$broodyear)
-stock_dat_temp[,11]=max(kenai_soc$spawners)
-stock_dat_temp[,12]=max(kenai_soc$recruits)
-stock_dat_temp[,13]='A. Munro,2023'
-stock_dat_temp[,15]=NA
+stock_dat_temp[,9]=min(kenai_soc$broodyear)
+stock_dat_temp[,10]=max(kenai_soc$broodyear)
+stock_dat_temp[,11]=length(kenai_soc$broodyear)
+stock_dat_temp[,12]=mean(kenai_soc$spawners)/1e3
+stock_dat_temp[,13]=mean(kenai_soc$recruits)/1e3
+stock_dat_temp[,14]='A. Munro,2023'
 
 stock_dat=rbind(stock_dat,stock_dat_temp)
 
 sockeye_list[[nrow(stock_dat)]]=kenai_soc[,c('stock','species','broodyear','recruits','spawners',names(kenai_soc)[5:18])]
+
 #Goodnews
 head(mfgn_soc)
 names(mfgn_soc)[1:3]=c('stock','broodyear','spawners')
@@ -344,31 +342,29 @@ mfgn_soc$species='Sockeye'
 mfgn_soc=mfgn_soc[complete.cases(mfgn_soc$RS),]
 mfgn_soc=subset(mfgn_soc,recruits!=0)#remove estimates without full recruits
 
-stock_dat_temp=data.frame(stock.id=NA,species=NA,stock.name=NA,lat=NA,lon=NA,ocean.basin=NA,state=NA,begin=NA,end=NA,n.years=NA,max.spawners=NA,max.recruits=NA,source=NA,url=NA,comments=NA)
+stock_dat_temp=data.frame(stock.id=NA,species=NA,stock.name=NA,lat=NA,lon=NA,region=NA,ocean.basin=NA,state=NA,begin=NA,end=NA,n.years=NA,m.spawners=NA,m.recruits=NA,source=NA,url=NA,comments=NA)
 
 mfgn_info=subset(sockeye_info,stock=='Goodnews')
-stock_dat_temp[,1]=NA
 stock_dat_temp[,2]='Sockeye'
 stock_dat_temp[,3]=paste(unique(mfgn_soc$stock),'Sockeye',sep='-')
 stock_dat_temp[,4]=mfgn_info$lat #lat 
 stock_dat_temp[,5]=mfgn_info$lon #lon
-stock_dat_temp[,6]='BS' #Bering sea
-stock_dat_temp[,7]='AK' #Alaska
+stock_dat_temp[,6]=mfgn_info$region
+stock_dat_temp[,7]='BS' #Bering sea
+stock_dat_temp[,8]='AK' #Alaska
 
-stock_dat_temp[,8]=min(mfgn_soc$broodyear)
-stock_dat_temp[,9]=max(mfgn_soc$broodyear)
-stock_dat_temp[,10]=length(mfgn_soc$broodyear)
-stock_dat_temp[,11]=max(mfgn_soc$spawners)
-stock_dat_temp[,12]=max(mfgn_soc$recruits)
-stock_dat_temp[,13]='A. Munro,2023'
-stock_dat_temp[,15]=NA
+stock_dat_temp[,9]=min(mfgn_soc$broodyear)
+stock_dat_temp[,10]=max(mfgn_soc$broodyear)
+stock_dat_temp[,11]=length(mfgn_soc$broodyear)
+stock_dat_temp[,12]=mean(mfgn_soc$spawners)/1e3
+stock_dat_temp[,13]=mean(mfgn_soc$recruits)/1e3
+stock_dat_temp[,14]='A. Munro,2023'
 
 stock_dat=rbind(stock_dat,stock_dat_temp)
 
 sockeye_list[[nrow(stock_dat)]]=mfgn_soc[,c('stock','species','broodyear','recruits','spawners',names(mfgn_soc)[4:16])]
 
 #SEAK stocks
-seak_soc
 names(seak_soc)[1:4]=c('stock','broodyear','spawners','recruits')
 names(seak_soc)[5:11]=c('r2','r3','r4','r5','r6','r7','r8')
 seak_soc$species='Sockeye'
@@ -377,53 +373,52 @@ for(i in 1:length(unique(seak_soc$stock))){
   s=subset(seak_soc,seak_soc$stock==unique(seak_soc$stock)[i])
   s=s[complete.cases(s$spawners&s$recruits),]
   
-  stock_dat_temp=data.frame(stock.id=NA,species=NA,stock.name=NA,lat=NA,lon=NA,ocean.basin=NA,state=NA,begin=NA,end=NA,n.years=NA,max.spawners=NA,max.recruits=NA,source=NA,url=NA,comments=NA)
+  stock_dat_temp=data.frame(stock.id=NA,species=NA,stock.name=NA,lat=NA,lon=NA,region=NA,ocean.basin=NA,state=NA,begin=NA,end=NA,n.years=NA,m.spawners=NA,m.recruits=NA,source=NA,url=NA,comments=NA)
   
   stock_dat_temp[,1]=NA
   stock_dat_temp[,2]='Sockeye'
   stock_dat_temp[,3]=paste(unique(s$stock),'Sockeye',sep='-')
   stock_dat_temp[,4]=sockeye_info$lat[match(unique(s$stock),sockeye_info$stock)] #lat 
   stock_dat_temp[,5]=sockeye_info$lon[match(unique(s$stock),sockeye_info$stock)] #lon
-  stock_dat_temp[,6]='GOA' #Bering Sea
-  stock_dat_temp[,7]='AK' #Alaska
+  stock_dat_temp[,6]=sockeye_info$region[match(unique(s$stock),sockeye_info$stock)] 
+  stock_dat_temp[,7]='GOA' #Bering Sea
+  stock_dat_temp[,8]='AK' #Alaska
   
-  stock_dat_temp[,8]=min(s$broodyear)
-  stock_dat_temp[,9]=max(s$broodyear)
-  stock_dat_temp[,10]=length(s$broodyear)
-  stock_dat_temp[,11]=max(s$spawners)
-  stock_dat_temp[,12]=max(s$recruits)
-  stock_dat_temp[,13]='A. Munro,2023'
-  stock_dat_temp[,15]=NA
-  
+  stock_dat_temp[,9]=min(s$broodyear)
+  stock_dat_temp[,10]=max(s$broodyear)
+  stock_dat_temp[,11]=length(s$broodyear)
+  stock_dat_temp[,12]=mean(s$spawners)/1e3
+  stock_dat_temp[,13]=mean(s$recruits)/1e3
+  stock_dat_temp[,14]='A. Munro,2023'
+
   stock_dat=rbind(stock_dat,stock_dat_temp)
   
   sockeye_list[[nrow(stock_dat)]]=s[,c('stock','species','broodyear','recruits','spawners',names(s)[5:11])]
 }
 
-#Westward stocks
+#Westward stocks - kodiak
 ww_info=data.frame(stock=unique(ww_soc$Stock))
 ww_info$lat=sockeye_info$lat[match(ww_info$stock,sockeye_info$stock)]
 ww_info$lon=sockeye_info$lon[match(ww_info$stock,sockeye_info$stock)]
+ww_info$region=c(rep('Kodiak',5),rep('Chignik',2),rep('AYK',2))
 ww_info$ocean.region=sockeye_info$ocean.region[match(ww_info$stock,sockeye_info$stock)]
 ww_info[1:2,3]=sockeye_info$lon[sockeye_info$stock=='Late Upper Station']
 ww_info[1:2,2]=sockeye_info$lat[sockeye_info$stock=='Late Upper Station']
 ww_info[1:2,3]=sockeye_info$lon[sockeye_info$stock=='Late Upper Station']
-ww_info[1:2,4]=sockeye_info$ocean.region[sockeye_info$stock=='Late Upper Station']
+ww_info[1:2,5]=sockeye_info$ocean.region[sockeye_info$stock=='Late Upper Station']
 ww_info[4:5,3]=sockeye_info$lon[sockeye_info$stock=='Late Karluk']
 ww_info[4:5,2]=sockeye_info$lat[sockeye_info$stock=='Late Karluk']
 ww_info[4:5,3]=sockeye_info$lon[sockeye_info$stock=='Late Karluk']
-ww_info[4:5,4]=sockeye_info$ocean.region[sockeye_info$stock=='Late Karluk']
+ww_info[4:5,5]=sockeye_info$ocean.region[sockeye_info$stock=='Late Karluk']
 ww_info[6:7,3]=sockeye_info$lon[sockeye_info$stock=='Chignik Lake']
 ww_info[6:7,2]=sockeye_info$lat[sockeye_info$stock=='Chignik Lake']
 ww_info[6:7,3]=sockeye_info$lon[sockeye_info$stock=='Chignik Lake']
-ww_info[6:7,4]=sockeye_info$ocean.region[sockeye_info$stock=='Chignik Lake']
-
+ww_info[6:7,5]=sockeye_info$ocean.region[sockeye_info$stock=='Chignik Lake']
 
 names(ww_soc)[1:3]=c('stock','broodyear','spawners')
 names(ww_soc)[4:25]=gsub('X','r',names(ww_soc[4:25]))
 ww_soc$recruits=rowSums(ww_soc[,4:25],na.rm=T)
 ww_soc$species='Sockeye'
-
 
 for(i in 1:length(unique(ww_soc[,1]))){
   s=subset(ww_soc,ww_soc[,1]==unique(ww_soc[,1])[i])
@@ -431,22 +426,23 @@ for(i in 1:length(unique(ww_soc[,1]))){
   s=subset(s,broodyear<=2015) #missing age classes past this year
 
   
-  stock_dat_temp=data.frame(stock.id=NA,species=NA,stock.name=NA,lat=NA,lon=NA,ocean.basin=NA,state=NA,begin=NA,end=NA,n.years=NA,max.spawners=NA,max.recruits=NA,source=NA,url=NA,comments=NA)
+  stock_dat_temp=data.frame(stock.id=NA,species=NA,stock.name=NA,lat=NA,lon=NA,region=NA,ocean.basin=NA,state=NA,begin=NA,end=NA,n.years=NA,m.spawners=NA,m.recruits=NA,source=NA,url=NA,comments=NA)
   
   stock_dat_temp[,1]=NA
   stock_dat_temp[,2]='Sockeye'
   stock_dat_temp[,3]=paste(unique(s$stock),'Sockeye',sep='-')
   stock_dat_temp[,4]=ww_info$lat[i] #lat 
   stock_dat_temp[,5]=ww_info$lon[i] #lon
-  stock_dat_temp[,6]=ww_info$ocean.region[i] 
-  stock_dat_temp[,7]='AK' #Alaska
+  stock_dat_temp[,6]=ww_info$region[i] 
+  stock_dat_temp[,7]=ww_info$ocean.region[i] 
+  stock_dat_temp[,8]='AK' #Alaska
   
-  stock_dat_temp[,8]=min(s$broodyear)
-  stock_dat_temp[,9]=max(s$broodyear)
-  stock_dat_temp[,10]=length(s$broodyear)
-  stock_dat_temp[,11]=max(as.numeric(gsub(',','',s$spawners)))
-  stock_dat_temp[,12]=max(as.numeric(gsub(',','',s$recruits)))
-  stock_dat_temp[,13]='A. Munro,2023'
+  stock_dat_temp[,9]=min(s$broodyear)
+  stock_dat_temp[,10]=max(s$broodyear)
+  stock_dat_temp[,11]=length(s$broodyear)
+  stock_dat_temp[,12]=mean(as.numeric(gsub(',','',s$spawners)))/1e3
+  stock_dat_temp[,13]=mean(as.numeric(gsub(',','',s$recruits)))/1e3
+  stock_dat_temp[,14]='A. Munro,2023'
   stock_dat_temp[,15]=NA
   
   stock_dat=rbind(stock_dat,stock_dat_temp)
@@ -468,7 +464,7 @@ gcl.bt=gcl2[complete.cases(gcl2$recruits/gcl2$spawners),]
 names(gcl.bt)[1:2]=c('stock','broodyear')
 gcl.bt$species='Sockeye'
 
-stock_dat_temp=data.frame(stock.id=NA,species='Sockeye',stock.name='Great Central Lake-Sockeye',lat=49.24,lon=-124.8,ocean.basin='WC',state='BC',begin=min(gcl.bt[,2]),end=max(gcl.bt[,2]),n.years=nrow(gcl.bt),max.spawners=max(gcl.bt$spawners),max.recruits=max(gcl.bt$recruits),source='Colin Bailey, DFO, 2023',url=NA,comments=NA)
+stock_dat_temp=data.frame(stock.id=NA,species='Sockeye',stock.name='Great Central Lake-Sockeye',lat=49.24,lon=-124.8,region='BC South',ocean.basin='WC',state='BC',begin=min(gcl.bt[,2]),end=max(gcl.bt[,2]),n.years=nrow(gcl.bt),m.spawners=mean(gcl.bt$spawners)/1e3,m.recruits=max(gcl.bt$recruits)/1e3,source='Colin Bailey, DFO, 2023',url=NA,comments=NA)
 stock_dat=rbind(stock_dat,stock_dat_temp)
 sockeye_list[[nrow(stock_dat)]]=gcl.bt[,c('stock','species','broodyear','spawners','recruits',names(gcl.bt)[3:8])]
 
@@ -483,7 +479,7 @@ spt.bt=spt2[complete.cases(spt2$recruits/spt2$spawners),]
 names(spt.bt)[1:2]=c('stock','broodyear')
 spt.bt$species='Sockeye'
 
-stock_dat_temp=data.frame(stock.id=NA,species='Sockeye',stock.name='Sproat Lake-Sockeye',lat=49.24,lon=-124.8,ocean.basin='WC',state='BC',begin=min(spt.bt[,2]),end=max(spt.bt[,2]),n.years=nrow(spt.bt),max.spawners=max(spt.bt$spawners),max.recruits=max(spt.bt$recruits),source='Colin Bailey, DFO, 2023',url=NA,comments=NA)
+stock_dat_temp=data.frame(stock.id=NA,species='Sockeye',stock.name='Sproat Lake-Sockeye',lat=49.24,lon=-124.8,region='BC South',ocean.basin='WC',state='BC',begin=min(spt.bt[,2]),end=max(spt.bt[,2]),n.years=nrow(spt.bt),m.spawners=mean(spt.bt$spawners)/1e3,m.recruits=mean(spt.bt$recruits)/1e3,source='Colin Bailey, DFO, 2023',url=NA,comments=NA)
 stock_dat=rbind(stock_dat,stock_dat_temp)
 sockeye_list[[nrow(stock_dat)]]=spt.bt[,c('stock','species','broodyear','recruits','spawners',names(spt.bt)[3:8])]
 
@@ -502,7 +498,7 @@ names(chu_upd)[1]='stock.id'
 chu_upd$stock.id=ifelse(chu_upd$stock.id==310,max(chum$stock.id)+1,chu_upd$stock.id) #remove duplicate stock ids, make new one for extra stock
 
 #add info
-chum_info[nrow(chum_info)+1,1:9]=c(max(chu_upd$stock.id),'Chum',unique(chu_upd$stock)[10],'Inside WA','Inside WA','WA',48.1618, -123.59,23)
+chum_info[nrow(chum_info)+1,1:9]=c(max(chu_upd$stock.id),'Chum',unique(chu_upd$stock)[10],'Inside WA','Inside WA','WA',48.1618, 123.59,23)
 
 chum_source[23,1:2]=c(23,'Marisa Litz, WDFW, April 2023')
 chum_info$source.id[1:9]=23
@@ -566,6 +562,7 @@ pse_chum <- pse_ncc %>%
 chum3<- rbind(chum2,pse_chum)
 
 #remove old statistical area run-reconstructions
+chum_info$lon=c(0-as.numeric(chum_info$lon))
 chum_info<- subset(chum_info, stock %notin% c("Area 10", "Area 9", "Area 8", "Area 7", "Area 6", "Area 5", "Area 4", "Area 3", "Area 2W", "Area 2E", "Area 1"))
 chum3<- subset(chum3, stock %notin% c("Area 10", "Area 9", "Area 8", "Area 7", "Area 6", "Area 5", "Area 4", "Area 3", "Area 2W", "Area 2E", "Area 1"))
 
@@ -576,37 +573,37 @@ for(i in 1:length(unique(chum3$stock.id))){
   s_info<- subset(chum_info,stock==unique(chum3$stock)[i])
   s_use=subset(s,use==1) %>% subset(is.na(spawners)==F&is.na(recruits)==F)
   
-  stock_dat_temp=data.frame(stock.id=NA,species=NA,stock.name=NA,lat=NA,lon=NA,ocean.basin=NA,state=NA,begin=NA,end=NA,n.years=NA,max.spawners=NA,max.recruits=NA,source=NA,url=NA,comments=NA)
+  stock_dat_temp=data.frame(stock.id=NA,species=NA,stock.name=NA,lat=NA,lon=NA,region=NA,ocean.basin=NA,state=NA,begin=NA,end=NA,n.years=NA,m.spawners=NA,m.recruits=NA,source=NA,url=NA,comments=NA)
   
-  stock_dat_temp[,1]=unique(s$stock.id)
   stock_dat_temp[,2]=unique(s$species)
   stock_dat_temp[,3]=paste(unique(s$stock),unique(s$species),sep='-')
   stock_dat_temp[,4]=unique(s_info$lat)
   stock_dat_temp[,5]=unique(s_info$lon)
-  stock_dat_temp[,6]=unique(s_info$ocean.region)
-  stock_dat_temp[,7]=unique(s_info$jurisdiction)
+  stock_dat_temp[,6]=unique(s_info$sub.region)
+  stock_dat_temp[,7]=unique(s_info$ocean.region)
+  stock_dat_temp[,8]=unique(s_info$jurisdiction)
   
   if(nrow(s_use)!=0){
-    stock_dat_temp[,8]=min(s_use$broodyear)
-    stock_dat_temp[,9]=max(s_use$broodyear)
-    stock_dat_temp[,10]=length(s_use$broodyear)
-    stock_dat_temp[,11]=max(s_use$spawners)
-    stock_dat_temp[,12]=max(s_use$recruits)
+    stock_dat_temp[,9]=min(s_use$broodyear)
+    stock_dat_temp[,10]=max(s_use$broodyear)
+    stock_dat_temp[,11]=length(s_use$broodyear)
+    stock_dat_temp[,12]=mean(s_use$spawners)/1e3
+    stock_dat_temp[,13]=mean(s_use$recruits)/1e3
     }else{
-    stock_dat_temp[,8]=NA
     stock_dat_temp[,9]=NA
-    stock_dat_temp[,10]=0
-    stock_dat_temp[,11:12]=NA
+    stock_dat_temp[,10]=NA
+    stock_dat_temp[,11]=0
+    stock_dat_temp[,12:13]=NA
   }
  
   s.id=as.numeric(strsplit(s_info$source.id,',')[[1]])
-  if(length(s.id)==1){ stock_dat_temp[,13]=chum_source$source[match(s_info$source.id,sockeye_source$source.id)]
+  if(length(s.id)==1){ stock_dat_temp[,14]=chum_source$source[match(s_info$source.id[1],chum_source$source.id)]
 }
   if(length(s.id)==2){
     source<- subset(chum_source, source.id %in% s.id)
-    stock_dat_temp[,13]=paste(source$source[1],source$source[2],sep='; ')
+    stock_dat_temp[,14]=paste(source$source[1],source$source[2],sep='; ')
   }
-  stock_dat_temp[,15]=s_info$comment
+  stock_dat_temp[,16]=s_info$comment[1]
   
   stock_dat=rbind(stock_dat,stock_dat_temp)
   
@@ -688,6 +685,8 @@ pink3$stock<- gsub(" (odd)", "", pink3$stock, fixed=T)
 pink3 <- pink3 %>% #drop north and central coast stocks that have been replaced with CU level reconstructions from PSE
   filter(!stock %in% c("Area 10", "Area 9", "Area 8", "Area 7", "Area 6", "Area 5", "Area 4", "Area 3", "Area 2W", "Area 2E", "Area 1","BC South (no Fraser)") )
 
+pink_info$lon=0-as.numeric(pink_info$lon)
+
 pink_list=list()
 for(i in 1:length(unique(pink3$stock.id))){
   s=subset(pink3,stock.id==unique(pink3$stock.id)[i])
@@ -697,7 +696,7 @@ for(i in 1:length(unique(pink3$stock.id))){
   odd.yrs=ifelse(s_use$broodyear %% 2 == 0,0,1)
   s_use$odd=odd.yrs
   
-  stock_dat_temp=data.frame(stock.id=NA,species=NA,stock.name=NA,lat=NA,lon=NA,ocean.basin=NA,state=NA,begin=NA,end=NA,n.years=NA,max.spawners=NA,max.recruits=NA,source=NA,url=NA,comments=NA)
+  stock_dat_temp=data.frame(stock.id=NA,species=NA,stock.name=NA,lat=NA,lon=NA,region=NA,ocean.basin=NA,state=NA,begin=NA,end=NA,n.years=NA,m.spawners=NA,m.recruits=NA,source=NA,url=NA,comments=NA)
   
   if(length(levels(factor(odd.yrs)))>1){
     s_even=subset(s_use,odd==0)
@@ -712,25 +711,26 @@ for(i in 1:length(unique(pink3$stock.id))){
     stock_dat_temp[2,3]=paste(unique(s$stock),'Pink-Odd',sep='-')
     stock_dat_temp[,4]=unique(s_info$lat)
     stock_dat_temp[,5]=unique(s_info$lon)
-    stock_dat_temp[,6]=unique(s_info$ocean.region)
-    stock_dat_temp[,7]=unique(s_info$jurisdiction)
+    stock_dat_temp[,6]=unique(s_info$sub.region)
+    stock_dat_temp[,7]=unique(s_info$ocean.region)
+    stock_dat_temp[,8]=unique(s_info$jurisdiction)
     
     if(nrow(s_use)!=0){
-      stock_dat_temp[1,8]=min(s_even$broodyear)
-      stock_dat_temp[1,9]=max(s_even$broodyear)
-      stock_dat_temp[1,10]=length(s_even$broodyear)
-      stock_dat_temp[1,11]=max(s_even$spawners)
-      stock_dat_temp[1,12]=max(s_even$recruits)
-      stock_dat_temp[2,8]=min(s_odd$broodyear)
-      stock_dat_temp[2,9]=max(s_odd$broodyear)
-      stock_dat_temp[2,10]=length(s_odd$broodyear)
-      stock_dat_temp[2,11]=max(s_odd$spawners)
-      stock_dat_temp[2,12]=max(s_odd$recruits)
+      stock_dat_temp[1,9]=min(s_even$broodyear)
+      stock_dat_temp[1,10]=max(s_even$broodyear)
+      stock_dat_temp[1,11]=length(s_even$broodyear)
+      stock_dat_temp[1,12]=mean(s_even$spawners)/1e3
+      stock_dat_temp[1,13]=mean(s_even$recruits)/1e3
+      stock_dat_temp[2,9]=min(s_odd$broodyear)
+      stock_dat_temp[2,10]=max(s_odd$broodyear)
+      stock_dat_temp[2,11]=length(s_odd$broodyear)
+      stock_dat_temp[2,12]=mean(s_odd$spawners)/1e3
+      stock_dat_temp[2,13]=mean(s_odd$recruits)/1e3
     }else{
-      stock_dat_temp[,8]=NA
       stock_dat_temp[,9]=NA
-      stock_dat_temp[,10]=0
-      stock_dat_temp[,11:12]=NA
+      stock_dat_temp[,10]=NA
+      stock_dat_temp[,11]=0
+      stock_dat_temp[,12:13]=NA
     }
     
     s.id=as.numeric(strsplit(s_info$source.id,',')[[1]])
@@ -738,9 +738,9 @@ for(i in 1:length(unique(pink3$stock.id))){
     }
     if(length(s.id)==2){
       source<- subset(pink_source, source.id %in% s.id)
-      stock_dat_temp[,13]=paste(source$source[1],source$source[2],sep='; ')
+      stock_dat_temp[,14]=paste(source$source[1],source$source[2],sep='; ')
     }
-    stock_dat_temp[,15]=s_info$comment
+    stock_dat_temp[,16]=s_info$comment
     
     stock_dat=rbind(stock_dat,stock_dat_temp)
     
@@ -753,30 +753,31 @@ for(i in 1:length(unique(pink3$stock.id))){
     stock_dat_temp[,3]=paste(unique(s_use$stock),unique(s_use$species),sep='-')
     stock_dat_temp[,4]=unique(s_info$lat)
     stock_dat_temp[,5]=unique(s_info$lon)
-    stock_dat_temp[,6]=unique(s_info$ocean.region)
-    stock_dat_temp[,7]=unique(s_info$jurisdiction)
+    stock_dat_temp[,6]=unique(s_info$sub.region)
+    stock_dat_temp[,7]=unique(s_info$ocean.region)
+    stock_dat_temp[,8]=unique(s_info$jurisdiction)
     
     if(nrow(s_use)!=0){
-      stock_dat_temp[,8]=min(s_use$broodyear)
-      stock_dat_temp[,9]=max(s_use$broodyear)
-      stock_dat_temp[,10]=length(s_use$broodyear)
-      stock_dat_temp[,11]=max(s_use$spawners)
-      stock_dat_temp[,12]=max(s_use$recruits)
+      stock_dat_temp[,9]=min(s_use$broodyear)
+      stock_dat_temp[,10]=max(s_use$broodyear)
+      stock_dat_temp[,11]=length(s_use$broodyear)
+      stock_dat_temp[,12]=mean(s_use$spawners)/1e3
+      stock_dat_temp[,13]=mean(s_use$recruits)/1e3
     }else{
-      stock_dat_temp[,8]=NA
       stock_dat_temp[,9]=NA
-      stock_dat_temp[,10]=0
-      stock_dat_temp[,11:12]=NA
+      stock_dat_temp[,10]=NA
+      stock_dat_temp[,11]=0
+      stock_dat_temp[,12:13]=NA
     }
     
     s.id=as.numeric(strsplit(s_info$source.id,',')[[1]])
-    if(length(s.id)==1){stock_dat_temp[,13]=pink_source$source[match(s_info$source.id,sockeye_source$source.id)]
+    if(length(s.id)==1){stock_dat_temp[,14]=pink_source$source[match(s_info$source.id,sockeye_source$source.id)]
     }
     if(length(s.id)==2){
       source<- subset(pink_source, source.id %in% s.id)
-      stock_dat_temp[,13]=paste(source$source[1],source$source[2],sep='; ')
+      stock_dat_temp[,14]=paste(source$source[1],source$source[2],sep='; ')
     }
-    stock_dat_temp[,15]=s_info$comment
+    stock_dat_temp[,16]=s_info$comment
     
     stock_dat=rbind(stock_dat,stock_dat_temp)
     
@@ -792,9 +793,16 @@ pink_filtered<- do.call(plyr::rbind.fill, pink_list)
 #Chinook####
 #Add in Cowichan chinook
 chinook=rbind(chinook,cow_chin) #add in S-R data
-chinook_info[21,1:7]=c(333,'Chinook','Cowichan','WC','Vancouver Island','Vancouver Island','BC');chinook_info$lat[21]=48.7581;chinook_info$lon[21]=-123.6242;chinook_info$source.id[21]=11 #add in metadata
+chinook_info$sub.region=gsub('Southeast','SEAK',chinook_info$sub.region) #synonymize the sub regions
+chinook_info$sub.region=gsub('Kuskokwim','AYK',chinook_info$sub.region) #synonymize the sub regions
+chinook_info$sub.region=gsub('Norton Sound','AYK',chinook_info$sub.region) #synonymize the sub regions
+chinook_info$sub.region=gsub('Alaska Peninsula and Aleutian Islands','AK Peninsula',chinook_info$sub.region) #synonymize the sub regions
 
-chinook_info[22,1:7]=c(334,'Chinook','Harrison','WC','Fraser River','Vancouver Island','BC');chinook_info$lat[22]=sockeye_info$lat[2];chinook_info$lon[22]=sockeye_info$lon[2];chinook_info$source.id[22]=12 #add in metadata
+#westward stocks - breakdown to chignik/kodiak
+
+chinook_info[21,1:7]=c(333,'Chinook','Cowichan','WC','BC South','BC South','BC');chinook_info$lat[21]=48.7581;chinook_info$lon[21]=-123.6242;chinook_info$source.id[21]=11 #add in metadata
+
+chinook_info[22,1:7]=c(334,'Chinook','Harrison','WC','Fraser River','Fraser River','BC');chinook_info$lat[22]=sockeye_info$lat[2];chinook_info$lon[22]=sockeye_info$lon[2];chinook_info$source.id[22]=12 #add in metadata
 chinook_info[23,1:7]=c(335,'Chinook','Lower Shuswap','WC','Fraser River','Fraser River','BC');chinook_info$lat[23]=sockeye_info$lat[2];chinook_info$lon[23]=sockeye_info$lon[2];chinook_info$source.id[23]=12 #add in metadata
 chinook_info[24,1:7]=c(336,'Chinook','Nicola','WC','Fraser River','Fraser River','BC');chinook_info$lat[24]=sockeye_info$lat[2];chinook_info$lon[24]=sockeye_info$lon[2];chinook_info$source.id[24]=13 #add in metadata
 chinook_source[10,1]=11;chinook_source[11,3]='Karalea Cantera, DFO, 2022' #add in source
@@ -809,42 +817,43 @@ for(i in 1:length(unique(chinook$stock.id))){
   s_use<- subset(s_use,spawners!=0&recruits!=0)
   
   
-  stock_dat_temp=data.frame(stock.id=NA,species=NA,stock.name=NA,lat=NA,lon=NA,ocean.basin=NA,state=NA,begin=NA,end=NA,n.years=NA,max.spawners=NA,max.recruits=NA,source=NA,url=NA,comments=NA)
+  stock_dat_temp=data.frame(stock.id=NA,species=NA,stock.name=NA,lat=NA,lon=NA,region=NA,ocean.basin=NA,state=NA,begin=NA,end=NA,n.years=NA,m.spawners=NA,m.recruits=NA,source=NA,url=NA,comments=NA)
   
   stock_dat_temp[,1]=unique(s$stock.id)
   stock_dat_temp[,2]=unique(s$species)
   stock_dat_temp[,3]=paste(unique(s$stock),unique(s$species),sep='-')
   stock_dat_temp[,4]=unique(s_info$lat)
   stock_dat_temp[,5]=unique(s_info$lon)
-  stock_dat_temp[,6]=unique(s_info$ocean.region)
-  stock_dat_temp[,7]=unique(s_info$jurisdiction)
+  stock_dat_temp[,6]=unique(s_info$sub.region)
+  stock_dat_temp[,7]=unique(s_info$ocean.region)
+  stock_dat_temp[,8]=unique(s_info$jurisdiction)
   
   if(nrow(s_use)!=0){
-    stock_dat_temp[,8]=min(s_use$broodyear)
-    stock_dat_temp[,9]=max(s_use$broodyear)
-    stock_dat_temp[,10]=length(s_use$broodyear)
-    stock_dat_temp[,11]=max(s_use$spawners)
-    stock_dat_temp[,12]=max(s_use$recruits)
+    stock_dat_temp[,9]=min(s_use$broodyear)
+    stock_dat_temp[,10]=max(s_use$broodyear)
+    stock_dat_temp[,11]=length(s_use$broodyear)
+    stock_dat_temp[,12]=mean(s_use$spawners)/1e3
+    stock_dat_temp[,13]=mean(s_use$recruits)/1e3
   }else{
-    stock_dat_temp[,8]=NA
     stock_dat_temp[,9]=NA
-    stock_dat_temp[,10]=0
-    stock_dat_temp[,11:12]=NA
+    stock_dat_temp[,10]=NA
+    stock_dat_temp[,11]=0
+    stock_dat_temp[,12:13]=NA
   }
   
   
   s.id=as.numeric(strsplit(as.character(s_info$source.id),',')[[1]])
   if(length(s.id)==1){
-    stock_dat_temp[,13]=chinook_source$title[match(s_info$source.id,sockeye_source$source.id)]
-    stock_dat_temp[,14]=chinook_source$url[match(s_info$source.id,sockeye_source$source.id)]
+    stock_dat_temp[,14]=chinook_source$title[match(s_info$source.id,sockeye_source$source.id)]
+    stock_dat_temp[,15]=chinook_source$url[match(s_info$source.id,sockeye_source$source.id)]
     
   }
   if(length(s.id)==2){
     source<- subset(chinook_source, source.id %in% s.id)
-    stock_dat_temp[,13]=paste(source$title[1],source$title[2],sep='; ')
-    stock_dat_temp[,14]=paste(source$url[1],source$url[2],sep='; ')
+    stock_dat_temp[,14]=paste(source$title[1],source$title[2],sep='; ')
+    stock_dat_temp[,15]=paste(source$url[1],source$url[2],sep='; ')
   }
-  stock_dat_temp[,15]=NA #no comments
+  stock_dat_temp[,16]=NA #no comments
   
   stock_dat=rbind(stock_dat,stock_dat_temp)
   
@@ -860,16 +869,15 @@ stock_dat[row.n,2]=chinook_info[22,2]
 stock_dat[row.n,3]=paste(chinook_info[22,3],chinook_info[22,2],sep='-')
 stock_dat[row.n,4]=chinook_info[22,8]
 stock_dat[row.n,5]=chinook_info[22,9]
-stock_dat[row.n,6]='WC'
-stock_dat[row.n,7]='BC'
-stock_dat[row.n,8]=min(harrison_chin3$broodyear)
-stock_dat[row.n,9]=max(harrison_chin3$broodyear)
-stock_dat[row.n,10]=length(harrison_chin3$broodyear)
-stock_dat[row.n,11]=max(harrison_chin3$spawners)
-stock_dat[row.n,12]=max(harrison_chin3$recruits)
-stock_dat[row.n,13]=chinook_source$title[chinook_info$source.id[22]]
-stock_dat[row.n,14]='NA'
-stock_dat[row.n,15]='NA'
+stock_dat[row.n,6]='Fraser River'
+stock_dat[row.n,7]='WC'
+stock_dat[row.n,8]='BC'
+stock_dat[row.n,9]=min(harrison_chin3$broodyear)
+stock_dat[row.n,10]=max(harrison_chin3$broodyear)
+stock_dat[row.n,11]=length(harrison_chin3$broodyear)
+stock_dat[row.n,12]=mean(harrison_chin3$spawners)/1e3
+stock_dat[row.n,13]=mean(harrison_chin3$recruits)/1e3
+stock_dat[row.n,14]=chinook_source$title[chinook_info$source.id[22]]
 
 harrison_chin3$stock=rep('Harrison',nrow(harrison_chin3))
 harrison_chin3$species=rep('Chinook',nrow(harrison_chin3))
@@ -887,14 +895,15 @@ stock_dat[row.n,2]=chinook_info[23,2]
 stock_dat[row.n,3]=paste(chinook_info[23,3],chinook_info[23,2],sep='-')
 stock_dat[row.n,4]=chinook_info[23,8]
 stock_dat[row.n,5]=chinook_info[23,9]
-stock_dat[row.n,6]='WC'
-stock_dat[row.n,7]='BC'
-stock_dat[row.n,8]=min(shuswap_chin$broodyear)
-stock_dat[row.n,9]=max(shuswap_chin$broodyear)
-stock_dat[row.n,10]=length(shuswap_chin$broodyear)
-stock_dat[row.n,11]=max(shuswap_chin$spawners)
-stock_dat[row.n,12]=max(shuswap_chin$recruits)
-stock_dat[row.n,13]=chinook_source$title[chinook_info$source.id[23]]
+stock_dat[row.n,6]='Fraser River'
+stock_dat[row.n,7]='WC'
+stock_dat[row.n,8]='BC'
+stock_dat[row.n,9]=min(shuswap_chin$broodyear)
+stock_dat[row.n,10]=max(shuswap_chin$broodyear)
+stock_dat[row.n,11]=length(shuswap_chin$broodyear)
+stock_dat[row.n,12]=mean(shuswap_chin$spawners)/1e3
+stock_dat[row.n,13]=mean(shuswap_chin$recruits)/1e3
+stock_dat[row.n,14]=chinook_source$title[chinook_info$source.id[23]]
 
 shuswap_chin$stock=rep('Lower Shuswap',nrow(shuswap_chin))
 shuswap_chin$species=rep('Chinook',nrow(shuswap_chin))
@@ -904,35 +913,35 @@ shuswap_chin=subset(shuswap_chin,is.na(recruits)==F&is.na(spawners)==F) #remove 
 chinook_list[[23]]=shuswap_chin[,c('stock','species','broodyear','recruits','spawners')]
 
 #Nicola chinook
+names(nicola_chin)[3]='recruits'
+names(nicola_chin)[4]='spawners'
 #use total spawners as per Warkentin et al. 2020
-nicola_recruits=nicola_chin %>% group_by(broodyear) %>% summarize(recruits=sum(recruits),spawners=sum(total_spawners))
-#follow Warkentin et al. 2020 and use cohorts from 1992 to 2013
-nicola_recruits=subset(nicola_recruits,broodyear>1991)
-nicola_recruits$stock=rep('Nicola',nrow(nicola_recruits))
-nicola_recruits$species=rep('Chinook',nrow(nicola_recruits))
+nicola_chin$stock=rep('Nicola',nrow(nicola_chin))
+nicola_chin$species=rep('Chinook',nrow(nicola_chin))
 
 row.n=nrow(stock_dat)+1
-stock_dat[row.n,1]=NA #no pre-assigned stock id
 stock_dat[row.n,2]=chinook_info[24,2]
 stock_dat[row.n,3]=paste(chinook_info[24,3],chinook_info[24,2],sep='-')
 stock_dat[row.n,4]=chinook_info[24,8]
 stock_dat[row.n,5]=chinook_info[24,9]
-stock_dat[row.n,6]='WC'
-stock_dat[row.n,7]='BC'
-stock_dat[row.n,8]=min(nicola_recruits$broodyear)
-stock_dat[row.n,9]=max(nicola_recruits$broodyear)
-stock_dat[row.n,10]=length(nicola_recruits$broodyear)
-stock_dat[row.n,11]=max(nicola_recruits$spawners)
-stock_dat[row.n,12]=max(nicola_recruits$recruits)
-stock_dat[row.n,13]=chinook_source$title[chinook_info$source.id[24]]
+stock_dat[row.n,6]='Fraser River'
+stock_dat[row.n,7]='WC'
+stock_dat[row.n,8]='BC'
+stock_dat[row.n,9]=min(nicola_chin$broodyear)
+stock_dat[row.n,10]=max(nicola_chin$broodyear)
+stock_dat[row.n,11]=length(nicola_chin$broodyear)
+stock_dat[row.n,12]=mean(nicola_chin$spawners)/1e3
+stock_dat[row.n,13]=mean(nicola_chin$recruits)/1e3
+stock_dat[row.n,14]=chinook_source$title[chinook_info$source.id[24]]
 
-chinook_list[[24]]=nicola_recruits[,c('stock','species','broodyear','recruits','spawners')]
+chinook_list[[24]]=nicola_chin[,c('stock','species','broodyear','recruits','spawners')]
 
 chinook_filtered = do.call(plyr::rbind.fill, chinook_list)
 
 
 #Coho####
-
+coho_info$sub.region=gsub('Kuskokwim','AYK',coho_info$sub.region)
+coho_info$sub.region=gsub('Southeast','SEAK',coho_info$sub.region)
 coho_list=list()
 for(i in 1:length(unique(coho$stock.id))){
   s=subset(coho,stock.id==unique(coho$stock.id)[i])
@@ -945,40 +954,41 @@ for(i in 1:length(unique(coho$stock.id))){
   s_use=subset(s,useflag==1) %>% subset(is.na(spawners)==F&is.na(recruits)==F)
   s_use<- subset(s_use,spawners!=0&recruits!=0)
   
-  stock_dat_temp=data.frame(stock.id=NA,species=NA,stock.name=NA,lat=NA,lon=NA,ocean.basin=NA,state=NA,begin=NA,end=NA,n.years=NA,max.spawners=NA,max.recruits=NA,source=NA,url=NA,comments=NA)
+  stock_dat_temp=data.frame(stock.id=NA,species=NA,stock.name=NA,lat=NA,lon=NA,region=NA,ocean.basin=NA,state=NA,begin=NA,end=NA,n.years=NA,m.spawners=NA,m.recruits=NA,source=NA,url=NA,comments=NA)
   
   stock_dat_temp[,1]=unique(s$stock.id)
   stock_dat_temp[,2]=unique(s$species)
   stock_dat_temp[,3]=paste(unique(s$stock),unique(s$species),sep='-')
   stock_dat_temp[,4]=unique(s_info$lat)
   stock_dat_temp[,5]=unique(s_info$lon)
-  stock_dat_temp[,6]=unique(s_info$ocean.region)
-  stock_dat_temp[,7]=unique(s_info$jurisdiction)
+  stock_dat_temp[,6]=unique(s_info$sub.region)
+  stock_dat_temp[,7]=unique(s_info$ocean.region)
+  stock_dat_temp[,8]=unique(s_info$jurisdiction)
   
   if(nrow(s_use)!=0){
-    stock_dat_temp[,8]=min(s_use$broodyear)
-    stock_dat_temp[,9]=max(s_use$broodyear)
-    stock_dat_temp[,10]=length(s_use$broodyear)
-    stock_dat_temp[,11]=max(s_use$spawners)
-    stock_dat_temp[,12]=max(s_use$recruits)
+    stock_dat_temp[,9]=min(s_use$broodyear)
+    stock_dat_temp[,10]=max(s_use$broodyear)
+    stock_dat_temp[,11]=length(s_use$broodyear)
+    stock_dat_temp[,12]=max(s_use$spawners)
+    stock_dat_temp[,13]=max(s_use$recruits)
   }else{
-    stock_dat_temp[,8]=NA
     stock_dat_temp[,9]=NA
-    stock_dat_temp[,10]=0
-    stock_dat_temp[,11:12]=NA
+    stock_dat_temp[,10]=NA
+    stock_dat_temp[,11]=0
+    stock_dat_temp[,12:13]=NA
   }
   
   s.id=as.numeric(strsplit(as.character(s_info$source.id),',')[[1]])
   if(length(s.id)==1){
-    stock_dat_temp[,13]=coho_source$title[match(s_info$source.id,sockeye_source$source.id)]
-    stock_dat_temp[,14]=coho_source$url[match(s_info$source.id,sockeye_source$source.id)]
+    stock_dat_temp[,14]=coho_source$title[match(s_info$source.id,sockeye_source$source.id)]
+    stock_dat_temp[,15]=coho_source$url[match(s_info$source.id,sockeye_source$source.id)]
   }
   if(length(s.id)==2){
     source<- subset(coho_source, source.id %in% s.id)
-    stock_dat_temp[,13]=paste(source$source[1],source$source[2],sep='; ')
-    stock_dat_temp[,14]=paste(source$url[1],source$url[2],sep='; ')
+    stock_dat_temp[,14]=paste(source$source[1],source$source[2],sep='; ')
+    stock_dat_temp[,15]=paste(source$url[1],source$url[2],sep='; ')
   }
-  stock_dat_temp[,15]=NA #no comments
+  stock_dat_temp[,16]=NA #no comments
   
   stock_dat=rbind(stock_dat,stock_dat_temp)
   
@@ -991,22 +1001,23 @@ for(i in 1:length(unique(ifr_coho$stock))){
   s=subset(ifr_coho,stock==unique(ifr_coho$stock)[i])
   s$species=rep('Coho',nrow(s))
   
-  stock_dat_temp=data.frame(stock.id=NA,species=NA,stock.name=NA,lat=NA,lon=NA,ocean.basin=NA,state=NA,begin=NA,end=NA,n.years=NA,max.spawners=NA,max.recruits=NA,source=NA,url=NA,comments=NA)
+  stock_dat_temp=data.frame(stock.id=NA,species=NA,stock.name=NA,lat=NA,lon=NA,region=NA,ocean.basin=NA,state=NA,begin=NA,end=NA,n.years=NA,m.spawners=NA,m.recruits=NA,source=NA,url=NA,comments=NA)
   
   stock_dat_temp[,1]=unique(s$stock)
   stock_dat_temp[,2]='Coho'
   stock_dat_temp[,3]=paste(unique(s$stock),'Coho',sep='-')
   stock_dat_temp[,4]=sockeye_info$lat[2] #lat for mouth of Fraser
   stock_dat_temp[,5]=sockeye_info$lon[2] #lon for mouth of Fraser
-  stock_dat_temp[,6]='WC'
-  stock_dat_temp[,7]='BC'
-  stock_dat_temp[,8]=min(s$broodyear)
-  stock_dat_temp[,9]=max(s$broodyear)
-  stock_dat_temp[,10]=length(s$broodyear)
-  stock_dat_temp[,11]=max(s$spawners)
-  stock_dat_temp[,12]=max(s$recruits)
-  stock_dat_temp[,13]='Michael Arbeider, DFO, 2022'
-  stock_dat_temp[,14]=NA #no comments
+  stock_dat_temp[,6]='Fraser River'
+  stock_dat_temp[,7]='WC'
+  stock_dat_temp[,8]='BC'
+  stock_dat_temp[,9]=min(s$broodyear)
+  stock_dat_temp[,10]=max(s$broodyear)
+  stock_dat_temp[,11]=length(s$broodyear)
+  stock_dat_temp[,12]=max(s$spawners)
+  stock_dat_temp[,13]=max(s$recruits)
+  stock_dat_temp[,14]='Michael Arbeider, DFO, 2022'
+  stock_dat_temp[,15]=NA #no comments
 
   stock_dat=rbind(stock_dat,stock_dat_temp)
   
@@ -1015,7 +1026,7 @@ for(i in 1:length(unique(ifr_coho$stock))){
 
 coho_filtered = do.call(plyr::rbind.fill,coho_list)
 
-###Curry Cunningham compilation
+##Curry Cunningham compilation ####
 cc_comp=cc_comp[complete.cases(cc_comp$recruits),]
 cc_comp$stock.name<- paste(cc_comp$stock,cc_comp$species,sep='-')
 #All pink/sockeye/chum stocks are the same as in the existing dataset - but some have slightly different names due to abbreviations etc
@@ -1063,6 +1074,8 @@ cc_info[44,12:13]=puget_sound_lat_lons[6,2:3] #White River
 cc_info[45:58,12]=columbia[,1];cc_info[45:58,13]=columbia[,2] #Willamette (Columbia)
 cc_info[59:60,12]=oregon_coast[,1];cc_info[59:60,13]=oregon_coast[,2] #Oregon coast coho
 cc_info[61:62,12]=columbia[,1];cc_info[61:62,13]=columbia[,2] #Willamette (Columbia) coho
+cc_info$region=gsub('Southeast','SEAK',cc_info$region)
+cc_info$region=gsub('Willamette/Lower Columbia','Lower Columbia',cc_info$region)
 
 #add in these new stocks
 cc_comp_list=list()
@@ -1077,30 +1090,31 @@ for(i in 1:length(unique(cc_comp2$stock.name))){
   s_use=subset(s,is.na(spawners)==F&is.na(recruits)==F)
   s_use<- subset(s_use,spawners!=0&recruits!=0)
   
-  stock_dat_temp=data.frame(stock.id=NA,species=NA,stock.name=NA,lat=NA,lon=NA,ocean.basin=NA,state=NA,begin=NA,end=NA,n.years=NA,max.spawners=NA,max.recruits=NA,source=NA,url=NA,comments=NA)
+  stock_dat_temp=data.frame(stock.id=NA,species=NA,stock.name=NA,lat=NA,lon=NA,region=NA,ocean.basin=NA,state=NA,begin=NA,end=NA,n.years=NA,m.spawners=NA,m.recruits=NA,source=NA,url=NA,comments=NA)
   
   stock_dat_temp[,1]=unique(s$stock.id)
   stock_dat_temp[,2]=unique(s$species)
   stock_dat_temp[,3]=paste(unique(s$stock),unique(s$species),sep='-')
   stock_dat_temp[,4]=unique(s_info$lat)
   stock_dat_temp[,5]=unique(s_info$lon)
-  stock_dat_temp[,6]=unique(s_info$large.region)
-  if(s_info$region=='Southeast'){stock_dat_temp[,7]='AK'}
-  if(s_info$region=='Interior Columbia'|s_info$region=='Puget Sound'){stock_dat_temp[,7]='WA'}
-  if(s_info$region=='Willamette/Lower Columbia'|s_info$region=='Oregon Coast'){stock_dat_temp[,7]='OR'}
+  stock_dat_temp[,6]=unique(s_info$region)
+  stock_dat_temp[,7]=unique(s_info$large.region)
+  if(s_info$region=='Southeast'){stock_dat_temp[,8]='AK'}
+  if(s_info$region=='Interior Columbia'|s_info$region=='Puget Sound'){stock_dat_temp[,8]='WA'}
+  if(s_info$region=='Willamette/Lower Columbia'|s_info$region=='Oregon Coast'){stock_dat_temp[,8]='OR'}
   if(nrow(s_use)!=0){
-    stock_dat_temp[,8]=min(s_use$broodyear)
-    stock_dat_temp[,9]=max(s_use$broodyear)
-    stock_dat_temp[,10]=length(s_use$broodyear)
-    stock_dat_temp[,11]=max(s_use$spawners)
-    stock_dat_temp[,12]=max(s_use$recruits)
+    stock_dat_temp[,9]=min(s_use$broodyear)
+    stock_dat_temp[,10]=max(s_use$broodyear)
+    stock_dat_temp[,11]=length(s_use$broodyear)
+    stock_dat_temp[,12]=mean(s_use$spawners)/1e3
+    stock_dat_temp[,13]=mean(s_use$recruits)/1e3
   }else{
-    stock_dat_temp[,8]=NA
     stock_dat_temp[,9]=NA
-    stock_dat_temp[,10]=0
-    stock_dat_temp[,11:12]=NA
+    stock_dat_temp[,10]=NA
+    stock_dat_temp[,11]=0
+    stock_dat_temp[,12:13]=NA
   }
-  stock_dat_temp[,13]='Curry Cunningham/Brian Burke, 2022' #source to be confirmed with Curry
+  stock_dat_temp[,14]='Curry Cunningham/Brian Burke, 2022' #source to be confirmed with Curry
   
   stock_dat=rbind(stock_dat,stock_dat_temp)
   
