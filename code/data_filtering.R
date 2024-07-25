@@ -141,6 +141,8 @@ for(i in 1:length(unique(sockeye2$stock.id))){
 }
 
 #Fraser sockeye stocks - PSC 2022 production dataset
+psc_fraser_sockeye=psc_fraser_sockeye[grepl('Misc.',psc_fraser_sockeye$stock)==F,] #remove the miscellaneous stocks - mostly short series
+
 for(i in 1:length(unique(psc_fraser_sockeye$stock))){
   s=subset(psc_fraser_sockeye,production_stock_code==unique(psc_fraser_sockeye$production_stock_code)[i])
   s= s %>% mutate(recruits = rowSums(s[,9:21],na.rm = TRUE))
