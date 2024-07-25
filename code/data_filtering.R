@@ -43,13 +43,14 @@ pi_upd<- read.csv(here('data','raw data','pink','Pink S_R for BC_4.24.2023.csv')
 coho<- read.csv(here('data','raw data','coho','coho_data_fwmar.csv'));coho_info<- read.csv(here('data','raw data','coho','coho_info.csv'));coho_source<- read.csv(here('data','raw data','coho','coho_sources.csv'))
 ifr_coho<- read.csv(here('data','raw data','coho','SR_IFC_BY_98-16_created_2021-07-19.csv'))
 names(ifr_coho)[6:7]=c('r3','r4')
+
 #chinook
 chinook<- read.csv(here('data','raw data','chinook','chinook_data_totalage.csv'));chinook_info<- read.csv(here('data','raw data','chinook','chinook_info.csv'));chinook_source<- read.csv(here('data','raw data','chinook','chinook_sources.csv')) 
-cc_comp<- read.csv(here('data','raw data','multispecies','AK-WCoast-Salmon-SR.csv'))
 cow_chin<- read.csv(here('data','raw data','chinook','Cowichan_chinook_broodtable.csv'),na.strings = c('#N/A'))
 harrison_chin<-read.csv(here('data','raw data','chinook','Harrison_chinook_broodtable.csv'))
 shuswap_chin<-read.csv(here('data','raw data','chinook','Lower_Shuswap_chinook_broodtable.csv'))
 nicola_chin<-read.csv(here('data','raw data','chinook','Nicola_chinook_broodtable.csv'))
+skeena_chin<-read.csv(here('data','raw data','chinook','ckSkeena.csv'))
 
 #(partially) synonymize column names for sanity
 colnames(sockeye)<- tolower(names(sockeye));colnames(sockeye_info)<- tolower(names(sockeye_info));colnames(sockeye_source)<- tolower(names(sockeye_source))
@@ -174,6 +175,7 @@ for(i in 1:length(unique(psc_fraser_sockeye$stock))){
 
 #skeena updated data
 skeena_sockeye$stock=gsub('Bear','Bear-Skeena',skeena_sockeye$stock) #renaming Bear stock to avoid conflict with Bear R. Alaska
+skeena_sockeye=subset(skeena_sockeye, stock %notin% c('Babine-Fulton','Babine-Pinkut')) #remove enhanced stocks from Skeena
 for(i in 1:length(unique(skeena_sockeye$stock))){
   s=subset(skeena_sockeye,stock==unique(skeena_sockeye$stock)[i])
   s= s[complete.cases(s$spawners),];s=s[complete.cases(s$recruits),] #keep years with both spawner & recruit estimates
@@ -186,7 +188,7 @@ for(i in 1:length(unique(skeena_sockeye$stock))){
   stock_dat_temp[,3]=paste(unique(s$stock),'Sockeye',sep='-')
   stock_dat_temp[,4]=54.2237 #lat need to do these (one for Skeena estuary and one for Nass)
   stock_dat_temp[,5]=-129.831 #lon 
-  stock_dat_temp[,6]='BC North'
+  stock_dat_temp[,6]='Skeena River'
   stock_dat_temp[,7]='WC'
   stock_dat_temp[,8]='BC'
   
@@ -217,7 +219,7 @@ for(i in 1:length(unique(nass_sockeye$stock))){
   stock_dat_temp[,3]=paste(unique(s$stock),'Sockeye',sep='-')
   stock_dat_temp[,4]= 54.9898 #lat - approx ocean entry from google maps
   stock_dat_temp[,5]=-130.02 #lon - approx ocean entry from google maps
-  stock_dat_temp[,6]='BC North'
+  stock_dat_temp[,6]='Nass River'
   stock_dat_temp[,7]='WC'
   stock_dat_temp[,8]='BC'
   
@@ -805,17 +807,15 @@ pink_filtered<- do.call(plyr::rbind.fill, pink_list)
 #write.csv(pink_info,here('data','filtered datasets',paste('pink_info',Sys.Date(),'.csv',sep='')), row.names = FALSE)
 
 #Chinook####
-#Add in Cowichan chinook
+#Add in Cowichan chinook and update info
 chinook=rbind(chinook,cow_chin) #add in S-R data
 chinook_info$sub.region=gsub('Southeast','SEAK',chinook_info$sub.region) #synonymize the sub regions
 chinook_info$sub.region=gsub('Kuskokwim','AYK',chinook_info$sub.region) #synonymize the sub regions
 chinook_info$sub.region=gsub('Norton Sound','AYK',chinook_info$sub.region) #synonymize the sub regions
 chinook_info$sub.region=gsub('Alaska Peninsula and Aleutian Islands','AK Peninsula',chinook_info$sub.region) #synonymize the sub regions
 
-#westward stocks - breakdown to chignik/kodiak
 
 chinook_info[21,1:7]=c(333,'Chinook','Cowichan','WC','BC South','BC South','BC');chinook_info$lat[21]=48.7581;chinook_info$lon[21]=-123.6242;chinook_info$source.id[21]=11 #add in metadata
-
 chinook_info[22,1:7]=c(334,'Chinook','Harrison','WC','Fraser River','Fraser River','BC');chinook_info$lat[22]=sockeye_info$lat[2];chinook_info$lon[22]=sockeye_info$lon[2];chinook_info$source.id[22]=12 #add in metadata
 chinook_info[23,1:7]=c(335,'Chinook','Lower Shuswap','WC','Fraser River','Fraser River','BC');chinook_info$lat[23]=sockeye_info$lat[2];chinook_info$lon[23]=sockeye_info$lon[2];chinook_info$source.id[23]=12 #add in metadata
 chinook_info[24,1:7]=c(336,'Chinook','Nicola','WC','Fraser River','Fraser River','BC');chinook_info$lat[24]=sockeye_info$lat[2];chinook_info$lon[24]=sockeye_info$lon[2];chinook_info$source.id[24]=13 #add in metadata
@@ -833,7 +833,7 @@ for(i in 1:length(unique(chinook$stock.id))){
   
   stock_dat_temp=data.frame(stock.id=NA,species=NA,stock.name=NA,lat=NA,lon=NA,region=NA,ocean.basin=NA,state=NA,begin=NA,end=NA,n.years=NA,m.spawners=NA,m.recruits=NA,source=NA,url=NA,comments=NA,age=NA)
   
-  stock_dat_temp[,1]=unique(s$stock.id)
+
   stock_dat_temp[,2]=unique(s$species)
   stock_dat_temp[,3]=paste(unique(s$stock),unique(s$species),sep='-')
   stock_dat_temp[,4]=unique(s_info$lat)
@@ -872,7 +872,7 @@ for(i in 1:length(unique(chinook$stock.id))){
   
   stock_dat=rbind(stock_dat,stock_dat_temp)
   
-  chinook_list[[i]]=s_use[,c('stock','species','broodyear','spawners','recruits','r2','r3','r4','r5','r6','r7','r8')]
+  chinook_list[[i]]=s_use[,c('stock','species','broodyear','recruits','spawners','r2','r3','r4','r5','r6','r7','r8')]
 }
 
 #Harrison chinook
@@ -950,6 +950,144 @@ stock_dat[row.n,13]=mean(nicola_chin$recruits)/1e3
 stock_dat[row.n,14]=chinook_source$title[chinook_info$source.id[24]]
 
 chinook_list[[24]]=nicola_chin[,c('stock','species','broodyear','recruits','spawners')]
+
+
+#Skeena Chinook - Withler et al. 
+skeena_chin=subset(skeena_chin,Stocks!=unique(skeena_chin$Stocks)[3]) #remove tyee test fishery aggregate, since other series are the CU-specific stock recruit estimates
+skeena_chin=skeena_chin[complete.cases(skeena_chin[,3:5]),]
+names(skeena_chin)=c('broodyear','spawners','r4','r5','r6','recruits','stock')
+skeena_chin$stock=gsub('_',' ',skeena_chin$stock)
+cl=length(chinook_list)
+for(i in 1:length(unique(skeena_chin$stock))){
+  s=subset(skeena_chin,stock==unique(skeena_chin$stock)[i])
+  s$species='Chinook'
+  
+  stock_dat_temp=data.frame(stock.id=NA,species=NA,stock.name=NA,lat=NA,lon=NA,region=NA,ocean.basin=NA,state=NA,begin=NA,end=NA,n.years=NA,m.spawners=NA,m.recruits=NA,source=NA,url=NA,comments=NA,age=NA)
+  
+  stock_dat_temp[,1]=NA
+  stock_dat_temp[,2]='Chinook'
+  stock_dat_temp[,3]=paste(unique(s$stock),'Chinook',sep="-")
+  stock_dat_temp[,4]=54.2237 #lat need to do these (one for Skeena estuary and one for Nass)
+  stock_dat_temp[,5]=-129.831 #lon 
+  stock_dat_temp[,6]='Skeena River'
+  stock_dat_temp[,7]='WC'
+  stock_dat_temp[,8]='BC'
+  
+  stock_dat_temp[,9]=min(s$broodyear)
+  stock_dat_temp[,10]=max(s$broodyear)
+  stock_dat_temp[,11]=length(s$broodyear)
+  stock_dat_temp[,12]=mean(s$spawners)/1e3
+  stock_dat_temp[,13]=mean(s$recruits)/1e3
+  stock_dat_temp[,14]='Ivan Winther, DFO, 2024'
+  stock_dat_temp[,15]='https://waves-vagues.dfo-mpo.gc.ca/library-bibliotheque/41241046.pdf'
+  stock_dat_temp[,17]='data'
+
+  stock_dat=rbind(stock_dat,stock_dat_temp)
+  
+  chinook_list[[cl+i]]=s[,c('stock','species','broodyear','recruits','spawners','r4','r5','r6')]
+}
+
+#NOAA SPS dataset ###
+sps=read.csv(here::here('data','raw data','multispecies','SPS_2022 Biological Viability Assessment.csv'),na.strings = c('-99','-99.00'))
+sps_sub=subset(sps,SPECIES=='Chinook salmon') #subset to chinook, all other species have more updated data above
+sps_sub=subset(sps_sub,POPULATION_NAME!='Mid-Hood Canal Chinook') #drop this stock, as some a number of age proportions are off (e.g. negative proportions)
+sps_sub=subset(sps_sub,POPULATION_NAME!='Skykomish Chinook (Snohomish)') #drop this stock, not enough data
+sps_sub=subset(sps_sub,CATCH>=0)
+sps_sub$stock=gsub(' Chinook','',sps_sub$POPULATION_NAME)
+#Approximate lat/lons for these stocks taken from google maps - at mouth of the river system
+lat_lons<- data.frame(stock=unique(paste(sps_sub$POPULATION_NAME)),region='Inside WA',river.system=NA,lat=NA,lon=NA)
+
+lat_lons[1,3:5]=cbind('Cedar River',47.5039,-122.2169) #Cedar River lat/lon
+lat_lons[2,3:5]=cbind('Dungeness River',48.159,-123.135) #dungeness river - olympic peninsula
+lat_lons[3,3:5]=cbind('Elwha River',48.170,-123.590) #Elwha river - olympic peninsula
+lat_lons[4,3:5]=cbind('Green River',47.5925,-122.3600)
+lat_lons[5,3:5]=cbind('Sauk (Skagit) River',48.3677,-122.5141) #Skagit river & sauk/suiattle tributaries lat/lon
+lat_lons[6,3:5]=cbind('Skagit River',48.3677,-122.5141) #Skagit river & sauk/suiattle tributaries lat/lon
+lat_lons[7,3:5]=cbind('Nisqually River',47.0996,-122.7029) #Nisqually river
+lat_lons[8,3:5]=cbind('Nooksack River',48.766,-123.58) #Nooksack river - Bellingham bay
+lat_lons[9,3:5]=cbind('Stillaguamish River',48.2465,-122.3957) #Stillaguimish river
+lat_lons[10,3:5]=cbind('Puyallup River',47.2472,-122.4289) #Puyallup river & white river tributary
+lat_lons[11,3:5]=cbind('Sammamish River',47.751,-122.266) #Nooksack river - Bellingham bay
+lat_lons[12,3:5]=cbind('Skokomish River',47.3436,-123.1212) #Skokomish river & white river tributary
+lat_lons[13,3:5]=cbind('Snohomisin River',48.0206,-122.2122) #Tributaries of Snohomisin (Snoqualmie & Skykomish)
+lat_lons[14,3:5]=cbind('Nooksack River',48.766,-123.58) #Nooksack river - Bellingham bay
+lat_lons[15,3:5]=cbind('Stillaguamish River',48.2465,-122.3957) #Stillaguimish river
+lat_lons[16,3:5]=cbind('Suiattle (Skagit) River',48.3677,-122.5141) #Skagit river & sauk/suiattle tributaries lat/lon
+lat_lons[17,3:5]=cbind('Cascade (Skagit) River',48.3677,-122.5141) #Skagit river & sauk/suiattle tributaries lat/lon
+lat_lons[18,3:5]=cbind('Sauk (Skagit) River',48.3677,-122.5141) #Skagit river & sauk/suiattle tributaries lat/lon
+lat_lons[19,3:5]=cbind('Skagit River',48.3677,-122.5141) #Skagit river & sauk/suiattle tributaries lat/lon
+lat_lons[20,3:5]=cbind('White River',47.305,-122.471) #Skagit river & sauk/suiattle tributaries lat/lon
+
+cl=length(chinook_list)
+
+sps_bt=list()
+for(i in 1:length(unique(sps_sub$POPULATION_NAME))){
+  
+  #run reconstruction from escapement + harvest + p. age returns
+  x=subset(sps_sub,POPULATION_NAME==levels(factor(sps_sub$POPULATION_NAME))[i])
+  x=x[order(x$YEAR),]
+  x$RUN_SIZE=x$NUMBER_OF_SPAWNERS*x$FRACWILD+x$CATCH
+  x=x[is.na(x$FRACWILD)==F,]
+  
+  if(nrow(x)==0){next}
+  
+  bt_temp=data.frame(stock=unique(x$stock),broodyear=x$YEAR,species='Chinook',run=round(x$RUN_SIZE),spawners=round(x$NUMBER_OF_SPAWNERS),recruits=NA,r1=NA,r2=NA,r3=NA,r4=NA,r5=NA,r6=NA,r7=NA,frac.wild=x$FRACWILD)
+  for(t in 1:nrow(x)){
+    if(is.na(match(x$YEAR[t]-1,bt_temp$broodyear))==F){
+      bt_temp[match(x$YEAR[t]-1,bt_temp$broodyear),6]=round(x$RUN_SIZE[t]*x$AGE_1_RETURNS[t])
+    }
+    if(is.na(match(x$YEAR[t]-2,bt_temp$broodyear))==F){
+      bt_temp[match(x$YEAR[t]-2,bt_temp$broodyear),7]=round(x$RUN_SIZE[t]*x$AGE_2_RETURNS[t])
+    }
+    if(is.na(match(x$YEAR[t]-3,bt_temp$broodyear))==F){
+      bt_temp[match(x$YEAR[t]-3,bt_temp$broodyear),8]=round(x$RUN_SIZE[t]*x$AGE_3_RETURNS[t])
+    }
+    if(is.na(match(x$YEAR[t]-4,bt_temp$broodyear))==F){
+      bt_temp[match(x$YEAR[t]-4,bt_temp$broodyear),9]=round(x$RUN_SIZE[t]*x$AGE_4_RETURNS[t])
+    }
+    if(is.na(match(x$YEAR[t]-5,bt_temp$broodyear))==F){
+      bt_temp[match(x$YEAR[t]-5,bt_temp$broodyear),10]=round(x$RUN_SIZE[t]*x$AGE_5_RETURNS[t])
+    }
+    if(is.na(match(x$YEAR[t]-6,bt_temp$broodyear))==F){
+      bt_temp[match(x$YEAR[t]-6,bt_temp$broodyear),11]=round(x$RUN_SIZE[t]*x$AGE_6_RETURNS[t])
+    }
+    if(is.na(match(x$YEAR[t]-7,bt_temp$broodyear))==F){
+      bt_temp[match(x$YEAR[t]-7,bt_temp$broodyear),12]=round(x$RUN_SIZE[t]*x$AGE_7_RETURNS[t])
+    }
+  }
+  if(all(is.na(bt_temp[,11])==T)&all(is.na(bt_temp[,12])==T)){
+    bt_temp$recruits=apply(bt_temp[,6:10],1,sum)
+    
+  }else if(all(is.na(bt_temp[,12])==T)){
+    bt_temp$recruits=apply(bt_temp[,6:11],1,sum)
+  }
+  
+  sps_bt[[i]]=bt_temp[complete.cases(bt_temp$recruits),]
+  s=bt_temp[complete.cases(bt_temp$recruits),]
+  
+  stock_dat_temp=data.frame(stock.id=NA,species=NA,stock.name=NA,lat=NA,lon=NA,region=NA,ocean.basin=NA,state=NA,begin=NA,end=NA,n.years=NA,m.spawners=NA,m.recruits=NA,source=NA,url=NA,comments=NA,age=NA)
+  
+  stock_dat_temp[,2]='Chinook'
+  stock_dat_temp[,3]=paste(unique(x$stock),'Chinook',sep="-")
+  stock_dat_temp[,4]=lat_lons$lat[i] #lat for mouth of Fraser
+  stock_dat_temp[,5]=lat_lons$lon[i] #lon for mouth of Fraser
+  stock_dat_temp[,6]='Inside WA'
+  stock_dat_temp[,7]='WC'
+  stock_dat_temp[,8]='WA'
+  stock_dat_temp[,9]=min(s$broodyear)
+  stock_dat_temp[,10]=max(s$broodyear)
+  stock_dat_temp[,11]=length(s$broodyear)
+  stock_dat_temp[,12]=max(s$spawners)
+  stock_dat_temp[,13]=max(s$recruits)
+  stock_dat_temp[,14]='NWFSC SPS Database, v2022'
+  stock_dat_temp[,15]='https://www.webapps.nwfsc.noaa.gov/apex/f?p=261:1::::::' #no comments
+  stock_dat_temp[,16]=NA
+  stock_dat_temp[,16]='data'
+  
+  stock_dat=rbind(stock_dat,stock_dat_temp)
+  
+  chinook_list[[cl+i]]=s[,c('stock','species','broodyear','recruits','spawners','r1','r2','r3','r4','r5','r6','r7')]
+}
 
 chinook_filtered = do.call(plyr::rbind.fill, chinook_list)
 
@@ -1043,120 +1181,26 @@ for(i in 1:length(unique(ifr_coho$stock))){
 
 coho_filtered = do.call(plyr::rbind.fill,coho_list)
 
-##Curry Cunningham compilation ####
-cc_comp=cc_comp[complete.cases(cc_comp$recruits),]
-cc_comp$stock.name<- paste(cc_comp$stock,cc_comp$species,sep='-')
-#All pink/sockeye/chum stocks are the same as in the existing dataset - but some have slightly different names due to abbreviations etc
-cc_comp<- subset(cc_comp, species %in% c('Chinook','Coho'))
-cc_comp2<- subset(cc_comp, stock.name %notin% stock_dat$stock.name)
-
-
-#Approximate lat/lons for these stocks taken from google maps - at mouth of the river system
-alsek_klukshu=cbind(59.1348,-138.6067)
-columbia=cbind(46.2508,-124.0143) #for all stocks in Columbia river system (Columbia, snake river, williamette)
-oregon_coast=cbind(44.6175, -124.1093) #ESU for chinook south of Columbia/north of Cape Blanco - location from Newport (approx. mid range)
-#puget sound stock lat/lons:
-puget_sound_lat_lons<- data.frame(river.system=NA,lat=NA,lon=NA)
-puget_sound_lat_lons[1,]=cbind('Green River',47.5925,-122.3600) #Green River lat/lon
-puget_sound_lat_lons[2,]=cbind('Cedar River',47.5039,-122.2169) #Cedar River lat/lon
-puget_sound_lat_lons[3,]=cbind('Skagit River',48.3677,-122.5141) #Skagit river & sauk/suiattle tributaries lat/lon
-puget_sound_lat_lons[4,]=cbind('Stillaguamish River',48.2465,-122.3957) #Stillaguimish river
-puget_sound_lat_lons[5,]=cbind('Nisqually River',47.0996,-122.7029) #Nisqually river
-puget_sound_lat_lons[6,]=cbind('Puyallup River',47.2472,-122.4289) #Puyallup river & white river tributary
-puget_sound_lat_lons[7,]=cbind('Skokomish River',47.3436,-123.1212) #Skokomish river & white river tributary
-puget_sound_lat_lons[8,]=cbind('Snohomisin River',48.0206,-122.2122) #Tributaries of Snohomisin (Snoqualmie & Skykomish)
-puget_sound_lat_lons[9,]=cbind('Mid-Hood Canal',47.6393,-122.9299) #mid hood canal - diswallups/duckabush/hamma hamma watersheds -coordinate is at mouth of the Duckabush system (mid way)
-
-#putting in lat/lon info for these stocks manually:
-cc_info<- distinct(cc_comp2,stock.name,.keep_all=T)
-cc_info$lat=NA;cc_info$lon=NA
-cc_info[1,12:13]=alsek_klukshu #Alsek-Chinook
-cc_info[2:28,12]=columbia[,1];cc_info[2:28,13]=columbia[,2] #Columbia river chinook (26 pop)
-cc_info[29,12:13]=puget_sound_lat_lons[2,2:3] #Cedar river chinook
-cc_info[30,12:13]=puget_sound_lat_lons[1,2:3] #Green river
-cc_info[31,12:13]=puget_sound_lat_lons[3,2:3] #Sauk river
-cc_info[32,12:13]=puget_sound_lat_lons[3,2:3] #skagit river
-cc_info[33,12:13]=puget_sound_lat_lons[9,2:3] #mid-hood canal
-cc_info[34,12:13]=puget_sound_lat_lons[5,2:3] #Nisqually river
-cc_info[35,12:13]=puget_sound_lat_lons[4,2:3] #Stillaguimish river
-cc_info[36,12:13]=puget_sound_lat_lons[6,2:3] #Puyallup river
-cc_info[37,12:13]=puget_sound_lat_lons[7,2:3] #Skokomish river
-cc_info[38,12:13]=puget_sound_lat_lons[8,2:3] #Skykomish River
-cc_info[39,12:13]=puget_sound_lat_lons[8,2:3] # Snoqualmie River
-cc_info[40,12:13]=puget_sound_lat_lons[4,2:3] #Stillaguimish river
-cc_info[41,12:13]=puget_sound_lat_lons[3,2:3] #Suiattle River
-cc_info[42,12:13]=puget_sound_lat_lons[3,2:3] #Upper Sauk River
-cc_info[43,12:13]=puget_sound_lat_lons[3,2:3] #Skagit River
-cc_info[44,12:13]=puget_sound_lat_lons[6,2:3] #White River
-cc_info[45:58,12]=columbia[,1];cc_info[45:58,13]=columbia[,2] #Willamette (Columbia)
-cc_info[59:60,12]=oregon_coast[,1];cc_info[59:60,13]=oregon_coast[,2] #Oregon coast coho
-cc_info[61:62,12]=columbia[,1];cc_info[61:62,13]=columbia[,2] #Willamette (Columbia) coho
-cc_info$region=gsub('Southeast','SEAK',cc_info$region)
-cc_info$region=gsub('Willamette/Lower Columbia','Lower Columbia',cc_info$region)
-
-#add in these new stocks
-cc_comp_list=list()
-for(i in 1:length(unique(cc_comp2$stock.name))){
-  s=subset(cc_comp2,stock.name==unique(cc_comp2$stock.name)[i])
-  s_info=subset(cc_info,stock.name==unique(cc_comp2$stock.name)[i])
-  #Some stocks from have repeated time-series with multiple estimates of escapement based extrapolations of true escapement from peak abundance estimated from aerial surveys. These are eg. 25%, 50%, 100% of true escapement.
-  #Just taking a single time-series for these - the particular estimate does not matter for our purposes in comparing stationary and time-varying stock-recruitment dynamics
-  if(any(duplicated(s$broodyear))==T){
-    s=distinct(s,broodyear,.keep_all = T)
-  }
-  s_use=subset(s,is.na(spawners)==F&is.na(recruits)==F)
-  s_use<- subset(s_use,spawners!=0&recruits!=0)
-  
-  stock_dat_temp=data.frame(stock.id=NA,species=NA,stock.name=NA,lat=NA,lon=NA,region=NA,ocean.basin=NA,state=NA,begin=NA,end=NA,n.years=NA,m.spawners=NA,m.recruits=NA,source=NA,url=NA,comments=NA,age=NA)
-  
-  stock_dat_temp[,1]=unique(s$stock.id)
-  stock_dat_temp[,2]=unique(s$species)
-  stock_dat_temp[,3]=paste(unique(s$stock),unique(s$species),sep='-')
-  stock_dat_temp[,4]=unique(s_info$lat)
-  stock_dat_temp[,5]=unique(s_info$lon)
-  stock_dat_temp[,6]=unique(s_info$region)
-  stock_dat_temp[,7]=unique(s_info$large.region)
-  if(s_info$region=='Southeast'){stock_dat_temp[,8]='AK'}
-  if(s_info$region=='Interior Columbia'|s_info$region=='Puget Sound'){stock_dat_temp[,8]='WA'}
-  if(s_info$region=='Willamette/Lower Columbia'|s_info$region=='Oregon Coast'){stock_dat_temp[,8]='OR'}
-  if(nrow(s_use)!=0){
-    stock_dat_temp[,9]=min(s_use$broodyear)
-    stock_dat_temp[,10]=max(s_use$broodyear)
-    stock_dat_temp[,11]=length(s_use$broodyear)
-    stock_dat_temp[,12]=mean(s_use$spawners)/1e3
-    stock_dat_temp[,13]=mean(s_use$recruits)/1e3
-  }else{
-    stock_dat_temp[,9]=NA
-    stock_dat_temp[,10]=NA
-    stock_dat_temp[,11]=0
-    stock_dat_temp[,12:13]=NA
-  }
-  stock_dat_temp[,14]='Curry Cunningham/Brian Burke, 2022' #source to be confirmed with Curry
-  stock_dat_temp[,15:17]=NA
-  
-  stock_dat=rbind(stock_dat,stock_dat_temp)
-  
-  cc_comp_list[[i]]=s_use[,c('stock','species','broodyear','recruits','spawners')]
-}
-cc_comp_filtered<- do.call(plyr::rbind.fill, cc_comp_list)
 
 
 #Print out data####
-filtered_productivity_data=full_join(chinook_filtered,chum_filtered) %>% full_join(coho_filtered) %>% full_join(pink_filtered) %>% full_join(sockeye_filtered) %>% full_join(cc_comp_filtered)
+filtered_productivity_data=full_join(chinook_filtered,chum_filtered) %>% full_join(coho_filtered) %>% full_join(pink_filtered) %>% full_join(sockeye_filtered)
 filtered_productivity_data=subset(filtered_productivity_data,spawners>1)
 
 #Stock overview
 stock_dat= subset(stock_dat,n.years>0)
 stock_dat$stock.id=seq(1:nrow(stock_dat))
 filtered_productivity_data$stock=paste(filtered_productivity_data$stock,filtered_productivity_data$species,sep='-')
-filtered_productivity_data$stock.id=stock_dat$stock.id[match(filtered_productivity_data$stock,stock_dat$stock.name)]
 
-filtered_productivity_data1=filtered_productivity_data[,1:5]
-filtered_productivity_data2=filtered_productivity_data[,6:36]
+filtered_productivity_data1=cbind(filtered_productivity_data[,1:5])
+filtered_productivity_data2=filtered_productivity_data[,6:13]
+filtered_productivity_data3=filtered_productivity_data[,14:36]
 
 filtered_productivity_data2=filtered_productivity_data2[,order(names(filtered_productivity_data2))]
-filtered_productivity_data=cbind(filtered_productivity_data1,filtered_productivity_data2)
+filtered_productivity_data3=filtered_productivity_data3[,order(names(filtered_productivity_data3))]
+filtered_productivity_data=cbind(filtered_productivity_data1,filtered_productivity_data2,filtered_productivity_data3)
 filtered_productivity_data$logRS=log(filtered_productivity_data$recruits/filtered_productivity_data$spawners)
+filtered_productivity_data$stock.id=stock_dat$stock.id[match(filtered_productivity_data$stock,stock_dat$stock.name)]
 
 #Write datasets
 rownames(stock_dat)=NULL
