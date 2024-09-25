@@ -138,17 +138,17 @@ Arron Dufault, Washington Department of Fish and Wildlife, Olympia, WA (via G. R
 "136",136,"Chum","Norton Sound-Chum","64.52","-165.12","AYK","BS","AK",1974,1995,22,43.8760909090909,53.6312272727273,"Doug Eggers, Alaska Department of Fish and Game (ADFG), Juneau, AK; Clark, J. 2001a. Biological escapement goal for chum salmon in subdistrict one of Norton Sound. Technical report, Regional Information Report No. 3AO1-09, Alaska Department of Fish and Game",NA,"District 1","1"
 "137",137,"Chum","Kwiniuk Inlet-Chum","64.72","-161.96","AYK","BS","AK",1965,1995,31,47.1228064516129,69.0762258064516,"Doug Eggers, Alaska Department of Fish and Game (ADFG), Juneau, AK; Clark, J. 2001b. Biological escapement goals for Kwiniuk and Tubutulik chum salmon. Technical report, Regional Infomlation Report No. 3AOI-08, Alaska Department of Fish and Game",NA,"Sum of Kwiniuk and Tubutulik Rivers","1"
 "138",138,"Chum","Kotzebue-Chum","66.46","-161.91","AYK","BS","AK",1962,1997,36,389.091027777778,640.155555555555,"Doug Eggers, Alaska Department of Fish and Game (ADFG), Juneau, AK; Eggers, D. and J. Clark. 2006. Assessment of historical runs and escapement goals for Kotzebue area chum salmon. Technical report, Fishery Manuscript No. 06-01, Alaska Department of Fish and Game ",NA,"","1"
-"139",139,"Chum","Lower Skeena-Chum","54.3","-130.36","Skeena R","WC","BC",NA,NA,49,21.4740612244898,34.4224081632653,"Salmon Watersheds Program, PSF, 2022",NA,"",NA
-"140",140,"Chum","Smith Inlet-Chum","51.31","-127.43","Central Coast","WC","BC",NA,NA,56,57.129,76.3743571428571,"Salmon Watersheds Program, PSF, 2022",NA,"",NA
-"141",141,"Chum","Spiller-Fitz-Hugh-Burke-Chum","52.16","-128.14","Central Coast","WC","BC",NA,NA,63,256.582761904762,400.106634920635,"Salmon Watersheds Program, PSF, 2022",NA,"",NA
-"142",142,"Chum","Bella Coola-Dean Rivers-Chum","52.38","-126.78","Central Coast","WC","BC",NA,NA,63,200.665476190476,430.204936507937,"Salmon Watersheds Program, PSF, 2022",NA,"",NA
-"143",143,"Chum","Hecate Lowlands-Chum","53.42","-129.25","Central Coast","WC","BC",NA,NA,63,116.87553968254,215.32746031746,"Salmon Watersheds Program, PSF, 2022",NA,"",NA
-"144",144,"Chum","Mussel-Kynoch-Chum","52.61","-128.52","Central Coast","WC","BC",NA,NA,62,112.025,170.762209677419,"Salmon Watersheds Program, PSF, 2022",NA,"",NA
-"145",145,"Chum","Douglas-Gardner-Chum","53.96","-128.68","Central Coast","WC","BC",NA,NA,62,236.761048387097,368.985887096774,"Salmon Watersheds Program, PSF, 2022",NA,"",NA
-"146",146,"Chum","Northwest Vancouver Island-Chum","50.04","-127.68","Vancouver Island","WC","BC",NA,NA,49,53.3170612244898,58.1586734693878,"Salmon Watersheds Program, PSF, 2022",NA,"",NA
-"147",147,"Chum","Southwest & West Vancouver Island-Chum","48.7","-125.09","Vancouver Island","WC","BC",NA,NA,48,326.770479166667,391.9638125,"Salmon Watersheds Program, PSF, 2022",NA,"",NA
-"148",148,"Chum","East Haida Gwaii-Chum","53.32","-131.79","Haida Gwaii","WC","BC",NA,NA,55,202.437709090909,292.133854545455,"Salmon Watersheds Program, PSF, 2022",NA,"",NA
-"149",149,"Chum","Skidegate-Chum","54.09","-132.22","Haida Gwaii","WC","BC",NA,NA,57,108.768631578947,151.265754385965,"Salmon Watersheds Program, PSF, 2022",NA,"",NA
+"139",139,"Chum","Lower Skeena-Chum","54.3","-130.36","Skeena R","WC","BC",1958,2012,49,21.4740612244898,34.4224081632653,"Salmon Watersheds Program, PSF, 2022",NA,"",NA
+"140",140,"Chum","Smith Inlet-Chum","51.31","-127.43","Central Coast","WC","BC",1954,2009,56,57.129,76.3743571428571,"Salmon Watersheds Program, PSF, 2022",NA,"",NA
+"141",141,"Chum","Spiller-Fitz-Hugh-Burke-Chum","52.16","-128.14","Central Coast","WC","BC",1954,2016,63,256.582761904762,400.106634920635,"Salmon Watersheds Program, PSF, 2022",NA,"",NA
+"142",142,"Chum","Bella Coola-Dean Rivers-Chum","52.38","-126.78","Central Coast","WC","BC",1954,2016,63,200.665476190476,430.204936507937,"Salmon Watersheds Program, PSF, 2022",NA,"",NA
+"143",143,"Chum","Hecate Lowlands-Chum","53.42","-129.25","Central Coast","WC","BC",1954,2016,63,116.87553968254,215.32746031746,"Salmon Watersheds Program, PSF, 2022",NA,"",NA
+"144",144,"Chum","Mussel-Kynoch-Chum","52.61","-128.52","Central Coast","WC","BC",1954,2015,62,112.025,170.762209677419,"Salmon Watersheds Program, PSF, 2022",NA,"",NA
+"145",145,"Chum","Douglas-Gardner-Chum","53.96","-128.68","Central Coast","WC","BC",1954,2015,62,236.761048387097,368.985887096774,"Salmon Watersheds Program, PSF, 2022",NA,"",NA
+"146",146,"Chum","Northwest Vancouver Island-Chum","50.04","-127.68","Vancouver Island","WC","BC",1956,2010,49,53.3170612244898,58.1586734693878,"Salmon Watersheds Program, PSF, 2022",NA,"",NA
+"147",147,"Chum","Southwest & West Vancouver Island-Chum","48.7","-125.09","Vancouver Island","WC","BC",1956,2010,48,326.770479166667,391.9638125,"Salmon Watersheds Program, PSF, 2022",NA,"",NA
+"148",148,"Chum","East Haida Gwaii-Chum","53.32","-131.79","Haida Gwaii","WC","BC",1954,2008,55,202.437709090909,292.133854545455,"Salmon Watersheds Program, PSF, 2022",NA,"",NA
+"149",149,"Chum","Skidegate-Chum","54.09","-132.22","Haida Gwaii","WC","BC",1954,2010,57,108.768631578947,151.265754385965,"Salmon Watersheds Program, PSF, 2022",NA,"",NA
 "150",150,"Pink-Odd","Puyallup-Pink-Odd","47.26972","-122.4272","Inside WA","WC","WA",1959,2019,31,165.947064516129,241.002129032258,"Marisa Litz, WDFW, April 2023",NA,"",NA
 "151",151,"Pink-Odd","Hood Canal-Pink-Odd","47.5644","-122.9956","Inside WA","WC","WA",1959,2019,31,88.3930322580645,138.444419354839,"Marisa Litz, WDFW, April 2023",NA,"Sum of Dosewallips, Duckabush, and Hamma Hamma",NA
 "152",152,"Pink-Odd","Snohomish-Pink-Odd","48.02139","-122.2072","Inside WA","WC","WA",1959,2019,31,397.16335483871,602.94064516129,"Marisa Litz, WDFW, April 2023",NA,"",NA

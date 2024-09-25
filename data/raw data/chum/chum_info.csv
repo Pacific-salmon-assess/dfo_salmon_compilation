@@ -8,8 +8,8 @@ X,species,stock,region,sub.region,jurisdiction,lat,lon,source.id,comment
 ,Chum,Port Susan,Inside WA,Inside WA,WA,48.23861,122.3758,1,Sum of Stillaguamish and Snohomish stocks
 ,Chum,Skagit,Inside WA,Inside WA,WA,48.3875,122.3656,1,
 ,Chum,Bellingham,Inside WA,Inside WA,WA,48.775,122.5978,1,Sum of Nooksack and Samish stocks
-,Chum,Fraser,Fraser River,BC South,BC,49.12333,123.0569,2,
-,Chum,BC South (no Fraser),BC South,BC South,BC,50.28778,125.2008,"3, 4","Statistical Areas 11-17, 28A, 28B, 29B"
+,Chum,Fraser,Fraser River,South Coast,BC,49.12333,123.0569,2,
+,Chum,BC South (no Fraser),BC South,South Coast,BC,50.28778,125.2008,"3, 4","Statistical Areas 11-17, 28A, 28B, 29B"
 ,Chum,Area 10,BC Central,BC Central,BC,51.28722,127.6819,"5, 6",
 ,Chum,Area 9,BC Central,BC Central,BC,51.46556,127.7422,"5, 6",
 ,Chum,Area 8,BC Central,BC Central,BC,51.62194,127.8289,"5, 6",
@@ -56,11 +56,15 @@ X,species,stock,region,sub.region,jurisdiction,lat,lon,source.id,comment
 ,Chum,Mussel-Kynoch,WC,Central Coast,BC,52.61,128.52,23,
 ,Chum,Douglas-Gardner,WC,Central Coast,BC,53.96,128.68,23,
 ,Chum,Smith Inlet,WC,Central Coast,BC,51.31,127.43,23,
-,Chum,Lower Skeena,SEAK,Skeena R,BC,54.3,130.36,23,
+,Chum,Lower Skeena,SEAK,North Coast,BC,54.3,130.36,23,
 ,Chum,Skidegate,SEAK,Haida Gwaii,BC,54.09,132.22,23,
-,Chum,Southwest & West Vancouver Island,WC,Vancouver Island,BC,48.7,125.09,23,
-,Chum,East Haida Gwaii,SEAK,Haida Gwaii,BC,53.32,131.79,23,
+,Chum,Southwest & West Vancouver Island,WC,South Coast,BC,48.7,125.09,23,
+,Chum,East Haida Gwaii,SEAK,Haida Gwaii,BC,53.26,131.62,23,
+,Chum,North Haida Gwaii,SEAK,Haida Gwaii,BC,54.31,132.44,23,
+,Chum,West Haida Gwaii,SEAK,Haida Gwaii,BC,53.12,132.82,23,
 ,Chum,Hecate Lowlands,WC,Central Coast,BC,53.42,129.25,23,
-,Chum,Northwest Vancouver Island,WC,Vancouver Island,BC,50.04,127.68,23,
+,Chum,Northwest Vancouver Island,WC,South Coast,BC,50.04,127.68,23,
 ,Chum,Spiller-Fitz-Hugh-Burke,WC,Central Coast,BC,52.16,128.14,23,
 ,Chum,Rivers Inlet,WC,Central Coast,BC,51.68,127.26,23,
+,Chum,Portland Canal-Observatory,WC,North Coast,BC,54.82,-130.25,23,
+,Chum,Portland Inlet,WC,North Coast,BC,55.04,-130,23,

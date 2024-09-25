@@ -1,0 +1,444 @@
+region,species_name,cuid,cu_name_pse,survey_method,survey_coverage,survey_execution,catch_method,stockid_quality,juvenile_quality,runtiming_quality,dq_score_spawner_surveys,dq_score_juvenile_surveys,dq_score_spawner_abundance,dq_score_run_timing,dq_score_catch_run_size,dq_score_recruits_per_spawner,dq_score_trends_spawner_abund,dq_score_biological_status,uploadid,dataset_version
+Skeena,Chinook,205,Ecstall,0,1,1,2,-989898,0,1,1.0,0.0,1.0,1.0,2.0,1.0,1.0,1.0,1808,20240915
+Skeena,Chinook,206,Kalum-Early,0,0,0,2,-989898,0,1,0.0,0.0,0.0,1.0,2.0,2.0,0.0,2.0,1808,20240915
+Skeena,Chinook,207,Kalum-Late,2,5,2,5,-989898,0,5,3.0,0.0,3.0,5.0,5.0,4.0,3.0,4.0,1808,20240915
+Skeena,Chinook,210,Lower Skeena,1,3,2,5,-989898,0,5,2.0,0.0,2.0,5.0,5.0,3.0,2.0,3.0,1808,20240915
+Skeena,Chinook,212,Upper Skeena,0,0,0,0,-989898,0,5,0.0,0.0,0.0,5.0,0.0,0.0,0.0,0.0,1808,20240915
+Skeena,Chinook,217,Middle Skeena-Mainstem Tributaries,3,5,3,5,-989898,0,5,4.0,0.0,4.0,5.0,5.0,4.0,4.0,4.0,1808,20240915
+Skeena,Chinook,221,Upper Bulkley River,3,5,1,2,-989898,0,1,3.0,0.0,3.0,1.0,2.0,3.0,3.0,3.0,1808,20240915
+Skeena,Chinook,222,Middle Skeena-Large Lakes,2,3,5,5,-989898,0,5,3.0,0.0,3.0,5.0,5.0,4.0,3.0,4.0,1808,20240915
+Skeena,Chinook,224,Skeena Estuary,0,1,0,0,-989898,0,1,1.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1808,20240915
+Skeena,Chinook,227,Lakelse,0,1,0,0,-989898,0,1,1.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1808,20240915
+Skeena,Chinook,229,Zymoetz,0,0,0,0,-989898,0,5,0.0,0.0,0.0,5.0,0.0,0.0,0.0,0.0,1808,20240915
+Skeena,Chum,211,Lower Skeena,1,3,3,3,-989898,0,1,2.0,0.0,2.0,1.0,3.0,2.0,2.0,2.0,1808,20240915
+Skeena,Chum,214,Middle Skeena,2,3,3,5,-989898,0,1,3.0,0.0,3.0,1.0,5.0,3.0,3.0,3.0,1808,20240915
+Skeena,Chum,220,Skeena Estuary,0,1,0,3,-989898,0,1,1.0,0.0,1.0,1.0,3.0,2.0,1.0,2.0,1808,20240915
+Skeena,Chum,242,Upper Skeena,0,0,0,0,-989898,0,1,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1808,20240915
+Skeena,Coho,202,Lower Skeena,2,5,3,2,-989898,0,1,3.0,0.0,3.0,1.0,2.0,3.0,3.0,3.0,1808,20240915
+Skeena,Coho,215,Middle Skeena,0,1,2,5,-989898,0,1,2.0,0.0,2.0,1.0,5.0,3.0,2.0,3.0,1808,20240915
+Skeena,Coho,225,Skeena Estuary,0,0,0,2,-989898,0,2,0.0,0.0,0.0,2.0,2.0,2.0,0.0,2.0,1808,20240915
+Skeena,Coho,231,Upper Skeena,5,5,2,2,-989898,3,1,4.0,3.0,4.0,1.0,2.0,4.0,4.0,4.0,1808,20240915
+Skeena,Lake sockeye,171,Alastair,3,5,4,5,-989898,0,1,4.0,0.0,4.0,1.0,5.0,4.0,4.0,4.0,1808,20240915
+Skeena,Lake sockeye,174,Ecstall/Lower,0,0,0,0,-989898,0,1,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1808,20240915
+Skeena,Lake sockeye,175,Johnston,0,1,0,5,-989898,0,1,1.0,0.0,1.0,1.0,5.0,3.0,1.0,3.0,1808,20240915
+Skeena,Lake sockeye,176,Kitsumkalum,3,4,4,5,-989898,0,1,4.0,0.0,4.0,1.0,5.0,4.0,4.0,4.0,1808,20240915
+Skeena,Lake sockeye,177,Lakelse,2,5,3,5,-989898,0,1,3.0,0.0,3.0,1.0,5.0,4.0,3.0,4.0,1808,20240915
+Skeena,Lake sockeye,178,Mcdonell/Dennis/Aldrich,0,0,0,5,-989898,0,0,0.0,0.0,0.0,0.0,5.0,5.0,0.0,5.0,1808,20240915
+Skeena,Lake sockeye,180,Babine/Onerka,0,1,4,5,-989898,4,1,2.0,4.0,2.0,1.0,5.0,3.0,2.0,3.0,1808,20240915
+Skeena,Lake sockeye,181,Bulkley/Maxan,0,0,0,0,-989898,0,1,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1808,20240915
+Skeena,Lake sockeye,183,Gitanyow (Kitwanga/Kitwancool),2,5,4,5,-989898,5,1,4.0,5.0,4.0,1.0,5.0,4.0,4.0,4.0,1808,20240915
+Skeena,Lake sockeye,185,Morice/Atna,0,0,0,5,-989898,0,0,0.0,0.0,0.0,0.0,5.0,5.0,0.0,5.0,1808,20240915
+Skeena,Lake sockeye,186,Nilkitkwa,3,5,5,5,-989898,4,1,4.0,4.0,4.0,1.0,5.0,4.0,4.0,4.0,1808,20240915
+Skeena,Lake sockeye,187,Stephens,3,5,4,5,-989898,0,1,4.0,0.0,4.0,1.0,5.0,4.0,4.0,4.0,1808,20240915
+Skeena,Lake sockeye,189,Tahlo/Morrison,0,1,0,5,-989898,4,1,1.0,4.0,1.0,1.0,5.0,3.0,1.0,3.0,1808,20240915
+Skeena,Lake sockeye,190,Asitika,0,1,0,5,-989898,0,1,1.0,0.0,1.0,1.0,5.0,3.0,1.0,3.0,1808,20240915
+Skeena,Lake sockeye,191,Azuklotz,2,5,5,5,-989898,0,1,4.0,0.0,4.0,1.0,5.0,4.0,4.0,4.0,1808,20240915
+Skeena,Lake sockeye,192,Bear,1,3,3,5,-989898,0,1,2.0,0.0,2.0,1.0,5.0,3.0,2.0,3.0,1808,20240915
+Skeena,Lake sockeye,193,Damshilgwit,3,5,3,5,-989898,0,1,4.0,0.0,4.0,1.0,5.0,4.0,4.0,4.0,1808,20240915
+Skeena,Lake sockeye,194,Johanson,0,0,0,0,-989898,0,1,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1808,20240915
+Skeena,Lake sockeye,195,Kluatantan,0,0,0,0,-989898,0,1,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1808,20240915
+Skeena,Lake sockeye,196,Kluayaz,0,0,0,0,-989898,0,1,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1808,20240915
+Skeena,Lake sockeye,197,Motase,2,5,4,5,-989898,0,1,4.0,0.0,4.0,1.0,5.0,4.0,4.0,4.0,1808,20240915
+Skeena,Lake sockeye,198,Sicintine,0,0,0,0,-989898,0,1,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1808,20240915
+Skeena,Lake sockeye,199,Slamgeesh,0,0,0,0,-989898,3,1,0.0,3.0,0.0,1.0,0.0,0.0,0.0,0.0,1808,20240915
+Skeena,Lake sockeye,200,Spawning,0,0,0,0,-989898,0,1,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1808,20240915
+Skeena,Lake sockeye,201,Sustut,0,0,0,0,-989898,0,1,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1808,20240915
+Skeena,Lake sockeye,203,Babine (enhanced),0,0,0,5,-989898,4,0,0.0,4.0,0.0,0.0,5.0,5.0,0.0,5.0,1808,20240915
+Skeena,Lake sockeye,230,Footsore/Hodder,0,0,0,0,-989898,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1808,20240915
+Skeena,Lake sockeye,291,Prudhomme,0,1,2,0,-989898,0,0,2.0,0.0,2.0,0.0,0.0,2.0,2.0,2.0,1808,20240915
+Skeena,Lake sockeye,292,Shawatlan,1,5,3,0,-989898,0,0,3.0,0.0,3.0,0.0,0.0,3.0,3.0,3.0,1808,20240915
+Skeena,Pink (even),218,Middle-Upper Skeena (even),3,5,3,3,-989898,0,1,4.0,0.0,4.0,1.0,3.0,4.0,4.0,4.0,1808,20240915
+Skeena,Pink (even),219,Nass-Skeena Estuary (even),3,5,3,3,-989898,0,1,4.0,0.0,4.0,1.0,3.0,4.0,4.0,4.0,1808,20240915
+Skeena,Pink (odd),209,Lower Skeena River (odd),0,0,0,3,-989898,0,1,0.0,0.0,0.0,1.0,3.0,3.0,0.0,3.0,1808,20240915
+Skeena,Pink (odd),213,Middle-Upper Skeena (odd),0,0,0,3,-989898,0,1,0.0,0.0,0.0,1.0,3.0,3.0,0.0,3.0,1808,20240915
+Skeena,Pink (odd),223,Nass-Skeena Estuary (odd),0,0,0,3,-989898,0,1,0.0,0.0,0.0,1.0,3.0,3.0,0.0,3.0,1808,20240915
+Skeena,River sockeye,216,Skeena River-High Interior (river-type),2,5,5,0,-989898,0,0,4.0,0.0,4.0,0.0,0.0,4.0,4.0,4.0,1808,20240915
+Skeena,River sockeye,226,Skeena River (river-type),0,1,0,0,-989898,0,0,1.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,1808,20240915
+Skeena,Steelhead,280,Upper Skeena Headwaters,0,0,0,0,-989898,2,1,0.0,2.0,0.0,1.0,0.0,0.0,0.0,0.0,1808,20240915
+Skeena,Steelhead,281,Upper Sustut,0,5,5,0,-989898,0,5,5.0,0.0,5.0,5.0,0.0,5.0,5.0,5.0,1808,20240915
+Skeena,Steelhead,282,Upper Skeena,0,0,0,0,-989898,0,5,0.0,0.0,0.0,5.0,0.0,0.0,0.0,0.0,1808,20240915
+Skeena,Steelhead,283,Kispiox,0,0,0,0,-989898,2,5,0.0,2.0,0.0,5.0,0.0,0.0,0.0,0.0,1808,20240915
+Skeena,Steelhead,284,Babine,0,0,0,0,-989898,0,5,0.0,0.0,0.0,5.0,0.0,0.0,0.0,0.0,1808,20240915
+Skeena,Steelhead,285,Middle Skeena,0,0,0,0,-989898,2,5,0.0,2.0,0.0,5.0,0.0,0.0,0.0,0.0,1808,20240915
+Skeena,Steelhead,286,Suskwa,0,0,0,0,-989898,0,5,0.0,0.0,0.0,5.0,0.0,0.0,0.0,0.0,1808,20240915
+Skeena,Steelhead,287,Bulkley,0,0,0,0,-989898,0,5,0.0,0.0,0.0,5.0,0.0,0.0,0.0,0.0,1808,20240915
+Skeena,Steelhead,288,Skeena Coastal Summers,0,0,0,0,-989898,2,5,0.0,2.0,0.0,5.0,0.0,0.0,0.0,0.0,1808,20240915
+Skeena,Steelhead,289,Morice,0,0,0,0,-989898,2,5,0.0,2.0,0.0,5.0,0.0,0.0,0.0,0.0,1808,20240915
+Skeena,Steelhead,290,Skeena Coastal Winters,0,0,0,0,-989898,0,4,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,1808,20240915
+Nass,Chinook,401,Portland Sound-Observatory Inlet-Lower Nass,0,1,3,5,-989898,0,4,2.0,0.0,2.0,4.0,5.0,3.0,2.0,3.0,1808,20240915
+Nass,Chinook,402,Upper Nass,1,2,4,5,-989898,0,5,2.0,0.0,2.0,5.0,5.0,3.0,2.0,3.0,1808,20240915
+Nass,Chum,404,Portland Inlet,2,5,3,3,-989898,0,0,3.0,0.0,3.0,0.0,3.0,3.0,3.0,3.0,1808,20240915
+Nass,Chum,405,Lower Nass,0,0,0,3,-989898,0,5,0.0,0.0,0.0,5.0,3.0,3.0,0.0,3.0,1808,20240915
+Nass,Chum,406,Portland Canal-Observatory,2,5,3,3,-989898,0,1,3.0,0.0,3.0,1.0,3.0,3.0,3.0,3.0,1808,20240915
+Nass,Coho,408,Lower Nass,2,5,4,3,-989898,5,5,4.0,5.0,4.0,5.0,3.0,4.0,4.0,4.0,1808,20240915
+Nass,Coho,409,Upper Nass,3,4,3,3,-989898,0,5,3.0,0.0,3.0,5.0,3.0,3.0,3.0,3.0,1808,20240915
+Nass,Coho,410,Portland Sound-Observatory Inlet-Portland Canal,0,1,0,3,-989898,0,1,1.0,0.0,1.0,1.0,3.0,2.0,1.0,2.0,1808,20240915
+Nass,Lake sockeye,418,Clements,0,0,0,0,-989898,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1808,20240915
+Nass,Lake sockeye,419,Leverson,0,0,0,0,-989898,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1808,20240915
+Nass,Lake sockeye,420,Bowser,0,0,0,0,-989898,0,5,0.0,0.0,0.0,5.0,0.0,0.0,0.0,0.0,1808,20240915
+Nass,Lake sockeye,421,Damdochax,0,1,0,5,-989898,0,5,1.0,0.0,1.0,5.0,5.0,3.0,1.0,3.0,1808,20240915
+Nass,Lake sockeye,422,Fred Wright,0,1,0,5,-989898,0,0,1.0,0.0,1.0,0.0,5.0,3.0,1.0,3.0,1808,20240915
+Nass,Lake sockeye,423,Kwinageese,0,0,0,0,-989898,0,5,0.0,0.0,0.0,5.0,0.0,0.0,0.0,0.0,1808,20240915
+Nass,Lake sockeye,424,Meziadin,5,5,4,5,-989898,0,5,5.0,0.0,5.0,5.0,5.0,5.0,5.0,5.0,1808,20240915
+Nass,Lake sockeye,425,Oweegee,0,0,0,0,-989898,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1808,20240915
+Nass,Pink (even),412,Upper Nass (even),0,0,0,0,-989898,0,5,0.0,0.0,0.0,5.0,0.0,0.0,0.0,0.0,1808,20240915
+Nass,Pink (odd),414,Nass-Portland-Observatory (odd),0,0,0,3,-989898,0,1,0.0,0.0,0.0,1.0,3.0,3.0,0.0,3.0,1808,20240915
+Nass,Pink (odd),415,Upper Nass (odd),0,0,0,0,-989898,0,5,0.0,0.0,0.0,5.0,0.0,0.0,0.0,0.0,1808,20240915
+Nass,River sockeye,426,Lower Nass-Portland (river-type),3,5,3,5,-989898,0,5,4.0,0.0,4.0,5.0,5.0,4.0,4.0,4.0,1808,20240915
+Nass,River sockeye,427,Upper Nass River (river-type),0,1,0,5,-989898,0,5,1.0,0.0,1.0,5.0,5.0,3.0,1.0,3.0,1808,20240915
+Nass,Steelhead,480,Nass Summer,5,5,4,0,-989898,0,2,5.0,0.0,5.0,2.0,0.0,5.0,5.0,5.0,1808,20240915
+Nass,Steelhead,481,Nass Winter,0,0,0,0,-989898,0,1,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1808,20240915
+Central Coast,Chinook,509,Docee,0,0,0,1,-989898,0,1,0.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,1808,20240915
+Central Coast,Chinook,510,Rivers Inlet,1,5,2,1,-989898,0,1,3.0,0.0,3.0,1.0,1.0,2.0,3.0,2.0,1808,20240915
+Central Coast,Chinook,511,Wannock,0,0,0,1,-989898,0,1,0.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,1808,20240915
+Central Coast,Chinook,512,Bella Coola-Bentinck,0,1,0,5,-989898,0,1,1.0,0.0,1.0,1.0,5.0,3.0,1.0,3.0,1808,20240915
+Central Coast,Chinook,513,Dean River,3,5,4,3,-989898,0,1,4.0,0.0,4.0,1.0,3.0,4.0,4.0,4.0,1808,20240915
+Central Coast,Chinook,514,North & Central Coast-Late,0,1,4,0,-989898,0,1,2.0,0.0,2.0,1.0,0.0,2.0,2.0,2.0,1808,20240915
+Central Coast,Chinook,515,North & Central Coast-Early,0,1,0,3,-989898,0,1,1.0,0.0,1.0,1.0,3.0,2.0,1.0,2.0,1808,20240915
+Central Coast,Chum,500,Smith Inlet,2,5,3,2,-989898,0,1,3.0,0.0,3.0,1.0,2.0,3.0,3.0,3.0,1808,20240915
+Central Coast,Chum,501,Rivers Inlet,2,5,3,2,-989898,0,1,3.0,0.0,3.0,1.0,2.0,3.0,3.0,3.0,1808,20240915
+Central Coast,Chum,502,Wannock,0,0,0,0,-989898,0,1,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1808,20240915
+Central Coast,Chum,503,Spiller-Fitz-Hugh-Burke,2,4,4,2,-989898,0,1,3.0,0.0,3.0,1.0,2.0,3.0,3.0,3.0,1808,20240915
+Central Coast,Chum,504,Bella Coola-Dean Rivers,1,4,3,2,-989898,0,1,3.0,0.0,3.0,1.0,2.0,2.0,3.0,2.0,1808,20240915
+Central Coast,Chum,505,Bella Coola River-Late,0,0,0,2,-989898,0,0,0.0,0.0,0.0,0.0,2.0,2.0,0.0,2.0,1808,20240915
+Central Coast,Chum,506,Hecate Lowlands,2,5,3,2,-989898,3,1,3.0,3.0,3.0,1.0,2.0,3.0,3.0,3.0,1808,20240915
+Central Coast,Chum,507,Mussel-Kynoch,2,5,3,2,-989898,0,1,3.0,0.0,3.0,1.0,2.0,3.0,3.0,3.0,1808,20240915
+Central Coast,Chum,508,Douglas-Gardner,2,5,4,2,-989898,0,1,4.0,0.0,4.0,1.0,2.0,3.0,4.0,3.0,1808,20240915
+Central Coast,Coho,516,Smith Inlet,0,0,0,1,-989898,0,1,0.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,1808,20240915
+Central Coast,Coho,517,Rivers Inlet,0,1,0,1,-989898,0,1,1.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1808,20240915
+Central Coast,Coho,518,Bella Coola-Dean Rivers,0,1,0,1,-989898,0,1,1.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1808,20240915
+Central Coast,Coho,519,Mussel-Kynoch,3,5,4,1,-989898,0,1,4.0,0.0,4.0,1.0,1.0,3.0,4.0,3.0,1808,20240915
+Central Coast,Coho,520,Hecate Strait Mainland,2,4,3,1,-989898,3,1,3.0,3.0,3.0,1.0,1.0,2.0,3.0,2.0,1808,20240915
+Central Coast,Coho,522,Douglas Channel-Kitimat Arm,0,1,0,1,-989898,0,1,1.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1808,20240915
+Central Coast,Coho,523,Northern Coastal Streams,1,2,4,1,-989898,0,1,2.0,0.0,2.0,1.0,1.0,2.0,2.0,2.0,1808,20240915
+Central Coast,Lake sockeye,524,Long,0,0,0,2,-989898,0,1,0.0,0.0,0.0,1.0,2.0,2.0,0.0,2.0,1808,20240915
+Central Coast,Lake sockeye,525,Owikeno,2,5,3,2,-989898,0,1,3.0,0.0,3.0,1.0,2.0,3.0,3.0,3.0,1808,20240915
+Central Coast,Lake sockeye,527,Wannock (Owikeno),0,0,0,0,-989898,0,1,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1808,20240915
+Central Coast,Lake sockeye,528,South Atnarko Lakes,0,0,0,0,-989898,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1808,20240915
+Central Coast,Lake sockeye,529,Backland,0,1,0,2,-989898,0,0,1.0,0.0,1.0,0.0,2.0,2.0,1.0,2.0,1808,20240915
+Central Coast,Lake sockeye,530,Soda Creek,0,0,0,0,-989898,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1808,20240915
+Central Coast,Lake sockeye,532,Canoona,2,5,4,2,-989898,0,1,4.0,0.0,4.0,1.0,2.0,3.0,4.0,3.0,1808,20240915
+Central Coast,Lake sockeye,533,Dome,0,0,0,0,-989898,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1808,20240915
+Central Coast,Lake sockeye,534,Evelyn,3,5,5,2,-989898,0,1,4.0,0.0,4.0,1.0,2.0,4.0,4.0,4.0,1808,20240915
+Central Coast,Lake sockeye,535,Kainet Creek,2,5,5,2,-989898,0,1,4.0,0.0,4.0,1.0,2.0,4.0,4.0,4.0,1808,20240915
+Central Coast,Lake sockeye,536,Kimsquit,0,1,0,0,-989898,0,1,1.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1808,20240915
+Central Coast,Lake sockeye,537,Kitkiata,0,1,0,0,-989898,0,1,1.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1808,20240915
+Central Coast,Lake sockeye,538,Kitlope,0,1,0,2,-989898,0,1,1.0,0.0,1.0,1.0,2.0,2.0,1.0,2.0,1808,20240915
+Central Coast,Lake sockeye,539,Pine River,0,0,0,0,-989898,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1808,20240915
+Central Coast,Lake sockeye,540,Banks,0,0,0,0,-989898,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1808,20240915
+Central Coast,Lake sockeye,541,Bloomfield,0,1,0,2,-989898,0,1,1.0,0.0,1.0,1.0,2.0,2.0,1.0,2.0,1808,20240915
+Central Coast,Lake sockeye,542,Bolton Creek,0,0,0,0,-989898,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1808,20240915
+Central Coast,Lake sockeye,543,Bonilla,0,0,0,0,-989898,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1808,20240915
+Central Coast,Lake sockeye,544,Borrowman Creek,0,0,0,0,-989898,0,1,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1808,20240915
+Central Coast,Lake sockeye,545,Busey Creek,0,0,0,0,-989898,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1808,20240915
+Central Coast,Lake sockeye,546,Cartwright Creek,0,0,0,0,-989898,0,1,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1808,20240915
+Central Coast,Lake sockeye,547,Chic Chic,0,0,0,0,-989898,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1808,20240915
+Central Coast,Lake sockeye,548,Tuwartz,0,0,0,0,-989898,0,1,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1808,20240915
+Central Coast,Lake sockeye,549,Fannie Cove,0,1,0,0,-989898,0,1,1.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1808,20240915
+Central Coast,Lake sockeye,550,Curtis Inlet,0,0,0,2,-989898,0,0,0.0,0.0,0.0,0.0,2.0,2.0,0.0,2.0,1808,20240915
+Central Coast,Lake sockeye,551,Dallain Creek,0,0,0,0,-989898,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1808,20240915
+Central Coast,Lake sockeye,552,Deer,0,1,0,0,-989898,0,0,1.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,1808,20240915
+Central Coast,Lake sockeye,553,Devon,0,0,0,2,-989898,0,0,0.0,0.0,0.0,0.0,2.0,2.0,0.0,2.0,1808,20240915
+Central Coast,Lake sockeye,554,Douglas Creek,0,0,0,0,-989898,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1808,20240915
+Central Coast,Lake sockeye,555,Elizabeth,0,0,0,0,-989898,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1808,20240915
+Central Coast,Lake sockeye,556,Elsie/Hoy,0,0,0,0,-989898,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1808,20240915
+Central Coast,Lake sockeye,557,End Hill Creek,0,0,0,0,-989898,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1808,20240915
+Central Coast,Lake sockeye,558,Evinrude Inlet,0,0,0,0,-989898,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1808,20240915
+Central Coast,Lake sockeye,559,Freeda,0,1,0,2,-989898,0,0,1.0,0.0,1.0,0.0,2.0,2.0,1.0,2.0,1808,20240915
+Central Coast,Lake sockeye,560,Hartley Bay,2,5,5,2,-989898,0,1,4.0,0.0,4.0,1.0,2.0,4.0,4.0,4.0,1808,20240915
+Central Coast,Lake sockeye,561,Hevenor Inlet,0,0,0,0,-989898,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1808,20240915
+Central Coast,Lake sockeye,562,Higgins Lagoon,0,0,0,0,-989898,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1808,20240915
+Central Coast,Lake sockeye,563,Kadjusdis River,0,1,0,2,-989898,0,1,1.0,0.0,1.0,1.0,2.0,2.0,1.0,2.0,1808,20240915
+Central Coast,Lake sockeye,564,Kdelmashan Creek,0,0,0,0,-989898,0,1,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1808,20240915
+Central Coast,Lake sockeye,565,Keecha,0,0,0,2,-989898,0,0,0.0,0.0,0.0,0.0,2.0,2.0,0.0,2.0,1808,20240915
+Central Coast,Lake sockeye,566,Kent Inlet Lagoon Creek,0,0,0,0,-989898,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1808,20240915
+Central Coast,Lake sockeye,567,Kenzuwash Creeks,0,0,0,0,-989898,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1808,20240915
+Central Coast,Lake sockeye,568,Keswar Creek,0,0,0,0,-989898,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1808,20240915
+Central Coast,Lake sockeye,569,Kildidt Creek,0,0,0,0,-989898,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1808,20240915
+Central Coast,Lake sockeye,570,Kildidt Lagoon Creek,0,0,0,0,-989898,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1808,20240915
+Central Coast,Lake sockeye,571,Kisameet,0,1,0,0,-989898,0,1,1.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1808,20240915
+Central Coast,Lake sockeye,572,Koeye,3,5,4,2,-989898,0,1,4.0,0.0,4.0,1.0,2.0,4.0,4.0,4.0,1808,20240915
+Central Coast,Lake sockeye,573,Kooryet,0,1,0,2,-989898,0,0,1.0,0.0,1.0,0.0,2.0,2.0,1.0,2.0,1808,20240915
+Central Coast,Lake sockeye,574,Kunsoot River,0,0,0,0,-989898,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1808,20240915
+Central Coast,Lake sockeye,575,Kwakwa Creek,1,5,2,2,-989898,0,1,3.0,0.0,3.0,1.0,2.0,2.0,3.0,2.0,1808,20240915
+Central Coast,Lake sockeye,576,Lewis Creek,0,0,0,0,-989898,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1808,20240915
+Central Coast,Lake sockeye,577,Limestone Creek,0,0,0,0,-989898,0,1,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1808,20240915
+Central Coast,Lake sockeye,578,Lowe/Simpson/Weir,0,1,0,2,-989898,0,0,1.0,0.0,1.0,0.0,2.0,2.0,1.0,2.0,1808,20240915
+Central Coast,Lake sockeye,579,Mary Cove Creek,0,0,0,2,-989898,3,1,0.0,3.0,0.0,1.0,2.0,2.0,0.0,2.0,1808,20240915
+Central Coast,Lake sockeye,580,Mcdonald Creek,0,0,0,0,-989898,0,1,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1808,20240915
+Central Coast,Lake sockeye,581,Mcloughlin,0,0,0,0,-989898,0,1,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1808,20240915
+Central Coast,Lake sockeye,582,Mikado,0,0,0,2,-989898,0,0,0.0,0.0,0.0,0.0,2.0,2.0,0.0,2.0,1808,20240915
+Central Coast,Lake sockeye,583,Monckton Inlet Creek,0,0,0,0,-989898,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1808,20240915
+Central Coast,Lake sockeye,584,Namu,2,5,5,2,-989898,0,1,4.0,0.0,4.0,1.0,2.0,4.0,4.0,4.0,1808,20240915
+Central Coast,Lake sockeye,585,Port John,2,5,3,2,-989898,0,1,3.0,0.0,3.0,1.0,2.0,3.0,3.0,3.0,1808,20240915
+Central Coast,Lake sockeye,586,Powles Creek,0,0,0,0,-989898,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1808,20240915
+Central Coast,Lake sockeye,587,Price Creek,0,1,0,0,-989898,0,1,1.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1808,20240915
+Central Coast,Lake sockeye,588,Roderick,1,5,3,2,-989898,3,0,3.0,3.0,3.0,0.0,2.0,3.0,3.0,3.0,1808,20240915
+Central Coast,Lake sockeye,589,Ryan Creek,0,0,0,0,-989898,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1808,20240915
+Central Coast,Lake sockeye,590,Salter,0,0,0,0,-989898,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1808,20240915
+Central Coast,Lake sockeye,591,Scoular/Kilpatrick,0,0,0,0,-989898,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1808,20240915
+Central Coast,Lake sockeye,592,Sheneeza Inlet,0,0,0,0,-989898,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1808,20240915
+Central Coast,Lake sockeye,593,Ship Point Creek,0,0,0,0,-989898,0,1,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1808,20240915
+Central Coast,Lake sockeye,594,Spencer Creek,0,0,0,0,-989898,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1808,20240915
+Central Coast,Lake sockeye,595,Stannard Creek,0,0,0,0,-989898,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1808,20240915
+Central Coast,Lake sockeye,596,Talamoosa Creek,0,1,0,0,-989898,0,1,1.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1808,20240915
+Central Coast,Lake sockeye,597,Tankeeah River,2,5,3,2,-989898,0,1,3.0,0.0,3.0,1.0,2.0,3.0,3.0,3.0,1808,20240915
+Central Coast,Lake sockeye,598,Treneman Creek,0,0,0,0,-989898,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1808,20240915
+Central Coast,Lake sockeye,599,Tsimtack/Moore/Roger,2,5,4,2,-989898,0,0,4.0,0.0,4.0,0.0,2.0,3.0,4.0,3.0,1808,20240915
+Central Coast,Lake sockeye,600,Tuno Creek East,0,0,0,0,-989898,0,1,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1808,20240915
+Central Coast,Lake sockeye,601,Tuno Creek West,0,0,0,0,-989898,0,1,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1808,20240915
+Central Coast,Lake sockeye,602,Tyler Creek,0,0,0,0,-989898,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1808,20240915
+Central Coast,Lake sockeye,603,Wale Creek,0,0,0,0,-989898,0,1,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1808,20240915
+Central Coast,Lake sockeye,604,Watt Bay,0,0,0,0,-989898,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1808,20240915
+Central Coast,Lake sockeye,605,West Creek,0,0,0,0,-989898,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1808,20240915
+Central Coast,Lake sockeye,606,Yaaklele Lagoon,0,0,0,0,-989898,0,1,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1808,20240915
+Central Coast,Lake sockeye,607,Yeo,0,1,0,2,-989898,0,1,1.0,0.0,1.0,1.0,2.0,2.0,1.0,2.0,1808,20240915
+Central Coast,Pink (even),608,Hecate Lowlands (even),2,4,3,2,-989898,3,1,3.0,3.0,3.0,1.0,2.0,3.0,3.0,3.0,1808,20240915
+Central Coast,Pink (even),609,Hecate Strait-Fjords (even),2,5,3,2,-989898,0,1,3.0,0.0,3.0,1.0,2.0,3.0,3.0,3.0,1808,20240915
+Central Coast,Pink (odd),610,Homathko-Klinaklini-Smith-Rivers-Bella Coola-Dean (odd),0,0,0,2,-989898,0,1,0.0,0.0,0.0,1.0,2.0,2.0,0.0,2.0,1808,20240915
+Central Coast,Pink (odd),611,Hecate Strait-Lowlands (odd),0,0,0,2,-989898,3,1,0.0,3.0,0.0,1.0,2.0,2.0,0.0,2.0,1808,20240915
+Central Coast,Pink (odd),612,Hecate Strait-Fjords (odd),0,0,0,2,-989898,0,1,0.0,0.0,0.0,1.0,2.0,2.0,0.0,2.0,1808,20240915
+Central Coast,River sockeye,613,Rivers-Smith Inlets (river-type),0,0,0,0,-989898,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1808,20240915
+Central Coast,River sockeye,614,Northern Coastal Fjords (river-type),0,1,0,2,-989898,0,1,1.0,0.0,1.0,1.0,2.0,2.0,1.0,2.0,1808,20240915
+Central Coast,River sockeye,615,Northern Coastal Streams (river-type),0,1,0,0,-989898,0,1,1.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1808,20240915
+Central Coast,Steelhead,680,North Coast Winter,0,0,0,0,-989898,0,1,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1808,20240915
+Central Coast,Steelhead,681,North Coast Summer,0,0,0,0,-989898,0,1,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1808,20240915
+Central Coast,Steelhead,682,Central Coast Winter,0,0,0,0,-989898,0,4,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,1808,20240915
+Central Coast,Steelhead,683,Transition Summer,0,0,0,0,-989898,0,2,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,1808,20240915
+Fraser,Chinook,302,Boundary Bay (Fall 4-1),0,0,0,0,-989898,0,1,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1808,20240915
+Fraser,Chinook,303,Lower Fraser River (Fall 4-1),4,5,4,0,-989898,0,3,4.0,0.0,4.0,3.0,0.0,4.0,4.0,4.0,1808,20240915
+Fraser,Chinook,304,Lower Fraser River (Spring 5-2),2,5,5,0,-989898,0,3,4.0,0.0,4.0,3.0,0.0,4.0,4.0,4.0,1808,20240915
+Fraser,Chinook,305,Lower Fraser River-Upper Pitt (Summer 5-2),0,1,0,0,-989898,0,1,1.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1808,20240915
+Fraser,Chinook,306,Lower Fraser River (Summer 5-2),0,1,0,0,-989898,0,1,1.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1808,20240915
+Fraser,Chinook,307,Lower Fraser River-Maria Slough (Summer 4-1),0,1,0,0,-989898,0,3,1.0,0.0,1.0,3.0,0.0,1.0,1.0,1.0,1808,20240915
+Fraser,Chinook,308,Fraser Canyon-Nahatlatch (Spring 5-2),0,1,0,0,-989898,0,1,1.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1808,20240915
+Fraser,Chinook,309,Middle Fraser River-Portage (Fall 5-2),0,1,0,0,-989898,0,1,1.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1808,20240915
+Fraser,Chinook,310,Middle Fraser River (Spring 5-2),3,4,4,0,-989898,0,3,4.0,0.0,4.0,3.0,0.0,4.0,4.0,4.0,1808,20240915
+Fraser,Chinook,311,Middle Fraser River (Summer 5-2),3,5,4,0,-989898,0,3,4.0,0.0,4.0,3.0,0.0,4.0,4.0,4.0,1808,20240915
+Fraser,Chinook,312,Upper Fraser River (Spring 5-2),2,4,4,0,-989898,0,3,3.0,0.0,3.0,3.0,0.0,3.0,3.0,3.0,1808,20240915
+Fraser,Chinook,313,South Thompson River (Summer 4-1),2,5,4,0,-989898,0,3,4.0,0.0,4.0,3.0,0.0,4.0,4.0,4.0,1808,20240915
+Fraser,Chinook,314,South Thompson River (Summer 5-2),3,5,5,0,-989898,0,3,4.0,0.0,4.0,3.0,0.0,4.0,4.0,4.0,1808,20240915
+Fraser,Chinook,315,Shuswap River (Summer 4-1),4,5,4,0,-989898,0,3,4.0,0.0,4.0,3.0,0.0,4.0,4.0,4.0,1808,20240915
+Fraser,Chinook,316,South Thompson River-Bessette Creek (Summer 4-2),1,3,2,0,-989898,0,3,2.0,0.0,2.0,3.0,0.0,2.0,2.0,2.0,1808,20240915
+Fraser,Chinook,317,Lower Thompson River (Spring 4-2),4,5,4,0,-989898,0,3,4.0,0.0,4.0,3.0,0.0,4.0,4.0,4.0,1808,20240915
+Fraser,Chinook,318,North Thompson River (Spring 5-2),1,1,5,0,-989898,0,3,2.0,0.0,2.0,3.0,0.0,2.0,2.0,2.0,1808,20240915
+Fraser,Chinook,319,North Thompson River (Summer 5-2),1,3,5,0,-989898,0,3,3.0,0.0,3.0,3.0,0.0,3.0,3.0,3.0,1808,20240915
+Fraser,Chinook,333,South Thompson-Adams River Upper,0,1,0,0,-989898,0,1,1.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1808,20240915
+Fraser,Chum,701,Lower Fraser,2,3,2,0,-989898,0,5,2.0,0.0,2.0,5.0,0.0,2.0,2.0,2.0,1808,20240915
+Fraser,Coho,704,Lillooet,0,0,0,0,-989898,0,4,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,1808,20240915
+Fraser,Coho,705,Fraser Canyon,3,5,2,0,-989898,0,4,3.0,0.0,3.0,4.0,0.0,3.0,3.0,3.0,1808,20240915
+Fraser,Coho,707,Lower Thompson,3,3,2,0,-989898,0,4,3.0,0.0,3.0,4.0,0.0,3.0,3.0,3.0,1808,20240915
+Fraser,Coho,708,South Thompson,2,3,2,0,-989898,0,4,2.0,0.0,2.0,4.0,0.0,2.0,2.0,2.0,1808,20240915
+Fraser,Coho,709,North Thompson,3,4,2,0,-989898,0,4,3.0,0.0,3.0,4.0,0.0,3.0,3.0,3.0,1808,20240915
+Fraser,Coho,749,Interior Fraser,2,4,2,0,-989898,0,4,3.0,0.0,3.0,4.0,0.0,3.0,3.0,3.0,1808,20240915
+Fraser,Coho,750,Lower Fraser,0,0,0,0,-989898,0,4,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,1808,20240915
+Fraser,Coho,906,Boundary Bay,0,0,0,0,-989898,0,1,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1808,20240915
+Fraser,Lake sockeye,711,Chilliwack-Early Summer (cyclic),4,5,4,5,5,0,1,4.0,0.0,4.0,1.0,5.0,5.0,4.0,5.0,1808,20240915
+Fraser,Lake sockeye,712,Cultus-Late,5,5,4,4,5,5,1,5.0,5.0,5.0,1.0,4.0,5.0,5.0,5.0,1808,20240915
+Fraser,Lake sockeye,713,Harrison-Downstream Migrating-Late,2,5,4,4,4,0,4,4.0,0.0,4.0,4.0,4.0,4.0,4.0,4.0,1808,20240915
+Fraser,Lake sockeye,714,Harrison-Upstream Migrating-Late,2,3,4,5,4,0,4,3.0,0.0,3.0,4.0,4.0,4.0,3.0,4.0,1808,20240915
+Fraser,Lake sockeye,715,Pitt-Early Summer,2,3,4,4,4,0,4,3.0,0.0,3.0,4.0,4.0,3.0,3.0,3.0,1808,20240915
+Fraser,Lake sockeye,716,Lillooet-Harrison-Late,4,5,4,5,4,0,4,4.0,0.0,4.0,4.0,4.0,4.0,4.0,4.0,1808,20240915
+Fraser,Lake sockeye,718,Nahatlatch-Early Summer,3,5,4,4,5,0,4,4.0,0.0,4.0,4.0,4.0,4.0,4.0,4.0,1808,20240915
+Fraser,Lake sockeye,719,Anderson-Seton-Early Summer,3,5,4,4,5,0,1,4.0,0.0,4.0,1.0,4.0,4.0,4.0,4.0,1808,20240915
+Fraser,Lake sockeye,720,Chilko-Early Summer,0,0,0,4,2,0,4,0.0,0.0,0.0,4.0,3.0,3.0,0.0,3.0,1808,20240915
+Fraser,Lake sockeye,721,Chilko-Summer,4,5,4,5,3,5,4,4.0,5.0,4.0,4.0,4.0,4.0,4.0,4.0,1808,20240915
+Fraser,Lake sockeye,725,Francois-Fraser-Summer,5,5,4,0,2,0,4,5.0,0.0,5.0,4.0,2.0,4.0,5.0,4.0,1808,20240915
+Fraser,Lake sockeye,727,Nadina-Francois-Early Summer,5,5,4,4,4,0,4,5.0,0.0,5.0,4.0,4.0,4.0,5.0,4.0,1808,20240915
+Fraser,Lake sockeye,728,Quesnel-Summer (cyclic),2,3,3,5,3,0,4,3.0,0.0,3.0,4.0,4.0,3.0,3.0,3.0,1808,20240915
+Fraser,Lake sockeye,729,Seton-Late (de novo),0,1,0,4,2,0,4,1.0,0.0,1.0,4.0,3.0,2.0,1.0,2.0,1808,20240915
+Fraser,Lake sockeye,731,Takla-Trembleur-Stuart-Summer (cyclic),3,4,4,5,2,0,4,4.0,0.0,4.0,4.0,4.0,4.0,4.0,4.0,1808,20240915
+Fraser,Lake sockeye,732,Takla-Trembleur-Early Stuart (cyclic),2,4,3,5,4,0,4,3.0,0.0,3.0,4.0,4.0,4.0,3.0,4.0,1808,20240915
+Fraser,Lake sockeye,734,Taseko-Early Summer,3,5,4,4,2,0,4,4.0,0.0,4.0,4.0,3.0,4.0,4.0,4.0,1808,20240915
+Fraser,Lake sockeye,735,Bowron-Early Summer,2,5,4,4,4,0,4,4.0,0.0,4.0,4.0,4.0,4.0,4.0,4.0,1808,20240915
+Fraser,Lake sockeye,738,Shuswap-Early Summer (cyclic),0,1,0,5,3,0,4,1.0,0.0,1.0,4.0,4.0,3.0,1.0,3.0,1808,20240915
+Fraser,Lake sockeye,739,Shuswap-Late (cyclic),2,3,3,5,3,0,4,3.0,0.0,3.0,4.0,4.0,3.0,3.0,3.0,1808,20240915
+Fraser,Lake sockeye,740,Kamloops-Early Summer,2,4,4,4,4,0,4,3.0,0.0,3.0,4.0,4.0,4.0,3.0,4.0,1808,20240915
+Fraser,Lake sockeye,752,North Barriere-Early Summer (de novo),3,5,4,4,4,0,4,4.0,0.0,4.0,4.0,4.0,4.0,4.0,4.0,1808,20240915
+Fraser,Lake sockeye,753,Fraser-Early Summer,0,0,0,4,0,0,1,0.0,0.0,0.0,1.0,4.0,4.0,0.0,4.0,1808,20240915
+Fraser,Lake sockeye,756,Alouette-Early Summer,0,0,0,4,0,0,1,0.0,0.0,0.0,1.0,4.0,4.0,0.0,4.0,1808,20240915
+Fraser,Lake sockeye,757,Coquitlam-Early Summer,0,0,0,0,0,0,1,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1808,20240915
+Fraser,Lake sockeye,758,Kawkawa-Late,0,0,0,4,0,0,1,0.0,0.0,0.0,1.0,4.0,4.0,0.0,4.0,1808,20240915
+Fraser,Lake sockeye,759,Seton-Summer,0,0,0,0,0,0,1,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1808,20240915
+Fraser,Lake sockeye,760,Adams-Early Summer,0,0,0,0,0,0,1,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1808,20240915
+Fraser,Lake sockeye,761,Momich-Early Summer,0,0,0,0,0,0,1,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1808,20240915
+Fraser,Lake sockeye,763,North Barriere-Early Summer,0,0,0,0,0,0,1,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1808,20240915
+Fraser,Pink (odd),710,Fraser River (odd),0,0,0,5,-989898,0,5,0.0,0.0,0.0,5.0,5.0,5.0,0.0,5.0,1808,20240915
+Fraser,River sockeye,742,Widgeon (river-type),0,1,0,4,-989898,0,4,1.0,0.0,1.0,4.0,4.0,3.0,1.0,3.0,1808,20240915
+Fraser,River sockeye,745,Harrison River (river-type),4,5,4,5,-989898,0,1,4.0,0.0,4.0,1.0,4.0,4.0,4.0,4.0,1808,20240915
+Fraser,Steelhead,780,Mid Fraser Summer,0,5,3,0,-989898,2,4,4.0,2.0,4.0,4.0,0.0,4.0,4.0,4.0,1808,20240915
+Fraser,Steelhead,781,Thompson Summer,0,5,4,0,-989898,2,4,4.0,2.0,4.0,4.0,0.0,4.0,4.0,4.0,1808,20240915
+Fraser,Steelhead,782,Lower Fraser Winter,0,0,0,0,-989898,0,4,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,1808,20240915
+Fraser,Steelhead,783,Fraser Canyon Summer,0,0,0,0,-989898,0,4,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,1808,20240915
+Fraser,Steelhead,784,Lower Fraser Summer,0,0,0,0,-989898,0,4,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,1808,20240915
+Fraser,Steelhead,785,Boundary Bay Winter,0,0,0,0,-989898,0,1,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1808,20240915
+Vancouver Island & Mainland Inlets,Chinook,320,Southern Mainland-Georgia Strait (Fall x-1),0,1,0,0,-989898,0,0,1.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,1808,20240915
+Vancouver Island & Mainland Inlets,Chinook,321,East Vancouver Island-Goldstream (Fall x-1),0,1,0,0,-989898,0,0,1.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,1808,20240915
+Vancouver Island & Mainland Inlets,Chinook,322,East Vancouver Island-Cowichan and Koksilah (Fall x-1),4,5,5,0,-989898,0,3,5.0,0.0,5.0,3.0,0.0,5.0,5.0,5.0,1808,20240915
+Vancouver Island & Mainland Inlets,Chinook,323,East Vancouver Island-Nanaimo (Spring x-2),0,0,0,0,-989898,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1808,20240915
+Vancouver Island & Mainland Inlets,Chinook,324,East Vancouver Island-Nanaimo and Chemainus (Fall x-1),3,5,5,0,-989898,0,0,4.0,0.0,4.0,0.0,0.0,4.0,4.0,4.0,1808,20240915
+Vancouver Island & Mainland Inlets,Chinook,325,East Vancouver Island-Qualicum and Puntledge (Fall x-1),1,2,5,0,-989898,0,1,3.0,0.0,3.0,1.0,0.0,3.0,3.0,3.0,1808,20240915
+Vancouver Island & Mainland Inlets,Chinook,326,Southern Mainland-Southern Fjords (Fall x-1),4,5,4,0,-989898,0,1,4.0,0.0,4.0,1.0,0.0,4.0,4.0,4.0,1808,20240915
+Vancouver Island & Mainland Inlets,Chinook,327,East Vancouver Island-North (Fall x-1),4,5,4,0,-989898,5,0,4.0,5.0,4.0,0.0,0.0,4.0,4.0,4.0,1808,20240915
+Vancouver Island & Mainland Inlets,Chinook,328,West Vancouver Island-South (Fall x-1),1,2,4,0,-989898,3,3,2.0,3.0,2.0,3.0,0.0,2.0,2.0,2.0,1808,20240915
+Vancouver Island & Mainland Inlets,Chinook,329,West Vancouver Island-Nootka and Kyuquot (Fall x-1),2,5,4,0,-989898,0,4,4.0,0.0,4.0,4.0,0.0,4.0,4.0,4.0,1808,20240915
+Vancouver Island & Mainland Inlets,Chinook,330,West Vancouver Island-North (Fall x-1),2,4,5,0,-989898,0,1,4.0,0.0,4.0,1.0,0.0,4.0,4.0,4.0,1808,20240915
+Vancouver Island & Mainland Inlets,Chinook,331,Homathko (Summer x-x),0,0,0,0,-989898,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1808,20240915
+Vancouver Island & Mainland Inlets,Chinook,332,Klinaklini (Summer 5-2),0,0,0,0,-989898,0,1,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1808,20240915
+Vancouver Island & Mainland Inlets,Chinook,334,East Vancouver Island-Georgia Strait (Summer 4-1),2,2,5,0,-989898,0,0,3.0,0.0,3.0,0.0,0.0,3.0,3.0,3.0,1808,20240915
+Vancouver Island & Mainland Inlets,Chum,900,Southern Coastal Streams,1,2,4,0,-989898,0,1,2.0,0.0,2.0,1.0,0.0,2.0,2.0,2.0,1808,20240915
+Vancouver Island & Mainland Inlets,Chum,901,Bute Inlet,0,1,0,0,-989898,0,0,1.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,1808,20240915
+Vancouver Island & Mainland Inlets,Chum,902,Loughborough,3,4,4,0,-989898,0,0,4.0,0.0,4.0,0.0,0.0,4.0,4.0,4.0,1808,20240915
+Vancouver Island & Mainland Inlets,Chum,903,Northeast Vancouver Island,0,1,0,0,-989898,0,0,1.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,1808,20240915
+Vancouver Island & Mainland Inlets,Chum,904,Georgia Strait,3,4,4,0,-989898,5,1,4.0,5.0,4.0,1.0,0.0,4.0,4.0,4.0,1808,20240915
+Vancouver Island & Mainland Inlets,Chum,905,Howe Sound-Burrard Inlet,0,1,0,0,-989898,0,0,1.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,1808,20240915
+Vancouver Island & Mainland Inlets,Chum,977,Northwest Vancouver Island,3,5,4,3,-989898,0,1,4.0,0.0,4.0,1.0,3.0,4.0,4.0,4.0,1808,20240915
+Vancouver Island & Mainland Inlets,Chum,978,Southwest & West Vancouver Island,2,4,4,3,-989898,0,4,3.0,0.0,3.0,4.0,3.0,3.0,3.0,3.0,1808,20240915
+Vancouver Island & Mainland Inlets,Chum,979,Upper Knight,0,1,0,0,-989898,0,0,1.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,1808,20240915
+Vancouver Island & Mainland Inlets,Coho,907,Howe Sound-Burrard Inlet,0,1,0,0,-989898,0,0,1.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,1808,20240915
+Vancouver Island & Mainland Inlets,Coho,908,Georgia Strait Mainland,1,1,4,0,-989898,3,0,2.0,3.0,2.0,0.0,0.0,2.0,2.0,2.0,1808,20240915
+Vancouver Island & Mainland Inlets,Coho,909,Southern Coastal Streams-Queen Charlotte Strait-Johnstone Strait-Southern Fjords,0,1,3,0,-989898,0,0,2.0,0.0,2.0,0.0,0.0,2.0,2.0,2.0,1808,20240915
+Vancouver Island & Mainland Inlets,Coho,910,East Vancouver Island-Georgia Strait,2,3,3,0,-989898,3,2,3.0,3.0,3.0,2.0,0.0,3.0,3.0,3.0,1808,20240915
+Vancouver Island & Mainland Inlets,Coho,911,East Vancouver Island-Johnstone Strait-Southern Fjords,2,5,4,0,-989898,0,1,4.0,0.0,4.0,1.0,0.0,4.0,4.0,4.0,1808,20240915
+Vancouver Island & Mainland Inlets,Coho,912,Nahwitti Lowland,3,3,3,0,-989898,5,1,3.0,5.0,3.0,1.0,0.0,3.0,3.0,3.0,1808,20240915
+Vancouver Island & Mainland Inlets,Coho,913,Juan de Fuca-Pachena,1,2,3,0,-989898,5,5,2.0,5.0,2.0,5.0,0.0,2.0,2.0,2.0,1808,20240915
+Vancouver Island & Mainland Inlets,Coho,914,West Vancouver Island,2,4,4,0,-989898,4,4,3.0,4.0,3.0,4.0,0.0,3.0,3.0,3.0,1808,20240915
+Vancouver Island & Mainland Inlets,Coho,915,Clayoquot,1,3,4,0,-989898,0,0,3.0,0.0,3.0,0.0,0.0,3.0,3.0,3.0,1808,20240915
+Vancouver Island & Mainland Inlets,Coho,916,Homathko-Klinaklini Rivers,0,0,0,0,-989898,0,1,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1808,20240915
+Vancouver Island & Mainland Inlets,Lake sockeye,927,Fulmore,0,1,0,0,-989898,0,1,1.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1808,20240915
+Vancouver Island & Mainland Inlets,Lake sockeye,928,Heydon,4,5,4,0,-989898,0,5,4.0,0.0,4.0,5.0,0.0,4.0,4.0,4.0,1808,20240915
+Vancouver Island & Mainland Inlets,Lake sockeye,929,Kakweiken,0,0,0,0,-989898,0,1,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1808,20240915
+Vancouver Island & Mainland Inlets,Lake sockeye,930,Loose,0,0,0,0,-989898,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1808,20240915
+Vancouver Island & Mainland Inlets,Lake sockeye,931,Mackenzie,0,0,0,0,-989898,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1808,20240915
+Vancouver Island & Mainland Inlets,Lake sockeye,932,Phillips,1,5,3,0,-989898,0,1,3.0,0.0,3.0,1.0,0.0,3.0,3.0,3.0,1808,20240915
+Vancouver Island & Mainland Inlets,Lake sockeye,933,Sakinaw,5,5,5,0,-989898,5,1,5.0,5.0,5.0,1.0,0.0,5.0,5.0,5.0,1808,20240915
+Vancouver Island & Mainland Inlets,Lake sockeye,935,Tzoonie,0,0,0,0,-989898,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1808,20240915
+Vancouver Island & Mainland Inlets,Lake sockeye,937,Ida-Bonanza,0,0,0,0,-989898,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1808,20240915
+Vancouver Island & Mainland Inlets,Lake sockeye,938,Nahwitti,0,0,0,0,-989898,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1808,20240915
+Vancouver Island & Mainland Inlets,Lake sockeye,939,Nimpkish,4,5,3,2,-989898,0,2,4.0,0.0,4.0,2.0,2.0,4.0,4.0,4.0,1808,20240915
+Vancouver Island & Mainland Inlets,Lake sockeye,941,Quatse,0,0,0,0,-989898,0,5,0.0,0.0,0.0,5.0,0.0,0.0,0.0,0.0,1808,20240915
+Vancouver Island & Mainland Inlets,Lake sockeye,942,Schoen,0,0,0,0,-989898,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1808,20240915
+Vancouver Island & Mainland Inlets,Lake sockeye,943,Shushartie,0,0,0,0,-989898,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1808,20240915
+Vancouver Island & Mainland Inlets,Lake sockeye,944,Woss,0,0,0,0,-989898,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1808,20240915
+Vancouver Island & Mainland Inlets,Lake sockeye,945,Alice,0,0,0,0,-989898,0,1,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1808,20240915
+Vancouver Island & Mainland Inlets,Lake sockeye,946,Canoe Creek,0,0,0,0,-989898,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1808,20240915
+Vancouver Island & Mainland Inlets,Lake sockeye,947,Cecilia,0,0,0,0,-989898,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1808,20240915
+Vancouver Island & Mainland Inlets,Lake sockeye,948,Cheewat,0,0,0,0,-989898,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1808,20240915
+Vancouver Island & Mainland Inlets,Lake sockeye,949,Clayoquot,0,1,0,0,-989898,0,0,1.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,1808,20240915
+Vancouver Island & Mainland Inlets,Lake sockeye,950,Deserted,0,0,0,0,-989898,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1808,20240915
+Vancouver Island & Mainland Inlets,Lake sockeye,951,Fairy,0,1,0,0,-989898,0,4,1.0,0.0,1.0,4.0,0.0,1.0,1.0,1.0,1808,20240915
+Vancouver Island & Mainland Inlets,Lake sockeye,952,Great Central,0,0,0,3,-989898,1,5,0.0,1.0,0.0,5.0,3.0,3.0,0.0,3.0,1808,20240915
+Vancouver Island & Mainland Inlets,Lake sockeye,953,Henderson,2,5,5,0,-989898,1,4,4.0,1.0,4.0,4.0,0.0,4.0,4.0,4.0,1808,20240915
+Vancouver Island & Mainland Inlets,Lake sockeye,954,Hesquiat,0,0,0,0,-989898,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1808,20240915
+Vancouver Island & Mainland Inlets,Lake sockeye,955,Hobiton,0,1,0,0,-989898,0,4,1.0,0.0,1.0,4.0,0.0,1.0,1.0,1.0,1808,20240915
+Vancouver Island & Mainland Inlets,Lake sockeye,956,Jansen,0,0,0,0,-989898,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1808,20240915
+Vancouver Island & Mainland Inlets,Lake sockeye,957,Kanim,0,0,0,0,-989898,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1808,20240915
+Vancouver Island & Mainland Inlets,Lake sockeye,958,Kennedy,0,1,0,0,-989898,0,0,1.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,1808,20240915
+Vancouver Island & Mainland Inlets,Lake sockeye,959,Maggie,0,0,0,0,-989898,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1808,20240915
+Vancouver Island & Mainland Inlets,Lake sockeye,960,Megin,0,1,0,0,-989898,0,0,1.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,1808,20240915
+Vancouver Island & Mainland Inlets,Lake sockeye,961,Muchalat,0,1,0,0,-989898,0,0,1.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,1808,20240915
+Vancouver Island & Mainland Inlets,Lake sockeye,962,Muriel,0,1,0,0,-989898,0,0,1.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,1808,20240915
+Vancouver Island & Mainland Inlets,Lake sockeye,963,Nitinat,0,1,0,0,-989898,0,0,1.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,1808,20240915
+Vancouver Island & Mainland Inlets,Lake sockeye,964,O'Connell,0,0,0,0,-989898,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1808,20240915
+Vancouver Island & Mainland Inlets,Lake sockeye,966,Park River,0,1,0,0,-989898,0,0,1.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,1808,20240915
+Vancouver Island & Mainland Inlets,Lake sockeye,967,Power,0,1,0,0,-989898,0,0,1.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,1808,20240915
+Vancouver Island & Mainland Inlets,Lake sockeye,969,Sproat,0,1,0,3,-989898,1,5,1.0,1.0,1.0,5.0,3.0,2.0,1.0,2.0,1808,20240915
+Vancouver Island & Mainland Inlets,Lake sockeye,970,William-Brink,0,0,0,0,-989898,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1808,20240915
+Vancouver Island & Mainland Inlets,Lake sockeye,976,Vernon,0,0,0,0,-989898,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1808,20240915
+Vancouver Island & Mainland Inlets,Pink (even),917,Georgia Strait (even),3,4,3,3,-989898,5,1,3.0,5.0,3.0,1.0,3.0,3.0,3.0,3.0,1808,20240915
+Vancouver Island & Mainland Inlets,Pink (even),918,West Vancouver Island (even),0,1,0,0,-989898,0,4,1.0,0.0,1.0,4.0,0.0,1.0,1.0,1.0,1808,20240915
+Vancouver Island & Mainland Inlets,Pink (even),919,Northwest Vancouver Island (even),0,1,0,0,-989898,0,1,1.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1808,20240915
+Vancouver Island & Mainland Inlets,Pink (even),920,Southern Fjords (even),3,5,3,3,-989898,0,1,4.0,0.0,4.0,1.0,3.0,4.0,4.0,4.0,1808,20240915
+Vancouver Island & Mainland Inlets,Pink (odd),921,East Howe Sound-Burrard Inlet (odd),0,0,0,3,-989898,0,0,0.0,0.0,0.0,0.0,3.0,3.0,0.0,3.0,1808,20240915
+Vancouver Island & Mainland Inlets,Pink (odd),922,Georgia Strait (odd),0,0,0,3,-989898,0,1,0.0,0.0,0.0,1.0,3.0,3.0,0.0,3.0,1808,20240915
+Vancouver Island & Mainland Inlets,Pink (odd),923,East Vancouver Island-Johnstone Strait (odd),0,0,0,3,-989898,0,0,0.0,0.0,0.0,0.0,3.0,3.0,0.0,3.0,1808,20240915
+Vancouver Island & Mainland Inlets,Pink (odd),924,Nahwitti (odd),0,0,0,3,-989898,0,1,0.0,0.0,0.0,1.0,3.0,3.0,0.0,3.0,1808,20240915
+Vancouver Island & Mainland Inlets,Pink (odd),925,West Vancouver Island (odd),0,0,0,0,-989898,0,4,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,1808,20240915
+Vancouver Island & Mainland Inlets,Pink (odd),926,Southern Fjords (odd),0,0,0,3,-989898,0,1,0.0,0.0,0.0,1.0,3.0,3.0,0.0,3.0,1808,20240915
+Vancouver Island & Mainland Inlets,River sockeye,971,Southern Fjords (river-type),0,1,0,0,-989898,0,1,1.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1808,20240915
+Vancouver Island & Mainland Inlets,River sockeye,972,West Vancouver Island (river-type),0,1,0,0,-989898,0,4,1.0,0.0,1.0,4.0,0.0,1.0,1.0,1.0,1808,20240915
+Vancouver Island & Mainland Inlets,River sockeye,973,East Vancouver Island & Georgia Strait (river-type),0,1,0,0,-989898,0,1,1.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1808,20240915
+Vancouver Island & Mainland Inlets,River sockeye,974,NW Vancouver Island (river-type),0,1,0,0,-989898,0,0,1.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,1808,20240915
+Vancouver Island & Mainland Inlets,Steelhead,980,South Coast Winter,3,5,3,0,-989898,2,4,4.0,2.0,4.0,4.0,0.0,4.0,4.0,4.0,1808,20240915
+Vancouver Island & Mainland Inlets,Steelhead,981,East Vancouver Island Winter,2,5,3,0,-989898,4,2,3.0,4.0,3.0,2.0,0.0,3.0,3.0,3.0,1808,20240915
+Vancouver Island & Mainland Inlets,Steelhead,982,West Vancouver Island Winter,0,0,0,0,-989898,0,2,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,1808,20240915
+Vancouver Island & Mainland Inlets,Steelhead,983,South Coast Summer,0,0,0,0,-989898,0,4,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,1808,20240915
+Vancouver Island & Mainland Inlets,Steelhead,984,West Vancouver Island Summer,3,5,5,0,-989898,0,1,4.0,0.0,4.0,1.0,0.0,4.0,4.0,4.0,1808,20240915
+Vancouver Island & Mainland Inlets,Steelhead,985,East Vancouver Island Summer,0,0,0,0,-989898,0,1,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1808,20240915
+Haida Gwaii,Chinook,805,North Haida Gwaii,0,0,0,0,-989898,0,3,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,1808,20240915
+Haida Gwaii,Chinook,806,East Haida Gwaii,0,0,0,0,-989898,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1808,20240915
+Haida Gwaii,Chum,800,North Haida Gwaii-Stanley Creek,0,0,0,2,-989898,0,3,0.0,0.0,0.0,3.0,2.0,2.0,0.0,2.0,1808,20240915
+Haida Gwaii,Chum,801,East Haida Gwaii,2,5,4,2,-989898,0,3,4.0,0.0,4.0,3.0,2.0,3.0,4.0,3.0,1808,20240915
+Haida Gwaii,Chum,802,North Haida Gwaii,1,5,2,2,-989898,0,3,3.0,0.0,3.0,3.0,2.0,2.0,3.0,2.0,1808,20240915
+Haida Gwaii,Chum,803,West Haida Gwaii,1,4,3,2,-989898,0,1,3.0,0.0,3.0,1.0,2.0,2.0,3.0,2.0,1808,20240915
+Haida Gwaii,Chum,804,Skidegate,1,5,4,2,-989898,0,1,3.0,0.0,3.0,1.0,2.0,3.0,3.0,3.0,1808,20240915
+Haida Gwaii,Coho,807,East Haida Gwaii,0,2,4,3,-989898,3,3,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,1808,20240915
+Haida Gwaii,Coho,808,West Haida Gwaii,0,1,0,3,-989898,0,1,1.0,0.0,1.0,1.0,3.0,2.0,1.0,2.0,1808,20240915
+Haida Gwaii,Coho,809,Haida Gwaii-Graham Island Lowlands,0,0,0,3,-989898,0,3,0.0,0.0,0.0,3.0,3.0,3.0,0.0,3.0,1808,20240915
+Haida Gwaii,Lake sockeye,819,Ain-Skundale-Ian,0,0,0,0,-989898,0,1,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1808,20240915
+Haida Gwaii,Lake sockeye,820,Awun,2,5,5,2,-989898,0,1,4.0,0.0,4.0,1.0,2.0,4.0,4.0,4.0,1808,20240915
+Haida Gwaii,Lake sockeye,821,Fairfax,0,1,0,0,-989898,0,1,1.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1808,20240915
+Haida Gwaii,Lake sockeye,822,Jalun,0,0,0,0,-989898,0,3,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,1808,20240915
+Haida Gwaii,Lake sockeye,823,Marian/Eden,2,5,5,2,-989898,0,1,4.0,0.0,4.0,1.0,2.0,4.0,4.0,4.0,1808,20240915
+Haida Gwaii,Lake sockeye,824,Mathers,0,0,0,2,-989898,0,1,0.0,0.0,0.0,1.0,2.0,2.0,0.0,2.0,1808,20240915
+Haida Gwaii,Lake sockeye,825,Mercer,0,0,0,2,-989898,0,1,0.0,0.0,0.0,1.0,2.0,2.0,0.0,2.0,1808,20240915
+Haida Gwaii,Lake sockeye,826,Skidegate,4,5,5,2,-989898,0,5,5.0,0.0,5.0,5.0,2.0,4.0,5.0,4.0,1808,20240915
+Haida Gwaii,Lake sockeye,827,Yakoun,2,5,5,2,-989898,0,1,4.0,0.0,4.0,1.0,2.0,4.0,4.0,4.0,1808,20240915
+Haida Gwaii,Lake sockeye,828,Marie,0,0,0,0,-989898,0,1,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1808,20240915
+Haida Gwaii,Pink (even),810,North Haida Gwaii (even),3,5,3,2,-989898,0,3,4.0,0.0,4.0,3.0,2.0,3.0,4.0,3.0,1808,20240915
+Haida Gwaii,Pink (even),811,East Haida Gwaii (even),2,4,3,2,-989898,0,3,3.0,0.0,3.0,3.0,2.0,3.0,3.0,3.0,1808,20240915
+Haida Gwaii,Pink (even),812,West Haida Gwaii (even),2,5,3,2,-989898,0,1,3.0,0.0,3.0,1.0,2.0,3.0,3.0,3.0,1808,20240915
+Haida Gwaii,Pink (odd),813,East Haida Gwaii (odd),0,0,0,2,-989898,0,3,0.0,0.0,0.0,3.0,2.0,2.0,0.0,2.0,1808,20240915
+Haida Gwaii,Pink (odd),814,North Haida Gwaii (odd),0,0,0,0,-989898,0,3,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,1808,20240915
+Haida Gwaii,Pink (odd),815,West Haida Gwaii (odd),0,0,0,0,-989898,0,1,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1808,20240915
+Haida Gwaii,River sockeye,816,East Haida Gwaii (river-type),0,0,0,0,-989898,0,1,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1808,20240915
+Haida Gwaii,River sockeye,817,North Haida Gwaii (river-type),0,0,0,0,-989898,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1808,20240915
+Haida Gwaii,River sockeye,818,West Haida Gwaii (river-type),0,0,0,0,-989898,0,1,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1808,20240915
+Haida Gwaii,Steelhead,880,Haida Gwaii Winter,0,0,0,0,-989898,0,2,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,1808,20240915
+Columbia,Chinook,301,Okanagan,0,5,5,0,-989898,0,1,5.0,0.0,5.0,1.0,0.0,5.0,5.0,5.0,1808,20240915
+Columbia,Lake sockeye,1300,Osoyoos,0,5,4,3,-989898,0,1,4.0,0.0,4.0,1.0,3.0,4.0,4.0,4.0,1808,20240915
+Columbia,Steelhead,1380,Mid Columbia Summer,0,0,0,0,-989898,2,2,0.0,2.0,0.0,2.0,0.0,0.0,0.0,0.0,1808,20240915
+Northern Transboundary,Chinook,1004,Alsek,5,5,5,4,-989898,0,4,5.0,0.0,5.0,4.0,4.0,5.0,5.0,5.0,1808,20240915
+Northern Transboundary,Chinook,1005,Lynn Canal,0,0,0,0,-989898,0,4,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,1808,20240915
+Northern Transboundary,Chinook,1006,Taku-Early Timing,0,1,5,0,-989898,0,2,3.0,0.0,3.0,2.0,0.0,3.0,3.0,3.0,1808,20240915
+Northern Transboundary,Chinook,1007,Taku-Mid Timing,3,5,5,0,-989898,0,2,4.0,0.0,4.0,2.0,0.0,4.0,4.0,4.0,1808,20240915
+Northern Transboundary,Chinook,1008,Taku-Late Timing,3,5,5,0,-989898,0,2,4.0,0.0,4.0,2.0,0.0,4.0,4.0,4.0,1808,20240915
+Northern Transboundary,Chinook,1009,Whiting,0,0,0,0,-989898,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1808,20240915
+Northern Transboundary,Chinook,1010,Stikine-Early Timing,4,4,5,0,-989898,0,2,4.0,0.0,4.0,2.0,0.0,4.0,4.0,4.0,1808,20240915
+Northern Transboundary,Chinook,1011,Stikine-Late Timing,0,0,0,0,-989898,0,2,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,1808,20240915
+Northern Transboundary,Chinook,1012,Unuk,0,0,0,0,-989898,0,2,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,1808,20240915
+Northern Transboundary,Chum,1000,Lynn Canal,0,0,0,0,-989898,0,4,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,1808,20240915
+Northern Transboundary,Chum,1001,Taku,0,1,0,0,-989898,0,5,1.0,0.0,1.0,5.0,0.0,1.0,1.0,1.0,1808,20240915
+Northern Transboundary,Chum,1002,Whiting,0,0,0,0,-989898,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1808,20240915
+Northern Transboundary,Chum,1003,Unuk,0,0,0,0,-989898,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1808,20240915
+Northern Transboundary,Chum,1032,Lower Stikine,0,0,0,0,-989898,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1808,20240915
+Northern Transboundary,Coho,1013,Alsek,5,5,4,0,-989898,0,0,5.0,0.0,5.0,0.0,0.0,5.0,5.0,5.0,1808,20240915
+Northern Transboundary,Coho,1014,Lynn Canal,0,0,0,0,-989898,0,5,0.0,0.0,0.0,5.0,0.0,0.0,0.0,0.0,1808,20240915
+Northern Transboundary,Coho,1015,Taku-Late Timing,0,0,0,0,-989898,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1808,20240915
+Northern Transboundary,Coho,1016,Whiting,0,0,0,0,-989898,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1808,20240915
+Northern Transboundary,Coho,1017,Lower Stikine,3,5,4,0,-989898,0,3,4.0,0.0,4.0,3.0,0.0,4.0,4.0,4.0,1808,20240915
+Northern Transboundary,Coho,1018,Unuk,0,0,0,0,-989898,0,2,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,1808,20240915
+Northern Transboundary,Coho,1034,Taku-Early Timing,0,0,0,0,-989898,0,2,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,1808,20240915
+Northern Transboundary,Coho,1035,Taku-Mid Timing,0,0,0,0,-989898,0,2,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,1808,20240915
+Northern Transboundary,Lake sockeye,1024,Border,0,0,0,0,-989898,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1808,20240915
+Northern Transboundary,Lake sockeye,1025,Christina,0,0,0,0,-989898,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1808,20240915
+Northern Transboundary,Lake sockeye,1026,Tahltan,5,5,5,5,-989898,5,4,5.0,5.0,5.0,4.0,5.0,5.0,5.0,5.0,1808,20240915
+Northern Transboundary,Lake sockeye,1027,Kuthai,5,5,5,0,-989898,0,5,5.0,0.0,5.0,5.0,0.0,5.0,5.0,5.0,1808,20240915
+Northern Transboundary,Lake sockeye,1028,Little Trapper,5,5,5,0,-989898,0,5,5.0,0.0,5.0,5.0,0.0,5.0,5.0,5.0,1808,20240915
+Northern Transboundary,Lake sockeye,1029,Tatsamenie,5,5,5,0,-989898,4,5,5.0,4.0,5.0,5.0,0.0,5.0,5.0,5.0,1808,20240915
+Northern Transboundary,Lake sockeye,1031,Blanchard,0,0,0,0,-989898,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1808,20240915
+Northern Transboundary,Lake sockeye,1033,King Salmon,5,5,4,0,-989898,0,5,5.0,0.0,5.0,5.0,0.0,5.0,5.0,5.0,1808,20240915
+Northern Transboundary,Lake sockeye,1036,Chutine,3,5,5,0,-989898,0,0,4.0,0.0,4.0,0.0,0.0,4.0,4.0,4.0,1808,20240915
+Northern Transboundary,Lake sockeye,1037,Whiting,0,0,0,0,-989898,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1808,20240915
+Northern Transboundary,Lake sockeye,1038,Klukshu,5,5,5,0,-989898,0,4,5.0,0.0,5.0,4.0,0.0,5.0,5.0,5.0,1808,20240915
+Northern Transboundary,Lake sockeye,1039,Nesketahin,5,5,5,0,-989898,0,0,5.0,0.0,5.0,0.0,0.0,5.0,5.0,5.0,1808,20240915
+Northern Transboundary,Pink (even),1019,Transboundary Fjords (even),0,0,0,0,-989898,0,5,0.0,0.0,0.0,5.0,0.0,0.0,0.0,0.0,1808,20240915
+Northern Transboundary,Pink (odd),1020,Transboundary Fjords (odd),0,1,0,0,-989898,0,5,1.0,0.0,1.0,5.0,0.0,1.0,1.0,1.0,1808,20240915
+Northern Transboundary,River sockeye,1021,Alsek (river-type),0,0,0,0,-989898,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1808,20240915
+Northern Transboundary,River sockeye,1022,Chilkat (river-type),0,0,0,0,-989898,0,5,0.0,0.0,0.0,5.0,0.0,0.0,0.0,0.0,1808,20240915
+Northern Transboundary,River sockeye,1023,Northern Transboundary Fjords (river-type),4,5,5,0,-989898,0,5,5.0,0.0,5.0,5.0,0.0,5.0,5.0,5.0,1808,20240915
+Northern Transboundary,Steelhead,1080,Alsek Summer,0,0,0,0,-989898,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1808,20240915
+Northern Transboundary,Steelhead,1081,Taku Summer,0,1,0,0,-989898,0,0,1.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,1808,20240915
+Northern Transboundary,Steelhead,1082,Taku Winter,0,0,0,0,-989898,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1808,20240915
+Northern Transboundary,Steelhead,1083,Stikine Summer,0,0,0,0,-989898,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1808,20240915
+Northern Transboundary,Steelhead,1084,Stikine Winter,0,0,0,0,-989898,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1808,20240915

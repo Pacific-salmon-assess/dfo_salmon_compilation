@@ -1,0 +1,351 @@
+,stock.id,species,stock.name,lat,lon,region,ocean.basin,state,begin,end,n.years,m.spawners,m.recruits,source,url,comments,age
+1,1,Sockeye,Atnarko-Sockeye,52.38,-126.78,Central Coast,WC,BC,1987,2011,25,22.5472,26.48612,NA,NA,NA,NA
+2,2,Sockeye,Black Lake-Sockeye,56.28,-158.64,Chignik,GOA,AK,1965,2010,46,447.3696824,1322.084413,"Kevin Schaberg, ADF&G Kodiak, via Rich Brenner",Chignik River Early Run,NA,NA
+3,3,Sockeye,Coghill-Sockeye,61.06,-147.94,Prince William Sound,GOA,AK,1962,2008,47,52.17208511,175.9369574,"Rich Brenner, 2017, ADF&G, Juneau, AK","Returns are harvested in various districts prior to the Coghill District. Stock-of-origin is estimated based on the timing and location of harvest and, sometimes, from available scale pattern analysis.",NA,NA
+4,4,Sockeye,Copper-Sockeye,60.46,-144.96,Prince William Sound,GOA,AK,1961,2010,50,527.1007344,1622.06487,"Rich Brenner, 2017, ADF&G, Juneau, AK","Used the ""Wild_BY_Return"" worksheet.  Hatchery component of the run was removed by subtracting hatchery salmon post season and assuming age composition matches that of hatchery fish; upper and lower river values combined because runs not identified in harvests. With wild vs. hatchery, and delta vs. upriver components, the Copper River can get really complicated. Also, the Miles Lake sonar cannot distinguish between various species. Thus, Chinook salmon are subtracted from the sonar counts post-season, as are estimates of fish harvest upriver in personal use and subsistence fisheries.",NA,NA
+5,5,Sockeye,Eshamy-Sockeye,60.47,-147.94,Prince William Sound,GOA,AK,1964,2006,35,28.10322857,63.73780714,"Rich Brenner, 2017, ADF&G, Juneau, AK","the weir was replaced in ~2012 with a video system that has not been entirely successful. Thus, only data until 2012 should be used for brood-year returns.",NA,NA
+6,6,Sockeye,Fennell-Sockeye,49.12,-123.06,Fraser,WC,BC,1963,2011,46,3.756673913,23.27291304,"Sue Grant (DFO), Bronwyn McDonald (DFO) and Mike Lapointe (PSC) via Brendan Connors (ESSA Technologies)",NA,NA,NA
+7,7,Sockeye,Frazer-Sockeye,57.13,-154.04,Kodiak,GOA,AK,1966,2009,44,157.794,403.8371818,"Kevin Schaberg, ADF&G Kodiak, via Rich Brenner",NA,NA,NA
+8,8,Sockeye,Washington-Sockeye,47.48,-122.42,Washington,WC,WA,1968,2011,44,177.4529091,202.7150227,"Aaron Dufault 2017
+Arron Dufault, Washington Department of Fish and Wildlife, Olympia, WA (via G. Ruggerone)",Hatchery component of the run was removed; FW age assumed to be 1.X.  These sockeye grow fast in the lake.,NA,NA
+9,9,Sockeye,Early Stuart-Sockeye,49.12,-123.06,Fraser,WC,BC,1948,2015,68,41.48651471,276.0070147,"Eric Taylor, Pacific Salmon Commission, 2022",NA,NA,NA
+10,10,Sockeye,Late Stuart-Sockeye,49.12,-123.06,Fraser,WC,BC,1948,2015,68,130.0745147,492.6619412,"Eric Taylor, Pacific Salmon Commission, 2022",NA,NA,NA
+11,11,Sockeye,Stellako-Sockeye,49.12,-123.06,Fraser,WC,BC,1948,2015,68,55.21495588,441.1141618,"Eric Taylor, Pacific Salmon Commission, 2022",NA,NA,NA
+12,12,Sockeye,Bowron-Sockeye,49.12,-123.06,Fraser,WC,BC,1948,2015,68,4.352985294,35.07422059,"Eric Taylor, Pacific Salmon Commission, 2022",NA,NA,NA
+13,13,Sockeye,Raft-Sockeye,49.12,-123.06,Fraser,WC,BC,1948,2015,68,4.311941176,30.30327941,"Eric Taylor, Pacific Salmon Commission, 2022",NA,NA,NA
+14,14,Sockeye,Quesnel-Sockeye,49.12,-123.06,Fraser,WC,BC,1948,2015,68,170.5159412,1227.626662,"Eric Taylor, Pacific Salmon Commission, 2022",NA,NA,NA
+15,15,Sockeye,Chilko-Sockeye,49.12,-123.06,Fraser,WC,BC,1948,2015,68,225.7188824,1425.324588,"Eric Taylor, Pacific Salmon Commission, 2022",NA,NA,NA
+16,16,Sockeye,Seymour-Sockeye,49.12,-123.06,Fraser,WC,BC,1948,2015,68,18.94005882,138.2543676,"Eric Taylor, Pacific Salmon Commission, 2022",NA,NA,NA
+17,17,Sockeye,Late Shuswap-Sockeye,49.12,-123.06,Fraser,WC,BC,1948,2015,67,348.2411045,2298.870522,"Eric Taylor, Pacific Salmon Commission, 2022",NA,NA,NA
+18,18,Sockeye,Birkenhead-Sockeye,49.12,-123.06,Fraser,WC,BC,1948,2015,68,43.50376471,338.8882941,"Eric Taylor, Pacific Salmon Commission, 2022",NA,NA,NA
+19,19,Sockeye,Cultus-Sockeye,49.12,-123.06,Fraser,WC,BC,1948,2015,68,10.32229412,34.62955882,"Eric Taylor, Pacific Salmon Commission, 2022",NA,NA,NA
+20,20,Sockeye,Portage-Sockeye,49.12,-123.06,Fraser,WC,BC,1951,2015,62,3.631387097,40.20590323,"Eric Taylor, Pacific Salmon Commission, 2022",NA,NA,NA
+21,21,Sockeye,Weaver-Sockeye,49.12,-123.06,Fraser,WC,BC,1966,2015,50,21.63456,308.54896,"Eric Taylor, Pacific Salmon Commission, 2022",NA,NA,NA
+22,22,Sockeye,North Barriere-Sockeye,49.12,-123.06,Fraser,WC,BC,1958,2015,53,3.521490566,20.57024528,"Eric Taylor, Pacific Salmon Commission, 2022",NA,NA,NA
+23,23,Sockeye,Scotch-Sockeye,49.12,-123.06,Fraser,WC,BC,1948,2015,53,12.37026415,76.53707547,"Eric Taylor, Pacific Salmon Commission, 2022",NA,NA,NA
+24,24,Sockeye,Gates-Sockeye,49.12,-123.06,Fraser,WC,BC,1952,2015,64,4.505796875,44.56434375,"Eric Taylor, Pacific Salmon Commission, 2022",NA,NA,NA
+25,25,Sockeye,Nadina-Sockeye,49.12,-123.06,Fraser,WC,BC,1973,2015,43,9.61444186,83.62123256,"Eric Taylor, Pacific Salmon Commission, 2022",NA,NA,NA
+26,26,Sockeye,Pitt-Sockeye,49.12,-123.06,Fraser,WC,BC,1948,2015,68,15.01961765,69.33113235,"Eric Taylor, Pacific Salmon Commission, 2022",NA,NA,NA
+27,27,Sockeye,Harrison-Sockeye,49.12,-123.06,Fraser,WC,BC,1948,2015,68,29.87602941,121.3314265,"Eric Taylor, Pacific Salmon Commission, 2022",NA,NA,NA
+28,28,Sockeye,Babine-Early-Wild-Sockeye,54.22,-129.831,Skeena,WC,BC,1960,2015,56,54.48480357,106.4806862,"Charmaine Carr-Harris, DFO, 2023",NA,NA,NA
+29,29,Sockeye,Babine-Late-Wild-Sockeye,54.22,-129.831,Skeena,WC,BC,1960,2015,56,227.3312321,566.666752,"Charmaine Carr-Harris, DFO, 2023",NA,NA,NA
+30,30,Sockeye,Babine-Mid-Wild-Sockeye,54.22,-129.831,Skeena,WC,BC,1960,2015,56,22.72428571,47.42812368,"Charmaine Carr-Harris, DFO, 2023",NA,NA,NA
+31,31,Sockeye,Alastair-Sockeye,54.22,-129.831,Skeena,WC,BC,1960,2016,57,19.39729825,26.22157313,"Charmaine Carr-Harris, DFO, 2023",NA,NA,NA
+32,32,Sockeye,Johnston-Sockeye,54.22,-129.831,Skeena,WC,BC,1965,1997,11,4.640545455,10.19289402,"Charmaine Carr-Harris, DFO, 2023",NA,NA,NA
+33,33,Sockeye,Kitsumkalum-Sockeye,54.22,-129.831,Skeena,WC,BC,1960,2017,47,9.631978723,20.31901006,"Charmaine Carr-Harris, DFO, 2023",NA,NA,NA
+34,34,Sockeye,Lakelse-Sockeye,54.22,-129.831,Skeena,WC,BC,1960,2017,52,16.472,19.49143226,"Charmaine Carr-Harris, DFO, 2023",NA,NA,NA
+35,35,Sockeye,Mcdonell-Sockeye,54.22,-129.831,Skeena,WC,BC,1960,2017,38,4.277789474,5.541969409,"Charmaine Carr-Harris, DFO, 2023",NA,NA,NA
+36,36,Sockeye,Kitwancool-Sockeye,54.22,-129.831,Skeena,WC,BC,1960,2017,20,3.3579,4.44807311,"Charmaine Carr-Harris, DFO, 2023",NA,NA,NA
+37,37,Sockeye,Morice-Sockeye,54.22,-129.831,Skeena,WC,BC,1960,2016,52,11.13561538,21.69146215,"Charmaine Carr-Harris, DFO, 2023",NA,NA,NA
+38,38,Sockeye,Swan-Stephens-Sockeye,54.22,-129.831,Skeena,WC,BC,1960,2017,27,26.23877778,42.31774704,"Charmaine Carr-Harris, DFO, 2023",NA,NA,NA
+39,39,Sockeye,Asitika-Sockeye,54.22,-129.831,Skeena,WC,BC,2003,2017,14,1.160285714,1.814099128,"Charmaine Carr-Harris, DFO, 2023",NA,NA,NA
+40,40,Sockeye,Bear-Skeena-Sockeye,54.22,-129.831,Skeena,WC,BC,1960,2016,21,3.302714286,7.338925238,"Charmaine Carr-Harris, DFO, 2023",NA,NA,NA
+41,41,Sockeye,Damshilgwit-Sockeye,54.22,-129.831,Skeena,WC,BC,2000,2017,16,0.452625,0.66105,"Charmaine Carr-Harris, DFO, 2023",NA,NA,NA
+42,42,Sockeye,Motase-Sockeye,54.22,-129.831,Skeena,WC,BC,1987,2017,19,0.534263158,0.826082255,"Charmaine Carr-Harris, DFO, 2023",NA,NA,NA
+43,43,Sockeye,Sustut-Sockeye,54.22,-129.831,Skeena,WC,BC,1963,2013,17,1.269411765,3.163770836,"Charmaine Carr-Harris, DFO, 2023",NA,NA,NA
+44,44,Sockeye,Upper Nass River-Sockeye,54.99,-130.02,Nass,WC,BC,2003,2015,13,0.446923077,0.951329231,"Charmaine Carr-Harris, DFO, 2023",NA,NA,NA
+45,45,Sockeye,Lower Nass-Portland-Sockeye,54.99,-130.02,Nass,WC,BC,1982,2015,34,10.13155882,27.66486088,"Charmaine Carr-Harris, DFO, 2023",NA,NA,NA
+46,46,Sockeye,Meziadin-Sockeye,54.99,-130.02,Nass,WC,BC,1982,2015,34,185.1851765,506.6732708,"Charmaine Carr-Harris, DFO, 2023",NA,NA,NA
+47,47,Sockeye,Damdochax-Sockeye,54.99,-130.02,Nass,WC,BC,1982,2011,21,3.712142857,11.67838095,"Salmon Watersheds Program, PSF, 2022",NA,NA,NA
+48,48,Sockeye,Fred Wright-Sockeye,54.99,-130.02,Nass,WC,BC,1982,2012,18,8.423111111,31.11588889,"Salmon Watersheds Program, PSF, 2022",NA,NA,NA
+49,49,Sockeye,Owikeno-Sockeye,51.68,-127.306,Central Coast,WC,BC,1954,2011,58,554.5099655,790.2854828,"Salmon Watersheds Program, PSF, 2022",NA,NA,NA
+50,50,Sockeye,Canoona-Sockeye,53.08,-128.555,Central Coast,WC,BC,1975,2014,31,3.34516129,5.479903226,"Salmon Watersheds Program, PSF, 2022",NA,NA,NA
+51,51,Sockeye,Evelyn-Sockeye,53.56,-128.958,Central Coast,WC,BC,1954,2014,49,1.693061224,3.461510204,"Salmon Watersheds Program, PSF, 2022",NA,NA,NA
+52,52,Sockeye,Kainet Creek-Sockeye,52.75,-127.886,Central Coast,WC,BC,1956,2013,37,2.031351351,4.788216216,"Salmon Watersheds Program, PSF, 2022",NA,NA,NA
+53,53,Sockeye,Kitlope-Sockeye,52.246,-127.892,Central Coast,WC,BC,1954,2014,51,37.7745098,61.05227451,"Salmon Watersheds Program, PSF, 2022",NA,NA,NA
+54,54,Sockeye,Bloomfield-Sockeye,52.87,-128.69,Central Coast,WC,BC,1954,2008,44,1.43,2.54125,"Salmon Watersheds Program, PSF, 2022",NA,NA,NA
+55,55,Sockeye,Devon-Sockeye,53.45,-129.787,Central Coast,WC,BC,1960,2002,39,7.358974359,9.201435897,"Salmon Watersheds Program, PSF, 2022",NA,NA,NA
+56,56,Sockeye,Hartley Bay-Sockeye,53.42,-129.247,Central Coast,WC,BC,1955,2014,31,1.413225806,2.427774194,"Salmon Watersheds Program, PSF, 2022",NA,NA,NA
+57,57,Sockeye,Kadjusdis River-Sockeye,52.16,-128.046,Central Coast,WC,BC,1954,2006,29,3.69337931,10.70241379,"Salmon Watersheds Program, PSF, 2022",NA,NA,NA
+58,58,Sockeye,Keecha-Sockeye,53.31,-129.825,Central Coast,WC,BC,1960,2001,19,5.263157895,6.965,"Salmon Watersheds Program, PSF, 2022",NA,NA,NA
+59,59,Sockeye,Koeye-Sockeye,51.77,-127.885,Central Coast,WC,BC,1954,2015,30,5.321066667,13.37493333,"Salmon Watersheds Program, PSF, 2022",NA,NA,NA
+60,60,Sockeye,Kooryet-Sockeye,53.34,-129.867,Central Coast,WC,BC,1960,1994,19,6.631578947,6.533473684,"Salmon Watersheds Program, PSF, 2022",NA,NA,NA
+61,61,Sockeye,Lowe-Simpson-Weir-Sockeye,53.56,-129.574,Central Coast,WC,BC,1960,1995,26,13.64615385,11.99173077,"Salmon Watersheds Program, PSF, 2022",NA,NA,NA
+62,62,Sockeye,Mary Cove Creek-Sockeye,52.61,-128.45,Central Coast,WC,BC,1954,1996,33,3.208666667,6.658818182,"Salmon Watersheds Program, PSF, 2022",NA,NA,NA
+63,63,Sockeye,Mikado-Sockeye,53.43,-129.836,Central Coast,WC,BC,1960,2001,33,4.53030303,5.866575758,"Salmon Watersheds Program, PSF, 2022",NA,NA,NA
+64,64,Sockeye,Namu-Sockeye,51.86,-127.868,Central Coast,WC,BC,1954,2015,25,4.6208,6.71048,"Salmon Watersheds Program, PSF, 2022",NA,NA,NA
+65,65,Sockeye,Port John-Sockeye,52.12,-127.852,Central Coast,WC,BC,1954,2010,18,1.076222222,2.060833333,"Salmon Watersheds Program, PSF, 2022",NA,NA,NA
+66,66,Sockeye,Tankeeah River-Sockeye,52.29,-128.259,Central Coast,WC,BC,1954,2008,37,4.977027027,12.82289189,"Salmon Watersheds Program, PSF, 2022",NA,NA,NA
+67,67,Sockeye,Tsimtack-Moore-Roger-Sockeye,53.36,-129.46,Central Coast,WC,BC,1960,2011,16,4.055625,6.7899375,"Salmon Watersheds Program, PSF, 2022",NA,NA,NA
+68,68,Sockeye,Yeo-Sockeye,52.295,-128.115,Central Coast,WC,BC,1954,2008,27,1.310740741,2.377444444,"Salmon Watersheds Program, PSF, 2022",NA,NA,NA
+69,69,Sockeye,Nimpkish-Sockeye,50.576,-126.96,Vancouver Island,WC,BC,1970,2012,43,58.37513953,65.47993023,"Salmon Watersheds Program, PSF, 2022",NA,NA,NA
+70,70,Sockeye,Awun-Sockeye,53.665,-132.523,Haida Gwaii,WC,BC,1957,2016,53,6.550943396,8.280660377,"Salmon Watersheds Program, PSF, 2022",NA,NA,NA
+71,71,Sockeye,Marian-Eden-Sockeye,53.975,-132.643,Haida Gwaii,WC,BC,1954,2016,45,14.07111111,16.17582222,"Salmon Watersheds Program, PSF, 2022",NA,NA,NA
+72,72,Sockeye,Mercer-Sockeye,53.59,-132.907,Haida Gwaii,WC,BC,1954,2013,35,7.891428571,9.725628571,"Salmon Watersheds Program, PSF, 2022",NA,NA,NA
+73,73,Sockeye,Skidegate-Sockeye,53.167,-131.789,Haida Gwaii,WC,BC,1956,2016,60,22.66651667,25.324,"Salmon Watersheds Program, PSF, 2022",NA,NA,NA
+74,74,Sockeye,Yakoun-Sockeye,53.682,-132.235,Haida Gwaii,WC,BC,1957,2016,54,15.57592593,20.13640741,"Salmon Watersheds Program, PSF, 2022",NA,NA,NA
+75,75,Sockeye,Kvichak-Sockeye,57.5,-157.6,Bristol Bay,BS,AK,1963,2014,52,4897.16275,10382.631,"A. Munro,2023",NA,NA,NA
+76,76,Sockeye,Alagnak-Sockeye,58.25,-157.38,Bristol Bay,BS,AK,1963,2014,52,824.4837885,2010.944769,"A. Munro,2023",NA,NA,NA
+77,77,Sockeye,Naknek-Sockeye,58.78,-157.08,Bristol Bay,BS,AK,1963,2014,52,1408.975885,4400.853615,"A. Munro,2023",NA,NA,NA
+78,78,Sockeye,Ugashik-Sockeye,58.85,-158.5,Bristol Bay,BS,AK,1963,2014,52,924.8109231,3356.575981,"A. Munro,2023",NA,NA,NA
+79,79,Sockeye,Egegik-Sockeye,58.85,-157.03,Bristol Bay,BS,AK,1963,2014,52,1158.393654,6807.491288,"A. Munro,2023",NA,NA,NA
+80,80,Sockeye,Nushagak-Sockeye,58.82,-158.49,Bristol Bay,BS,AK,1963,2014,52,573.037,1950.183519,"A. Munro,2023",NA,NA,NA
+81,81,Sockeye,Igushik-Sockeye,58.82,-158.62,Bristol Bay,BS,AK,1963,2014,52,364.8444615,856.8968269,"A. Munro,2023",NA,NA,NA
+82,82,Sockeye,Wood-Sockeye,58.68,-158.8,Bristol Bay,BS,AK,1963,2014,52,1308.842058,4801.464288,"A. Munro,2023",NA,NA,NA
+83,83,Sockeye,Togiak-Sockeye,58.95,-160.45,Bristol Bay,BS,AK,1956,2017,62,188.0247258,616.4524839,"A. Munro,2023",NA,NA,NA
+84,84,Sockeye,Kasilof-Sockeye,60.39,-151.3,Cook Inlet,GOA,AK,1968,2016,49,236.996102,779.3825714,"A. Munro,2023",NA,NA,NA
+85,85,Sockeye,Kenai-Sockeye,60.54,-151.28,Cook Inlet,GOA,AK,1968,2016,49,893.0023061,3317.111286,"A. Munro,2023",NA,NA,NA
+86,86,Sockeye,Goodnews-Sockeye,59.11,-161.62,AYK,BS,AK,1981,2015,35,40.51557143,63.64308571,"A. Munro,2023",NA,NA,NA
+87,87,Sockeye,Redoubt-Sockeye,56.9,-135.33,Southeast Alaska,GOA,AK,1982,2016,35,30.93297143,44.4864,"A. Munro,2023",NA,NA,NA
+88,88,Sockeye,Chilkoot-Sockeye,58.92,-135.23,Southeast Alaska,GOA,AK,1976,2016,41,68.46965854,162.3206098,"A. Munro,2023",NA,NA,NA
+89,89,Sockeye,Upper Station Late sockeye-Sockeye,57.06,-154.36,Kodiak,GOA,AK,1970,2015,46,167.5308913,411.4372826,"A. Munro,2023",NA,NA,NA
+90,90,Sockeye,Upper Station Early Sockeye-Sockeye,57.06,-154.36,Kodiak,GOA,AK,1969,2015,47,49.20931915,95.5893617,"A. Munro,2023",NA,NA,NA
+91,91,Sockeye,Ayakulik-Sockeye,57.2,-154.54,Kodiak,GOA,AK,1966,2015,50,265.34694,536.50786,"A. Munro,2023",NA,NA,NA
+92,92,Sockeye,Karluk Late-Sockeye,57.57,-154.45,Kodiak,GOA,AK,1982,2015,34,412.4687647,790.8482059,"A. Munro,2023",NA,NA,NA
+93,93,Sockeye,Karluk Early-Sockeye,57.57,-154.45,Kodiak,GOA,AK,1982,2015,34,259.1032647,402.0731176,"A. Munro,2023",NA,NA,NA
+94,94,Sockeye,Chignik Early-Sockeye,56.28,-158.64,Chignik,GOA,AK,1983,2015,33,460.2469394,1163.560879,"A. Munro,2023",NA,NA,NA
+95,95,Sockeye,Chignik Late-Sockeye,56.28,-158.64,Chignik,GOA,AK,1983,2015,33,314.8715152,943.1610909,"A. Munro,2023",NA,NA,NA
+96,96,Sockeye,Bear-Sockeye,56.16,-160.45,AYK,BS,AK,1982,2015,34,155.827,551.3473529,"A. Munro,2023",NA,NA,NA
+97,97,Sockeye,Nelson-Sockeye,55.96,-161.28,AYK,BS,AK,1982,2015,34,221.0861765,484.5308824,"A. Munro,2023",NA,NA,NA
+98,98,Sockeye,Great Central Lake-Sockeye,49.24,-124.8,Vancouver Island,WC,BC,1977,2016,40,190.0865573,1383.228,"Colin Bailey, DFO, 2023",NA,NA,NA
+99,99,Sockeye,Sproat Lake-Sockeye,49.24,-124.8,Vancouver Island,WC,BC,1977,2016,40,190.0865573,380.05145,"Colin Bailey, DFO, 2023",NA,NA,NA
+100,100,Chum,Willapa Bay-Chum,46.3733,-123.9575,Outside WA,WC,WA,1968,2016,49,32.05659184,53.59438776,"Marisa Litz, WDFW, 2023",NA,,1
+101,101,Chum,Grays Harbour-Chum,46.95083,-124.0497,Outside WA,WC,WA,1969,2016,44,21.83690909,38.82513636,"Marisa Litz, WDFW, 2023",NA,,1
+102,102,Chum,S Sound Summer-Chum,47.042,-122.835,Inside WA,WC,WA,1968,2016,49,28.16973469,44.83536735,"Marisa Litz, WDFW, 2023",NA,,1
+103,103,Chum,S Sound Fall-Chum,47.042,-122.835,Inside WA,WC,WA,1968,2016,49,133.0235714,356.9730612,"Marisa Litz, WDFW, 2023",NA,,1
+104,104,Chum,S Sound Winter-Chum,47.042,-122.835,Inside WA,WC,WA,1968,2016,49,35.1217551,56.01418367,"Marisa Litz, WDFW, 2023",NA,,1
+105,105,Chum,Hood Canal-Chum,47.5644,-122.9956,Inside WA,WC,WA,1968,2016,49,58.98214286,189.1033673,"Marisa Litz, WDFW, 2023",NA,,1
+106,106,Chum,Port Susan-Chum,48.23861,-122.3758,Inside WA,WC,WA,1968,2016,49,72.75761224,116.5000408,"Marisa Litz, WDFW, 2023",NA,Sum of Stillaguamish and Snohomish stocks,1
+107,107,Chum,Skagit-Chum,48.3875,-122.3656,Inside WA,WC,WA,1968,2016,49,61.20283673,98.27118367,"Marisa Litz, WDFW, 2023",NA,,1
+108,108,Chum,Bellingham-Chum,48.775,-122.5978,Inside WA,WC,WA,1968,2016,49,33.85853061,64.0632449,"Marisa Litz, WDFW, 2023",NA,Sum of Nooksack and Samish stocks,1
+109,109,Chum,Strait of Juan de Fuca-Chum,48.1618,-123.59,Inside WA,WC,WA,1968,2016,49,2.41,2.805938776,"Salmon Watersheds Program, PSF, 2022",NA,NA,1
+110,110,Chum,Fraser-Chum,49.12333,-123.0569,South Coast,WC,BC,1959,1992,34,420.8459706,886.1851575,"Ryall, P., C. Murray, V. Palermo, D. Bailey, and D. Chen. 1999. Status of Clockwork Chum Salmon Stock and Review of the Clockwork Management Strategy. Technical report, Canadian Department of Fisheries and Oceans, Canadian Stock Assessment Secretariat Research Document 99/169",NA,,1
+111,111,Chum,BC South (no Fraser)-Chum,50.28778,-125.2008,South Coast,WC,BC,1953,2002,50,799.0815,1310.96352,"Pieter Van Will, Fisheries and Oceans Canada (DFO), Port Hardy, BC; Van Will, P., R. Brahniuk, L. Hop Wo, and G. Pestal. 2009. Certification Unit Profile: Inner South Coast Chum Salmon (Excluding Fraser River). Technical report, Canadian Manuscript Report of Fisheries and Aquatic Sciences 2876",NA,"Statistical Areas 11-17, 28A, 28B, 29B",0
+112,112,Chum,Kadashan-Chum,57.575,-134.75,SEAK,WC,AK,1969,1984,16,27.237,60.5985625,"Steve Heinl, Alaska Department of Fish and Game (ADFG), Ketchikan, AK",NA,,0
+113,113,Chum,Chilkat-Chum,59.201231,-135.466669,SEAK,WC,AK,1994,2005,12,173.1780833,353.1806091,"Steve Heinl, Alaska Department of Fish and Game (ADFG), Ketchikan, AK",NA,,0
+114,114,Chum,East Alsek-Chum,59.434,-139.547,Yakutat,WC,AK,1960,1987,21,11.8,22.98542857,"Steve Heinl, Alaska Department of Fish and Game (ADFG), Ketchikan, AK",NA,,0
+115,115,Chum,PWS-Chum,60.5,-147,PWS,WC,AK,1965,2004,40,200.069475,1434.284625,"Botz, J., G. Hollowell, T. Sheridan, R. Brenner, and S. Moffitt. 2012. 2010 Prince William Sound Area Finfish Management Report. Technical report, Fishery Management Report No. 12-06, Alaska Department of Fish and Game",NA,,0
+116,116,Chum,Kamishak-Chum,59.27,-154.1175,Cook Inlet,GOA,AK,1971,2006,34,91.23235294,147.2120882,"Ted Otis, Alaska Department of Fish and Game (ADFG), Homer, AK; Hollowell, G., T. Otis, and E. Ford. 2012. 2011 Lower Cook Inlet area finfish management report. Technical report, Fishery Management Report No. 12-30, Alaska Department of Fish and Game",NA,,0
+117,117,Chum,Outer CIn-Chum,59.38389,-150.7528,Cook Inlet,GOA,AK,1970,2006,37,27.40810811,55.42624324,"Ted Otis, Alaska Department of Fish and Game (ADFG), Homer, AK; Hollowell, G., T. Otis, and E. Ford. 2012. 2011 Lower Cook Inlet area finfish management report. Technical report, Fishery Management Report No. 12-30, Alaska Department of Fish and Game",NA,,0
+118,118,Chum,S CIn-Chum,59.52528,-151.48,Cook Inlet,GOA,AK,1970,2006,37,2.881081081,8.016216216,"Ted Otis, Alaska Department of Fish and Game (ADFG), Homer, AK; Hollowell, G., T. Otis, and E. Ford. 2012. 2011 Lower Cook Inlet area finfish management report. Technical report, Fishery Management Report No. 12-30, Alaska Department of Fish and Game",NA,,0
+119,119,Chum,Upper CIn-Chum,61.271,-150.576,Cook Inlet,GOA,AK,1971,2008,35,9.130171429,18.04002857,"Patrick Shields, Alaska Department of Fish and Game (ADFG), Soldotna, AK",NA,,0
+120,120,Chum,Alitak-Chum,56.88528,-154.1217,Kodiak,GOA,AK,1978,2007,30,43.7191,102.2122333,"Matt Foster, Alaska Department of Fish and Game (ADFG), Kodiak, AK",NA,,0
+121,121,Chum,E Kod-Chum,57.089858,-153.187928,Kodiak,GOA,AK,1978,2007,30,93.9816,240.925,"Matt Foster, Alaska Department of Fish and Game (ADFG), Kodiak, AK",NA,,0
+122,122,Chum,SW Kod-Chum,57.264508,-154.613211,Kodiak,GOA,AK,1978,2007,30,44.9189,65.542,"Matt Foster, Alaska Department of Fish and Game (ADFG), Kodiak, AK",NA,,0
+123,123,Chum,NE Kod-Chum,57.77889,-152.3592,Kodiak,GOA,AK,1978,2007,30,14.96173333,31.28806667,"Matt Foster, Alaska Department of Fish and Game (ADFG), Kodiak, AK",NA,,0
+124,124,Chum,NW Kod-Chum,57.856839,-153.882906,Kodiak,GOA,AK,1978,2007,30,94.0711,360.1969667,"Matt Foster, Alaska Department of Fish and Game (ADFG), Kodiak, AK",NA,,0
+125,125,Chum,Mainland Kod-Chum,58.03333,-154.6644,Kodiak,GOA,AK,1978,2007,30,205.6781,348.3226333,"Matt Foster, Alaska Department of Fish and Game (ADFG), Kodiak, AK",NA,,0
+126,126,Chum,Perryville-Chum,55.85417,-159.3314,Chignik,GOA,AK,1962,2007,46,49.62767391,72.63836957,"Charles Russell, Alaska Department of Fish and Game (ADFG), Kodiak, AK; Owen, D. and D. Sarafin. 1999. Chignik Management Area Annual Finfish Management Report, 1996. Technical report, Regional Information Report No. 4K99-33, Alaska Department of Fish and Game ",NA,,0
+127,127,Chum,W Chig-Chum,56.06667,-158.6756,Chignik,GOA,AK,1962,2007,46,36.99852174,104.2571957,"Charles Russell, Alaska Department of Fish and Game (ADFG), Kodiak, AK; Owen, D. and D. Sarafin. 1999. Chignik Management Area Annual Finfish Management Report, 1996. Technical report, Regional Information Report No. 4K99-33, Alaska Department of Fish and Game ",NA,,0
+128,128,Chum,Central Chig-Chum,56.59639,-157.9933,Chignik,GOA,AK,1962,2007,46,34.5883913,73.50634783,"Charles Russell, Alaska Department of Fish and Game (ADFG), Kodiak, AK; Owen, D. and D. Sarafin. 1999. Chignik Management Area Annual Finfish Management Report, 1996. Technical report, Regional Information Report No. 4K99-33, Alaska Department of Fish and Game ",NA,,0
+129,129,Chum,E Chig-Chum,56.98528,-156.5806,Chignik,GOA,AK,1962,2007,46,120.0811739,156.5152609,"Charles Russell, Alaska Department of Fish and Game (ADFG), Kodiak, AK; Owen, D. and D. Sarafin. 1999. Chignik Management Area Annual Finfish Management Report, 1996. Technical report, Regional Information Report No. 4K99-33, Alaska Department of Fish and Game ",NA,,0
+130,130,Chum,SW-Unimak-Chum,54.5,-163.5,AK Peninsula,BS,AK,1962,2007,46,198.4014348,415.7675652,"Matt Foster, Alaska Department of Fish and Game (ADFG), Kodiak, AK",NA,Sum of Southwestern and Unimak Districts,0
+131,131,Chum,W-NW AKPen-Chum,54.982,-163.37,AK Peninsula,BS,AK,1962,2007,46,42.76195652,70.92647826,"Matt Foster, Alaska Department of Fish and Game (ADFG), Kodiak, AK",NA,"Sum of Dublin, Bechevin & Urilia Bays, Swanson Lagoon",0
+132,132,Chum,E-NW AKPen-Chum,55.3158,-162.845,AK Peninsula,BS,AK,1962,2007,46,174.2418478,233.013,"Matt Foster, Alaska Department of Fish and Game (ADFG), Kodiak, AK",NA,Sum of Izembek and Moffet Bay,0
+133,133,Chum,SE-SC AKPen-Chum,55.5,-161,AK Peninsula,BS,AK,1962,2007,46,288.1812174,704.7968913,"Matt Foster, Alaska Department of Fish and Game (ADFG), Kodiak, AK",NA,Sum of Southeastern and Southcentral Districts,0
+134,134,Chum,N AKPen-Chum,56.46,-159.68,AK Peninsula,BS,AK,1962,2007,46,170.237,284.153587,"Matt Foster, Alaska Department of Fish and Game (ADFG), Kodiak, AK",NA,,0
+135,135,Chum,Nushagak-Chum,58.622,-158.591,Bristol Bay,BS,AK,1980,2005,25,309.96628,773.9985935,"Lowell Fair, Alaska Department of Fish and Game (ADFG), Anchorage, AK",NA,,1
+136,136,Chum,Togiak-Chum,58.925,-160.446,Bristol Bay,BS,AK,1978,1991,14,254.6821429,441.6097324,"Lowell Fair, Alaska Department of Fish and Game (ADFG), Anchorage, AK",NA,,1
+137,137,Chum,Yukon-Chum,62.78,-164.96,AYK,BS,AK,1974,2001,28,577.3142857,891.4494532,"Doug Eggers, Alaska Department of Fish and Game (ADFG), Juneau, AK; Fleischman, S. and B. Borba. 2009. Escapement estimation, spawner-recruit analysis, and escapement goal recommendation for fall chum salmon in the Yukon River drainage. Technical report, Fishery Manuscript Series No. 09-08, Alaska Department of Fish and Game",NA,Fall Run,1
+138,138,Chum,Anvik-Chum,62.78,-164.96,AYK,BS,AK,1972,1993,22,644.8571364,1042.702045,"Doug Eggers, Alaska Department of Fish and Game (ADFG), Juneau, AK; Clark, J. and G. Sandone. 2001. Biological escapement goal for Anvik River chum salmon. Technical report, Regional InformationI Report No. 3AO1- 06, Alaska Department of Fish and Game",NA,,1
+139,139,Chum,Andreafsky-Chum,62.78,-164.96,AYK,BS,AK,1972,2001,30,94.889,104.4445849,"Doug Eggers, Alaska Department of Fish and Game (ADFG), Juneau, AK; Fleischman, S. and D. Evenson. 2010. Run reconstruction, spawner-recruit analysis, and escapement goal recommendation for summer chum salmon in the east fork of the Andreafsky River. Technical report, Fishery Manuscript Series No. 10-04, Alaska Department of Fish and Game",NA,,0
+140,140,Chum,Norton Sound-Chum,64.52,-165.12,AYK,BS,AK,1974,1995,22,43.87609091,53.63122727,"Doug Eggers, Alaska Department of Fish and Game (ADFG), Juneau, AK; Clark, J. 2001a. Biological escapement goal for chum salmon in subdistrict one of Norton Sound. Technical report, Regional Information Report No. 3AO1-09, Alaska Department of Fish and Game",NA,District 1,1
+141,141,Chum,Kwiniuk Inlet-Chum,64.72,-161.96,AYK,BS,AK,1965,1995,31,47.12280645,69.07622581,"Doug Eggers, Alaska Department of Fish and Game (ADFG), Juneau, AK; Clark, J. 2001b. Biological escapement goals for Kwiniuk and Tubutulik chum salmon. Technical report, Regional Infomlation Report No. 3AOI-08, Alaska Department of Fish and Game",NA,Sum of Kwiniuk and Tubutulik Rivers,1
+142,142,Chum,Kotzebue-Chum,66.46,-161.91,AYK,BS,AK,1962,1997,36,389.0910278,640.1555556,"Doug Eggers, Alaska Department of Fish and Game (ADFG), Juneau, AK; Eggers, D. and J. Clark. 2006. Assessment of historical runs and escapement goals for Kotzebue area chum salmon. Technical report, Fishery Manuscript No. 06-01, Alaska Department of Fish and Game ",NA,,1
+143,143,Chum,Lower Skeena-Chum,54.3,-130.36,North Coast,WC,BC,1958,2012,49,21.47406122,34.42240816,"Salmon Watersheds Program, PSF, 2024",NA,,NA
+144,144,Chum,Portland Inlet-Chum,55.04,130,North Coast,WC,BC,1954,2011,58,24.58896552,41.28081034,"Salmon Watersheds Program, PSF, 2024",NA,,NA
+145,145,Chum,Portland Canal-Observatory-Chum,54.82,130.25,North Coast,WC,BC,1954,2012,59,42.21008475,72.47411864,"Salmon Watersheds Program, PSF, 2024",NA,,NA
+146,146,Chum,Smith Inlet-Chum,51.31,-127.43,Central Coast,WC,BC,1954,2009,56,57.129,76.37435714,"Salmon Watersheds Program, PSF, 2024",NA,,NA
+147,147,Chum,Rivers Inlet-Chum,51.68,-127.26,Central Coast,WC,BC,1954,2007,54,40.84161111,49.08725926,"Salmon Watersheds Program, PSF, 2024",NA,,NA
+148,148,Chum,Spiller-Fitz-Hugh-Burke-Chum,52.16,-128.14,Central Coast,WC,BC,1954,2016,63,256.5827619,400.1066349,"Salmon Watersheds Program, PSF, 2024",NA,,NA
+149,149,Chum,Bella Coola-Dean Rivers-Chum,52.38,-126.78,Central Coast,WC,BC,1954,2016,63,200.6654762,430.2049365,"Salmon Watersheds Program, PSF, 2024",NA,,NA
+150,150,Chum,Hecate Lowlands-Chum,53.42,-129.25,Central Coast,WC,BC,1954,2016,63,116.8755397,215.3274603,"Salmon Watersheds Program, PSF, 2024",NA,,NA
+151,151,Chum,Mussel-Kynoch-Chum,52.61,-128.52,Central Coast,WC,BC,1954,2015,62,112.025,170.7622097,"Salmon Watersheds Program, PSF, 2024",NA,,NA
+152,152,Chum,Douglas-Gardner-Chum,53.96,-128.68,Central Coast,WC,BC,1954,2015,62,236.7610484,368.9858871,"Salmon Watersheds Program, PSF, 2024",NA,,NA
+153,153,Chum,Northwest Vancouver Island-Chum,50.04,-127.68,South Coast,WC,BC,1956,2010,49,53.31706122,58.15867347,"Salmon Watersheds Program, PSF, 2024",NA,,NA
+154,154,Chum,Southwest & West Vancouver Island-Chum,48.7,-125.09,South Coast,WC,BC,1956,2010,48,326.7704792,391.9638125,"Salmon Watersheds Program, PSF, 2024",NA,,NA
+155,155,Chum,East Haida Gwaii-Chum,53.26,-131.62,Haida Gwaii,WC,BC,1954,2008,55,202.4377091,292.1338545,"Salmon Watersheds Program, PSF, 2024",NA,,NA
+156,156,Chum,North Haida Gwaii-Chum,54.31,-132.44,Haida Gwaii,WC,BC,1954,2002,49,62.26626531,68.09181633,"Salmon Watersheds Program, PSF, 2024",NA,,NA
+157,157,Chum,West Haida Gwaii-Chum,53.12,-132.82,Haida Gwaii,WC,BC,1954,2009,56,103.8452679,133.0461964,"Salmon Watersheds Program, PSF, 2024",NA,,NA
+158,158,Chum,Skidegate-Chum,54.09,-132.22,Haida Gwaii,WC,BC,1954,2010,57,108.7804912,151.4397018,"Salmon Watersheds Program, PSF, 2024",NA,,NA
+159,159,Pink-Odd,Puyallup-Pink-Odd,47.26972,-122.4272,Inside WA,WC,WA,1959,2019,31,165.9470645,241.002129,"Marisa Litz, WDFW, April 2023",NA,,NA
+160,160,Pink-Odd,Hood Canal-Pink-Odd,47.5644,-122.9956,Inside WA,WC,WA,1959,2019,31,88.39303226,138.4444194,"Marisa Litz, WDFW, April 2023",NA,"Sum of Dosewallips, Duckabush, and Hamma Hamma",NA
+161,161,Pink-Odd,Snohomish-Pink-Odd,48.02139,-122.2072,Inside WA,WC,WA,1959,2019,31,397.1633548,602.9406452,"Marisa Litz, WDFW, April 2023",NA,,NA
+162,162,Pink-Odd,Dungeness-Pink-Odd,48.1508,-123.1333,Inside WA,WC,WA,1959,2019,31,62.31480645,85.84274194,"Marisa Litz, WDFW, April 2023",NA,,NA
+163,163,Pink-Odd,Stillaguamish-Pink-Odd,48.23861,-122.3758,Inside WA,WC,WA,1959,2019,31,187.3112581,318.7559677,"Marisa Litz, WDFW, April 2023",NA,,NA
+164,164,Pink-Odd,Skagit-Pink-Odd,48.3875,-122.3656,Inside WA,WC,WA,1959,2019,31,422.0832581,850.4550323,"Marisa Litz, WDFW, April 2023",NA,,NA
+165,165,Pink-Odd,Nooksack-Pink-Odd,48.775,-122.5978,Inside WA,WC,WA,1959,2019,31,68.721,120.8922903,"Marisa Litz, WDFW, April 2023",NA,,NA
+166,166,Pink-Odd,Nisqually-Pink-Odd,47.101,122.706,Inside WA,WC,WA,1959,2019,27,83.61748148,100.1805926,"Marisa Litz, WDFW, April 2023",NA,NA,NA
+167,167,Pink-Odd,S South Misc.-Pink-Odd,47.16,122.91,Inside WA,WC,WA,1959,2019,31,0.300516129,0.504258065,"Marisa Litz, WDFW, April 2023",NA,NA,NA
+168,168,Pink-Odd,Fraser-Pink-Odd,49.12333,-123.0569,South Coast,WC,BC,1961,2021,31,6532.232194,11492.73674,"S. Latham, Pacific Salmon Commission, Vancouver, BC",NA,,NA
+169,169,Pink-Even,S SEAK-Pink-Even,55.71556,-131.8714,SEAK,WC,AK,1960,2008,25,12685.33796,30258.58564,"Steve Heinl, Alaska Department of Fish and Game (ADFG), Ketchikan, AK; Piston, A. W. and S. C. Heinl. 2011. Pink salmon stock status and escapement goals in Southeast Alaska. Alaska Department of Fish and Game, Special Publication No. 11-18",NA,Districts 101-108,NA
+170,170,Pink-Odd,S SEAK-Pink-Odd,55.71556,-131.8714,SEAK,WC,AK,1961,2007,24,14288.64188,36485.09004,"Steve Heinl, Alaska Department of Fish and Game (ADFG), Ketchikan, AK; Piston, A. W. and S. C. Heinl. 2011. Pink salmon stock status and escapement goals in Southeast Alaska. Alaska Department of Fish and Game, Special Publication No. 11-18",NA,Districts 101-108,NA
+171,171,Pink-Even,N SEAK Outside-Pink-Even,57.17694,-135.7869,SEAK,WC,AK,1960,2008,25,1848.00196,3162.11524,"Steve Heinl, Alaska Department of Fish and Game (ADFG), Ketchikan, AK; Piston, A. W. and S. C. Heinl. 2011. Pink salmon stock status and escapement goals in Southeast Alaska. Alaska Department of Fish and Game, Special Publication No. 11-18",NA,"Districts 109-112, 114, 115",NA
+172,172,Pink-Odd,N SEAK Outside-Pink-Odd,57.17694,-135.7869,SEAK,WC,AK,1961,2007,24,2905.870667,4830.86525,"Steve Heinl, Alaska Department of Fish and Game (ADFG), Ketchikan, AK; Piston, A. W. and S. C. Heinl. 2011. Pink salmon stock status and escapement goals in Southeast Alaska. Alaska Department of Fish and Game, Special Publication No. 11-18",NA,"Districts 109-112, 114, 115",NA
+173,173,Pink-Even,N SEAK Inside-Pink-Even,57.57528,-134.7503,SEAK,WC,AK,1960,2008,25,6982.64704,14791.87416,"Steve Heinl, Alaska Department of Fish and Game (ADFG), Ketchikan, AK; Piston, A. W. and S. C. Heinl. 2011. Pink salmon stock status and escapement goals in Southeast Alaska. Alaska Department of Fish and Game, Special Publication No. 11-18",NA,District 113,NA
+174,174,Pink-Odd,N SEAK Inside-Pink-Odd,57.57528,-134.7503,SEAK,WC,AK,1961,2007,24,8279.893542,18241.23688,"Steve Heinl, Alaska Department of Fish and Game (ADFG), Ketchikan, AK; Piston, A. W. and S. C. Heinl. 2011. Pink salmon stock status and escapement goals in Southeast Alaska. Alaska Department of Fish and Game, Special Publication No. 11-18",NA,District 113,NA
+175,175,Pink-Even,Situk-Pink-Even,59.43353,-139.5467,Yakutat,WC,AK,1962,1990,12,180.8579167,179.011,"Steve Heinl, Alaska Department of Fish and Game (ADFG), Ketchikan, AK; Marisa Litz, WDFW, April 2023",NA,,NA
+176,176,Pink-Odd,Situk-Pink-Odd,59.43353,-139.5467,Yakutat,WC,AK,1965,1989,13,200.2322308,226.6915385,"Steve Heinl, Alaska Department of Fish and Game (ADFG), Ketchikan, AK; Marisa Litz, WDFW, April 2023",NA,,NA
+177,177,Pink-Even,Humpy-Pink-Even,59.6444,-139.5844,Yakutat,WC,AK,1962,1992,12,27.38375,46.42808333,"Steve Heinl, Alaska Department of Fish and Game (ADFG), Ketchikan, AK; Marisa Litz, WDFW, April 2023",NA,,NA
+178,178,Pink-Odd,Humpy-Pink-Odd,59.6444,-139.5844,Yakutat,WC,AK,1973,1991,10,73.9719,110.7452,"Steve Heinl, Alaska Department of Fish and Game (ADFG), Ketchikan, AK; Marisa Litz, WDFW, April 2023",NA,,NA
+179,179,Pink-Even,PWS-Pink-Even,60.5,-147,PWS,WC,AK,1960,2008,25,3790.72064,8419.56872,"Steve Moffitt, Alaska Department of Fish and Game (ADFG), Cordova, AK",NA,,NA
+180,180,Pink-Odd,PWS-Pink-Odd,60.5,-147,PWS,WC,AK,1961,2009,25,5012.929,11813.1606,"Steve Moffitt, Alaska Department of Fish and Game (ADFG), Cordova, AK",NA,,NA
+181,181,Pink-Even,S CIn-Pink-Even,59.52528,-151.48,Cook Inlet,GOA,AK,1976,2008,17,72.07635294,102.4275882,"Ted Otis, Alaska Department of Fish and Game (ADFG), Homer, AK",NA,"Sum of Humpy Creek, Seldovia Bay",NA
+182,182,Pink-Odd,S CIn-Pink-Odd,59.52528,-151.48,Cook Inlet,GOA,AK,1977,2009,17,110.6001765,164.2054706,"Ted Otis, Alaska Department of Fish and Game (ADFG), Homer, AK",NA,"Sum of Humpy Creek, Seldovia Bay",NA
+183,183,Pink-Even,Outer CIn-Pink-Even,59.38389,-150.7528,Cook Inlet,GOA,AK,1976,2008,17,185.2204118,407.7485882,"Ted Otis, Alaska Department of Fish and Game (ADFG), Homer, AK",NA,"Sum of Port Chatham, Port Dick, Rocky River, Windy Creek, South Nuka",NA
+184,184,Pink-Odd,Outer CIn-Pink-Odd,59.38389,-150.7528,Cook Inlet,GOA,AK,1977,2009,17,278.9246471,648.2626471,"Ted Otis, Alaska Department of Fish and Game (ADFG), Homer, AK",NA,"Sum of Port Chatham, Port Dick, Rocky River, Windy Creek, South Nuka",NA
+185,185,Pink-Even,Kamishak-Pink-Even,59.27,-154.1175,Cook Inlet,GOA,AK,1976,2008,17,306.1155294,382.8532353,"Ted Otis, Alaska Department of Fish and Game (ADFG), Homer, AK",NA,"Sum of Bruin River, Sunday Creek, Brown's Peak Creek",NA
+186,186,Pink-Odd,Kamishak-Pink-Odd,59.27,-154.1175,Cook Inlet,GOA,AK,1977,2009,17,326.6470588,370.3618235,"Ted Otis, Alaska Department of Fish and Game (ADFG), Homer, AK",NA,"Sum of Bruin River, Sunday Creek, Brown's Peak Creek",NA
+187,187,Pink-Even,Afognak-Pink-Even,58.26222,-152.5883,Kodiak,GOA,AK,1978,2008,16,722.384625,1694.740625,"Matt Foster, Alaska Department of Fish and Game (ADFG), Kodiak, AK",NA,,NA
+188,188,Pink-Odd,Afognak-Pink-Odd,58.26222,-152.5883,Kodiak,GOA,AK,1979,2009,16,778.8905,2002.241688,"Matt Foster, Alaska Department of Fish and Game (ADFG), Kodiak, AK",NA,,NA
+189,189,Pink-Even,W Kod-Pink-Even,57.11389,-154.4947,Kodiak,GOA,AK,1978,2008,16,5886.377375,12899.53238,"Matt Foster, Alaska Department of Fish and Game (ADFG), Kodiak, AK",NA,,NA
+190,190,Pink-Odd,W Kod-Pink-Odd,57.11389,-154.4947,Kodiak,GOA,AK,1979,2009,16,2382.720625,7097.977813,"Matt Foster, Alaska Department of Fish and Game (ADFG), Kodiak, AK",NA,,NA
+191,191,Pink-Even,Alitak-Pink-Even,56.88528,-154.1217,Kodiak,GOA,AK,1978,2008,16,1195.321,2039.596813,"Matt Foster, Alaska Department of Fish and Game (ADFG), Kodiak, AK",NA,,NA
+192,192,Pink-Odd,Alitak-Pink-Odd,56.88528,-154.1217,Kodiak,GOA,AK,1979,2009,16,1965.758,4233.93275,"Matt Foster, Alaska Department of Fish and Game (ADFG), Kodiak, AK",NA,,NA
+193,193,Pink-Even,E Kod-Pink-Even,57.089858,-153.187928,Kodiak,GOA,AK,1978,2008,16,1600.4925,2543.82225,"Matt Foster, Alaska Department of Fish and Game (ADFG), Kodiak, AK",NA,,NA
+194,194,Pink-Odd,E Kod-Pink-Odd,57.089858,-153.187928,Kodiak,GOA,AK,1979,2009,16,2710.426125,6405.908188,"Matt Foster, Alaska Department of Fish and Game (ADFG), Kodiak, AK",NA,,NA
+195,195,Pink-Even,Mainland Kod-Pink-Even,58.03333,-154.6644,Kodiak,GOA,AK,1978,2008,16,1165.281875,1672.561125,"Matt Foster, Alaska Department of Fish and Game (ADFG), Kodiak, AK",NA,,NA
+196,196,Pink-Odd,Mainland Kod-Pink-Odd,58.03333,-154.6644,Kodiak,GOA,AK,1979,2009,16,1560.81875,2015.378563,"Matt Foster, Alaska Department of Fish and Game (ADFG), Kodiak, AK",NA,,NA
+197,197,Pink-Even,Chignik Bay-Pink-Even,56.38528,-158.2261,Chignik,GOA,AK,1962,2008,22,30.94813636,120.1955455,"Charles Russell, Alaska Department of Fish and Game (ADFG), Kodiak, AK; Owen, D. and D. Sarafin. 1999. Chignik Management Area Annual Finfish Management Report, 1996. Technical report, Regional Information Report No. 4K99-33, Alaska Department of Fish and Game ",NA,,NA
+198,198,Pink-Odd,Chignik Bay-Pink-Odd,56.38528,-158.2261,Chignik,GOA,AK,1963,2009,21,37.31114286,111.6422381,"Charles Russell, Alaska Department of Fish and Game (ADFG), Kodiak, AK; Owen, D. and D. Sarafin. 1999. Chignik Management Area Annual Finfish Management Report, 1996. Technical report, Regional Information Report No. 4K99-33, Alaska Department of Fish and Game ",NA,,NA
+199,199,Pink-Even,Central Chig-Pink-Even,56.59639,-157.9933,Chignik,GOA,AK,1962,2008,24,115.3158333,221.363375,"Charles Russell, Alaska Department of Fish and Game (ADFG), Kodiak, AK; Owen, D. and D. Sarafin. 1999. Chignik Management Area Annual Finfish Management Report, 1996. Technical report, Regional Information Report No. 4K99-33, Alaska Department of Fish and Game ",NA,,NA
+200,200,Pink-Odd,Central Chig-Pink-Odd,56.59639,-157.9933,Chignik,GOA,AK,1963,2009,24,218.73375,428.215875,"Charles Russell, Alaska Department of Fish and Game (ADFG), Kodiak, AK; Owen, D. and D. Sarafin. 1999. Chignik Management Area Annual Finfish Management Report, 1996. Technical report, Regional Information Report No. 4K99-33, Alaska Department of Fish and Game ",NA,,NA
+201,201,Pink-Even,E Chig-Pink-Even,56.98528,-156.5806,Chignik,GOA,AK,1962,2008,24,560.2558333,765.3191667,"Charles Russell, Alaska Department of Fish and Game (ADFG), Kodiak, AK; Owen, D. and D. Sarafin. 1999. Chignik Management Area Annual Finfish Management Report, 1996. Technical report, Regional Information Report No. 4K99-33, Alaska Department of Fish and Game ",NA,,NA
+202,202,Pink-Odd,E Chig-Pink-Odd,56.98528,-156.5806,Chignik,GOA,AK,1963,2009,24,437.64375,504.9382083,"Charles Russell, Alaska Department of Fish and Game (ADFG), Kodiak, AK; Owen, D. and D. Sarafin. 1999. Chignik Management Area Annual Finfish Management Report, 1996. Technical report, Regional Information Report No. 4K99-33, Alaska Department of Fish and Game ",NA,,NA
+203,203,Pink-Even,W Chig-Pink-Even,56.06667,-158.6756,Chignik,GOA,AK,1962,2008,24,130.4125417,409.55,"Charles Russell, Alaska Department of Fish and Game (ADFG), Kodiak, AK; Owen, D. and D. Sarafin. 1999. Chignik Management Area Annual Finfish Management Report, 1996. Technical report, Regional Information Report No. 4K99-33, Alaska Department of Fish and Game ",NA,,NA
+204,204,Pink-Odd,W Chig-Pink-Odd,56.06667,-158.6756,Chignik,GOA,AK,1963,2009,24,186.1895833,549.2009167,"Charles Russell, Alaska Department of Fish and Game (ADFG), Kodiak, AK; Owen, D. and D. Sarafin. 1999. Chignik Management Area Annual Finfish Management Report, 1996. Technical report, Regional Information Report No. 4K99-33, Alaska Department of Fish and Game ",NA,,NA
+205,205,Pink-Even,Perryville-Pink-Even,55.85417,-159.3314,Chignik,GOA,AK,1962,2008,24,124.85375,238.61925,"Charles Russell, Alaska Department of Fish and Game (ADFG), Kodiak, AK; Owen, D. and D. Sarafin. 1999. Chignik Management Area Annual Finfish Management Report, 1996. Technical report, Regional Information Report No. 4K99-33, Alaska Department of Fish and Game ",NA,,NA
+206,206,Pink-Odd,Perryville-Pink-Odd,55.85417,-159.3314,Chignik,GOA,AK,1963,2009,24,179.13125,394.26425,"Charles Russell, Alaska Department of Fish and Game (ADFG), Kodiak, AK; Owen, D. and D. Sarafin. 1999. Chignik Management Area Annual Finfish Management Report, 1996. Technical report, Regional Information Report No. 4K99-33, Alaska Department of Fish and Game ",NA,,NA
+207,207,Pink-Even,SE-SC AKPen-Pink-Even,55.5,-161,AK Peninsula,BS,AK,1962,2008,24,1638.669167,4402.551875,"Matt Foster, Alaska Department of Fish and Game (ADFG), Kodiak, AK",NA,Sum of Southeastern and Southcentral Districts,NA
+208,208,Pink-Odd,SE-SC AKPen-Pink-Odd,55.5,-161,AK Peninsula,BS,AK,1963,2009,24,1879.707833,5474.232833,"Matt Foster, Alaska Department of Fish and Game (ADFG), Kodiak, AK",NA,Sum of Southeastern and Southcentral Districts,NA
+209,209,Pink-Even,SW-Unimak-Pink-Even,54.5,-163.5,AK Peninsula,BS,AK,1962,2008,24,916.2539583,2268.711625,"Matt Foster, Alaska Department of Fish and Game (ADFG), Kodiak, AK",NA,Sum of Southwestern and Unimak Districts,NA
+210,210,Pink-Odd,SW-Unimak-Pink-Odd,54.5,-163.5,AK Peninsula,BS,AK,1963,2009,24,750.325,1829.513708,"Matt Foster, Alaska Department of Fish and Game (ADFG), Kodiak, AK",NA,Sum of Southwestern and Unimak Districts,NA
+211,211,Pink-Even,NW AKPen-Pink-Even,54.982,-163.37,AK Peninsula,BS,AK,1962,2008,23,50.74847826,90.74113043,"Matt Foster, Alaska Department of Fish and Game (ADFG), Kodiak, AK",NA,,NA
+212,212,Pink-Odd,NW AKPen-Pink-Odd,54.982,-163.37,AK Peninsula,BS,AK,1963,2009,24,7.5995,30.87870833,"Matt Foster, Alaska Department of Fish and Game (ADFG), Kodiak, AK",NA,,NA
+213,213,Pink-Even,Nushagak-Pink-Even,58.62222,-158.5911,Bristol Bay,BS,AK,1958,2002,23,1313.183391,2042.295304,"Lowell Fair, Alaska Department of Fish and Game (ADFG), Anchorage, AK",NA,,NA
+214,214,Pink-Even,Unalakleet-Pink-Even,63.86944,-160.7878,AYK,BS,AK,1970,2002,13,114.8156154,253.9194615,"Jenefer Bell, Alaska Department of Fish and Game (ADFG), Nome, AK; Menard, J., J. Soong, and S. Kent. 2011. 2009 Annual Management Report Norton Sound, Port Clarence, and Kotzebue. Technical report, Fishery Management Report No. 11-46, Alaska Department of Fish and Game",NA,,NA
+215,215,Pink-Odd,Unalakleet-Pink-Odd,63.86944,-160.7878,AYK,BS,AK,1973,2009,15,57.96573333,80.05653333,"Jenefer Bell, Alaska Department of Fish and Game (ADFG), Nome, AK; Menard, J., J. Soong, and S. Kent. 2011. 2009 Annual Management Report Norton Sound, Port Clarence, and Kotzebue. Technical report, Fishery Management Report No. 11-46, Alaska Department of Fish and Game",NA,,NA
+216,216,Pink-Even,Nome-Pink-Even,64.4828,-165.305,AYK,BS,AK,1972,2008,19,478.8536842,504.4855789,"Jenefer Bell, Alaska Department of Fish and Game (ADFG), Nome, AK; Menard, J., J. Soong, and S. Kent. 2011. 2009 Annual Management Report Norton Sound, Port Clarence, and Kotzebue. Technical report, Fishery Management Report No. 11-46, Alaska Department of Fish and Game",NA,,NA
+217,217,Pink-Odd,Nome-Pink-Odd,64.4828,-165.305,AYK,BS,AK,1971,2009,20,155.71515,164.39975,"Jenefer Bell, Alaska Department of Fish and Game (ADFG), Nome, AK; Menard, J., J. Soong, and S. Kent. 2011. 2009 Annual Management Report Norton Sound, Port Clarence, and Kotzebue. Technical report, Fishery Management Report No. 11-46, Alaska Department of Fish and Game",NA,,NA
+218,218,Pink-Even,Moses-Norton-Pink-Even,64.64,-161.55,AYK,BS,AK,1964,2008,23,490.8851739,518.7969565,"Jenefer Bell, Alaska Department of Fish and Game (ADFG), Nome, AK; Menard, J., J. Soong, and S. Kent. 2011. 2009 Annual Management Report Norton Sound, Port Clarence, and Kotzebue. Technical report, Fishery Management Report No. 11-46, Alaska Department of Fish and Game",NA,Sum of Moses Point and Norton Bay Subdistricts,NA
+219,219,Pink-Odd,Moses-Norton-Pink-Odd,64.64,-161.55,AYK,BS,AK,1963,2009,24,126.1810833,136.08425,"Jenefer Bell, Alaska Department of Fish and Game (ADFG), Nome, AK; Menard, J., J. Soong, and S. Kent. 2011. 2009 Annual Management Report Norton Sound, Port Clarence, and Kotzebue. Technical report, Fishery Management Report No. 11-46, Alaska Department of Fish and Game",NA,Sum of Moses Point and Norton Bay Subdistricts,NA
+220,220,Pink-Even,Middle-Upper Skeena-Pink-Even,54.09,-130.21,North Coast,WC,BC,1954,2014,31,451.894,921.0323226,"Salmon Watersheds Program, PSF, 2024",NA,,NA
+221,221,Pink-Odd,Middle-Upper Skeena-Pink-Odd,54.09,-130.21,North Coast,WC,BC,1955,2015,31,1086.982806,2250.170161,"Salmon Watersheds Program, PSF, 2024",NA,,NA
+222,222,Pink-Even,Nass-Skeena Estuary-Pink-Even,54.09,-130.21,North Coast,WC,BC,1954,2014,31,1527.905,2577.429677,"Salmon Watersheds Program, PSF, 2024",NA,,NA
+223,223,Pink-Odd,Nass-Skeena Estuary-Pink-Odd,54.09,-130.21,North Coast,WC,BC,1955,2015,31,223.0285806,412.3847742,"Salmon Watersheds Program, PSF, 2024",NA,,NA
+224,224,Pink-Odd,Lower Skeena River-Pink-Odd,54.09,-130.21,North Coast,WC,BC,1955,2015,31,1454.518419,3056.163323,"Salmon Watersheds Program, PSF, 2024",NA,,NA
+225,225,Pink-Odd,Nass-Portland-Observatory-Pink-Odd,54.82,-130.25,North Coast,WC,BC,1955,2015,31,611.5062258,1229.424839,"Salmon Watersheds Program, PSF, 2024",NA,,NA
+226,226,Pink-Even,Hecate Lowlands-Pink-Even,52.45,-129.1,Central Coast,WC,BC,1954,2018,33,828.7760303,1687.273879,"Salmon Watersheds Program, PSF, 2024",NA,,NA
+227,227,Pink-Even,Hecate Strait-Fjords-Pink-Even,52.45,-129.1,Central Coast,WC,BC,1954,2018,33,3707.86803,7902.336242,"Salmon Watersheds Program, PSF, 2024",NA,,NA
+228,228,Pink-Odd,Hecate Strait-Fjords-Pink-Odd,52.45,-129.1,Central Coast,WC,BC,1955,2019,33,1549.372697,2325.309,"Salmon Watersheds Program, PSF, 2024",NA,,NA
+229,229,Pink-Odd,Homathko-Klinaklini-Smith-Rivers-Bella Coola-Dean-Pink-Odd,51.44111597,-127.78,Central Coast,WC,BC,1955,2019,31,1409.223871,1757.816871,"Salmon Watersheds Program, PSF, 2024",NA,,NA
+230,230,Pink-Odd,Hecate Strait-Lowlands-Pink-Odd,52.45,-129.1,Central Coast,WC,BC,1955,2019,33,692.6554545,1053.928242,"Salmon Watersheds Program, PSF, 2024",NA,,NA
+231,231,Pink-Even,Georgia Strait-Pink-Even,49.80573928,-124.0410067,South Coast,WC,BC,1954,2014,31,237.5483871,307.0716129,"Salmon Watersheds Program, PSF, 2024",NA,,NA
+232,232,Pink-Odd,Georgia Strait-Pink-Odd,49.80573928,-124.0410067,South Coast,WC,BC,1957,2013,29,457.2301034,798.8213448,"Salmon Watersheds Program, PSF, 2024",NA,,NA
+233,233,Pink-Even,Southern Fjords-Pink-Even,50.88,-126.61,South Coast,WC,BC,1954,2014,31,1410.235355,2247.585355,"Salmon Watersheds Program, PSF, 2024",NA,,NA
+234,234,Pink-Odd,Southern Fjords-Pink-Odd,50.88,-126.61,South Coast,WC,BC,1957,2013,29,478.207931,754.6658276,"Salmon Watersheds Program, PSF, 2024",NA,,NA
+235,235,Pink-Odd,East Howe Sound-Burrard Inlet-Pink-Odd,49.33,-123.29,South Coast,WC,BC,1957,2013,29,126.5752069,249.4998621,"Salmon Watersheds Program, PSF, 2024",NA,,NA
+236,236,Pink-Odd,East Vancouver Island-Johnstone Strait-Pink-Odd,50.568,-126.813,South Coast,WC,BC,1957,2013,29,105.0728966,163.5817586,"Salmon Watersheds Program, PSF, 2024",NA,,NA
+237,237,Pink-Odd,Nahwitti-Pink-Odd,50.43,-128,Central Coast,WC,BC,1957,2013,29,25.96193103,33.46644828,"Salmon Watersheds Program, PSF, 2024",NA,,NA
+238,238,Pink-Even,North Haida Gwaii-Pink-Even,54.09,-132.14,Haida Gwaii,WC,BC,1954,2018,30,1024.534967,1301.5296,"Salmon Watersheds Program, PSF, 2024",NA,,NA
+239,239,Pink-Even,East Haida Gwaii-Pink-Even,52.66,-131.29,Haida Gwaii,WC,BC,1954,2012,30,765.5295333,1030.1187,"Salmon Watersheds Program, PSF, 2024",NA,,NA
+240,240,Pink-Odd,East Haida Gwaii-Pink-Odd,52.66,-131.29,Haida Gwaii,WC,BC,1955,2011,29,68.0467931,76.92186207,"Salmon Watersheds Program, PSF, 2024",NA,,NA
+241,241,Pink-Even,West Haida Gwaii-Pink-Even,52.6,-132.09,Haida Gwaii,WC,BC,1954,2012,30,287.2254333,408.9235667,"Salmon Watersheds Program, PSF, 2024",NA,,NA
+242,242,Chinook,Ayakulik-Chinook,57.1978276,-154.53849,Kodiak,GOA,AK,1977,2009,33,10.21293939,12.20621212,"Fishery Manuscript Series No. 16-09: Review of Salmon Escapement Goals in the Kodiak
+Management Area, 2016 ",http://www.adfg.alaska.gov/static/regulations/regprocess/fisheriesboard/pdfs/2016-2017/kodiak/FMS16-09.pdf,NA,NA
+243,243,Chinook,Karluk-Chinook,57.563,-154.3843,Kodiak,GOA,AK,1976,2009,34,7.709588235,8.566352941,"Fishery Manuscript Series No. 16-09: Review of Salmon Escapement Goals in the Kodiak
+Management Area, 2016 ",http://www.adfg.alaska.gov/static/regulations/regprocess/fisheriesboard/pdfs/2016-2017/kodiak/FMS16-09.pdf,NA,NA
+244,244,Chinook,Chignik-Chinook,56.2615981,-158.71224,Chignik,GOA,AK,1980,2008,29,3.376275862,5.373575862,"Fishery Manuscript Series No. 15-02: Review of Salmon Escapement Goals in the Chignik
+Management Area, 2015 ",http://www.adfg.alaska.gov/FedAidPDFs/FMS15-02.pdf,NA,NA
+245,245,Chinook,Nelson-Chinook,55.810523,-161.25646,AK Peninsula,GOA,AK,1981,1996,16,4.4945625,6.89925,"Fishery Manuscript No. 06-03: Review of Salmon Escapement Goals in the Alaska
+Peninsula and Aleutian Islands Management Areas
+Report to the Alaska Board of Fisheries, 2004",http://www.sf.adfg.state.ak.us/FedAidPDFs/fms06-03.pdf,NA,NA
+246,246,Chinook,Goodnews-Chinook,59.15992,-160.6119,AYK,BS,AK,1981,2001,21,3.154190476,4.761095238,"Fishery Data Series No. 10-08: Goodnews River Salmon Monitoring and Assessment,
+2008 ",http://www.adfg.alaska.gov/FedAidPDFs/FDS10-08.pdf,NA,NA
+247,247,Chinook,Andrew Creek-Chinook,56.63997,-132.2,SEAK,GOA,AK,1979,2004,14,1.06,1.306928571,"Special Publication No. 05-22: Stock Status and Escapement Goals for Salmon in
+Southeast Alaska 2005: Chapter 1: Chinook Salmon Status and
+Escapement Goals for Stocks in Southeast
+Alaska",http://www.sf.adfg.state.ak.us/FedAidPDFs/sp05-22Chapter1.pdf,NA,NA
+248,248,Chinook,Chickamin-Chinook,55.8174772,-130.93326,SEAK,GOA,AK,1985,2004,20,3.30675,3.89775,"Special Publication No. 05-22: Stock Status and Escapement Goals for Salmon in
+Southeast Alaska 2005: Chapter 1: Chinook Salmon Status and
+Escapement Goals for Stocks in Southeast
+Alaska",http://www.sf.adfg.state.ak.us/FedAidPDFs/sp05-22Chapter1.pdf,NA,NA
+249,249,Chinook,King Salmon River-Chinook,58.0420026,-134.34145,SEAK,GOA,AK,1982,2004,17,0.198411765,0.228941176,"Special Publication No. 05-22: Stock Status and Escapement Goals for Salmon in
+Southeast Alaska 2005: Chapter 1: Chinook Salmon Status and
+Escapement Goals for Stocks in Southeast
+Alaska",http://www.sf.adfg.state.ak.us/FedAidPDFs/sp05-22Chapter1.pdf,NA,NA
+250,250,Chinook,Stikine-Chinook,56.6917175,-132.21863,SEAK,GOA,AK,1977,1997,21,24.78857143,36.57066667,"Special Publication No. 05-22: Stock Status and Escapement Goals for Salmon in
+Southeast Alaska 2005: Chapter 1: Chinook Salmon Status and
+Escapement Goals for Stocks in Southeast
+Alaska",http://www.sf.adfg.state.ak.us/FedAidPDFs/sp05-22Chapter1.pdf,NA,NA
+251,251,Chinook,Unuk-Chinook,56.0768125,-131.077,SEAK,GOA,AK,1982,2004,21,5.887095238,7.288714286,"Special Publication No. 05-22: Stock Status and Escapement Goals for Salmon in
+Southeast Alaska 2005: Chapter 1: Chinook Salmon Status and
+Escapement Goals for Stocks in Southeast
+Alaska",http://www.sf.adfg.state.ak.us/FedAidPDFs/sp05-22Chapter1.pdf,NA,NA
+252,252,Chinook,Alsek-Klukshu-Chinook,59.1165,-138.6152,SEAK,GOA,AK,1976,1990,15,2.1266,2.910333333,"Special Publication No. 05-22: Stock Status and Escapement Goals for Salmon in
+Southeast Alaska 2005: Chapter 1: Chinook Salmon Status and
+Escapement Goals for Stocks in Southeast
+Alaska",http://www.sf.adfg.state.ak.us/FedAidPDFs/sp05-22Chapter1.pdf,NA,NA
+253,253,Chinook,Situk-Chinook,59.4579521,-139.57143,SEAK,GOA,AK,1977,1998,22,1.314636364,3.8955,"Special Publication No. 05-22: Stock Status and Escapement Goals for Salmon in
+Southeast Alaska 2005: Chapter 1: Chinook Salmon Status and
+Escapement Goals for Stocks in Southeast
+Alaska",http://www.sf.adfg.state.ak.us/FedAidPDFs/sp05-22Chapter1.pdf,NA,NA
+254,254,Chinook,Kuskokwim-Chinook,60.0407,-162.4261,AYK,BS,AK,1985,2003,18,136.714,275.3978889,"Fishery Data Series No. 12-49: Estimates of the Historic Run and Escapement for the
+Chinook Salmon Stock Returning to the Kuskokwim
+River, 1976Ð2011",http://www.aykssi.org/wp-content/uploads/BUE-et-Al-2012-Kusko-Escapement-Goal-FDS12-49.pdf,NA,NA
+255,255,Chinook,Nushagak-Chinook,58.9061423,-157.73358,Bristol Bay,GOA,AK,1966,2005,40,168.6606,241.9116,"Fishery Manuscript Series No. 12-05: Stock Assessment of Chinook, Sockeye, and Chum
+Salmon in the Nushagak River",http://www.adfg.alaska.gov/FedAidPDFs/FMS12-05.pdf,NA,NA
+256,256,Chinook,Kenai (late)-Chinook,60.5096525,-151.10697,Cook Inlet,GOA,AK,1986,2000,15,30.53426667,57.06833333,"Fishery Data Series No. 10-96: Stock Assessment of Late-run Chinook Salmon in the
+Kenai River, 1999Ð2006 ",http://www.adfg.alaska.gov/FedAidPDFs/fds10-96.pdf,NA,NA
+257,257,Chinook,Cowichan-Chinook,48.7581,-123.6242,BC South,WC,BC,1989,2016,28,6.228357143,7.063464286,"Karalea Cantera, DFO, 2022",NA,NA,NA
+258,258,Chinook,Harrison-Chinook,49.12,-123.06,Fraser River,WC,BC,1984,2016,33,98.6430303,180.9855152,"Chucken Parken, DFO, 2022",NA,NA,NA
+259,259,Chinook,Lower Shuswap-Chinook,49.12,-123.06,Fraser River,WC,BC,1997,2016,20,31.13045,53.49335,"Chucken Parken, DFO, 2022",NA,NA,NA
+260,260,Chinook,Nicola-Chinook,49.12,-123.06,Fraser River,WC,BC,1992,2013,22,6.973454545,6.112136364,"Luke Warkentin, DFO, 2022",NA,NA,NA
+261,261,Chinook,Middle Skeena-Chinook,54.2237,-129.831,Skeena River,WC,BC,1984,2013,30,10.00103333,20.00083333,"Ivan Winther, DFO, 2024",https://waves-vagues.dfo-mpo.gc.ca/library-bibliotheque/41241046.pdf,NA,data
+262,262,Chinook,Upper Skeena-Chinook,54.2237,-129.831,Skeena River,WC,BC,1984,2013,30,5.627666667,11.67396667,"Ivan Winther, DFO, 2024",https://waves-vagues.dfo-mpo.gc.ca/library-bibliotheque/41241046.pdf,NA,data
+263,263,Chinook,Large Lake-Chinook,54.2237,-129.831,Skeena River,WC,BC,1984,2013,30,24.6129,50.91503333,"Ivan Winther, DFO, 2024",https://waves-vagues.dfo-mpo.gc.ca/library-bibliotheque/41241046.pdf,NA,data
+264,264,Chinook,Lower Skeena-Chinook,54.2237,-129.831,Skeena River,WC,BC,1984,2013,30,3.436866667,5.743,"Ivan Winther, DFO, 2024",https://waves-vagues.dfo-mpo.gc.ca/library-bibliotheque/41241046.pdf,NA,data
+265,265,Chinook,Zymoetz Fiddler-Chinook,54.2237,-129.831,Skeena River,WC,BC,1984,2013,30,2.708633333,4.563766667,"Ivan Winther, DFO, 2024",https://waves-vagues.dfo-mpo.gc.ca/library-bibliotheque/41241046.pdf,NA,data
+266,266,Chinook,Kitsumkalum-Chinook,54.2237,-129.831,Skeena River,WC,BC,1984,2013,30,10.82496667,15.97276667,"Ivan Winther, DFO, 2024",https://waves-vagues.dfo-mpo.gc.ca/library-bibliotheque/41241046.pdf,NA,data
+267,267,Chinook,Portland Sound-Observatory Inlet-Lower Nass-Chinook,54.82,-130.25,Nass,WC,BC,1986,2011,26,1.976961538,2.741846154,"Salmon Watersheds Program, PSF, 2024",NA,NA,NA
+268,268,Chinook,Upper Nass-Chinook,54.82,130.25,Nass,WC,BC,1986,2011,26,19.63342308,29.47703846,"Salmon Watersheds Program, PSF, 2024",NA,NA,NA
+269,269,Chinook,Rivers Inlet-Chinook,51.68,-127.304,Central Coast,WC,BC,1980,2011,32,1.98925,2.67746875,"Salmon Watersheds Program, PSF, 2024",NA,NA,NA
+270,270,Chinook,Bella Coola-Bentinck-Chinook,52.31,-126.99,Central Coast,WC,BC,1985,2011,27,19.92496296,32.4712963,"Salmon Watersheds Program, PSF, 2024",NA,NA,NA
+271,271,Chinook,Dean River-Chinook,52.78,-126.977,Central Coast,WC,BC,1985,2011,27,2.210703704,3.358814815,"Salmon Watersheds Program, PSF, 2024",NA,NA,NA
+272,272,Chinook,North & Central Coast-Early-Chinook,53.34,-129.19,Central Coast,WC,BC,1985,2011,27,0.880333333,1.339222222,"Salmon Watersheds Program, PSF, 2024",NA,NA,NA
+273,273,Chinook,Cedar-Chinook,47.5039,-122.2169,Inside WA,WC,WA,1967,2014,48,0.882229167,2.077354167,"NWFSC SPS Database, v2022",https://www.webapps.nwfsc.noaa.gov/apex/f?p=261:1::::::,data,NA
+274,274,Chinook,Dungeness-Chinook,48.159,-123.135,Inside WA,WC,WA,1988,2013,26,0.350923077,0.266961538,"NWFSC SPS Database, v2022",https://www.webapps.nwfsc.noaa.gov/apex/f?p=261:1::::::,data,NA
+275,275,Chinook,Elwha-Chinook,48.17,-123.59,Inside WA,WC,WA,1988,2009,22,1.168363636,0.894,"NWFSC SPS Database, v2022",https://www.webapps.nwfsc.noaa.gov/apex/f?p=261:1::::::,data,NA
+276,276,Chinook,Green River-Chinook,47.5925,-122.36,Inside WA,WC,WA,1970,2014,45,5.499266667,11.22706667,"NWFSC SPS Database, v2022",https://www.webapps.nwfsc.noaa.gov/apex/f?p=261:1::::::,data,NA
+277,277,Chinook,Lower Sauk (Skagit)-Chinook,48.3677,-122.5141,Inside WA,WC,WA,1954,2013,60,0.920166667,5.0733,"NWFSC SPS Database, v2022",https://www.webapps.nwfsc.noaa.gov/apex/f?p=261:1::::::,data,NA
+278,278,Chinook,Lower Skagit-Chinook,48.3677,-122.5141,Inside WA,WC,WA,1954,2013,60,2.931166667,10.25741667,"NWFSC SPS Database, v2022",https://www.webapps.nwfsc.noaa.gov/apex/f?p=261:1::::::,data,NA
+279,279,Chinook,Nisqually-Chinook,47.0996,-122.7029,Inside WA,WC,WA,1970,2013,40,1.235375,4.7115,"NWFSC SPS Database, v2022",https://www.webapps.nwfsc.noaa.gov/apex/f?p=261:1::::::,data,NA
+280,280,Chinook,North Fork Nooksack-Chinook,48.766,-123.58,Inside WA,WC,WA,1986,2013,28,1.052678571,0.407428571,"NWFSC SPS Database, v2022",https://www.webapps.nwfsc.noaa.gov/apex/f?p=261:1::::::,data,NA
+281,281,Chinook,North Fork Stillaguamish-Chinook,48.2465,-122.3957,Inside WA,WC,WA,1976,2014,37,1.142162162,2.002648649,"NWFSC SPS Database, v2022",https://www.webapps.nwfsc.noaa.gov/apex/f?p=261:1::::::,data,NA
+282,282,Chinook,Puyallup-Chinook,47.2472,-122.4289,Inside WA,WC,WA,1970,2014,45,1.828933333,5.061933333,"NWFSC SPS Database, v2022",https://www.webapps.nwfsc.noaa.gov/apex/f?p=261:1::::::,data,NA
+283,283,Chinook,Sammamish-Chinook,47.751,-122.266,Inside WA,WC,WA,1985,2014,30,0.967,0.631033333,"NWFSC SPS Database, v2022",https://www.webapps.nwfsc.noaa.gov/apex/f?p=261:1::::::,data,NA
+284,284,Chinook,Skokomish-Chinook,47.3436,-123.1212,Inside WA,WC,WA,1970,2013,43,1.495906977,3.484093023,"NWFSC SPS Database, v2022",https://www.webapps.nwfsc.noaa.gov/apex/f?p=261:1::::::,data,NA
+285,285,Chinook,Snoqualmie (Snohomish)-Chinook,48.0206,-122.2122,Inside WA,WC,WA,1967,2014,48,1.302729167,2.0315625,"NWFSC SPS Database, v2022",https://www.webapps.nwfsc.noaa.gov/apex/f?p=261:1::::::,data,NA
+286,286,Chinook,South Fork Nooksack-Chinook,48.766,-123.58,Inside WA,WC,WA,1999,2013,15,0.0672,0.082866667,"NWFSC SPS Database, v2022",https://www.webapps.nwfsc.noaa.gov/apex/f?p=261:1::::::,data,NA
+287,287,Chinook,South Fork Stillaguamish-Chinook,48.2465,-122.3957,Inside WA,WC,WA,1976,2014,37,0.219162162,0.412918919,"NWFSC SPS Database, v2022",https://www.webapps.nwfsc.noaa.gov/apex/f?p=261:1::::::,data,NA
+288,288,Chinook,Suiattle (Skagit)-Chinook,48.3677,-122.5141,Inside WA,WC,WA,1978,2013,36,0.44375,1.357472222,"NWFSC SPS Database, v2022",https://www.webapps.nwfsc.noaa.gov/apex/f?p=261:1::::::,data,NA
+289,289,Chinook,Upper Cascade (Skagit)-Chinook,48.3677,-122.5141,Inside WA,WC,WA,1986,2013,28,0.292821429,0.419607143,"NWFSC SPS Database, v2022",https://www.webapps.nwfsc.noaa.gov/apex/f?p=261:1::::::,data,NA
+290,290,Chinook,Upper Sauk (Skagit)-Chinook,48.3677,-122.5141,Inside WA,WC,WA,1954,2013,60,0.7892,3.4957,"NWFSC SPS Database, v2022",https://www.webapps.nwfsc.noaa.gov/apex/f?p=261:1::::::,data,NA
+291,291,Chinook,Upper Skagit-Chinook,48.3677,-122.5141,Inside WA,WC,WA,1954,2013,60,8.297833333,32.21271667,"NWFSC SPS Database, v2022",https://www.webapps.nwfsc.noaa.gov/apex/f?p=261:1::::::,data,NA
+292,292,Chinook,White River-Chinook,47.305,-122.471,Inside WA,WC,WA,1967,2014,48,0.915333333,0.7293125,"NWFSC SPS Database, v2022",https://www.webapps.nwfsc.noaa.gov/apex/f?p=261:1::::::,data,NA
+293,293,Coho,Buskin River-Coho,57.75812,-152.4784,Kodiak,GOA,AK,1989,2010,22,9.267454545,13.94013636,"Fishery Manuscript Series No. 16-09: Review of Salmon Escapement Goals in the Kodiak Management Area, 2016",http://www.adfg.alaska.gov/FedAidPDFs/FMS16-09.pdf,NA,NA
+294,294,Coho,Berners River-Coho,58.8464,-134.97,SEAK,GOA,AK,1982,2010,27,12.27755556,26.58611111,Leon Shaul; RIR.1J.1994.26,unpublished; http://www.sf.adfg.state.ak.us/fedaidpdfs/rir.1j.1994.26.pdf,NA,NA
+295,295,Coho,Akwe River-Coho,59.2929349,-139.09307,SEAK,GOA,AK,1972,1986,15,4.92,20.40333333,Escapement Goals for Yakutat Area Coho Salmon Stocks,http://www.sf.adfg.state.ak.us/FedAidPDFs/RIR.1J.1994.14.pdf,NA,NA
+296,296,Coho,East Alsek River-Coho,59.10379,-138.5086,SEAK,GOA,AK,1972,1988,17,3.641176471,15.68611765,Escapement Goals for Yakutat Area Coho Salmon Stocks,http://www.sf.adfg.state.ak.us/FedAidPDFs/RIR.1J.1994.14.pdf,NA,NA
+297,297,Coho,Italio River-Coho,59.3129858,-139.15364,SEAK,GOA,AK,1972,1988,16,3.4625,12.7323125,Escapement Goals for Yakutat Area Coho Salmon Stocks,http://www.sf.adfg.state.ak.us/FedAidPDFs/RIR.1J.1994.14.pdf,NA,NA
+298,298,Coho,Kaliakh River-Coho,60.0873,-142.9378,SEAK,GOA,AK,1973,1988,12,9.6,23.7935,Escapement Goals for Yakutat Area Coho Salmon Stocks,http://www.sf.adfg.state.ak.us/FedAidPDFs/RIR.1J.1994.14.pdf,NA,NA
+299,299,Coho,Lost River-Coho,59.45382,-139.6239,SEAK,GOA,AK,1972,1988,17,4.710176471,18.12188235,Escapement Goals for Yakutat Area Coho Salmon Stocks,http://www.sf.adfg.state.ak.us/FedAidPDFs/RIR.1J.1994.14.pdf,NA,NA
+300,300,Coho,Situk River-Coho,59.44609,-139.5678,SEAK,GOA,AK,1972,1988,17,5.948294118,64.06352941,Escapement Goals for Yakutat Area Coho Salmon Stocks,http://www.sf.adfg.state.ak.us/FedAidPDFs/RIR.1J.1994.14.pdf,NA,NA
+301,301,Coho,Tsiu River-Coho,60.0777512,-143.09116,SEAK,GOA,AK,1973,1988,16,24.2875,76.898875,Escapement Goals for Yakutat Area Coho Salmon Stocks,http://www.sf.adfg.state.ak.us/FedAidPDFs/RIR.1J.1994.14.pdf,NA,NA
+302,302,Coho,Middle_Fraser-Coho,49.12,-123.06,Fraser River,WC,BC,1998,2016,19,13600,13251,"Michael Arbeider, DFO, 2022",NA,NA,NA
+303,303,Coho,Fraser_Canyon-Coho,49.12,-123.06,Fraser River,WC,BC,1998,2016,19,5971,6684,"Michael Arbeider, DFO, 2022",NA,NA,NA
+304,304,Coho,Lower_Thompson-Coho,49.12,-123.06,Fraser River,WC,BC,1998,2016,19,16053,15582,"Michael Arbeider, DFO, 2022",NA,NA,NA
+305,305,Coho,North_Thompson-Coho,49.12,-123.06,Fraser River,WC,BC,1998,2016,19,27238,26750,"Michael Arbeider, DFO, 2022",NA,NA,NA
+306,306,Coho,South_Thompson-Coho,49.12,-123.06,Fraser River,WC,BC,1998,2016,19,15850,17619,"Michael Arbeider, DFO, 2022",NA,NA,NA
+307,307,Coho,Lower Skeena-Coho,54.09,-130.21,Skeena,WC,BC,1954,2013,57,153.0858772,314.3914912,"Salmon Watersheds Program, PSF, 2024",NA,NA,NA
+308,308,Coho,Middle Skeena-Coho,54.09,130.21,Skeena,WC,BC,1954,2013,60,104.7780833,203.7016,"Salmon Watersheds Program, PSF, 2024",NA,NA,NA
+309,309,Coho,Upper Skeena-Coho,54.09,130.21,Skeena,WC,BC,1958,2013,21,10.98961905,19.3097619,"Salmon Watersheds Program, PSF, 2024",NA,NA,NA
+310,310,Coho,Lower Nass-Coho,54.82,-130.25,Nass,WC,BC,1959,2013,54,66.20398148,163.6464815,"Salmon Watersheds Program, PSF, 2024",NA,NA,NA
+311,311,Coho,Upper Nass-Coho,54.82,-130.25,Nass,WC,BC,1970,2013,43,10.39569767,26.62588372,"Salmon Watersheds Program, PSF, 2024",NA,NA,NA
+312,312,Coho,Portland Sound-Observatory Inlet-Portland Canal-Coho,54.82,-130.25,Nass,WC,BC,1954,2010,37,48.20827027,132.1960811,"Salmon Watersheds Program, PSF, 2024",NA,NA,NA
+313,313,Coho,Mussel-Kynoch-Coho,52.61,-128.52,Central Coast,WC,BC,1954,2010,57,7.153684211,10.20110526,"Salmon Watersheds Program, PSF, 2024",NA,NA,NA
+314,314,Coho,Hecate Strait Mainland-Coho,52.49,-129.2,Central Coast,WC,BC,1954,2013,60,168.5707,222.5567333,"Salmon Watersheds Program, PSF, 2024",NA,NA,NA
+315,315,Coho,Northern Coastal Streams-Coho,53.2,-129.44,Central Coast,WC,BC,1954,2013,60,117.29975,170.2652,"Salmon Watersheds Program, PSF, 2024",NA,NA,NA
+316,316,Coho,East Haida Gwaii-Coho,53.26,-131.62,Haida Gwaii,WC,BC,1954,2013,60,84.17653333,109.38655,"Salmon Watersheds Program, PSF, 2024",NA,NA,NA
+317,317,Coho,West Haida Gwaii-Coho,53.12,-132.82,Haida Gwaii,WC,BC,1964,2005,34,29.62538235,33.31197059,"Salmon Watersheds Program, PSF, 2024",NA,NA,NA
+318,318,Coho,Haida Gwaii-Graham Island Lowlands-Coho,54.09,-132.16,Haida Gwaii,WC,BC,1954,2012,46,141.3539565,180.4425652,"Salmon Watersheds Program, PSF, 2024",NA,NA,NA

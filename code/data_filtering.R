@@ -32,19 +32,19 @@ pse_all$spawners=ifelse(pse_all$spawners==0,NA,pse_all$spawners)
 
 
 #pacific salmon explorer
-pse=read.csv(here('data','raw data','multispecies','dataset5.csv'))
-dqpse=read.csv(here('data','raw data','multispecies','dataset390.csv'))
-dqpse2=tidyr::spread(dqpse,key=parameter,value=datavalue)
-hdq=subset(dqpse2,dq_score>8) #minimum total data quality score of 9 - can include 'unknown' DQ records
+pse=read.csv(here('data','raw data','multispecies','dataset5_recruits_per_spawner.csv'))
+dqpse=read.csv(here('data','raw data','multispecies','dataset390_data_quality.csv'))
+hdq=dqpse[dqpse$dq_score_recruits_per_spawner>1,]
 
-pse_chum=subset(hdq,species=='Chum')
-pse_chin=subset(hdq,species=='Chinook')
-pse_chin=subset(pse_chin,regionname!='Skeena') #have alternative skeena datasets for chinook
-pse_coho=subset(hdq,species=='Coho')
-pse_soc=subset(hdq,species=='Lake sockeye'|species=='River sockeye')
-pse_soc=subset(pse_soc,regionname %notin% c('Skeena','Fraser')) #have alternative skeena/fraser datasets for sockeye
+pse_chum=subset(hdq,species_name=='Chum')
+pse_chin=subset(hdq,species_name=='Chinook')
+pse_chin=subset(pse_chin,region!='Skeena') #have alternative skeena datasets for chinook
+pse_coho=subset(hdq,species_name=='Coho')
+pse_soc=subset(hdq,species_name=='Lake sockeye'|species_name=='River sockeye')
+pse_soc=subset(pse_soc,region %notin% c('Skeena','Fraser')) #have alternative skeena/nass/fraser datasets for sockeye
+pse_soc=subset(pse_soc,cu_name_pse %notin% c('Great Central','Sproat','Lower Nass-Portland (river-type)','Upper Nass River (river-type)','Meziadin')) #have updated series for Sproat/GC Lakes
 
-pse_pink=subset(hdq,species=='Pink (even)'|species=='Pink (odd)')
+pse_pink=subset(hdq,species_name=='Pink (even)'|species_name=='Pink (odd)')
 hdq2=rbind(pse_chum,pse_chin,pse_coho,pse_pink,pse_soc)
 
 pse=subset(pse,spawners>1&recruits>1)
@@ -52,7 +52,7 @@ pse_df=subset(pse,cuid %in% hdq2$cuid)
 pse_df$stock=paste(pse_df$species_name,pse_df$cu_name_pse)
 hdq2$stock=paste(hdq2$species,hdq2$location)
 
-pse_sum=pse_df%>%group_by(stock) %>% summarize(n=n()) %>%subset(n>14)
+pse_sum=pse_df%>%group_by(stock) %>% summarize(n=n(),b=min(year),e=max(year)) %>%subset(n>14)
 pse_df=pse_df[pse_df$stock%in%pse_sum$stock,] 
 hdq3=subset(hdq2,stock %in% pse_df$stock)
 
@@ -183,7 +183,7 @@ for(i in 1:length(unique(psc_fraser_sockeye$stock))){
   stock_dat_temp[,3]=paste(unique(s$stock),'Sockeye',sep='-')
   stock_dat_temp[,4]=sockeye_info$lat[2] #lat for mouth of Fraser
   stock_dat_temp[,5]=sockeye_info$lon[2] #lon for mouth of Fraser
-  stock_dat_temp[,6]='Fraser River' #Fraser River
+  stock_dat_temp[,6]='Fraser' #Fraser River
   stock_dat_temp[,7]='WC' #West Coast
   stock_dat_temp[,8]='BC' #British Columbia
   
@@ -214,7 +214,7 @@ for(i in 1:length(unique(skeena_sockeye$stock))){
   stock_dat_temp[,3]=paste(unique(s$stock),'Sockeye',sep='-')
   stock_dat_temp[,4]=54.22 #lat need to do these (one for Skeena estuary and one for Nass)
   stock_dat_temp[,5]=-129.831 #lon 
-  stock_dat_temp[,6]='Skeena River'
+  stock_dat_temp[,6]='Skeena'
   stock_dat_temp[,7]='WC'
   stock_dat_temp[,8]='BC'
   
@@ -243,9 +243,9 @@ for(i in 1:length(unique(nass_sockeye$stock))){
   
   stock_dat_temp[,2]='Sockeye'
   stock_dat_temp[,3]=paste(unique(s$stock),'Sockeye',sep='-')
-  stock_dat_temp[,4]= 54.9898 #lat - approx ocean entry from google maps
+  stock_dat_temp[,4]= 54.99 #lat - approx ocean entry from google maps
   stock_dat_temp[,5]=-130.02 #lon - approx ocean entry from google maps
-  stock_dat_temp[,6]='Nass River'
+  stock_dat_temp[,6]='Nass'
   stock_dat_temp[,7]='WC'
   stock_dat_temp[,8]='BC'
   
@@ -269,30 +269,34 @@ s_info_soc$region=gsub('Vancouver Island & Mainland Inlets','Vancouver Island',s
 
 #lat/lons for each stock
 s_info_soc$lat=NA;s_info_soc$lon=NA
-s_info_soc$lat[1]=t=51.68;s_info_soc$lon[1]=-127.306 #owikeno
-s_info_soc$lat[2]=t=53.08;s_info_soc$lon[2]=-128.555 #canoona
-s_info_soc$lat[3]=t=53.56;s_info_soc$lon[3]=-128.958 #evelyn
-s_info_soc$lat[4]=t=52.75;s_info_soc$lon[4]=-127.886 #kainet cr
-s_info_soc$lat[5]=t=52.246;s_info_soc$lon[5]=-127.892 #kitelope
-s_info_soc$lat[6]=t=52.87;s_info_soc$lon[6]=-128.69 #bloomfield
-s_info_soc$lat[7]=t=53.45;s_info_soc$lon[7]=-129.787 #devon l
-s_info_soc$lat[8]=t=53.42;s_info_soc$lon[8]=-129.247 #hartley b
-s_info_soc$lat[9]=t=52.16;s_info_soc$lon[9]=-128.046 #Kadjusdis R
-s_info_soc$lat[10]=t=53.31;s_info_soc$lon[10]=-129.825 #Keecha R
-s_info_soc$lat[11]=t=53.34;s_info_soc$lon[11]=-129.867 #Kooryet R
-s_info_soc$lat[12]=t=53.56;s_info_soc$lon[12]=-129.574 #Lower/Simpson/WEir
-s_info_soc$lat[13]=t=53.43;s_info_soc$lon[13]=-129.836 #Mikado cr
-s_info_soc$lat[14]=t=51.86;s_info_soc$lon[14]=-127.868 #Namu R.
-s_info_soc$lat[15]=t=52.12;s_info_soc$lon[15]=-127.852 #Port John
-s_info_soc$lat[16]=t=52.29;s_info_soc$lon[16]=-128.259 #Tankeeah Riv.
-s_info_soc$lat[17]=t=53.36;s_info_soc$lon[17]=-129.46 #Tsimtack/Moore/Roger
-s_info_soc$lat[18]=t=52.295;s_info_soc$lon[18]=-128.115 #Yeo L
-s_info_soc$lat[19]=t=50.576;s_info_soc$lon[19]=-126.96 #Nimpkish L
-s_info_soc$lat[20]=t=53.665;s_info_soc$lon[20]=-132.523 #Awun L
-s_info_soc$lat[21]=t=53.975;s_info_soc$lon[21]=-132.643 #Marian/Eden L
-s_info_soc$lat[22]=t=53.59;s_info_soc$lon[22]=-132.907 #Mercer L
-s_info_soc$lat[23]=t=53.167;s_info_soc$lon[23]=-131.789 #Skidgate L
-s_info_soc$lat[24]=t=53.682;s_info_soc$lon[24]=-132.235 #Yakoun L
+s_info_soc$lat[1]=t=54.99;s_info_soc$lon[1]=-130.02 #Damdochax
+s_info_soc$lat[2]=t=54.99;s_info_soc$lon[2]=-130.02 #Fred Wright
+s_info_soc$lat[3]=t=51.68;s_info_soc$lon[3]=-127.306 #owikeno
+s_info_soc$lat[4]=t=53.08;s_info_soc$lon[4]=-128.555 #canoona
+s_info_soc$lat[5]=t=53.56;s_info_soc$lon[5]=-128.958 #evelyn
+s_info_soc$lat[6]=t=52.75;s_info_soc$lon[6]=-127.886 #kainet cr
+s_info_soc$lat[7]=t=52.246;s_info_soc$lon[7]=-127.892 #kitelope
+s_info_soc$lat[8]=t=52.87;s_info_soc$lon[8]=-128.69 #bloomfield
+s_info_soc$lat[9]=t=53.45;s_info_soc$lon[9]=-129.787 #devon l
+s_info_soc$lat[10]=t=53.42;s_info_soc$lon[10]=-129.247 #hartley b
+s_info_soc$lat[11]=t=52.16;s_info_soc$lon[11]=-128.046 #Kadjusdis R
+s_info_soc$lat[12]=t=53.31;s_info_soc$lon[12]=-129.825 #Keecha R
+s_info_soc$lat[13]=t=51.77;s_info_soc$lon[13]=-127.885 #Koeye R
+s_info_soc$lat[14]=t=53.34;s_info_soc$lon[14]=-129.867 #Kooryet R
+s_info_soc$lat[15]=t=53.56;s_info_soc$lon[15]=-129.574 #Lower/Simpson/WEir
+s_info_soc$lat[16]=t=52.61;s_info_soc$lon[16]=-128.45 #Mary Cove cr
+s_info_soc$lat[17]=t=53.43;s_info_soc$lon[17]=-129.836 #Mikado cr
+s_info_soc$lat[18]=t=51.86;s_info_soc$lon[18]=-127.868 #Namu R.
+s_info_soc$lat[19]=t=52.12;s_info_soc$lon[19]=-127.852 #Port John
+s_info_soc$lat[20]=t=52.29;s_info_soc$lon[20]=-128.259 #Tankeeah Riv.
+s_info_soc$lat[21]=t=53.36;s_info_soc$lon[21]=-129.46 #Tsimtack/Moore/Roger
+s_info_soc$lat[22]=t=52.295;s_info_soc$lon[22]=-128.115 #Yeo L
+s_info_soc$lat[23]=t=50.576;s_info_soc$lon[23]=-126.96 #Nimpkish L
+s_info_soc$lat[24]=t=53.665;s_info_soc$lon[24]=-132.523 #Awun L
+s_info_soc$lat[25]=t=53.975;s_info_soc$lon[25]=-132.643 #Marian/Eden L
+s_info_soc$lat[26]=t=53.59;s_info_soc$lon[26]=-132.907 #Mercer L
+s_info_soc$lat[27]=t=53.167;s_info_soc$lon[27]=-131.789 #Skidgate L
+s_info_soc$lat[28]=t=53.682;s_info_soc$lon[28]=-132.235 #Yakoun L
 
 
 for(i in 1:nrow(s_info_soc)){
@@ -641,8 +645,8 @@ pse_chum2 <- pse_ncc %>%
 
 ##
 
-pse_chum[,14:19]=pse_chum2[match(paste(pse_chum$cu_name_pse,pse_chum$year),paste(pse_chum2$stock,pse_chum2$broodyear)),9:14]
-
+pse_chum[,15:20]=pse_chum2[match(paste(pse_chum$cu_name_pse,pse_chum$year),paste(pse_chum2$stock,pse_chum2$broodyear)),9:14]
+pse_chum$broodyear=pse_chum$year
 
 chum3<- dplyr::full_join(chum2,pse_chum)
 
@@ -726,7 +730,6 @@ length(unique(pink2$stock))
 #add in PSE pink data and generate a file for H. Hunter project
 pse_pk=subset(pse_df,species_name=='Pink (even)'|species_name=='Pink (odd)')
 pse_pk$stock=pse_pk$cu_name_pse
-pse_pk$region=gsub('Fraser','Fraser R',pse_pk$region)
 pse_pk$region=gsub('Vancouver Island & Mainland Inlets','Vancouver Island',pse_pk$region)
 pse_pk=subset(pse_pk,stock!='Fraser River (odd)') #have updated PSC data for this stock
 pse_pk$use=1
@@ -1033,9 +1036,13 @@ for(i in 1:length(unique(skeena_chin$stock))){
 #PSE chinook series
 pse_chin=subset(pse_df,species_name=='Chinook')
 pse_chin$stock=pse_chin$cu_name_pse
+unique(pse_chin$stock)
+pse_chin_i=distinct(pse_chin,stock,.keep_all = T)
 
-chin_pse_lat=c(51.68,52.31,52.78)
-chin_pse_lon=c(-127.304,-126.99,-126.977)
+pse_chin_i$lat=c(54.82,54.82,51.68,52.31,52.78,53.34)
+pse_chin_i$lon=c(-130.25
+,130.25
+,-127.304,-126.99,-126.977,-129.19)
 cl=length(chinook_list)
 for(i in 1:length(unique(pse_chin$stock))){
   s=subset(pse_chin,stock==unique(pse_chin$stock)[i])
@@ -1044,12 +1051,11 @@ for(i in 1:length(unique(pse_chin$stock))){
   
   stock_dat_temp=data.frame(stock.id=NA,species=NA,stock.name=NA,lat=NA,lon=NA,region=NA,ocean.basin=NA,state=NA,begin=NA,end=NA,n.years=NA,m.spawners=NA,m.recruits=NA,source=NA,url=NA,comments=NA,age=NA)
   
-  stock_dat_temp[,1]=NA
   stock_dat_temp[,2]='Chinook'
   stock_dat_temp[,3]=paste(unique(s$stock),'Chinook',sep="-")
-  stock_dat_temp[,4]=chin_pse_lat[i] #lat need to do these (one for Skeena estuary and one for Nass)
-  stock_dat_temp[,5]=chin_pse_lon[i] #lon 
-  stock_dat_temp[,6]='Central Coast'
+  stock_dat_temp[,4]=pse_chin_i$lat[i] #lat need to do these (one for Skeena estuary and one for Nass)
+  stock_dat_temp[,5]=pse_chin_i$lon[i] #lon 
+  stock_dat_temp[,6]=pse_chin_i$region[i]
   stock_dat_temp[,7]='WC'
   stock_dat_temp[,8]='BC'
   
@@ -1058,10 +1064,8 @@ for(i in 1:length(unique(pse_chin$stock))){
   stock_dat_temp[,11]=length(s$year)
   stock_dat_temp[,12]=mean(s$spawners)/1e3
   stock_dat_temp[,13]=mean(s$recruits)/1e3
-  stock_dat_temp[,14]='Salmon Watersheds Program, PSF, 2022'
-  stock_dat_temp[,15]=NA
-  stock_dat_temp[,17]=NA
-  
+  stock_dat_temp[,14]='Salmon Watersheds Program, PSF, 2024'
+
   stock_dat=rbind(stock_dat,stock_dat_temp)
   
   chinook_list[[cl+i]]=s[,c('stock','species','broodyear','recruits','spawners')]
@@ -1263,10 +1267,22 @@ for(i in 1:length(unique(ifr_coho$stock))){
 #PSE coho series
 pse_coho=subset(pse_df,species_name=='Coho')
 pse_coho$stock=pse_coho$cu_name_pse
+coho_pse_i=distinct(pse_coho,stock,.keep_all=T)
 
-coho_pse_lat=c(54.22,54.22,52.33,52.473,53.31)
-coho_pse_lon=c(-129.831,-129.831,-127.185,-128.378,-129.13)
-coho_reg=c('North Coast','North Coast','Central Coast','Central COast','Central COast')
+coho_pse_i$lat=c(54.09,54.09,54.09,54.82,54.82
+,54.82,52.61
+,52.49,53.2,53.26
+,53.12
+,54.09)
+coho_pse_i$lon=c(-130.21
+,130.21
+,130.21
+,-130.25
+,-130.25
+,-130.25,-128.52
+,-129.20,-129.44,-131.62
+,-132.82
+,-132.16)
 cl=length(coho_list)
 for(i in 1:length(unique(pse_coho$stock))){
   s=subset(pse_coho,stock==unique(pse_coho$stock)[i])
@@ -1278,9 +1294,9 @@ for(i in 1:length(unique(pse_coho$stock))){
   stock_dat_temp[,1]=NA
   stock_dat_temp[,2]='Coho'
   stock_dat_temp[,3]=paste(unique(s$stock),'Coho',sep="-")
-  stock_dat_temp[,4]=coho_pse_lat[i] #lat need to do these (one for Skeena estuary and one for Nass)
-  stock_dat_temp[,5]=coho_pse_lon[i] #lon 
-  stock_dat_temp[,6]=coho_reg[i]
+  stock_dat_temp[,4]=coho_pse_i$lat[i] #lat need to do these (one for Skeena estuary and one for Nass)
+  stock_dat_temp[,5]=coho_pse_i$lon[i] #lon 
+  stock_dat_temp[,6]=coho_pse_i$region[i]
   stock_dat_temp[,7]='WC'
   stock_dat_temp[,8]='BC'
   

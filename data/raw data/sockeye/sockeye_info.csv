@@ -1,24 +1,24 @@
 Stock.ID,Species,Stock,Date.data.obtained,Date.data.incorporated,Ocean.Region,Region,Sub.Region,Jurisdiction,Lat,Lon,Source.ID,Comment..we.will.update.this.later.
 101,Sockeye,Washington,3/1/2017,9/12/2017,WC,Washington,Washington,WA,47.48,-122.42,1,Hatchery component of the run was removed; FW age assumed to be 1.X.  These sockeye grow fast in the lake.
-102,Sockeye,Early Stuart,7/1/2017,9/12/2017,WC,Fraser River,Fraser Early Stuart,BC,49.12,-123.06,4,NA
-103,Sockeye,Bowron,7/1/2017,9/12/2017,WC,Fraser River,Fraser Early Summer,BC,49.12,-123.06,4,NA
-104,Sockeye,Fennell,7/1/2017,9/12/2017,WC,Fraser River,Fraser Early Summer,BC,49.12,-123.06,4,NA
-105,Sockeye,Gates,7/1/2017,9/12/2017,WC,Fraser River,Fraser Early Summer,BC,49.12,-123.06,4,Spawning channel
-106,Sockeye,Nadina,7/1/2017,9/12/2017,WC,Fraser River,Fraser Early Summer,BC,49.12,-123.06,4,Spawning channel
-107,Sockeye,Pitt,7/1/2017,9/12/2017,WC,Fraser River,Fraser Early Summer,BC,49.12,-123.06,4,Large hatchery influence that could not be separated out
-108,Sockeye,Raft,7/1/2017,9/12/2017,WC,Fraser River,Fraser Early Summer,BC,49.12,-123.06,4,NA
-109,Sockeye,Scotch,7/1/2017,9/12/2017,WC,Fraser River,Fraser Early Summer,BC,49.12,-123.06,4,NA
-110,Sockeye,Seymour,7/1/2017,9/12/2017,WC,Fraser River,Fraser Early Summer,BC,49.12,-123.06,4,NA
-111,Sockeye,Chilko,7/1/2017,9/12/2017,WC,Fraser River,Fraser Summer,BC,49.12,-123.06,4,Lake fertilization occurred in 1987 and 1989-1992
-112,Sockeye,Late Stuart,7/1/2017,9/12/2017,WC,Fraser River,Fraser Summer,BC,49.12,-123.06,4,NA
-113,Sockeye,Quesnel,7/1/2017,9/12/2017,WC,Fraser River,Fraser Summer,BC,49.12,-123.06,4,NA
-114,Sockeye,Stellako,7/1/2017,9/12/2017,WC,Fraser River,Fraser Summer,BC,49.12,-123.06,4,NA
-115,Sockeye,Birkenhead,7/1/2017,9/12/2017,WC,Fraser River,Fraser Late,BC,49.12,-123.06,4,NA
-116,Sockeye,Cultus,7/1/2017,9/12/2017,WC,Fraser River,Fraser Late,BC,49.12,-123.06,4,Hatchery fish released starting in 2000
-117,Sockeye,Harrison,7/1/2017,9/12/2017,WC,Fraser River,Fraser Late,BC,49.12,-123.06,4,Fry go to sea at BY+1
-118,Sockeye,Late Shuswap,7/1/2017,9/12/2017,WC,Fraser River,Fraser Late,BC,49.12,-123.06,4,NA
-119,Sockeye,Portage,7/1/2017,9/12/2017,WC,Fraser River,Fraser Late,BC,49.12,-123.06,4,NA
-120,Sockeye,Weaver,7/1/2017,9/12/2017,WC,Fraser River,Fraser Late,BC,49.12,-123.06,4,Spawning channel present
+102,Sockeye,Early Stuart,7/1/2017,9/12/2017,WC,Fraser,Fraser Early Stuart,BC,49.12,-123.06,4,NA
+103,Sockeye,Bowron,7/1/2017,9/12/2017,WC,Fraser,Fraser Early Summer,BC,49.12,-123.06,4,NA
+104,Sockeye,Fennell,7/1/2017,9/12/2017,WC,Fraser,Fraser Early Summer,BC,49.12,-123.06,4,NA
+105,Sockeye,Gates,7/1/2017,9/12/2017,WC,Fraser,Fraser Early Summer,BC,49.12,-123.06,4,Spawning channel
+106,Sockeye,Nadina,7/1/2017,9/12/2017,WC,Fraser,Fraser Early Summer,BC,49.12,-123.06,4,Spawning channel
+107,Sockeye,Pitt,7/1/2017,9/12/2017,WC,Fraser,Fraser Early Summer,BC,49.12,-123.06,4,Large hatchery influence that could not be separated out
+108,Sockeye,Raft,7/1/2017,9/12/2017,WC,Fraser,Fraser Early Summer,BC,49.12,-123.06,4,NA
+109,Sockeye,Scotch,7/1/2017,9/12/2017,WC,Fraser,Fraser Early Summer,BC,49.12,-123.06,4,NA
+110,Sockeye,Seymour,7/1/2017,9/12/2017,WC,Fraser,Fraser Early Summer,BC,49.12,-123.06,4,NA
+111,Sockeye,Chilko,7/1/2017,9/12/2017,WC,Fraser,Fraser Summer,BC,49.12,-123.06,4,Lake fertilization occurred in 1987 and 1989-1992
+112,Sockeye,Late Stuart,7/1/2017,9/12/2017,WC,Fraser,Fraser Summer,BC,49.12,-123.06,4,NA
+113,Sockeye,Quesnel,7/1/2017,9/12/2017,WC,Fraser,Fraser Summer,BC,49.12,-123.06,4,NA
+114,Sockeye,Stellako,7/1/2017,9/12/2017,WC,Fraser,Fraser Summer,BC,49.12,-123.06,4,NA
+115,Sockeye,Birkenhead,7/1/2017,9/12/2017,WC,Fraser,Fraser Late,BC,49.12,-123.06,4,NA
+116,Sockeye,Cultus,7/1/2017,9/12/2017,WC,Fraser,Fraser Late,BC,49.12,-123.06,4,Hatchery fish released starting in 2000
+117,Sockeye,Harrison,7/1/2017,9/12/2017,WC,Fraser,Fraser Late,BC,49.12,-123.06,4,Fry go to sea at BY+1
+118,Sockeye,Late Shuswap,7/1/2017,9/12/2017,WC,Fraser,Fraser Late,BC,49.12,-123.06,4,NA
+119,Sockeye,Portage,7/1/2017,9/12/2017,WC,Fraser,Fraser Late,BC,49.12,-123.06,4,NA
+120,Sockeye,Weaver,7/1/2017,9/12/2017,WC,Fraser,Fraser Late,BC,49.12,-123.06,4,Spawning channel present
 121,Sockeye,Great Central,9/1/2017,9/13/2017,WC,Vancouver Island,Barkley Sound,BC,49.24,-124.82,9,NA
 122,Sockeye,Sproat,9/1/2017,9/13/2017,WC,Vancouver Island,Barkley Sound,BC,49.24,-124.82,9,NA
 123,Sockeye,Long Lake,9/1/2017,9/13/2017,WC,Central Coast,Central Coast,BC,51.29,-127.68,8,NA
