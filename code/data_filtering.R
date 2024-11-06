@@ -91,11 +91,6 @@ names(harrison_chin)[1]='broodyear';names(harrison_chin)[4]='spawners';names(har
 names(shuswap_chin)[1]='broodyear';names(shuswap_chin)[4]='spawners';names(shuswap_chin)[5]='recruits'
 names(nicola_chin)[2]='broodyear';names(shuswap_chin)[4]='spawners';names(shuswap_chin)[5]='recruits'
 
-#add ocean regions to info files
-chum_info$ocean.region=sockeye_info$ocean.region[match(chum_info$region,sockeye_info$region)]
-chum_info$ocean.region[1:9]='WC'; chum_info$ocean.region=replace_na(chum_info$ocean.region,"WC")
-pink_info$ocean.region=chum_info$ocean.region[match(pink_info$region,chum_info$region)]
-pink_info$ocean.region=replace_na(pink_info$ocean.region,"WC")
 
 #Sockeye####
 stock_dat=data.frame(stock.id=NA,species=NA,stock.name=NA,lat=NA,lon=NA,region=NA,ocean.basin=NA,state=NA,begin=NA,end=NA,n.years=NA,m.spawners=NA,m.recruits=NA,source=NA,url=NA,comments=NA,age=NA)
@@ -215,7 +210,7 @@ for(i in 1:length(unique(skeena_sockeye$stock))){
   stock_dat_temp[,4]=54.22 #lat need to do these (one for Skeena estuary and one for Nass)
   stock_dat_temp[,5]=-129.831 #lon 
   stock_dat_temp[,6]='Skeena'
-  stock_dat_temp[,7]='WC'
+  stock_dat_temp[,7]='SEAK'
   stock_dat_temp[,8]='BC'
   
   stock_dat_temp[,9]=min(s$broodyear)
@@ -246,7 +241,7 @@ for(i in 1:length(unique(nass_sockeye$stock))){
   stock_dat_temp[,4]= 54.99 #lat - approx ocean entry from google maps
   stock_dat_temp[,5]=-130.02 #lon - approx ocean entry from google maps
   stock_dat_temp[,6]='Nass'
-  stock_dat_temp[,7]='WC'
+  stock_dat_temp[,7]='SEAK'
   stock_dat_temp[,8]='BC'
   
   stock_dat_temp[,9]=min(s$broodyear)
@@ -313,7 +308,7 @@ for(i in 1:nrow(s_info_soc)){
   stock_dat_temp[,4]=s_info_soc$lat[i]
   stock_dat_temp[,5]=s_info_soc$lon[i] #lon - approx ocean entry from google maps
   stock_dat_temp[,6]=s_info_soc$region[i]
-  stock_dat_temp[,7]='WC'
+  if(s_info_soc$region[i]=='Nass'|s_info_soc$region[i]=='Haida Gwaii'){stock_dat_temp[,7]='SEAK'}else{stock_dat_temp[,7]='WC'}
   stock_dat_temp[,8]='BC'
   
   stock_dat_temp[,9]=min(s$year)
@@ -478,7 +473,7 @@ for(i in 1:length(unique(seak_soc$stock))){
   stock_dat_temp[,4]=sockeye_info$lat[match(unique(s$stock),sockeye_info$stock)] #lat 
   stock_dat_temp[,5]=sockeye_info$lon[match(unique(s$stock),sockeye_info$stock)] #lon
   stock_dat_temp[,6]=sockeye_info$region[match(unique(s$stock),sockeye_info$stock)] 
-  stock_dat_temp[,7]='GOA' #Bering Sea
+  stock_dat_temp[,7]='SEAK' #Southeast Alaska/Northern BC
   stock_dat_temp[,8]='AK' #Alaska
   
   stock_dat_temp[,9]=min(s$broodyear)
@@ -857,7 +852,6 @@ pink_filtered<- do.call(plyr::rbind.fill, pink_list)
 chinook=rbind(chinook,cow_chin) #add in S-R data
 chinook_info$sub.region=gsub('Southeast','SEAK',chinook_info$sub.region) #synonymize the sub regions
 chinook_info$sub.region=gsub('Kuskokwim','AYK',chinook_info$sub.region) #synonymize the sub regions
-chinook_info$sub.region=gsub('Norton Sound','AYK',chinook_info$sub.region) #synonymize the sub regions
 chinook_info$sub.region=gsub('Alaska Peninsula and Aleutian Islands','AK Peninsula',chinook_info$sub.region) #synonymize the sub regions
 
 
@@ -1016,7 +1010,7 @@ for(i in 1:length(unique(skeena_chin$stock))){
   stock_dat_temp[,4]=54.2237 #lat need to do these (one for Skeena estuary and one for Nass)
   stock_dat_temp[,5]=-129.831 #lon 
   stock_dat_temp[,6]='Skeena River'
-  stock_dat_temp[,7]='WC'
+  stock_dat_temp[,7]='SEAK'
   stock_dat_temp[,8]='BC'
   
   stock_dat_temp[,9]=min(s$broodyear)
@@ -1056,7 +1050,7 @@ for(i in 1:length(unique(pse_chin$stock))){
   stock_dat_temp[,4]=pse_chin_i$lat[i] #lat need to do these (one for Skeena estuary and one for Nass)
   stock_dat_temp[,5]=pse_chin_i$lon[i] #lon 
   stock_dat_temp[,6]=pse_chin_i$region[i]
-  stock_dat_temp[,7]='WC'
+  if(pse_chin_i$region[i]=='Nass'){stock_dat_temp[,7]='SEAK'}else{stock_dat_temp[,7]='WC'}
   stock_dat_temp[,8]='BC'
   
   stock_dat_temp[,9]=min(s$year)
@@ -1297,7 +1291,7 @@ for(i in 1:length(unique(pse_coho$stock))){
   stock_dat_temp[,4]=coho_pse_i$lat[i] #lat need to do these (one for Skeena estuary and one for Nass)
   stock_dat_temp[,5]=coho_pse_i$lon[i] #lon 
   stock_dat_temp[,6]=coho_pse_i$region[i]
-  stock_dat_temp[,7]='WC'
+  if(coho_pse_i$region[i]=='Skeena'|coho_pse_i$region[i]=='Nass'|coho_pse_i$region[i]=='Haida Gwaii'){stock_dat_temp[,7]='SEAK'}else{stock_dat_temp[,7]='WC'}
   stock_dat_temp[,8]='BC'
   
   stock_dat_temp[,9]=min(s$year)
