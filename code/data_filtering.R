@@ -76,7 +76,7 @@ chum$stock=dplyr::recode(chum$stock,
                          "W Chig"="W Chignik",
                          "SE-SC AKPen"="SE-SC AK Peninsula",
                          "N AKPen"="N AK Peninsula",
-                         "W-NW AKPen"="E-NW AK Peninsula",
+                         "W-NW AKPen"="W-NW AK Peninsula",
                          "E-NW AKPen"="E-NW AK Peninsula",
                          "NW AKPen"="NW AK Peninsula")
 
@@ -884,6 +884,10 @@ for(i in 1:length(unique(pink3$stock))){
 }
 pink_filtered<- do.call(plyr::rbind.fill, pink_list)
 
+pink_filtered <- pink_filtered %>% #drop north and central coast stocks that have been replaced with CU level reconstructions from PSE
+  filter(!stock %in% c("Area 10", "Area 9", "Area 8", "Area 7", "Area 6", "Area 5", "Area 4", "Area 3", "Area 2W", "Area 2E", "Area 1","BC South (no Fraser)") )
+pink_info <- pink_info %>% #drop north and central coast stocks that have been replaced with CU level reconstructions from PSE
+  filter(!stock %in% c("Area 10", "Area 9", "Area 8", "Area 7", "Area 6", "Area 5", "Area 4", "Area 3", "Area 2W", "Area 2E", "Area 1","BC South (no Fraser)") )
 
 #write.csv(pink_filtered,here('data','filtered datasets',paste('raw_pink_brood_table',Sys.Date(),'.csv',sep='')),row.names = FALSE)
 #write.csv(pink_info,here('data','filtered datasets',paste('pink_info',Sys.Date(),'.csv',sep='')), row.names = FALSE)
@@ -1356,6 +1360,7 @@ coho_filtered = do.call(plyr::rbind.fill,coho_list)
 #Print out data####
 filtered_productivity_data=full_join(chinook_filtered,chum_filtered) %>% full_join(coho_filtered) %>% full_join(pink_filtered) %>% full_join(sockeye_filtered)
 filtered_productivity_data=subset(filtered_productivity_data,spawners>1)
+filtered_productivity_data=left_join(chinook_filtered,coho_filtered)%>% full_join(chum_filtered) %>% full_join(pink_filtered) %>% full_join(sockeye_filtered)
 
 #Stock overview
 stock_dat= subset(stock_dat,n.years>9)
