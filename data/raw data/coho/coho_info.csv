@@ -3,7 +3,7 @@ Stock.ID,Species,Stock,Ocean.Region,Region,Sub.Region,Jurisdiction,Lat,Lon,Sourc
 102,Coho,Kuskokwim River,BS,AYK,Kuskokwim,AK,61.10037,-160.9961,2
 103,Coho,Auke Creek,NC,Southeast,Southeast,AK,58.38052,-134.6419,4
 104,Coho,Berners River,NC,Southeast,Southeast,AK,58.8464,-134.97,"3,4"
-105,Coho,Ford Arm Lake,NC,Southeast,Southeast,AK,57.58192,-135.9153,4
+105,Coho,Ford Arm Lake,NC,Southeast,Southeast,AK,57.58192,-135.9153,6
 106,Coho,Hugh Smith Lake,NC,Southeast,Southeast,AK,55.09855,-130.6461,4
 107,Coho,Akwe River,NC,Southeast,Southeast,AK,59.2929349,-139.09307,5
 108,Coho,East Alsek River,NC,Southeast,Southeast,AK,59.10379,-138.5086,5

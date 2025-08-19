@@ -1,14 +1,21 @@
-Source.ID,Source
+Source.ID,Source,ref,url
 1,"Aaron Dufault 2017
-Arron Dufault, Washington Department of Fish and Wildlife, Olympia, WA (via G. Ruggerone)"
-2,"Rich Brenner, 2017, ADF&G, Juneau, AK"
-3,"Curry Cunningham, 2016, University of Alaska/University of Washington"
-4,"Sue Grant (DFO), Bronwyn McDonald (DFO) and Mike Lapointe (PSC) via Brendan Connors (ESSA Technologies)"
-5,"Kevin Schaberg, ADF&G Kodiak, via Rich Brenner"
-6,"Mark Willette, ADF&G, upper Cook Inlet, via Rich Brenner"
-7,"Zachary Liller, ADF&G Research Coordinator for AYK, via Rich Brenner"
-8,Karl English (LGL) June 23 2014 via Jim Irvine (DFO)
-9,Diana Dobson June 2 2014 via Jim Irvine
-10,M. Stockwell/K. Hyatt 7May 2014 via Jim Irvine
-11,"Greg Buck, 2017, ADFG"
-12,"Richard Alexander, 2018, LGL via Greg Ruggerone"
+Arron Dufault, Washington Department of Fish and Wildlife, Olympia, WA (via G. Ruggerone)",,
+2,"Rich Brenner, 2017, ADF&G, Juneau, AK",,
+3,"Curry Cunningham, 2016, University of Alaska/University of Washington",,
+4,"Sue Grant (DFO), Bronwyn McDonald (DFO) and Mike Lapointe (PSC) via Brendan Connors (ESSA Technologies)",,
+5,"Kevin Schaberg, ADF&G Kodiak, via Rich Brenner",,
+6,"Mark Willette, ADF&G, upper Cook Inlet, via Rich Brenner",,
+7,"Zachary Liller, ADF&G Research Coordinator for AYK, via Rich Brenner",,
+8,Karl English (LGL) June 23 2014 via Jim Irvine (DFO),,
+9,Diana Dobson June 2 2014 via Jim Irvine,,
+10,M. Stockwell/K. Hyatt 7May 2014 via Jim Irvine,,
+11,"Greg Buck, 2017, ADFG",,
+12,"Richard Alexander, 2018, LGL via Greg Ruggerone",,
+13,Shaul et al. 2014,"Shaul, LD, Crabtree, KF, Koolmo, KC, Koolmo, KM, Nichols, JV, Geiger, HJ. 2014. Studies of Coho Salmon and Other Oncorhynchus Species at Ford Arm Creek, 1982–2009. Fishery Manuscript Series No. 14-02",https://www.adfg.alaska.gov/FedAidPDFs/FMS14-02.pdf
+14,Witteveen & Huang 2022 ,"Witteveen, MJ, & Huang, J. 2022. Stock Assessment of Sockeye Salmon in the Buskin River, 2018–2021. Fishery Data Series No. 22-30. ADFG.",https://www.adfg.alaska.gov/FedAidPDFs/FDS22-30.pdf
+15,McKinley et al. 2023,"McKinley, TR, Erickson, JW, Eskelin, T, DeCovich, N, Hamazaki, H. Review of Salmon Escapement Goals in Upper Cook
+Inlet, Alaska, 2023. Fishery Manuscript No. 24-01. ADF&G.",https://www.adfg.alaska.gov/FedAidPDFs/FMS24-01.pdf
+16,Foster et al. 2023,"Foster, MB, Polum, TB, Wattum, ML, Fox, EKC, McKinley, TR, Schaberg, KL, Finkle, H. 2023. Review of Salmon Escapement Goals in the Kodiak
+Management Area, 2022. Fishery Manuscript No. 23-03. ADF&G.",https://www.adfg.alaska.gov/FedAidPDFs/FMS23-03.pdf
+17,Morella et al. 2024,"Morella, JR, Ertz, RM, Erickson, JW, Savereide, JW, Matter, AN, McKinley, TR. 2024. Escapement Goal Review of Copper and Bering Rivers, and Prince William Sound Pacific Salmon Stocks, 2024. Fishery Manuscript No. 24-03. ADF&G.",https://www.adfg.alaska.gov/FedAidPDFs/FMS24-03.pdf

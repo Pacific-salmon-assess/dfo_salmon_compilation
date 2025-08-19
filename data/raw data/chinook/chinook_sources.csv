@@ -1,12 +1,13 @@
 Source.ID,Source,Title,URL
-1,FMS16-09.pdf,"Fishery Manuscript Series No. 16-09: Review of Salmon Escapement Goals in the Kodiak
+1,Schaberg et al. 2016,"Schaberg, KL, Foster, MB, Wattum, ML, McKinley TR. Review of Salmon Escapement Goals in the Kodiak
+Management Area, 2016. Fishery Manuscript Series No. 16-09.
 Management Area, 2016 ",http://www.adfg.alaska.gov/static/regulations/regprocess/fisheriesboard/pdfs/2016-2017/kodiak/FMS16-09.pdf
-2,FMS15-02.pdf,"Fishery Manuscript Series No. 15-02: Review of Salmon Escapement Goals in the Chignik
-Management Area, 2015 ",http://www.adfg.alaska.gov/FedAidPDFs/FMS15-02.pdf
-3,fms06-03.pdf,"Fishery Manuscript No. 06-03: Review of Salmon Escapement Goals in the Alaska
+2,Schaberg et al. 2015,"Schaberg, KL, Tracy DA, Foster, MB, Loewen, M. 2015. Review of Salmon Escapement Goals in the Chignik
+Management Area, 2015. Fishery Manuscript Series No. 15-02 .",http://www.adfg.alaska.gov/FedAidPDFs/FMS15-02.pdf
+3,Nelson et al. 2006,"Nelson, PA, Hasbrouck, JJ, Witteveen, MJ, Bouwens, KA, Vining, I. 2006. Review of Salmon Escapement Goals in the Alaska
 Peninsula and Aleutian Islands Management Areas
-Report to the Alaska Board of Fisheries, 2004",http://www.sf.adfg.state.ak.us/FedAidPDFs/fms06-03.pdf
-4,FDS10-08.pdf,"Fishery Data Series No. 10-08: Goodnews River Salmon Monitoring and Assessment,
+Report to the Alaska Board of Fisheries, 2004. Fishery Manuscript No. 06-03. ADF&G.",http://www.sf.adfg.state.ak.us/FedAidPDFs/fms06-03.pdf
+4,Taylor & Clark 2010,"Fishery Data Series No. 10-08: Goodnews River Salmon Monitoring and Assessment,
 2008 ",http://www.adfg.alaska.gov/FedAidPDFs/FDS10-08.pdf
 5,sp05-22Chapter1.pdf,"Special Publication No. 05-22: Stock Status and Escapement Goals for Salmon in
 Southeast Alaska 2005: Chapter 1: Chinook Salmon Status and
@@ -17,7 +18,19 @@ Chinook Salmon Stock Returning to the Kuskokwim
 River, 1976Ð2011",http://www.aykssi.org/wp-content/uploads/BUE-et-Al-2012-Kusko-Escapement-Goal-FDS12-49.pdf
 7,FMS12-05.pdf,"Fishery Manuscript Series No. 12-05: Stock Assessment of Chinook, Sockeye, and Chum
 Salmon in the Nushagak River",http://www.adfg.alaska.gov/FedAidPDFs/FMS12-05.pdf
-8,Fds03-02.pdf,"Fishery Data Series No. 03-02: Stock Assessment of Early-run Chinook Salmon
+8,McKinley 2003,"McKinley, TR. 2003. Stock Assessment of Early-run Chinook Salmon
+of the Kenai River, 1999-2001. Fishery Data Series No. 03-02. ADF&G
 of the Kenai River, 1999-2001",http://www.sf.adfg.state.ak.us/FedAidpdfs/Fds03-02.pdf
-9,fds10-96.pdf,"Fishery Data Series No. 10-96: Stock Assessment of Late-run Chinook Salmon in the
-Kenai River, 1999Ð2006 ",http://www.adfg.alaska.gov/FedAidPDFs/fds10-96.pdf
+9,McKinley & Fleischman 2010,"McKinley, TR & Fleischman, SJ. 2010. Stock Assessment of Late-run Chinook Salmon in the
+Kenai River, 1999–2006. Fishery Data Series No. 10-96. ADF&G.",http://www.adfg.alaska.gov/FedAidPDFs/fds10-96.pdf
+10,Joy et al. 2021,"Run Reconstruction, Spawner–Recruit Analysis, and Escapement Goal Recommendation for Chinook Salmon in the Copper River. Fishery Manuscript No. 21-01. ADF&G.",https://www.adfg.alaska.gov/static/regulations/regprocess/fisheriesboard/pdfs/2021-2022/pws/FMS21-01.pdf
+11,Reimer & DeCovich 2020,Susitna River Chinook Salmon Run Reconstruction and Escapement Goal Analysis. Fishery Manuscript No. 20-01. ADF&G.,https://www.adfg.alaska.gov/FedAidPDFs/FMS20-01.pdf
+12,McKinley et al. 2024,"McKinley, TR, Erickson, JW, Eskelin, T, DeCovich, N, Hamazaki, H. Review of Salmon Escapement Goals in Upper Cook
+Inlet, Alaska, 2023. Fishery Manuscript No. 24-01. ADF&G.
+Inlet, Alaska, 2023",https://www.adfg.alaska.gov/FedAidPDFs/FMS24-01.pdf
+13,Fleischman et al. ,Escapement Goals for Chinook Salmon in the Blossom and Keta Rivers. Fishery Manuscript No. 11-05. ADF&G.,https://www.adfg.alaska.gov/FedAidPDFs/FMS11-05.pdf
+14,Dickson et al.,"Anchor River Chinook Salmon Stock Assessment, 2016–2019. Fishery Data Series No. 24-24. ADF&G.",https://www.adfg.alaska.gov/FedAidPDFs/FDS24-24.pdf
+15,Brown R et al. 2020,"Brown RJ, Bradley C, Melegari JL. 2020. Population Trends for Chinook and Summer Chum Salmon in Two Yukon River Tributaries in Alaska. Journal of Fish and Wildlife Management, 11, 377-400.",https://meridian.allenpress.com/jfwm/article/11/2/377/436141/Population-Trends-for-Chinook-and-Summer-Chum
+16,Joy et al. 2024,"Joy, PJ, Ocaña, M, Savereide, JW, Tyers, M. Run Reconstruction, Spawner–Recruit Analysis, and Escapement Goal Recommendation for Chinook Salmon in the Chena and Salcha Rivers. Fishery Manuscript No. 24-02. ADF&G.",https://www.adfg.alaska.gov/FedAidPDFs/FMS24-02.pdf
+17,Connors et al. 2022,"Connors, BM, Siegle, MR, Harding, J, Rossi, S, Staton, BA, Jones, ML, Bradford, MJ, Brown, R, Bechtol, B, Doherty, B, Cox, S, Sutherland, BJG. Chinook salmon diversity contributes to fishery stability and trade-offs with mixed-stock harvest. Ecological Applications, 32, e2709",https://esajournals.onlinelibrary.wiley.com/doi/full/10.1002/eap.2709
+18,Staton et al. 2020,"Staton, BA, Catalano, MJ, Connors, BM, Coggins Jr., LG, Jones, ML, Walters, CJ, Fleischman, SJ, Gwinn, DC. 2020.Evaluation of methods for spawner–recruit analysis in mixed-stock Pacific salmon fisheries. Can J. Fish. Aquat. Sci, 77, 1149-1162.",https://cdnsciencepub.com/doi/10.1139/cjfas-2019-0281

@@ -1605,106 +1605,50 @@ stock.id,species,stock,region,sub.region,brood.yr,spawners,recruits,use
 239,Pink,Perryville,Chignik,Chignik,2009,116450,366263,1
 239,Pink,Perryville,Chignik,Chignik,2010,19400,,
 239,Pink,Perryville,Chignik,Chignik,2011,139750,,
-240,Pink,SE-SC AKPen,AK Peninsula,AK Peninsula,1962,826100,2417000,1
-240,Pink,SE-SC AKPen,AK Peninsula,AK Peninsula,1963,886500,3121300,1
-240,Pink,SE-SC AKPen,AK Peninsula,AK Peninsula,1964,902400,847700,1
-240,Pink,SE-SC AKPen,AK Peninsula,AK Peninsula,1965,789900,380400,1
-240,Pink,SE-SC AKPen,AK Peninsula,AK Peninsula,1966,627400,1391400,1
-240,Pink,SE-SC AKPen,AK Peninsula,AK Peninsula,1967,327300,2769000,1
-240,Pink,SE-SC AKPen,AK Peninsula,AK Peninsula,1968,528100,2386410,1
-240,Pink,SE-SC AKPen,AK Peninsula,AK Peninsula,1969,1906200,1699982,1
-240,Pink,SE-SC AKPen,AK Peninsula,AK Peninsula,1970,1007900,135139,1
-240,Pink,SE-SC AKPen,AK Peninsula,AK Peninsula,1971,488000,122248,1
-240,Pink,SE-SC AKPen,AK Peninsula,AK Peninsula,1972,81800,334551,1
-240,Pink,SE-SC AKPen,AK Peninsula,AK Peninsula,1973,85700,387852,1
-240,Pink,SE-SC AKPen,AK Peninsula,AK Peninsula,1974,238600,3120223,1
-240,Pink,SE-SC AKPen,AK Peninsula,AK Peninsula,1975,357800,3332005,1
-240,Pink,SE-SC AKPen,AK Peninsula,AK Peninsula,1976,1084000,6134178,1
-240,Pink,SE-SC AKPen,AK Peninsula,AK Peninsula,1977,2168500,6964648,1
-240,Pink,SE-SC AKPen,AK Peninsula,AK Peninsula,1978,1966300,3929976,1
-240,Pink,SE-SC AKPen,AK Peninsula,AK Peninsula,1979,2125100,6071419,1
-240,Pink,SE-SC AKPen,AK Peninsula,AK Peninsula,1980,1410400,5638149,1
-240,Pink,SE-SC AKPen,AK Peninsula,AK Peninsula,1981,1875000,2884632,1
-240,Pink,SE-SC AKPen,AK Peninsula,AK Peninsula,1982,1533200,9059847,1
-240,Pink,SE-SC AKPen,AK Peninsula,AK Peninsula,1983,639200,4553351,1
-240,Pink,SE-SC AKPen,AK Peninsula,AK Peninsula,1984,2526700,4252131,1
-240,Pink,SE-SC AKPen,AK Peninsula,AK Peninsula,1985,1229300,2447836,1
-240,Pink,SE-SC AKPen,AK Peninsula,AK Peninsula,1986,1185500,6336986,1
-240,Pink,SE-SC AKPen,AK Peninsula,AK Peninsula,1987,1304400,6758046,1
-240,Pink,SE-SC AKPen,AK Peninsula,AK Peninsula,1988,1636500,2752427,1
-240,Pink,SE-SC AKPen,AK Peninsula,AK Peninsula,1989,1179300,9799100,1
-240,Pink,SE-SC AKPen,AK Peninsula,AK Peninsula,1990,1018200,6632245,1
-240,Pink,SE-SC AKPen,AK Peninsula,AK Peninsula,1991,2268400,9722753,1
-240,Pink,SE-SC AKPen,AK Peninsula,AK Peninsula,1992,1781000,4844477,1
-240,Pink,SE-SC AKPen,AK Peninsula,AK Peninsula,1993,2232200,15767364,1
-240,Pink,SE-SC AKPen,AK Peninsula,AK Peninsula,1994,1700525,4181630,1
-240,Pink,SE-SC AKPen,AK Peninsula,AK Peninsula,1995,4404450,4849767,1
-240,Pink,SE-SC AKPen,AK Peninsula,AK Peninsula,1996,2668950,8421894,1
-240,Pink,SE-SC AKPen,AK Peninsula,AK Peninsula,1997,4021375,10265462,1
-240,Pink,SE-SC AKPen,AK Peninsula,AK Peninsula,1998,2856255,4033331,1
-240,Pink,SE-SC AKPen,AK Peninsula,AK Peninsula,1999,3363080,4785628,1
-240,Pink,SE-SC AKPen,AK Peninsula,AK Peninsula,2000,1688785,3575355,1
-240,Pink,SE-SC AKPen,AK Peninsula,AK Peninsula,2001,2040120,6643254,1
-240,Pink,SE-SC AKPen,AK Peninsula,AK Peninsula,2002,2108450,11076199,1
-240,Pink,SE-SC AKPen,AK Peninsula,AK Peninsula,2003,3674120,9914090,1
-240,Pink,SE-SC AKPen,AK Peninsula,AK Peninsula,2004,5969710,3980978,1
-240,Pink,SE-SC AKPen,AK Peninsula,AK Peninsula,2005,4271270,6980959,1
-240,Pink,SE-SC AKPen,AK Peninsula,AK Peninsula,2006,1648365,9321807,1
-240,Pink,SE-SC AKPen,AK Peninsula,AK Peninsula,2007,1805873,5403117,1
-240,Pink,SE-SC AKPen,AK Peninsula,AK Peninsula,2008,2332920,857212,1
-240,Pink,SE-SC AKPen,AK Peninsula,AK Peninsula,2009,1669900,5757375,1
-240,Pink,SE-SC AKPen,AK Peninsula,AK Peninsula,2010,396962,,
-240,Pink,SE-SC AKPen,AK Peninsula,AK Peninsula,2011,1709900,,
-241,Pink,SW-Unimak,AK Peninsula,AK Peninsula,1962,772700,1724700,1
-241,Pink,SW-Unimak,AK Peninsula,AK Peninsula,1963,431400,720200,1
-241,Pink,SW-Unimak,AK Peninsula,AK Peninsula,1964,534000,160500,1
-241,Pink,SW-Unimak,AK Peninsula,AK Peninsula,1965,245500,122400,1
-241,Pink,SW-Unimak,AK Peninsula,AK Peninsula,1966,92000,573000,1
-241,Pink,SW-Unimak,AK Peninsula,AK Peninsula,1967,118200,834000,1
-241,Pink,SW-Unimak,AK Peninsula,AK Peninsula,1968,295200,543030,1
-241,Pink,SW-Unimak,AK Peninsula,AK Peninsula,1969,568700,428509,1
-241,Pink,SW-Unimak,AK Peninsula,AK Peninsula,1970,291000,36558,1
-241,Pink,SW-Unimak,AK Peninsula,AK Peninsula,1971,214700,27173,1
-241,Pink,SW-Unimak,AK Peninsula,AK Peninsula,1972,29600,50450,1
-241,Pink,SW-Unimak,AK Peninsula,AK Peninsula,1973,25100,219643,1
-241,Pink,SW-Unimak,AK Peninsula,AK Peninsula,1974,45800,679186,1
-241,Pink,SW-Unimak,AK Peninsula,AK Peninsula,1975,194300,789045,1
-241,Pink,SW-Unimak,AK Peninsula,AK Peninsula,1976,372400,2224725,1
-241,Pink,SW-Unimak,AK Peninsula,AK Peninsula,1977,509300,2074953,1
-241,Pink,SW-Unimak,AK Peninsula,AK Peninsula,1978,892400,5046788,1
-241,Pink,SW-Unimak,AK Peninsula,AK Peninsula,1979,504400,817159,1
-241,Pink,SW-Unimak,AK Peninsula,AK Peninsula,1980,1231200,1670931,1
-241,Pink,SW-Unimak,AK Peninsula,AK Peninsula,1981,431800,738315,1
-241,Pink,SW-Unimak,AK Peninsula,AK Peninsula,1982,759800,5961135,1
-241,Pink,SW-Unimak,AK Peninsula,AK Peninsula,1983,212000,1384850,1
-241,Pink,SW-Unimak,AK Peninsula,AK Peninsula,1984,1824900,1204067,1
-241,Pink,SW-Unimak,AK Peninsula,AK Peninsula,1985,384500,284238,1
-241,Pink,SW-Unimak,AK Peninsula,AK Peninsula,1986,531200,3367214,1
-241,Pink,SW-Unimak,AK Peninsula,AK Peninsula,1987,236100,2202749,1
-241,Pink,SW-Unimak,AK Peninsula,AK Peninsula,1988,1203100,1192016,1
-241,Pink,SW-Unimak,AK Peninsula,AK Peninsula,1989,691600,3125159,1
-241,Pink,SW-Unimak,AK Peninsula,AK Peninsula,1990,580200,5319722,1
-241,Pink,SW-Unimak,AK Peninsula,AK Peninsula,1991,678400,3111334,1
-241,Pink,SW-Unimak,AK Peninsula,AK Peninsula,1992,1053400,4878437,1
-241,Pink,SW-Unimak,AK Peninsula,AK Peninsula,1993,757900,6762894,1
-241,Pink,SW-Unimak,AK Peninsula,AK Peninsula,1994,1371200,1275475,1
-241,Pink,SW-Unimak,AK Peninsula,AK Peninsula,1995,2001850,2091497,1
-241,Pink,SW-Unimak,AK Peninsula,AK Peninsula,1996,978600,3812512,1
-241,Pink,SW-Unimak,AK Peninsula,AK Peninsula,1997,1221900,3162652,1
-241,Pink,SW-Unimak,AK Peninsula,AK Peninsula,1998,1811810,1949170,1
-241,Pink,SW-Unimak,AK Peninsula,AK Peninsula,1999,1652230,2152314,1
-241,Pink,SW-Unimak,AK Peninsula,AK Peninsula,2000,1104200,2281570,1
-241,Pink,SW-Unimak,AK Peninsula,AK Peninsula,2001,925016,2908340,1
-241,Pink,SW-Unimak,AK Peninsula,AK Peninsula,2002,1654350,3541126,1
-241,Pink,SW-Unimak,AK Peninsula,AK Peninsula,2003,1837100,4012782,1
-241,Pink,SW-Unimak,AK Peninsula,AK Peninsula,2004,2341700,1810183,1
-241,Pink,SW-Unimak,AK Peninsula,AK Peninsula,2005,1894364,1583116,1
-241,Pink,SW-Unimak,AK Peninsula,AK Peninsula,2006,1213885,4755345,1
-241,Pink,SW-Unimak,AK Peninsula,AK Peninsula,2007,874340,3336417,1
-241,Pink,SW-Unimak,AK Peninsula,AK Peninsula,2008,1005450,391239,1
-241,Pink,SW-Unimak,AK Peninsula,AK Peninsula,2009,1397100,1018590,1
-241,Pink,SW-Unimak,AK Peninsula,AK Peninsula,2010,345950,,
-241,Pink,SW-Unimak,AK Peninsula,AK Peninsula,2011,785050,,
+240,Pink,S AKPen,AK Peninsula,AK Peninsula,1975,552100,4113817,1
+240,Pink,S AKPen,AK Peninsula,AK Peninsula,1976,1456400,8284540,1
+240,Pink,S AKPen,AK Peninsula,AK Peninsula,1977,2677800,8980149,1
+240,Pink,S AKPen,AK Peninsula,AK Peninsula,1978,2858700,8801269,1
+240,Pink,S AKPen,AK Peninsula,AK Peninsula,1979,2629500,6829503,1
+240,Pink,S AKPen,AK Peninsula,AK Peninsula,1980,2641600,6993466,1
+240,Pink,S AKPen,AK Peninsula,AK Peninsula,1981,2306800,3576093,1
+240,Pink,S AKPen,AK Peninsula,AK Peninsula,1982,2293000,14713689,1
+240,Pink,S AKPen,AK Peninsula,AK Peninsula,1983,851200,5913566,1
+240,Pink,S AKPen,AK Peninsula,AK Peninsula,1984,4351600,5378871,1
+240,Pink,S AKPen,AK Peninsula,AK Peninsula,1985,1613800,2698805,1
+240,Pink,S AKPen,AK Peninsula,AK Peninsula,1986,1716700,9667154,1
+240,Pink,S AKPen,AK Peninsula,AK Peninsula,1987,1540500,8783157,1
+240,Pink,S AKPen,AK Peninsula,AK Peninsula,1988,2839600,3884568,1
+240,Pink,S AKPen,AK Peninsula,AK Peninsula,1989,1870900,12903424,1
+240,Pink,S AKPen,AK Peninsula,AK Peninsula,1990,1598400,11908705,1
+240,Pink,S AKPen,AK Peninsula,AK Peninsula,1991,2946800,12820896,1
+240,Pink,S AKPen,AK Peninsula,AK Peninsula,1992,2834400,9722866,1
+240,Pink,S AKPen,AK Peninsula,AK Peninsula,1993,2990100,22523513,1
+240,Pink,S AKPen,AK Peninsula,AK Peninsula,1994,3071725,5444530,1
+240,Pink,S AKPen,AK Peninsula,AK Peninsula,1995,6406300,6948735,1
+240,Pink,S AKPen,AK Peninsula,AK Peninsula,1996,3647550,12128294,1
+240,Pink,S AKPen,AK Peninsula,AK Peninsula,1997,5243275,13201054,1
+240,Pink,S AKPen,AK Peninsula,AK Peninsula,1998,4668065,5883882,1
+240,Pink,S AKPen,AK Peninsula,AK Peninsula,1999,5015310,6887202,1
+240,Pink,S AKPen,AK Peninsula,AK Peninsula,2000,2792985,5787715,1
+240,Pink,S AKPen,AK Peninsula,AK Peninsula,2001,2965136,9483367,1
+240,Pink,S AKPen,AK Peninsula,AK Peninsula,2002,3762800,14481357,1
+240,Pink,S AKPen,AK Peninsula,AK Peninsula,2003,5511220,13600587,1
+240,Pink,S AKPen,AK Peninsula,AK Peninsula,2004,8311410,5707867,1
+240,Pink,S AKPen,AK Peninsula,AK Peninsula,2005,6165634,9522831,1
+240,Pink,S AKPen,AK Peninsula,AK Peninsula,2006,2862250,13938442,1
+240,Pink,S AKPen,AK Peninsula,AK Peninsula,2007,2680213,8175290,1
+240,Pink,S AKPen,AK Peninsula,AK Peninsula,2008,3338370,1185176,1
+240,Pink,S AKPen,AK Peninsula,AK Peninsula,2009,3067000,6616906,1
+240,Pink,S AKPen,AK Peninsula,AK Peninsula,2010,742912,664044,1
+240,Pink,S AKPen,AK Peninsula,AK Peninsula,2011,2494950,9623217,1
+240,Pink,S AKPen,AK Peninsula,AK Peninsula,2012,478910,1844492,1
+240,Pink,S AKPen,AK Peninsula,AK Peninsula,2013,2320790,23065223,1
+240,Pink,S AKPen,AK Peninsula,AK Peninsula,2014,1340380,1341580,1
+240,Pink,S AKPen,AK Peninsula,AK Peninsula,2015,7820800,25556581,1
+240,Pink,S AKPen,AK Peninsula,AK Peninsula,2016,1038160,1077164,1
+240,Pink,S AKPen,AK Peninsula,AK Peninsula,2017,5663637,14499933,1
+240,Pink,S AKPen,AK Peninsula,AK Peninsula,2018,732422,6443564,1
 242,Pink,NW AKPen,AK Peninsula,AK Peninsula,1962,4000,21800,1
 242,Pink,NW AKPen,AK Peninsula,AK Peninsula,1963,4400,2900,1
 242,Pink,NW AKPen,AK Peninsula,AK Peninsula,1964,15000,17700,1
