@@ -218,7 +218,7 @@ for(i in 1:length(unique(psc_fraser_sockeye$stock))){
   stock_dat_temp[,4]=sockeye_info$lat[2] #lat for mouth of Fraser
   stock_dat_temp[,5]=sockeye_info$lon[2] #lon for mouth of Fraser
   stock_dat_temp[,6]='Fraser' #Fraser River
-  stock_dat_temp[,7]='SC' #West Coast
+  stock_dat_temp[,7]='SC' #South Coast
   stock_dat_temp[,8]='BC' #British Columbia
   
   stock_dat_temp[,9]=min(s$broodyear)
@@ -249,7 +249,7 @@ for(i in 1:length(unique(skeena_sockeye$stock))){
   stock_dat_temp[,4]=54.22 #lat need to do these (one for Skeena estuary and one for Nass)
   stock_dat_temp[,5]=-129.831 #lon 
   stock_dat_temp[,6]='Skeena'
-  stock_dat_temp[,7]='NC'
+  stock_dat_temp[,7]='SEAK-NBC'
   stock_dat_temp[,8]='BC'
   
   stock_dat_temp[,9]=min(s$broodyear)
@@ -280,7 +280,7 @@ for(i in 1:length(unique(nass_sockeye$stock))){
   stock_dat_temp[,4]= 54.99 #lat - approx ocean entry from google maps
   stock_dat_temp[,5]=-130.02 #lon - approx ocean entry from google maps
   stock_dat_temp[,6]='Nass'
-  stock_dat_temp[,7]='NC'
+  stock_dat_temp[,7]='SEAK-NBC'
   stock_dat_temp[,8]='BC'
   
   stock_dat_temp[,9]=min(s$broodyear)
@@ -341,7 +341,7 @@ for(i in 1:nrow(s_info_soc)){
   stock_dat_temp[,4]=s_info_soc$lat[i]
   stock_dat_temp[,5]=s_info_soc$lon[i] #lon - approx ocean entry from google maps
   stock_dat_temp[,6]=s_info_soc$region[i]
-  if(s_info_soc$region[i]=='Nass'|s_info_soc$region[i]=='Haida Gwaii'){stock_dat_temp[,7]='NC'}else{stock_dat_temp[,7]='SC'}
+  if(s_info_soc$region[i]=='Nass'|s_info_soc$region[i]=='Haida Gwaii'){stock_dat_temp[,7]='SEAK-NBC'}else{stock_dat_temp[,7]='SC'}
   stock_dat_temp[,8]='BC'
   
   stock_dat_temp[,9]=min(s$year)
@@ -349,7 +349,7 @@ for(i in 1:nrow(s_info_soc)){
   stock_dat_temp[,11]=length(s$year)
   stock_dat_temp[,12]=mean(s$spawners)/1e3
   stock_dat_temp[,13]=mean(s$recruits)/1e3
-  stock_dat_temp[,14]='Salmon Watersheds Program, PSF, 2022'
+  stock_dat_temp[,14]='Pacific Salmon Foundation. 2025. Pacific Salmon Explorer.'
   stock_dat_temp[,15]=NA
   colnames(s)[5]='broodyear'
   
@@ -506,7 +506,7 @@ for(i in 1:length(unique(seak_soc$stock))){
   stock_dat_temp[,4]=sockeye_info$lat[match(unique(s$stock),sockeye_info$stock)] #lat 
   stock_dat_temp[,5]=sockeye_info$lon[match(unique(s$stock),sockeye_info$stock)] #lon
   stock_dat_temp[,6]=sockeye_info$region[match(unique(s$stock),sockeye_info$stock)] 
-  stock_dat_temp[,7]='NC' #Southeast Alaska/Northern BC
+  stock_dat_temp[,7]='SEAK-NBC' #Southeast Alaska/Northern BC
   stock_dat_temp[,8]='AK' #Alaska
   
   stock_dat_temp[,9]=min(s$broodyear)
@@ -629,18 +629,12 @@ length(unique(chu_old$stock));length(unique(chu_upd$stock)) #1 new stock, 9 upda
 names(chu_upd)[1]='stock.id'
 chu_upd$stock.id=ifelse(chu_upd$stock.id==310,max(chum$stock.id)+1,chu_upd$stock.id) #remove duplicate stock ids, make new one for extra stock
 
-#add info
-chum_info[nrow(chum_info)+1,1:9]=c(max(chu_upd$stock.id),'Chum',unique(chu_upd$stock)[10],'Inside WA','Inside WA','WA',48.1618, 123.59,23)
-
-chum_source[24,1:2]=c(24,'Marisa Litz, WDFW, 2023')
-chum_info$source.id[1:9]=24
-chum_info$ocean.region[nrow(chum_info)]='SC'
-
 chum2<- subset(chum, stock %notin% chu_upd$stock) #Drop out older data for Fraser R stocks
-chu_upd2=chu_upd[,1:9];
-chu_upd2$recruits.2=NA;chu_upd2[,11:13]=chu_upd[,10:12];chu_upd2$recruits.6=NA;chu_upd2$recruits.7=NA
+chu_upd2=chu_upd[,1:7];
+chu_upd2$recruits.2=NA;chu_upd2[,9:11]=chu_upd[,8:10];chu_upd2$recruits.6=NA;chu_upd2$recruits.7=NA
 chu_upd2$age=chu_upd$age
-names(chu_upd2)[6]='broodyear'
+names(chum2)[4]='broodyear'
+names(chu_upd2)[4]='broodyear'
 
 chum2<- rbind(chu_upd2,chum2)
 length(unique(chum2$stock))
@@ -679,7 +673,7 @@ pse_chum$broodyear=pse_chum$year
 
 chum3<- dplyr::full_join(chum2,pse_chum)
 
-#remove old statistical area run-reconstructions
+#remove old statistical area run-reconstructions - superceded by more recent PSF estimates
 chum_info$lon=c(0-as.numeric(chum_info$lon))
 chum_info<- subset(chum_info, stock %notin% c("Area 10", "Area 9", "Area 8", "Area 7", "Area 6", "Area 5", "Area 4", "Area 3", "Area 2W", "Area 2E", "Area 1"))
 chum3<- subset(chum3, stock %notin% c("Area 10", "Area 9", "Area 8", "Area 7", "Area 6", "Area 5", "Area 4", "Area 3", "Area 2W", "Area 2E", "Area 1"))
@@ -743,12 +737,10 @@ names(pi_upd)[1]='stock.id'
 #add info
 pink_info[nrow(pink_info)+1,1:9]=c('Pink',unique(pi_upd$stock)[8],'SC','Inside WA','WA',47.101, -122.706,max(as.numeric(pink_source$source.id))+1,NA)
 pink_info[nrow(pink_info)+1,1:9]=c('Pink',unique(pi_upd$stock)[9],'SC','Inside WA','WA',47.16, -122.91,max(as.numeric(pink_source$source.id))+1,NA)
-pink_source[nrow(pink_source)+1,1:2]=c(max(as.numeric(pink_source$source.id))+1,'M. Litz, WDFW, April 2023')
-pink_info$source.id[1:7]=max(as.numeric(pink_source$source.id))
 
 pink2<- subset(pink, stock %notin% pi_upd$stock) #Drop out older data for Fraser R stocks
-pi_upd2=pi_upd[,1:9]
-names(pi_upd2)[6]='broodyear'
+pi_upd2=pi_upd[,1:7]
+names(pi_upd2)[4]='broodyear'
 
 pink2<- rbind(pi_upd2,pink2)
 length(unique(pink2$stock))
@@ -887,14 +879,13 @@ pink_info <- pink_info %>% #drop north and central coast stocks that have been r
 #Add in Cowichan chinook and update info
 chinook=rbind(chinook,cow_chin) #add in S-R data
 chinook_info$sub.region=gsub('Southeast','Southeast Alaska',chinook_info$sub.region) #synonymize the sub regions
-chinook_info$sub.region=gsub('Kuskokwim','Arctic-Yukon-Kuskokwim',chinook_info$sub.region) #synonymize the sub regions
 chinook_info$sub.region=gsub('Alaska Peninsula and Aleutian Islands','AK Peninsula',chinook_info$sub.region) #synonymize the sub regions
 
 
-chinook_info[nrow(chinook_info)+1,1:7]=c(333,'Chinook','Cowichan','SC','BC South','BC South','BC');chinook_info$lat[nrow(chinook_info)]=48.7581;chinook_info$lon[nrow(chinook_info)]=-123.6242;chinook_info$source.id[nrow(chinook_info)]=max(chinook_source$source.id)+1 #add in metadata
-chinook_info[nrow(chinook_info)+1,1:7]=c(334,'Chinook','Harrison','SC','Fraser','Fraser','BC');chinook_info$lat[nrow(chinook_info)]=sockeye_info$lat[2];chinook_info$lon[nrow(chinook_info)]=sockeye_info$lon[2];chinook_info$source.id[nrow(chinook_info)]=max(chinook_source$source.id)+1 #add in metadata
-chinook_info[nrow(chinook_info)+1,1:7]=c(335,'Chinook','Lower Shuswap','SC','Fraser','Fraser','BC');chinook_info$lat[nrow(chinook_info)]=sockeye_info$lat[2];chinook_info$lon[nrow(chinook_info)]=sockeye_info$lon[2];chinook_info$source.id[nrow(chinook_info)]=max(chinook_source$source.id) #add in metadata
-chinook_info[nrow(chinook_info)+1,1:7]=c(336,'Chinook','Nicola','SC','Fraser','Fraser','BC');chinook_info$lat[nrow(chinook_info)]=sockeye_info$lat[2];chinook_info$lon[nrow(chinook_info)]=sockeye_info$lon[2];chinook_info$source.id[nrow(chinook_info)]=max(chinook_source$source.id)+1 #add in metadata
+chinook_info[nrow(chinook_info)+1,1:7]=c(NA,'Chinook','Cowichan','SC','BC South','BC South','BC');chinook_info$lat[nrow(chinook_info)]=48.7581;chinook_info$lon[nrow(chinook_info)]=-123.6242;chinook_info$source.id[nrow(chinook_info)]=max(chinook_source$source.id)+1 #add in metadata
+chinook_info[nrow(chinook_info)+1,1:7]=c(NA,'Chinook','Harrison','SC','Fraser','Fraser','BC');chinook_info$lat[nrow(chinook_info)]=sockeye_info$lat[2];chinook_info$lon[nrow(chinook_info)]=sockeye_info$lon[2];chinook_info$source.id[nrow(chinook_info)]=max(chinook_source$source.id)+1 #add in metadata
+chinook_info[nrow(chinook_info)+1,1:7]=c(NA,'Chinook','Lower Shuswap','SC','Fraser','Fraser','BC');chinook_info$lat[nrow(chinook_info)]=sockeye_info$lat[2];chinook_info$lon[nrow(chinook_info)]=sockeye_info$lon[2];chinook_info$source.id[nrow(chinook_info)]=max(chinook_source$source.id) #add in metadata
+chinook_info[nrow(chinook_info)+1,1:7]=c(NA,'Chinook','Nicola','SC','Fraser','Fraser','BC');chinook_info$lat[nrow(chinook_info)]=sockeye_info$lat[2];chinook_info$lon[nrow(chinook_info)]=sockeye_info$lon[2];chinook_info$source.id[nrow(chinook_info)]=max(chinook_source$source.id)+1 #add in metadata
 chinook_source[nrow(chinook_source)+1,1]=max(chinook_source$source.id)+1;chinook_source[nrow(chinook_source),3]='K Cantera, DFO, 2022' #add in source
 chinook_source[nrow(chinook_source)+1,1]=max(chinook_source$source.id)+1;chinook_source[nrow(chinook_source),3]='C Parken, DFO, 2022' #add in source
 chinook_source[nrow(chinook_source)+1,1]=max(chinook_source$source.id)+1;chinook_source[nrow(chinook_source),3]='L Warkentin, DFO, 2022' #add in source
@@ -1046,7 +1037,7 @@ for(i in 1:length(unique(skeena_chin$stock))){
   stock_dat_temp[,4]=54.2237 #lat need to do these (one for Skeena estuary and one for Nass)
   stock_dat_temp[,5]=-129.831 #lon 
   stock_dat_temp[,6]='Skeena'
-  stock_dat_temp[,7]='NC'
+  stock_dat_temp[,7]='SEAK-NBC'
   stock_dat_temp[,8]='BC'
   
   stock_dat_temp[,9]=min(s$broodyear)
@@ -1327,7 +1318,7 @@ for(i in 1:length(unique(pse_coho$stock))){
   stock_dat_temp[,4]=coho_pse_i$lat[i] #lat need to do these (one for Skeena estuary and one for Nass)
   stock_dat_temp[,5]=coho_pse_i$lon[i] #lon 
   stock_dat_temp[,6]=coho_pse_i$region[i]
-  if(coho_pse_i$region[i]=='Skeena'|coho_pse_i$region[i]=='Nass'|coho_pse_i$region[i]=='Haida Gwaii'){stock_dat_temp[,7]='NC'}else{stock_dat_temp[,7]='SC'}
+  if(coho_pse_i$region[i]=='Skeena'|coho_pse_i$region[i]=='Nass'|coho_pse_i$region[i]=='Haida Gwaii'){stock_dat_temp[,7]='SEAK-NBC'}else{stock_dat_temp[,7]='SC'}
   stock_dat_temp[,8]='BC'
   
   stock_dat_temp[,9]=min(s$year)
@@ -1351,7 +1342,6 @@ coho_filtered = do.call(plyr::rbind.fill,coho_list)
 #Print out data####
 filtered_productivity_data=full_join(chinook_filtered,chum_filtered) %>% full_join(coho_filtered) %>% full_join(pink_filtered) %>% full_join(sockeye_filtered)
 filtered_productivity_data=subset(filtered_productivity_data,spawners>1)
-filtered_productivity_data=left_join(chinook_filtered,coho_filtered)%>% full_join(chum_filtered) %>% full_join(pink_filtered) %>% full_join(sockeye_filtered)
 
 #Stock overview
 stock_dat= subset(stock_dat,n.years>9)
