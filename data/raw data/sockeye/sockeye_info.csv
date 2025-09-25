@@ -1,41 +1,41 @@
 Stock.ID,Species,Stock,Date.data.obtained,Date.data.incorporated,Ocean.Region,Region,Sub.Region,Jurisdiction,Lat,Lon,Source.ID,Comment..we.will.update.this.later.
-101,Sockeye,Washington,3/1/2017,9/12/2017,SC,WA,WA,WA,47.48,-122.42,1,Hatchery component of the run was removed; FW age assumed to be 1.X.  These sockeye grow fast in the lake.
-102,Sockeye,Early Stuart,7/1/2017,9/12/2017,SC,Fraser River,Fraser Early Stuart,BC,49.12,-123.06,4,NA
-103,Sockeye,Bowron,7/1/2017,9/12/2017,SC,Fraser River,Fraser Early Summer,BC,49.12,-123.06,4,NA
-104,Sockeye,Fennell,7/1/2017,9/12/2017,SC,Fraser River,Fraser Early Summer,BC,49.12,-123.06,4,NA
-105,Sockeye,Gates,7/1/2017,9/12/2017,SC,Fraser River,Fraser Early Summer,BC,49.12,-123.06,4,Spawning channel
-106,Sockeye,Nadina,7/1/2017,9/12/2017,SC,Fraser River,Fraser Early Summer,BC,49.12,-123.06,4,Spawning channel
-107,Sockeye,Pitt,7/1/2017,9/12/2017,SC,Fraser River,Fraser Early Summer,BC,49.12,-123.06,4,Large hatchery influence that could not be separated out
-108,Sockeye,Raft,7/1/2017,9/12/2017,SC,Fraser River,Fraser Early Summer,BC,49.12,-123.06,4,NA
-109,Sockeye,Scotch,7/1/2017,9/12/2017,SC,Fraser River,Fraser Early Summer,BC,49.12,-123.06,4,NA
-110,Sockeye,Seymour,7/1/2017,9/12/2017,SC,Fraser River,Fraser Early Summer,BC,49.12,-123.06,4,NA
-111,Sockeye,Chilko,7/1/2017,9/12/2017,SC,Fraser River,Fraser Summer,BC,49.12,-123.06,4,Lake fertilization occurred in 1987 and 1989-1992
-112,Sockeye,Late Stuart,7/1/2017,9/12/2017,SC,Fraser River,Fraser Summer,BC,49.12,-123.06,4,NA
-113,Sockeye,Quesnel,7/1/2017,9/12/2017,SC,Fraser River,Fraser Summer,BC,49.12,-123.06,4,NA
-114,Sockeye,Stellako,7/1/2017,9/12/2017,SC,Fraser River,Fraser Summer,BC,49.12,-123.06,4,NA
-115,Sockeye,Birkenhead,7/1/2017,9/12/2017,SC,Fraser River,Fraser Late,BC,49.12,-123.06,4,NA
-116,Sockeye,Cultus,7/1/2017,9/12/2017,SC,Fraser River,Fraser Late,BC,49.12,-123.06,4,Hatchery fish released starting in 2000
-117,Sockeye,Harrison,7/1/2017,9/12/2017,SC,Fraser River,Fraser Late,BC,49.12,-123.06,4,Fry go to sea at BY+1
-118,Sockeye,Late Shuswap,7/1/2017,9/12/2017,SC,Fraser River,Fraser Late,BC,49.12,-123.06,4,NA
-119,Sockeye,Portage,7/1/2017,9/12/2017,SC,Fraser River,Fraser Late,BC,49.12,-123.06,4,NA
-120,Sockeye,Weaver,7/1/2017,9/12/2017,SC,Fraser River,Fraser Late,BC,49.12,-123.06,4,Spawning channel present
-121,Sockeye,Great Central,9/1/2017,9/13/2017,SC,BC South,Barkley Sound,BC,49.24,-124.82,9,NA
-122,Sockeye,Sproat,9/1/2017,9/13/2017,SC,BC South,Barkley Sound,BC,49.24,-124.82,9,NA
-123,Sockeye,Long Lake,9/1/2017,9/13/2017,SC,BC Central,BC Central,BC,51.29,-127.68,8,NA
-124,Sockeye,Owikeno Lake,9/1/2017,9/13/2017,SC,BC Central,BC Central,BC,51.68,-127.25,8,NA
-125,Sockeye,Atnarko,NA,NA,SC,BC Central,BC Central,BC,52.38,-126.78,NA,NA
-126,Sockeye,Skeena,NA,NA,SC,BC North,BC North,BC,54.01,-130.11,NA,NA
-127,Sockeye,Nass (Meziadin),NA,NA,SC,BC North,BC North,BC,54.96,-129.9,12,NA
-128,Sockeye,McDonald,NA,NA,SC,SEAK,SEAK,AK,55.85,-131.75,NA,"Stock Recruit Analysis, 1979 - 2002 brood years."
-129,Sockeye,Redoubt,8/22/2017,9/13/2017,SC,SEAK,SEAK,AK,56.9,-135.33,2,Dominant age classes estimated from escapement age; Used RR 1 sheet.
-130,Sockeye,Speel,8/22/2017,9/13/2017,SC,SEAK,SEAK,AK,57.97,-133.87,2,Dominant age classes estimated from escapement age; missing values present. Sockeye hatchery nearby.  Some hatchery fry stocked.  Therefore excluded Speel
-131,Sockeye,Chilkoot,8/2/2017,9/13/2017,SC,SEAK,SEAK,AK,58.92,-135.23,2,NA
-132,Sockeye,Chilkat,NA,NA,SC,SEAK,SEAK,AK,58.92,-135.23,NA,"Chilkat has has periodic fry stocking, so excluded.  Brood table is being updated but not available."
-133,Sockeye,Klukshu,NA,NA,SC,Yakutat,Yakutat,AK,59.12,-138.66,NA,NA
-134,Sockeye,East Alsek,NA,NA,SC,Yakutat,Yakutat,AK,59.12,-138.66,NA,Stock-recruit analysis for brood years 1972 to 1990; separate stock-recruit analysis for brood years 1991 to 1997.
-135,Sockeye,Alsek,NA,NA,SC,Yakutat,Yakutat,AK,59.12,-138.66,NA,"Stock-recruit analysis, using brood years 1976 to 1992"
-136,Sockeye,Italio,NA,NA,SC,Yakutat,Yakutat,AK,59.28,-139.11,NA,NA
-137,Sockeye,Situk,NA,NA,SC,Yakutat,Yakutat,AK,59.45,-139.62,NA,Stock-recruit analysis using brood years 1976 to 1997
+101,Sockeye,Washington,3/1/2017,9/12/2017,SC,South Coast,WA,WA,47.48,-122.42,1,Hatchery component of the run was removed; FW age assumed to be 1.X.  These sockeye grow fast in the lake.
+102,Sockeye,Early Stuart,7/1/2017,9/12/2017,SC,Fraser,Fraser Early Stuart,BC,49.12,-123.06,4,NA
+103,Sockeye,Bowron,7/1/2017,9/12/2017,SC,Fraser,Fraser Early Summer,BC,49.12,-123.06,4,NA
+104,Sockeye,Fennell,7/1/2017,9/12/2017,SC,Fraser,Fraser Early Summer,BC,49.12,-123.06,4,NA
+105,Sockeye,Gates,7/1/2017,9/12/2017,SC,Fraser,Fraser Early Summer,BC,49.12,-123.06,4,Spawning channel
+106,Sockeye,Nadina,7/1/2017,9/12/2017,SC,Fraser,Fraser Early Summer,BC,49.12,-123.06,4,Spawning channel
+107,Sockeye,Pitt,7/1/2017,9/12/2017,SC,Fraser,Fraser Early Summer,BC,49.12,-123.06,4,Large hatchery influence that could not be separated out
+108,Sockeye,Raft,7/1/2017,9/12/2017,SC,Fraser,Fraser Early Summer,BC,49.12,-123.06,4,NA
+109,Sockeye,Scotch,7/1/2017,9/12/2017,SC,Fraser,Fraser Early Summer,BC,49.12,-123.06,4,NA
+110,Sockeye,Seymour,7/1/2017,9/12/2017,SC,Fraser,Fraser Early Summer,BC,49.12,-123.06,4,NA
+111,Sockeye,Chilko,7/1/2017,9/12/2017,SC,Fraser,Fraser Summer,BC,49.12,-123.06,4,Lake fertilization occurred in 1987 and 1989-1992
+112,Sockeye,Late Stuart,7/1/2017,9/12/2017,SC,Fraser,Fraser Summer,BC,49.12,-123.06,4,NA
+113,Sockeye,Quesnel,7/1/2017,9/12/2017,SC,Fraser,Fraser Summer,BC,49.12,-123.06,4,NA
+114,Sockeye,Stellako,7/1/2017,9/12/2017,SC,Fraser,Fraser Summer,BC,49.12,-123.06,4,NA
+115,Sockeye,Birkenhead,7/1/2017,9/12/2017,SC,Fraser,Fraser Late,BC,49.12,-123.06,4,NA
+116,Sockeye,Cultus,7/1/2017,9/12/2017,SC,Fraser,Fraser Late,BC,49.12,-123.06,4,Hatchery fish released starting in 2000
+117,Sockeye,Harrison,7/1/2017,9/12/2017,SC,Fraser,Fraser Late,BC,49.12,-123.06,4,Fry go to sea at BY+1
+118,Sockeye,Late Shuswap,7/1/2017,9/12/2017,SC,Fraser,Fraser Late,BC,49.12,-123.06,4,NA
+119,Sockeye,Portage,7/1/2017,9/12/2017,SC,Fraser,Fraser Late,BC,49.12,-123.06,4,NA
+120,Sockeye,Weaver,7/1/2017,9/12/2017,SC,Fraser,Fraser Late,BC,49.12,-123.06,4,Spawning channel present
+121,Sockeye,Great Central,9/1/2017,9/13/2017,SC,South Coast,Barkley Sound,BC,49.24,-124.82,9,NA
+122,Sockeye,Sproat,9/1/2017,9/13/2017,SC,South Coast,Barkley Sound,BC,49.24,-124.82,9,NA
+123,Sockeye,Long Lake,9/1/2017,9/13/2017,SC,Central Coast,BC Central,BC,51.29,-127.68,8,NA
+124,Sockeye,Owikeno Lake,9/1/2017,9/13/2017,SC,Central Coast,BC Central,BC,51.68,-127.25,8,NA
+125,Sockeye,Atnarko,NA,NA,SC,Central Coast,BC Central,BC,52.38,-126.78,NA,NA
+126,Sockeye,Skeena,NA,NA,NC,North Coast,BC North,BC,54.01,-130.11,NA,NA
+127,Sockeye,Nass (Meziadin),NA,NA,NC,North Coast,BC North,BC,54.96,-129.9,12,NA
+128,Sockeye,McDonald,NA,NA,NC,SEAK,SEAK,AK,55.85,-131.75,NA,"Stock Recruit Analysis, 1979 - 2002 brood years."
+129,Sockeye,Redoubt,8/22/2017,9/13/2017,NC,SEAK,SEAK,AK,56.9,-135.33,2,Dominant age classes estimated from escapement age; Used RR 1 sheet.
+130,Sockeye,Speel,8/22/2017,9/13/2017,NC,SEAK,SEAK,AK,57.97,-133.87,2,Dominant age classes estimated from escapement age; missing values present. Sockeye hatchery nearby.  Some hatchery fry stocked.  Therefore excluded Speel
+131,Sockeye,Chilkoot,8/2/2017,9/13/2017,NC,SEAK,SEAK,AK,58.92,-135.23,2,NA
+132,Sockeye,Chilkat,NA,NA,NC,SEAK,SEAK,AK,58.92,-135.23,NA,"Chilkat has has periodic fry stocking, so excluded.  Brood table is being updated but not available."
+133,Sockeye,Klukshu,NA,NA,NC,Yakutat,Yakutat,AK,59.12,-138.66,NA,NA
+134,Sockeye,East Alsek,NA,NA,NC,Yakutat,Yakutat,AK,59.12,-138.66,NA,Stock-recruit analysis for brood years 1972 to 1990; separate stock-recruit analysis for brood years 1991 to 1997.
+135,Sockeye,Alsek,NA,NA,NC,Yakutat,Yakutat,AK,59.12,-138.66,NA,"Stock-recruit analysis, using brood years 1976 to 1992"
+136,Sockeye,Italio,NA,NA,NC,Yakutat,Yakutat,AK,59.28,-139.11,NA,NA
+137,Sockeye,Situk,NA,NA,NC,Yakutat,Yakutat,AK,59.45,-139.62,NA,Stock-recruit analysis using brood years 1976 to 1997
 138,Sockeye,Copper,,,GoA,PWS,PWS,AK,60.46,-144.96,"5,17",
 139,Sockeye,Coghill,8/22/2017,8/22/2017,GoA,PWS,PWS,AK,61.06,-147.94,2,"Returns are harvested in various districts prior to the Coghill District. Stock-of-origin is estimated based on the timing and location of harvest and, sometimes, from available scale pattern analysis."
 140,Sockeye,Eshamy,8/22/2017,8/22/2017,GoA,PWS,PWS,AK,60.47,-147.94,2,"the weir was replaced in ~2012 with a video system that has not been entirely successful. Thus, only data until 2012 should be used for brood-year returns."
@@ -64,5 +64,5 @@ Stock.ID,Species,Stock,Date.data.obtained,Date.data.incorporated,Ocean.Region,Re
 163,Sockeye,Togiak,12/1/2016,9/13/2017,BS,Bristol Bay,Bristol Bay North,AK,58.95,-160.45,11,NA
 164,Sockeye,Goodnews,8/22/2017,9/6/2017,BS,AYK,AYK,AK,59.11,-161.62,7,"Middle Fork of Goodnews River was provided to Rich Brenner by Zachary Liller, ADF&G Research Coordinator for AYK (Division of Commercial Fisheries), on 22 August 2017."
 165,Sockeye,Early Russian,,NA,GoA,Cook Inlet,Upper Cook Inlet,AK,60.54,-151.28,15,
-166,Sockeye,Ford Arm Lake,,,SEAK-NBC,SEAK,Southeast,AK,57.58192,-135.9153,13,
+166,Sockeye,Ford Arm Lake,,,NC,SEAK,Southeast,AK,57.58192,-135.9153,13,
 167,Sockeye,Buskin,,,GoA,Kodiak,Kodiak,AK,57.75812,-152.4784,14,

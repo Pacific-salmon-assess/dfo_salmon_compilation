@@ -1,14 +1,14 @@
 Stock.ID,Species,Stock,Ocean.Region,Region,Sub.Region,Jurisdiction,Lat,Lon,Source.ID
 101,Coho,Buskin River,GoA,Westward,Kodiak,AK,57.75812,-152.4784,1
 102,Coho,Kuskokwim River,BS,AYK,Kuskokwim,AK,61.10037,-160.9961,2
-103,Coho,Auke Creek,SEAK-NBC,Southeast,SEAK,AK,58.38052,-134.6419,4
-104,Coho,Berners River,SEAK-NBC,Southeast,SEAK,AK,58.8464,-134.97,"3,4"
-105,Coho,Ford Arm Lake,SEAK-NBC,Southeast,SEAK,AK,57.58192,-135.9153,6
-106,Coho,Hugh Smith Lake,SEAK-NBC,Southeast,SEAK,AK,55.09855,-130.6461,4
-107,Coho,Akwe River,SEAK-NBC,Southeast,SEAK,AK,59.2929349,-139.09307,5
-108,Coho,East Alsek River,SEAK-NBC,Southeast,SEAK,AK,59.10379,-138.5086,5
-109,Coho,Italio River,SEAK-NBC,Southeast,SEAK,AK,59.3129858,-139.15364,5
-110,Coho,Kaliakh River,GoA,Southeast,SEAK,AK,60.0873,-142.9378,5
-111,Coho,Lost River,SEAK-NBC,Southeast,SEAK,AK,59.45382,-139.6239,5
-112,Coho,Situk River,SEAK-NBC,Southeast,SEAK,AK,59.44609,-139.5678,5
-113,Coho,Tsiu River,GoA,Southeast,SEAK,AK,60.0777512,-143.09116,5
+103,Coho,Auke Creek,NC,Southeast,S SEAK,AK,58.38052,-134.6419,4
+104,Coho,Berners River,NC,Southeast,S SEAK,AK,58.8464,-134.97,"3,4"
+105,Coho,Ford Arm Lake,NC,Southeast,S SEAK,AK,57.58192,-135.9153,6
+106,Coho,Hugh Smith Lake,NC,Southeast,S SEAK,AK,55.09855,-130.6461,4
+107,Coho,Akwe River,NC,Southeast,N SEAK,AK,59.2929349,-139.09307,5
+108,Coho,East Alsek River,NC,Southeast,N SEAK,AK,59.10379,-138.5086,5
+109,Coho,Italio River,NC,Southeast,N SEAK,AK,59.3129858,-139.15364,5
+110,Coho,Kaliakh River,GoA,Southeast,Central AK,AK,60.0873,-142.9378,5
+111,Coho,Lost River,NC,Southeast,N SEAK,AK,59.45382,-139.6239,5
+112,Coho,Situk River,NC,Southeast,N SEAK,AK,59.44609,-139.5678,5
+113,Coho,Tsiu River,GoA,Southeast,Central AK,AK,60.0777512,-143.09116,5

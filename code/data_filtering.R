@@ -147,15 +147,16 @@ bb_sock<<- subset(sockeye, stock %in% bb_soc[,1])
 
 sockeye2<- subset(sockeye, stock %notin% psc_fraser_sockeye$stock) #Drop out older data for Fraser R stocks
 sockeye2<- subset(sockeye2, stock %notin% bb_soc[,1]) #Drop out older data for Bristol Bay stocks
-sockeye2<- subset(sockeye2, stock %notin% kasilof_soc[,1]) #Drop out older data for Bristol Bay stocks
-sockeye2<- subset(sockeye2, stock %notin% kenai_soc[,1]) #Drop out older data for Bristol Bay stocks
-sockeye2<- subset(sockeye2, stock %notin% mfgn_soc[,1]) #Drop out older data for Bristol Bay stocks
-sockeye2<- subset(sockeye2, stock %notin% seak_soc[,1]) #Drop out older data for Bristol Bay stocks
-sockeye2<- subset(sockeye2, stock %notin% ww_soc[,1]) #Drop out older data for Bristol Bay stocks
+sockeye2<- subset(sockeye2, stock %notin% kasilof_soc[,1]) #Drop out older data
+sockeye2<- subset(sockeye2, stock %notin% kenai_soc[,1]) #Drop out older data
+sockeye2<- subset(sockeye2, stock %notin% mfgn_soc[,1]) #Drop out older data 
+sockeye2<- subset(sockeye2, stock %notin% seak_soc[,1]) #Drop out older data
+sockeye2<- subset(sockeye2, stock %notin% ww_soc[,1]) #Drop out older data
 sockeye2<- subset(sockeye2, stock %notin% 'Skeena') #drop Skeena (have updated data in another source)
 sockeye2<- subset(sockeye2, stock %notin% 'Nass (Meziadin)') #drop Meziadin (have updated data in another source)
 sockeye2<- subset(sockeye2, stock %notin% 'Goodnews') #drop Goodnews (have updated data in another source)
 sockeye2<- subset(sockeye2, stock %notin% 'Owikeno') #drop Goodnews (have updated data in another source)
+
 #remove these stocks that are updated in the westward series (different names)
 sockeye2<- subset(sockeye2, stock %notin% c('Early Upper Station','Late Upper Station','Chignik Lake','Early Karluk','Late Karluk'))
 length(unique(sockeye2$stock))
@@ -249,7 +250,7 @@ for(i in 1:length(unique(skeena_sockeye$stock))){
   stock_dat_temp[,4]=54.22 #lat need to do these (one for Skeena estuary and one for Nass)
   stock_dat_temp[,5]=-129.831 #lon 
   stock_dat_temp[,6]='Skeena'
-  stock_dat_temp[,7]='SEAK-NBC'
+  stock_dat_temp[,7]='NC'
   stock_dat_temp[,8]='BC'
   
   stock_dat_temp[,9]=min(s$broodyear)
@@ -280,7 +281,7 @@ for(i in 1:length(unique(nass_sockeye$stock))){
   stock_dat_temp[,4]= 54.99 #lat - approx ocean entry from google maps
   stock_dat_temp[,5]=-130.02 #lon - approx ocean entry from google maps
   stock_dat_temp[,6]='Nass'
-  stock_dat_temp[,7]='SEAK-NBC'
+  stock_dat_temp[,7]='NC'
   stock_dat_temp[,8]='BC'
   
   stock_dat_temp[,9]=min(s$broodyear)
@@ -299,7 +300,7 @@ for(i in 1:length(unique(nass_sockeye$stock))){
 #PSE - other Sockeye stocks
 pse_soc=subset(pse_df,species_name=='Lake sockeye')
 s_info_soc=distinct(pse_soc,cu_name_pse,.keep_all=T)
-s_info_soc$region=gsub('Vancouver Island & Mainland Inlets','Vancouver Island',s_info_soc$region)
+s_info_soc$region=gsub('Vancouver Island & Mainland Inlets','South Coast',s_info_soc$region)
 
 #lat/lons for each stock
 s_info_soc$lat=NA;s_info_soc$lon=NA
@@ -341,7 +342,7 @@ for(i in 1:nrow(s_info_soc)){
   stock_dat_temp[,4]=s_info_soc$lat[i]
   stock_dat_temp[,5]=s_info_soc$lon[i] #lon - approx ocean entry from google maps
   stock_dat_temp[,6]=s_info_soc$region[i]
-  if(s_info_soc$region[i]=='Nass'|s_info_soc$region[i]=='Haida Gwaii'){stock_dat_temp[,7]='SEAK-NBC'}else{stock_dat_temp[,7]='SC'}
+  if(s_info_soc$region[i]=='Nass'|s_info_soc$region[i]=='Haida Gwaii'){stock_dat_temp[,7]='NC'}else{stock_dat_temp[,7]='SC'}
   stock_dat_temp[,8]='BC'
   
   stock_dat_temp[,9]=min(s$year)
@@ -412,7 +413,7 @@ stock_dat_temp[,2]='Sockeye'
 stock_dat_temp[,3]=paste(unique(kasilof_soc$stock),'Sockeye',sep='-')
 stock_dat_temp[,4]=kasilof_info$lat #lat 
 stock_dat_temp[,5]=kasilof_info$lon #lon
-stock_dat_temp[,6]=kasilof_info$region #Gulf of Alaska
+stock_dat_temp[,6]=kasilof_info$region #Cook inlet
 stock_dat_temp[,7]='GoA' #Gulf of Alaska
 stock_dat_temp[,8]='AK' #Alaska
 
@@ -442,7 +443,7 @@ stock_dat_temp[,2]='Sockeye'
 stock_dat_temp[,3]=paste(unique(kenai_soc$stock),'Sockeye',sep='-')
 stock_dat_temp[,4]=kenai_info$lat #lat 
 stock_dat_temp[,5]=kenai_info$lon #lon
-stock_dat_temp[,6]=kenai_info$region #Gulf of Alaska
+stock_dat_temp[,6]=kenai_info$region #Cook Inlet
 stock_dat_temp[,7]='GoA' #Gulf of Alaska
 stock_dat_temp[,8]='AK' #Alaska
 
@@ -474,7 +475,7 @@ stock_dat_temp[,2]='Sockeye'
 stock_dat_temp[,3]=paste(unique(mfgn_soc$stock),'Sockeye',sep='-')
 stock_dat_temp[,4]=mfgn_info$lat #lat 
 stock_dat_temp[,5]=mfgn_info$lon #lon
-stock_dat_temp[,6]=mfgn_info$region
+stock_dat_temp[,6]=mfgn_info$region #AYK
 stock_dat_temp[,7]='BS' #Bering sea
 stock_dat_temp[,8]='AK' #Alaska
 
@@ -506,7 +507,7 @@ for(i in 1:length(unique(seak_soc$stock))){
   stock_dat_temp[,4]=sockeye_info$lat[match(unique(s$stock),sockeye_info$stock)] #lat 
   stock_dat_temp[,5]=sockeye_info$lon[match(unique(s$stock),sockeye_info$stock)] #lon
   stock_dat_temp[,6]=sockeye_info$region[match(unique(s$stock),sockeye_info$stock)] 
-  stock_dat_temp[,7]='SEAK-NBC' #Southeast Alaska/Northern BC
+  stock_dat_temp[,7]='NC' #Southeast Alaska/Northern BC
   stock_dat_temp[,8]='AK' #Alaska
   
   stock_dat_temp[,9]=min(s$broodyear)
@@ -522,10 +523,16 @@ for(i in 1:length(unique(seak_soc$stock))){
 }
 
 #Westward stocks - kodiak
-ww_info=data.frame(stock=unique(ww_soc$Stock))
+names(ww_soc)[1:3]=c('stock','broodyear','spawners')
+names(ww_soc)[4:25]=gsub('X','r',names(ww_soc[4:25]))
+ww_soc$recruits=rowSums(ww_soc[,4:25],na.rm=T)
+ww_soc$species='Sockeye'
+
+ww_info=data.frame(stock=unique(ww_soc$stock))
+ww_info$stock=gsub(' sockeye','',ww_info$stock)
 ww_info$lat=sockeye_info$lat[match(ww_info$stock,sockeye_info$stock)]
 ww_info$lon=sockeye_info$lon[match(ww_info$stock,sockeye_info$stock)]
-ww_info$region=c(rep('Kodiak',5),rep('Chignik',2),rep('Arctic-Yukon-Kuskokwim',2))
+ww_info$region=c(rep('Kodiak',5),rep('Chignik',2),rep('AYK',2))
 ww_info$ocean.region=sockeye_info$ocean.region[match(ww_info$stock,sockeye_info$stock)]
 ww_info[1:2,3]=sockeye_info$lon[sockeye_info$stock=='Late Upper Station']
 ww_info[1:2,2]=sockeye_info$lat[sockeye_info$stock=='Late Upper Station']
@@ -540,10 +547,7 @@ ww_info[6:7,2]=sockeye_info$lat[sockeye_info$stock=='Chignik Lake']
 ww_info[6:7,3]=sockeye_info$lon[sockeye_info$stock=='Chignik Lake']
 ww_info[6:7,5]=sockeye_info$ocean.region[sockeye_info$stock=='Chignik Lake']
 
-names(ww_soc)[1:3]=c('stock','broodyear','spawners')
-names(ww_soc)[4:25]=gsub('X','r',names(ww_soc[4:25]))
-ww_soc$recruits=rowSums(ww_soc[,4:25],na.rm=T)
-ww_soc$species='Sockeye'
+
 
 for(i in 1:length(unique(ww_soc[,1]))){
   s=subset(ww_soc,ww_soc[,1]==unique(ww_soc[,1])[i])
@@ -589,7 +593,7 @@ gcl.bt=gcl2[complete.cases(gcl2$recruits/gcl2$spawners),]
 names(gcl.bt)[1:2]=c('stock','broodyear')
 gcl.bt$species='Sockeye'
 
-stock_dat_temp=data.frame(stock.id=NA,species='Sockeye',stock.name='Great Central Lake-Sockeye',lat=49.24,lon=-124.8,region='Vancouver Island',ocean.basin='SC',state='BC',begin=min(gcl.bt[,2]),end=max(gcl.bt[,2]),n.years=nrow(gcl.bt),m.spawners=mean(gcl.bt$spawners)/1e3,m.recruits=max(gcl.bt$recruits)/1e3,source='Colin Bailey, DFO, 2023',url=NA,comments=NA, age=NA)
+stock_dat_temp=data.frame(stock.id=NA,species='Sockeye',stock.name='Great Central Lake-Sockeye',lat=49.24,lon=-124.8,region='South Coast',ocean.basin='SC',state='BC',begin=min(gcl.bt[,2]),end=max(gcl.bt[,2]),n.years=nrow(gcl.bt),m.spawners=mean(gcl.bt$spawners)/1e3,m.recruits=max(gcl.bt$recruits)/1e3,source='Colin Bailey, DFO, 2023',url=NA,comments=NA, age=NA)
 stock_dat=rbind(stock_dat,stock_dat_temp)
 sockeye_list[[nrow(stock_dat)]]=gcl.bt[,c('stock','species','broodyear','spawners','recruits',names(gcl.bt)[3:8])]
 
@@ -604,13 +608,14 @@ spt.bt=spt2[complete.cases(spt2$recruits/spt2$spawners),]
 names(spt.bt)[1:2]=c('stock','broodyear')
 spt.bt$species='Sockeye'
 
-stock_dat_temp=data.frame(stock.id=NA,species='Sockeye',stock.name='Sproat Lake-Sockeye',lat=49.24,lon=-124.8,region='Vancouver Island',ocean.basin='SC',state='BC',begin=min(spt.bt[,2]),end=max(spt.bt[,2]),n.years=nrow(spt.bt),m.spawners=mean(spt.bt$spawners)/1e3,m.recruits=mean(spt.bt$recruits)/1e3,source='Colin Bailey, DFO, 2023',url=NA,comments=NA, age=NA)
+stock_dat_temp=data.frame(stock.id=NA,species='Sockeye',stock.name='Sproat Lake-Sockeye',lat=49.24,lon=-124.8,region='South Coast',ocean.basin='SC',state='BC',begin=min(spt.bt[,2]),end=max(spt.bt[,2]),n.years=nrow(spt.bt),m.spawners=mean(spt.bt$spawners)/1e3,m.recruits=mean(spt.bt$recruits)/1e3,source='Colin Bailey, DFO, 2023',url=NA,comments=NA, age=NA)
 stock_dat=rbind(stock_dat,stock_dat_temp)
 sockeye_list[[nrow(stock_dat)]]=spt.bt[,c('stock','species','broodyear','recruits','spawners',names(spt.bt)[3:8])]
 
 #combine list of filtered datasets
 sockeye_filtered = do.call(plyr::rbind.fill, sockeye_list)
 length(unique(sockeye_filtered$stock))
+stock_dat=stock_dat[stock_dat$n.years>0,]
 
 #add age data flag to info sheet
 #stock_dat$age <- NA
@@ -1037,7 +1042,7 @@ for(i in 1:length(unique(skeena_chin$stock))){
   stock_dat_temp[,4]=54.2237 #lat need to do these (one for Skeena estuary and one for Nass)
   stock_dat_temp[,5]=-129.831 #lon 
   stock_dat_temp[,6]='Skeena'
-  stock_dat_temp[,7]='SEAK-NBC'
+  stock_dat_temp[,7]='NC'
   stock_dat_temp[,8]='BC'
   
   stock_dat_temp[,9]=min(s$broodyear)
@@ -1199,8 +1204,6 @@ chinook_filtered = do.call(plyr::rbind.fill, chinook_list)
 
 
 #Coho####
-coho_info$sub.region=gsub('Kuskokwim','Arctic-Yukon-Kuskokwim',coho_info$sub.region)
-coho_info$sub.region=gsub('Southeast','Southeast Alaska',coho_info$sub.region)
 coho_list=list()
 for(i in 1:length(unique(coho$stock.id))){
   s=subset(coho,stock.id==unique(coho$stock.id)[i])
@@ -1318,7 +1321,7 @@ for(i in 1:length(unique(pse_coho$stock))){
   stock_dat_temp[,4]=coho_pse_i$lat[i] #lat need to do these (one for Skeena estuary and one for Nass)
   stock_dat_temp[,5]=coho_pse_i$lon[i] #lon 
   stock_dat_temp[,6]=coho_pse_i$region[i]
-  if(coho_pse_i$region[i]=='Skeena'|coho_pse_i$region[i]=='Nass'|coho_pse_i$region[i]=='Haida Gwaii'){stock_dat_temp[,7]='SEAK-NBC'}else{stock_dat_temp[,7]='SC'}
+  if(coho_pse_i$region[i]=='Skeena'|coho_pse_i$region[i]=='Nass'|coho_pse_i$region[i]=='Haida Gwaii'){stock_dat_temp[,7]='NC'}else{stock_dat_temp[,7]='SC'}
   stock_dat_temp[,8]='BC'
   
   stock_dat_temp[,9]=min(s$year)
