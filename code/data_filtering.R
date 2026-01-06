@@ -759,7 +759,6 @@ pse_pk=subset(pse_pk,stock!='Fraser River (odd)') #have updated PSC data for thi
 pse_pk$use=1
 pse_pk$broodyear=pse_pk$year
 
-
 pink3<- dplyr::full_join(pink2,pse_pk)
 
 pink3$stock<- gsub(" (even)", "", pink3$stock, fixed=T) # drop (even) and (odd)

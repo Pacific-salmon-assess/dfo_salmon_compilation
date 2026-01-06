@@ -10,7 +10,7 @@ Stock.ID,Species,Stock,Ocean.Region,Region,Sub.Region,Jurisdiction,Lat,Lon,Sourc
 109,Chinook,King Salmon River,NC,Southeast,SEAK,AK,58.0420026,-134.34145,5
 110,Chinook,Stikine,NC,Southeast,SEAK,AK,56.6917175,-132.21863,5
 111,Chinook,Unuk,NC,Southeast,SEAK,AK,56.0768125,-131.077,5
-112,Chinook,Alsek/Klukshu,NC,Southeast,SEAK,AK,60.11632,-137.033,5
+112,Chinook,Alsek/Klukshu,NC,Southeast,SEAK,AK,59.106,-138.63,5
 113,Chinook,Situk,NC,Southeast,SEAK,AK,59.4579521,-139.57143,5
 117,Chinook,Nushagak,BS,Bristol Bay,Bristol Bay,AK,58.9061423,-157.73358,7
 120,Chinook,Unalakleet,BS,Norton Sound,Norton Sound,AK,63.89104,-160.47841,10
