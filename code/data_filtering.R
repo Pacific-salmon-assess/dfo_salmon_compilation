@@ -115,7 +115,7 @@ nicola_chin<-read.csv(here('data','raw data','chinook','Nicola_chinook_broodtabl
 skeena_chin<-read.csv(here('data','raw data','chinook','ckSkeena.csv'))
 
 #(partially) synonymize column names for sanity
-colnames(sockeye)<- tolower(names(sockeye));colnames(sockeye_info)<- tolower(names(sockeye_info));colnames(sockeye_source)<- tolower(names(sockeye_source))
+colnames(sockeye)<- tolower(names(sockeye));colnames(sockeye_info)<- tolower(names(sockeye_info));colnames(sockeye_source)<- tolower(names(sockeye_source));colnames(skeena_nass_sockeye)<- tolower(names(skeena_nass_sockeye))
 names(chum)<- gsub('.yr','year',names(chum)) #make the brood years equivalent
 names(pink)<- gsub('.yr','year',names(pink))  #make the brood years equivalent
 colnames(coho)<- tolower(names(coho));colnames(coho_info)<- tolower(names(coho_info));colnames(coho_source)<- tolower(names(coho_source));names(coho_source)[1]='source.id'
@@ -265,7 +265,7 @@ for(i in 1:length(unique(skeena_nass_sockeye$stock))){
   
   stock_dat=rbind(stock_dat,stock_dat_temp)
   
-  sockeye_list[[nrow(stock_dat)]]=s[,c('stock','species','broodyear','spawners','recruits',names(s)[7:11])]
+  sockeye_list[[nrow(stock_dat)]]=s[,c('stock','species','broodyear','spawners','recruits', paste0("r", 3:7))]
 }
 
 
