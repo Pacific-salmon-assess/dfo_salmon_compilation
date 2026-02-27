@@ -7,7 +7,7 @@ source(here('code','functions.R'))
 #Read datasets####
 #sockeye
 sockeye<- read.csv(here('data','raw data','sockeye','sockeye_data.csv'));sockeye_info<- read.csv(here('data','raw data','sockeye','sockeye_info.csv'));sockeye_source<- read.csv(here('data','raw data','sockeye','sockeye_sources.csv'))
-psc_fraser_sockeye<- read.csv(here('data','raw data','sockeye','PSC_Fraser_broodtables.csv'))
+psc_fraser_sockeye<- read.csv(here('data','raw data','sockeye','Production Data_Summary Format.csv'))
 skeena_nass_sockeye<- read.csv(here('data','raw data','sockeye','Skeena_Nass_soc_broodtable.csv'))
 #bb_sockeye<- read.csv(here('data','raw data','sockeye','Bristol Bay Spawner-Recruit Data.csv'))
 somass_soc<- read.csv(here('data','raw data','sockeye','Somass_stock_recruit_1977-2022.csv'))
@@ -200,17 +200,14 @@ for(i in 1:length(unique(sockeye2$stock))){
 }
 
 #Fraser sockeye stocks - PSC 2022 production dataset
-psc_fraser_sockeye=psc_fraser_sockeye[grepl('Misc.',psc_fraser_sockeye$stock)==F,] #remove the miscellaneous stocks - mostly short series
-
+psc_fraser_sockeye$stock=gsub('Misc. ','',psc_fraser_sockeye$production_stock_name)
+  
 for(i in 1:length(unique(psc_fraser_sockeye$stock))){
   s=subset(psc_fraser_sockeye,production_stock_code==unique(psc_fraser_sockeye$production_stock_code)[i])
   s= s %>% mutate(recruits = rowSums(s[,9:21],na.rm = TRUE))
   s$species<- rep('Sockeye',nrow(s))
-  #to determine whether to use effective female spawners or total spawners based on data availability
-  if(length(na.omit(s$total_broodyr_EFS))<length(na.omit(s$total_broodyr_spawners))){
-   names(s)[4]='spawners' 
-  }
   names(s)[5]='spawners' #use effective female spawners for these stocks
+  s=s[complete.cases(s$spawners),]
   
   stock_dat_temp=data.frame(stock.id=NA,species=NA,stock.name=NA,lat=NA,lon=NA,region=NA,ocean.basin=NA,state=NA,begin=NA,end=NA,n.years=NA,m.spawners=NA,m.recruits=NA,source=NA,url=NA,comments=NA)
   
@@ -227,7 +224,7 @@ for(i in 1:length(unique(psc_fraser_sockeye$stock))){
   stock_dat_temp[,11]=length(s$broodyear)
   stock_dat_temp[,12]=mean(s$spawners)/1e3
   stock_dat_temp[,13]=mean(s$recruits)/1e3
-  stock_dat_temp[,14]='E. Taylor, Pacific Salmon Commission, 2022'
+  stock_dat_temp[,14]='E. Taylor, Pacific Salmon Commission, 2026'
 
   stock_dat=rbind(stock_dat,stock_dat_temp)
   
