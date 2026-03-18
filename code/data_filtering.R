@@ -22,18 +22,14 @@ ww_soc<- read.csv(here('data','raw data','sockeye','Westward Brood tables_2023.c
 
 ###
 pse_ncc <- read.csv(here('data','raw data','multispecies','CC_age_2023_03_03.csv')) #updated PSE north and central coast data 
-pse_all <- read.csv(here('data','raw data','multispecies','PSE_all_spp_RS.2023-Sep-20.csv')) #updated PSE data 
 pse_ncc$Total=ifelse(pse_ncc$Total==0,NA,pse_ncc$Total)
 pse_ncc$Escape=ifelse(pse_ncc$Escape==0,NA,pse_ncc$Escape)
-pse_all$recruits=ifelse(pse_all$recruits==0,NA,pse_all$recruits)
-pse_all$spawners=ifelse(pse_all$spawners==0,NA,pse_all$spawners)
-
 
 
 #pacific salmon explorer
-pse=read.csv(here('data','raw data','multispecies','dataset5_recruits_per_spawner.csv'))
+pse=read.csv(here('data','raw data','multispecies','dataset5_recruits_per_spawner (1).csv'))
 dqpse=read.csv(here('data','raw data','multispecies','dataset390_data_quality.csv'))
-hdq=dqpse[dqpse$dq_score_recruits_per_spawner>1&dqpse$dq_score_spawner_abundance>0&dqpse$dq_score_catch_run_size>0,]
+hdq=dqpse[dqpse$dq_score_recruits_per_spawner>1&dqpse$dq_score_spawner_abundance>1&dqpse$dq_score_catch_run_size>0,]
 
 pse_chum=subset(hdq,species_name=='Chum')
 pse_chin=subset(hdq,species_name=='Chinook')
@@ -200,7 +196,7 @@ for(i in 1:length(unique(sockeye2$stock))){
 }
 
 #Fraser sockeye stocks - PSC 2022 production dataset
-psc_fraser_sockeye$stock=gsub('Misc. ','',psc_fraser_sockeye$production_stock_name)
+psc_fraser_sockeye$stock=gsub('Misc. ','',psc_fraser_sockeye$stock)
   
 for(i in 1:length(unique(psc_fraser_sockeye$stock))){
   s=subset(psc_fraser_sockeye,production_stock_code==unique(psc_fraser_sockeye$production_stock_code)[i])
@@ -268,34 +264,31 @@ for(i in 1:length(unique(skeena_nass_sockeye$stock))){
 
 
 #PSE - other Sockeye stocks
-pse_soc=subset(pse_df,species_name=='Lake sockeye')
+pse_soc=subset(pse_df,species_name=='Sockeye')
 s_info_soc=distinct(pse_soc,cu_name_pse,.keep_all=T)
-s_info_soc$region=gsub('Vancouver Island & Mainland Inlets','South Coast',s_info_soc$region)
+s_info_soc$region=gsub('East Vancouver Island & Mainland Inlets','South Coast',s_info_soc$region)
+colnames(pse_soc)[6]='broodyear' #change year to broodyear
 
+pse_info=distinct(pse_soc,cu_name_pse,.keep_all=T)
 #lat/lons for each stock
 s_info_soc$lat=NA;s_info_soc$lon=NA
-s_info_soc$lat[1]=t=51.68;s_info_soc$lon[1]=-127.306 #owikeno
-s_info_soc$lat[2]=t=53.08;s_info_soc$lon[2]=-128.555 #canoona
-s_info_soc$lat[3]=t=53.56;s_info_soc$lon[3]=-128.958 #evelyn
-s_info_soc$lat[4]=t=52.75;s_info_soc$lon[4]=-127.886 #kainet cr
-s_info_soc$lat[5]=t=52.246;s_info_soc$lon[5]=-127.892 #kitlope
-s_info_soc$lat[6]=t=52.87;s_info_soc$lon[6]=-128.69 #bloomfield
-s_info_soc$lat[7]=t=53.42;s_info_soc$lon[7]=-129.247 #hartley b
-s_info_soc$lat[8]=t=52.16;s_info_soc$lon[8]=-128.046 #Kadjusdis R
-s_info_soc$lat[9]=t=51.77;s_info_soc$lon[9]=-127.885 #Koeye R
-s_info_soc$lat[10]=t=53.34;s_info_soc$lon[10]=-129.867 #Kooryet R
-s_info_soc$lat[11]=t=53.56;s_info_soc$lon[11]=-129.574 #Lower/Simpson/WEir
-s_info_soc$lat[12]=t=51.86;s_info_soc$lon[12]=-127.868 #Namu R.
-s_info_soc$lat[13]=t=52.12;s_info_soc$lon[13]=-127.852 #Port John
-s_info_soc$lat[14]=t=52.60;s_info_soc$lon[14]=-128.45 #Roderick
-s_info_soc$lat[15]=t=52.29;s_info_soc$lon[15]=-128.259 #Tankeeah Riv.
-s_info_soc$lat[16]=t=53.36;s_info_soc$lon[16]=-129.46 #Tsimtack/Moore/Roger
-s_info_soc$lat[17]=t=52.295;s_info_soc$lon[17]=-128.115 #Yeo L
-s_info_soc$lat[18]=t=50.576;s_info_soc$lon[18]=-126.96 #Nimpkish L
-s_info_soc$lat[19]=t=53.665;s_info_soc$lon[19]=-132.523 #Awun L
-s_info_soc$lat[20]=t=53.975;s_info_soc$lon[20]=-132.643 #Marian/Eden L
-s_info_soc$lat[21]=t=53.167;s_info_soc$lon[21]=-131.789 #Skidgate L
-s_info_soc$lat[22]=t=53.682;s_info_soc$lon[22]=-132.235 #Yakoun L
+s_info_soc$lat[match('Owikeno',s_info_soc$cu_name_pse)]=51.68;s_info_soc$lon[match('Owikeno',s_info_soc$cu_name_pse)]=-127.306 #owikeno
+s_info_soc$lat[match('Canoona',s_info_soc$cu_name_pse)]=53.08;s_info_soc$lon[match('Canoona',s_info_soc$cu_name_pse)]=-128.555 #canoona
+s_info_soc$lat[match('Evelyn',s_info_soc$cu_name_pse)]=53.56;s_info_soc$lon[match('Evelyn',s_info_soc$cu_name_pse)]=-128.958 #evelyn
+s_info_soc$lat[match('Kainet Creek',s_info_soc$cu_name_pse)]=52.75;s_info_soc$lon[match('Kainet Creek',s_info_soc$cu_name_pse)]=-127.886 #kainet cr
+s_info_soc$lat[match('Hartley Bay',s_info_soc$cu_name_pse)]=53.42;s_info_soc$lon[match('Hartley Bay',s_info_soc$cu_name_pse)]=-129.247 #hartley b
+s_info_soc$lat[match('Koeye',s_info_soc$cu_name_pse)]=51.77;s_info_soc$lon[match('Koeye',s_info_soc$cu_name_pse)]=-127.885 #Koeye R
+s_info_soc$lat[match('Kwakwa Creek',s_info_soc$cu_name_pse)]=52.55;s_info_soc$lon[match('Kwakwa Creek',s_info_soc$cu_name_pse)]=-128.73 #Kwakwa crk
+s_info_soc$lat[match('Namu',s_info_soc$cu_name_pse)]=51.86;s_info_soc$lon[match('Namu',s_info_soc$cu_name_pse)]=-127.868 #Namu R.
+s_info_soc$lat[match('Port John',s_info_soc$cu_name_pse)]=52.12;s_info_soc$lon[match('Port John',s_info_soc$cu_name_pse)]=-127.852 #Port John
+s_info_soc$lat[match('Roderick',s_info_soc$cu_name_pse)]=52.60;s_info_soc$lon[match('Roderick',s_info_soc$cu_name_pse)]=-128.45 #Roderick
+s_info_soc$lat[match('Tankeeah River',s_info_soc$cu_name_pse)]=52.29;s_info_soc$lon[match('Tankeeah River',s_info_soc$cu_name_pse)]=-128.259 #Tankeeah Riv.
+s_info_soc$lat[match('Tsimtack/Moore/Roger',s_info_soc$cu_name_pse)]=53.36;s_info_soc$lon[match('Tsimtack/Moore/Roger',s_info_soc$cu_name_pse)]=-129.46 #Tsimtack/Moore/Roger
+s_info_soc$lat[match('Nimpkish',s_info_soc$cu_name_pse)]=50.576;s_info_soc$lon[match('Nimpkish',s_info_soc$cu_name_pse)]=-126.96 #Nimpkish L
+s_info_soc$lat[match('Awun',s_info_soc$cu_name_pse)]=53.665;s_info_soc$lon[match('Awun',s_info_soc$cu_name_pse)]=-132.523 #Awun L
+s_info_soc$lat[match('Marian/Eden',s_info_soc$cu_name_pse)]=53.975;s_info_soc$lon[match('Marian/Eden',s_info_soc$cu_name_pse)]=-132.643 #Marian/Eden L
+s_info_soc$lat[match('Skidegate',s_info_soc$cu_name_pse)]=53.167;s_info_soc$lon[match('Skidegate',s_info_soc$cu_name_pse)]=-131.789 #Skidgate L
+s_info_soc$lat[match('Yakoun',s_info_soc$cu_name_pse)]=53.682;s_info_soc$lon[match('Yakoun',s_info_soc$cu_name_pse)]=-132.235 #Yakoun L
 
 
 for(i in 1:nrow(s_info_soc)){
@@ -309,20 +302,19 @@ for(i in 1:nrow(s_info_soc)){
   
   stock_dat_temp[,2]='Sockeye'
   stock_dat_temp[,3]=paste(unique(s$cu_name_pse),'Sockeye',sep='-')
-  stock_dat_temp[,4]=s_info_soc$lat[i]
-  stock_dat_temp[,5]=s_info_soc$lon[i] #lon - approx ocean entry from google maps
-  stock_dat_temp[,6]=s_info_soc$region[i]
-  if(s_info_soc$region[i]=='Nass'|s_info_soc$region[i]=='Haida Gwaii'){stock_dat_temp[,7]='NC'}else{stock_dat_temp[,7]='SC'}
+  stock_dat_temp[,4]=s_info_soc$lat[match(unique(s$cu_name_pse),s_info_soc$cu_name_pse)]
+  stock_dat_temp[,5]=s_info_soc$lon[match(unique(s$cu_name_pse),s_info_soc$cu_name_pse)] #lon - approx ocean entry from google maps
+  stock_dat_temp[,6]=s_info_soc$region[match(unique(s$cu_name_pse),s_info_soc$cu_name_pse)]
+  if(s_info_soc$region[match(unique(s$cu_name_pse),s_info_soc$cu_name_pse)]=='Nass'|s_info_soc$region[match(unique(s$cu_name_pse),s_info_soc$cu_name_pse)]=='Haida Gwaii'){stock_dat_temp[,7]='NC'}else{stock_dat_temp[,7]='SC'}
   stock_dat_temp[,8]='BC'
   
-  stock_dat_temp[,9]=min(s$year)
-  stock_dat_temp[,10]=max(s$year)
-  stock_dat_temp[,11]=length(s$year)
+  stock_dat_temp[,9]=min(s$broodyear)
+  stock_dat_temp[,10]=max(s$broodyear)
+  stock_dat_temp[,11]=length(s$broodyear)
   stock_dat_temp[,12]=mean(s$spawners)/1e3
   stock_dat_temp[,13]=mean(s$recruits)/1e3
   stock_dat_temp[,14]='Pacific Salmon Foundation. 2025. Pacific Salmon Explorer.'
   stock_dat_temp[,15]=NA
-  colnames(s)[5]='broodyear'
   
   stock_dat=rbind(stock_dat,stock_dat_temp)
   
@@ -639,7 +631,7 @@ pse_chum2 <- pse_ncc %>%
   select(species, stock, ocean.region, sub.region, broodyear, spawners, recruits, use,recruits.2, recruits.3, recruits.4, recruits.5, recruits.6, recruits.7, age)
 
 ##
-pse_chum[,14:19]=pse_chum2[match(paste(pse_chum$cu_name_pse,pse_chum$year),paste(pse_chum2$stock,pse_chum2$broodyear)),9:14]
+pse_chum[,12:17]=pse_chum2[match(paste(pse_chum$cu_name_pse,pse_chum$year),paste(pse_chum2$stock,pse_chum2$broodyear)),9:14]
 pse_chum$broodyear=pse_chum$year
 
 
@@ -717,11 +709,10 @@ pink2<- rbind(pi_upd2,pink2)
 length(unique(pink2$stock))
 
 #add in PSE pink data and generate a file for H. Hunter project
-pse_pk=subset(pse_df,species_name=='Pink (even)'|species_name=='Pink (odd)')
+pse_pk=subset(pse_df,species_name=='Pink')
 pse_pk$stock=stringr::str_replace_all(pse_pk$cu_name_pse,c('East'='E','North'='N','West'='W'))
 
 pse_pk$region=gsub('Vancouver Island & Mainland Inlets','Vancouver Island',pse_pk$region)
-pse_pk=subset(pse_pk,stock!='Fraser River (odd)') #have updated PSC data for this stock
 pse_pk$use=1
 pse_pk$broodyear=pse_pk$year
 
@@ -1024,12 +1015,6 @@ for(i in 1:length(unique(skeena_chin$stock))){
 pse_chin=subset(pse_df,species_name=='Chinook')
 pse_chin$stock=pse_chin$cu_name_pse
 unique(pse_chin$stock)
-pse_chin_i=distinct(pse_chin,stock,.keep_all = T)
-
-pse_chin_i$lat=c(54.82,54.82,51.68,52.31,52.78,53.34)
-pse_chin_i$lon=c(-130.25
-,130.25
-,-127.304,-126.99,-126.977,-129.19)
 cl=length(chinook_list)
 for(i in 1:length(unique(pse_chin$stock))){
   s=subset(pse_chin,stock==unique(pse_chin$stock)[i])
@@ -1040,10 +1025,10 @@ for(i in 1:length(unique(pse_chin$stock))){
   
   stock_dat_temp[,2]='Chinook'
   stock_dat_temp[,3]=paste(unique(s$stock),'Chinook',sep="-")
-  stock_dat_temp[,4]=pse_chin_i$lat[i] #lat need to do these (one for Skeena estuary and one for Nass)
-  stock_dat_temp[,5]=pse_chin_i$lon[i] #lon 
-  stock_dat_temp[,6]=pse_chin_i$region[i]
-  if(pse_chin_i$region[i]=='Nass'){stock_dat_temp[,7]='NC'}else{stock_dat_temp[,7]='SC'}
+  stock_dat_temp[,4]=chinook_info$lat[i] 
+  stock_dat_temp[,5]=chinook_info$lon[i] #lon 
+  stock_dat_temp[,6]=chinook_info$sub.region[i]
+  stock_dat_temp[,7]=chinook_info$ocean.region[i]
   stock_dat_temp[,8]='BC'
   
   stock_dat_temp[,9]=min(s$year)
@@ -1251,21 +1236,7 @@ for(i in 1:length(unique(ifr_coho$stock))){
 #PSE coho series
 pse_coho=subset(pse_df,species_name=='Coho')
 pse_coho$stock=pse_coho$cu_name_pse
-coho_pse_i=distinct(pse_coho,stock,.keep_all=T)
 
-coho_pse_i$lat=c(54.09,54.09,54.09,54.82,54.82
-,54.82,52.35,
-52.49,52.93,
-52.8,53)
-coho_pse_i$lon=c(-130.21
-,130.21
-,130.21
-,-130.25
-,-130.25
-,-130.25,-128.52
-,-129.44,-129.5
-,-132.4
-,-132.5)
 
 cl=length(coho_list)
 for(i in 1:length(unique(pse_coho$stock))){
@@ -1278,10 +1249,10 @@ for(i in 1:length(unique(pse_coho$stock))){
   stock_dat_temp[,1]=NA
   stock_dat_temp[,2]='Coho'
   stock_dat_temp[,3]=paste(unique(s$stock),'Coho',sep="-")
-  stock_dat_temp[,4]=coho_pse_i$lat[i] #lat need to do these (one for Skeena estuary and one for Nass)
-  stock_dat_temp[,5]=coho_pse_i$lon[i] #lon 
-  stock_dat_temp[,6]=coho_pse_i$region[i]
-  if(coho_pse_i$region[i]=='Skeena'|coho_pse_i$region[i]=='Nass'|coho_pse_i$region[i]=='Haida Gwaii'){stock_dat_temp[,7]='NC'}else{stock_dat_temp[,7]='SC'}
+  stock_dat_temp[,4]=coho_info$lat[match(unique(s$stock),coho_info$stock)] #lat need to do these (one for Skeena estuary and one for Nass)
+  stock_dat_temp[,5]=coho_info$lon[match(unique(s$stock),coho_info$stock)] #lon 
+  stock_dat_temp[,6]=coho_info$region[match(unique(s$stock),coho_info$stock)]
+  stock_dat_temp[,7]=coho_info$ocean.region[match(unique(s$stock),coho_info$stock)]
   stock_dat_temp[,8]='BC'
   
   stock_dat_temp[,9]=min(s$year)
@@ -1289,7 +1260,7 @@ for(i in 1:length(unique(pse_coho$stock))){
   stock_dat_temp[,11]=length(s$year)
   stock_dat_temp[,12]=mean(s$spawners)/1e3
   stock_dat_temp[,13]=mean(s$recruits)/1e3
-  stock_dat_temp[,14]='Pacific Salmon Explorer, PSF, 2022'
+  stock_dat_temp[,14]='Pacific Salmon Foundation. 2025. Pacific Salmon Explorer.'
 
   
   stock_dat=rbind(stock_dat,stock_dat_temp)

@@ -47,3 +47,7 @@ Stock.ID,Species,Stock,Ocean.Region,Region,Sub.Region,Jurisdiction,Lat,Lon,Sourc
 151,Chinook,Upper Yukon,BS,AYK,Yukon,AK,62.55,-165,18
 152,Chinook,White,BS,AYK,Yukon,AK,62.55,-165,18
 153,Chinook,Teslin,BS,AYK,Yukon,AK,62.55,-165,18
+154,Chinook,Portland Sound-Observatory Inlet-Lower Nass,NC,Nass,Nass,BC,54.82,-130.25,
+155,Chinook,Upper Nass,NC,Nass,Nass,BC,54.82,-130.25,
+156,Chinook,Rivers Inlet,SC,Central Coast,Central Coast,BC,51.68,-127.3,
+157,Chinook,Dean River,SC,Central Coast,Central Coast,BC,52.78,-126.95,

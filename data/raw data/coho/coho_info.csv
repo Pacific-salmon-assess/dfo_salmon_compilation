@@ -12,3 +12,12 @@ Stock.ID,Species,Stock,Ocean.Region,Region,Sub.Region,Jurisdiction,Lat,Lon,Sourc
 111,Coho,Lost River,NC,Southeast,N SEAK,AK,59.45382,-139.6239,5
 112,Coho,Situk River,NC,Southeast,N SEAK,AK,59.44609,-139.5678,5
 113,Coho,Tsiu River,GoA,Southeast,Central AK,AK,60.0777512,-143.09116,5
+114,Coho,Lower Skeena,NC,Skeena,Skeena,BC,54.09,-130.21,
+115,Coho,Middle Skeena,NC,Skeena,Skeena,BC,54.09,-130.21,
+116,Coho,Upper Skeena,NC,Skeena,Skeena,BC,54.09,-130.21,
+117,Coho,Lower Nass,NC,Nass,Nass,BC,54.82,-130.25,
+118,Coho,Upper Nass,NC,Nass,Nass,BC,54.82,-130.25,
+119,Coho,Mussel-Kynoch,SC,Central Coast,Central Coast,BC,52.85,-128.15,
+120,Coho,Hecate Strait Mainland,SC,Central Coast,Central Coast,BC,52.22,-128.6,
+121,Coho,Northern Coastal Streams,SC,Central Coast,Central Coast,BC,53.3,-129.2,
+122,Coho,East Haida Gwaii,NC,Haida Gwaii,Haida Gwaii,BC,52.75,-131.27,
