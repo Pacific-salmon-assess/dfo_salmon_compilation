@@ -10,3 +10,10 @@ gr_to_euro<-function(x){
   eur.names <- paste0("r", f_age, ".", oc_age)
   return(eur.names)
 }
+
+format_name <- function(x) {
+  x <- gsub("_ck$", " creek", x)
+  x <- gsub("_lk$", " lake", x)
+  x <- gsub("_", " ", x)
+  tools::toTitleCase(x)
+}

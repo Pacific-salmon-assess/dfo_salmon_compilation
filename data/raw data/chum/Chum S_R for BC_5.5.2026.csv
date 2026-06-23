@@ -1,0 +1,530 @@
+﻿stock.id,species,stock,region,sub.region,brood.yr,spawners,recruits,use,recruits.3,recruits.4,recruits.5,age
+301,Chum,Willapa Bay,Outside WA,Outside WA,1968,13200,102452,1,37698,58088,6666,data
+301,Chum,Willapa Bay,Outside WA,Outside WA,1969,33900,49559,1,17844,30950,764,data
+301,Chum,Willapa Bay,Outside WA,Outside WA,1970,23100,32833,1,9999,22833,0,data
+301,Chum,Willapa Bay,Outside WA,Outside WA,1971,37600,28026,1,21350,6531,145,data
+301,Chum,Willapa Bay,Outside WA,Outside WA,1972,22400,70218,1,27309,42910,0,data
+301,Chum,Willapa Bay,Outside WA,Outside WA,1973,14500,10955,1,5213,5742,0,data
+301,Chum,Willapa Bay,Outside WA,Outside WA,1974,12200,86085,1,42111,43012,963,data
+301,Chum,Willapa Bay,Outside WA,Outside WA,1975,12600,5535,1,3689,1846,0,data
+301,Chum,Willapa Bay,Outside WA,Outside WA,1976,16500,38112,1,5216,30579,2318,data
+301,Chum,Willapa Bay,Outside WA,Outside WA,1977,40200,60299,1,34344,25415,539,data
+301,Chum,Willapa Bay,Outside WA,Outside WA,1978,18900,157372,1,12809,118238,26324,data
+301,Chum,Willapa Bay,Outside WA,Outside WA,1979,6915,40598,1,16044,22651,1903,data
+301,Chum,Willapa Bay,Outside WA,Outside WA,1980,37300,49807,1,19046,30188,572,data
+301,Chum,Willapa Bay,Outside WA,Outside WA,1981,22120,57537,1,33273,23396,869,data
+301,Chum,Willapa Bay,Outside WA,Outside WA,1982,66889,115368,1,47578,61141,6649,data
+301,Chum,Willapa Bay,Outside WA,Outside WA,1983,20871,42103,1,4811,30519,6773,data
+301,Chum,Willapa Bay,Outside WA,Outside WA,1984,42635,250667,1,59197,173355,18115,data
+301,Chum,Willapa Bay,Outside WA,Outside WA,1985,52703,16437,1,2746,12135,1556,data
+301,Chum,Willapa Bay,Outside WA,Outside WA,1986,34040,34375,1,4924,18420,11030,data
+301,Chum,Willapa Bay,Outside WA,Outside WA,1987,31884,45533,1,643,39726,5164,data
+301,Chum,Willapa Bay,Outside WA,Outside WA,1988,61947,138232,1,16606,93331,28295,data
+301,Chum,Willapa Bay,Outside WA,Outside WA,1989,17056,23074,1,2245,16260,4569,data
+301,Chum,Willapa Bay,Outside WA,Outside WA,1990,17762,26924,1,3554,19151,4219,data
+301,Chum,Willapa Bay,Outside WA,Outside WA,1991,33959,23160,1,7660,14806,694,data
+301,Chum,Willapa Bay,Outside WA,Outside WA,1992,37068,27442,1,7540,18898,1005,data
+301,Chum,Willapa Bay,Outside WA,Outside WA,1993,31017,25933,1,2211,18052,5670,data
+301,Chum,Willapa Bay,Outside WA,Outside WA,1994,30526,79110,1,14435,59548,5127,data
+301,Chum,Willapa Bay,Outside WA,Outside WA,1995,24695,18093,1,10016,7590,487,data
+301,Chum,Willapa Bay,Outside WA,Outside WA,1996,20011,50096,1,13080,34269,2747,data
+301,Chum,Willapa Bay,Outside WA,Outside WA,1997,33314,50276,1,11915,30841,7520,data
+301,Chum,Willapa Bay,Outside WA,Outside WA,1998,65101,61052,1,18931,39345,2777,data
+301,Chum,Willapa Bay,Outside WA,Outside WA,1999,24512,131944,1,44017,74465,13463,data
+301,Chum,Willapa Bay,Outside WA,Outside WA,2000,40030,98884,1,6641,85882,6361,data
+301,Chum,Willapa Bay,Outside WA,Outside WA,2001,29389,32312,1,14158,16946,1208,data
+301,Chum,Willapa Bay,Outside WA,Outside WA,2002,59243,24546,1,4612,18390,1544,data
+301,Chum,Willapa Bay,Outside WA,Outside WA,2003,47347,17236,1,2940,13475,821,data
+301,Chum,Willapa Bay,Outside WA,Outside WA,2004,84021,13317,1,2337,9521,1458,data
+301,Chum,Willapa Bay,Outside WA,Outside WA,2005,11924,8590,1,2184,5796,610,data
+301,Chum,Willapa Bay,Outside WA,Outside WA,2006,14717,31604,1,9984,20111,1509,data
+301,Chum,Willapa Bay,Outside WA,Outside WA,2007,17085,91053,1,5665,67096,18292,data
+301,Chum,Willapa Bay,Outside WA,Outside WA,2008,9008,22096,1,1082,18883,2131,data
+301,Chum,Willapa Bay,Outside WA,Outside WA,2009,12629,18332,1,5414,11735,1183,data
+301,Chum,Willapa Bay,Outside WA,Outside WA,2010,24546,32520,1,7417,22766,2337,data
+301,Chum,Willapa Bay,Outside WA,Outside WA,2011,65764,50834,1,6185,35278,9371,data
+301,Chum,Willapa Bay,Outside WA,Outside WA,2012,25519,88433,1,10625,72275,5533,data
+301,Chum,Willapa Bay,Outside WA,Outside WA,2013,23642,13002,1,4341,8204,457,data
+301,Chum,Willapa Bay,Outside WA,Outside WA,2014,25612,17938,1,7965,9546,427,data
+301,Chum,Willapa Bay,Outside WA,Outside WA,2015,44147,61144,1,33660,26786,698,data
+301,Chum,Willapa Bay,Outside WA,Outside WA,2016,78725,48441,1,16466,30574,1401,data
+301,Chum,Willapa Bay,Outside WA,Outside WA,2017,20191,61201,1,27683,30656,2862,data
+301,Chum,Willapa Bay,Outside WA,Outside WA,2018,38582,120695,1,56886,62193,1616,data
+301,Chum,Willapa Bay,Outside WA,Outside WA,2019,40893,72328,1,25926,39043,7359,data
+301,Chum,Willapa Bay,Outside WA,Outside WA,2020,52747,130080,1,15346,100808,13926,data
+302,Chum,Grays Harbour,Outside WA,Outside WA,1969,11150,46157,1,14133,30493,1530,data
+302,Chum,Grays Harbour,Outside WA,Outside WA,1970,15700,39290,1,13211,25666,413,data
+302,Chum,Grays Harbour,Outside WA,Outside WA,1971,10250,16840,1,11054,5785,0,data
+302,Chum,Grays Harbour,Outside WA,Outside WA,1972,8000,48667,1,18110,29710,847,data
+302,Chum,Grays Harbour,Outside WA,Outside WA,1973,12350,19860,1,3486,16137,238,data
+302,Chum,Grays Harbour,Outside WA,Outside WA,1974,8300,37622,,18882,18741,,data
+302,Chum,Grays Harbour,Outside WA,Outside WA,1975,11750,2171,,2036,,135,data
+302,Chum,Grays Harbour,Outside WA,Outside WA,1976,11650,21235,,,20256,979,data
+302,Chum,Grays Harbour,Outside WA,Outside WA,1977,21000,55516,1,24623,26436,4457,data
+302,Chum,Grays Harbour,Outside WA,Outside WA,1978,11000,99948,1,10243,79956,9750,data
+302,Chum,Grays Harbour,Outside WA,Outside WA,1979,,16351,,6367,9518,465,data
+302,Chum,Grays Harbour,Outside WA,Outside WA,1980,24700,32511,1,19268,13019,224,data
+302,Chum,Grays Harbour,Outside WA,Outside WA,1981,18050,56007,1,33012,20380,2616,data
+302,Chum,Grays Harbour,Outside WA,Outside WA,1982,35100,75005,1,24187,47770,3048,data
+302,Chum,Grays Harbour,Outside WA,Outside WA,1983,21000,19300,1,1936,15308,2056,data
+302,Chum,Grays Harbour,Outside WA,Outside WA,1984,23700,193236,1,49377,132554,11305,data
+302,Chum,Grays Harbour,Outside WA,Outside WA,1985,31300,10288,1,2330,6760,1199,data
+302,Chum,Grays Harbour,Outside WA,Outside WA,1986,19550,13438,1,991,9133,3314,data
+302,Chum,Grays Harbour,Outside WA,Outside WA,1987,9475,34178,1,1618,29740,2820,data
+302,Chum,Grays Harbour,Outside WA,Outside WA,1988,62175,108456,1,12350,78548,17558,data
+302,Chum,Grays Harbour,Outside WA,Outside WA,1989,9080,25037,1,1576,16837,6624,data
+302,Chum,Grays Harbour,Outside WA,Outside WA,1990,8972,24885,1,3489,15741,5655,data
+302,Chum,Grays Harbour,Outside WA,Outside WA,1991,17936,9415,1,2594,6300,520,data
+302,Chum,Grays Harbour,Outside WA,Outside WA,1992,38300,21960,1,8442,13197,321,data
+302,Chum,Grays Harbour,Outside WA,Outside WA,1993,21059,18932,1,3022,11031,4879,data
+302,Chum,Grays Harbour,Outside WA,Outside WA,1994,24592,34802,1,2611,29657,2534,data
+302,Chum,Grays Harbour,Outside WA,Outside WA,1995,12616,7014,1,3918,2979,116,data
+302,Chum,Grays Harbour,Outside WA,Outside WA,1996,12413,17446,1,9623,6777,1046,data
+302,Chum,Grays Harbour,Outside WA,Outside WA,1997,13456,26061,1,3851,16137,6073,data
+302,Chum,Grays Harbour,Outside WA,Outside WA,1998,35188,35939,1,8693,25884,1362,data
+302,Chum,Grays Harbour,Outside WA,Outside WA,1999,12260,81208,1,32771,44153,4283,data
+302,Chum,Grays Harbour,Outside WA,Outside WA,2000,8936,28395,1,3153,22695,2546,data
+302,Chum,Grays Harbour,Outside WA,Outside WA,2001,24898,23737,1,4966,17510,1261,data
+302,Chum,Grays Harbour,Outside WA,Outside WA,2002,56175,16690,1,1307,12688,2695,data
+302,Chum,Grays Harbour,Outside WA,Outside WA,2003,37947,9027,1,1217,7524,286,data
+302,Chum,Grays Harbour,Outside WA,Outside WA,2004,17063,5627,1,1512,3307,808,data
+302,Chum,Grays Harbour,Outside WA,Outside WA,2005,14490,17548,1,2713,12280,2554,data
+302,Chum,Grays Harbour,Outside WA,Outside WA,2006,10826,40589,1,5868,33107,1614,data
+302,Chum,Grays Harbour,Outside WA,Outside WA,2007,11051,61441,1,6529,44190,10721,data
+302,Chum,Grays Harbour,Outside WA,Outside WA,2008,3938,27600,1,2531,22077,2992,data
+302,Chum,Grays Harbour,Outside WA,Outside WA,2009,14585,34977,1,4222,28306,2449,data
+302,Chum,Grays Harbour,Outside WA,Outside WA,2010,33537,33647,1,7856,22249,3542,data
+302,Chum,Grays Harbour,Outside WA,Outside WA,2011,29043,40019,1,2787,32257,4974,data
+302,Chum,Grays Harbour,Outside WA,Outside WA,2012,25452,79759,1,10995,61169,7594,data
+302,Chum,Grays Harbour,Outside WA,Outside WA,2013,21284,14543,1,2230,11717,596,data
+302,Chum,Grays Harbour,Outside WA,Outside WA,2014,14711,24537,1,8733,15168,636,data
+302,Chum,Grays Harbour,Outside WA,Outside WA,2015,33705,57455,1,26422,30469,564,data
+302,Chum,Grays Harbour,Outside WA,Outside WA,2016,62811,22594,1,7414,14605,575,data
+302,Chum,Grays Harbour,Outside WA,Outside WA,2017,18627,39430,1,17381,20306,1742,data
+302,Chum,Grays Harbour,Outside WA,Outside WA,2018,28413,109024,1,39709,66272,3042,data
+302,Chum,Grays Harbour,Outside WA,Outside WA,2019,27930,107667,1,20475,83892,3300,data
+302,Chum,Grays Harbour,Outside WA,Outside WA,2020,23457,72515,1,16831,49598,6085,data
+303,Chum,S Sound Summer,Inside WA,Inside WA,1968,22007,128509,1,10005,116155,2349,data
+303,Chum,S Sound Summer,Inside WA,Inside WA,1969,3439,41801,1,17193,23863,745,data
+303,Chum,S Sound Summer,Inside WA,Inside WA,1970,5410,29271,1,15002,14125,144,data
+303,Chum,S Sound Summer,Inside WA,Inside WA,1971,4809,13755,1,7762,5916,77,data
+303,Chum,S Sound Summer,Inside WA,Inside WA,1972,33523,74853,1,2392,72371,90,data
+303,Chum,S Sound Summer,Inside WA,Inside WA,1973,9643,10407,1,4289,5938,180,data
+303,Chum,S Sound Summer,Inside WA,Inside WA,1974,19729,13737,1,4009,9678,50,data
+303,Chum,S Sound Summer,Inside WA,Inside WA,1975,5803,5537,1,5101,406,30,data
+303,Chum,S Sound Summer,Inside WA,Inside WA,1976,32743,7693,1,1065,5299,1329,data
+303,Chum,S Sound Summer,Inside WA,Inside WA,1977,3835,22230,1,9752,11656,822,data
+303,Chum,S Sound Summer,Inside WA,Inside WA,1978,5875,4837,1,1007,3303,527,data
+303,Chum,S Sound Summer,Inside WA,Inside WA,1979,1005,5448,1,2753,2524,171,data
+303,Chum,S Sound Summer,Inside WA,Inside WA,1980,7555,15112,1,1789,13013,310,data
+303,Chum,S Sound Summer,Inside WA,Inside WA,1981,6294,10129,1,5813,3867,449,data
+303,Chum,S Sound Summer,Inside WA,Inside WA,1982,4089,19455,1,3330,14690,1435,data
+303,Chum,S Sound Summer,Inside WA,Inside WA,1983,1769,16976,1,4351,10540,2085,data
+303,Chum,S Sound Summer,Inside WA,Inside WA,1984,8034,91579,1,15780,72281,3518,data
+303,Chum,S Sound Summer,Inside WA,Inside WA,1985,4022,43916,1,11902,28070,3944,data
+303,Chum,S Sound Summer,Inside WA,Inside WA,1986,10019,61065,1,5370,48864,6831,data
+303,Chum,S Sound Summer,Inside WA,Inside WA,1987,19058,28878,1,1972,21447,5459,data
+303,Chum,S Sound Summer,Inside WA,Inside WA,1988,31282,150290,1,11438,130441,8411,data
+303,Chum,S Sound Summer,Inside WA,Inside WA,1989,7424,31869,1,5459,19899,6511,data
+303,Chum,S Sound Summer,Inside WA,Inside WA,1990,14385,69011,1,7301,55085,6625,data
+303,Chum,S Sound Summer,Inside WA,Inside WA,1991,12181,7443,1,2234,4523,686,data
+303,Chum,S Sound Summer,Inside WA,Inside WA,1992,27760,177629,1,52425,121402,3802,data
+303,Chum,S Sound Summer,Inside WA,Inside WA,1993,33177,17264,1,2985,10840,3439,data
+303,Chum,S Sound Summer,Inside WA,Inside WA,1994,54391,54084,1,2055,49547,2482,data
+303,Chum,S Sound Summer,Inside WA,Inside WA,1995,55179,50147,1,34518,14964,665,data
+303,Chum,S Sound Summer,Inside WA,Inside WA,1996,114316,47511,1,6099,37176,4236,data
+303,Chum,S Sound Summer,Inside WA,Inside WA,1997,16001,56728,1,1140,52040,3548,data
+303,Chum,S Sound Summer,Inside WA,Inside WA,1998,80404,75468,1,27835,45239,2394,data
+303,Chum,S Sound Summer,Inside WA,Inside WA,1999,23461,42079,1,9758,25133,7188,data
+303,Chum,S Sound Summer,Inside WA,Inside WA,2000,27705,201832,1,21543,161930,18359,data
+303,Chum,S Sound Summer,Inside WA,Inside WA,2001,62821,30102,1,9080,21022,0,data
+303,Chum,S Sound Summer,Inside WA,Inside WA,2002,46798,78677,1,5612,70917,2148,data
+303,Chum,S Sound Summer,Inside WA,Inside WA,2003,45945,51970,1,7880,41932,2158,data
+303,Chum,S Sound Summer,Inside WA,Inside WA,2004,120782,42583,1,13632,25825,3126,data
+303,Chum,S Sound Summer,Inside WA,Inside WA,2005,24701,29101,1,4083,18758,6260,data
+303,Chum,S Sound Summer,Inside WA,Inside WA,2006,63345,41793,1,3126,35824,2843,data
+303,Chum,S Sound Summer,Inside WA,Inside WA,2007,52669,44996,1,7001,31147,6848,data
+303,Chum,S Sound Summer,Inside WA,Inside WA,2008,20872,30154,1,5821,20153,4180,data
+303,Chum,S Sound Summer,Inside WA,Inside WA,2009,21659,46598,1,11935,32521,2142,data
+303,Chum,S Sound Summer,Inside WA,Inside WA,2010,43739,28681,1,1631,21485,5565,data
+303,Chum,S Sound Summer,Inside WA,Inside WA,2011,38515,14928,1,1690,11784,1454,data
+303,Chum,S Sound Summer,Inside WA,Inside WA,2012,24521,28601,1,15221,11828,1552,data
+303,Chum,S Sound Summer,Inside WA,Inside WA,2013,35441,37380,1,6011,30844,525,data
+303,Chum,S Sound Summer,Inside WA,Inside WA,2014,20593,20139,1,6402,13654,83,data
+303,Chum,S Sound Summer,Inside WA,Inside WA,2015,32521,21360,1,11816,8021,1523,data
+303,Chum,S Sound Summer,Inside WA,Inside WA,2016,19068,22540,1,8104,13605,831,data
+303,Chum,S Sound Summer,Inside WA,Inside WA,2017,37372,31210,1,9234,18492,3484,data
+303,Chum,S Sound Summer,Inside WA,Inside WA,2018,25358,86039,1,20362,64707,970,data
+303,Chum,S Sound Summer,Inside WA,Inside WA,2019,14769,26889,1,9955,15405,1529,data
+303,Chum,S Sound Summer,Inside WA,Inside WA,2020,23323,95205,1,4201,91004,0,data
+304,Chum,S Sound Fall,Inside WA,Inside WA,1968,46975,327937,1,77278,239838,10821,data
+304,Chum,S Sound Fall,Inside WA,Inside WA,1969,35602,151088,1,35500,109917,5671,data
+304,Chum,S Sound Fall,Inside WA,Inside WA,1970,41655,177181,1,69102,107058,1021,data
+304,Chum,S Sound Fall,Inside WA,Inside WA,1971,43698,101659,1,59114,42049,496,data
+304,Chum,S Sound Fall,Inside WA,Inside WA,1972,65211,101964,1,17000,83024,1940,data
+304,Chum,S Sound Fall,Inside WA,Inside WA,1973,55301,293524,1,164313,127418,1793,data
+304,Chum,S Sound Fall,Inside WA,Inside WA,1974,99537,296198,1,86024,208567,1607,data
+304,Chum,S Sound Fall,Inside WA,Inside WA,1975,31104,100749,1,88447,11438,864,data
+304,Chum,S Sound Fall,Inside WA,Inside WA,1976,53313,62192,1,13607,47504,1081,data
+304,Chum,S Sound Fall,Inside WA,Inside WA,1977,54084,379119,1,239824,134345,4950,data
+304,Chum,S Sound Fall,Inside WA,Inside WA,1978,105465,107106,1,18839,79602,8665,data
+304,Chum,S Sound Fall,Inside WA,Inside WA,1979,18750,233700,1,113463,114291,5946,data
+304,Chum,S Sound Fall,Inside WA,Inside WA,1980,85454,102442,1,14304,84392,3746,data
+304,Chum,S Sound Fall,Inside WA,Inside WA,1981,43268,313764,1,138367,165588,9809,data
+304,Chum,S Sound Fall,Inside WA,Inside WA,1982,31149,212999,1,80172,121386,11441,data
+304,Chum,S Sound Fall,Inside WA,Inside WA,1983,36686,237151,1,43965,179350,13836,data
+304,Chum,S Sound Fall,Inside WA,Inside WA,1984,73317,452574,1,145701,294675,12198,data
+304,Chum,S Sound Fall,Inside WA,Inside WA,1985,99351,176076,1,65068,95928,15080,data
+304,Chum,S Sound Fall,Inside WA,Inside WA,1986,89809,325913,1,42618,259483,23812,data
+304,Chum,S Sound Fall,Inside WA,Inside WA,1987,153538,144860,1,9958,117487,17415,data
+304,Chum,S Sound Fall,Inside WA,Inside WA,1988,93893,536352,1,83117,384439,68796,data
+304,Chum,S Sound Fall,Inside WA,Inside WA,1989,47908,193146,1,33089,145970,14087,data
+304,Chum,S Sound Fall,Inside WA,Inside WA,1990,106807,579867,1,225791,327750,26326,data
+304,Chum,S Sound Fall,Inside WA,Inside WA,1991,82943,189258,1,127719,58607,2932,data
+304,Chum,S Sound Fall,Inside WA,Inside WA,1992,138805,717516,1,228789,469115,19612,data
+304,Chum,S Sound Fall,Inside WA,Inside WA,1993,133691,133070,1,71540,53363,8167,data
+304,Chum,S Sound Fall,Inside WA,Inside WA,1994,237123,299591,1,35424,256612,7555,data
+304,Chum,S Sound Fall,Inside WA,Inside WA,1995,200592,455971,1,317539,136236,2196,data
+304,Chum,S Sound Fall,Inside WA,Inside WA,1996,329074,260867,1,71104,174511,15252,data
+304,Chum,S Sound Fall,Inside WA,Inside WA,1997,69872,395276,1,41277,324492,29507,data
+304,Chum,S Sound Fall,Inside WA,Inside WA,1998,367456,951197,1,485950,452801,12446,data
+304,Chum,S Sound Fall,Inside WA,Inside WA,1999,149638,805864,1,288875,465646,51343,data
+304,Chum,S Sound Fall,Inside WA,Inside WA,2000,95136,837397,1,107322,681900,48175,data
+304,Chum,S Sound Fall,Inside WA,Inside WA,2001,274278,370715,1,137434,218597,14684,data
+304,Chum,S Sound Fall,Inside WA,Inside WA,2002,262335,430803,1,108881,308702,13220,data
+304,Chum,S Sound Fall,Inside WA,Inside WA,2003,262203,1113890,1,449537,647793,16560,data
+304,Chum,S Sound Fall,Inside WA,Inside WA,2004,311832,469918,1,241882,218960,9076,data
+304,Chum,S Sound Fall,Inside WA,Inside WA,2005,131369,324303,1,127328,186408,10567,data
+304,Chum,S Sound Fall,Inside WA,Inside WA,2006,310561,410386,1,103256,288939,18191,data
+304,Chum,S Sound Fall,Inside WA,Inside WA,2007,328520,643504,1,177902,412902,52700,data
+304,Chum,S Sound Fall,Inside WA,Inside WA,2008,127068,248581,1,12709,209841,26031,data
+304,Chum,S Sound Fall,Inside WA,Inside WA,2009,136462,569175,1,191875,349796,27504,data
+304,Chum,S Sound Fall,Inside WA,Inside WA,2010,162410,581957,1,120937,417330,43690,data
+304,Chum,S Sound Fall,Inside WA,Inside WA,2011,143589,233288,1,52507,170801,9980,data
+304,Chum,S Sound Fall,Inside WA,Inside WA,2012,150384,381450,1,187408,184771,9271,data
+304,Chum,S Sound Fall,Inside WA,Inside WA,2013,156817,349798,1,105623,240824,3351,data
+304,Chum,S Sound Fall,Inside WA,Inside WA,2014,172625,321403,1,207493,113338,572,data
+304,Chum,S Sound Fall,Inside WA,Inside WA,2015,135244,302481,1,239094,60677,2710,data
+304,Chum,S Sound Fall,Inside WA,Inside WA,2016,136253,163322,1,51661,109300,2361,data
+304,Chum,S Sound Fall,Inside WA,Inside WA,2017,138780,150581,1,67296,73870,9415,data
+304,Chum,S Sound Fall,Inside WA,Inside WA,2018,148758,628498,1,249269,377253,1976,data
+304,Chum,S Sound Fall,Inside WA,Inside WA,2019,62187,169610,1,121882,44226,3502,data
+304,Chum,S Sound Fall,Inside WA,Inside WA,2020,145787,437545,1,51990,371036,14519,data
+305,Chum,S Sound Winter,Inside WA,Inside WA,1968,27553,70081,1,15542,51411,3128,data
+305,Chum,S Sound Winter,Inside WA,Inside WA,1969,20292,41947,1,7610,31769,2568,data
+305,Chum,S Sound Winter,Inside WA,Inside WA,1970,34068,65156,1,19972,45184,0,data
+305,Chum,S Sound Winter,Inside WA,Inside WA,1971,9937,18352,1,13390,4962,0,data
+305,Chum,S Sound Winter,Inside WA,Inside WA,1972,34388,30412,1,9762,20169,481,data
+305,Chum,S Sound Winter,Inside WA,Inside WA,1973,29825,66738,1,34048,31582,1108,data
+305,Chum,S Sound Winter,Inside WA,Inside WA,1974,34676,45413,1,21322,23773,318,data
+305,Chum,S Sound Winter,Inside WA,Inside WA,1975,9936,47754,1,30533,17075,146,data
+305,Chum,S Sound Winter,Inside WA,Inside WA,1976,23311,25339,1,11547,13069,723,data
+305,Chum,S Sound Winter,Inside WA,Inside WA,1977,23590,100119,1,59795,37921,2403,data
+305,Chum,S Sound Winter,Inside WA,Inside WA,1978,29608,37188,1,12968,23163,1057,data
+305,Chum,S Sound Winter,Inside WA,Inside WA,1979,22613,41419,1,25567,14822,1030,data
+305,Chum,S Sound Winter,Inside WA,Inside WA,1980,41015,58843,1,11930,44306,2607,data
+305,Chum,S Sound Winter,Inside WA,Inside WA,1981,31326,56758,1,18997,36161,1600,data
+305,Chum,S Sound Winter,Inside WA,Inside WA,1982,30573,38728,1,16694,20349,1685,data
+305,Chum,S Sound Winter,Inside WA,Inside WA,1983,14013,104537,1,22527,77393,4617,data
+305,Chum,S Sound Winter,Inside WA,Inside WA,1984,33726,130566,1,50558,77175,2833,data
+305,Chum,S Sound Winter,Inside WA,Inside WA,1985,26068,62715,1,12344,48019,2352,data
+305,Chum,S Sound Winter,Inside WA,Inside WA,1986,21826,77580,1,20043,52520,5017,data
+305,Chum,S Sound Winter,Inside WA,Inside WA,1987,73990,30066,1,5246,23336,1484,data
+305,Chum,S Sound Winter,Inside WA,Inside WA,1988,42681,38798,1,10540,24398,3860,data
+305,Chum,S Sound Winter,Inside WA,Inside WA,1989,28185,16530,1,1080,12344,3106,data
+305,Chum,S Sound Winter,Inside WA,Inside WA,1990,15990,127482,1,28684,94330,4468,data
+305,Chum,S Sound Winter,Inside WA,Inside WA,1991,30727,27462,1,17601,9650,211,data
+305,Chum,S Sound Winter,Inside WA,Inside WA,1992,8093,42447,1,27483,14798,166,data
+305,Chum,S Sound Winter,Inside WA,Inside WA,1993,22905,6381,1,2170,3602,609,data
+305,Chum,S Sound Winter,Inside WA,Inside WA,1994,72951,67341,1,6789,59611,941,data
+305,Chum,S Sound Winter,Inside WA,Inside WA,1995,23369,13998,1,9965,4017,16,data
+305,Chum,S Sound Winter,Inside WA,Inside WA,1996,20000,16073,1,10181,5312,580,data
+305,Chum,S Sound Winter,Inside WA,Inside WA,1997,7371,12409,1,1102,9280,2027,data
+305,Chum,S Sound Winter,Inside WA,Inside WA,1998,70733,347164,1,111703,230527,4934,data
+305,Chum,S Sound Winter,Inside WA,Inside WA,1999,13504,37696,1,14287,22165,1244,data
+305,Chum,S Sound Winter,Inside WA,Inside WA,2000,4887,48381,1,8635,36759,2987,data
+305,Chum,S Sound Winter,Inside WA,Inside WA,2001,128111,119536,1,50717,63756,5063,data
+305,Chum,S Sound Winter,Inside WA,Inside WA,2002,222040,34321,1,2123,30010,2188,data
+305,Chum,S Sound Winter,Inside WA,Inside WA,2003,45005,62755,1,26899,34856,1000,data
+305,Chum,S Sound Winter,Inside WA,Inside WA,2004,77473,76270,1,44859,30813,598,data
+305,Chum,S Sound Winter,Inside WA,Inside WA,2005,47547,68658,1,38634,28188,1836,data
+305,Chum,S Sound Winter,Inside WA,Inside WA,2006,58406,35599,1,2789,31340,1470,data
+305,Chum,S Sound Winter,Inside WA,Inside WA,2007,62285,137423,1,44807,90568,2048,data
+305,Chum,S Sound Winter,Inside WA,Inside WA,2008,31852,8220,1,2123,5664,433,data
+305,Chum,S Sound Winter,Inside WA,Inside WA,2009,14930,20188,1,7015,12993,180,data
+305,Chum,S Sound Winter,Inside WA,Inside WA,2010,69856,71917,1,17717,50929,3271,data
+305,Chum,S Sound Winter,Inside WA,Inside WA,2011,58535,17073,1,2524,14358,191,data
+305,Chum,S Sound Winter,Inside WA,Inside WA,2012,15125,15338,1,8784,5731,823,data
+305,Chum,S Sound Winter,Inside WA,Inside WA,2013,20864,12154,1,8310,3804,40,data
+305,Chum,S Sound Winter,Inside WA,Inside WA,2014,46587,72013,1,57017,14996,0,data
+305,Chum,S Sound Winter,Inside WA,Inside WA,2015,23855,21447,1,20625,822,0,data
+305,Chum,S Sound Winter,Inside WA,Inside WA,2016,19600,4563,1,1542,3021,0,data
+305,Chum,S Sound Winter,Inside WA,Inside WA,2017,60420,15043,1,9701,5031,311,data
+305,Chum,S Sound Winter,Inside WA,Inside WA,2018,37127,33940,1,22786,11022,132,data
+305,Chum,S Sound Winter,Inside WA,Inside WA,2019,2955,5632,1,2117,2151,1364,data
+305,Chum,S Sound Winter,Inside WA,Inside WA,2020,14734,48757,1,3988,44419,350,data
+306,Chum,Hood Canal,Inside WA,Inside WA,1968,47801,111005,1,28131,78318,4556,data
+306,Chum,Hood Canal,Inside WA,Inside WA,1969,30070,53941,1,16643,34512,2786,data
+306,Chum,Hood Canal,Inside WA,Inside WA,1970,41699,89814,1,23341,65925,548,data
+306,Chum,Hood Canal,Inside WA,Inside WA,1971,41138,54909,1,24142,16971,13796,data
+306,Chum,Hood Canal,Inside WA,Inside WA,1972,41602,64226,1,11066,53160,0,data
+306,Chum,Hood Canal,Inside WA,Inside WA,1973,27870,124108,1,49450,72584,2074,data
+306,Chum,Hood Canal,Inside WA,Inside WA,1974,52223,277256,1,42331,231226,3699,data
+306,Chum,Hood Canal,Inside WA,Inside WA,1975,16265,121037,1,120219,818,0,data
+306,Chum,Hood Canal,Inside WA,Inside WA,1976,48079,37185,1,25533,10073,1579,data
+306,Chum,Hood Canal,Inside WA,Inside WA,1977,26074,144086,1,68778,71752,3556,data
+306,Chum,Hood Canal,Inside WA,Inside WA,1978,79156,52361,1,0,47906,4455,data
+306,Chum,Hood Canal,Inside WA,Inside WA,1979,14323,57734,1,27296,30438,0,data
+306,Chum,Hood Canal,Inside WA,Inside WA,1980,21672,62694,1,11266,46439,4989,data
+306,Chum,Hood Canal,Inside WA,Inside WA,1981,14310,239003,1,50030,179963,9010,data
+306,Chum,Hood Canal,Inside WA,Inside WA,1982,12133,132400,1,34989,85956,11455,data
+306,Chum,Hood Canal,Inside WA,Inside WA,1983,7120,246071,1,64510,173493,8068,data
+306,Chum,Hood Canal,Inside WA,Inside WA,1984,22751,171834,1,29422,133844,8568,data
+306,Chum,Hood Canal,Inside WA,Inside WA,1985,50909,177514,1,24226,136009,17279,data
+306,Chum,Hood Canal,Inside WA,Inside WA,1986,29548,106339,1,0,93232,13107,data
+306,Chum,Hood Canal,Inside WA,Inside WA,1987,24483,112423,1,0,86802,25621,data
+306,Chum,Hood Canal,Inside WA,Inside WA,1988,30703,398114,1,46489,263740,87885,data
+306,Chum,Hood Canal,Inside WA,Inside WA,1989,24872,491519,1,2782,346488,142249,data
+306,Chum,Hood Canal,Inside WA,Inside WA,1990,20811,350961,1,164478,172047,14436,data
+306,Chum,Hood Canal,Inside WA,Inside WA,1991,44745,103570,1,26737,71028,5805,data
+306,Chum,Hood Canal,Inside WA,Inside WA,1992,96382,638945,1,213361,406295,19289,data
+306,Chum,Hood Canal,Inside WA,Inside WA,1993,67770,173856,1,72838,94153,6865,data
+306,Chum,Hood Canal,Inside WA,Inside WA,1994,151821,184043,1,47041,134704,2298,data
+306,Chum,Hood Canal,Inside WA,Inside WA,1995,119344,117653,1,69629,46496,1528,data
+306,Chum,Hood Canal,Inside WA,Inside WA,1996,251803,56002,1,4965,51037,0,data
+306,Chum,Hood Canal,Inside WA,Inside WA,1997,53492,160210,1,28637,110046,21527,data
+306,Chum,Hood Canal,Inside WA,Inside WA,1998,101631,380330,1,157078,221288,1964,data
+306,Chum,Hood Canal,Inside WA,Inside WA,1999,33924,431453,1,98005,283838,49610,data
+306,Chum,Hood Canal,Inside WA,Inside WA,2000,37131,579593,1,109698,460594,9301,data
+306,Chum,Hood Canal,Inside WA,Inside WA,2001,103713,283292,1,199325,75129,8838,data
+306,Chum,Hood Canal,Inside WA,Inside WA,2002,173037,361220,1,62932,280537,17751,data
+306,Chum,Hood Canal,Inside WA,Inside WA,2003,148512,264136,1,31929,200621,31586,data
+306,Chum,Hood Canal,Inside WA,Inside WA,2004,168126,188228,1,24758,154480,8990,data
+306,Chum,Hood Canal,Inside WA,Inside WA,2005,47598,132744,1,84103,48641,0,data
+306,Chum,Hood Canal,Inside WA,Inside WA,2006,97103,66045,1,16567,43754,5724,data
+306,Chum,Hood Canal,Inside WA,Inside WA,2007,78218,300009,1,55794,191858,52357,data
+306,Chum,Hood Canal,Inside WA,Inside WA,2008,38425,67697,1,0,57995,9702,data
+306,Chum,Hood Canal,Inside WA,Inside WA,2009,13961,403617,1,94827,278138,30652,data
+306,Chum,Hood Canal,Inside WA,Inside WA,2010,17223,264105,1,0,213052,51053,data
+306,Chum,Hood Canal,Inside WA,Inside WA,2011,48446,182882,1,19407,151459,12016,data
+306,Chum,Hood Canal,Inside WA,Inside WA,2012,38102,129478,1,59949,67089,2440,data
+306,Chum,Hood Canal,Inside WA,Inside WA,2013,61190,285947,1,108590,173328,4029,data
+306,Chum,Hood Canal,Inside WA,Inside WA,2014,49675,49464,1,49464,0,0,data
+306,Chum,Hood Canal,Inside WA,Inside WA,2015,63236,86670,1,74213,11887,570,data
+306,Chum,Hood Canal,Inside WA,Inside WA,2016,59905,64475,1,19377,42930,2168,data
+306,Chum,Hood Canal,Inside WA,Inside WA,2017,58122,45917,1,304,41926,3687,data
+306,Chum,Hood Canal,Inside WA,Inside WA,2018,32433,191333,1,74116,117217,0,data
+306,Chum,Hood Canal,Inside WA,Inside WA,2019,7051,31918,1,0,31555,363,data
+306,Chum,Hood Canal,Inside WA,Inside WA,2020,15211,59894,1,0,59894,0,data
+307,Chum,Port Susan (Stillaguamish-Snohomish),Inside WA,Inside WA,1968,39260,74482,1,6270,62317,5896,data
+307,Chum,Port Susan (Stillaguamish-Snohomish),Inside WA,Inside WA,1969,27500,30367,1,6743,21658,1966,data
+307,Chum,Port Susan (Stillaguamish-Snohomish),Inside WA,Inside WA,1970,75223,63610,1,3475,59688,447,data
+307,Chum,Port Susan (Stillaguamish-Snohomish),Inside WA,Inside WA,1971,17790,22780,1,16908,5693,179,data
+307,Chum,Port Susan (Stillaguamish-Snohomish),Inside WA,Inside WA,1972,32751,90166,1,6290,82449,1428,data
+307,Chum,Port Susan (Stillaguamish-Snohomish),Inside WA,Inside WA,1973,16200,39740,1,6901,31010,1829,data
+307,Chum,Port Susan (Stillaguamish-Snohomish),Inside WA,Inside WA,1974,56110,117613,1,5272,110570,1771,data
+307,Chum,Port Susan (Stillaguamish-Snohomish),Inside WA,Inside WA,1975,9774,13142,1,9509,3010,624,data
+307,Chum,Port Susan (Stillaguamish-Snohomish),Inside WA,Inside WA,1976,43325,59247,1,3827,49612,5809,data
+307,Chum,Port Susan (Stillaguamish-Snohomish),Inside WA,Inside WA,1977,28730,65377,1,19055,39118,7204,data
+307,Chum,Port Susan (Stillaguamish-Snohomish),Inside WA,Inside WA,1978,98504,263861,1,16871,234511,12479,data
+307,Chum,Port Susan (Stillaguamish-Snohomish),Inside WA,Inside WA,1979,7877,13175,1,6707,5670,798,data
+307,Chum,Port Susan (Stillaguamish-Snohomish),Inside WA,Inside WA,1980,42701,71045,1,5089,61208,4748,data
+307,Chum,Port Susan (Stillaguamish-Snohomish),Inside WA,Inside WA,1981,21325,215181,1,37682,163455,14044,data
+307,Chum,Port Susan (Stillaguamish-Snohomish),Inside WA,Inside WA,1982,108074,326012,1,58102,248471,19438,data
+307,Chum,Port Susan (Stillaguamish-Snohomish),Inside WA,Inside WA,1983,9014,73182,1,7562,55186,10434,data
+307,Chum,Port Susan (Stillaguamish-Snohomish),Inside WA,Inside WA,1984,87841,453422,1,90109,349543,13770,data
+307,Chum,Port Susan (Stillaguamish-Snohomish),Inside WA,Inside WA,1985,125704,60185,1,12670,40478,7037,data
+307,Chum,Port Susan (Stillaguamish-Snohomish),Inside WA,Inside WA,1986,145866,252471,1,21412,187791,43268,data
+307,Chum,Port Susan (Stillaguamish-Snohomish),Inside WA,Inside WA,1987,45714,54349,1,6032,42783,5534,data
+307,Chum,Port Susan (Stillaguamish-Snohomish),Inside WA,Inside WA,1988,149010,217453,1,10962,139121,67369,data
+307,Chum,Port Susan (Stillaguamish-Snohomish),Inside WA,Inside WA,1989,15618,106002,1,5688,87386,12928,data
+307,Chum,Port Susan (Stillaguamish-Snohomish),Inside WA,Inside WA,1990,67811,362352,1,60482,288832,13038,data
+307,Chum,Port Susan (Stillaguamish-Snohomish),Inside WA,Inside WA,1991,23220,52011,1,38103,12787,1121,data
+307,Chum,Port Susan (Stillaguamish-Snohomish),Inside WA,Inside WA,1992,69250,212683,1,57585,153960,1138,data
+307,Chum,Port Susan (Stillaguamish-Snohomish),Inside WA,Inside WA,1993,20573,27650,1,17256,6187,4207,data
+307,Chum,Port Susan (Stillaguamish-Snohomish),Inside WA,Inside WA,1994,237889,151700,1,6862,139168,5670,data
+307,Chum,Port Susan (Stillaguamish-Snohomish),Inside WA,Inside WA,1995,49436,207614,1,121991,84808,815,data
+307,Chum,Port Susan (Stillaguamish-Snohomish),Inside WA,Inside WA,1996,146771,56405,1,23505,31546,1353,data
+307,Chum,Port Susan (Stillaguamish-Snohomish),Inside WA,Inside WA,1997,11228,37694,1,7334,23459,6901,data
+307,Chum,Port Susan (Stillaguamish-Snohomish),Inside WA,Inside WA,1998,234404,654809,1,89776,546703,18330,data
+307,Chum,Port Susan (Stillaguamish-Snohomish),Inside WA,Inside WA,1999,87862,237159,1,57507,155474,24177,data
+307,Chum,Port Susan (Stillaguamish-Snohomish),Inside WA,Inside WA,2000,34352,160137,1,19655,137398,3084,data
+307,Chum,Port Susan (Stillaguamish-Snohomish),Inside WA,Inside WA,2001,76488,125719,1,93466,29131,3122,data
+307,Chum,Port Susan (Stillaguamish-Snohomish),Inside WA,Inside WA,2002,370502,346951,1,23489,321577,1886,data
+307,Chum,Port Susan (Stillaguamish-Snohomish),Inside WA,Inside WA,2003,162245,112727,1,86218,24559,1950,data
+307,Chum,Port Susan (Stillaguamish-Snohomish),Inside WA,Inside WA,2004,197287,86767,1,43874,40898,1995,data
+307,Chum,Port Susan (Stillaguamish-Snohomish),Inside WA,Inside WA,2005,33600,54332,1,34506,18949,877,data
+307,Chum,Port Susan (Stillaguamish-Snohomish),Inside WA,Inside WA,2006,266104,28170,1,4654,19871,3645,data
+307,Chum,Port Susan (Stillaguamish-Snohomish),Inside WA,Inside WA,2007,35215,56995,1,7773,41420,7802,data
+307,Chum,Port Susan (Stillaguamish-Snohomish),Inside WA,Inside WA,2008,35836,17687,1,0,15003,2683,data
+307,Chum,Port Susan (Stillaguamish-Snohomish),Inside WA,Inside WA,2009,22514,22253,1,10402,10542,1309,data
+307,Chum,Port Susan (Stillaguamish-Snohomish),Inside WA,Inside WA,2010,27544,43593,1,2875,40078,640,data
+307,Chum,Port Susan (Stillaguamish-Snohomish),Inside WA,Inside WA,2011,44474,5113,1,654,4328,130,data
+307,Chum,Port Susan (Stillaguamish-Snohomish),Inside WA,Inside WA,2012,31369,15709,1,918,13419,1373,data
+307,Chum,Port Susan (Stillaguamish-Snohomish),Inside WA,Inside WA,2013,16123,1955,1,0,1795,160,data
+307,Chum,Port Susan (Stillaguamish-Snohomish),Inside WA,Inside WA,2014,40522,24517,1,3141,21210,165,data
+307,Chum,Port Susan (Stillaguamish-Snohomish),Inside WA,Inside WA,2015,5702,6649,1,3442,2610,598,data
+307,Chum,Port Susan (Stillaguamish-Snohomish),Inside WA,Inside WA,2016,12850,32662,1,1090,30497,1075,data
+307,Chum,Port Susan (Stillaguamish-Snohomish),Inside WA,Inside WA,2017,6040,6461,1,2691,3538,232,data
+307,Chum,Port Susan (Stillaguamish-Snohomish),Inside WA,Inside WA,2018,23613,77882,1,12495,64239,1148,data
+307,Chum,Port Susan (Stillaguamish-Snohomish),Inside WA,Inside WA,2019,3641,6037,1,2709,3031,297,data
+307,Chum,Port Susan (Stillaguamish-Snohomish),Inside WA,Inside WA,2020,31862,66407,1,3375,63032,0,data
+308,Chum,Skagit,Inside WA,Inside WA,1968,44049,179283,1,14202,147602,17478,data
+308,Chum,Skagit,Inside WA,Inside WA,1969,22393,84704,1,15971,64209,4524,data
+308,Chum,Skagit,Inside WA,Inside WA,1970,127588,148368,1,10303,137357,709,data
+308,Chum,Skagit,Inside WA,Inside WA,1971,48827,48324,1,38909,9014,401,data
+308,Chum,Skagit,Inside WA,Inside WA,1972,144732,134852,1,9959,122819,2075,data
+308,Chum,Skagit,Inside WA,Inside WA,1973,83497,48137,1,10424,37482,231,data
+308,Chum,Skagit,Inside WA,Inside WA,1974,160248,213873,1,4636,200928,8310,data
+308,Chum,Skagit,Inside WA,Inside WA,1975,15762,43009,1,27515,15044,450,data
+308,Chum,Skagit,Inside WA,Inside WA,1976,93000,117787,1,16068,95572,6147,data
+308,Chum,Skagit,Inside WA,Inside WA,1977,36000,77427,1,16548,55403,5476,data
+308,Chum,Skagit,Inside WA,Inside WA,1978,132895,292631,1,15292,257356,19984,data
+308,Chum,Skagit,Inside WA,Inside WA,1979,23513,22023,1,11225,10024,774,data
+308,Chum,Skagit,Inside WA,Inside WA,1980,19425,35363,1,1915,31163,2285,data
+308,Chum,Skagit,Inside WA,Inside WA,1981,16939,95996,1,19657,67072,9266,data
+308,Chum,Skagit,Inside WA,Inside WA,1982,142541,381366,1,44905,308031,28430,data
+308,Chum,Skagit,Inside WA,Inside WA,1983,3932,23594,1,2556,15130,5907,data
+308,Chum,Skagit,Inside WA,Inside WA,1984,46817,185674,1,17449,159828,8398,data
+308,Chum,Skagit,Inside WA,Inside WA,1985,45190,25221,1,3446,14575,7200,data
+308,Chum,Skagit,Inside WA,Inside WA,1986,81869,322086,1,2527,268351,51208,data
+308,Chum,Skagit,Inside WA,Inside WA,1987,42853,33928,1,1385,23035,9508,data
+308,Chum,Skagit,Inside WA,Inside WA,1988,119791,204120,1,11389,172794,19937,data
+308,Chum,Skagit,Inside WA,Inside WA,1989,13904,33001,1,549,17212,15241,data
+308,Chum,Skagit,Inside WA,Inside WA,1990,110567,304412,1,10662,267307,26443,data
+308,Chum,Skagit,Inside WA,Inside WA,1991,22000,27215,1,10845,14404,1966,data
+308,Chum,Skagit,Inside WA,Inside WA,1992,95940,144454,1,28669,112451,3334,data
+308,Chum,Skagit,Inside WA,Inside WA,1993,16673,17449,1,2798,10308,4343,data
+308,Chum,Skagit,Inside WA,Inside WA,1994,121775,130370,1,3312,121089,5970,data
+308,Chum,Skagit,Inside WA,Inside WA,1995,38666,49347,1,20565,28175,608,data
+308,Chum,Skagit,Inside WA,Inside WA,1996,74474,56945,1,14673,39441,2830,data
+308,Chum,Skagit,Inside WA,Inside WA,1997,14392,53817,1,1418,41035,11364,data
+308,Chum,Skagit,Inside WA,Inside WA,1998,120850,432486,1,52921,375608,3957,data
+308,Chum,Skagit,Inside WA,Inside WA,1999,34311,56377,1,18541,27198,10638,data
+308,Chum,Skagit,Inside WA,Inside WA,2000,22321,164513,1,5261,147869,11383,data
+308,Chum,Skagit,Inside WA,Inside WA,2001,72980,44931,1,12056,30025,2850,data
+308,Chum,Skagit,Inside WA,Inside WA,2002,209478,220263,1,11310,201263,7690,data
+308,Chum,Skagit,Inside WA,Inside WA,2003,17629,33463,1,8857,23755,851,data
+308,Chum,Skagit,Inside WA,Inside WA,2004,149700,32088,1,5922,24610,1557,data
+308,Chum,Skagit,Inside WA,Inside WA,2005,34000,29396,1,4107,22981,2308,data
+308,Chum,Skagit,Inside WA,Inside WA,2006,104983,49716,1,4557,42778,2382,data
+308,Chum,Skagit,Inside WA,Inside WA,2007,19450,19838,1,974,12505,6359,data
+308,Chum,Skagit,Inside WA,Inside WA,2008,21789,35479,1,744,32571,2164,data
+308,Chum,Skagit,Inside WA,Inside WA,2009,26395,14014,1,2420,4928,6666,data
+308,Chum,Skagit,Inside WA,Inside WA,2010,39535,63827,1,2644,58547,2635,data
+308,Chum,Skagit,Inside WA,Inside WA,2011,15280,4698,1,870,2082,1746,data
+308,Chum,Skagit,Inside WA,Inside WA,2012,36408,36945,1,3436,33176,332,data
+308,Chum,Skagit,Inside WA,Inside WA,2013,8545,2556,1,374,1736,445,data
+308,Chum,Skagit,Inside WA,Inside WA,2014,63360,22171,1,4987,17117,67,data
+308,Chum,Skagit,Inside WA,Inside WA,2015,7964,3263,1,1781,1192,290,data
+308,Chum,Skagit,Inside WA,Inside WA,2016,33709,15342,1,2069,11020,2254,data
+308,Chum,Skagit,Inside WA,Inside WA,2017,6700,18189,1,3480,14317,391,data
+308,Chum,Skagit,Inside WA,Inside WA,2018,18514,49945,1,6098,43826,20,data
+308,Chum,Skagit,Inside WA,Inside WA,2019,3123,4703,1,1565,3138,0,data
+308,Chum,Skagit,Inside WA,Inside WA,2020,13705,60849,1,287,60562,0,data
+309,Chum,Bellingham (Nooksack-Samish),Inside WA,Inside WA,1968,10684,39806,1,3517,27996,8293,data
+309,Chum,Bellingham (Nooksack-Samish),Inside WA,Inside WA,1969,26459,34028,1,3029,30466,533,data
+309,Chum,Bellingham (Nooksack-Samish),Inside WA,Inside WA,1970,33404,21582,1,4888,16183,511,data
+309,Chum,Bellingham (Nooksack-Samish),Inside WA,Inside WA,1971,9208,11130,1,4584,6496,49,data
+309,Chum,Bellingham (Nooksack-Samish),Inside WA,Inside WA,1972,26727,31884,1,7177,22661,2047,data
+309,Chum,Bellingham (Nooksack-Samish),Inside WA,Inside WA,1973,25825,46831,1,1897,44449,486,data
+309,Chum,Bellingham (Nooksack-Samish),Inside WA,Inside WA,1974,9589,36832,1,5982,29377,1473,data
+309,Chum,Bellingham (Nooksack-Samish),Inside WA,Inside WA,1975,5976,29864,1,2526,26391,947,data
+309,Chum,Bellingham (Nooksack-Samish),Inside WA,Inside WA,1976,4847,13524,1,2823,9846,855,data
+309,Chum,Bellingham (Nooksack-Samish),Inside WA,Inside WA,1977,21233,88463,1,20765,64245,3453,data
+309,Chum,Bellingham (Nooksack-Samish),Inside WA,Inside WA,1978,14622,106136,1,12585,84603,8949,data
+309,Chum,Bellingham (Nooksack-Samish),Inside WA,Inside WA,1979,27333,51454,1,13305,35510,2639,data
+309,Chum,Bellingham (Nooksack-Samish),Inside WA,Inside WA,1980,25242,92712,1,26561,64293,1857,data
+309,Chum,Bellingham (Nooksack-Samish),Inside WA,Inside WA,1981,61938,175640,1,53138,115144,7359,data
+309,Chum,Bellingham (Nooksack-Samish),Inside WA,Inside WA,1982,44172,85474,1,25572,53872,6030,data
+309,Chum,Bellingham (Nooksack-Samish),Inside WA,Inside WA,1983,20899,68015,1,8886,53804,5325,data
+309,Chum,Bellingham (Nooksack-Samish),Inside WA,Inside WA,1984,45960,108308,1,18483,84174,5651,data
+309,Chum,Bellingham (Nooksack-Samish),Inside WA,Inside WA,1985,40349,37124,1,3924,26279,6921,data
+309,Chum,Bellingham (Nooksack-Samish),Inside WA,Inside WA,1986,20298,81131,1,2110,54132,24888,data
+309,Chum,Bellingham (Nooksack-Samish),Inside WA,Inside WA,1987,15836,44407,1,680,36285,7442,data
+309,Chum,Bellingham (Nooksack-Samish),Inside WA,Inside WA,1988,35206,74616,1,4323,61802,8491,data
+309,Chum,Bellingham (Nooksack-Samish),Inside WA,Inside WA,1989,11668,76820,1,11487,46964,18370,data
+309,Chum,Bellingham (Nooksack-Samish),Inside WA,Inside WA,1990,31087,159052,1,9863,134418,14770,data
+309,Chum,Bellingham (Nooksack-Samish),Inside WA,Inside WA,1991,31303,61120,1,23846,34777,2498,data
+309,Chum,Bellingham (Nooksack-Samish),Inside WA,Inside WA,1992,43283,69619,1,28603,38912,2105,data
+309,Chum,Bellingham (Nooksack-Samish),Inside WA,Inside WA,1993,25304,52196,1,10047,35539,6610,data
+309,Chum,Bellingham (Nooksack-Samish),Inside WA,Inside WA,1994,92157,75718,1,5931,63751,6036,data
+309,Chum,Bellingham (Nooksack-Samish),Inside WA,Inside WA,1995,35856,101788,1,36246,64941,600,data
+309,Chum,Bellingham (Nooksack-Samish),Inside WA,Inside WA,1996,36010,24357,1,13738,9981,638,data
+309,Chum,Bellingham (Nooksack-Samish),Inside WA,Inside WA,1997,15123,64917,1,6113,52461,6342,data
+309,Chum,Bellingham (Nooksack-Samish),Inside WA,Inside WA,1998,62682,101600,1,30327,65327,5946,data
+309,Chum,Bellingham (Nooksack-Samish),Inside WA,Inside WA,1999,30393,128994,1,8626,107714,12655,data
+309,Chum,Bellingham (Nooksack-Samish),Inside WA,Inside WA,2000,4604,58629,1,10062,42156,6410,data
+309,Chum,Bellingham (Nooksack-Samish),Inside WA,Inside WA,2001,45410,56840,1,15372,40275,1193,data
+309,Chum,Bellingham (Nooksack-Samish),Inside WA,Inside WA,2002,62263,63997,1,9736,50048,4213,data
+309,Chum,Bellingham (Nooksack-Samish),Inside WA,Inside WA,2003,104127,50312,1,9877,36547,3888,data
+309,Chum,Bellingham (Nooksack-Samish),Inside WA,Inside WA,2004,40758,23953,1,5977,16436,1540,data
+309,Chum,Bellingham (Nooksack-Samish),Inside WA,Inside WA,2005,38997,31186,1,5993,22839,2355,data
+309,Chum,Bellingham (Nooksack-Samish),Inside WA,Inside WA,2006,26976,42601,1,5261,33675,3665,data
+309,Chum,Bellingham (Nooksack-Samish),Inside WA,Inside WA,2007,20798,165891,1,5416,143747,16728,data
+309,Chum,Bellingham (Nooksack-Samish),Inside WA,Inside WA,2008,15332,15994,1,1387,11403,3204,data
+309,Chum,Bellingham (Nooksack-Samish),Inside WA,Inside WA,2009,24088,60387,1,7688,47570,5130,data
+309,Chum,Bellingham (Nooksack-Samish),Inside WA,Inside WA,2010,25567,87898,1,7973,67768,12158,data
+309,Chum,Bellingham (Nooksack-Samish),Inside WA,Inside WA,2011,97704,74516,1,6468,59130,8918,data
+309,Chum,Bellingham (Nooksack-Samish),Inside WA,Inside WA,2012,18993,100310,1,22565,74298,3446,data
+309,Chum,Bellingham (Nooksack-Samish),Inside WA,Inside WA,2013,40036,39923,1,12624,27058,241,data
+309,Chum,Bellingham (Nooksack-Samish),Inside WA,Inside WA,2014,47811,19879,1,10999,8483,397,data
+309,Chum,Bellingham (Nooksack-Samish),Inside WA,Inside WA,2015,54805,29213,1,13423,14884,906,data
+309,Chum,Bellingham (Nooksack-Samish),Inside WA,Inside WA,2016,50126,40320,1,5940,31953,2428,data
+309,Chum,Bellingham (Nooksack-Samish),Inside WA,Inside WA,2017,24050,27058,1,12678,13403,977,data
+309,Chum,Bellingham (Nooksack-Samish),Inside WA,Inside WA,2018,17117,64054,1,17550,45220,1284,data
+309,Chum,Bellingham (Nooksack-Samish),Inside WA,Inside WA,2019,15332,24239,1,7763,15541,934,data
+309,Chum,Bellingham (Nooksack-Samish),Inside WA,Inside WA,2020,38436,78485,1,10744,67742,0,data
+310,Chum,Strait of Juan de Fuca,Inside WA,Inside WA,1968,299,1438,1,267,1106,66,data
+310,Chum,Strait of Juan de Fuca,Inside WA,Inside WA,1969,258,751,1,235,497,19,data
+310,Chum,Strait of Juan de Fuca,Inside WA,Inside WA,1970,393,802,1,336,454,12,data
+310,Chum,Strait of Juan de Fuca,Inside WA,Inside WA,1971,556,985,1,166,374,444,data
+310,Chum,Strait of Juan de Fuca,Inside WA,Inside WA,1972,1198,1955,1,244,1711,0,data
+310,Chum,Strait of Juan de Fuca,Inside WA,Inside WA,1973,673,2510,1,1592,910,9,data
+310,Chum,Strait of Juan de Fuca,Inside WA,Inside WA,1974,148,1530,1,530,958,42,data
+310,Chum,Strait of Juan de Fuca,Inside WA,Inside WA,1975,171,507,1,498,9,0,data
+310,Chum,Strait of Juan de Fuca,Inside WA,Inside WA,1976,1171,978,1,291,554,132,data
+310,Chum,Strait of Juan de Fuca,Inside WA,Inside WA,1977,1244,10041,1,3784,6014,244,data
+310,Chum,Strait of Juan de Fuca,Inside WA,Inside WA,1978,856,3431,1,0,3285,146,data
+310,Chum,Strait of Juan de Fuca,Inside WA,Inside WA,1979,288,2872,1,1872,1000,0,data
+310,Chum,Strait of Juan de Fuca,Inside WA,Inside WA,1980,3726,3971,1,370,3426,174,data
+310,Chum,Strait of Juan de Fuca,Inside WA,Inside WA,1981,5441,10071,1,3691,6286,95,data
+310,Chum,Strait of Juan de Fuca,Inside WA,Inside WA,1982,4578,2467,1,1222,903,342,data
+310,Chum,Strait of Juan de Fuca,Inside WA,Inside WA,1983,1326,6532,1,678,5176,678,data
+310,Chum,Strait of Juan de Fuca,Inside WA,Inside WA,1984,6988,12375,1,878,11248,249,data
+310,Chum,Strait of Juan de Fuca,Inside WA,Inside WA,1985,7322,6169,1,2036,3960,173,data
+310,Chum,Strait of Juan de Fuca,Inside WA,Inside WA,1986,1384,1108,1,0,936,172,data
+310,Chum,Strait of Juan de Fuca,Inside WA,Inside WA,1987,5726,1633,1,0,1140,493,data
+310,Chum,Strait of Juan de Fuca,Inside WA,Inside WA,1988,12552,6533,1,610,5075,848,data
+310,Chum,Strait of Juan de Fuca,Inside WA,Inside WA,1989,3652,4464,1,54,3341,1069,data
+310,Chum,Strait of Juan de Fuca,Inside WA,Inside WA,1990,946,2906,1,1586,1294,26,data
+310,Chum,Strait of Juan de Fuca,Inside WA,Inside WA,1991,1752,356,1,201,129,25,data
+310,Chum,Strait of Juan de Fuca,Inside WA,Inside WA,1992,5331,2616,1,388,1764,463,data
+310,Chum,Strait of Juan de Fuca,Inside WA,Inside WA,1993,5611,2628,1,316,2262,50,data
+310,Chum,Strait of Juan de Fuca,Inside WA,Inside WA,1994,2491,2164,1,1130,978,56,data
+310,Chum,Strait of Juan de Fuca,Inside WA,Inside WA,1995,517,1647,1,505,1136,5,data
+310,Chum,Strait of Juan de Fuca,Inside WA,Inside WA,1996,2068,291,1,121,170,0,data
+310,Chum,Strait of Juan de Fuca,Inside WA,Inside WA,1997,3709,1100,1,95,698,307,data
+310,Chum,Strait of Juan de Fuca,Inside WA,Inside WA,1998,1419,4158,1,996,3157,6,data
+310,Chum,Strait of Juan de Fuca,Inside WA,Inside WA,1999,1272,2420,1,1398,798,224,data
+310,Chum,Strait of Juan de Fuca,Inside WA,Inside WA,2000,219,2535,1,308,2076,150,data
+310,Chum,Strait of Juan de Fuca,Inside WA,Inside WA,2001,1519,2153,1,898,1212,42,data
+310,Chum,Strait of Juan de Fuca,Inside WA,Inside WA,2002,4573,2400,1,1016,1329,56,data
+310,Chum,Strait of Juan de Fuca,Inside WA,Inside WA,2003,1005,874,1,151,629,94,data
+310,Chum,Strait of Juan de Fuca,Inside WA,Inside WA,2004,2713,706,1,78,458,170,data
+310,Chum,Strait of Juan de Fuca,Inside WA,Inside WA,2005,2032,1169,1,249,920,0,data
+310,Chum,Strait of Juan de Fuca,Inside WA,Inside WA,2006,1271,1264,1,313,813,138,data
+310,Chum,Strait of Juan de Fuca,Inside WA,Inside WA,2007,499,6416,1,1036,4622,758,data
+310,Chum,Strait of Juan de Fuca,Inside WA,Inside WA,2008,433,886,1,0,839,46,data
+310,Chum,Strait of Juan de Fuca,Inside WA,Inside WA,2009,1265,2932,1,1372,1330,230,data
+310,Chum,Strait of Juan de Fuca,Inside WA,Inside WA,2010,1343,2170,1,0,1598,572,data
+310,Chum,Strait of Juan de Fuca,Inside WA,Inside WA,2011,4638,2025,1,146,1697,182,data
+310,Chum,Strait of Juan de Fuca,Inside WA,Inside WA,2012,2770,1694,1,672,1018,5,data
+310,Chum,Strait of Juan de Fuca,Inside WA,Inside WA,2013,1303,2038,1,1648,334,56,data
+310,Chum,Strait of Juan de Fuca,Inside WA,Inside WA,2014,1881,95,1,95,0,0,data
+310,Chum,Strait of Juan de Fuca,Inside WA,Inside WA,2015,2825,1378,1,1038,302,39,data
+310,Chum,Strait of Juan de Fuca,Inside WA,Inside WA,2016,2735,3427,1,492,2906,29,data
+310,Chum,Strait of Juan de Fuca,Inside WA,Inside WA,2017,421,632,1,21,555,56,data
+310,Chum,Strait of Juan de Fuca,Inside WA,Inside WA,2018,1030,2775,1,981,1794,0,data
+310,Chum,Strait of Juan de Fuca,Inside WA,Inside WA,2019,745,1612,1,0,1608,4,data
+310,Chum,Strait of Juan de Fuca,Inside WA,Inside WA,2020,2796,658,1,0,658,0,data

@@ -53,7 +53,7 @@ hdq3=subset(hdq2,stock %in% pse_df$stock)
 
 #WA chum
 chum<- read.csv(here('data','raw data','chum','chum_data.csv'));chum_info<- read.csv(here('data','raw data','chum','chum_info.csv'));chum_source<- read.csv(here('data','raw data','chum','chum_sources.csv'))
-chu_upd<- read.csv(here('data','raw data','chum','Chum S_R for BC_4.24.2023.csv'))
+chu_upd<- read.csv(here('data','raw data','chum','Chum S_R for BC_5.5.2026.csv'))
 
 chum$stock=dplyr::recode(chum$stock,
                          "PWS"="Prince William Sound",
@@ -77,7 +77,7 @@ chum$stock=dplyr::recode(chum$stock,
 
 #WA pink
 pink<- read.csv(here('data','raw data','pink','pink_data.csv'));pink_info<- read.csv(here('data','raw data','pink','pink_info.csv'));pink_source<- read.csv(here('data','raw data','pink','pink_sources.csv'))
-pi_upd<- read.csv(here('data','raw data','pink','Pink S_R for BC_4.24.2023.csv'))
+pi_upd<- read.csv(here('data','raw data','pink','Pink S_R for BC_5.5.2026.csv'))
 
 #rename some pink stocks - remove acronyms, etc.
 pink$stock=dplyr::recode(pink$stock,
@@ -595,10 +595,11 @@ names(chu_upd)[1]='stock.id'
 chu_upd$stock.id=ifelse(chu_upd$stock.id==310,max(chum$stock.id)+1,chu_upd$stock.id) #remove duplicate stock ids, make new one for extra stock
 
 chum2<- subset(chum, stock %notin% chu_upd$stock) #Drop out older data for Fraser R stocks
-chu_upd2=chu_upd[,1:7];
-chu_upd2$recruits.2=NA;chu_upd2[,9:11]=chu_upd[,8:10];chu_upd2$recruits.6=NA;chu_upd2$recruits.7=NA
+chu_upd2=cbind(chu_upd[,1:3],chu_upd[,6:8]);chu_upd2$recruits.2=NA;chu_upd2=cbind(chu_upd2,chu_upd[,10:12]);chu_upd2$recruits.6=NA;chu_upd2$recruits.7=NA
+
 names(chum2)[4]='broodyear'
 names(chu_upd2)[4]='broodyear'
+chum2=chum2[,-7]
 
 chum2<- rbind(chu_upd2,chum2)
 length(unique(chum2$stock))
@@ -702,7 +703,7 @@ pink_info[nrow(pink_info)+1,1:9]=c('Pink',unique(pi_upd$stock)[8],'SC','Inside W
 pink_info[nrow(pink_info)+1,1:9]=c('Pink',unique(pi_upd$stock)[9],'SC','Inside WA','WA',47.16, -122.91,max(as.numeric(pink_source$source.id))+1,NA)
 
 pink2<- subset(pink, stock %notin% pi_upd$stock) #Drop out older data for Fraser R stocks
-pi_upd2=pi_upd[,1:7]
+pi_upd2=cbind(pi_upd[,1:3],pi_upd[,6:9])
 names(pi_upd2)[4]='broodyear'
 
 pink2<- rbind(pi_upd2,pink2)
@@ -1233,40 +1234,60 @@ for(i in 1:length(unique(ifr_coho$stock))){
   coho_list[[cl+i]]=s[,c('stock','species','broodyear','recruits','spawners','r3','r4')]
 }
 
-#PSE coho series
-pse_coho=subset(pse_df,species_name=='Coho')
-pse_coho$stock=pse_coho$cu_name_pse
+#Wilson et al. 2025 - North/Central Coast Coho
+ncc_coho=read.table(here('data','raw data','coho','Coho_BROOD_MASTER.txt'),header=T)
+ncc_coho$recruits=ifelse(is.na(ncc_coho$rec_2)==TRUE,ncc_coho$rec_E,ncc_coho$rec_2)
+ncc_coho2=ncc_coho[complete.cases(ncc_coho$recruits)&complete.cases(ncc_coho$escapement),]
+ncc_coho_info=ncc_coho2 %>%group_by(population) %>% summarize(n=n())
+ncc_coho_info=subset(ncc_coho_info,n>9) #keep all pops with >=10 years of SR obs
+ncc_coho3=ncc_coho2[ncc_coho2$population%in%ncc_coho_info$population,]
+ncc_ll=read.csv(here('data','raw data','coho','NCC coho.csv'))
+ncc_ll=ncc_ll[ncc_ll$population%in%ncc_coho3$population,]
+#put skeena/nass lat/lons to point of ocean entry
+ncc_ll$Latitude=ifelse(ncc_ll$PFMA==4,54.22,ncc_ll$Latitude) #skeena
+ncc_ll$Latitude=ifelse(ncc_ll$PFMA==3,54.99,ncc_ll$Latitude) #nass
+ncc_ll$Longitude=ifelse(ncc_ll$PFMA==4,-129.831,ncc_ll$Latitude) #skeena
+ncc_ll$Longitude=ifelse(ncc_ll$PFMA==3,-130.02,ncc_ll$Latitude) #nass
 
+coho_grp=read.table(here('data','raw data','coho','coho_groups.txt'),header=T)
+coho_grp=coho_grp[coho_grp$population%in%ncc_ll$population,]
+coho_grp$group=ifelse(coho_grp$group==7,6,coho_grp$group)
+grps=c("Central Coast (South)","Hecate Lowlands","Inner Waters","Haida Gwaii","Skeena","Nass")
+coho_grp$grp=grps[coho_grp$group]
+ncc_coho3$stock=format_name(ncc_coho3$population)
+ncc_coho3$spawners=ncc_coho3$escapement
+ncc_coho3$broodyear=ncc_coho3$year
 
 cl=length(coho_list)
-for(i in 1:length(unique(pse_coho$stock))){
-  s=subset(pse_coho,stock==unique(pse_coho$stock)[i])
-  s$species='Coho'
-  s$broodyear=s$year
+for(i in 1:nrow(ncc_coho_info)){
+  s=subset(ncc_coho3,population==unique(ncc_ll$population)[i])
+  s$species=rep('Coho',nrow(s))
   
   stock_dat_temp=data.frame(stock.id=NA,species=NA,stock.name=NA,lat=NA,lon=NA,region=NA,ocean.basin=NA,state=NA,begin=NA,end=NA,n.years=NA,m.spawners=NA,m.recruits=NA,source=NA,url=NA,comments=NA)
   
-  stock_dat_temp[,1]=NA
+  stock_dat_temp[,1]=unique(s$stock)
   stock_dat_temp[,2]='Coho'
-  stock_dat_temp[,3]=paste(unique(s$stock),'Coho',sep="-")
-  stock_dat_temp[,4]=coho_info$lat[match(unique(s$stock),coho_info$stock)] #lat need to do these (one for Skeena estuary and one for Nass)
-  stock_dat_temp[,5]=coho_info$lon[match(unique(s$stock),coho_info$stock)] #lon 
-  stock_dat_temp[,6]=coho_info$region[match(unique(s$stock),coho_info$stock)]
-  stock_dat_temp[,7]=coho_info$ocean.region[match(unique(s$stock),coho_info$stock)]
+  stock_dat_temp[,3]=paste(stock_dat_temp[,1],'Coho',sep='-')
+  stock_dat_temp[,4]=ncc_ll$Latitude[i] #lat for mouth of Fraser
+  stock_dat_temp[,5]=ncc_ll$Longitude[i] #lon for mouth of Fraser
+  stock_dat_temp[,6]=coho_grp$grp[match(s$population[1],coho_grp$population)]
+  stock_dat_temp[,7]=ifelse(coho_grp$grp[match(s$population[1],coho_grp$population)]%in%c('Haida Gwaii','Skeena','Nass'),'NC','SC')
   stock_dat_temp[,8]='BC'
-  
-  stock_dat_temp[,9]=min(s$year)
-  stock_dat_temp[,10]=max(s$year)
-  stock_dat_temp[,11]=length(s$year)
-  stock_dat_temp[,12]=mean(s$spawners)/1e3
-  stock_dat_temp[,13]=mean(s$recruits)/1e3
-  stock_dat_temp[,14]='Pacific Salmon Foundation. 2025. Pacific Salmon Explorer.'
-
+  stock_dat_temp[,9]=min(s$broodyear)
+  stock_dat_temp[,10]=max(s$broodyear)
+  stock_dat_temp[,11]=length(s$broodyear)
+  stock_dat_temp[,12]=max(s$spawners)
+  stock_dat_temp[,13]=max(s$recruits)
+  stock_dat_temp[,14]='Wilson et al. 2025'
+  stock_dat_temp[,15]="https://cdnsciencepub.com/doi/full/10.1139/cjfas-2025-0023"
+  stock_dat_temp[,16]=NA
   
   stock_dat=rbind(stock_dat,stock_dat_temp)
   
   coho_list[[cl+i]]=s[,c('stock','species','broodyear','recruits','spawners')]
 }
+
+#note - removed PSE datasets, as they are represented in the Wilson et al. dataset
 
 coho_filtered = do.call(plyr::rbind.fill,coho_list)
 
