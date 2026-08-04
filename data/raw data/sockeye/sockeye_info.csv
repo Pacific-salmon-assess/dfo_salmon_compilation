@@ -2,7 +2,6 @@ Stock.ID,Species,Stock,Date.data.obtained,Date.data.incorporated,Ocean.Region,Re
 101,Sockeye,Washington,,,SC,South Coast,WA,WA,47.48,-122.42,1,Hatchery component of the run was removed; FW age assumed to be 1.X.  These sockeye grow fast in the lake.
 102,Sockeye,Early Stuart,,,SC,Fraser,Fraser Early Stuart,BC,49.12,-123.06,4,NA
 103,Sockeye,Bowron,,,SC,Fraser,Fraser Early Summer,BC,49.12,-123.06,4,NA
-104,Sockeye,Fennell,,,SC,Fraser,Fraser Early Summer,BC,49.12,-123.06,4,NA
 105,Sockeye,Gates,,,SC,Fraser,Fraser Early Summer,BC,49.12,-123.06,4,Spawning channel
 106,Sockeye,Nadina,,,SC,Fraser,Fraser Early Summer,BC,49.12,-123.06,4,Spawning channel
 107,Sockeye,Pitt,,,SC,Fraser,Fraser Early Summer,BC,49.12,-123.06,4,Large hatchery influence that could not be separated out
@@ -39,8 +38,6 @@ Stock.ID,Species,Stock,Date.data.obtained,Date.data.incorporated,Ocean.Region,Re
 138,Sockeye,Copper,,,GoA,PWS,PWS,AK,60.46,-144.96,"5,17",
 139,Sockeye,Coghill,,,GoA,PWS,PWS,AK,61.06,-147.94,2,
 140,Sockeye,Eshamy,,,GoA,PWS,PWS,AK,60.47,-147.94,2,
-141,Sockeye,Kenai,,,GoA,Cook Inlet,Upper Cook Inlet,AK,60.54,-151.28,6,
-142,Sockeye,Kasilof,,,GoA,Cook Inlet,Upper Cook Inlet,AK,60.39,-151.3,6,
 143,Sockeye,Crescent,,,GoA,Cook Inlet,Upper Cook Inlet,AK,60.19,-152.66,NA,
 144,Sockeye,Frazer,,,GoA,Kodiak,Kodiak,AK,57.13,-154.04,"5, 16",
 145,Sockeye,Ayakulik,,,GoA,Kodiak,Kodiak,AK,57.2,-154.54,5,

@@ -368,12 +368,11 @@ kasilof_soc$stock='Kasilof'
 
 stock_dat_temp=data.frame(stock.id=NA,species=NA,stock.name=NA,lat=NA,lon=NA,region=NA,ocean.basin=NA,state=NA,begin=NA,end=NA,n.years=NA,m.spawners=NA,m.recruits=NA,source=NA,url=NA,comments=NA)
 
-kasilof_info=subset(sockeye_info,stock=='Kasilof')
 stock_dat_temp[,2]='Sockeye'
 stock_dat_temp[,3]=paste('Kasilof','Sockeye',sep='-')
-stock_dat_temp[,4]=kasilof_info$lat #lat 
-stock_dat_temp[,5]=kasilof_info$lon #lon
-stock_dat_temp[,6]=kasilof_info$region #Cook inlet
+stock_dat_temp[,4]=60.43 #lat 
+stock_dat_temp[,5]=-151.45 #lon
+stock_dat_temp[,6]='Cook Inlet' #Cook inlet
 stock_dat_temp[,7]='GoA' #Gulf of Alaska
 stock_dat_temp[,8]='AK' #Alaska
 
@@ -400,12 +399,11 @@ kenai_soc$stock='Kenai'
 
 stock_dat_temp=data.frame(stock.id=NA,species=NA,stock.name=NA,lat=NA,lon=NA,region=NA,ocean.basin=NA,state=NA,begin=NA,end=NA,n.years=NA,m.spawners=NA,m.recruits=NA,source=NA,url=NA,comments=NA)
 
-kenai_info=subset(sockeye_info,stock=='Kenai')
 stock_dat_temp[,2]='Sockeye'
 stock_dat_temp[,3]=paste(unique(kenai_soc$stock),'Sockeye',sep='-')
-stock_dat_temp[,4]=kenai_info$lat #lat 
-stock_dat_temp[,5]=kenai_info$lon #lon
-stock_dat_temp[,6]=kenai_info$region #Cook Inlet
+stock_dat_temp[,4]=60.54 #lat 
+stock_dat_temp[,5]=-151.37 #lon
+stock_dat_temp[,6]="Cook Inlet" #Cook Inlet
 stock_dat_temp[,7]='GoA' #Gulf of Alaska
 stock_dat_temp[,8]='AK' #Alaska
 
@@ -494,7 +492,7 @@ names(ww_soc)[4:ncol(ww_soc)]=gsub('X','r',names(ww_soc[4:ncol(ww_soc)]))
 for(t in 3:ncol(ww_soc)){
   ww_soc[,t]=as.numeric(gsub(',','',ww_soc[,t]))
 }
-ww_soc$recruits=rowSums(ww_soc[,4:25],na.rm=T)
+ww_soc$recruits=rowSums(ww_soc[,4:24],na.rm=T)
 ww_soc$species='Sockeye'
 
 ww_info=data.frame(stock=unique(ww_soc$stock))
@@ -1312,7 +1310,7 @@ filtered_productivity_data=subset(filtered_productivity_data,stock %in% stock_da
 
 filtered_productivity_data1=cbind(filtered_productivity_data[,1:5])
 filtered_productivity_data2=filtered_productivity_data[,6:13]
-filtered_productivity_data3=filtered_productivity_data[,14:36]
+filtered_productivity_data3=filtered_productivity_data[,14:34]
 
 filtered_productivity_data2=filtered_productivity_data2[,order(names(filtered_productivity_data2))]
 filtered_productivity_data3=filtered_productivity_data3[,order(names(filtered_productivity_data3))]
