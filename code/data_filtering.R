@@ -142,15 +142,18 @@ bb_sock<<- subset(sockeye, stock %in% bb_soc[,1])
 
 sockeye2<- subset(sockeye, stock %notin% psc_fraser_sockeye$stock) #Drop out older data for Fraser R stocks
 sockeye2<- subset(sockeye2, stock %notin% bb_soc[,1]) #Drop out older data for Bristol Bay stocks
-sockeye2<- subset(sockeye2, stock %notin% kasilof_soc[,1]) #Drop out older data
-sockeye2<- subset(sockeye2, stock %notin% kenai_soc[,1]) #Drop out older data
+sockeye2<- subset(sockeye2, stock %notin% 'Kasilof') #Drop out older data
+sockeye2<- subset(sockeye2, stock %notin% 'Kenai') #Drop out older data
 sockeye2<- subset(sockeye2, stock %notin% mfgn_soc[,1]) #Drop out older data 
 sockeye2<- subset(sockeye2, stock %notin% seak_soc[,1]) #Drop out older data
 sockeye2<- subset(sockeye2, stock %notin% ww_soc[,1]) #Drop out older data
 sockeye2<- subset(sockeye2, stock %notin% 'Skeena') #drop Skeena (have updated data in another source)
 sockeye2<- subset(sockeye2, stock %notin% 'Nass (Meziadin)') #drop Meziadin (have updated data in another source)
 sockeye2<- subset(sockeye2, stock %notin% 'Goodnews') #drop Goodnews (have updated data in another source)
-sockeye2<- subset(sockeye2, stock %notin% 'Owikeno') #drop Goodnews (have updated data in another source)
+sockeye2<- subset(sockeye2, stock %notin% 'Owikeno') #drop Owikeno
+sockeye2<- subset(sockeye2, stock %notin% 'Bear') #Bear Lake - updated
+sockeye2<- subset(sockeye2, stock %notin% 'Nelson') #Nelson - updated
+
 
 #remove these stocks that are updated in the westward series (different names)
 sockeye2<- subset(sockeye2, stock %notin% c('Early Upper Station','Late Upper Station','Black Lake','Chignik Lake','Early Karluk','Late Karluk'))
