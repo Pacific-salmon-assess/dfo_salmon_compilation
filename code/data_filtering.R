@@ -490,12 +490,11 @@ for(i in 1:length(unique(seak_soc$stock))){
 
 #Westward stocks - kodiak
 names(ww_soc)[1:3]=c('stock','broodyear','spawners')
-ww_soc=ww_soc[,-c(26:ncol(ww_soc))]
 names(ww_soc)[4:ncol(ww_soc)]=gsub('X','r',names(ww_soc[4:ncol(ww_soc)]))
 for(t in 3:ncol(ww_soc)){
   ww_soc[,t]=as.numeric(gsub(',','',ww_soc[,t]))
 }
-ww_soc$recruits=rowSums(ww_soc[,4:24],na.rm=T)
+ww_soc$recruits=rowSums(ww_soc[,4:ncol(ww_soc)],na.rm=T)
 ww_soc$species='Sockeye'
 
 ww_info=data.frame(stock=unique(ww_soc$stock))
@@ -1313,7 +1312,7 @@ filtered_productivity_data=subset(filtered_productivity_data,stock %in% stock_da
 
 filtered_productivity_data1=cbind(filtered_productivity_data[,1:5])
 filtered_productivity_data2=filtered_productivity_data[,6:13]
-filtered_productivity_data3=filtered_productivity_data[,14:34]
+filtered_productivity_data3=filtered_productivity_data[,14:36]
 
 filtered_productivity_data2=filtered_productivity_data2[,order(names(filtered_productivity_data2))]
 filtered_productivity_data3=filtered_productivity_data3[,order(names(filtered_productivity_data3))]
