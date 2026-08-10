@@ -1255,8 +1255,8 @@ ncc_ll$Longitude=ifelse(ncc_ll$PFMA==3,-130.02,ncc_ll$Latitude) #nass
 
 coho_grp=read.table(here('data','raw data','coho','coho_groups.txt'),header=T)
 coho_grp=coho_grp[coho_grp$population%in%ncc_ll$population,]
-coho_grp$group=ifelse(coho_grp$group==7,6,coho_grp$group)
-grps=c("Central Coast (South)","Hecate Lowlands","Inner Waters","Haida Gwaii","Skeena","Nass")
+coho_grp$group=ifelse(coho_grp$group==7,6,coho_grp$group) #smith/rivers inlet to south side of CC
+grps=c("Haida Gwaii","Nass","Skeena","Hecate Lowlands","Inner Waters","Central Coast (South)")
 coho_grp$grp=grps[coho_grp$group]
 ncc_coho3$stock=format_name(ncc_coho3$population)
 ncc_coho3$spawners=ncc_coho3$escapement
